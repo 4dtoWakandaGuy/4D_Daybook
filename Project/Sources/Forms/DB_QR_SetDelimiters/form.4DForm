@@ -1,0 +1,150 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oHeader": {
+					"type": "text",
+					"top": 12,
+					"left": 41,
+					"width": 207,
+					"height": 36,
+					"class": "Headers",
+					"textAlign": "center",
+					"text": "Set the delimiters you would like used for fields and Records. "
+				},
+				"oFieldDelimterLabel": {
+					"type": "text",
+					"top": 68,
+					"left": 26,
+					"width": 186,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Field Delimiter Character code :"
+				},
+				"oRecordDelimiter": {
+					"type": "text",
+					"top": 94,
+					"left": 6,
+					"width": 206,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Record Delimiter Character code :"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 68,
+					"left": 221,
+					"width": 62,
+					"height": 15,
+					"dataSource": "FldDelimit",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 93,
+					"left": 221,
+					"width": 62,
+					"height": 15,
+					"dataSource": "RecDelimit",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oexit": {
+					"type": "button",
+					"top": 129,
+					"left": 201,
+					"width": 82,
+					"height": 22,
+					"dataSource": "DB_QrL_Exit",
+					"text": "Continue",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"defaultButton": true,
+					"method": "ObjectMethods/oexit.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

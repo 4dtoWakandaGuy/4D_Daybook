@@ -1,0 +1,487 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oButtonAccept": {
+					"type": "button",
+					"top": 196,
+					"left": 521,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAccept.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 196,
+					"left": 484,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oBillingSetupGroup": {
+					"type": "groupBox",
+					"top": 1,
+					"left": 3,
+					"width": 553,
+					"height": 185,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"text": "Billing Subscription Setup..."
+				},
+				"oBillingTypeLabel": {
+					"type": "text",
+					"top": 54,
+					"left": 29,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type of Billing :"
+				},
+				"oBillingTypeTEXT": {
+					"type": "input",
+					"top": 54,
+					"left": 148,
+					"width": 355,
+					"height": 14,
+					"dataSource": "SB_t_BillingType",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oBillingTypeDropDown": {
+					"type": "dropdown",
+					"top": 51,
+					"left": 147,
+					"width": 357,
+					"height": 19,
+					"dataSource": "SUBS_at_BillingTypes",
+					"class": "Fields",
+					"method": "ObjectMethods/oBillingTypeDropDown.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oWhenToBillLabel": {
+					"type": "text",
+					"top": 98,
+					"left": 29,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "When to Bill? :"
+				},
+				"oBillingNote1": {
+					"type": "text",
+					"top": 98,
+					"left": 230,
+					"width": 304,
+					"height": 29,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "After  1st issue sent(leave at 0 for billing at time of 1st issue)"
+				},
+				"Field": {
+					"type": "input",
+					"top": 98,
+					"left": 154,
+					"width": 69,
+					"height": 14,
+					"dataSource": "[SUBSCRIPTIONS:93]After_Number:5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 121,
+					"left": 153,
+					"width": 69,
+					"height": 14,
+					"dataSource": "[SUBSCRIPTIONS:93]Amount_Excluding_Tax:8",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAmountToBillLabel": {
+					"type": "text",
+					"top": 120,
+					"left": 29,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Amount to bill :"
+				},
+				"oRebillingLabel": {
+					"type": "text",
+					"top": 145,
+					"left": 29,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Rebilling :"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 145,
+					"left": 154,
+					"width": 69,
+					"height": 14,
+					"dataSource": "[SUBSCRIPTIONS:93]Unit_Number:6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oBillingNote2": {
+					"type": "text",
+					"top": 145,
+					"left": 230,
+					"width": 284,
+					"height": 34,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "Rebill after issue number(leave at zero for  no rebilling). Note this is not for renewals"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oRenewalsGroup": {
+					"type": "groupBox",
+					"top": 6,
+					"left": 3,
+					"width": 553,
+					"height": 174,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"text": "Renewals Mailing Setup..."
+				},
+				"oWhenToSendLabel": {
+					"type": "text",
+					"top": 75,
+					"left": 28,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "When to Send :"
+				},
+				"oRenewalsDocument": {
+					"type": "input",
+					"top": 98,
+					"left": 152,
+					"width": 172,
+					"height": 14,
+					"dataSource": "[SUBSCRIPTIONS:93]Renewals_Document_Reference:15",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDocumentLabel": {
+					"type": "text",
+					"top": 97,
+					"left": 28,
+					"width": 114,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Document to Send :"
+				},
+				"oAfterNumber": {
+					"type": "input",
+					"top": 75,
+					"left": 152,
+					"width": 69,
+					"height": 14,
+					"dataSource": "[SUBSCRIPTIONS:93]After_Number:5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oRenewalsMessage": {
+					"type": "text",
+					"top": 76,
+					"left": 230,
+					"width": 304,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "After  1st issue sent"
+				},
+				"oDocumentSelect": {
+					"type": "button",
+					"top": 97,
+					"left": 339,
+					"width": 189,
+					"height": 20,
+					"dataSource": "SUBS_l_SelectDocument",
+					"text": "Select Default Renewals Letter",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oDocumentSelect.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oBillingHistoryGroup": {
+					"type": "groupBox",
+					"top": 29,
+					"left": 8,
+					"width": 553,
+					"height": 114,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"text": "Subscription Billing History"
+				},
+				"oIssueInvoice": {
+					"type": "button",
+					"top": 160,
+					"left": 16,
+					"width": 141,
+					"height": 22,
+					"dataSource": "SUBS_l_IssueInvoice",
+					"text": "Issue Invoice",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oRenewalsHistoryGroup": {
+					"type": "groupBox",
+					"top": 29,
+					"left": 8,
+					"width": 553,
+					"height": 114,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"text": "Subscription Renewal Mailing History"
+				},
+				"oRenewSubscription": {
+					"type": "button",
+					"top": 162,
+					"left": 11,
+					"width": 168,
+					"height": 22,
+					"dataSource": "SUBS_SubsRenewal",
+					"text": "Renew Subscription",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCancelSubscription": {
+					"type": "button",
+					"top": 162,
+					"left": 181,
+					"width": 168,
+					"height": 22,
+					"dataSource": "SUBS_SubsCancel",
+					"text": "Cancel Subscription",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oDespatchHistoryGroup": {
+					"type": "groupBox",
+					"top": 29,
+					"left": 8,
+					"width": 553,
+					"height": 114,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"text": "Subscription Issue dispatch history"
+				},
+				"oButtonPrintLabel": {
+					"type": "button",
+					"top": 152,
+					"left": 16,
+					"width": 117,
+					"height": 21,
+					"dataSource": "SUBS_but_PrintLabel",
+					"text": "Print Label",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonExportMailingDetails": {
+					"type": "button",
+					"top": 152,
+					"left": 141,
+					"width": 157,
+					"height": 21,
+					"dataSource": "SUBS_but_ExportLabel",
+					"text": "Export Mailng Details",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 44,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

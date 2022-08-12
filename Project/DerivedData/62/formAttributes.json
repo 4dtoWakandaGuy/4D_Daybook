@@ -1,0 +1,36 @@
+{
+	"forms": {
+		"dCurrentStock_Sel": {
+			"timeStamp": "2022-05-29T04:26:57.108Z"
+		},
+		"OrderI_Sub": {
+			"timeStamp": "2022-03-10T16:49:21.314Z"
+		},
+		"StockCurr_Alloc": {
+			"timeStamp": "2022-05-03T18:49:11.064Z",
+			"destination": "listScreen"
+		},
+		"OrderI_SubS": {
+			"timeStamp": "2022-03-10T16:49:21.316Z"
+		},
+		"CurrentStock_In": {
+			"timeStamp": "2022-05-29T04:26:57.016Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.303Z",
+			"destination": "listScreen"
+		},
+		"StockCurr_Out": {
+			"timeStamp": "2022-05-03T18:49:12.152Z",
+			"destination": "listScreen"
+		},
+		"StockCurr_Alloc_TEST": {
+			"timeStamp": "2022-03-10T16:49:21.359Z",
+			"destination": "detailScreen"
+		},
+		"StockCurr_List": {
+			"timeStamp": "2022-05-29T04:26:57.033Z"
+		}
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 105,
+	"markerBody": 140,
+	"markerBreak": 160,
+	"markerFooter": 180,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 111,
+					"left": 425,
+					"width": 113,
+					"height": 1,
+					"strokeWidth": 0.1,
+					"startPoint": "bottomLeft"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 120,
+					"left": 451,
+					"width": 46,
+					"height": 11,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 120,
+					"left": 498,
+					"width": 40,
+					"height": 11,
+					"dataSource": "vSubtotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 120,
+					"left": 362,
+					"width": 84,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 9,
+					"text": "Totals"
+				}
+			}
+		}
+	]
+}

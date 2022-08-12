@@ -1,0 +1,264 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "listbox",
+					"top": 61,
+					"left": 6,
+					"width": 263,
+					"height": 507,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable1_Column1",
+							"dataSource": "SD2_at_DiaryActionClasses",
+							"width": 248,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oActionsTab": {
+					"type": "tab",
+					"top": 39,
+					"left": 5,
+					"width": 264,
+					"height": 20,
+					"dataSource": "SD2_at_ActionTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"action": "gotoPage",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 60,
+					"left": 318,
+					"width": 78,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action Code"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 60,
+					"left": 406,
+					"width": 92,
+					"height": 14,
+					"dataSource": "SD_S10_ViewActionCode",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 84,
+					"left": 318,
+					"width": 78,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action Name"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 84,
+					"left": 406,
+					"width": 352,
+					"height": 14,
+					"dataSource": "SD_t_ViewActionName",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 112,
+					"left": 318,
+					"width": 78,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action Type"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 112,
+					"left": 406,
+					"width": 352,
+					"height": 14,
+					"dataSource": "SD_t_ViewActionClassNM",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 130,
+					"left": 314,
+					"width": 446,
+					"height": 212,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Default Settings for this action..."
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

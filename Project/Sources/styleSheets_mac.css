@@ -1,0 +1,329 @@
+.Bold_Geneva_9 {
+	font-family: Geneva;
+	font-size: 9px;
+}
+
+.Buttons_LARGE {
+	font-family: Charcoal CY;
+	font-size: 12px;
+}
+
+.BUttons_SMALL {
+	font-family: Futura;
+	font-size: 10px;
+}
+
+.check_box_text_LARGE {
+	font-family: Copperplate;
+	font-size: 12px;
+}
+
+.Check_Box_text_SMALL {
+	font-family: Futura;
+	font-size: 10px;
+}
+
+.Check_Box_text_SMALL_BOLD {
+	font-family: Futura Condensed;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.Default {
+	font-family: Geneva;
+	font-size: 10px;
+}
+
+.Field_INFOS {
+	font-family: Gill Sans;
+	font-size: 11px;
+}
+
+.Fields {
+	font-family: Gill Sans;
+	font-size: 12px;
+}
+
+.Fields_BOLD {
+	font-family: Gill Sans;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.FIelds_Large {
+	font-family: Gill Sans Light;
+	font-size: 14px;
+}
+
+.FIelds_Large_BOLD {
+	font-family: Gill Sans;
+	font-size: 14px;
+}
+
+.Fields_OUTPUT {
+	font-family: Gill Sans Light;
+	font-size: 12px;
+}
+
+.Fields1 {
+	font-family: Gill Sans;
+	font-size: 12px;
+}
+
+.Headers {
+	font-family: Copperplate;
+	font-size: 12px;
+}
+
+.Hierachial_List_Small {
+	font-family: Copperplate;
+	font-size: 9px;
+}
+
+.Labels {
+	font-family: Futura Bold;
+	font-size: 11px;
+}
+
+.Labels_OUTPUT {
+	font-family: Futura;
+	font-size: 11px;
+}
+
+.Labels_Underlined {
+	font-family: Futura Bold;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.LabelsItalic {
+	font-family: Futura;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.labelsLight {
+	font-family: Futura Condensed;
+	font-size: 11px;
+}
+
+.Message_TEXT {
+	font-family: Copperplate;
+	font-size: 12px;
+}
+
+.MonoSpace {
+	font-family: Courier;
+	font-size: 12px;
+}
+
+.Password {
+	font-family: "%password";
+	font-size: 13px;
+}
+
+.Pop-ups {
+	font-family: Copperplate;
+	font-size: 12px;
+}
+
+.Print_10pt_GENEVA {
+	font-family: Geneva;
+	font-size: 10px;
+}
+
+.Print_10pt_GENEVA_BOLD {
+	font-family: Geneva;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.Print_10pt_GENEVA_BOLD_ITALIC {
+	font-family: Geneva;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.Print_10pt_GENEVA_ITALIC {
+	font-family: Geneva;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.Print_10pt_TIMES {
+	font-family: Times;
+	font-size: 10px;
+}
+
+.Print_10pt_TIMES_ITALIC {
+	font-family: Times;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.Print_12pt_GENEVA {
+	font-family: Geneva;
+	font-size: 12px;
+}
+
+.Print_12pt_GENEVA_BOLD {
+	font-family: Geneva;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_12pt_PALATINO {
+	font-family: Palatino;
+	font-size: 12px;
+}
+
+.Print_12pt_PALTINO {
+	font-family: Palatino;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES {
+	font-family: Times;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES {
+	font-family: Times;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES_BOLD {
+	font-family: Times;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_12pt_TIMES_ITALIC {
+	font-family: Times;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.Print_14pt_GENEVA {
+	font-family: Geneva;
+	font-size: 14px;
+}
+
+.Print_14pt_GENEVA_BOLD {
+	font-family: Geneva;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.Print_14pt_PALATINO {
+	font-family: Palatino;
+	font-size: 14px;
+}
+
+.Print_14pt_TIMES {
+	font-family: Times;
+	font-size: 14px;
+}
+
+.Print_14pt_TIMES {
+	font-family: Times;
+	font-size: 14px;
+}
+
+.Print_18pt_Geneva {
+	font-family: Geneva;
+	font-size: 18px;
+}
+
+.Print_18pt_GENEVA_BOLD {
+	font-family: Geneva;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Print_18pt_PALATINO {
+	font-family: Palatino;
+	font-size: 18px;
+}
+
+.Print_18pt_TIMES {
+	font-family: Times;
+	font-size: 18px;
+}
+
+.Print_24pt_GENEVA {
+	font-family: Geneva;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Print_24pt_TIMES {
+	font-family: Times;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Print_6pt_Geneva {
+	font-family: Geneva;
+	font-size: 6px;
+}
+
+.Print_9pt_GENEVA {
+	font-family: Geneva;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES {
+	font-family: Times;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES {
+	font-family: Times;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES_BOLD {
+	font-family: Times;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.Print_9pt_TIMES_ITALIC {
+	font-family: Times;
+	font-size: 9px;
+	font-style: italic;
+}
+
+.ScrollArea {
+	font-family: Gill Sans;
+	font-size: 12px;
+}
+
+.ScrollArea_Small {
+	font-family: Gill Sans;
+	font-size: 11px;
+}
+
+.SORT_BUTTONS {
+	font-family: Gill Sans;
+	font-size: 11px;
+}
+
+.SplashScreenText {
+	font-family: Lucida Grande;
+	font-size: 9px;
+}
+
+.StandardEnterable {
+	font-family: Gill Sans;
+	font-size: 12px;
+}
+
+.Style_sheet {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+

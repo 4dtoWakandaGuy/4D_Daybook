@@ -1,0 +1,344 @@
+{
+	"destination": "detailPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 144,
+	"markerBody": 167,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 800,
+					"height": 400,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 149,
+					"left": 166,
+					"width": 180,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 149,
+					"left": 358,
+					"width": 181,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 150,
+					"left": 18,
+					"width": 142,
+					"height": 12,
+					"dataSource": "vGroup",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 153,
+					"left": 166,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 153,
+					"left": 215,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vPTot",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 153,
+					"left": 264,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 153,
+					"left": 313,
+					"width": 33,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Percent"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 153,
+					"left": 358,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 153,
+					"left": 407,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vYTot",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 153,
+					"left": 456,
+					"width": 48,
+					"height": 8,
+					"dataSource": "vT5",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 153,
+					"left": 505,
+					"width": 33,
+					"height": 8,
+					"dataSource": "vT6",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse Percent"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

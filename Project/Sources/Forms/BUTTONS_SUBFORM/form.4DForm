@@ -1,0 +1,542 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 4,
+	"bottomMargin": 4,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oButtonAccept": {
+					"type": "button",
+					"top": 8,
+					"left": 316,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_ok.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAccept.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 8,
+					"left": 277,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonAdd": {
+					"type": "button",
+					"top": 8,
+					"left": 238,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_add.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAdd.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonDelete": {
+					"type": "button",
+					"top": 8,
+					"left": 199,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonDelete.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonSort": {
+					"type": "button",
+					"top": 8,
+					"left": 160,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_13",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp13"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_sort.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonSort.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonSelect": {
+					"type": "button",
+					"top": 8,
+					"left": 121,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp11"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_Select.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"obuttonReport": {
+					"type": "button",
+					"top": 8,
+					"left": 82,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_reports.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/obuttonReport.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"obuttonDatalists": {
+					"type": "button",
+					"top": 8,
+					"left": 43,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_14",
+					"tooltip": "Selections Manager",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_sets.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/obuttonDatalists.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"obuttonCalc": {
+					"type": "button",
+					"top": 8,
+					"left": 4,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_18",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp18"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_info.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/obuttonCalc.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Invisible Button4": {
+					"type": "button",
+					"top": 10,
+					"left": 399,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable71": {
+					"type": "button",
+					"top": 10,
+					"left": 362,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable71.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button28": {
+					"type": "button",
+					"top": 10,
+					"left": 12,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button28.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button24": {
+					"type": "button",
+					"top": 9,
+					"left": 65,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button22": {
+					"type": "button",
+					"top": 9,
+					"left": 114,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button22.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button20": {
+					"type": "button",
+					"top": 9,
+					"left": 163,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button20.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 9,
+					"left": 209,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button14": {
+					"type": "button",
+					"top": 9,
+					"left": 250,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button14.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 10,
+					"left": 289,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 10,
+					"left": 324,
+					"width": 41,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

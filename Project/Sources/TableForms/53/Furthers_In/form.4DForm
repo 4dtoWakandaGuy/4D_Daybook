@@ -1,0 +1,196 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 45,
+					"left": 12,
+					"width": 517,
+					"height": 12,
+					"stroke": "#C0CAFF",
+					"class": "Headers",
+					"text": "FURTHER ANALYSIS"
+				},
+				"oAnalysisNameLabel": {
+					"type": "text",
+					"top": 113,
+					"left": 5,
+					"width": 60,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Name :"
+				},
+				"oAnalysisCodeLabel": {
+					"type": "text",
+					"top": 90,
+					"left": 10,
+					"width": 55,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Code :"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 90,
+					"left": 74,
+					"width": 99,
+					"height": 14,
+					"dataSource": "[ADDITIONAL_RECORD_ANALYSIS:53]Additional_Analysis_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 112,
+					"left": 74,
+					"width": 434,
+					"height": 14,
+					"dataSource": "[ADDITIONAL_RECORD_ANALYSIS:53]Additional_Analysis_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 137,
+					"left": 1,
+					"width": 41,
+					"height": 19,
+					"dataSource": "xSearch",
+					"text": "Y/N",
+					"class": "BUttons_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 140,
+					"left": 47,
+					"width": 68,
+					"height": 14,
+					"dataSource": "[ADDITIONAL_RECORD_ANALYSIS:53]Export:3",
+					"stroke": "#444444",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 19
+}

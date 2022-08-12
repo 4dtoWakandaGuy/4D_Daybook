@@ -1,0 +1,145 @@
+{
+	"destination": "detailPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 55,
+	"markerBody": 87,
+	"markerBreak": 107,
+	"markerFooter": 127,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 800,
+					"height": 400,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 64,
+					"left": 241,
+					"width": 95,
+					"height": 15,
+					"dataSource": "vTitle1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 64,
+					"left": 343,
+					"width": 93,
+					"height": 15,
+					"dataSource": "vTitle2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 64,
+					"left": 442,
+					"width": 93,
+					"height": 15,
+					"dataSource": "vTitle5",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

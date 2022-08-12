@@ -1,0 +1,1030 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBColumnSettings": {
+					"type": "listbox",
+					"top": 51,
+					"left": 22,
+					"width": 244,
+					"height": 428,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "LAY_lb_ColumnSettings",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBColumnSettings.4dm",
+					"events": [
+						"onClick",
+						"onRowMove"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 229,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLayDefintionsLabel": {
+					"type": "text",
+					"top": 9,
+					"left": 28,
+					"width": 144,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Available Definitions :"
+				},
+				"oLayDefintionsPopUp": {
+					"type": "dropdown",
+					"top": 7,
+					"left": 178,
+					"width": 92,
+					"height": 18,
+					"visibility": "hidden",
+					"dataSource": "SVS_at_PreviewEvent",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oLayDefintionsPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oLayDefintionsNew": {
+					"type": "button",
+					"top": 494,
+					"left": 564,
+					"width": 144,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "xNew",
+					"text": "Create New Definitions",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/oLayDefintionsNew.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oColumnTitleLabel": {
+					"type": "text",
+					"top": 66,
+					"left": 280,
+					"width": 81,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Column Title :"
+				},
+				"oFormatLabel": {
+					"type": "text",
+					"top": 91,
+					"left": 298,
+					"width": 63,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Format :"
+				},
+				"oFooterLabel": {
+					"type": "text",
+					"top": 113,
+					"left": 307,
+					"width": 54,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Footer :"
+				},
+				"Field12": {
+					"type": "input",
+					"top": 66,
+					"left": 366,
+					"width": 144,
+					"height": 14,
+					"dataSource": "[LIST_LAYOUTS:96]Title:4",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Field12.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field13": {
+					"type": "input",
+					"top": 91,
+					"left": 366,
+					"width": 144,
+					"height": 14,
+					"dataSource": "[LIST_LAYOUTS:96]Format:6",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Field13.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field16": {
+					"type": "checkbox",
+					"top": 46,
+					"left": 775,
+					"width": 144,
+					"height": 12,
+					"dataSource": "[LIST_LAYOUTS:96]Enterable:8",
+					"text": "Enterable",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Field16.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Popup Drop down List10": {
+					"type": "dropdown",
+					"top": 112,
+					"left": 365,
+					"width": 146,
+					"height": 17,
+					"dataSource": "SVS_at_PreviewDateString",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Popup Drop down List10.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oFormulaLabel": {
+					"type": "text",
+					"top": 159,
+					"left": 287,
+					"width": 74,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Formula :"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 178,
+					"left": 296,
+					"width": 590,
+					"height": 98,
+					"stroke": "#444444",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "This Formula line is optional. It should be kept as simple as possible to maximise speed\rIt should be a 'function' that returns a value of the same 'type' as the field used\r(The table of the field used does not affect the result) \r"
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 160,
+					"left": 366,
+					"width": 452,
+					"height": 14,
+					"dataSource": "AL_T_Formula",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable15.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTableLabel": {
+					"type": "text",
+					"top": 44,
+					"left": 298,
+					"width": 63,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Table :"
+				},
+				"oFieldLabel": {
+					"type": "text",
+					"top": 46,
+					"left": 524,
+					"width": 63,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Field :"
+				},
+				"Popup Drop down List6": {
+					"type": "dropdown",
+					"top": 42,
+					"left": 749,
+					"width": 19,
+					"height": 16,
+					"dataSource": "LL_at_FieldName",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Popup Drop down List6.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 44,
+					"left": 589,
+					"width": 159,
+					"height": 14,
+					"dataSource": "LL_t_FieldName",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 44,
+					"left": 366,
+					"width": 144,
+					"height": 14,
+					"dataSource": "LL_t_TableName",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Drop down List2": {
+					"type": "dropdown",
+					"top": 42,
+					"left": 511,
+					"width": 19,
+					"height": 16,
+					"dataSource": "LL_at_TableNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Popup Drop down List2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oLBColumnSettings1": {
+					"type": "listbox",
+					"top": 256,
+					"left": 285,
+					"width": 658,
+					"height": 210,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "LAY_lb_Columns",
+					"sortable": false,
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"footerHeight": "18px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBColumnSettings1.4dm",
+					"events": [
+						"onColumnMove",
+						"onColumnResize"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 643,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oUpdate": {
+					"type": "button",
+					"top": 233,
+					"left": 797,
+					"width": 89,
+					"height": 12,
+					"sizingX": "move",
+					"dataSource": "LAY_l_ConfigSave",
+					"text": "Update",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oUpdate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRevert": {
+					"type": "button",
+					"top": 233,
+					"left": 704,
+					"width": 89,
+					"height": 12,
+					"sizingX": "move",
+					"dataSource": "LAY_l_ConfigCancel",
+					"text": "Revert",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button4": {
+					"type": "button",
+					"top": 494,
+					"left": 913,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "LAY_l_Save",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable71": {
+					"type": "button",
+					"top": 494,
+					"left": 876,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "LAY_l_Save",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable71.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 486,
+					"left": 239,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "LAY_l_AddColumn",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 486,
+					"left": 202,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "LAY_l_DelColumn",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oEditMacro": {
+					"type": "button",
+					"top": 160,
+					"left": 823,
+					"width": 131,
+					"height": 15,
+					"dataSource": "LAY_l_EditMacro",
+					"text": "Edit Associated Script",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button": {
+					"type": "button",
+					"top": 492,
+					"left": 30,
+					"width": 25,
+					"height": 16,
+					"dataSource": "KeyUP",
+					"shortcutKey": "[up arrow]",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oColourPrefs": {
+					"type": "button",
+					"top": 491,
+					"left": 67,
+					"width": 120,
+					"height": 17,
+					"sizingY": "move",
+					"dataSource": "DB_l_General",
+					"text": "General Preferences",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oColourPrefs.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oColumnWidthLabel1": {
+					"type": "text",
+					"top": 135,
+					"left": 267,
+					"width": 94,
+					"height": 16,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Column WIdth :"
+				},
+				"oColumnWidthFIeld": {
+					"type": "input",
+					"top": 135,
+					"left": 366,
+					"width": 84,
+					"height": 14,
+					"dataSource": "[LIST_LAYOUTS:96]Width:5",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oColumnWidthFIeld.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 90,
+					"left": 589,
+					"width": 24,
+					"height": 14,
+					"dataSource": "[LIST_LAYOUTS:96]Font_Size:11",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Field3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFontName": {
+					"type": "input",
+					"top": 137,
+					"left": 589,
+					"width": 144,
+					"height": 14,
+					"dataSource": "[LIST_LAYOUTS:96]X_Font_Name:18",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oFontName.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFontNamesPopup": {
+					"type": "dropdown",
+					"top": 135,
+					"left": 744,
+					"width": 20,
+					"height": 13,
+					"dataSource": "LAY_at_FontNames",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oFontNamesPopup.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFontStylePlain": {
+					"type": "checkbox",
+					"top": 113,
+					"left": 599,
+					"width": 60,
+					"height": 13,
+					"dataSource": "LAB_cb_PlainFont",
+					"text": "Plain",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oFontStylePlain.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFontStyleBold": {
+					"type": "checkbox",
+					"top": 113,
+					"left": 648,
+					"width": 60,
+					"height": 13,
+					"dataSource": "LAB_cb_BoldFont",
+					"text": "Bold",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oFontStyleBold.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFontStyleitalic": {
+					"type": "checkbox",
+					"top": 113,
+					"left": 697,
+					"width": 60,
+					"height": 13,
+					"dataSource": "LAB_cb_ItalicFont",
+					"text": "Italic",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oFontStyleitalic.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFontStyleUnderline": {
+					"type": "checkbox",
+					"top": 113,
+					"left": 752,
+					"width": 60,
+					"height": 13,
+					"dataSource": "LAB_cb_UnerlineFont",
+					"text": "Underline",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oFontStyleUnderline.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFontSizeLabel": {
+					"type": "text",
+					"top": 90,
+					"left": 514,
+					"width": 74,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Font Size :"
+				},
+				"oFontStyleLabel": {
+					"type": "text",
+					"top": 112,
+					"left": 514,
+					"width": 74,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Font Style :"
+				},
+				"oFontNameLabel": {
+					"type": "text",
+					"top": 137,
+					"left": 514,
+					"width": 74,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Font Name :"
+				},
+				"oLayDefintionsexport": {
+					"type": "button",
+					"top": 494,
+					"left": 289,
+					"width": 125,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LAY_but_Export",
+					"text": "Export Definitions",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oLayDefintionsexport.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLayDefintionsimport": {
+					"type": "button",
+					"top": 494,
+					"left": 419,
+					"width": 125,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LAY_but_import",
+					"text": "Import Definitions",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oLayDefintionsimport.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "checkbox",
+					"top": 67,
+					"left": 588,
+					"width": 144,
+					"height": 12,
+					"dataSource": "[LIST_LAYOUTS:96]Locked:10",
+					"text": "Horizontal Scroll Lock",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Field2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBShowRollover": {
+					"type": "checkbox",
+					"top": 67,
+					"left": 715,
+					"width": 144,
+					"height": 12,
+					"dataSource": "[LIST_LAYOUTS:96]X_Rollover:20",
+					"text": "Show Rollover",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oLBShowRollover.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMaxWidthLabel": {
+					"type": "text",
+					"top": 229,
+					"left": 288,
+					"width": 187,
+					"height": 14,
+					"class": "Labels_OUTPUT",
+					"textAlign": "right",
+					"text": "Maximum default window width :"
+				},
+				"oMaxWidthValue": {
+					"type": "input",
+					"top": 228,
+					"left": 479,
+					"width": 142,
+					"height": 15,
+					"dataSource": "LAY_t_MaxFormWidthText",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oMaxWidthValue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTotalColumnWidthLabel": {
+					"type": "text",
+					"top": 472,
+					"left": 606,
+					"width": 187,
+					"height": 13,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "Total Listing Columns Width :"
+				},
+				"oTotalColumnWidthValue": {
+					"type": "input",
+					"top": 471,
+					"left": 798,
+					"width": 142,
+					"height": 13,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "LAY_l_CurrentColumnsWidth",
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 16,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

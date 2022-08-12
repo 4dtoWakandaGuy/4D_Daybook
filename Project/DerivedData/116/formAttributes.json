@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.917Z",
+			"destination": "listScreen"
+		},
+		"text": {
+			"timeStamp": "2022-03-10T16:49:21.919Z",
+			"destination": "detailScreen"
+		}
+	}
+}

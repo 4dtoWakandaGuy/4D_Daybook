@@ -1,0 +1,382 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "INT_InputButtons",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowMinHeight": 384,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line4": {
+					"type": "line",
+					"top": 405,
+					"left": 582,
+					"height": 342,
+					"stroke": "#888888"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 406,
+					"left": 581,
+					"height": 340,
+					"stroke": "#888888"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 744,
+					"left": 580,
+					"width": 2,
+					"height": 2,
+					"stroke": "#888888"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 404,
+					"left": 575,
+					"width": 8,
+					"height": 7,
+					"stroke": "#CCCCCC",
+					"startPoint": "bottomLeft"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 1,
+					"width": 551,
+					"height": 23,
+					"fill": "#444444"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 39,
+					"left": 340,
+					"width": 96,
+					"height": 15,
+					"fill": "automatic",
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Post to Period"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 5,
+					"left": 14,
+					"width": 371,
+					"height": 12,
+					"dataSource": "vTitle",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "#444444",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 37,
+					"left": 16,
+					"width": 163,
+					"height": 21,
+					"dataSource": "xSearch",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/HL TASK"
+					},
+					"text": "Import from text file",
+					"class": "Buttons_LARGE",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 39,
+					"left": 442,
+					"width": 89,
+					"height": 14,
+					"dataSource": "vPeriod",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#EEEEEE",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 61,
+					"left": 15,
+					"width": 520,
+					"height": 26,
+					"dataSource": "vTitle3",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oListOpeningBalances": {
+					"type": "listbox",
+					"top": 86,
+					"left": 14,
+					"width": 517,
+					"height": 248,
+					"resizingMode": "legacy",
+					"dataSource": "GEN_lb_ItemsArea",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oListOpeningBalances.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 502,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 362,
+					"left": 11,
+					"width": 16,
+					"height": 5,
+					"sizingY": "move",
+					"dataSource": "iOK",
+					"shortcutKey": "\u0003",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 362,
+					"left": 28,
+					"width": 16,
+					"height": 5,
+					"sizingY": "move",
+					"dataSource": "iCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 362,
+					"left": 50,
+					"width": 16,
+					"height": 5,
+					"sizingY": "move",
+					"dataSource": "xReport",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 362,
+					"left": 86,
+					"width": 16,
+					"height": 5,
+					"sizingY": "move",
+					"dataSource": "xGraph",
+					"shortcutKey": ",",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"method": "ObjectMethods/Variable9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 362,
+					"left": 119,
+					"width": 16,
+					"height": 5,
+					"sizingY": "move",
+					"dataSource": "xSort",
+					"shortcutKey": "\\",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

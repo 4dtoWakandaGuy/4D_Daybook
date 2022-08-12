@@ -1,0 +1,351 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable4": {
+					"type": "input",
+					"top": 53,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle1",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 53,
+					"left": 117,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue1",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 73,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle2",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 73,
+					"left": 116,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue2",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 91,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle3",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable18": {
+					"type": "input",
+					"top": 91,
+					"left": 116,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue3",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable19": {
+					"type": "input",
+					"top": 108,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle4",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable20": {
+					"type": "input",
+					"top": 108,
+					"left": 116,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue4",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 129,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle5",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 129,
+					"left": 117,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue5",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 147,
+					"left": 10,
+					"width": 103,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportTitle6",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable24": {
+					"type": "input",
+					"top": 147,
+					"left": 117,
+					"width": 83,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "INV_t_SReportvalue6",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable10": {
+					"type": "radio",
+					"top": 4,
+					"left": 10,
+					"width": 110,
+					"height": 14,
+					"dataSource": "r1",
+					"text": "Ageing Date",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "radio",
+					"top": 23,
+					"left": 10,
+					"width": 129,
+					"height": 15,
+					"dataSource": "r2",
+					"text": "or Periods From",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 4,
+					"left": 135,
+					"width": 64,
+					"height": 14,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 24,
+					"left": 135,
+					"width": 64,
+					"height": 14,
+					"dataSource": "ACC_t_PeriodFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable11.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

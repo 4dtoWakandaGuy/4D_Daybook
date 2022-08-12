@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"WebAccess_Out": {
+			"timeStamp": "2022-04-29T14:00:42.311Z",
+			"destination": "listScreen"
+		},
+		"WebAccess_In": {
+			"timeStamp": "2022-04-25T11:44:20.196Z",
+			"destination": "detailScreen"
+		}
+	}
+}

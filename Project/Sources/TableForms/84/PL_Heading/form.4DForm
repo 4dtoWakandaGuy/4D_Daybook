@@ -1,0 +1,156 @@
+{
+	"destination": "detailPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 92,
+	"markerBody": 119,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 0,
+					"width": 800,
+					"height": 400,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 100,
+					"left": 5,
+					"width": 215,
+					"height": 12,
+					"dataSource": "vHeading",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 100,
+					"left": 223,
+					"width": 93,
+					"height": 12,
+					"dataSource": "vAmountF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse AccNZ"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 100,
+					"left": 389,
+					"width": 93,
+					"height": 12,
+					"dataSource": "vAmountT",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Times",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Inverse AccNZ"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

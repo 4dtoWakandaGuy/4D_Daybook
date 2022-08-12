@@ -1,0 +1,605 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowMinHeight": 375,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 88,
+					"left": 31,
+					"width": 70,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Document"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 42,
+					"left": 10,
+					"width": 280,
+					"height": 12,
+					"stroke": "#FFF0DF",
+					"class": "Headers",
+					"text": "eMail Entry"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 107,
+					"left": 31,
+					"width": 67,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Subject"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 87,
+					"left": 219,
+					"width": 44,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Person"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 87,
+					"left": 105,
+					"width": 117,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Document_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 86,
+					"left": 271,
+					"width": 51,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "[DOCUMENTS:7]Person:10",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 107,
+					"left": 105,
+					"width": 466,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[DOCUMENTS:7]Heading:2",
+					"stroke": "#000000",
+					"class": "MonoSpace",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailText": {
+					"type": "input",
+					"top": 160,
+					"left": 105,
+					"width": 451,
+					"height": 344,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[DOCUMENTS:7]Text:3",
+					"stroke": "#000000",
+					"class": "MonoSpace",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 522,
+					"left": 432,
+					"width": 41,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "xSearch",
+					"text": "Y/N",
+					"class": "BUttons_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 524,
+					"left": 486,
+					"width": 62,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "[DOCUMENTS:7]Export:6",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 518,
+					"left": 101,
+					"width": 306,
+					"height": 26,
+					"sizingY": "move",
+					"class": "Field_INFOS",
+					"text": "Note: This template will have a signature added when it is used, it is not neccessary to include a signature on a template"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 581,
+					"left": 517,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable18": {
+					"type": "button",
+					"top": 581,
+					"left": 480,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 581,
+					"left": 130,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button7": {
+					"type": "button",
+					"top": 580,
+					"left": 183,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button8": {
+					"type": "button",
+					"top": 580,
+					"left": 232,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button8.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button9": {
+					"type": "button",
+					"top": 580,
+					"left": 281,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button9.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button1": {
+					"type": "button",
+					"top": 580,
+					"left": 327,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button10": {
+					"type": "button",
+					"top": 580,
+					"left": 368,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button10.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button11": {
+					"type": "button",
+					"top": 581,
+					"left": 407,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button11.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button12": {
+					"type": "button",
+					"top": 581,
+					"left": 442,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button12.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oTemplateTypeLabel": {
+					"type": "text",
+					"top": 86,
+					"left": 327,
+					"width": 80,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "`Template Type"
+				},
+				"oTemplateTypeSelection": {
+					"type": "dropdown",
+					"top": 83,
+					"left": 414,
+					"width": 163,
+					"height": 19,
+					"dataSource": "DB_at_TemplateTypes",
+					"class": "ScrollArea_Small",
+					"method": "ObjectMethods/oTemplateTypeSelection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oEmail4DWrite": {
+					"type": "plugin",
+					"top": 158,
+					"left": 103,
+					"width": 468,
+					"height": 346,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Write",
+					"pluginAreaKind": "_4D Write",
+					"borderStyle": "none",
+					"method": "ObjectMethods/oEmail4DWrite.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMakeHTML": {
+					"type": "button",
+					"top": 130,
+					"left": 472,
+					"width": 105,
+					"height": 22,
+					"dataSource": "DOC_l_MakeHTML",
+					"text": "Convert to HTML",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oMakeHTML.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oShowButtons": {
+					"type": "button",
+					"top": 0,
+					"left": 1,
+					"width": 4,
+					"height": 615,
+					"sizingY": "grow",
+					"dataSource": "DB_OutputButtonsShow",
+					"display": false,
+					"method": "ObjectMethods/oShowButtons.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail",
+						"onMouseEnter"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

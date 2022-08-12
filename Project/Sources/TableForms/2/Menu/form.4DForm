@@ -1,0 +1,62 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": -1,
+					"left": -2,
+					"width": 577,
+					"height": 413
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 19,
+					"left": 57,
+					"width": 10,
+					"height": 10,
+					"fill": "#C0C0C0",
+					"strokeDashArray": "1 1"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 15,
+					"left": 72,
+					"width": 79,
+					"height": 14,
+					"dataSource": "Per_l_Days",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 38,
+					"left": 72,
+					"width": 79,
+					"height": 14,
+					"dataSource": "Per_l_Hours",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 64,
+					"left": 72,
+					"width": 79,
+					"height": 14,
+					"dataSource": "Per_l_Minutes",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ocancelTime1": {
+					"type": "button",
+					"top": 85,
+					"left": 53,
+					"width": 63,
+					"height": 20,
+					"dataSource": "bcanceltime",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/ocancelTime1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"osaveTime": {
+					"type": "button",
+					"top": 85,
+					"left": 133,
+					"width": 63,
+					"height": 20,
+					"dataSource": "bsavetime",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/osaveTime.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDaysLabel": {
+					"type": "text",
+					"top": 15,
+					"left": 16,
+					"width": 52,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Days :"
+				},
+				"oHoursLabel": {
+					"type": "text",
+					"top": 38,
+					"left": 16,
+					"width": 52,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Hours :"
+				},
+				"oMinutesLabel": {
+					"type": "text",
+					"top": 65,
+					"left": 14,
+					"width": 54,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Minutes :"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

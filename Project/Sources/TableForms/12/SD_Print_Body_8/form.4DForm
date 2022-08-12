@@ -1,0 +1,183 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 45,
+	"markerBreak": 45,
+	"markerFooter": 56,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 17,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Product Code:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 18,
+					"left": 97,
+					"width": 115,
+					"height": 12,
+					"dataSource": "SD_t_ProductCode",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 18,
+					"left": 213,
+					"width": 61,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Product Name:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 18,
+					"left": 274,
+					"width": 256,
+					"height": 12,
+					"dataSource": "SD_t_ProductName",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 32,
+					"left": 184,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Description:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 32,
+					"left": 274,
+					"width": 256,
+					"height": 12,
+					"dataSource": "SD_t_Description",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 32,
+					"left": 6,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "QTY:"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 32,
+					"left": 97,
+					"width": 115,
+					"height": 12,
+					"dataSource": "SD_l_ProductQTY",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

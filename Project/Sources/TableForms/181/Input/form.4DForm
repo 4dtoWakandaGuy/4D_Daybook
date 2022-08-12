@@ -1,0 +1,303 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 246,
+	"markerBreak": 246,
+	"markerFooter": 256,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 93,
+					"left": 604,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 565,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "SF_ARCHIVE_CP_LINK"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 694,
+					"sizingX": "grow"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 126,
+					"left": 184,
+					"width": 170,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "CP_LINK_MODIFIEDBYID : "
+				},
+				"Text11": {
+					"type": "text",
+					"top": 152,
+					"left": 184,
+					"width": 170,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "CP_LINK_DATAOWNERID : "
+				},
+				"Text12": {
+					"type": "text",
+					"top": 178,
+					"left": 184,
+					"width": 170,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "CP_LINK_INSTANCEID : "
+				},
+				"Text13": {
+					"type": "text",
+					"top": 204,
+					"left": 184,
+					"width": 170,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "CP_COLLECTIONUID : "
+				},
+				"Text14": {
+					"type": "text",
+					"top": 230,
+					"left": 184,
+					"width": 170,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "CP_PRODUCTUID : "
+				},
+				"CP_LINK_MODIFIEDBYID": {
+					"type": "input",
+					"top": 126,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_CP_LINK:181]CP_LINK_MODIFIEDBYID:4",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CP_LINK_DATAOWNERID": {
+					"type": "input",
+					"top": 152,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_CP_LINK:181]CP_LINK_DATAOWNERID:6",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CP_LINK_INSTANCEID": {
+					"type": "input",
+					"top": 178,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_CP_LINK:181]CP_LINK_INSTANCEID:7",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CP_COLLECTIONUID": {
+					"type": "input",
+					"top": 204,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_CP_LINK:181]CP_COLLECTIONUID:8",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CP_PRODUCTUID": {
+					"type": "input",
+					"top": 230,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_CP_LINK:181]CP_PRODUCTUID:9",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text8",
+					"Line9"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

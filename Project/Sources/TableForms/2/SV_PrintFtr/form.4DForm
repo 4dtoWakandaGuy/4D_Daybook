@@ -1,0 +1,166 @@
+{
+	"destination": "detailPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 122,
+	"markerBody": 163,
+	"markerBreak": 183,
+	"markerFooter": 203,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 130,
+					"left": 1,
+					"width": 189,
+					"height": 19,
+					"dataSource": "vSVT1",
+					"stroke": "#000000",
+					"class": "Print_14pt_GENEVA_BOLD",
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 130,
+					"left": 196,
+					"width": 103,
+					"height": 19,
+					"dataSource": "vSVT2",
+					"stroke": "#000000",
+					"class": "Print_14pt_GENEVA_BOLD",
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 130,
+					"left": 299,
+					"width": 120,
+					"height": 19,
+					"dataSource": "vSVT3",
+					"stroke": "#000000",
+					"class": "Print_14pt_GENEVA_BOLD",
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 130,
+					"left": 419,
+					"width": 120,
+					"height": 19,
+					"dataSource": "vSVT4",
+					"stroke": "#000000",
+					"class": "Print_14pt_GENEVA_BOLD",
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 130,
+					"left": 0,
+					"width": 539,
+					"strokeWidth": 0.1
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

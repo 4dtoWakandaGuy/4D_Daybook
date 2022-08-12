@@ -1,0 +1,538 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 16,
+					"left": 7,
+					"width": 282,
+					"height": 229,
+					"stroke": "#000E60",
+					"class": "Headers",
+					"text": "DE-DUPLICATE CONTACTS"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 292,
+					"left": 285,
+					"width": 17,
+					"height": 7,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oDeduplicateByLabel": {
+					"type": "text",
+					"top": 37,
+					"left": 29,
+					"width": 119,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"text": "De-Duplicate By..."
+				},
+				"oNum berofCharactersLabel": {
+					"type": "text",
+					"top": 37,
+					"left": 157,
+					"width": 120,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"text": "Nº of Characters..."
+				},
+				"Variable6": {
+					"type": "checkbox",
+					"top": 54,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch6",
+					"text": "Forename",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 56,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vYear1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "checkbox",
+					"top": 72,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch7",
+					"text": "Surname",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 74,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vYear2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "checkbox",
+					"top": 95,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch1",
+					"text": "Company Name",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 97,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vNo1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "checkbox",
+					"top": 113,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch2",
+					"text": "Address Line 1",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 115,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vNo2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "checkbox",
+					"top": 131,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch3",
+					"text": "Town",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 133,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vNo3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "checkbox",
+					"top": 149,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch4",
+					"text": "Postcode",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 151,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vNo4",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "checkbox",
+					"top": 167,
+					"left": 22,
+					"width": 135,
+					"height": 21,
+					"dataSource": "ch5",
+					"text": "Telephone",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 169,
+					"left": 158,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vNo5",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable17": {
+					"type": "checkbox",
+					"top": 191,
+					"left": 22,
+					"width": 260,
+					"height": 21,
+					"dataSource": "r2",
+					"text": "Check Multi-Companies",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "checkbox",
+					"top": 209,
+					"left": 22,
+					"width": 261,
+					"height": 21,
+					"dataSource": "r1",
+					"text": "Overwrite existing Duplicate States",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "checkbox",
+					"top": 225,
+					"left": 22,
+					"width": 225,
+					"height": 21,
+					"dataSource": "ch8",
+					"text": "Consider blanks as matches",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 261,
+					"left": 108,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "button",
+					"top": 261,
+					"left": 205,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable20": {
+					"type": "button",
+					"top": 261,
+					"left": 108,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable21": {
+					"type": "button",
+					"top": 261,
+					"left": 205,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 32,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

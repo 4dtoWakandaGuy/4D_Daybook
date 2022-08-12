@@ -1,0 +1,283 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"RoundRect1": {
+					"type": "rectangle",
+					"top": 10,
+					"left": 11,
+					"width": 315,
+					"height": 255,
+					"borderRadius": 5
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 16,
+					"left": 23,
+					"width": 298,
+					"height": 28,
+					"dataSource": "vTitle6",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 16,
+					"left": 360,
+					"width": 68,
+					"height": 60,
+					"dataSource": "<>PictLogoMed",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "listbox",
+					"top": 32,
+					"left": 17,
+					"width": 23,
+					"height": 222,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000E60",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable5_Column1",
+							"dataSource": "MOD_al_ModuleAccessStatus",
+							"width": 23,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|Code Use",
+							"numberFormat": "|Code Use",
+							"stroke": "#000E60",
+							"fill": "#FFE0C0",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000E60",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000E60",
+								"fill": "#FFE0C0",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable6": {
+					"type": "listbox",
+					"top": 32,
+					"left": 40,
+					"width": 275,
+					"height": 222,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000E60",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable6_Column1",
+							"dataSource": "MOD_at_ModuleName",
+							"width": 260,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000E60",
+							"fill": "#FFE0C0",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000E60",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000E60",
+								"fill": "#FFE0C0",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 240,
+					"left": 335,
+					"width": 102,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group4": [
+				"Variable5",
+				"Variable6"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

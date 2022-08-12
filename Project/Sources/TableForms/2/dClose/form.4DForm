@@ -1,0 +1,211 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 87,
+					"left": 409,
+					"width": 14,
+					"height": 8,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oCloseMessage": {
+					"type": "input",
+					"top": 15,
+					"left": 17,
+					"width": 387,
+					"height": 24,
+					"dataSource": "UTI_t_CloseMessage",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 58,
+					"left": 14,
+					"width": 95,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 58,
+					"left": 114,
+					"width": 95,
+					"height": 22,
+					"dataSource": "xDelete",
+					"action": "cancel",
+					"shortcutKey": "d",
+					"shortcutAccel": true,
+					"text": "Don't Save",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 58,
+					"left": 211,
+					"width": 102,
+					"height": 22,
+					"dataSource": "xNext",
+					"action": "accept",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"text": "Save & Next",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 58,
+					"left": 315,
+					"width": 95,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 58,
+					"left": 315,
+					"width": 95,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "Save",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 58,
+					"left": 14,
+					"width": 95,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

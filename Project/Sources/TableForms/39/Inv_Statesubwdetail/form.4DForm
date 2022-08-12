@@ -1,0 +1,311 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 5,
+	"markerBody": 22,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 523,
+					"height": 24,
+					"fill": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Field1": {
+					"type": "input",
+					"top": 6,
+					"left": 8,
+					"width": 68,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Invoice_Number:1",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 6,
+					"left": 83,
+					"width": 70,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Invoice_Date:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 6,
+					"left": 192,
+					"width": 81,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Your_Order_Number:14",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 6,
+					"left": 278,
+					"width": 75,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Total_Invoiced:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 6,
+					"left": 362,
+					"width": 71,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Total_Paid:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 6,
+					"left": 442,
+					"width": 75,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Total_Due:7",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 0,
+					"left": 81,
+					"height": 23,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 275,
+					"width": 1,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 359,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 439,
+					"height": 23,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 188,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Field7": {
+					"type": "input",
+					"top": 6,
+					"left": 156,
+					"width": 30,
+					"height": 11,
+					"dataSource": "[INVOICES:39]Analysis_Code:17",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line6": {
+					"type": "line",
+					"top": 0,
+					"left": 155,
+					"height": 24,
+					"strokeWidth": 0.1
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

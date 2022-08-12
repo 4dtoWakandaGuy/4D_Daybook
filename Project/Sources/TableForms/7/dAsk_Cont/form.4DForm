@@ -1,0 +1,480 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 258,
+					"left": 470,
+					"width": 16,
+					"height": 5,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 11,
+					"left": 12,
+					"width": 364,
+					"height": 237,
+					"class": "Headers",
+					"text": "CONTACT REQUIREMENTS"
+				},
+				"Variable1": {
+					"type": "radio",
+					"top": 42,
+					"left": 26,
+					"width": 113,
+					"height": 18,
+					"dataSource": "r3",
+					"text": "First Contact",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "radio",
+					"top": 42,
+					"left": 210,
+					"width": 103,
+					"height": 19,
+					"dataSource": "r4",
+					"text": "No Contact",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "radio",
+					"top": 76,
+					"left": 26,
+					"width": 103,
+					"height": 17,
+					"dataSource": "r1",
+					"text": "By Job Title",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "radio",
+					"top": 107,
+					"left": 26,
+					"width": 106,
+					"height": 20,
+					"dataSource": "r2",
+					"text": "By Analyses:",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 77,
+					"left": 127,
+					"width": 235,
+					"height": 13,
+					"dataSource": "vJobTitle",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 158,
+					"left": 128,
+					"width": 49,
+					"height": 13,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Type"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 139,
+					"left": 128,
+					"width": 49,
+					"height": 13,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Status"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 177,
+					"left": 127,
+					"width": 49,
+					"height": 13,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Source"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 197,
+					"left": 73,
+					"width": 103,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Further Analysis"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 110,
+					"left": 134,
+					"width": 43,
+					"height": 13,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Role"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 109,
+					"left": 257,
+					"width": 43,
+					"height": 13,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Omit"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 110,
+					"left": 185,
+					"width": 47,
+					"height": 13,
+					"dataSource": "vRole",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 138,
+					"left": 184,
+					"width": 72,
+					"height": 13,
+					"dataSource": "vStatus_",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 157,
+					"left": 184,
+					"width": 72,
+					"height": 13,
+					"dataSource": "vType_",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 176,
+					"left": 184,
+					"width": 72,
+					"height": 13,
+					"dataSource": "vSource_",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 109,
+					"left": 307,
+					"width": 47,
+					"height": 13,
+					"dataSource": "vOmit",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "checkbox",
+					"top": 221,
+					"left": 26,
+					"width": 339,
+					"height": 17,
+					"dataSource": "ch1",
+					"text": "Revert to Analyses then First if none found",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 196,
+					"left": 184,
+					"width": 72,
+					"height": 13,
+					"dataSource": "vAnalysis",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 190,
+					"left": 393,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "button",
+					"top": 224,
+					"left": 392,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 191,
+					"left": 393,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "button",
+					"top": 225,
+					"left": 392,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

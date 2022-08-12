@@ -1,0 +1,187 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBDiaryrelations": {
+					"type": "listbox",
+					"top": 2,
+					"left": 3,
+					"width": 285,
+					"height": 137,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryrelations.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 270,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oExitButton": {
+					"type": "button",
+					"top": 150,
+					"left": 199,
+					"width": 90,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_l_ButtonExit",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddeople1": {
+					"type": "button",
+					"top": 126,
+					"left": 292,
+					"width": 16,
+					"height": 16,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddRelation",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddeople1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddRelation": {
+					"type": "button",
+					"top": 105,
+					"left": 292,
+					"width": 16,
+					"height": 16,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveRelation",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

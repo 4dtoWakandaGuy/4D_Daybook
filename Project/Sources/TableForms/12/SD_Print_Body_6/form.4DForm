@@ -1,0 +1,78 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 97,
+	"markerBreak": 97,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 19,
+					"left": 5,
+					"width": 89,
+					"height": 14,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Address:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 20,
+					"left": 97,
+					"width": 175,
+					"height": 72,
+					"dataSource": "SD_T_CompanyAddress",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

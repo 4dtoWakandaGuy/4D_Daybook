@@ -1,0 +1,345 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 220,
+	"markerBreak": 220,
+	"markerFooter": 220,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oUsersGroups": {
+					"type": "groupBox",
+					"top": 25,
+					"left": 16,
+					"width": 231,
+					"height": 254,
+					"class": "Labels",
+					"text": "Users & Groups"
+				},
+				"oUsersAndGroups": {
+					"type": "listbox",
+					"top": 47,
+					"left": 33,
+					"width": 193,
+					"height": 197,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "USR_lb_Groups",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"staticColumnCount": 1,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#C0C0C0",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": [
+								"Column1"
+							],
+							"width": 178,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oButtonAdd": {
+					"type": "button",
+					"top": 244,
+					"left": 195,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAdd.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonDelete": {
+					"type": "button",
+					"top": 244,
+					"left": 156,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonDelete.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupsSettings": {
+					"type": "groupBox",
+					"top": 25,
+					"left": 257,
+					"width": 511,
+					"height": 253,
+					"class": "Labels",
+					"text": "Group"
+				},
+				"oUSRgroupNameLabel": {
+					"type": "text",
+					"top": 80,
+					"left": 274,
+					"width": 120,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Group Name"
+				},
+				"oUSRgroupID": {
+					"type": "input",
+					"top": 52,
+					"left": 406,
+					"width": 79,
+					"height": 14,
+					"dataSource": "USR_t_GroupID",
+					"class": "Fields",
+					"textAlign": "left",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oUSRgroupName": {
+					"type": "input",
+					"top": 80,
+					"left": 406,
+					"width": 279,
+					"height": 14,
+					"dataSource": "USR_t_GroupName",
+					"class": "Fields",
+					"textAlign": "left",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oGRPDefaultAccess": {
+					"type": "listbox",
+					"top": 109,
+					"left": 406,
+					"width": 350,
+					"height": 152,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "USR_lb_GRPAccess",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"staticColumnCount": 1,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#C0C0C0",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": [
+								"Column1"
+							],
+							"width": 335,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oUSRgroupCodeLabel": {
+					"type": "text",
+					"top": 52,
+					"left": 274,
+					"width": 120,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Group ID"
+				},
+				"oUSRgroupAccess": {
+					"type": "text",
+					"top": 109,
+					"left": 274,
+					"width": 120,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default System Access"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupsSettings1": {
+					"type": "groupBox",
+					"top": 25,
+					"left": 257,
+					"width": 511,
+					"height": 253,
+					"class": "Labels",
+					"text": "User"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

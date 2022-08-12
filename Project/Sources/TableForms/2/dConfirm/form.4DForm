@@ -1,0 +1,257 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oButtonOK": {
+					"type": "button",
+					"top": 108,
+					"left": 265,
+					"width": 90,
+					"height": 22,
+					"sizingY": "fixed",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 109,
+					"left": 162,
+					"width": 90,
+					"height": 22,
+					"sizingY": "fixed",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButton1": {
+					"type": "button",
+					"top": 146,
+					"left": 285,
+					"width": 90,
+					"height": 2,
+					"sizingY": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButton2": {
+					"type": "button",
+					"top": 146,
+					"left": 4,
+					"width": 90,
+					"height": 2,
+					"sizingY": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 21,
+					"left": 93,
+					"width": 273,
+					"height": 69,
+					"dataSource": "vConfirm",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMessagePic": {
+					"type": "input",
+					"top": 20,
+					"left": 4,
+					"width": 87,
+					"height": 80,
+					"dataSource": "Gen_pic_Confirm",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"oCheckBoxWarning": {
+					"type": "checkbox",
+					"top": 86,
+					"left": 17,
+					"width": 169,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "B_CheckHideWarning",
+					"text": "Do not show this message again",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable3": {
+					"type": "input",
+					"top": 14,
+					"left": 22,
+					"width": 268,
+					"height": 68,
+					"dataSource": "vConfirmBigMessage",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "#EEEEEE",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,900 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 27,
+					"left": 36,
+					"width": 676,
+					"height": 386,
+					"class": "Headers",
+					"text": "Soap Handling Settings...."
+				},
+				"Variable1": {
+					"type": "tab",
+					"top": 25,
+					"left": 355,
+					"width": 350,
+					"height": 16,
+					"dataSource": "DM_at_SoapSettingsPages",
+					"dataSourceTypeHint": "arrayText",
+					"class": "ScrollArea",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 383,
+					"left": 84,
+					"width": 512,
+					"height": 18,
+					"class": "Field_INFOS",
+					"text": "These settings are used for all SOAP Handling where no individual settings have been created."
+				},
+				"oDisableAll": {
+					"type": "checkbox",
+					"top": 72,
+					"left": 138,
+					"width": 163,
+					"height": 14,
+					"dataSource": "DM_l_DisableSoap",
+					"text": "Disable Soap Server",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oDisableAll.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oIPAccessCB": {
+					"type": "checkbox",
+					"top": 94,
+					"left": 160,
+					"width": 163,
+					"height": 14,
+					"dataSource": "DM_l_RestrictAccessIP",
+					"text": "Restrict Access by IP",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oIPAccessCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oIPaccessIPs": {
+					"type": "listbox",
+					"top": 93,
+					"left": 330,
+					"width": 279,
+					"height": 119,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oIPaccessIPs_Column1",
+							"dataSource": "DM_at_IPAccess",
+							"width": 264,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oIPaccessbAdd": {
+					"type": "button",
+					"top": 217,
+					"left": 543,
+					"width": 71,
+					"height": 17,
+					"dataSource": "DM_l_BaddIP",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oIPaccessbDel": {
+					"type": "button",
+					"top": 217,
+					"left": 465,
+					"width": 71,
+					"height": 17,
+					"dataSource": "DM_l_BdelIP",
+					"text": "Delete",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPWAccessCB": {
+					"type": "checkbox",
+					"top": 115,
+					"left": 160,
+					"width": 163,
+					"height": 14,
+					"dataSource": "DM_l_RestrictAccessPW",
+					"text": "Restrict Access by Password",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oPWAccessCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPWAccessNM": {
+					"type": "listbox",
+					"top": 241,
+					"left": 330,
+					"width": 138,
+					"height": 109,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oPWAccessNM_Column1",
+							"dataSource": "DM_at_PWAccessNAME",
+							"width": 138,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oPWAccessPW": {
+					"type": "listbox",
+					"top": 241,
+					"left": 471,
+					"width": 138,
+					"height": 109,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oPWAccessPW_Column1",
+							"dataSource": "DM_at_PWAccessPSWD",
+							"width": 123,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"dataSource": "Header3",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oPWAccessbAdd": {
+					"type": "button",
+					"top": 356,
+					"left": 543,
+					"width": 71,
+					"height": 17,
+					"dataSource": "DM_l_Badd",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPWAccessbDel": {
+					"type": "button",
+					"top": 356,
+					"left": 458,
+					"width": 71,
+					"height": 17,
+					"dataSource": "DM_l_Bdel",
+					"text": "Delete",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable2": {
+					"type": "listbox",
+					"top": 54,
+					"left": 50,
+					"width": 166,
+					"height": 303,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable2_Column1",
+							"dataSource": "DM_at_SoapSources",
+							"width": 151,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header4",
+								"dataSource": "Header4",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 362,
+					"left": 146,
+					"width": 74,
+					"height": 17,
+					"dataSource": "bSourceAdd",
+					"text": "Add Source",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 362,
+					"left": 51,
+					"width": 84,
+					"height": 17,
+					"dataSource": "bSourceDel",
+					"text": "Delete Source",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "checkbox",
+					"top": 59,
+					"left": 278,
+					"width": 227,
+					"height": 12,
+					"dataSource": "DM_l_useCustomSecuritySettings",
+					"text": "Use custom access configuration",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "listbox",
+					"top": 111,
+					"left": 320,
+					"width": 141,
+					"height": 219,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable6_Column1",
+							"dataSource": "DM_at_SoapMethods",
+							"width": 126,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"dataSource": "Header5",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Variable7": {
+					"type": "listbox",
+					"top": 112,
+					"left": 232,
+					"width": 86,
+					"height": 218,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable7_Column1",
+							"dataSource": "DM_at_SoapTYPE",
+							"width": 71,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Header6",
+								"dataSource": "Header6",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Variable8": {
+					"type": "listbox",
+					"top": 111,
+					"left": 462,
+					"width": 91,
+					"height": 219,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable8_Column1",
+							"dataSource": "DM_at_SoapContext",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Header7",
+								"dataSource": "Header7",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Variable9": {
+					"type": "listbox",
+					"top": 111,
+					"left": 554,
+					"width": 141,
+					"height": 219,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable9_Column1",
+							"dataSource": "DM_at_SoapConfig",
+							"width": 126,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Header8",
+								"dataSource": "Header8",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12,
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 93,
+					"left": 236,
+					"width": 68,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Type"
+				},
+				"Variable10": {
+					"type": "dropdown",
+					"top": 515,
+					"left": 284,
+					"width": 68,
+					"height": 12,
+					"dataSource": "DM_at_TypeFilter",
+					"display": false,
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Daybook Method Name": {
+					"type": "text",
+					"top": 93,
+					"left": 321,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Daybook method name"
+				},
+				"Daybook Method Name1": {
+					"type": "text",
+					"top": 93,
+					"left": 463,
+					"width": 87,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Context"
+				},
+				"Daybook Method Name2": {
+					"type": "text",
+					"top": 93,
+					"left": 555,
+					"width": 137,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": " Configuration File"
+				},
+				"Variable11": {
+					"type": "checkbox",
+					"top": 78,
+					"left": 278,
+					"width": 227,
+					"height": 12,
+					"dataSource": "DM_l_useSSL",
+					"text": "Use SSL with this source",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"oPWAccessSCROLL": [
+				"oPWAccessNM",
+				"oPWAccessPW"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

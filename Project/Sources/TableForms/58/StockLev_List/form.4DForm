@@ -1,0 +1,1762 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": [
+		53,
+		74,
+		93,
+		110,
+		125
+	],
+	"markerBody": 136,
+	"markerBreak": [
+		151,
+		166,
+		181,
+		196,
+		214
+	],
+	"markerFooter": 234,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 27,
+					"left": 284,
+					"width": 45,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "FREE"
+				},
+				"oNumberSelectedLabel": {
+					"type": "text",
+					"top": 7,
+					"left": 310,
+					"width": 95,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Number Selected :"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 139,
+					"left": 282,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"oPrintLineStockType": {
+					"type": "text",
+					"top": 141,
+					"left": 133,
+					"width": 130,
+					"height": 8,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"fontStyle": "italic",
+					"text": "Stock Type <Stock Type> Subtotals"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 27,
+					"left": 0,
+					"width": 27,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Layer"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 36,
+					"left": 31,
+					"width": 39,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Product"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 50,
+					"left": 0,
+					"width": 539,
+					"strokeWidth": 0.1
+				},
+				"Text6": {
+					"type": "text",
+					"top": 36,
+					"left": 276,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Level"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 36,
+					"left": 330,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Value"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 27,
+					"left": 379,
+					"width": 57,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "ALLOCATED"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 36,
+					"left": 367,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Level"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 36,
+					"left": 421,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Value"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 27,
+					"left": 472,
+					"width": 45,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "TOTALS"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 36,
+					"left": 458,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Level"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 36,
+					"left": 512,
+					"width": 26,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Value"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 139,
+					"left": 373,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 139,
+					"left": 464,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 200,
+					"left": 282,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"oPrintLineTotals": {
+					"type": "text",
+					"top": 202,
+					"left": 132,
+					"width": 130,
+					"height": 8,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"fontStyle": "italic",
+					"text": "TOTALS"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 200,
+					"left": 373,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 200,
+					"left": 464,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 154,
+					"left": 282,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"oPrintLineAnalysisCode": {
+					"type": "text",
+					"top": 156,
+					"left": 133,
+					"width": 130,
+					"height": 8,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"fontStyle": "italic",
+					"text": "Analysis <Analysis Code> Subtotals"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 154,
+					"left": 373,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line10": {
+					"type": "line",
+					"top": 154,
+					"left": 464,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line11": {
+					"type": "line",
+					"top": 169,
+					"left": 282,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"oPrintLineCurrencyCode": {
+					"type": "text",
+					"top": 171,
+					"left": 133,
+					"width": 130,
+					"height": 8,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"fontStyle": "italic",
+					"text": "Currency <Currency Code> Subtotals"
+				},
+				"Line12": {
+					"type": "line",
+					"top": 169,
+					"left": 373,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 169,
+					"left": 464,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line14": {
+					"type": "line",
+					"top": 184,
+					"left": 282,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"oPrintLineLayerCode": {
+					"type": "text",
+					"top": 186,
+					"left": 133,
+					"width": 130,
+					"height": 8,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"fontStyle": "italic",
+					"text": "Layer <Layer Code> Subtotals"
+				},
+				"Line15": {
+					"type": "line",
+					"top": 184,
+					"left": 373,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 184,
+					"left": 464,
+					"width": 74,
+					"strokeWidth": 0.1
+				},
+				"Text18": {
+					"type": "text",
+					"top": 27,
+					"left": 32,
+					"width": 27,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Curr"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 27,
+					"left": 64,
+					"width": 27,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "An."
+				},
+				"Text20": {
+					"type": "text",
+					"top": 27,
+					"left": 96,
+					"width": 27,
+					"height": 11,
+					"fill": "automatic",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Type"
+				},
+				"oPrintStockHistoryHeader": {
+					"type": "input",
+					"top": 4,
+					"left": 0,
+					"width": 288,
+					"height": 19,
+					"dataSource": "vTitleR",
+					"stroke": "#000000",
+					"fontSize": 18,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintNumberSelected": {
+					"type": "input",
+					"top": 7,
+					"left": 408,
+					"width": 35,
+					"height": 11,
+					"dataSource": "vNo",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintDate": {
+					"type": "input",
+					"top": 7,
+					"left": 472,
+					"width": 65,
+					"height": 12,
+					"dataSource": "<>DB_d_CurrentDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLayerCode": {
+					"type": "input",
+					"top": 58,
+					"left": 0,
+					"width": 30,
+					"height": 11,
+					"dataSource": "[STOCK_LEVELS:58]Layer_Code:9",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLayerName": {
+					"type": "input",
+					"top": 58,
+					"left": 31,
+					"width": 214,
+					"height": 11,
+					"dataSource": "[LAYERS:76]Layer_Name:2",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oLayerName.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyCode": {
+					"type": "input",
+					"top": 78,
+					"left": 31,
+					"width": 30,
+					"height": 11,
+					"dataSource": "[STOCK_LEVELS:58]Currency_Code:8",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyName": {
+					"type": "input",
+					"top": 78,
+					"left": 62,
+					"width": 214,
+					"height": 11,
+					"dataSource": "[CURRENCIES:71]Currency_Name:2",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oCurrencyName.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisCode": {
+					"type": "input",
+					"top": 96,
+					"left": 62,
+					"width": 30,
+					"height": 11,
+					"dataSource": "[STOCK_LEVELS:58]Analysis_Code:7",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisName": {
+					"type": "input",
+					"top": 96,
+					"left": 93,
+					"width": 214,
+					"height": 11,
+					"dataSource": "[ANALYSES:36]Analysis_Name:2",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAnalysisName.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStockType": {
+					"type": "input",
+					"top": 112,
+					"left": 93,
+					"width": 30,
+					"height": 11,
+					"dataSource": "[STOCK_LEVELS:58]Stock_Type:2",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTypeName": {
+					"type": "input",
+					"top": 112,
+					"left": 124,
+					"width": 214,
+					"height": 11,
+					"dataSource": "[STOCK_TYPES:59]Type_Name:2",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oTypeName.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProductCode": {
+					"type": "input",
+					"top": 127,
+					"left": 31,
+					"width": 96,
+					"height": 8,
+					"dataSource": "[STOCK_LEVELS:58]Product_Code:1",
+					"stroke": "#000000",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProductName": {
+					"type": "input",
+					"top": 127,
+					"left": 128,
+					"width": 148,
+					"height": 8,
+					"dataSource": "[PRODUCTS:9]Product_Name:2",
+					"stroke": "#000000",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oProductName.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFreeLevel": {
+					"type": "input",
+					"top": 127,
+					"left": 279,
+					"width": 23,
+					"height": 8,
+					"dataSource": "[STOCK_LEVELS:58]Free_Level:3",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFreeCost": {
+					"type": "input",
+					"top": 127,
+					"left": 309,
+					"width": 47,
+					"height": 8,
+					"dataSource": "[STOCK_LEVELS:58]Free_Cost:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAllocatedLevel": {
+					"type": "input",
+					"top": 127,
+					"left": 370,
+					"width": 23,
+					"height": 8,
+					"dataSource": "[STOCK_LEVELS:58]Allocated_Level:4",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAllocatedCost": {
+					"type": "input",
+					"top": 127,
+					"left": 400,
+					"width": 47,
+					"height": 8,
+					"dataSource": "[STOCK_LEVELS:58]Allocated_Cost:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProductQuantity": {
+					"type": "input",
+					"top": 127,
+					"left": 461,
+					"width": 23,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProductTotal": {
+					"type": "input",
+					"top": 127,
+					"left": 491,
+					"width": 47,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeFreeQuantity": {
+					"type": "input",
+					"top": 141,
+					"left": 272,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeFreeValue": {
+					"type": "input",
+					"top": 141,
+					"left": 303,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeAllocatedLevel": {
+					"type": "input",
+					"top": 141,
+					"left": 363,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeValue": {
+					"type": "input",
+					"top": 141,
+					"left": 394,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeQuantity": {
+					"type": "input",
+					"top": 141,
+					"left": 454,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineStockTypeTotal": {
+					"type": "input",
+					"top": 141,
+					"left": 485,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAnalysisFreeQuantity": {
+					"type": "input",
+					"top": 156,
+					"left": 272,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAlalysisCodeFreeValue": {
+					"type": "input",
+					"top": 156,
+					"left": 303,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAnalysisCodeAllocatedLevel": {
+					"type": "input",
+					"top": 156,
+					"left": 363,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAnalysisCodeValue": {
+					"type": "input",
+					"top": 156,
+					"left": 394,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAnalysisQuantity": {
+					"type": "input",
+					"top": 156,
+					"left": 454,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineAnalysisTotal": {
+					"type": "input",
+					"top": 156,
+					"left": 485,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyCodeFreeQuantity": {
+					"type": "input",
+					"top": 171,
+					"left": 272,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyCodeFreeValue": {
+					"type": "input",
+					"top": 171,
+					"left": 303,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyCodeAllocatedLevel": {
+					"type": "input",
+					"top": 171,
+					"left": 363,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyCodeValue": {
+					"type": "input",
+					"top": 171,
+					"left": 394,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyQuantity": {
+					"type": "input",
+					"top": 171,
+					"left": 454,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineCurrencyCodeTotal": {
+					"type": "input",
+					"top": 171,
+					"left": 485,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerFreeQuantity": {
+					"type": "input",
+					"top": 186,
+					"left": 272,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerCodeFreeValue": {
+					"type": "input",
+					"top": 186,
+					"left": 303,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerCodeAllocatedLevel": {
+					"type": "input",
+					"top": 186,
+					"left": 363,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerCodeValue": {
+					"type": "input",
+					"top": 186,
+					"left": 394,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerCodeQuantity": {
+					"type": "input",
+					"top": 186,
+					"left": 454,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineLayerCodeTotal": {
+					"type": "input",
+					"top": 186,
+					"left": 485,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsFreeQuantity": {
+					"type": "input",
+					"top": 202,
+					"left": 272,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsFreeValue": {
+					"type": "input",
+					"top": 202,
+					"left": 303,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsAllocatedLevel": {
+					"type": "input",
+					"top": 202,
+					"left": 363,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsValue": {
+					"type": "input",
+					"top": 202,
+					"left": 394,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsQuantity": {
+					"type": "input",
+					"top": 202,
+					"left": 454,
+					"width": 30,
+					"height": 8,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintLineTotalsTotal": {
+					"type": "input",
+					"top": 202,
+					"left": 485,
+					"width": 53,
+					"height": 8,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPrintPageNumber": {
+					"type": "input",
+					"top": 218,
+					"left": 429,
+					"width": 109,
+					"height": 11,
+					"dataSource": "vPPage",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "~A",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oPrintPageNumber.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 63
+}

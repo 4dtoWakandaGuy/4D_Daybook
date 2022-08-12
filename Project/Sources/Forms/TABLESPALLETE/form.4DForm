@@ -1,0 +1,114 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 228,
+	"windowMaxWidth": 500,
+	"windowMinHeight": 277,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"OListboxTableNames": {
+					"type": "listbox",
+					"top": 6,
+					"left": 11,
+					"width": 228,
+					"height": 277,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "LB_l_TableNames",
+					"rowHeight": "30px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "oTableNames1",
+							"dataSource": "LB_at_TableNames",
+							"width": 213,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/oTableNames1.4dm",
+							"header": {
+								"name": "oTableNameHeader",
+								"text": "TABLES",
+								"dataSource": "LB_t_TableHeader",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

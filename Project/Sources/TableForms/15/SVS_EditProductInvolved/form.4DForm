@@ -1,0 +1,591 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 3,
+					"left": 3,
+					"width": 583,
+					"height": 176,
+					"class": "Headers",
+					"text": "Service Product"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 53,
+					"left": 31,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Contract Code\t"
+				},
+				"oSVSContractcode": {
+					"type": "input",
+					"top": 53,
+					"left": 125,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_ContractCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 54,
+					"left": 321,
+					"width": 45,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type"
+				},
+				"oSVSContracttype": {
+					"type": "input",
+					"top": 55,
+					"left": 381,
+					"width": 168,
+					"height": 13,
+					"dataSource": "SVS_t_ContractType",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 74,
+					"left": 31,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Sales  Order"
+				},
+				"oSVSContracttype1": {
+					"type": "input",
+					"top": 75,
+					"left": 125,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_SOCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 99,
+					"left": 31,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oSVSContracttype2": {
+					"type": "input",
+					"top": 100,
+					"left": 125,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_ProductCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSVSContracttype3": {
+					"type": "input",
+					"top": 74,
+					"left": 381,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_l_SOitem",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 75,
+					"left": 338,
+					"width": 27,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "item"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 127,
+					"left": 31,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Serial Number"
+				},
+				"oSVSContracttype4": {
+					"type": "input",
+					"top": 128,
+					"left": 125,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_SerialNumber",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 126,
+					"left": 281,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "System"
+				},
+				"oSVSContracttype5": {
+					"type": "input",
+					"top": 127,
+					"left": 381,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_SystemName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 101,
+					"left": 281,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oSVSContracttype6": {
+					"type": "input",
+					"top": 102,
+					"left": 381,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_ProductName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 182,
+					"left": 4,
+					"width": 583,
+					"height": 176,
+					"class": "Headers",
+					"text": "Fault Information"
+				},
+				"oSymptomLabel": {
+					"type": "text",
+					"top": 234,
+					"left": 8,
+					"width": 109,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Idenitified Symptom"
+				},
+				"oSVSSymptom": {
+					"type": "input",
+					"top": 233,
+					"left": 124,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_Symptom",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSeverityLabel": {
+					"type": "text",
+					"top": 232,
+					"left": 327,
+					"width": 49,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Severity"
+				},
+				"oSVSSeverity": {
+					"type": "input",
+					"top": 235,
+					"left": 387,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_Severity",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 154,
+					"left": 31,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Warranty Status"
+				},
+				"oSVSWarranty": {
+					"type": "input",
+					"top": 155,
+					"left": 124,
+					"width": 154,
+					"height": 14,
+					"dataSource": "SVS_t_Warranty",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPartOrderStatus": {
+					"type": "text",
+					"top": 260,
+					"left": 13,
+					"width": 109,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Parts Status"
+				},
+				"oSVSPartsStatus": {
+					"type": "input",
+					"top": 263,
+					"left": 123,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_PartsStatus",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 153,
+					"left": 287,
+					"width": 87,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stored Location"
+				},
+				"oSVSWarranty1": {
+					"type": "input",
+					"top": 154,
+					"left": 380,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_ItemLocation",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oitemForRepair": {
+					"type": "checkbox",
+					"top": 208,
+					"left": 41,
+					"width": 137,
+					"height": 14,
+					"dataSource": "SVS_l_ItemForRepair",
+					"text": "This item is for repair",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"method": "ObjectMethods/oitemForRepair.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRepairLabel": {
+					"type": "text",
+					"top": 255,
+					"left": 340,
+					"width": 33,
+					"height": 28,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Repair Status"
+				},
+				"oSVSRepaired": {
+					"type": "input",
+					"top": 261,
+					"left": 383,
+					"width": 168,
+					"height": 14,
+					"dataSource": "SVS_t_RepairStatus",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPartOrderStatus1": {
+					"type": "text",
+					"top": 288,
+					"left": 12,
+					"width": 106,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Fault Notes"
+				},
+				"oSVSFaultNote": {
+					"type": "input",
+					"top": 291,
+					"left": 123,
+					"width": 428,
+					"height": 53,
+					"dataSource": "SVS_t_FaultNote",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSVSRepairedSelector": {
+					"type": "dropdown",
+					"top": 259,
+					"left": 549,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_RepairStatus",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSRepairedSelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSVSPartsSelector": {
+					"type": "dropdown",
+					"top": 262,
+					"left": 290,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_SIStatus",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSPartsSelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSVSSeveritySelector": {
+					"type": "dropdown",
+					"top": 233,
+					"left": 555,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_ServiceSeverity",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSSeveritySelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSVSSymptomSelector": {
+					"type": "dropdown",
+					"top": 233,
+					"left": 290,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_ServiceSymptoms",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSSymptomSelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSVSLocationSelector": {
+					"type": "dropdown",
+					"top": 154,
+					"left": 550,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_CallLocations",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSLocationSelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSVSWarrantySelector": {
+					"type": "dropdown",
+					"top": 153,
+					"left": 279,
+					"width": 20,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SVS_at_WarrantyStatus",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oSVSWarrantySelector.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oContinue": {
+					"type": "button",
+					"top": 365,
+					"left": 440,
+					"width": 143,
+					"height": 25,
+					"dataSource": "SVS_but_Continue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oContinue.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

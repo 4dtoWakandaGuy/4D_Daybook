@@ -1,0 +1,30 @@
+If (False:C215)
+	//object Name: [USER]User_In.btn_SetTarget
+	//------------------ Method Notes ------------------
+	
+	//------------------ Revision Control ----------------
+	//Date Created: 26/01/2010 11:23
+	//Created BY: Nigel Greenlee
+	//Date Modified: 
+	//Modified By DefaultUser
+	//Modification notes 
+	
+End if 
+//Variable Declarations
+If (True:C214)
+	C_TEXT:C284($_t_oldMethodName; DOC_t_PDF995Path)
+	C_TIME:C306($_ti_DocumentRef)
+End if 
+//Code Starts Here
+
+$_t_oldMethodName:=ERR_MethodTracker("OBJ [USER].User_In.btn_SetTarget"; Form event code:C388)
+
+If (Form event code:C388=On Clicked:K2:4)
+	$_ti_DocumentRef:=DB_OpenDocument("")
+	If (OK=1)
+		CLOSE DOCUMENT:C267($_ti_DocumentRef)
+		DOC_t_PDF995Path:=DOCUMENT
+	End if 
+End if 
+
+ERR_MethodTrackerReturn("OBJ:User_In,bSetTarget"; $_t_oldMethodName)

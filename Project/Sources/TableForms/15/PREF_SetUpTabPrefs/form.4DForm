@@ -1,0 +1,254 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable2": {
+					"type": "button",
+					"top": 258,
+					"left": 213,
+					"width": 89,
+					"height": 22,
+					"dataSource": "Bok",
+					"shortcutKey": "[Return]",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 258,
+					"left": 113,
+					"width": 89,
+					"height": 22,
+					"dataSource": "Bcancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 16,
+					"left": 8,
+					"width": 88,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Prefs for:"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 17,
+					"left": 102,
+					"width": 181,
+					"height": 14,
+					"dataSource": "PREF_t_AdHocName",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "dropdown",
+					"top": 17,
+					"left": 284,
+					"width": 16,
+					"height": 14,
+					"dataSource": "SP_at_PersonnelNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 258,
+					"left": 213,
+					"width": 89,
+					"height": 22,
+					"dataSource": "Bok",
+					"shortcutKey": "[Enter]",
+					"text": "Save",
+					"display": false,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 258,
+					"left": 113,
+					"width": 89,
+					"height": 22,
+					"dataSource": "Bcancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBTabPrefs": {
+					"type": "listbox",
+					"top": 39,
+					"left": 51,
+					"width": 249,
+					"height": 212,
+					"resizingMode": "legacy",
+					"dataSource": "PRF_LB_Tabs",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBTabPrefs.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 234,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

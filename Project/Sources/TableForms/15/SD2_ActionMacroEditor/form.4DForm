@@ -1,0 +1,276 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "button",
+					"top": 74,
+					"left": 388,
+					"width": 64,
+					"height": 17,
+					"dataSource": "Badd",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oMacroEditItem_CODE": {
+					"type": "input",
+					"top": 115,
+					"left": 45,
+					"width": 105,
+					"height": 14,
+					"dataSource": "SD2_t_mScriptCodes",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oMacroEditItem_CODE.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMacroEditItem_NAME": {
+					"type": "input",
+					"top": 115,
+					"left": 154,
+					"width": 124,
+					"height": 14,
+					"dataSource": "SD2_t_mScriptName",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMacroEditItem_POP": {
+					"type": "dropdown",
+					"top": 113,
+					"left": 309,
+					"width": 104,
+					"height": 17,
+					"dataSource": "SD2_at_EventNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oMacroEditItem_POP.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oMacroEditItem_DEL": {
+					"type": "button",
+					"top": 50,
+					"left": 388,
+					"width": 64,
+					"height": 17,
+					"dataSource": "BClear",
+					"text": "Delete",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oMacroEditItem_DEL.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 151,
+					"left": 368,
+					"width": 87,
+					"height": 20,
+					"dataSource": "Bexit",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSelectionNotes": {
+					"type": "text",
+					"top": 94,
+					"left": 28,
+					"width": 218,
+					"height": 14,
+					"class": "LabelsItalic",
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Select an item to edit"
+				},
+				"oMacroSelector": {
+					"type": "listbox",
+					"top": 10,
+					"left": 27,
+					"width": 355,
+					"height": 81,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_Lb_MacroSelector",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oMacroSelector.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 340,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 115,
+					"left": 315,
+					"width": 82,
+					"height": 14,
+					"dataSource": "SD2_t_mScriptEvent",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

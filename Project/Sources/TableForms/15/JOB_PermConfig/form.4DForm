@@ -1,0 +1,370 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oDetails": {
+					"type": "groupBox",
+					"top": 0,
+					"left": 336,
+					"width": 325,
+					"height": 376,
+					"sizingY": "grow",
+					"class": "Labels",
+					"text": "Details"
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 10,
+					"width": 323,
+					"height": 416,
+					"sizingY": "grow",
+					"class": "Labels",
+					"text": "List of Data Names"
+				},
+				"oPermJobInfos": {
+					"type": "listbox",
+					"top": 33,
+					"left": 35,
+					"width": 291,
+					"height": 341,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"method": "ObjectMethods/oPermJobInfos.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oPermJobInfos_Column1",
+							"dataSource": "JOB_at_PermJobInfos",
+							"width": 276,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 11,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 11,
+								"fontWeight": "bold",
+								"fontStyle": "italic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 11,
+								"fontWeight": "bold",
+								"fontStyle": "italic"
+							}
+						}
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 383,
+					"left": 213,
+					"width": 110,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Badd",
+					"text": "Add Data Type",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/Variable9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 26,
+					"left": 347,
+					"width": 87,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Data Name"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 26,
+					"left": 446,
+					"width": 209,
+					"height": 14,
+					"dataSource": "Job_t_DataName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 56,
+					"left": 349,
+					"width": 87,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Data Type"
+				},
+				"Popup Drop down List1": {
+					"type": "dropdown",
+					"top": 54,
+					"left": 632,
+					"width": 24,
+					"height": 16,
+					"dataSource": "JOB_at_JobDataTypes",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Popup Drop down List1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 56,
+					"left": 446,
+					"width": 189,
+					"height": 14,
+					"dataSource": "JOB_t_DataType",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oInfoLabel": {
+					"type": "text",
+					"top": 89,
+					"left": 347,
+					"width": 87,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Information List"
+				},
+				"Popup Drop down List2": {
+					"type": "dropdown",
+					"top": 87,
+					"left": 443,
+					"width": 212,
+					"height": 16,
+					"dataSource": "QV_at_QualityGroupsNM",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Popup Drop down List2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oLBQuals": {
+					"type": "listbox",
+					"top": 87,
+					"left": 444,
+					"width": 211,
+					"height": 258,
+					"resizingMode": "legacy",
+					"dataSource": "QV_lb_QualityNames",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBQuals.4dm",
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 196,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oQualsADD": {
+					"type": "button",
+					"top": 351,
+					"left": 572,
+					"width": 77,
+					"height": 17,
+					"dataSource": "bAddQual",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oQualsADD.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oQualsDel": {
+					"type": "button",
+					"top": 351,
+					"left": 478,
+					"width": 77,
+					"height": 17,
+					"dataSource": "bdelQual",
+					"text": "Remove",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oQualsDel.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

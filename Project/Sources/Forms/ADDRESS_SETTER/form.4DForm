@@ -1,0 +1,350 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAddressFieldName2": {
+					"type": "dropdown",
+					"top": 53,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_1",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName1": {
+					"type": "dropdown",
+					"top": 95,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_2",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName3": {
+					"type": "dropdown",
+					"top": 137,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_3",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName4": {
+					"type": "dropdown",
+					"top": 179,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_4",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName5": {
+					"type": "dropdown",
+					"top": 221,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_5",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName6": {
+					"type": "dropdown",
+					"top": 263,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_6",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName7": {
+					"type": "dropdown",
+					"top": 305,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_7",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldName8": {
+					"type": "dropdown",
+					"top": 347,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_8",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressBlock": {
+					"type": "input",
+					"top": 436,
+					"left": 39,
+					"width": 294,
+					"height": 72,
+					"dataSource": "RR_t_AddressBlock",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 419,
+					"left": 40,
+					"width": 164,
+					"height": 14,
+					"class": "Labels",
+					"text": "Address From Website"
+				},
+				"oAddressFieldData1": {
+					"type": "input",
+					"top": 61,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData2": {
+					"type": "input",
+					"top": 103,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData3": {
+					"type": "input",
+					"top": 145,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData4": {
+					"type": "input",
+					"top": 187,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData5": {
+					"type": "input",
+					"top": 229,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData6": {
+					"type": "input",
+					"top": 272,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData7": {
+					"type": "input",
+					"top": 315,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData8": {
+					"type": "input",
+					"top": 358,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButton": {
+					"type": "button",
+					"top": 502,
+					"left": 418,
+					"width": 116,
+					"height": 22,
+					"dataSource": "RR_l_ButtonContinue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddressFieldName9": {
+					"type": "dropdown",
+					"top": 387,
+					"left": 39,
+					"width": 216,
+					"height": 28,
+					"dataSource": "RR_at_AddressFIeldName_9",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oAddressFieldName9.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAddressFieldData9": {
+					"type": "input",
+					"top": 398,
+					"left": 269,
+					"width": 260,
+					"height": 14,
+					"dataSource": "RR_t_AddressFieldData_9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

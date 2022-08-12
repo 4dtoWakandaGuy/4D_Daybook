@@ -1,0 +1,1262 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oBackGround": {
+					"type": "rectangle",
+					"top": 73,
+					"left": 2,
+					"width": 177,
+					"height": 5,
+					"sizingY": "grow",
+					"stroke": "transparent",
+					"strokeWidth": 0.1,
+					"sizingX": "grow"
+				},
+				"oInSheenTurquoise": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenTurquoise.png"
+				},
+				"oInSheenBlue": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenBlue.png"
+				},
+				"oInSheenBrown": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenBrown.png"
+				},
+				"oInSheenGreen": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenGreen.png"
+				},
+				"oInSheenorange": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenOrange.png"
+				},
+				"oInSheenPurple": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenPurple.png"
+				},
+				"oInSheenSteel": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenSteel.png"
+				},
+				"oInSheenWine": {
+					"type": "picture",
+					"top": 72,
+					"left": 1,
+					"width": 178,
+					"height": 5,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/oInSheenWine.png"
+				},
+				"oSaveButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oSaveButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Return]"
+				},
+				"oCancelButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oCancelButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oTimeManagerbutton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oTimeManagerbutton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oProductsButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oProductsButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oContactsButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oContactsButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oCompanyButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oCompanyButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oQualitiesButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oQualitiesButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oReportButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oReportButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oPlusButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oPlusButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oMinusButton": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/oMinusButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"oStrapHeader": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 179,
+					"height": 71,
+					"sizingX": "grow",
+					"fill": "#444444",
+					"stroke": "transparent",
+					"borderRadius": 1
+				},
+				"oButtonSelecti": {
+					"type": "button",
+					"top": 2,
+					"left": 0,
+					"width": 2,
+					"height": 20,
+					"dataSource": "xSelectvv",
+					"shortcutKey": "m",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/oButtonSelecti.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden",
+					"right": 2,
+					"bottom": 22
+				},
+				"oButtonCancelEscape": {
+					"type": "button",
+					"top": 2,
+					"left": 1,
+					"width": 1,
+					"height": 20,
+					"dataSource": "iCancelesc",
+					"shortcutKey": "[Esc]",
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/oButtonCancelEscape.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden",
+					"bottom": 22,
+					"right": 2
+				},
+				"oButtonSaveEnter": {
+					"type": "button",
+					"top": 2,
+					"left": 0,
+					"width": 2,
+					"height": 20,
+					"dataSource": "isaveEnter",
+					"shortcutKey": "[Enter]",
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/oButtonSaveEnter.4dm",
+					"events": [
+						"onClick"
+					],
+					"right": 2
+				},
+				"oInputButtonNextRecord": {
+					"type": "button",
+					"top": 0,
+					"left": 59,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_but_NextRecord",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp8"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_NEXT.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oInputButtonNextRecord.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oInputButtonPreviousRecord": {
+					"type": "button",
+					"top": 0,
+					"left": 30,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_but_PreviousRecord",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp7"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PREV.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oInputButtonPreviousRecord.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oBarButton2": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton2.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton3": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton3.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton4": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHElp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton4.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton5": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp5"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton5.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton6": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_6",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp6"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton6.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton7": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_7",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp7"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton7.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton8": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_8",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp8"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton8.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton9": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_9",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp9"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton9.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton10": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_10",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp10"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton10.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton11": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp11"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton11.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton12": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_12",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp12"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton12.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton13": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_13",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp13"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton13.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton14": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_14",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp14"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton14.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton15": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton15.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton16": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_16",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp16"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton16.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton17": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_17",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp17"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton17.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton18": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_18",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp18"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton18.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton19": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_19",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp19"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton19.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton20": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_20",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton20.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton21": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_21",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton21.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton22": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_22",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton22.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton23": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_23",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton23.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton24": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_24",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton24.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oBarButton25": {
+					"type": "button",
+					"top": 3,
+					"left": 121,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_25",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton25.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					],
+					"icon": "var:"
+				},
+				"oInputButtonLastRecord": {
+					"type": "button",
+					"top": 0,
+					"left": 88,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_but_LastRecord",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp10"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_LAST.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oInputButtonLastRecord.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oInputButtonFirstRecord": {
+					"type": "button",
+					"top": 0,
+					"left": 1,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_but_FirstRecord",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp9"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_FIRST.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oInputButtonFirstRecord.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonPlusOption": {
+					"type": "button",
+					"top": 1,
+					"left": 1,
+					"width": 1,
+					"height": 1,
+					"dataSource": "xReport",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/oButtonPlusOption.4dm",
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden",
+					"right": 2,
+					"bottom": 2
+				},
+				"oOutStrip": {
+					"type": "input",
+					"top": 65,
+					"left": 0,
+					"width": 178,
+					"height": 3,
+					"sizingX": "grow",
+					"dataSource": "INT_p_OutStrip",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onHeader",
+						"onDataChange"
+					]
+				},
+				"oShowButtons": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 3,
+					"height": 2,
+					"sizingY": "grow",
+					"dataSource": "DB_OutputButtonsShow",
+					"display": false,
+					"method": "ObjectMethods/oShowButtons.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail",
+						"onMouseEnter"
+					]
+				},
+				"oMinusOptionButton": {
+					"type": "button",
+					"top": 2,
+					"left": 176,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp5"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oMinusOptionButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {}
+		},
+		{
+			"objects": {}
+		},
+		{
+			"objects": {}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 1280,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"formSizeAnchor": "oButtonSelecti"
+}

@@ -1,0 +1,270 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oRBoption1": {
+					"type": "radio",
+					"top": 45,
+					"left": 125,
+					"width": 231,
+					"height": 15,
+					"dataSource": "WEB_i_RBOption1",
+					"text": "Public Website",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBoption2": {
+					"type": "checkbox",
+					"top": 68,
+					"left": 165,
+					"width": 231,
+					"height": 14,
+					"dataSource": "WEB_i_RBOption2",
+					"text": "Enable Client Login",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBoption3": {
+					"type": "checkbox",
+					"top": 90,
+					"left": 165,
+					"width": 231,
+					"height": 14,
+					"dataSource": "WEB_i_RBOption3",
+					"text": "Enable User Login",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBoption4": {
+					"type": "radio",
+					"top": 124,
+					"left": 125,
+					"width": 231,
+					"height": 15,
+					"dataSource": "WEB_i_RBOption4",
+					"text": "Client Website",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBoption5": {
+					"type": "checkbox",
+					"top": 145,
+					"left": 165,
+					"width": 231,
+					"height": 14,
+					"dataSource": "WEB_i_RBOption5",
+					"text": "Enable User Login",
+					"fontFamily": "Futura Medium",
+					"fontSize": 10,
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBoption6": {
+					"type": "radio",
+					"top": 175,
+					"left": 125,
+					"width": 231,
+					"height": 15,
+					"dataSource": "WEB_i_RBOption6",
+					"text": "User Login only",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"OtemplateAssociation": {
+					"type": "dropdown",
+					"top": 390,
+					"left": 3,
+					"width": 156,
+					"height": 18,
+					"dataSource": "WEB_at_Associations",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTemplateStyle": {
+					"type": "input",
+					"top": 200,
+					"left": 146,
+					"width": 329,
+					"height": 140,
+					"dataSource": "WEB_p_TemplateLayout",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OtemplateName": {
+					"type": "dropdown",
+					"top": 416,
+					"left": 3,
+					"width": 156,
+					"height": 18,
+					"dataSource": "WEB_at_TemplateName",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTemplatesView": {
+					"type": "button",
+					"top": 366,
+					"left": 141,
+					"width": 180,
+					"height": 22,
+					"dataSource": "View Templates",
+					"text": "View Template Options",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oTemplatesView.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonExit": {
+					"type": "button",
+					"top": 386,
+					"left": 375,
+					"width": 79,
+					"height": 22,
+					"dataSource": "WEB_l_Exit",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCBWebServerStartup": {
+					"type": "checkbox",
+					"top": 35,
+					"left": 106,
+					"width": 223,
+					"height": 24,
+					"dataSource": "WEB_bo_StartWebServerAtStart",
+					"text": "Run Web Server On Startup",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCBWebServerManager": {
+					"type": "checkbox",
+					"top": 63,
+					"left": 106,
+					"width": 303,
+					"height": 24,
+					"dataSource": "WEB_bo_OpenManagerOnServer",
+					"text": "Open Web Mangagement WIndow On Server",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCBWebSSL": {
+					"type": "checkbox",
+					"top": 91,
+					"left": 106,
+					"width": 303,
+					"height": 24,
+					"dataSource": "WEB_bo_EnableSSL",
+					"text": "Logged in access Uses SSL",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSSLCerts": {
+					"type": "button",
+					"top": 120,
+					"left": 278,
+					"width": 188,
+					"height": 22,
+					"dataSource": "WEB_l_but_ManageCerts",
+					"text": "Manage SSL Certificate",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCBWebSSL1": {
+					"type": "checkbox",
+					"top": 151,
+					"left": 106,
+					"width": 303,
+					"height": 24,
+					"dataSource": "WEB_bo_EnableSSL",
+					"text": "Logged in access Uses SSL",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

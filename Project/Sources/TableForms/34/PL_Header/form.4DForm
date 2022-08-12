@@ -1,0 +1,251 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 93,
+	"markerBreak": 93,
+	"markerFooter": 93,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 800,
+					"height": 400,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 87,
+					"left": 27,
+					"width": 479
+				},
+				"Text1": {
+					"type": "text",
+					"top": 70,
+					"left": 27,
+					"width": 72,
+					"height": 9,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"text": "Account"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 70,
+					"left": 448,
+					"width": 58,
+					"height": 9,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"class": "Print_9pt_TIMES",
+					"textAlign": "right",
+					"text": "Balance"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 9,
+					"left": 28,
+					"width": 398,
+					"height": 17,
+					"dataSource": "vTitle",
+					"stroke": "#000000",
+					"class": "Print_18pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 9,
+					"left": 428,
+					"width": 79,
+					"height": 17,
+					"dataSource": "<>DB_d_CurrentDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Print_18pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 39,
+					"left": 28,
+					"width": 479,
+					"height": 13,
+					"dataSource": "vTitle2",
+					"stroke": "#000000",
+					"class": "Print_14pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 97,
+					"left": 28,
+					"width": 59,
+					"height": 13,
+					"dataSource": "vCode",
+					"stroke": "#000000",
+					"class": "Print_14pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 97,
+					"left": 89,
+					"width": 274,
+					"height": 13,
+					"dataSource": "vAccName",
+					"stroke": "#000000",
+					"class": "Print_14pt_TIMES",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 97,
+					"left": 366,
+					"width": 140,
+					"height": 13,
+					"dataSource": "vBalance",
+					"stroke": "#000000",
+					"class": "Print_14pt_TIMES",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

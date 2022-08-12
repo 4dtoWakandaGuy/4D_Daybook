@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"CreditStage_In": {
+			"timeStamp": "2022-03-10T16:49:20.982Z",
+			"destination": "detailScreen"
+		},
+		"InvStages_Out": {
+			"timeStamp": "2022-05-03T18:49:10.561Z",
+			"destination": "listScreen"
+		}
+	}
+}

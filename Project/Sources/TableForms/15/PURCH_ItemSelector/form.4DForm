@@ -1,0 +1,262 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 27,
+					"left": 0,
+					"width": 502,
+					"height": 222,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": "Headers",
+					"text": ":xliff:FieldLabels_itemsForPurchaseInvoice"
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 256,
+					"left": 270,
+					"width": 102,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": ":xliff:CancelButton",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 256,
+					"left": 384,
+					"width": 103,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BDelete",
+					"shortcutKey": "[Return]",
+					"text": ":xliff:ContinueButton",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 280,
+					"left": 4,
+					"width": 103,
+					"height": 1,
+					"dataSource": "BCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/Variable7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 282,
+					"left": 157,
+					"width": 103,
+					"height": 1,
+					"dataSource": "BDelete",
+					"shortcutKey": "[Enter]",
+					"text": "Delete",
+					"display": false,
+					"method": "ObjectMethods/Variable8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"olbPOItems": {
+					"type": "listbox",
+					"top": 49,
+					"left": 4,
+					"width": 491,
+					"height": 175,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "PO_lb_COPYITEMS",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/olbPOItems.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 476,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"iReceived1": {
+					"type": "button",
+					"top": 226,
+					"left": 377,
+					"width": 110,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BReceived",
+					"text": ":xliff:ToggleReceived",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/iReceived1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 249,
+					"left": 28,
+					"width": 241,
+					"height": 40,
+					"sizingY": "move",
+					"class": "Field_INFOS",
+					"text": ":xliff:Text_markingPurchaseOrderItem"
+				},
+				"iReceived2": {
+					"type": "button",
+					"top": 226,
+					"left": 259,
+					"width": 110,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bcopy",
+					"text": ":xliff:ToggleCopy",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/iReceived2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

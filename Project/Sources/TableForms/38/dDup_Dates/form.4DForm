@@ -1,0 +1,268 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 289,
+					"left": 391,
+					"width": 26,
+					"height": 13,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 14,
+					"left": 13,
+					"width": 286,
+					"height": 256,
+					"stroke": "#076000",
+					"class": "Labels",
+					"text": "Dates..."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 64,
+					"left": 164,
+					"width": 125,
+					"height": 13,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Current Order Date"
+				},
+				"Subform1": {
+					"type": "subform",
+					"top": 41,
+					"left": 26,
+					"width": 100,
+					"height": 217,
+					"dataSourceTypeHint": "text",
+					"table": 160,
+					"listForm": "dDup Sub",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"printFrame": "variable",
+					"borderStyle": "double"
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 113,
+					"left": 172,
+					"width": 67,
+					"height": 17,
+					"dataSource": "xSelect",
+					"shortcutKey": "w",
+					"shortcutAccel": true,
+					"text": "Weeks - W",
+					"class": "BUttons_SMALL",
+					"stroke": "#076000",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 138,
+					"left": 172,
+					"width": 66,
+					"height": 18,
+					"dataSource": "xSelect",
+					"shortcutKey": "m",
+					"shortcutAccel": true,
+					"text": "Months - M",
+					"class": "BUttons_SMALL",
+					"stroke": "#076000",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 214,
+					"left": 319,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 246,
+					"left": 319,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 84,
+					"left": 165,
+					"width": 115,
+					"height": 13,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#076000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 275,
+					"left": 67,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xPlus",
+					"action": "addSubrecord",
+					"shortcutKey": "[Tab]",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 275,
+					"left": 101,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xMinus",
+					"action": "deleteSubrecord",
+					"shortcutKey": "[Tab]",
+					"shortcutControl": true,
+					"shortcutShift": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

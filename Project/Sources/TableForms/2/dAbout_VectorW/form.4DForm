@@ -1,0 +1,320 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerBody": 318,
+	"markerBreak": 338,
+	"markerFooter": 358,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Picture5": {
+					"type": "picture",
+					"top": 1,
+					"left": 0,
+					"width": 67,
+					"height": 59,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Modulus Logo Medium.png"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 0,
+					"left": 63,
+					"width": 67,
+					"height": 59,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Modulus Logo Medium.png"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 0,
+					"left": 125,
+					"width": 67,
+					"height": 59,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Modulus Logo Medium.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oProgress": {
+					"type": "input",
+					"top": 187,
+					"left": 299,
+					"width": 227,
+					"height": 11,
+					"dataSource": "<>Progress",
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 308,
+					"left": 294,
+					"width": 236,
+					"height": 12,
+					"dataSource": "DB_T_ScreenT",
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oVersionNo": {
+					"type": "input",
+					"top": 325,
+					"left": 447,
+					"width": 53,
+					"height": 12,
+					"dataSource": "VER_t_CustomerLicenceVersion",
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oL_VersionBuildNo": {
+					"type": "input",
+					"top": 325,
+					"left": 502,
+					"width": 20,
+					"height": 12,
+					"dataSource": "VER_l_CustomerBuild",
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ot_DataVersionNo": {
+					"type": "input",
+					"top": 343,
+					"left": 446,
+					"width": 76,
+					"height": 12,
+					"dataSource": "SYS_t_DataVersionNumber",
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ot_DataVersionNoTitle": {
+					"type": "text",
+					"top": 343,
+					"left": 363,
+					"width": 80,
+					"height": 12,
+					"stroke": "#888888",
+					"class": "SplashScreenText",
+					"fontWeight": "bold",
+					"text": "Data file Version"
+				},
+				"oSplashThermometer": {
+					"type": "progress",
+					"top": 202,
+					"left": 298,
+					"width": 222,
+					"height": 12,
+					"dataSource": "<>_l_splashThermoMeter",
+					"continuousExecution": false,
+					"min": 0,
+					"max": 100,
+					"enterable": true,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 349,
+					"left": 32,
+					"width": 52,
+					"height": 11,
+					"stroke": "#005F60",
+					"class": "Bold_Geneva_9",
+					"textAlign": "right",
+					"text": "Version No:"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 349,
+					"left": 88,
+					"width": 27,
+					"height": 11,
+					"dataSource": "<>SYS_t_PathVersion",
+					"stroke": "#005F60",
+					"class": "Bold_Geneva_9",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 349,
+					"left": 118,
+					"width": 47,
+					"height": 11,
+					"dataSource": "SYS_t_VersionNumber",
+					"stroke": "#005F60",
+					"class": "Bold_Geneva_9",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

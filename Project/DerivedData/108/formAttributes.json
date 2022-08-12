@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Catalogue_Input": {
+			"timeStamp": "2022-04-26T19:34:27.916Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.852Z",
+			"destination": "listScreen"
+		}
+	}
+}

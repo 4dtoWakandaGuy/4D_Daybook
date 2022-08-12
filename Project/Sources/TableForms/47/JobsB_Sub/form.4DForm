@@ -1,0 +1,374 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 15,
+	"markerBreak": 16,
+	"markerFooter": 16,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 0,
+					"left": 205,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 296,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 249,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 406,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 359,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 0,
+					"left": 469,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 0,
+					"left": 169,
+					"height": 15,
+					"stroke": "#FFFFFF"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 14,
+					"left": 0,
+					"width": 484,
+					"stroke": "#FFFFFF"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 15,
+					"left": 0,
+					"width": 484,
+					"stroke": "#444444"
+				},
+				"Line10": {
+					"type": "line",
+					"top": 0,
+					"left": 0,
+					"height": 15,
+					"stroke": "#444444"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 0,
+					"left": 2,
+					"width": 49,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]Stage_Code:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 0,
+					"left": 53,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]Stage_Name:3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 0,
+					"left": 171,
+					"width": 33,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]B_Actual_Hours:15",
+					"dataSourceTypeHint": "time",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 0,
+					"left": 207,
+					"width": 41,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]AT_Actual_Units:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 0,
+					"left": 251,
+					"width": 44,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]B_Client_Rate:12",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 0,
+					"left": 298,
+					"width": 60,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]AS_Quoted_Amount:7",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 0,
+					"left": 361,
+					"width": 44,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]B_Applicant_Rate:13",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field8": {
+					"type": "input",
+					"top": 0,
+					"left": 408,
+					"width": 60,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]AT_Budget_Sales_Amount:8",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field9": {
+					"type": "input",
+					"top": 0,
+					"left": 471,
+					"width": 11,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]TAX_Code:14",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

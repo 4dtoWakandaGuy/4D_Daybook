@@ -1,0 +1,476 @@
+{
+	"destination": "detailPrinter",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 325,
+					"left": 18,
+					"width": 348,
+					"height": 221,
+					"class": "Default",
+					"text": "This form is for enabling the user to choose a number of options\rthere are two pages one with radio buttons-for choosing one of a list of items and one for choosing multiple options with check boxes\r10 per page.\r"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 281,
+					"left": 219,
+					"width": 86,
+					"height": 22,
+					"dataSource": "Variable1",
+					"text": "Stop",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 282,
+					"left": 316,
+					"width": 90,
+					"height": 22,
+					"dataSource": "BContinue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Radio Button1": {
+					"type": "radio",
+					"top": 23,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad1",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button2": {
+					"type": "radio",
+					"top": 48,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad2",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button3": {
+					"type": "radio",
+					"top": 74,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad3",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button4": {
+					"type": "radio",
+					"top": 100,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad4",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button5": {
+					"type": "radio",
+					"top": 126,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad5",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button6": {
+					"type": "radio",
+					"top": 152,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad6",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button7": {
+					"type": "radio",
+					"top": 178,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad7",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button8": {
+					"type": "radio",
+					"top": 204,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad8",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button9": {
+					"type": "radio",
+					"top": 230,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad9",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button10": {
+					"type": "radio",
+					"top": 256,
+					"left": 15,
+					"width": 390,
+					"height": 18,
+					"dataSource": "Gen_Rad10",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Radio Button11": {
+					"type": "checkbox",
+					"top": 17,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB1",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button12": {
+					"type": "checkbox",
+					"top": 42,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB2",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button13": {
+					"type": "checkbox",
+					"top": 68,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB3",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button14": {
+					"type": "checkbox",
+					"top": 94,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB4",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button15": {
+					"type": "checkbox",
+					"top": 120,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB5",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button16": {
+					"type": "checkbox",
+					"top": 146,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB6",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button17": {
+					"type": "checkbox",
+					"top": 172,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB7",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button18": {
+					"type": "checkbox",
+					"top": 198,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB8",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button19": {
+					"type": "checkbox",
+					"top": 224,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB9",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button20": {
+					"type": "checkbox",
+					"top": 250,
+					"left": 9,
+					"width": 405,
+					"height": 18,
+					"dataSource": "Gen_CB10",
+					"text": "Radio Button",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

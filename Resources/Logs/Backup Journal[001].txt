@@ -1,0 +1,5 @@
+*** Automatic Full Backup Restore
+Starting:  06/08/2022 11:16
+Ending:  06/08/2022 11:16
+Result: backup not available
+

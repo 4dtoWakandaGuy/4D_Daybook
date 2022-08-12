@@ -1,0 +1,1081 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAutofilOptionsLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 12,
+					"width": 143,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Autofill Options..."
+				},
+				"oAllEntriesSame": {
+					"type": "radio",
+					"top": 8,
+					"left": 127,
+					"width": 299,
+					"height": 19,
+					"dataSource": "SP_rb_Choice1",
+					"text": "All entries to same amount",
+					"class": "check_box_text_LARGE",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAccept": {
+					"type": "button",
+					"top": 78,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Accept",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAccept.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEntryBasedonPreviousEntry": {
+					"type": "radio",
+					"top": 28,
+					"left": 127,
+					"width": 290,
+					"height": 19,
+					"dataSource": "SP_rb_Choice2",
+					"text": "Each Entry Based on Previous Entry",
+					"class": "check_box_text_LARGE",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEntryBasedOnPreviousYear": {
+					"type": "radio",
+					"top": 48,
+					"left": 127,
+					"width": 297,
+					"height": 19,
+					"dataSource": "SP_rb_Choice3",
+					"text": "Entries based on Previous Years",
+					"class": "check_box_text_LARGE",
+					"fontWeight": "bold",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancel": {
+					"type": "button",
+					"top": 78,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelEsc": {
+					"type": "button",
+					"top": 77,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_But_CancelEsc",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oCancelEsc.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptEnter": {
+					"type": "button",
+					"top": 78,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_AcceptEnter",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oAcceptEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oTargetAllEntriesLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 12,
+					"width": 191,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Target Amount for all entries..."
+				},
+				"oCurrencyCode": {
+					"type": "input",
+					"top": 35,
+					"left": 168,
+					"width": 51,
+					"height": 15,
+					"dataSource": "SP_t_FCurrencyCode",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetAmount": {
+					"type": "input",
+					"top": 35,
+					"left": 255,
+					"width": 91,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": "Add Multiple Targets",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyDropDown": {
+					"type": "dropdown",
+					"top": 35,
+					"left": 221,
+					"width": 20,
+					"height": 13,
+					"dataSource": "SP_at_CurrencyNames",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oCurrencyDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptP2": {
+					"type": "button",
+					"top": 78,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Accept",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAcceptP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelP2": {
+					"type": "button",
+					"top": 78,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancelP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oReselectP2": {
+					"type": "button",
+					"top": 76,
+					"left": 8,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Reselect",
+					"shortcutKey": "Â",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "Reselect",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oReselectP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelEscP2": {
+					"type": "button",
+					"top": 78,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_But_CancelEsc",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oCancelEscP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptEnterP2": {
+					"type": "button",
+					"top": 78,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_AcceptEnter",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oAcceptEnterP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCalculatedTargetsLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 12,
+					"width": 191,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Calculated targets..."
+				},
+				"oFirstEntryLabel": {
+					"type": "text",
+					"top": 35,
+					"left": 23,
+					"width": 135,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Target for 1st Entry :"
+				},
+				"oIncrementLabel": {
+					"type": "text",
+					"top": 55,
+					"left": -5,
+					"width": 165,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Increment each target :"
+				},
+				"oIncrementCurrency": {
+					"type": "input",
+					"top": 56,
+					"left": 205,
+					"width": 32,
+					"height": 15,
+					"dataSource": "SP_t_FCurrencyCode2",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oIncrementAmount": {
+					"type": "input",
+					"top": 56,
+					"left": 240,
+					"width": 91,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount2",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oIncrementAmount.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOrLabel": {
+					"type": "text",
+					"top": 55,
+					"left": 334,
+					"width": 17,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Or"
+				},
+				"oIncrementPercent": {
+					"type": "input",
+					"top": 56,
+					"left": 355,
+					"width": 31,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount3",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oIncrementPercent.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oIncrementType": {
+					"type": "input",
+					"top": 56,
+					"left": 163,
+					"width": 19,
+					"height": 15,
+					"dataSource": "SP_t_FPlusMinus",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPercentageLabel": {
+					"type": "text",
+					"top": 56,
+					"left": 389,
+					"width": 17,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "%"
+				},
+				"oIncrementTypeDropDown": {
+					"type": "dropdown",
+					"top": 53,
+					"left": 184,
+					"width": 20,
+					"height": 15,
+					"dataSource": "SP_at_PlusorMinus",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oIncrementTypeDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyCodeFirst": {
+					"type": "input",
+					"top": 35,
+					"left": 168,
+					"width": 51,
+					"height": 15,
+					"dataSource": "SP_at_FCurrencyCode",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetAmountP3": {
+					"type": "input",
+					"top": 35,
+					"left": 240,
+					"width": 91,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyDropDownP3": {
+					"type": "dropdown",
+					"top": 37,
+					"left": 221,
+					"width": 15,
+					"height": 16,
+					"dataSource": "SP_at_CurrencyNames",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oCurrencyDropDownP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptP3": {
+					"type": "button",
+					"top": 78,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Accept",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAcceptP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelP3": {
+					"type": "button",
+					"top": 78,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancelP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oReselectP3": {
+					"type": "button",
+					"top": 76,
+					"left": 8,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Reselect",
+					"shortcutKey": "Â",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "Reselect",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oReselectP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelEscP3": {
+					"type": "button",
+					"top": 78,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_But_CancelEsc",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oCancelEscP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptEnterP3": {
+					"type": "button",
+					"top": 77,
+					"left": 381,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_AcceptEnter",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oAcceptEnterP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oPreviousYearsLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 12,
+					"width": 191,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Previous Years..."
+				},
+				"oIncrementLabelP4": {
+					"type": "text",
+					"top": 184,
+					"left": 62,
+					"width": 165,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Increment target :"
+				},
+				"oBasedOnTarget": {
+					"type": "radio",
+					"top": 204,
+					"left": 145,
+					"width": 160,
+					"height": 12,
+					"dataSource": "SP_l_BasedOnTarget",
+					"text": "Based on Targets",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBasedOnResults": {
+					"type": "radio",
+					"top": 204,
+					"left": 314,
+					"width": 160,
+					"height": 12,
+					"dataSource": "SP_l_BasedOnResults",
+					"text": "Based on Results",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyCodeP4": {
+					"type": "input",
+					"top": 185,
+					"left": 276,
+					"width": 32,
+					"height": 15,
+					"dataSource": "SP_t_FCurrencyCode2",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oIncrementAmountP4": {
+					"type": "input",
+					"top": 185,
+					"left": 311,
+					"width": 91,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount2",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOrLabelP4": {
+					"type": "text",
+					"top": 184,
+					"left": 405,
+					"width": 17,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Or"
+				},
+				"oIncrementPercentP4": {
+					"type": "input",
+					"top": 185,
+					"left": 426,
+					"width": 31,
+					"height": 15,
+					"dataSource": "SP_R_AFTargetAmount3",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oIncrementTypeP4": {
+					"type": "input",
+					"top": 185,
+					"left": 234,
+					"width": 19,
+					"height": 15,
+					"dataSource": "SP_t_FPlusMinus",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPercentageLabelP4": {
+					"type": "text",
+					"top": 185,
+					"left": 459,
+					"width": 17,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "%"
+				},
+				"oIncrementTypeDropDownP4": {
+					"type": "dropdown",
+					"top": 183,
+					"left": 254,
+					"width": 20,
+					"height": 16,
+					"dataSource": "SP_at_PlusorMinus",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oIncrementTypeDropDownP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptP4": {
+					"type": "button",
+					"top": 236,
+					"left": 380,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Accept",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAcceptP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelP4": {
+					"type": "button",
+					"top": 237,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancelP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oReselctP4": {
+					"type": "button",
+					"top": 237,
+					"left": 8,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_Reselect",
+					"shortcutKey": "Â",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "Reselect",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oReselctP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptEnterP4": {
+					"type": "button",
+					"top": 236,
+					"left": 380,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_but_AcceptEnter",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oAcceptEnterP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelEscP4": {
+					"type": "button",
+					"top": 237,
+					"left": 265,
+					"width": 100,
+					"height": 22,
+					"dataSource": "SP_But_CancelEsc",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oCancelEscP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSPPreviousYears": {
+					"type": "listbox",
+					"top": 26,
+					"left": 61,
+					"width": 424,
+					"height": 148,
+					"resizingMode": "legacy",
+					"dataSource": "SP_lb_Listbox2",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSPPreviousYears.4dm",
+					"events": [
+						"onClick",
+						"onDrop",
+						"onDataChange",
+						"onDragOver"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 409,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 71,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

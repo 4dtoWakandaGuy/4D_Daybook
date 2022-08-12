@@ -1,0 +1,551 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerBody": 590,
+	"markerBreak": 610,
+	"markerFooter": 630,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 2,
+					"width": 547,
+					"height": 50,
+					"sizingX": "grow",
+					"fill": "#CCCCCC"
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 585,
+					"left": 36,
+					"width": 16,
+					"height": 1,
+					"dataSource": "iOK",
+					"shortcutKey": "\u0003",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 585,
+					"left": 53,
+					"width": 16,
+					"height": 1,
+					"dataSource": "iCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 29,
+					"left": 12,
+					"width": 89,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Heading"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 11,
+					"left": 12,
+					"width": 96,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Document Code"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 29,
+					"left": 360,
+					"width": 29,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Text"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 11,
+					"left": 247,
+					"width": 49,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Person"
+				},
+				"Field5": {
+					"type": "checkbox",
+					"top": 9,
+					"left": 358,
+					"width": 83,
+					"height": 16,
+					"dataSource": "[DOCUMENTS:7]Standard:9",
+					"text": "Standard",
+					"stroke": "#663300",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 11,
+					"left": 100,
+					"width": 91,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Document_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 11,
+					"left": 302,
+					"width": 51,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Person:10",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 28,
+					"left": 100,
+					"width": 242,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Heading:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 28,
+					"left": 394,
+					"width": 143,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Text:3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "plugin",
+					"top": 235,
+					"left": 4,
+					"width": 541,
+					"height": 345,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "EmailWrite",
+					"pluginAreaKind": "_4D WRITE",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 11,
+					"left": 441,
+					"width": 25,
+					"height": 15,
+					"dataSource": "xSearch",
+					"text": "Y/N",
+					"class": "BUttons_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 11,
+					"left": 469,
+					"width": 68,
+					"height": 13,
+					"dataSource": "[DOCUMENTS:7]Export:6",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "#CCCCCC",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 9,
+					"left": 198,
+					"width": 51,
+					"height": 17,
+					"dataSource": "bDup",
+					"text": "Duplicate",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 52,
+					"left": 2,
+					"width": 547,
+					"height": 180,
+					"sizingX": "grow",
+					"fill": "#CCCCCC"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 60,
+					"left": 11,
+					"width": 89,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Sender"
+				},
+				"Field7": {
+					"type": "input",
+					"top": 59,
+					"left": 99,
+					"width": 242,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]SR_PreMacro:16",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 78,
+					"left": 11,
+					"width": 89,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Receipients"
+				},
+				"Field8": {
+					"type": "input",
+					"top": 77,
+					"left": 99,
+					"width": 242,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]DOC_TYPE:18",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 96,
+					"left": 11,
+					"width": 89,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Attachments"
+				},
+				"Field9": {
+					"type": "input",
+					"top": 95,
+					"left": 99,
+					"width": 242,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]Heading:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 214,
+					"left": 9,
+					"width": 89,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#603000",
+					"class": "Labels",
+					"text": "Subject"
+				},
+				"Field10": {
+					"type": "input",
+					"top": 213,
+					"left": 97,
+					"width": 444,
+					"height": 14,
+					"dataSource": "[DOCUMENTS:7]DOC_PATH:21",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 153,
+					"left": 441,
+					"width": 99,
+					"height": 25,
+					"dataSource": "bWT_Send_Email",
+					"text": "SEND EMAIL",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 183,
+					"left": 441,
+					"width": 99,
+					"height": 25,
+					"dataSource": "WT_Cancel",
+					"action": "cancel",
+					"text": "CANCEL",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group2": [
+				"Variable1",
+				"Variable2"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

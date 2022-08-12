@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Period_In": {
+			"timeStamp": "2022-05-03T12:49:45.740Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.094Z",
+			"destination": "listScreen"
+		},
+		"Periods_Out": {
+			"timeStamp": "2022-03-18T02:51:47.498Z",
+			"destination": "listScreen"
+		}
+	}
+}

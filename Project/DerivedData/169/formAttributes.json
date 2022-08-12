@@ -1,0 +1,18 @@
+{
+	"forms": {
+		"Items_in": {
+			"timeStamp": "2022-03-14T12:47:22.722Z",
+			"destination": "detailScreen"
+		},
+		"Items_Sub": {
+			"timeStamp": "2022-03-14T12:47:23.900Z",
+			"destination": "listScreen"
+		},
+		"Items_SubP": {
+			"timeStamp": "2022-03-14T12:47:23.918Z"
+		},
+		"Form_Sub": {
+			"timeStamp": "2022-03-14T12:47:22.719Z"
+		}
+	}
+}

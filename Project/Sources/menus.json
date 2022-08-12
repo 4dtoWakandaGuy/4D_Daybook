@@ -1,0 +1,9979 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menu Bar #1",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 29618
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 9323
+				},
+				{
+					"link": 13462
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Menu Bar #2",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 3411
+				},
+				{
+					"link": 23382
+				},
+				{
+					"link": 9864
+				},
+				{
+					"link": 24191
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Menu Bar #3",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 29618
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 9203
+				},
+				{
+					"link": 9588
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Menu Bar #4",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 29618
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 17995
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Menu Bar #5",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 13832
+				},
+				{
+					"link": 13099
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "Menu Bar #6",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 17888
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Menu Bar #7",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 9323
+				},
+				{
+					"link": 10300
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Menu Bar #8",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 9323
+				},
+				{
+					"link": 7197
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "Menu Bar #9",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Menu Bar #10",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 1104
+				},
+				{
+					"link": 32424
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Menu Bar #11",
+			"items": [
+				{
+					"link": 16294
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 16706
+				},
+				{
+					"link": 28996
+				},
+				{
+					"link": 18973
+				},
+				{
+					"link": 4748
+				},
+				{
+					"link": 13832
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Menu Bar #12",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 12553
+				},
+				{
+					"link": 23128
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "Menu Bar #13",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 22319
+				},
+				{
+					"link": 17315
+				},
+				{
+					"link": 25146
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "Menu Bar #14",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 2776
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "Menu Bar #15",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 30562
+				},
+				{
+					"link": 3339
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "Menu Bar #16",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 20922
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "Menu Bar #17",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 18535
+				},
+				{
+					"link": 11063
+				},
+				{
+					"link": 10696
+				},
+				{
+					"link": 21861
+				},
+				{
+					"link": 5093
+				}
+			]
+		},
+		{
+			"id": 18,
+			"name": "Menu Bar #18",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 9323
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "Menu Bar #19",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 29618
+				},
+				{
+					"link": 16214
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "Menu Bar #20",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 29618
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 9323
+				},
+				{
+					"link": 13462
+				}
+			]
+		},
+		{
+			"id": 21,
+			"name": "Menu Bar #21",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 25270
+				},
+				{
+					"link": 9588
+				}
+			]
+		},
+		{
+			"id": 22,
+			"name": "Menu Bar #22",
+			"items": [
+				{
+					"link": 16294
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 30671
+				},
+				{
+					"link": 28996
+				},
+				{
+					"link": 18973
+				},
+				{
+					"link": 4748
+				},
+				{
+					"link": 13832
+				}
+			]
+		},
+		{
+			"id": 23,
+			"name": "Menu Bar #23",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 18514
+				},
+				{
+					"link": 10567
+				},
+				{
+					"link": 25569
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "Menu Bar #24",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 23200
+				},
+				{
+					"link": 28888
+				}
+			]
+		},
+		{
+			"id": 25,
+			"name": "Menu Bar #25",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 24783
+				},
+				{
+					"link": 22776
+				}
+			]
+		},
+		{
+			"id": 26,
+			"name": "Menu Bar #26",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 29962
+				},
+				{
+					"link": 28768
+				}
+			]
+		},
+		{
+			"id": 27,
+			"name": "Menu Bar #27",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 11774
+				},
+				{
+					"link": 26727
+				}
+			]
+		},
+		{
+			"id": 28,
+			"name": "Menu Bar #28",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 28509
+				},
+				{
+					"link": 1398
+				}
+			]
+		},
+		{
+			"id": 29,
+			"name": "Menu Bar #29",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 5087
+				},
+				{
+					"link": 17938
+				}
+			]
+		},
+		{
+			"id": 30,
+			"name": "Menu Bar #30",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 6557
+				}
+			]
+		},
+		{
+			"id": 31,
+			"name": "Menu Bar #31",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 14484
+				},
+				{
+					"link": 12122
+				},
+				{
+					"link": 14751
+				}
+			]
+		},
+		{
+			"id": 32,
+			"name": "Menu Bar #32",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 24539
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 33,
+			"name": "Menu Bar #33",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1713
+				},
+				{
+					"link": 31799
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 34,
+			"name": "Menu Bar #34",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 32532
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 35,
+			"name": "Menu Bar #35",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 23445
+				},
+				{
+					"link": 8349
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "Menu Bar #36",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 29359
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "Menu Bar #37",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 22527
+				}
+			]
+		},
+		{
+			"id": 38,
+			"name": "Menu Bar #38",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2202
+				},
+				{
+					"link": 25078
+				}
+			]
+		},
+		{
+			"id": 39,
+			"name": "Menu Bar #39",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 23678
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "Menu Bar #40",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 5186
+				},
+				{
+					"link": 15898
+				}
+			]
+		},
+		{
+			"id": 41,
+			"name": "Menu Bar #41",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4079
+				},
+				{
+					"link": 4761
+				}
+			]
+		},
+		{
+			"id": 42,
+			"name": "Menu Bar #42",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 17410
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 43,
+			"name": "Menu Bar #43",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 23490
+				},
+				{
+					"link": 23589
+				}
+			]
+		},
+		{
+			"id": 44,
+			"name": "Menu Bar #44",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 28996
+				},
+				{
+					"link": 5384
+				},
+				{
+					"link": 4392
+				}
+			]
+		},
+		{
+			"id": 45,
+			"name": "Menu Bar #45",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 21038
+				}
+			]
+		},
+		{
+			"id": 46,
+			"name": "Menu Bar #46",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 28996
+				},
+				{
+					"link": 5384
+				},
+				{
+					"link": 14554
+				}
+			]
+		},
+		{
+			"id": 47,
+			"name": "Menu Bar #47",
+			"items": [
+				{
+					"link": 16294
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 24149
+				},
+				{
+					"link": 23382
+				},
+				{
+					"link": 27597
+				},
+				{
+					"link": 10347
+				}
+			]
+		},
+		{
+			"id": 48,
+			"name": "Menu Bar #48",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4747
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 49,
+			"name": "Menu Bar #49",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 6468
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 50,
+			"name": "Menu Bar #50",
+			"picture": "/RESOURCES/Images/library/picture 22521.png",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 26968
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 51,
+			"name": "Menu Bar #51",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 12571
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 52,
+			"name": "Menu Bar #52",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 24223
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 53,
+			"name": "Menu Bar #53",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 21721
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 54,
+			"name": "Menu Bar #54",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2301
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 55,
+			"name": "Menu Bar #55",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 32636
+				}
+			]
+		},
+		{
+			"id": 56,
+			"name": "Menu Bar #56",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 3353
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 57,
+			"name": "Menu Bar #57",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 58,
+			"name": "Menu Bar #58",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 10592
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 59,
+			"name": "Menu Bar #59",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 828
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 60,
+			"name": "Menu Bar #60",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 5882
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 61,
+			"name": "Menu Bar #61",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 12834
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 62,
+			"name": "Menu Bar #62",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 13900
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 63,
+			"name": "Menu Bar #63",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2161
+				}
+			]
+		},
+		{
+			"id": 64,
+			"name": "Menu Bar #64",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2161
+				}
+			]
+		},
+		{
+			"id": 65,
+			"name": "Menu Bar #65",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 32509
+				}
+			]
+		},
+		{
+			"id": 66,
+			"name": "Menu Bar #66",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 67,
+			"name": "Menu Bar #67",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 24811
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 68,
+			"name": "Menu Bar #68",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2336
+				}
+			]
+		},
+		{
+			"id": 69,
+			"name": "Menu Bar #69",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 6158
+				},
+				{
+					"link": 22627
+				}
+			]
+		},
+		{
+			"id": 70,
+			"name": "Menu Bar #70",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 19549
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 71,
+			"name": "Menu Bar #71",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 21837
+				},
+				{
+					"link": 14150
+				}
+			]
+		},
+		{
+			"id": 72,
+			"name": "Menu Bar #72",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 6080
+				}
+			]
+		},
+		{
+			"id": 73,
+			"name": "Menu Bar #73",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1836
+				}
+			]
+		},
+		{
+			"id": 74,
+			"name": "Menu Bar #74",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 3892
+				}
+			]
+		},
+		{
+			"id": 75,
+			"name": "Menu Bar #75",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 710
+				}
+			]
+		},
+		{
+			"id": 76,
+			"name": "Menu Bar #76",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 25133
+				}
+			]
+		},
+		{
+			"id": 77,
+			"name": "Menu Bar #77",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30967
+				},
+				{
+					"link": 12938
+				}
+			]
+		},
+		{
+			"id": 78,
+			"name": "Menu Bar #78",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 8671
+				},
+				{
+					"link": 13238
+				},
+				{
+					"link": 26845
+				}
+			]
+		},
+		{
+			"id": 79,
+			"name": "Menu Bar #79",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 80,
+			"name": "Menu Bar #80",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 3650
+				}
+			]
+		},
+		{
+			"id": 81,
+			"name": "View",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 23418
+				}
+			]
+		},
+		{
+			"id": 82,
+			"name": "Menu Bar #82",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1521
+				}
+			]
+		},
+		{
+			"id": 83,
+			"name": "Menu Bar #83",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1980
+				}
+			]
+		},
+		{
+			"id": 84,
+			"name": "Menu Bar #84",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 11667
+				},
+				{
+					"link": 9373
+				}
+			]
+		},
+		{
+			"id": 85,
+			"name": "Menu Bar #85",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4055
+				}
+			]
+		},
+		{
+			"id": 86,
+			"name": "Menu Bar #86",
+			"items": [
+				{
+					"link": 31814
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 87,
+			"name": "Menu Bar #87",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 25987
+				}
+			]
+		},
+		{
+			"id": 88,
+			"name": "Menu Bar #88",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4272
+				},
+				{
+					"link": 26444
+				}
+			]
+		},
+		{
+			"id": 89,
+			"name": "Menu Bar #89",
+			"items": [
+				{
+					"link": 16294
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 28996
+				},
+				{
+					"link": 18019
+				}
+			]
+		},
+		{
+			"id": 90,
+			"name": "Menu Bar #90",
+			"items": [
+				{
+					"link": 16294
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20749
+				},
+				{
+					"link": 2421
+				},
+				{
+					"link": 4190
+				}
+			]
+		},
+		{
+			"id": 91,
+			"name": "Menu Bar #91",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 81
+				},
+				{
+					"link": 27543
+				},
+				{
+					"link": 21671
+				}
+			]
+		},
+		{
+			"id": 92,
+			"name": "Menu Bar #92",
+			"items": [
+				{
+					"link": 5258
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 20121
+				},
+				{
+					"link": 24659
+				},
+				{
+					"link": 22081
+				},
+				{
+					"link": 30977
+				}
+			]
+		},
+		{
+			"id": 93,
+			"name": "Menu Bar #93",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 4190
+				},
+				{
+					"link": 17315
+				},
+				{
+					"link": 25146
+				}
+			]
+		},
+		{
+			"id": 94,
+			"name": "Menu Bar #94",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 28388
+				},
+				{
+					"link": 13583
+				},
+				{
+					"link": 10045
+				}
+			]
+		},
+		{
+			"id": 95,
+			"name": "Menu Bar #95",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 12198
+				},
+				{
+					"link": 29137
+				},
+				{
+					"link": 2806
+				}
+			]
+		},
+		{
+			"id": 96,
+			"name": "Menu Bar #96",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 25059
+				}
+			]
+		},
+		{
+			"id": 97,
+			"name": "Menu Bar #97",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4178
+				}
+			]
+		},
+		{
+			"id": 98,
+			"name": "Menu Bar #98",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 5694
+				}
+			]
+		},
+		{
+			"id": 99,
+			"name": "Menu Bar #99",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 10104
+				}
+			]
+		},
+		{
+			"id": 100,
+			"name": "Menu Bar #100",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 2520
+				}
+			]
+		},
+		{
+			"id": 101,
+			"name": "Menu Bar #101",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 102,
+			"name": "Menu Bar #102",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 27885
+				}
+			]
+		},
+		{
+			"id": 103,
+			"name": "Menu Bar #103",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 30717
+				},
+				{
+					"link": 5790
+				},
+				{
+					"link": 32582
+				},
+				{
+					"link": 29468
+				}
+			]
+		},
+		{
+			"id": 104,
+			"name": "Menu Bar #104",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 105,
+			"name": "Menu Bar #105",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 5694
+				}
+			]
+		},
+		{
+			"id": 106,
+			"name": "Menu Bar #106",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 4426
+				},
+				{
+					"link": 8262
+				}
+			]
+		},
+		{
+			"id": 107,
+			"name": "Menu Bar #107",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 12070
+				},
+				{
+					"link": 32000
+				}
+			]
+		},
+		{
+			"id": 108,
+			"name": "Menu Bar #108",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 3761
+				},
+				{
+					"link": 16417
+				}
+			]
+		},
+		{
+			"id": 109,
+			"name": "Menu Bar #109",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1129
+				}
+			]
+		},
+		{
+			"id": 110,
+			"name": "Menu Bar #110",
+			"items": [
+				{
+					"link": 29591
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 1129
+				}
+			]
+		},
+		{
+			"id": 111,
+			"name": "Menu Bar #111",
+			"items": [
+				{
+					"link": 31814
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 112,
+			"name": "TimeManagerReports",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				},
+				{
+					"link": 32002
+				}
+			]
+		},
+		{
+			"id": 113,
+			"name": "Menu Bar #113",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 114,
+			"name": "ProductsReports",
+			"items": [
+				{
+					"link": 14835
+				},
+				{
+					"link": 27595
+				}
+			]
+		},
+		{
+			"id": 115,
+			"name": "Menu Bar #115",
+			"items": []
+		},
+		{
+			"id": 116,
+			"name": "Menu Bar #116",
+			"items": []
+		},
+		{
+			"id": 117,
+			"name": "Menu Bar #117",
+			"items": []
+		}
+	],
+	"menus": [
+		{
+			"link": 14835,
+			"title": ":xliff:Menu_File",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Processes",
+					"method": "ProcessesP",
+					"shortcutAccel": true,
+					"shortcutKey": "="
+				},
+				{
+					"title": ":xliff:MenuItem_ChangeAccess",
+					"method": "Change_AccessP"
+				},
+				{
+					"title": ":xliff:MenuItem_SetPreferences",
+					"method": "Mod_PersonFunc"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Entrydefaults",
+					"method": "Defaults_Entry"
+				},
+				{
+					"title": ":xliff:MenuItem_Finddefaults",
+					"method": "Defaults_Find"
+				},
+				{
+					"title": ":xliff:MenuItem_Finduserdata",
+					"method": "Menu_FindMy"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchEntry",
+					"method": "Single_Switch"
+				},
+				{
+					"title": ":xliff:MenuItem_Statisticsview",
+					"method": "StatsView_Swtch"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reportabug",
+					"method": "ERR_ReporterTool"
+				},
+				{
+					"title": ":xliff:MenuItem_Debugwindow",
+					"method": "ErrorDebugInit",
+					"startNewProcess": true
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Quittouser",
+					"method": "Quit_to_User"
+				},
+				{
+					"title": ":xliff:MenuItem_Quit",
+					"method": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q",
+					"startNewProcess": true,
+					"action": "quit"
+				}
+			]
+		},
+		{
+			"link": 27595,
+			"title": ":xliff:Menu_Edit",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Undo",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"executeWithoutValidating": true,
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_Cut",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"executeWithoutValidating": true,
+					"action": "cut"
+				},
+				{
+					"title": ":xliff:MenuItem_Copy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"executeWithoutValidating": true,
+					"action": "copy"
+				},
+				{
+					"title": ":xliff:MenuItem_Paste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"executeWithoutValidating": true,
+					"action": "paste"
+				},
+				{
+					"title": ":xliff:MenuItem_Clear",
+					"executeWithoutValidating": true,
+					"action": "clear"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectAll",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"executeWithoutValidating": true,
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_ShowClipboard",
+					"executeWithoutValidating": true,
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 30717,
+			"title": ":xliff:Menu_Volumes",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Timemanager",
+					"method": "Menu_Main",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_DocumentManager",
+					"method": "Menu_WP",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_StockManager",
+					"method": "Menu_Stock",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Menu_SOP",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Menu_POP",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Menu_Sales",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseLedger",
+					"method": "Menu_Purch",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": ":xliff:MenuItem_NominalLedger",
+					"method": "Menu_Nom",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceManager",
+					"method": "Menu_Tech",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				},
+				{
+					"title": ":xliff:MenuItem_CostManager",
+					"method": "Menu_Jobs"
+				},
+				{
+					"title": ":xliff:MenuItem_ConfigurationManager",
+					"method": "Menu_Lists"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_MacrosPalette",
+					"method": "SCPT_LaunchPalette"
+				}
+			]
+		},
+		{
+			"link": 29618,
+			"title": ":xliff:Menu_Companies",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterCompanies",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "[",
+					"parameter": "Companies"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "]",
+					"executeWithoutValidating": true,
+					"parameter": "Companies"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterContacts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "\\",
+					"parameter": "Contacts"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "/",
+					"parameter": "Contacts"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_GeneralImport",
+					"method": "ZCompanies_Imp"
+				}
+			]
+		},
+		{
+			"link": 32582,
+			"title": ":xliff:Menu_Products",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProducts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "P",
+					"parameter": "Products"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewProducts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "R",
+					"parameter": "Products"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPricetable",
+					"method": "DB_MenuNewRecord",
+					"parameter": "Price Table"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewPricetable",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Price Table"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"link": 32004
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportProducts",
+					"method": "ZProducts_Imp"
+				}
+			]
+		},
+		{
+			"link": 9323,
+			"title": ":xliff:Menu_TimeManager",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Enterincalendar",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "DiaryCalendar"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterinWorkflow",
+					"method": "DB_MenuNewRecord",
+					"parameter": "DiaryWorkflow"
+				},
+				{
+					"title": ":xliff:MenuItem_Entercompleted",
+					"method": "DB_MenuNewRecord",
+					"parameter": "DiaryNotes"
+				},
+				{
+					"title": ":xliff:MenuItem_Automatedactions",
+					"method": "DB_MenuNewRecord",
+					"parameter": "DiaryAutomated"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewWorkflow",
+					"method": "SD_l_ShowWorkflow",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCalendar",
+					"method": "ZDiary_Mod",
+					"shortcutAccel": true,
+					"shortcutKey": "H"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewHistory",
+					"method": "SD_l_ShowHistory",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewAutomatedActions",
+					"method": "SD_l_ShowAutomater"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"link": 32002
+				}
+			]
+		},
+		{
+			"link": 3411,
+			"title": ":xliff:Menu_Core",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Contactscompanies",
+					"enabled": false,
+					"link": 32033
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SECURITY",
+					"enabled": false,
+					"link": 32034
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ProductsHeader",
+					"enabled": false,
+					"link": 32037
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Settings",
+					"enabled": false,
+					"link": 32036
+				}
+			]
+		},
+		{
+			"link": 23382,
+			"title": ":xliff:Menu_Financials",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_STOCKMANAGEMENT",
+					"enabled": false,
+					"link": 32028
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SalesCreditControl",
+					"enabled": false,
+					"link": 32029
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Ledgers",
+					"enabled": false,
+					"link": 32030
+				}
+			]
+		},
+		{
+			"link": 9864,
+			"title": ":xliff:Menu_Others",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_TimeManagement",
+					"enabled": false,
+					"link": 32018
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_JobCostings",
+					"enabled": false,
+					"link": 32017
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceControl",
+					"enabled": false,
+					"link": 32016
+				}
+			]
+		},
+		{
+			"link": 24191,
+			"title": ":xliff:Menu_Utilities",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_RecodeCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "CompaniesRenum"
+				},
+				{
+					"title": ":xliff:MenuItem_RecodeContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "ContactsRenum"
+				},
+				{
+					"title": ":xliff:MenuItem_DedupCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "CompaniesDedup"
+				},
+				{
+					"title": ":xliff:MenuItem_DedupContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "ContactsDedup"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ClosePeriod",
+					"method": "ZPeriod_Close"
+				},
+				{
+					"title": ":xliff:MenuItem_CloseFinYear",
+					"method": "ZYear_Close"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AmalgamateTransactions",
+					"method": "ZAccounts_Amal"
+				},
+				{
+					"title": ":xliff:MenuItem_CheckAccountBalances",
+					"method": "ZAccBal_Check"
+				},
+				{
+					"title": ":xliff:MenuItem_ClearDownAccounts",
+					"method": "ZAccounts_Clear"
+				},
+				{
+					"title": ":xliff:MenuItem_Reposttransactions",
+					"method": "ZTrans_Update"
+				},
+				{
+					"title": ":xliff:MenuItem_RepostInvoice",
+					"method": "ZInvoices_Repos"
+				},
+				{
+					"title": ":xliff:MenuItem_CheckTransactions",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "TransactionsCheck"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ConsolidateStockLevels",
+					"method": "ZStockLev_Cons"
+				},
+				{
+					"title": ":xliff:MenuItem_RecreateStockLevels",
+					"method": "ZStockLev_Recr"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DataIntegrity",
+					"enabled": false,
+					"link": 32011
+				},
+				{
+					"title": "Item 23",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CreateBusinessTemplate",
+					"method": "ZStartup_Export"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_NewDataFile",
+					"enabled": false,
+					"link": 32009
+				}
+			]
+		},
+		{
+			"link": 9203,
+			"title": ":xliff:Menu_Stock",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterMovements",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "Stock Movements"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewMovements",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"startNewProcess": true,
+					"parameter": "Stock Movements"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewMovementItems",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Stock movement items"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockHistory",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "H",
+					"parameter": "Stock ItemsHistory"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCurrentStock",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Current Stock"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewConsolidatedLevels",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "L",
+					"parameter": "Stock levels"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"link": 32006
+				}
+			]
+		},
+		{
+			"link": 9588,
+			"title": ":xliff:Menu_Assemblies",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Assembly",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"parameter": "StockMovementsAssembly"
+				},
+				{
+					"title": ":xliff:MenuItem_Disassembly",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "StockMovementsDisassembly"
+				}
+			]
+		},
+		{
+			"link": 17995,
+			"title": ":xliff:Menu_SalesLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProforma",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "F",
+					"parameter": "InvoicesProForma"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterInvoice",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNote",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchInvoiceOrders",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "OrdersInvoice"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPostInvoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DepositReceipt",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"startNewProcess": true,
+					"parameter": "InvoicesDeposit"
+				},
+				{
+					"title": ":xliff:MenuItem_DepositRefund",
+					"method": "DBI_MenuDisplayRecords",
+					"startNewProcess": true,
+					"parameter": "InvoicesDepRefund"
+				},
+				{
+					"title": ":xliff:MenuItem_InvoiceReceipt",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "InvoicesReceipt"
+				},
+				{
+					"title": ":xliff:MenuItem_UndoReceipt",
+					"method": "DBI_MenuDisplayRecords",
+					"startNewProcess": true,
+					"parameter": "InvoicesReceiptRefund"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_RemRec",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "InvoicesRemittances"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DebtorsScreen",
+					"method": "Zinvoices_ADScr"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32001
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportInvoices",
+					"method": "ZInvoices_Imp"
+				},
+				{
+					"title": ":xliff:MenuItem_ImportReceipts",
+					"method": "ZInvoices_ImpR"
+				}
+			]
+		},
+		{
+			"link": 13832,
+			"title": ":xliff:Menu_NominalLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterBatch",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "Transaction batches"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewTransBatches",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Transaction batches"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Trans inPost"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewAccBalances",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "B",
+					"parameter": "ACCOUNT BALANCES"
+				},
+				{
+					"title": ":xliff:MenuItem_Setupbudgets",
+					"method": "DBI_MenuDisplayRecords",
+					"executeWithoutValidating": true,
+					"parameter": "ACC BALANCESBUDGETS"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BankRecon",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "R",
+					"parameter": "TransactionsBankReconcilliation",
+					"action": "previousRecord"
+				},
+				{
+					"title": ":xliff:MenuItem_RecurJournals",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "RECURRING journals"
+				},
+				{
+					"title": ":xliff:MenuItem_ReverseBatch",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Trans inREVERSE"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CurrencyRates",
+					"method": "ZCurrRates_Mod"
+				}
+			]
+		},
+		{
+			"link": 13099,
+			"title": ":xliff:Menu_Reports",
+			"items": [
+				{
+					"title": "Period Balances List",
+					"method": "ZAccBal_List"
+				},
+				{
+					"title": "Period Balances Reports",
+					"method": "ZAccBal_Report"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Trial Balance",
+					"method": "ZAccBal_TB"
+				},
+				{
+					"title": "Profit & Loss",
+					"method": "ZAccBal_PL"
+				},
+				{
+					"title": "Profit & Loss v Budgets ",
+					"method": "ZAccBal_PL_B"
+				},
+				{
+					"title": "Profit & Loss 12 Periods",
+					"method": "ZAccBal_PL12"
+				},
+				{
+					"title": "Balance Sheet",
+					"method": "ZAccBal_BS"
+				},
+				{
+					"title": "VAT Return",
+					"method": "ZAccBal_VAT"
+				},
+				{
+					"title": "VAT Listing",
+					"method": "ZTrans_IO"
+				}
+			]
+		},
+		{
+			"link": 17888,
+			"title": ":xliff:Menu_PurchaseLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterInvoices",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Purchase Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNotes",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesCredit"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Purchase invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "PurchasesPost"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPrePayment",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesPrePayment"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPayment",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "PurchasesPayment"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Remit",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "H",
+					"parameter": "PurchasesCheques"
+				},
+				{
+					"title": ":xliff:MenuItem_AutopayList",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "PurchasesAutopay"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CreditorsScreen",
+					"method": "ZPurchases_ACSc"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32013
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportPurchaseInvoices",
+					"method": "ZPurchases_Imp"
+				}
+			]
+		},
+		{
+			"link": 10300,
+			"title": ":xliff:Menu_CallCentre",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterCalls",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "Service Calls"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCalls",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "service calls"
+				},
+				{
+					"title": ":xliff:MenuItem_OutstandingCalls",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Service CallsOutstanding"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_StartCheckingCalls",
+					"method": "ZCalls_CheckLau"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterContracts",
+					"method": "DB_MenuNewRecord",
+					"parameter": "Contracts"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewContracts",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Contracts"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportContracts",
+					"method": "ZContracts_Imp"
+				}
+			]
+		},
+		{
+			"link": 7197,
+			"title": ":xliff:Menu_SalesLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProforma",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "F",
+					"parameter": "InvoicesProforma"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterInvoice",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNote",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				}
+			]
+		},
+		{
+			"link": 32031,
+			"title": "TimeManagerFinds_1",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_HighPriority",
+					"method": "ZDiary_DiaryT1"
+				},
+				{
+					"title": ":xliff:MenuItem_Todo",
+					"method": "ZDiary_DiaryT"
+				},
+				{
+					"title": ":xliff:MenuItem_Appointments",
+					"method": "ZDiary_Real"
+				},
+				{
+					"title": ":xliff:MenuItem_Calendar",
+					"method": "ZDiary_CalM"
+				}
+			]
+		},
+		{
+			"link": 1104,
+			"title": ":xliff:Menu_Jobs",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProjects",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "Projects"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewProjects",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "E",
+					"parameter": "Projects"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterJobs",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Jobs"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewJobs",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "Jobs"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewJobStages",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Job stages"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewJobPersonnel",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Job Personnel"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterTimeCosts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"parameter": "DiaryTimeCosts"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterTime",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "DiaryTime"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewTime",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"parameter": "DiaryJobTime"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "REPORTS",
+					"enabled": false,
+					"link": 32014
+				}
+			]
+		},
+		{
+			"link": 32424,
+			"title": ":xliff:Menu_SalesLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProforma",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "F",
+					"parameter": "InvoicesProforma"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterInvoice",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNote",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				}
+			]
+		},
+		{
+			"link": 16294,
+			"title": ":xliff:Menu_File",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Processes",
+					"method": "ProcessesP",
+					"shortcutAccel": true,
+					"shortcutKey": "="
+				},
+				{
+					"title": ":xliff:MenuItem_ChangeAccess",
+					"method": "Change_AccessP"
+				},
+				{
+					"title": ":xliff:MenuItem_FlushBuffers",
+					"method": "Flush_Buffers"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Entrydefaults",
+					"method": "Defaults_Entry"
+				},
+				{
+					"title": ":xliff:MenuItem_Finddefaults",
+					"method": "Defaults_Find"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reportabug",
+					"method": "ERR_ReporterTool"
+				},
+				{
+					"title": ":xliff:MenuItem_Debugwindow",
+					"method": "ErrorDebugInit",
+					"startNewProcess": true
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Quit",
+					"method": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 20749,
+			"title": ":xliff:Menu_Volumes",
+			"items": [
+				{
+					"title": "Modulus Silver",
+					"method": "Menu_Silver",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "Modulus Silver Plus",
+					"method": "Menu_SilverP",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "Silver Word Processing",
+					"method": "Menu_WP",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": "Silver Job Costing",
+					"method": "Menu_Jobs",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Silver Data Manager",
+					"method": "Menu_ListsS",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Modulus Gold",
+					"method": "Menu_Gold",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_MacrosPalette",
+					"method": "ZRecord_Bar"
+				}
+			]
+		},
+		{
+			"link": 2421,
+			"title": ":xliff:Menu_Companies",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterCompanies",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "[",
+					"parameter": "Companies"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "]",
+					"parameter": "Companies"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterContacts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "\\",
+					"parameter": "Contacts"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "/",
+					"parameter": "Contacts"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32035
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_GeneralImport",
+					"method": "ZCompanies_Imp"
+				}
+			]
+		},
+		{
+			"link": 16706,
+			"title": ":xliff:Menu_TimeManager",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EntertoDiary",
+					"method": "ZDiary_In",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewDiary",
+					"method": "ZDiary_Mod",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CheckDiary",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_HighPriority",
+					"method": "ZDiary_DiaryT1",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_Todo",
+					"method": "ZDiary_DiaryT",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_Appointments",
+					"method": "ZDiary_Real"
+				},
+				{
+					"title": ":xliff:MenuItem_Calendar",
+					"method": "ZDiary_CalM"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32002
+				}
+			]
+		},
+		{
+			"link": 28996,
+			"title": ":xliff:Menu_Products",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProducts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "P",
+					"parameter": "Products"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewProducts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "R",
+					"parameter": "Products"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32004
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportProducts",
+					"method": "ZProducts_Imp"
+				}
+			]
+		},
+		{
+			"link": 18973,
+			"title": ":xliff:Menu_Sales",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterInvoices",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNotes",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPostInvoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DepositReceipt",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesDeposit"
+				},
+				{
+					"title": ":xliff:MenuItem_DepositRefund",
+					"method": "DB_MenuNewRecord",
+					"startNewProcess": true,
+					"parameter": "InvoicesDepRefund"
+				},
+				{
+					"title": ":xliff:MenuItem_InvoiceReceipt",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "InvoicesReceipt"
+				},
+				{
+					"title": ":xliff:MenuItem_UndoReceipt",
+					"method": "DB_MenuNewRecord",
+					"startNewProcess": true,
+					"parameter": "InvoicesReceiptRefund"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32001
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportInvoices",
+					"method": "ZInvoices_Imp"
+				}
+			]
+		},
+		{
+			"link": 4748,
+			"title": ":xliff:Menu_PurchaseLedger",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterInvoices",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "L",
+					"parameter": "Purchase invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNotes",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesCredit"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewLedger",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "M",
+					"parameter": "Purchase invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Post Purchase Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPrePayment",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesPrePayment"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPayment",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "N",
+					"parameter": "PurchasesPayment"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Remit",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "O",
+					"parameter": "PurchasesCheques"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32013
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportPurchaseInvoices",
+					"method": "ZPurchases_Imp"
+				}
+			]
+		},
+		{
+			"link": 12553,
+			"title": ":xliff:Menu_Diary",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EntertoDiary",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "Diary"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewDiary",
+					"method": "ZDiary_Mod",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CheckDiary",
+					"enabled": false,
+					"link": 32032
+				},
+				{
+					"title": "  Check Process",
+					"method": "Diary_CheckPro",
+					"startNewProcess": true
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32002
+				}
+			]
+		},
+		{
+			"link": 23128,
+			"title": ":xliff:Menu_Invoices",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProforma",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesProforma"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterInvoice",
+					"method": "DB_MenuNewRecord",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditNote",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewInvoicesCreditnotes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				}
+			]
+		},
+		{
+			"link": 32036,
+			"title": "GeneralConfigMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Macros",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Scripts"
+				},
+				{
+					"title": ":xliff:MenuItem_Pictures",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Pictures"
+				},
+				{
+					"title": ":xliff:MenuItem_Terminology",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Terminology"
+				},
+				{
+					"title": ":xliff:MenuItem_FileStates",
+					"method": "ZStates_Mod"
+				},
+				{
+					"title": ":xliff:MenuItem_Listmanager",
+					"method": "ZLists_Mod"
+				},
+				{
+					"title": ":xliff:MenuItem_FurtherFields",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "custom_Field_Definitions"
+				},
+				{
+					"title": ":xliff:MenuItem_UpdateLicence",
+					"method": "ZUser_Licence"
+				},
+				{
+					"title": ":xliff:MenuItem_Preferences",
+					"method": "ZUser_Mod"
+				}
+			]
+		},
+		{
+			"link": 22319,
+			"title": ":xliff:Menu_Documents",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterLetters",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "DiaryLetter"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterQuotations",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "DiaryQuotations"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterEmail",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"parameter": "DiaryEmail"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewLetters",
+					"method": "ZDiary_ModL"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterLetTemplates",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "DocumentsLetters"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterSRTemplates",
+					"method": "DB_MenuNewRecord",
+					"parameter": "DocumentsReports"
+				},
+				{
+					"title": ":xliff:MenuItem_EnteremailTemplates",
+					"method": "DB_MenuNewRecord",
+					"parameter": "DocumentsReports"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewLetTemplates",
+					"method": "ZLetters_Mod_1",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewReportTemplates",
+					"method": "zLetters_Mod_2"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewEmailTemplates",
+					"method": "zLetters_Mod_3"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewOtherTemplates",
+					"method": "ZLetters_Mod"
+				}
+			]
+		},
+		{
+			"link": 17315,
+			"title": ":xliff:Menu_Mailing",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_MailCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "*",
+					"parameter": "CompaniesMailing"
+				},
+				{
+					"title": ":xliff:MenuItem_MailContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "-",
+					"parameter": "ContactsMailing"
+				},
+				{
+					"title": ":xliff:MenuItem_MailDiary",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "+",
+					"parameter": "DiaryMailing"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EQO",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "OrdersMailing"
+				},
+				{
+					"title": ":xliff:MenuItem_PaymentsChasing",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "InvoicePaymentChase"
+				},
+				{
+					"title": ":xliff:MenuItem_Statements",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "CompaniesStatements"
+				},
+				{
+					"title": ":xliff:MenuItem_Contracts",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "ContractsMailing"
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionRenewal",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "SubscriptionRenewals"
+				}
+			]
+		},
+		{
+			"link": 25146,
+			"title": ":xliff:Menu_Mailsort",
+			"items": [
+				{
+					"title": "Update Mailsort Files",
+					"method": "ZMailsort_Imp"
+				},
+				{
+					"title": "Update Company SSCs",
+					"method": "ZMailsort_CoUp"
+				}
+			]
+		},
+		{
+			"link": 32037,
+			"title": "ProductsConfigMenu",
+			"items": [
+				{
+					"title": "Collections",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Catalogue"
+				},
+				{
+					"title": ":xliff:MenuItem_Groups",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Product Groups"
+				},
+				{
+					"title": ":xliff:MenuItem_Brands",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "product Brands"
+				},
+				{
+					"title": ":xliff:MenuItem_PriceGroups",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Price Groups"
+				}
+			]
+		},
+		{
+			"link": 2776,
+			"title": ":xliff:Menu_WebServer",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_InternetMacros",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "MacrosWEB"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_WebAccess",
+					"method": "ZWebAccess_Mod"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_StopWebServer",
+					"method": "IWS_StopWebServer"
+				},
+				{
+					"title": ":xliff:MenuItem_ConfigureWebServer",
+					"method": "IWS_WebSetup"
+				}
+			]
+		},
+		{
+			"link": 30562,
+			"title": ":xliff:Menu_SalesOrders",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterNewOrders",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "O",
+					"parameter": "Orders"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesOrders",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "E",
+					"parameter": "Orders"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewOrderItems",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "F",
+					"parameter": "Order items"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32008
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportOrders",
+					"method": "ZOrders_Imp"
+				}
+			]
+		},
+		{
+			"link": 3339,
+			"title": ":xliff:Menu_Subscriptions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_IssueDeliveries",
+					"method": "ZSubscript_Del",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				},
+				{
+					"title": ":xliff:MenuItem_SubBilling",
+					"method": "ZSubscript_Inv",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"title": ":xliff:MenuItem_RenewalMailing",
+					"method": "ZMail_Subs"
+				}
+			]
+		},
+		{
+			"link": 20922,
+			"title": ":xliff:Menu_PurchaseOrders",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterPO",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "O",
+					"parameter": "Purchase Order"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewPO",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "E",
+					"parameter": "Purchase Orders"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32012
+				}
+			]
+		},
+		{
+			"link": 18535,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_EnquiryWriter     ",
+					"method": "Diary_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_Order",
+					"method": "Diary_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceCall",
+					"method": "Diary_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_Job",
+					"method": "Diary_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_Booking",
+					"method": "Diary_MenV"
+				}
+			]
+		},
+		{
+			"link": 11063,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintDiarySheet",
+					"method": "Diary_PrintSht",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_PrintCompanyForm",
+					"method": "Diary_PrintComp"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_NextAction",
+					"method": "Diary_Next",
+					"shortcutAccel": true,
+					"shortcutKey": "N"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Messageto",
+					"method": "Diary_Mess",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatetoCompanies",
+					"method": "Diary_Alloc"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CheckTimeConflicts",
+					"method": "Diary_TimeCheck",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "Diary_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ShowCompletedItems",
+					"method": "SD_IncludeExclude"
+				}
+			]
+		},
+		{
+			"link": 10696,
+			"title": ":xliff:Menu_Document",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_NewLetter",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "DocumentsLetters"
+				},
+				{
+					"title": ":xliff:MenuItem_OpenLetter",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_PrintLetter",
+					"method": "Diary_Print2",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_NewEmail",
+					"method": "Diary_EmailNew"
+				},
+				{
+					"title": ":xliff:MenuItem_OpenEmail",
+					"method": "Diary_LetSee"
+				},
+				{
+					"title": ":xliff:MenuItem_SendEmail",
+					"method": "Diary_EmailSEND"
+				}
+			]
+		},
+		{
+			"link": 21861,
+			"title": ":xliff:Menu_History",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Job",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Order",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Call",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_CompanyAction",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_ContactAction",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_JobAction",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAction",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_CallAction",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Document",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 5093,
+			"title": ":xliff:Menu_Setup",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_DiarySettings",
+					"method": "SD_SetPersonnelDiary",
+					"startNewProcess": true
+				},
+				{
+					"title": ":xliff:MenuItem_SetDiaryColours",
+					"method": "SD_SetPersonalColours"
+				},
+				{}
+			]
+		},
+		{
+			"link": 16214,
+			"title": ":xliff:Menu_Campaigns",
+			"items": []
+		},
+		{
+			"link": 13462,
+			"title": ":xliff:Menu_EnquiryWriter",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterProspects",
+					"method": "DB_MenuNewRecord",
+					"parameter": "ContactsProspect"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewProspects",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "ContactsPropects"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterEnquiries",
+					"method": "DB_MenuNewRecord",
+					"parameter": "OrdersEnquiry"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterQuotations",
+					"method": "DB_MenuNewRecord",
+					"parameter": "OrdersQuotation"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterNewOrders",
+					"method": "DB_MenuNewRecord",
+					"parameter": "Orders"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewEnquiryWriter",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "OrdersEnquiries"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"link": 32005
+				}
+			]
+		},
+		{
+			"link": 5790,
+			"title": ":xliff:Menu_Companies",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterCompanies",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "[",
+					"parameter": "Companies"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCompanies",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "]",
+					"parameter": "Companies"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterContacts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "\\",
+					"parameter": "Contacts"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewContacts",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "/",
+					"parameter": "Contacts"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewInformation",
+					"method": "ZQualities_Mod"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32035
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_GeneralImport",
+					"method": "ZCompanies_Imp"
+				}
+			]
+		},
+		{
+			"link": 25270,
+			"title": ":xliff:Menu_Inventory",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterMovements",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "Stock Movements"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewMovements",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "Stock Movements"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewInventoryItems",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Stock Items"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewInventoryHistory",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "H",
+					"parameter": "Stock ItemsHistory"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewCurrentInventory",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Current Stock"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewInventoryLevels",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "L",
+					"parameter": "Stock Levels"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32021
+				}
+			]
+		},
+		{
+			"link": 32034,
+			"title": "SecurityConfigMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ChangePassword",
+					"method": "Edit_Pass"
+				},
+				{
+					"title": ":xliff:MenuItem_PersonnelGroups",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Personnel Groups"
+				},
+				{
+					"title": ":xliff:MenuItem_Personnel",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Personnel"
+				}
+			]
+		},
+		{
+			"link": 30671,
+			"title": ":xliff:Menu_Diary",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EntertoDiary",
+					"method": "ZDiary_In",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewDiary",
+					"method": "ZDiary_Mod",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CheckDiary",
+					"enabled": false,
+					"link": 32031
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32002
+				}
+			]
+		},
+		{
+			"link": 18514,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Orders_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseLedger",
+					"method": "Orders_MenV"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_OrderItems",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionDetails",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				},
+				{
+					"title": ":xliff:MenuItem_PaymentCards",
+					"method": "ORD_showContactCCards"
+				}
+			]
+		},
+		{
+			"link": 10567,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_QuotationForm",
+					"method": "Orders_PPQtnF",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_QuotationWP",
+					"method": "Orders_PPQtn",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAuthorisation",
+					"method": "Orders_PPAuth",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAcknowledgement",
+					"method": "Orders_PPAck",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": ":xliff:MenuItem_FullOrderDetails",
+					"method": "Orders_PPFull",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": ":xliff:MenuItem_ProFormaInvoice",
+					"method": "Orders_PPProf"
+				},
+				{
+					"title": ":xliff:MenuItem_CustomerLabel",
+					"method": "Order_CustomerLabel"
+				},
+				{
+					"title": ":xliff:MenuItem_PackingLabels",
+					"method": "Order_PrintLabels"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrderUC",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ItemsbyPurchordNo",
+					"method": "Orders_PPPON",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders-PPPOS",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DeliveryNoteUC",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPDelL",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": ":xliff:MenuItem_ItemsbyDate",
+					"method": "Orders_PPDelD",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": ":xliff:MenuItem_allnotDelivered",
+					"method": "Orders_PPDelA",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders_PPDelS",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_InvCreditNotes",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPInvL",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": ":xliff:Menuitem_ItemsbyinvoiceNo",
+					"method": "Orders_PPInvN",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": ":xliff:MenuItem_AllNotInvoiced",
+					"method": "Orders_PPInvA",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders_PPInvS",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				}
+			]
+		},
+		{
+			"link": 25569,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "Orders_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_QuickAddItems",
+					"method": "Orders_QAdd",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_SetSortOrder",
+					"method": "ORDi_setSort"
+				},
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "OrderI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"title": ":xliff:MenuItem_SplitItem",
+					"method": "OrderI_Split",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": ":xliff:MenuItem_CreditCardAuthorization",
+					"method": "CCM_mOrderAuthorize"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AddNewProduct",
+					"method": "ORD_AddProducts",
+					"startNewProcess": true
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Orders_CP"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStock",
+					"method": "OrderI_AllocCur",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStockAuto",
+					"method": "OrderI_AllocAut",
+					"shortcutAccel": true,
+					"shortcutKey": "B"
+				},
+				{
+					"title": ":xliff:MenuItem_Unallocate",
+					"method": "OrderI_UnaAut",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "B"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLev"
+				},
+				{
+					"title": ":xliff:MenuItem_DeliveryTypeStockMovement",
+					"method": "Orders_StockPos"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssenblyDisplay",
+					"method": "ZStockAss_CalOI"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BundlesAssemblies",
+					"enabled": false,
+					"link": 32026
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExportOrdertoDisk",
+					"method": "Orders_PPTextEx"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_TakeDeposit",
+					"method": "ORD_TakeDeposit"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "Orders_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 23200,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Calls_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Calls_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Calls_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Calls_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				}
+			]
+		},
+		{
+			"link": 28888,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintCallsheet",
+					"method": "Calls_ShtPrint",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_findCallitems",
+					"link": 32025
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CompanyCallHistory",
+					"method": "Calls_InHist",
+					"shortcutAccel": true,
+					"shortcutKey": "H"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_FindPossibleSolutions",
+					"method": "Calls_InSearch",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CalculateLabour",
+					"method": "Calls_InLabour",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_TransfertoOrder",
+					"method": "Calls_InOrder",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 24783,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_QuotationForm",
+					"method": "Orders_PPQtnF",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_QuotationWP",
+					"method": "Orders_PPQtn"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAuthorisation",
+					"method": "Orders_PPAuth",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAcknowledgement",
+					"method": "Orders_PPAck",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": ":xliff:MenuItem_FullOrderDetails",
+					"method": "Orders_PPFull",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrder",
+					"method": "S_PPPO",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": ":xliff:MenuItem_ProFormaInvoice",
+					"method": "Orders_PPProf"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DeliveryNoteUC",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPDelL"
+				},
+				{
+					"title": ":xliff:MenuItem_ItemsbyDate",
+					"method": "Orders_PPDelD",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": ":xliff:MenuItem_allnotDelivered",
+					"textDecoration": "underline",
+					"method": "Orders_PPDelA",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_InvCreditNotes",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPInvL"
+				},
+				{
+					"title": ":xliff:Menuitem_ItemsbyinvoiceNo",
+					"method": "Orders_PPInvN",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": ":xliff:MenuItem_AllNotInvoiced",
+					"method": "Orders_PPInvA",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				}
+			]
+		},
+		{
+			"link": 22776,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_DuplicateOrder",
+					"method": "Orders_OutDup",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				}
+			]
+		},
+		{
+			"link": 29962,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_ProductsSupplied    ",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_PriceTable",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_DocumentHistory",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_EnquiryWriter",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseLedger",
+					"method": "Companies_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceCalls",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": ":xliff:MenuItem_Jobs",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "J"
+				},
+				{
+					"title": ":xliff:MenuItem_Bookings",
+					"method": "Companies_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "B"
+				},
+				{
+					"title": ":xliff:MenuItem_Contracts",
+					"method": "Companies_MenV"
+				}
+			]
+		},
+		{
+			"link": 28768,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintCompanywithDiaryItems",
+					"method": "Companies_PrinD",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_PrintCompanywithinfo",
+					"method": "Companies_PrinQ",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AddexistingContacts",
+					"method": "Comp_ContAdd"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "Companies_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchEntry",
+					"method": "COM_SingleSwitch"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 11774,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": "Company",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": "Diary Items",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": "Document History",
+					"method": "Contacts_MenV"
+				},
+				{
+					"title": "EnquiryWriter",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": "Full Orders",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": "Service Calls",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": "Jobs",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "J"
+				},
+				{
+					"title": "Bookings",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "B"
+				},
+				{
+					"title": "Applicant",
+					"method": "Contacts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Credit Cards"
+				}
+			]
+		},
+		{
+			"link": 26727,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ShowCreditCards",
+					"method": "CCM_ShowContactCards"
+				},
+				{
+					"title": ":xliff:MenuItem_GoDuplicate",
+					"method": "Contacts_DupGo",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "Contacts_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 28509,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Invoices_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Invoices_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Invoices_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_TransBatch",
+					"method": "Invoices_MenV"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Allocations",
+					"method": "Invoices_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				}
+			]
+		},
+		{
+			"link": 1398,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Print",
+					"method": "Invoices_PPrint",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Invoices_Dup"
+				},
+				{
+					"title": ":xliff:MenuItem_OpeningBalance",
+					"method": "Invoices_Posted"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 5087,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Purch_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Purch_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_TransBatch",
+					"method": "Purch_MenV"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Allocations",
+					"method": "Purch_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				}
+			]
+		},
+		{
+			"link": 17938,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Print",
+					"method": "Purch_PPrint",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Purchases_Dup"
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPurchaseOrder",
+					"method": "Purchase_PO"
+				},
+				{
+					"title": ":xliff:MenuItem_CopyStockMovement",
+					"method": "Purchase_SMI"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_OpeningBalance",
+					"method": "Purchases_Postd"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 6557,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintTransactionsBatch",
+					"method": "TransB_Print",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPreviousBatch",
+					"method": "TransB_SkelGet",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_UpdateSingleSIded",
+					"method": "TransB_InCalc",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "TransB_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 14484,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Jobs_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Jobs_MenV"
+				}
+			]
+		},
+		{
+			"link": 12122,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": "Quotation Form",
+					"method": "Jobs_PPQtnF",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "Quotation WP",
+					"method": "Jobs_PPQtn",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "Job Details",
+					"method": "Jobs_PPSht",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Purchase Order",
+					"method": "Jobs_PPPO",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Proforma Invoice",
+					"method": "Jobs_PPProf",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": "Invoice or Credit Note",
+					"method": "Jobs_PPInv",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				}
+			]
+		},
+		{
+			"link": 14751,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "Jobs_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_QuickAddItems",
+					"method": "Jobs_QAdd",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "JobsI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"title": ":xliff:MenuItem_SortItems",
+					"method": "OrderI_Sort",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Jobs_CP"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_RecalculateAllTotals",
+					"method": "Jobs_InRecalc"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowAllCostItems",
+					"method": "Jobs_AllItems",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BundlesAssemblies",
+					"enabled": false,
+					"link": 32024
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStock",
+					"method": "OrderI_AllocCuJ",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLeJ"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssDisplay",
+					"method": "ZStockAss_CalOI"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_WipAdjustment",
+					"method": "Jobs_WIPAdj"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 24539,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				}
+			]
+		},
+		{
+			"link": 1713,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 31799,
+			"title": ":xliff:Menu_Print",
+			"items": []
+		},
+		{
+			"link": 32532,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 23445,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PriceTable",
+					"method": "Products_PT",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_Components",
+					"method": "Prod_Components",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CurrentStock",
+					"method": "Prod_StockCurr",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": ":xliff:MenuItem_StockLevels",
+					"method": "Prod_StockLev",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssDisplay",
+					"method": "ZStockAss_CalcD",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionSetup",
+					"method": "Products_SuMod",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				}
+			]
+		},
+		{
+			"link": 8349,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CalcPrices",
+					"method": "Prod_CompRecalc",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 29359,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "OrderI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				}
+			]
+		},
+		{
+			"link": 22527,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 2202,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "PurchOrd_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "PurchOrd_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				}
+			]
+		},
+		{
+			"link": 25078,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintPurchaseOrder",
+					"method": "PurchOrd_PPrint",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 23678,
+			"title": ":xliff:Menu_Section",
+			"items": [
+				{
+					"title": "User Details",
+					"method": "Page_1",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "General",
+					"method": "Page_2",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "Core Data",
+					"method": "Page_3",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": "Stock Control",
+					"method": "Page_4",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Sales",
+					"method": "Page_5",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": "Purchases",
+					"method": "Page_12",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": "Accounts",
+					"method": "Page_6",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": "Call Centre",
+					"method": "Page_7",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": "Job Costing",
+					"method": "Page_8",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				},
+				{
+					"title": "Communications",
+					"method": "Page_9",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": "Form Settings 1",
+					"method": "Page_10",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": "Form Settings 2",
+					"method": "Page_11",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_Other",
+					"method": "Page_13",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				}
+			]
+		},
+		{
+			"link": 26444,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 5186,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				}
+			]
+		},
+		{
+			"link": 15898,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": "Print Document",
+					"method": "Diary_PrintL",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Add Product Items",
+					"method": "Letters_GPDi",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Switch Read|Write",
+					"method": "Diary_InLEdit",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				}
+			]
+		},
+		{
+			"link": 4079,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Move_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Move_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ItemHistory",
+					"method": "Move_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "H"
+				}
+			]
+		},
+		{
+			"link": 4761,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintMovement",
+					"method": "Movements_Print",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyCurrentStock",
+					"method": "StockI_CurrButt",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPreviousMovement",
+					"method": "StockI_CopyPrev",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_QuickAddItems",
+					"method": "Movements_QAdd",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "StockI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				}
+			]
+		},
+		{
+			"link": 17410,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 23490,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Contracts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Contracts_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				}
+			]
+		},
+		{
+			"link": 23589,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintaContract",
+					"method": "Contr_PPrint",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "Contracts_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_SortItems",
+					"method": "Contr_Sort",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_FindOrderItems",
+					"enabled": false,
+					"link": 32023
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 32032,
+			"title": "TimeManagerFinds_2",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_HighPriority",
+					"method": "ZDiary_DiaryT1"
+				},
+				{
+					"title": ":xliff:MenuItem_Todo",
+					"method": "ZDiary_DiaryT"
+				},
+				{
+					"title": ":xliff:MenuItem_Appointments",
+					"method": "ZDiary_Real"
+				},
+				{
+					"title": ":xliff:MenuItem_Done",
+					"method": "ZDiary_DiaryD"
+				},
+				{
+					"title": ":xliff:MenuItem_all",
+					"method": "ZDiary_Diary",
+					"parameter": " "
+				},
+				{
+					"title": ":xliff:MenuItem_Calendar",
+					"method": "ZDiary_CalM"
+				},
+				{
+					"title": ":xliff:MenuItem_CheckDiary",
+					"method": "SD_l_ShowWorkflow"
+				}
+			]
+		},
+		{
+			"link": 5384,
+			"title": ":xliff:Menu_Others",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterNewOrders",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "O",
+					"parameter": "Orders"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewSalesOrders",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "E",
+					"parameter": "Orders"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterPO",
+					"method": "DB_MenuNewRecord",
+					"parameter": "Purchase Orders"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewPO",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Purchase orders"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32019
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportOrders",
+					"method": "ZOrders_Imp"
+				}
+			]
+		},
+		{
+			"link": 4392,
+			"title": ":xliff:Menu_Stock",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterMovements",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "Stock Movements"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewMovements",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "T",
+					"parameter": "Stock Movements"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32006
+				}
+			]
+		},
+		{
+			"link": 21038,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": "Add Product Items",
+					"method": "Letters_GPD",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "See Modulus Text",
+					"method": "Letters_SeeTxt",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"title": "See 4D Write Text",
+					"method": "Letters_See4DW",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Preview",
+					"method": "Letters_Preview"
+				}
+			]
+		},
+		{
+			"link": 14554,
+			"title": ":xliff:Menu_Inventory",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterMovements",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"parameter": "Stock movements"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewMovements",
+					"method": "ZMove_Mod",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32021
+				}
+			]
+		},
+		{
+			"link": 32033,
+			"title": "ContactsCompaniesConfig",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Areas",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Areas"
+				},
+				{
+					"title": ":xliff:MenuItem_Postcodes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Postal Codes"
+				},
+				{
+					"title": ":xliff:MenuItem_Countries",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Countries"
+				},
+				{
+					"title": ":xliff:MenuItem_AddressFormats",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Address Types"
+				},
+				{
+					"title": ":xliff:MenuItem_Status",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Status"
+				},
+				{
+					"title": ":xliff:MenuItem_Types",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Status"
+				},
+				{
+					"title": ":xliff:MenuItem_Sources",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Sources"
+				},
+				{
+					"title": ":xliff:MenuItem_Publications",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Publications"
+				},
+				{
+					"title": ":xliff:MenuItem_FurtherAnalyses",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "ADDITIONAL_RECORD_ANALYSIS"
+				},
+				{
+					"title": ":xliff:MenuItem_Roles",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Roles"
+				}
+			]
+		},
+		{
+			"link": 24149,
+			"title": ":xliff:Menu_Core",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ContactsCompanies",
+					"enabled": false,
+					"link": 32033
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SECURITY",
+					"enabled": false,
+					"link": 32034
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Settings",
+					"enabled": false,
+					"link": 32036
+				}
+			]
+		},
+		{
+			"link": 27597,
+			"title": ":xliff:Menu_Others",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_DiaryUC",
+					"enabled": false,
+					"link": 32018
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_OrdersJobsUC",
+					"enabled": false,
+					"link": 32020
+				}
+			]
+		},
+		{
+			"link": 10347,
+			"title": ":xliff:Menu_Utilities",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ClosePeriod",
+					"method": "ZPeriod_Close"
+				},
+				{
+					"title": ":xliff:MenuItem_CloseFinYear",
+					"method": "ZYear_Close"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AmalgamateTransactions",
+					"method": "ZAccounts_Amalgamate"
+				},
+				{
+					"title": ":xliff:MenuItem_CheckAccountBalances",
+					"method": "ZACC_BalCheck"
+				},
+				{
+					"title": ":xliff:MenuItem_ClearDownAccounts",
+					"method": "ZAccounts_Clear"
+				},
+				{
+					"title": ":xliff:MenuItem_Reposttransactions",
+					"method": "ZTrans_Update"
+				},
+				{
+					"title": ":xliff:MenuItem_RepostInvoice",
+					"method": "ZInvoices_Repos"
+				},
+				{
+					"title": ":xliff:MenuItem_CheckTransactions",
+					"method": "ZTrans_Check"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ConsolidateStockLevels",
+					"method": "ZStockLev_Cons"
+				},
+				{
+					"title": ":xliff:MenuItem_RecreateStockLevels",
+					"method": "ZStockLev_Recr"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Create Startup Import File  ",
+					"method": "ZStartup_Export"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_NewDataFile",
+					"link": 32009
+				}
+			]
+		},
+		{
+			"link": 4747,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Information",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_Products",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrderItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "A"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseLedger",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_NominalLedger",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "N"
+				},
+				{
+					"title": ":xliff:MenuItem_Contracts",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceCalls",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_Jobs",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "J"
+				}
+			]
+		},
+		{
+			"link": 6468,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Information",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrderItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "A"
+				},
+				{
+					"title": ":xliff:MenuItem_Contracts",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceCalls",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_Jobs",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "J"
+				}
+			]
+		},
+		{
+			"link": 26968,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Products",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_ServiceCalls",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_Jobs",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "J"
+				}
+			]
+		},
+		{
+			"link": 12571,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Projects",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 24223,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Information",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_StockItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_CurrentStock",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_StockLevels",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				}
+			]
+		},
+		{
+			"link": 21721,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Information",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionDetails",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				}
+			]
+		},
+		{
+			"link": 2301,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Products",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_Information",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesInvoices",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionDetails",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				}
+			]
+		},
+		{
+			"link": 32636,
+			"title": ":xliff:Menu_Section",
+			"items": [
+				{
+					"title": "Personnel",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "Email Settings",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "Access Rights",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": "Further Fields Access",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Diary Access",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": "Diary Settings",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": "Product Catalogue Access",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": "Job Costing",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": "Remote Data",
+					"method": "PerSelDummy",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				}
+			]
+		},
+		{
+			"link": 3353,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Jobs",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 14150,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Equalto",
+					"method": "Sel_OpEqual"
+				},
+				{
+					"title": ":xliff:MenuItem_NotEqualto",
+					"method": "Sel_OpNot"
+				},
+				{
+					"title": ":xliff:MenuItem_GreaterThan",
+					"method": "Sel_OpGreat"
+				},
+				{
+					"title": ":xliff:MenuItem_GreaterThanorEqualto",
+					"method": "Sel_OpGreatEq"
+				},
+				{
+					"title": ":xliff:MenuItem_LessThan",
+					"method": "Sel_OpLess"
+				},
+				{
+					"title": ":xliff:MenuItem_LessThanorEqualto",
+					"method": "Sel_OpLessEq"
+				},
+				{
+					"title": ":xliff:MeniItem_Contains",
+					"method": "Sel_OpCont"
+				},
+				{
+					"title": ":xliff:MenuItem_Doesnotcontain",
+					"method": "Sel_OpNotCont"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_And",
+					"method": "Sel_And",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_Or",
+					"method": "Sel_Or",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_Not",
+					"method": "Sel_Not",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SaveCriteria",
+					"method": "Sel_CritSave",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": ":xliff:MenuItem_LoadCriteria",
+					"method": "Sel_CritLoad",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_UserSearch",
+					"method": "Sel_UserSearch",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SetFunctions",
+					"method": "Gen_ListSet",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Calculations",
+					"method": "Sel_CFCalc",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				}
+			]
+		},
+		{
+			"link": 10592,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "}"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesInvoices",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_Accounts",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_AccountingPeriods",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 828,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Accounts",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_AccountingPeriods",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 32025,
+			"title": "FindCallItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_FindByCompany",
+					"method": "Calls_dItems"
+				},
+				{
+					"title": ":xliff:MenuItem_FindbyContract",
+					"method": "Calls_ContrSrch"
+				},
+				{
+					"title": ":xliff:MenuItem_FindBySerialNo",
+					"method": "Calls_SerSrch"
+				}
+			]
+		},
+		{
+			"link": 5882,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": "Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": "Bookings",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "B"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_Purchases",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				}
+			]
+		},
+		{
+			"link": 12834,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Products",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_StockMovements",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				}
+			]
+		},
+		{
+			"link": 32026,
+			"title": "BundlesAssembliesOrdersMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ShowTopLevelItems",
+					"method": "Orders_ItemTop"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowNextLevelItems",
+					"method": "Orders_ItemNext"
+				}
+			]
+		},
+		{
+			"link": 13900,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_StockItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				}
+			]
+		},
+		{
+			"link": 2161,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Find",
+					"method": "Text_Find",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_FindNext",
+					"method": "Text_FindN",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Replace",
+					"method": "Text_Replace",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceNext",
+					"method": "Text_ReplaceN",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CalculateIndents",
+					"method": "Record_Paginate",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": ":xliff:MenuItem_EditMacro",
+					"method": "Macros_Edit",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 32509,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_StockAllocation",
+					"method": "OrderI_AllocCur",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_StockLevels",
+					"method": "OrderI_StockLev",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssenblyDisplay",
+					"method": "ZStockAss_CalOI"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionDetails",
+					"method": "Orders_SuMod",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 24811,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Products",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				}
+			]
+		},
+		{
+			"link": 2336,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CompaniesSalesPerson",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_CompaniesTakenBy",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryPerson",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryOriginator",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_OrdersSalesPerson",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_OrdersTakenBy",
+					"method": "Sel_Dummy"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderItems",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 6158,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 22627,
+			"title": ":xliff:Menu_Functions",
+			"items": []
+		},
+		{
+			"link": 19549,
+			"title": ":xliff:Menu_View",
+			"items": []
+		},
+		{
+			"link": 21837,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Companies",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contacts",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Sel_Dummy",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Sel_Dummy"
+				}
+			]
+		},
+		{
+			"link": 32029,
+			"title": "CreditControlConfigMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CreditStages",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Credit stages"
+				},
+				{
+					"title": ":xliff:MenuItem_CreditCardProvision",
+					"method": "ZCards_Mod"
+				}
+			]
+		},
+		{
+			"link": 6080,
+			"title": "Functions -Jon",
+			"items": []
+		},
+		{
+			"link": 1836,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_TrialAssembly",
+					"method": "StockAss_Calc",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssenblyDisplay",
+					"method": "StockAss_CalcD",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				}
+			]
+		},
+		{
+			"link": 3892,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_TrialDisassembly",
+					"method": "StockAss_DisIte",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialDisassemblyDIsplay",
+					"method": "StockAss_DisDis",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				}
+			]
+		},
+		{
+			"link": 710,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:Menu_Find",
+					"method": "Text_Find",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_FindNext",
+					"method": "Text_FindN",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Replace",
+					"method": "Text_Replace",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceNext",
+					"method": "Text_ReplaceN",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				}
+			]
+		},
+		{
+			"link": 25133,
+			"title": ":xliff:Menu_Macros",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PasttoCurrentMacro",
+					"method": "Macros_Paste",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_CopytoCurrentMacro",
+					"method": "Macros_Copy",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				}
+			]
+		},
+		{
+			"link": 30967,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_QuotationWP",
+					"method": "Projects_PPQtn"
+				}
+			]
+		},
+		{
+			"link": 12938,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": "Company",
+					"method": "Projects_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": "Contact",
+					"method": "Projects_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/",
+					"startNewProcess": true
+				}
+			]
+		},
+		{
+			"link": 8671,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrders",
+					"method": "Orders_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Orders_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderItems",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SubscriptionDetails",
+					"method": "Orders_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				}
+			]
+		},
+		{
+			"link": 13238,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_QuotationForm",
+					"method": "Orders_PPQtnF",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_QuotationWP",
+					"method": "Orders_PPQtn"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAuthorisation",
+					"method": "Orders_PPAuth",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAcknowledgement",
+					"method": "Orders_PPAck",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": ":xliff:MenuItem_FullOrderDetails",
+					"method": "Orders_PPFull",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				}
+			]
+		},
+		{
+			"link": 26845,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "Orders_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_QuickAddItems",
+					"method": "Orders_QAdd",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "OrderI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"title": ":xliff:MenuItem_SortItems",
+					"method": "OrderI_Sort",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Orders_CP"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLev"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_SwitchAccess",
+					"method": "Orders_InAS",
+					"shortcutAccel": true,
+					"shortcutKey": "-"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 32028,
+			"title": "StockManConfigMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_StockTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Stock Types"
+				},
+				{
+					"title": ":xliff:MenuItem_StockLocations",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "locations"
+				},
+				{
+					"title": ":xliff:MenuItem_MovementTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Movement Types"
+				}
+			]
+		},
+		{
+			"link": 3650,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "JobStages_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_QuickAddItems",
+					"method": "JobStages_QAdd",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"title": ":xliff:MenuItem_DuplicateItem",
+					"method": "JobStagesI_Dup",
+					"shortcutAccel": true,
+					"shortcutKey": "U"
+				},
+				{
+					"title": ":xliff:MenuItem_CopyorMoveItems",
+					"method": "OrderI_JSCopy",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BundlesAssemblies",
+					"enabled": false,
+					"link": 32027
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStock",
+					"method": "OrderI_AllocCuJ",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLeJ"
+				},
+				{
+					"title": ":xliff:MenuItem_TrialAssenblyDisplay",
+					"method": "ZStockAss_CalOI"
+				},
+				{
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 23418,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CreateDates",
+					"method": "Products_SuDaCr",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ShowIAllItems",
+					"method": "Products_SuDaSh",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"parameter": "AllItems"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowIssues",
+					"method": "Products_SuDaSh",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "issues"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowRenewals",
+					"method": "Products_SuDaSh",
+					"shortcutAccel": true,
+					"shortcutKey": "R",
+					"parameter": "Renewals"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowBIlling",
+					"method": "Products_SuDaSh",
+					"shortcutAccel": true,
+					"shortcutKey": "B",
+					"parameter": "Billing"
+				}
+			]
+		},
+		{
+			"link": 1521,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PrintBoM",
+					"method": "StockAss_AvailP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ShowCurrentStock",
+					"method": "StockAss_CalSeS"
+				},
+				{
+					"title": ":xliff:MenuItem_HideCurrentStock",
+					"method": "StockAss_CalSeH"
+				}
+			]
+		},
+		{
+			"link": 1980,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ViewasSelected",
+					"method": "StatsView_View",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewAll",
+					"method": "StatsView_ViewA",
+					"shortcutAccel": true,
+					"shortcutKey": "A"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewRelatedData",
+					"method": "StatsView_ViewR",
+					"shortcutAccel": true,
+					"shortcutKey": "D"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:Menuitem_RemoveLine",
+					"method": "StatsView_Del",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Print",
+					"method": "StatsView_Print",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowGraph",
+					"method": "StatsView_Graph",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_Export",
+					"method": "StatsView_Exp",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				}
+			]
+		},
+		{
+			"link": 11667,
+			"title": ":xliff:Menu_Sound",
+			"items": [
+				{
+					"title": "Record",
+					"method": "Tel_MacRec",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": "Play",
+					"method": "Tel_MacPlay",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				}
+			]
+		},
+		{
+			"link": 9373,
+			"title": ":xliff:Menu_Picture",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ImportPicture",
+					"method": "DS_importPicture"
+				}
+			]
+		},
+		{
+			"link": 4055,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Print",
+					"method": "StatsView_GrPrt",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				}
+			]
+		},
+		{
+			"link": 31814,
+			"title": ":xliff:Menu_File",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Quit",
+					"method": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 25987,
+			"title": ":xliff:Menu_Functions",
+			"items": []
+		},
+		{
+			"link": 4272,
+			"title": ":xliff:Menu_Section",
+			"items": [
+				{
+					"title": "User Details",
+					"method": "Page_1",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "General",
+					"method": "Page_2",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "Stock Control",
+					"method": "Page_3",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": "Sales",
+					"method": "Page_4",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Purchases",
+					"method": "Page_5",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": "Accounts",
+					"method": "Page_6",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": "Job Costing",
+					"method": "Page_9",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": "Form Settings 1",
+					"method": "Page_7",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": "Form Settings 2",
+					"method": "Page_8",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				}
+			]
+		},
+		{
+			"link": 32035,
+			"title": "CompaniesReports2",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListContacts",
+					"method": "ZContacts_List"
+				}
+			]
+		},
+		{
+			"link": 18019,
+			"title": ":xliff:Menu_Jobs",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterJobs",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Jobs"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewJobs",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "Jobs"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_EnterTimeCosts",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"parameter": "DiaryTimeCosts"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewTime",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"parameter": "DiaryJobTime"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Reports",
+					"enabled": false,
+					"link": 32014
+				}
+			]
+		},
+		{
+			"link": 4190,
+			"title": ":xliff:Menu_Documents",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_NewDocument",
+					"method": "ZLetters_SWNew",
+					"shortcutAccel": true,
+					"shortcutKey": "N"
+				},
+				{
+					"title": ":xliff:MenuItem_OpenDocument",
+					"method": "ZLetters_SWOpen",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewDocuments",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"parameter": "DocumentsLetterTemplates"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ViewDocumentHistory",
+					"method": "ZDiary_ModSW",
+					"shortcutAccel": true,
+					"shortcutKey": "H"
+				}
+			]
+		},
+		{
+			"link": 81,
+			"title": "View",
+			"items": [
+				{
+					"title": "Company",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": "Contact",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": "Product",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": "Diary Items",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": "Purchase Orders      ",
+					"method": "Orders MenV"
+				},
+				{
+					"title": "Sales Ledger",
+					"method": "Orders MenV"
+				},
+				{
+					"title": "Attendees",
+					"method": "Orders MenV"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Order Items",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Subscriptions Details",
+					"method": "Orders MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "Y"
+				}
+			]
+		},
+		{
+			"link": 27543,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_OrderAuthorisation",
+					"method": "Orders_PPAuth",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_OrderAcknowledgement",
+					"method": "Orders_PPAck",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"title": ":xliff:MenuItem_FullOrderDetails",
+					"method": "Orders_PPFull",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrderUC",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ItemsbyPurchordNo",
+					"method": "Orders_PPPON",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders_PPPOS"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DeliveryNoteUC",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPDelL"
+				},
+				{
+					"title": ":xliff:MenuItem_ItemsbyDate",
+					"method": "Orders_PPDelD",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": ":xliff:MenuItem_allnotDelivered",
+					"method": "Orders_PPDelA",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders_PPDelS"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_InvCreditNotes",
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocatedItems",
+					"method": "Orders_PPInvL"
+				},
+				{
+					"title": ":xliff:Menuitem_ItemsbyinvoiceNo",
+					"method": "Orders_PPInvN",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": ":xliff:MenuItem_AllNotInvoiced",
+					"method": "Orders_PPInvA",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				},
+				{
+					"title": ":xliff:MenuItem_SelectedItems",
+					"method": "Orders_PPInvS"
+				}
+			]
+		},
+		{
+			"link": 21671,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "Orders_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Orders_CP"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStock",
+					"method": "OrderI_AllocCur",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStockAuto",
+					"method": "OrderI_AllocAut",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"title": ":xliff:MenuItem_Unallocate",
+					"method": "OrderI_UnaAut"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLev"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 5258,
+			"title": ":xliff:Menu_File",
+			"items": [
+				{
+					"title": "New...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Open...",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "O"
+				},
+				{
+					"title": "Close",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Insert Text...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Picture...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Save",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"title": "Save As...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Get Info...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Page Setup...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Print...",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"title": "Print Merge...",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"title": "Print Merge Special...    ",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Report an Issue",
+					"method": "ERR_ReporterTool"
+				},
+				{
+					"title": "Debug Window",
+					"method": "ErrorDebugInit",
+					"startNewProcess": true
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Zoom Window",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				}
+			]
+		},
+		{
+			"link": 20121,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": "Ruler Units...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Normal",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Page Layout",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Show Invisibles",
+					"method": "Letters_SWMenu"
+				}
+			]
+		},
+		{
+			"link": 24659,
+			"title": ":xliff:Menu_Query",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Find",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_FindNext",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_Replace",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceNext",
+					"method": "Letters_SWMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceAll",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ShowSelection",
+					"method": "Letters_SWMenu"
+				}
+			]
+		},
+		{
+			"link": 22081,
+			"title": ":xliff:Menu_Format",
+			"items": [
+				{
+					"title": "Document...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Paragraph...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Character...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Insert Page Break",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Soft Hyphen",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Add Tab...",
+					"method": "Letters_SWMenu"
+				}
+			]
+		},
+		{
+			"link": 30977,
+			"title": ":xliff:Menu_Merge",
+			"items": [
+				{
+					"title": "Insert Letter Date",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Our Ref",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Address",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Salutation",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert From",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Insert Field...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"title": "Insert Expression...",
+					"method": "Letters_SWMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Add Product Items...",
+					"method": "Letters_SWMenu"
+				}
+			]
+		},
+		{
+			"link": 28388,
+			"title": ":xliff:Menu_Find",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Find",
+					"method": "Letters_WSMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "F"
+				},
+				{
+					"title": ":xliff:MenuItem_FindNext",
+					"method": "Letters_WSMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "G"
+				},
+				{
+					"title": ":xliff:MenuItem_Replace",
+					"method": "Letters_WSMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceNext",
+					"method": "Letters_WSMenu",
+					"shortcutAccel": true,
+					"shortcutKey": "T"
+				},
+				{
+					"title": ":xliff:MenuItem_ReplaceAll",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ShowSelection",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Goto Page ...",
+					"method": "Letters_WSMenu"
+				}
+			]
+		},
+		{
+			"link": 13583,
+			"title": ":xliff:Menu_Format",
+			"items": [
+				{
+					"title": "Choose Font Style...",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Hide Invisibles",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Hide Pictures",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Hide Ruler",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Show Margins",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Copy Ruler",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Paste Ruler",
+					"method": "Letters_WSMenu"
+				}
+			]
+		},
+		{
+			"link": 10045,
+			"title": ":xliff:Menu_Insert",
+			"items": [
+				{
+					"title": "Page Break",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Soft Hyphen",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Page Number",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Current Date",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Current Time",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Letter Date",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Our Ref",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Address",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Salutation",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "From",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Field...",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Expression...",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"title": "Format...",
+					"method": "Letters_WSMenu"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Product Items...",
+					"method": "Letters_WSMenu"
+				}
+			]
+		},
+		{
+			"link": 12198,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				},
+				{
+					"title": ":xliff:MenuItem_DiaryItems",
+					"method": "Jobs_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": ":xliff:MenuItem_Product",
+					"method": "Jobs_MenV"
+				},
+				{
+					"title": ":xliff:MenuItem_SalesLedger",
+					"method": "Jobs_MenV"
+				}
+			]
+		},
+		{
+			"link": 29137,
+			"title": ":xliff:Menu_Print",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_QuotationForm",
+					"method": "Jobs_PPQtnF",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": ":xliff:MenuItem_QuotationWP",
+					"method": "Jobs_PPQtn",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": ":xliff:MenuItem_JobDetails",
+					"method": "Jobs_PPSht",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PurchaseOrder",
+					"method": "Jobs_PPPO",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": ":xliff:MenuItem_ProFormaInvoice",
+					"method": "Jobs_PPProf",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": ":xliff:MenuItem_PrintInvCreditNote",
+					"method": "Jobs_PPInv",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				}
+			]
+		},
+		{
+			"link": 2806,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CopyPrevious",
+					"method": "Jobs_CP"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_RecalculateAllTotals",
+					"method": "Jobs_InRecalc"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ExpandText",
+					"method": "Text_ExpandL",
+					"shortcutAccel": true,
+					"shortcutKey": ";"
+				}
+			]
+		},
+		{
+			"link": 25059,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AddProductItems",
+					"method": "JobStages_GP",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AllocateStock",
+					"method": "OrderI_AllocCuJ",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewStockLevels",
+					"method": "OrderI_StockLeJ"
+				}
+			]
+		},
+		{
+			"link": 4178,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_StockHistory",
+					"method": "StockCurr_MenV"
+				}
+			]
+		},
+		{
+			"link": 5694,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_MultipleDiaryItems",
+					"method": "Comp_xAny"
+				}
+			]
+		},
+		{
+			"link": 10104,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_MultipleDiaryItems",
+					"method": "Cont_xAny"
+				}
+			]
+		},
+		{
+			"link": 2520,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": "Print Further Fields",
+					"method": "FurthFld_Print",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				}
+			]
+		},
+		{
+			"link": 32030,
+			"title": "LedgersConfigMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Accounts",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Accounts"
+				},
+				{
+					"title": ":xliff:MenuItem_AccountsHeadings",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Headings"
+				},
+				{
+					"title": ":xliff:MenuItem_Yearsperiods",
+					"method": "ZPeriods_Mod",
+					"startNewProcess": true
+				},
+				{
+					"title": ":xliff:MenuItem_TransactionTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Transaction Types"
+				},
+				{
+					"title": ":xliff:MenuItem_Analyses",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Analyses"
+				},
+				{
+					"title": ":xliff:MenuItem_Layers",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Layers"
+				},
+				{
+					"title": ":xliff:MenuItem_TaxCodes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Tax Codes"
+				},
+				{
+					"title": ":xliff:MenuItem_Currencies",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Currencies"
+				}
+			]
+		},
+		{
+			"link": 27885,
+			"title": ":xliff:Menu_Receivables",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterAdHocProformas",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "F",
+					"parameter": "InvoicesProforma"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterAdhoc",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Invoices"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterAdhocCreditMemo",
+					"method": "DB_MenuNewRecord",
+					"parameter": "InvoicesCreditNote"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewAccountsReceivable",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Invoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchInvoiceOrders",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "OrdersInvoice"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPrintInvoices",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPrintInvoices"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "BatchPostInvoices"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_DepositReceipt",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "D",
+					"parameter": "InvoicesDeposit"
+				},
+				{
+					"title": ":xliff:MenuItem_DepositRefund",
+					"method": "DBI_MenuDisplayRecords",
+					"startNewProcess": true,
+					"parameter": "InvoicesDepRefund"
+				},
+				{
+					"title": ":xliff:MenuItem_InvoiceReceipt",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "InvoicesReceipt"
+				},
+				{
+					"title": ":xliff:MenuItem_UndoReceipt",
+					"method": "DBI_MenuDisplayRecords",
+					"startNewProcess": true,
+					"parameter": "InvoicesReceiptRefund"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_RemRec",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "InvoicesRemittances"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReceivablesScreenReport",
+					"method": "Zinvoices_ADScr"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32010
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportInvoices",
+					"method": "ZInvoices_Imp"
+				},
+				{
+					"title": ":xliff:MenuItem_ImportReceipts",
+					"method": "ZInvoices_ImpR"
+				}
+			]
+		},
+		{
+			"link": 29468,
+			"title": ":xliff:Menu_Payables",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_EnterPurchaseInvoice",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"parameter": "Purchases"
+				},
+				{
+					"title": ":xliff:MenuItem_EnterCreditMemos",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesCredit"
+				},
+				{
+					"title": ":xliff:MenuItem_ViewAccountsPayable",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "J",
+					"parameter": "Purchases"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPost",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "PurchasesPost"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PrePayment",
+					"method": "DB_MenuNewRecord",
+					"parameter": "PurchasesPrePayment"
+				},
+				{
+					"title": ":xliff:MenuItem_PurchasePayment",
+					"method": "DB_MenuNewRecord",
+					"shortcutAccel": true,
+					"shortcutKey": "K",
+					"parameter": "PurchasesPayment"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Remit",
+					"method": "DBI_MenuDisplayRecords",
+					"shortcutAccel": true,
+					"shortcutKey": "H",
+					"parameter": "PurchasesCheques"
+				},
+				{
+					"title": ":xliff:MenuItem_AutopayList",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "PurchasesAutopay"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PayablesScreenReport",
+					"method": "ZPurchases_ACSc"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ReportsUC",
+					"enabled": false,
+					"link": 32015
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_ImportInvoices",
+					"method": "ZPurchases_Imp"
+				}
+			]
+		},
+		{
+			"link": 32001,
+			"title": "SalesLedgerReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AgedDebtors",
+					"method": "ZInvoices_AD"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedDebtorsAsAt",
+					"method": "ZInvoices_ADAA"
+				}
+			]
+		},
+		{
+			"link": 29591,
+			"title": ":xliff:Menu_File",
+			"items": [
+				{
+					"title": ":xliff:Menuitem_Accept",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_Cancel",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_DeleteRecord",
+					"method": "Menu_PalButt"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:Menuitem_New",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_Modify",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_RemoveLine",
+					"method": "Menu_PalButt"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:Menuitem_NextRecord",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_PreviousRecord",
+					"method": "Menu_PalButt"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:Menuitem_SelectRecords",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_SortRecords",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_TotalRecords",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:MenuItem_Report",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:Menuitem_Graphs",
+					"method": "Menu_PalButt"
+				},
+				{
+					"title": ":xliff:MenuItem_ApplytoSelection",
+					"method": "Menu_PalButt"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_RunScript",
+					"method": "Macro_MenuFile"
+				},
+				{
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:MenuItem_Reportabug",
+					"method": "ERR_ReporterTool"
+				},
+				{
+					"title": ":xliff:MenuItem_Debugwindow",
+					"method": "ErrorDebugInit",
+					"startNewProcess": true
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_Menus",
+					"method": "Menus"
+				},
+				{
+					"title": ":xliff:MenuItem_Processes",
+					"method": "ProcessesP",
+					"shortcutAccel": true,
+					"shortcutKey": "="
+				},
+				{
+					"title": ":xliff:MenuItem_CloseWindow",
+					"method": "Close_Process",
+					"shortcutAccel": true,
+					"shortcutKey": "W"
+				}
+			]
+		},
+		{
+			"link": 32027,
+			"title": "BundlesAssembliesJS",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ShowTopLevelItems",
+					"method": "JobStages_ItTop"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowNextLevelItems",
+					"method": "JobStages_ItNxt"
+				}
+			]
+		},
+		{
+			"link": 4426,
+			"title": ":xliff:Menu_View",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Company",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "]"
+				},
+				{
+					"title": ":xliff:MenuItem_Contact",
+					"method": "Diary_MenV",
+					"shortcutAccel": true,
+					"shortcutKey": "/"
+				}
+			]
+		},
+		{
+			"link": 8262,
+			"title": ":xliff:Menu_Functions",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_SendEmail",
+					"method": "Script_DiaryEmailSend"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_AddRecipients",
+					"method": "ZContactsEmailFind"
+				}
+			]
+		},
+		{
+			"link": 12070,
+			"title": ":xliff:Menu_Validation",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_FindUnlinkedInvoices",
+					"method": "INV_ValidateList"
+				}
+			]
+		},
+		{
+			"link": 3761,
+			"title": ":xliff:Menu_Lists",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_NewList",
+					"method": "AA_LMA_newList",
+					"shortcutAccel": true,
+					"shortcutKey": "N"
+				}
+			]
+		},
+		{
+			"link": 16417,
+			"title": ":xliff:Menu_ListItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Newitem",
+					"method": "Men_NewListItem"
+				},
+				{
+					"title": ":xliff:MenuItem_NewSubitem",
+					"method": "Men_NewSublistitem",
+					"shortcutAccel": true,
+					"shortcutKey": "ö"
+				},
+				{
+					"title": ":xliff:MenuItem_DeleteItem",
+					"method": "AA_LMA_DeleteListItem"
+				}
+			]
+		},
+		{
+			"link": 1129,
+			"title": ":xliff:Menu_Mode",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Design",
+					"shortcutAccel": true,
+					"shortcutKey": "Y",
+					"action": "design"
+				},
+				{
+					"title": ":xliff:MenuItem_User",
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"action": "userMode"
+				},
+				{
+					"title": ":xliff:MenuItem_Custom",
+					"state": "checked",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"action": "application"
+				}
+			]
+		},
+		{
+			"link": 32009,
+			"title": "NewDataFile",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_BusinessTemplates",
+					"method": "ZStartup_Setups"
+				},
+				{
+					"title": ":xliff:MenuItem_OpeningBalances",
+					"method": "ZStartup_SetOB"
+				}
+			]
+		},
+		{
+			"link": 32012,
+			"title": "PurchaseOrdersReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListOrderitems",
+					"method": "ZOrderI_List"
+				},
+				{
+					"title": ":xliff:MenuItem_OutstandingOrderItems",
+					"method": "ZOrderI_Outstdg"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPurchaseOrders",
+					"method": "ZOrders_Purch"
+				}
+			]
+		},
+		{
+			"link": 32011,
+			"title": "DataIntegrity",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_CheckRecordIDCrash",
+					"method": "TBL_CheckUnique",
+					"startNewProcess": true
+				}
+			]
+		},
+		{
+			"link": 32013,
+			"title": "PurchaseInvoiceReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PurchaseDaybook",
+					"method": "ZPurchases_Day"
+				},
+				{
+					"title": ":xliff:MenuItem_ListPurchaseLedger",
+					"method": "ZPurchases_List"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedCreditors",
+					"method": "ZPurchases_AC"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedCreditorsasat",
+					"method": "ZPurchases_ACAA"
+				}
+			]
+		},
+		{
+			"link": 32016,
+			"title": "SVSConfigItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Problems",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Problems"
+				},
+				{
+					"title": ":xliff:MenuItem_Solutions",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Solutions"
+				},
+				{
+					"title": ":xliff:MenuItem_ContractTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "contract types"
+				}
+			]
+		},
+		{
+			"link": 32015,
+			"title": "PayablesInvoiceReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PayablesDaybook",
+					"method": "ZPurchases_Day"
+				},
+				{
+					"title": ":xliff:MenuItem_ListPayables",
+					"method": "ZPurchases_List"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedPayables",
+					"method": "ZPurchases_AC"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedPayablesasat",
+					"method": "ZPurchases_ACAA"
+				}
+			]
+		},
+		{
+			"link": 32017,
+			"title": "JobCostConfigItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_PersonnelCategories",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "time_billing_Categories"
+				},
+				{
+					"title": ":xliff:MenuItem_JobStages",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Stages"
+				},
+				{
+					"title": ":xliff:MenuItem_JobTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Job Types"
+				}
+			]
+		},
+		{
+			"link": 32018,
+			"title": "TimeManagerConfigItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_Actions",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Actions"
+				},
+				{
+					"title": ":xliff:MenuItem_Results",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Results"
+				},
+				{
+					"title": ":xliff:MenuItem_WorkflowManager",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "WORKFLOW_CONTROL"
+				}
+			]
+		},
+		{
+			"link": 32019,
+			"title": "SalesOrderReports_2",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListOrders",
+					"method": "ZOrders_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ListOrderitems",
+					"method": "ZOrderI_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ListPurchaseOrders",
+					"method": "ZPurchOrd_List"
+				}
+			]
+		},
+		{
+			"link": 32020,
+			"title": "OrdersJobsConfigItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_OrderJobTypes",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Job Types"
+				},
+				{
+					"title": ":xliff:MenuItem_PersonnelCategories",
+					"method": "DBI_MenuDisplayRecords",
+					"parameter": "Categories"
+				},
+				{
+					"title": ":xliff:MenuItem_JobStages",
+					"method": "ZStages_Mod"
+				}
+			]
+		},
+		{
+			"link": 32014,
+			"title": "JobsReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_JobsList",
+					"method": "ZJobs_List"
+				},
+				{
+					"title": ":xliff:MenuItem_JobStagesList",
+					"method": "ZJobStages_List"
+				},
+				{
+					"title": ":xliff:MenuItem_TimeSheets",
+					"method": "ZJobs_TS"
+				},
+				{
+					"title": ":xliff:MenuItem_TimeList",
+					"method": "ZTime_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ProductivityReport",
+					"method": "ZTime_Product"
+				}
+			]
+		},
+		{
+			"link": 32021,
+			"title": "InventoryReportsMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_MovementsList",
+					"method": "ZMovements_List"
+				},
+				{
+					"title": ":xliff:MenuItem_InventoryItemsList",
+					"method": "ZStock_List"
+				},
+				{
+					"title": ":xliff:Menuitem_CurrentInventoryList",
+					"method": "ZStockCurr_List"
+				},
+				{
+					"title": ":xliff:MenuItem_InventoryLevelsValues",
+					"method": "ZStockLev_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ReOrderingReport",
+					"method": "ZProducts_Reord"
+				}
+			]
+		},
+		{
+			"link": 32022,
+			"title": "NominalLedgerReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AuditTrail",
+					"method": "ZTransB_Audit"
+				},
+				{
+					"title": ":xliff:MenuItem_TransBatches",
+					"method": "ZTransB_ListP"
+				},
+				{
+					"title": "Item 3",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_TransByDate",
+					"method": "ZTrans_Date"
+				},
+				{
+					"title": ":xliff:MenuItem_TransactionsReport",
+					"method": "ZTrans_Report"
+				},
+				{
+					"title": "Item 6",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_PeriodBalList",
+					"method": "ZAcc_BalList"
+				},
+				{
+					"title": ":xliff:MenuItem_PeriodBalRep",
+					"method": "ZAccBal_Report"
+				},
+				{
+					"title": "Item 9",
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": ":xliff:MenuItem_TrialBal",
+					"method": "ZAccBal_TB"
+				},
+				{
+					"title": ":xliff:MenuItem_PL",
+					"method": "ZAccBal_PL"
+				},
+				{
+					"title": ":xliff:MenuItem_BalanceSheet",
+					"method": "ZAccBal_BS"
+				},
+				{
+					"title": ":xliff:MenuItem_VatReturn",
+					"method": "ZAccBal_VAT"
+				},
+				{
+					"title": ":xliff:MenuItem_VATlisting",
+					"method": "ZTrans_IO"
+				}
+			]
+		},
+		{
+			"link": 32023,
+			"title": "FindOrderItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_FindByCompany",
+					"method": "Contr_OI"
+				},
+				{
+					"title": ":xliff:MenuItem_FindBySerialNo",
+					"method": "Contr_SerSrch"
+				}
+			]
+		},
+		{
+			"link": 32024,
+			"title": "BundlesAssembliesMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ShowTopLevelItems",
+					"method": "Jobs_ItemsTop"
+				},
+				{
+					"title": ":xliff:MenuItem_ShowNextLevelItems",
+					"method": "Jobs_ItemsNext"
+				}
+			]
+		},
+		{
+			"link": 32000,
+			"title": ":xliff:Menu_InvoiceItems",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ViewInvoiceItems",
+					"method": "INV_Invoiceitems",
+					"parameter": "Invoice Items"
+				}
+			]
+		},
+		{
+			"link": 32010,
+			"title": "ReceivablesReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_AgedReceivables",
+					"method": "ZInvoices_AD"
+				},
+				{
+					"title": ":xliff:MenuItem_AgedReceivablesasat",
+					"method": "ZInvoices_ADAA"
+				},
+				{
+					"title": ":xliff:MenuItem_TaxList",
+					"method": "ZInvoices_VAT10"
+				}
+			]
+		},
+		{
+			"link": 32002,
+			"title": ":xliff:Menu_TimeManagerReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListtimeManager",
+					"method": "ZDiary_List"
+				}
+			]
+		},
+		{
+			"link": 32004,
+			"title": "ProductsReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListProducts",
+					"method": "ZProducts_List"
+				},
+				{
+					"title": ":xliff:MenuItem_PriceList",
+					"method": "ZProd_Price_PL"
+				}
+			]
+		},
+		{
+			"link": 32005,
+			"title": "EnquiryWriterReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListEnquiryWriter",
+					"method": "ZOrders_ListV"
+				},
+				{
+					"title": ":xliff:MenuItem_OrdersForecasts",
+					"method": "ZOrders_Fore"
+				}
+			]
+		},
+		{
+			"link": 32006,
+			"title": "StockreportsMenu",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_MovementsList",
+					"method": "ZMovements_List"
+				},
+				{
+					"title": ":xliff:MenuItem_CurrentStockList",
+					"method": "ZStockCurr_List"
+				},
+				{
+					"title": ":xliff:MenuItem_LevelsValues",
+					"method": "ZStockLev_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ReorderingReport",
+					"method": "ZProducts_Reord"
+				}
+			]
+		},
+		{
+			"link": 32008,
+			"title": "SalesOrdersReports",
+			"items": [
+				{
+					"title": ":xliff:MenuItem_ListOrders",
+					"method": "ZOrders_List"
+				},
+				{
+					"title": ":xliff:MenuItem_ListOrderitems",
+					"method": "ZOrderI_List"
+				},
+				{
+					"title": ":xliff:MenuItem_GrossMarginReport",
+					"method": "ZOrders_GM"
+				},
+				{
+					"title": ":xliff:MenuItem_OrdersForecasts",
+					"method": "ZOrders_Fore"
+				},
+				{
+					"title": ":xliff:MenuItem_OutstandingOrderItems",
+					"method": "ZOrderI_Outstdg"
+				},
+				{
+					"title": ":xliff:MenuItem_BatchPurchaseOrders",
+					"method": "ZOrders_Purch"
+				}
+			]
+		}
+	]
+}

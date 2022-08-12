@@ -1,0 +1,1035 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 710,
+	"markerBreak": 710,
+	"markerFooter": 720,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 93,
+					"left": 667,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text89": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 628,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "SF_ARCHIVE_PURCHASE_ORDER"
+				},
+				"Line90": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 757,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPreviousPage": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bPreviousPage",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Page"
+					},
+					"action": "previousPage",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNextPage": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bNextPage",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
+					"action": "nextPage",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 462,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 525,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text113": {
+					"type": "text",
+					"top": 126,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_DELIVERTOADDRESS : "
+				},
+				"Text114": {
+					"type": "text",
+					"top": 200,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_FRIEGHTCOMPANYUUID : "
+				},
+				"Text115": {
+					"type": "text",
+					"top": 226,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_FRIEGHTCOMPANYNAME : "
+				},
+				"Text116": {
+					"type": "text",
+					"top": 252,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_DELIVERYTERMS : "
+				},
+				"Text117": {
+					"type": "text",
+					"top": 278,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_DELIVERYDATEPROPOSED : "
+				},
+				"Text118": {
+					"type": "text",
+					"top": 304,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_DELIVERYDATEAGREED : "
+				},
+				"Text119": {
+					"type": "text",
+					"top": 330,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_DELIVERYMETHOD : "
+				},
+				"Text120": {
+					"type": "text",
+					"top": 356,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_ACCOUNTSPERIOD : "
+				},
+				"Text121": {
+					"type": "text",
+					"top": 382,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_ACCOUNTLAYER : "
+				},
+				"Text122": {
+					"type": "text",
+					"top": 408,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_ANALYSISLAYER : "
+				},
+				"Text123": {
+					"type": "text",
+					"top": 434,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_VALUECURRENCY : "
+				},
+				"Text124": {
+					"type": "text",
+					"top": 460,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_VALUEEXCLUDINGTAX : "
+				},
+				"Text125": {
+					"type": "text",
+					"top": 486,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_MANAGERUUID : "
+				},
+				"Text126": {
+					"type": "text",
+					"top": 512,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_MANAGERNAME : "
+				},
+				"Text127": {
+					"type": "text",
+					"top": 538,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_RAISEDBYUUID : "
+				},
+				"Text128": {
+					"type": "text",
+					"top": 564,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_RAISEDBYNAME : "
+				},
+				"Text129": {
+					"type": "text",
+					"top": 590,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_SUPRECORDREF : "
+				},
+				"Text130": {
+					"type": "text",
+					"top": 616,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_VALUETAX : "
+				},
+				"Text131": {
+					"type": "text",
+					"top": 642,
+					"left": 128,
+					"width": 258,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "PURCHASE_VALUETOTAL : "
+				},
+				"PURCHASE_DELIVERTOADDRESS": {
+					"type": "input",
+					"top": 126,
+					"left": 391,
+					"width": 234,
+					"height": 64,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_DELIVERTOADDRESS:25",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_FRIEGHTCOMPANYUUID": {
+					"type": "input",
+					"top": 200,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_FRIEGHTCOMPANYUUID:26",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_FRIEGHTCOMPANYNAME": {
+					"type": "input",
+					"top": 226,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_FRIEGHTCOMPANYNAME:27",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_DELIVERYTERMS": {
+					"type": "input",
+					"top": 252,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_DELIVERYTERMS:28",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_DELIVERYDATEPROPOSED": {
+					"type": "input",
+					"top": 278,
+					"left": 391,
+					"width": 88,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_DELIVERYDATEPROPOSED:29",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_DELIVERYDATEAGREED": {
+					"type": "input",
+					"top": 304,
+					"left": 391,
+					"width": 88,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_DELIVERYDATEAGREED:30",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_DELIVERYMETHOD": {
+					"type": "input",
+					"top": 330,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_DELIVERYMETHOD:31",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_ACCOUNTSPERIOD": {
+					"type": "input",
+					"top": 356,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_ACCOUNTSPERIOD:32",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_ACCOUNTLAYER": {
+					"type": "input",
+					"top": 382,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_ACCOUNTLAYER:33",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_ANALYSISLAYER": {
+					"type": "input",
+					"top": 408,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_ANALYSISLAYER:34",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_VALUECURRENCY": {
+					"type": "input",
+					"top": 434,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_VALUECURRENCY:35",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_VALUEEXCLUDINGTAX": {
+					"type": "input",
+					"top": 460,
+					"left": 391,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_VALUEEXCLUDINGTAX:36",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_MANAGERUUID": {
+					"type": "input",
+					"top": 486,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_MANAGERUUID:37",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_MANAGERNAME": {
+					"type": "input",
+					"top": 512,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_MANAGERNAME:38",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_RAISEDBYUUID": {
+					"type": "input",
+					"top": 538,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_RAISEDBYUUID:39",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_RAISEDBYNAME": {
+					"type": "input",
+					"top": 564,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_RAISEDBYNAME:40",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_SUPRECORDREF": {
+					"type": "input",
+					"top": 590,
+					"left": 391,
+					"width": 361,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_SUPRECORDREF:41",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_VALUETAX": {
+					"type": "input",
+					"top": 616,
+					"left": 391,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_VALUETAX:42",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PURCHASE_VALUETOTAL": {
+					"type": "input",
+					"top": 642,
+					"left": 391,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[SF_ARCHIVE_PURCHASE_ORDER:42]PURCHASE_VALUETOTAL:43",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text89",
+					"Line90"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bPreviousPage",
+					"bNextPage",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,236 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 40,
+					"left": 44,
+					"width": 96,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_headingName"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 40,
+					"left": 150,
+					"width": 295,
+					"height": 14,
+					"dataSource": "[HEADINGS:84]Heading_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 20,
+					"left": 45,
+					"width": 95,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_headingCode"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 20,
+					"left": 150,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[HEADINGS:84]Heading_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 60,
+					"left": 46,
+					"width": 94,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_reportLevel"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 60,
+					"left": 150,
+					"width": 56,
+					"height": 14,
+					"defaultValue": "1",
+					"dataSource": "[HEADINGS:84]Heading_Level:3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"min": 1,
+					"max": 9,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 81,
+					"left": 3,
+					"width": 137,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_parentHeadingCode"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 81,
+					"left": 150,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[HEADINGS:84]Level_Up_Code:4",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 102,
+					"left": 47,
+					"width": 93,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_reportGroup"
+				},
+				"Field5": {
+					"type": "input",
+					"top": 102,
+					"left": 150,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[HEADINGS:84]Group_Code:5",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

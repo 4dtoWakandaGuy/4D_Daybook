@@ -1,0 +1,196 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oNewContact": {
+					"type": "button",
+					"top": 162,
+					"left": 152,
+					"width": 118,
+					"height": 22,
+					"sizingX": "move",
+					"dataSource": "BnewRecord",
+					"shortcutKey": "[Enter]",
+					"text": "New Contact",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oNewContact.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSelectContact": {
+					"type": "button",
+					"top": 162,
+					"left": 10,
+					"width": 127,
+					"height": 22,
+					"dataSource": "BSelectContact",
+					"text": "Select Contact",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oSelectContact.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNewContact2": {
+					"type": "button",
+					"top": 161,
+					"left": 0,
+					"width": 1,
+					"height": 23,
+					"sizingY": "move",
+					"dataSource": "BnewRecord",
+					"shortcutKey": "[Return]",
+					"text": "New Company",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 1,
+					"left": 41,
+					"width": 187,
+					"height": 26,
+					"class": "Field_INFOS",
+					"textAlign": "center",
+					"text": "This person may already exist, if they appear below please select them."
+				},
+				"oLBContactInfor": {
+					"type": "listbox",
+					"top": 30,
+					"left": 3,
+					"width": 271,
+					"height": 124,
+					"resizingMode": "legacy",
+					"dataSource": "List Box",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBContactInfor.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "SD_at_ContactInfo",
+							"width": 256,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

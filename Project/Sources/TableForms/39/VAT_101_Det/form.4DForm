@@ -1,0 +1,221 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 306,
+	"markerBody": 323,
+	"markerBreak": 343,
+	"markerFooter": 363,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 306,
+					"left": 517,
+					"width": 21,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 306,
+					"left": 49,
+					"width": 277,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 306,
+					"left": 13,
+					"width": 37,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 306,
+					"left": 325,
+					"width": 193,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 309,
+					"left": 480,
+					"width": 24,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "00"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 309,
+					"left": 0,
+					"width": 13,
+					"height": 11,
+					"dataSource": "vNo1",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 8,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 307,
+					"left": 14,
+					"width": 35,
+					"height": 16,
+					"dataSource": "vTitle6",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 307,
+					"left": 50,
+					"width": 275,
+					"height": 16,
+					"dataSource": "vTitle7",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 307,
+					"left": 326,
+					"width": 145,
+					"height": 16,
+					"dataSource": "vAmount",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0;(###,###,##0);",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 307,
+					"left": 518,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vTitle8",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

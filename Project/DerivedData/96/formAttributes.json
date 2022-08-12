@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Layouts_Out": {
+			"timeStamp": "2022-03-10T16:49:21.777Z",
+			"destination": "listScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.766Z",
+			"destination": "listScreen"
+		},
+		"Layout_In": {
+			"timeStamp": "2022-03-10T16:49:21.774Z",
+			"destination": "detailScreen"
+		}
+	}
+}

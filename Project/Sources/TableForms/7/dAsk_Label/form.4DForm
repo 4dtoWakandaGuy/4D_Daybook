@@ -1,0 +1,388 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperWidth": "8813pt",
+		"paperHeight": "11405pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 257,
+					"left": 473,
+					"width": 13,
+					"height": 6,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 12,
+					"width": 364,
+					"height": 233,
+					"class": "Headers",
+					"text": "LABEL FORMAT"
+				},
+				"Variable2": {
+					"type": "radio",
+					"top": 69,
+					"left": 29,
+					"width": 339,
+					"height": 19,
+					"dataSource": "vT2",
+					"text": "A4 7 * 2 Labels; with margin top & bottom",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "radio",
+					"top": 92,
+					"left": 29,
+					"width": 339,
+					"height": 21,
+					"dataSource": "vT3",
+					"text": "14\" * 1.5\" 4 across, no margin",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 49,
+					"width": 264,
+					"height": 19,
+					"dataSource": "cNAA",
+					"text": "Print Company & Contact Codes",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "radio",
+					"top": 136,
+					"left": 29,
+					"width": 339,
+					"height": 20,
+					"dataSource": "vT4",
+					"text": "13\" * 1.5\" 4 across, no margin",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "checkbox",
+					"top": 156,
+					"left": 49,
+					"width": 264,
+					"height": 19,
+					"dataSource": "cNAA",
+					"text": "Print Company & Contact Codes",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "checkbox",
+					"top": 219,
+					"left": 30,
+					"width": 264,
+					"height": 19,
+					"dataSource": "cSIS",
+					"text": "Use Preferences Font Style",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 190,
+					"left": 393,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 224,
+					"left": 392,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "radio",
+					"top": 45,
+					"left": 29,
+					"width": 339,
+					"height": 20,
+					"dataSource": "vT1",
+					"text": "A4 8 * 2 Labels; no margin (top 7 printed)",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 175,
+					"left": 29,
+					"width": 339,
+					"height": 20,
+					"dataSource": "vT5",
+					"text": "Custom",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Radio Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "button",
+					"top": 191,
+					"left": 393,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 225,
+					"left": 392,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Radio Button2": {
+					"type": "radio",
+					"top": 175,
+					"left": 29,
+					"width": 73,
+					"height": 20,
+					"dataSource": "vT5",
+					"text": "Custom",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Radio Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 174,
+					"left": 106,
+					"width": 87,
+					"height": 22,
+					"dataSource": "Vt5Choose",
+					"text": "Choose Template",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 179,
+					"left": 203,
+					"width": 160,
+					"height": 13,
+					"dataSource": "vT5Document",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

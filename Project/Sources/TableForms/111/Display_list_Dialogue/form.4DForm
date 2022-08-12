@@ -1,0 +1,674 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oCancel": {
+					"type": "button",
+					"top": 346,
+					"left": 194,
+					"width": 80,
+					"height": 22,
+					"sizingX": "move",
+					"dataSource": "LST_but_Cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oValidate": {
+					"type": "button",
+					"top": 346,
+					"left": 283,
+					"width": 80,
+					"height": 22,
+					"sizingX": "move",
+					"dataSource": "LIST_but_Accept",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"method": "ObjectMethods/oValidate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oHighlightRectangle": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 376,
+					"height": 23,
+					"sizingX": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"oListEditorLabel": {
+					"type": "text",
+					"top": 6,
+					"left": 42,
+					"width": 86,
+					"height": 12,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "List Name :"
+				},
+				"oListNameFIeld": {
+					"type": "input",
+					"top": 5,
+					"left": 130,
+					"width": 232,
+					"height": 12,
+					"dataSource": "[X_LISTS:111]x_ListName:2",
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 331,
+					"left": 2,
+					"width": 375
+				},
+				"oLBlistItems": {
+					"type": "listbox",
+					"top": 24,
+					"left": 2,
+					"width": 373,
+					"height": 307,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "AA_LB_Listitems",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#FFFFFF",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBlistItems.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 358,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oAddNewButton": {
+					"type": "button",
+					"top": 333,
+					"left": 2,
+					"width": 31,
+					"height": 30,
+					"sizingY": "move",
+					"dataSource": "LST_but_add",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_add.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddNewButton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 7,
+					"left": 42,
+					"width": 86,
+					"height": 12,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "List Editor"
+				},
+				"oNewItemVariable": {
+					"type": "input",
+					"top": 182,
+					"left": 136,
+					"width": 227,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "AA_t_NewListItem",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oNewItemVariable.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDeleteItemButton": {
+					"type": "button",
+					"top": 310,
+					"left": 209,
+					"width": 79,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "LST_but_DeleteItem",
+					"text": "Delete Item",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oDeleteItemButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUseDefaultsButton": {
+					"type": "button",
+					"top": 310,
+					"left": 8,
+					"width": 111,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "LST_but_useDefaults",
+					"text": "Set Default Values",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oUseDefaultsButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSaveItemButton": {
+					"type": "button",
+					"top": 310,
+					"left": 292,
+					"width": 78,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "LST_but_SaveItem",
+					"text": "Save",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oSaveItemButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oModifyLabel": {
+					"type": "input",
+					"top": 181,
+					"left": 18,
+					"width": 115,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "AA_t_AddorModLabel+\" :\"",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 29,
+					"left": 57,
+					"width": 75,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "List Items"
+				},
+				"oPropertiesLabel": {
+					"type": "text",
+					"top": 206,
+					"left": 57,
+					"width": 75,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Properties :"
+				},
+				"oSelectedPropertyLabel": {
+					"type": "text",
+					"top": 277,
+					"left": 89,
+					"width": 104,
+					"height": 13,
+					"sizingY": "move",
+					"class": "Field_INFOS",
+					"textAlign": "center",
+					"text": "Selected Property"
+				},
+				"oPropertyType": {
+					"type": "input",
+					"top": 292,
+					"left": 92,
+					"width": 133,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "AA_t_SelectedProperty",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPropertyValueName": {
+					"type": "input",
+					"top": 292,
+					"left": 231,
+					"width": 116,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "WS_t_selectedListItemvalue",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPropertyValuesDropDown": {
+					"type": "dropdown",
+					"top": 290,
+					"left": 229,
+					"width": 133,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "AA_at_PropertyValues",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oPropertyValuesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddPropertyButton": {
+					"type": "pictureButton",
+					"top": 249,
+					"left": 101,
+					"width": 27,
+					"height": 23,
+					"dataSource": "LST_but_AddProperty",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"loopBackToFirstFrame": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBlistItems1": {
+					"type": "listbox",
+					"top": 24,
+					"left": 5,
+					"width": 369,
+					"height": 147,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "AA_LB_Listitems",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#FFFFFF",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBlistItems1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 358,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column2.4dm",
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBItemProperties": {
+					"type": "listbox",
+					"top": 201,
+					"left": 136,
+					"width": 227,
+					"height": 71,
+					"resizingMode": "legacy",
+					"dataSource": "WS_Lb_ItemProperties",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBItemProperties.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column3",
+							"width": 212,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oNewItemVariable1": {
+					"type": "input",
+					"top": 305,
+					"left": 139,
+					"width": 227,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "AA_t_NewListItem",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oNewItemVariable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oModifyLabel1": {
+					"type": "input",
+					"top": 304,
+					"left": 12,
+					"width": 115,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "AA_t_AddorModLabel",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 10,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

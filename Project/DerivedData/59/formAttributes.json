@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"StockTypes_in": {
+			"timeStamp": "2022-05-29T04:26:57.137Z",
+			"destination": "detailScreen"
+		},
+		"StockTypes_Out": {
+			"timeStamp": "2022-03-13T15:50:12.875Z",
+			"destination": "listScreen"
+		}
+	}
+}

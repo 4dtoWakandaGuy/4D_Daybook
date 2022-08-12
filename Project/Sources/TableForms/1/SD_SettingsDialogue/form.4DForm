@@ -1,0 +1,280 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 40,
+					"left": 111,
+					"width": 167,
+					"height": 14,
+					"dataSource": "SD_t_SettingsOwner",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSettingsOwnerLabel": {
+					"type": "text",
+					"top": 40,
+					"left": 2,
+					"width": 102,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Settings Owner :"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 66,
+					"left": 111,
+					"width": 167,
+					"height": 14,
+					"dataSource": "SD_ti_SettingsTimeStart",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayStartTimeLabel": {
+					"type": "text",
+					"top": 65,
+					"left": 2,
+					"width": 102,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day Start Time :"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 86,
+					"left": 111,
+					"width": 167,
+					"height": 14,
+					"dataSource": "SD_ti_SettingsTimeEnd",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayEndTimeLabel": {
+					"type": "text",
+					"top": 85,
+					"left": 2,
+					"width": 102,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day End Time :"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 136,
+					"left": 13,
+					"width": 332,
+					"height": 72,
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Select Action Codes Available(No other action codes can be selected by this person), by default all action codes are available. Select on screen warning if you want items of that action code to display an on screen warning if they are overdue, set a number of minutes prior to time of event for warning to appear, default is 5 Mins."
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 118,
+					"left": 111,
+					"width": 37,
+					"height": 14,
+					"dataSource": "SD_l_SettingsTimeLen",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDefaultTimeLabel": {
+					"type": "text",
+					"top": 104,
+					"left": 3,
+					"width": 103,
+					"height": 28,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Time for event :"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 117,
+					"left": 151,
+					"width": 32,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Mins"
+				},
+				"oACTIONSelect": {
+					"type": "listbox",
+					"top": 197,
+					"left": 5,
+					"width": 376,
+					"height": 128,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_Actions",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oACTIONSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 361,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 4,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

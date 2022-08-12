@@ -1,0 +1,183 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"BKText1": {
+					"type": "text",
+					"top": 64,
+					"left": 11,
+					"width": 162,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Map to ecommerce field :"
+				},
+				"BKfields": {
+					"type": "dropdown",
+					"top": 85,
+					"left": 11,
+					"width": 174,
+					"height": 18,
+					"dataSource": "EW_at_BKFieldNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/BKfields.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 9,
+					"left": 11,
+					"width": 162,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Text to export..."
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 28,
+					"left": 12,
+					"width": 211,
+					"height": 28,
+					"dataSource": "tText",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "##0.00%",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable20": {
+					"type": "button",
+					"top": 121,
+					"left": 80,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "button",
+					"top": 121,
+					"left": 157,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bOK",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable19.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 122,
+					"left": 80,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

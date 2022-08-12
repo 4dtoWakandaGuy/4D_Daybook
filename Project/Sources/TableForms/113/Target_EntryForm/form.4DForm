@@ -1,0 +1,1251 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oPipelineStatusDropDown": {
+					"type": "dropdown",
+					"top": 21,
+					"left": 226,
+					"width": 15,
+					"height": 15,
+					"dataSource": "SP_at_ListPipelineStatus",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oPipelineStatusDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStatus": {
+					"type": "input",
+					"top": 19,
+					"left": 70,
+					"width": 156,
+					"height": 15,
+					"dataSource": "SP_t_SalesProjectionState",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelReturn": {
+					"type": "button",
+					"top": 280,
+					"left": 412,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bSave",
+					"shortcutKey": "[Return]",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonCancelReturn.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelEnter": {
+					"type": "button",
+					"top": 280,
+					"left": 498,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bSave",
+					"shortcutKey": "[Enter]",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonCancelEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionsGroupBox": {
+					"type": "groupBox",
+					"top": 138,
+					"left": 86,
+					"width": 245,
+					"height": 151,
+					"class": "Labels",
+					"text": "Projections against target..."
+				},
+				"oStatusLable": {
+					"type": "text",
+					"top": 20,
+					"left": 14,
+					"width": 50,
+					"height": 12,
+					"class": "Headers",
+					"textAlign": "right",
+					"text": "Status :"
+				},
+				"oPipelineDateLabel": {
+					"type": "text",
+					"top": 20,
+					"left": 445,
+					"width": 31,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Date :"
+				},
+				"oSalesProjectionPerson": {
+					"type": "input",
+					"top": 42,
+					"left": 101,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionPerson",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSalesProjectionPerson.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionTitle": {
+					"type": "input",
+					"top": 61,
+					"left": 100,
+					"width": 203,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]Title:21",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDescription": {
+					"type": "input",
+					"top": 79,
+					"left": 101,
+					"width": 202,
+					"height": 39,
+					"dataSource": "[SALES_PROJECTION:113]Description:11",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodCodeDropDown": {
+					"type": "dropdown",
+					"top": 65,
+					"left": 518,
+					"width": 16,
+					"height": 16,
+					"dataSource": "SP_at_PeriodCodes",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oPeriodCodeDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionFromDate": {
+					"type": "input",
+					"top": 89,
+					"left": 422,
+					"width": 93,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]ProjectionFromDate:22",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oProjectionFromDate.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionToDate": {
+					"type": "input",
+					"top": 109,
+					"left": 422,
+					"width": 93,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]ProjectiontoDate:23",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oProjectionToDate.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrencyNameDropDown": {
+					"type": "dropdown",
+					"top": 124,
+					"left": 121,
+					"width": 15,
+					"height": 15,
+					"dataSource": "SP_at_CurrencyNames",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oCurrencyNameDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGrossValue": {
+					"type": "input",
+					"top": 125,
+					"left": 140,
+					"width": 65,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]GrossValue:13",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oConvertedSaleValue": {
+					"type": "input",
+					"top": 125,
+					"left": 315,
+					"width": 65,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]ConvertedSaleValue:19",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddProjection": {
+					"type": "button",
+					"top": 262,
+					"left": 224,
+					"width": 101,
+					"height": 19,
+					"dataSource": "BaddPAT",
+					"text": "Add Projection  ",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddProjection.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetProjectionDate": {
+					"type": "input",
+					"top": 167,
+					"left": 110,
+					"width": 105,
+					"height": 16,
+					"dataSource": "SP_D_TargetProjectionDate",
+					"class": "ScrollArea_Small",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetProjectionAmount": {
+					"type": "input",
+					"top": 167,
+					"left": 217,
+					"width": 89,
+					"height": 16,
+					"dataSource": "SP_R_TargetProjectionAmount",
+					"class": "ScrollArea_Small",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetForLabel": {
+					"type": "text",
+					"top": 42,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Target for :"
+				},
+				"oProjectionNameLabel": {
+					"type": "text",
+					"top": 61,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Title :"
+				},
+				"oTargetDescriptionLabel": {
+					"type": "text",
+					"top": 77,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description :"
+				},
+				"oPeriodDateLabel": {
+					"type": "text",
+					"top": 53,
+					"left": 338,
+					"width": 80,
+					"height": 23,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "For Period/Dates :"
+				},
+				"oPeriodCode": {
+					"type": "input",
+					"top": 66,
+					"left": 422,
+					"width": 93,
+					"height": 14,
+					"dataSource": "SP_t_PeriodCode",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetValueLabel": {
+					"type": "text",
+					"top": 126,
+					"left": 16,
+					"width": 80,
+					"height": 13,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Target Value :"
+				},
+				"oAchievedValueLabel": {
+					"type": "text",
+					"top": 126,
+					"left": 212,
+					"width": 100,
+					"height": 13,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Achieved Value :"
+				},
+				"oSalesCurrency": {
+					"type": "input",
+					"top": 125,
+					"left": 102,
+					"width": 20,
+					"height": 14,
+					"dataSource": "SP_t_SalesCurrency",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUsersDropDown": {
+					"type": "dropdown",
+					"top": 42,
+					"left": 306,
+					"width": 13,
+					"height": 14,
+					"dataSource": "SP_l_UsersnGroups",
+					"dataSourceTypeHint": "integer",
+					"display": false,
+					"class": "Hierachial_List_Small",
+					"method": "ObjectMethods/oUsersDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionFromPicture": {
+					"type": "picture",
+					"top": 87,
+					"left": 519,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"oProjectionToDate1": {
+					"type": "picture",
+					"top": 108,
+					"left": 519,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"oButtonCalendarProjectionFrom": {
+					"type": "button",
+					"top": 86,
+					"left": 538,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonCalendarProjectionFrom.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonCalendarTo": {
+					"type": "button",
+					"top": 106,
+					"left": 538,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonCalendarTo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDateEntered": {
+					"type": "input",
+					"top": 20,
+					"left": 482,
+					"width": 93,
+					"height": 14,
+					"dataSource": "[SALES_PROJECTION:113]Date_Entered:10",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPipelineTypeLabel": {
+					"type": "text",
+					"top": 20,
+					"left": 243,
+					"width": 50,
+					"height": 12,
+					"class": "Headers",
+					"textAlign": "right",
+					"text": "Type :"
+				},
+				"oTargetTypeDropDown": {
+					"type": "dropdown",
+					"top": 17,
+					"left": 298,
+					"width": 146,
+					"height": 17,
+					"dataSource": "SP_at_tTargetType",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTargetTypeDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSalesProjectionType": {
+					"type": "input",
+					"top": 18,
+					"left": 301,
+					"width": 126,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionType",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelEscape": {
+					"type": "button",
+					"top": 280,
+					"left": 412,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bSave",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oButtonCancelEscape.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBTargetProjection": {
+					"type": "listbox",
+					"top": 166,
+					"left": 102,
+					"width": 221,
+					"height": 94,
+					"resizingMode": "legacy",
+					"dataSource": "TAR_lb_Projections",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "<>SP_ad_TargetProjectionDate",
+							"width": 107,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "<>SP_ar_TargetProjectionAmount",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oPipelineStatusDropDown",
+				"oStatus",
+				"oButtonCancelReturn",
+				"oButtonCancelEnter",
+				"oSalesProjectionPerson",
+				"oProjectionTitle",
+				"oDescription",
+				"oPeriodCodeDropDown",
+				"oProjectionFromDate",
+				"oProjectionToDate",
+				"oCurrencyNameDropDown",
+				"oGrossValue",
+				"oConvertedSaleValue",
+				"oButtonAddProjection",
+				"oTargetProjectionDate",
+				"oTargetProjectionAmount",
+				"oPeriodCode",
+				"oSalesCurrency",
+				"oDateEntered",
+				"oTargetTypeDropDown",
+				"oSalesProjectionType",
+				"oLBTargetProjection"
+			]
+		},
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 589,
+					"height": 311,
+					"fill": "transparent"
+				},
+				"oButtonSaveEnter": {
+					"type": "button",
+					"top": 273,
+					"left": 475,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bSave",
+					"shortcutKey": "[Enter]",
+					"text": "Save",
+					"class": "Fields_BOLD",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonSaveEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 24,
+					"left": 97,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionPerson",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable12.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTargetForLabel1": {
+					"type": "text",
+					"top": 24,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Target for :"
+				},
+				"oProjectionTitle1": {
+					"type": "text",
+					"top": 43,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Title :"
+				},
+				"oProjectionDescriptionLabel": {
+					"type": "text",
+					"top": 58,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description :"
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 43,
+					"left": 97,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionTitle",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable13.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDescription1": {
+					"type": "input",
+					"top": 61,
+					"left": 97,
+					"width": 202,
+					"height": 39,
+					"dataSource": "[SALES_PROJECTION:113]Description:11",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAutofill": {
+					"type": "button",
+					"top": 119,
+					"left": 482,
+					"width": 97,
+					"height": 19,
+					"dataSource": "SP_l_Autofill1",
+					"text": "Autofill Targets",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAutofill.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 273,
+					"left": 390,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Fields_BOLD",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonRevert": {
+					"type": "button",
+					"top": 273,
+					"left": 7,
+					"width": 73,
+					"height": 24,
+					"dataSource": "brevert",
+					"shortcutKey": "r",
+					"shortcutAccel": true,
+					"text": "Revert",
+					"class": "Fields_BOLD",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonRevert.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"PCT_UGPopUP1": {
+					"type": "picture",
+					"top": 23,
+					"left": 301,
+					"width": 15,
+					"height": 14,
+					"pictureFormat": "scaled"
+				},
+				"oUsersDropDown1": {
+					"type": "dropdown",
+					"top": 24,
+					"left": 302,
+					"width": 13,
+					"height": 14,
+					"dataSource": "SP_l_UsersnGroups",
+					"dataSourceTypeHint": "integer",
+					"display": false,
+					"class": "Hierachial_List_Small",
+					"method": "ObjectMethods/oUsersDropDown1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionTypeLabel": {
+					"type": "text",
+					"top": 3,
+					"left": 43,
+					"width": 50,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type :"
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 5,
+					"left": 97,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionType",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture3": {
+					"type": "picture",
+					"top": 5,
+					"left": 300,
+					"width": 15,
+					"height": 14,
+					"pictureFormat": "scaled"
+				},
+				"oTargetTypeDropDown1": {
+					"type": "dropdown",
+					"top": 3,
+					"left": 97,
+					"width": 219,
+					"height": 16,
+					"dataSource": "SP_at_tTargetType",
+					"display": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTargetTypeDropDown1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 62,
+					"left": 97,
+					"width": 203,
+					"height": 40,
+					"dataSource": "SP_T_SalesProjDescription",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelEscape1": {
+					"type": "button",
+					"top": 273,
+					"left": 390,
+					"width": 73,
+					"height": 24,
+					"dataSource": "bCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oButtonCancelEscape1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSP": {
+					"type": "listbox",
+					"top": 117,
+					"left": 54,
+					"width": 425,
+					"height": 142,
+					"resizingMode": "legacy",
+					"dataSource": "SP_lb_Listbox",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSP.4dm",
+					"events": [
+						"onClick",
+						"onDrop",
+						"onDataChange",
+						"onDragOver"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 410,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 58
+}

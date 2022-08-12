@@ -1,0 +1,224 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 18,
+	"markerBody": 32,
+	"markerBreak": 38,
+	"markerFooter": 38,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 557,
+					"height": 38
+				},
+				"Line1": {
+					"type": "line",
+					"top": 18,
+					"left": 0,
+					"width": 557,
+					"height": 1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 3,
+					"left": 2,
+					"width": 24,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"text": "Type"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 28,
+					"height": 38
+				},
+				"Text2": {
+					"type": "text",
+					"top": 3,
+					"left": 30,
+					"width": 35,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"text": "SSC"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 66,
+					"height": 38
+				},
+				"Text3": {
+					"type": "text",
+					"top": 3,
+					"left": 68,
+					"width": 207,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"text": "Label"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 321,
+					"height": 38
+				},
+				"Text4": {
+					"type": "text",
+					"top": 3,
+					"left": 323,
+					"width": 231,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"text": "Sort Sequence"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 21,
+					"left": 2,
+					"width": 25,
+					"height": 12,
+					"dataSource": "[MAILSORT_B:78]Record_Type:1",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 21,
+					"left": 30,
+					"width": 35,
+					"height": 12,
+					"dataSource": "[MAILSORT_B:78]SSC:2",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 21,
+					"left": 68,
+					"width": 251,
+					"height": 12,
+					"dataSource": "[MAILSORT_B:78]Label:3",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 21,
+					"left": 323,
+					"width": 231,
+					"height": 12,
+					"dataSource": "[MAILSORT_B:78]Sort_Sequence:4",
+					"stroke": "#000000",
+					"fontTheme": "additional",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

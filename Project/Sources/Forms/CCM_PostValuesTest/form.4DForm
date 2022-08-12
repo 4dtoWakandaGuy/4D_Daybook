@@ -1,0 +1,190 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 20,
+					"left": 180,
+					"width": 420,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "HTTPClient_URL",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oURLLabel": {
+					"type": "text",
+					"top": 20,
+					"left": 30,
+					"width": 140,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "URL :"
+				},
+				"oLB_HTTPPARAM": {
+					"type": "listbox",
+					"top": 80,
+					"left": 180,
+					"width": 420,
+					"height": 150,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "CCM_lb_ClientParamListbox",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLB_HTTPPARAM.4dm",
+					"columns": []
+				},
+				"oParametersLabel": {
+					"type": "text",
+					"top": 80,
+					"left": 30,
+					"width": 140,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Request Parameters :"
+				},
+				"oResponse": {
+					"type": "input",
+					"top": 291,
+					"left": 180,
+					"width": 405,
+					"height": 143,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "HTTPClient_Response",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oResponseLabel": {
+					"type": "text",
+					"top": 291,
+					"left": 30,
+					"width": 140,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Response :"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 240,
+					"left": 520,
+					"width": 80,
+					"height": 20,
+					"dataSource": "HTTPClient_SendButton",
+					"text": "Send",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAcceptButton": {
+					"type": "button",
+					"top": 446,
+					"left": 516,
+					"width": 80,
+					"height": 20,
+					"dataSource": "HTTPClient_Continue",
+					"action": "accept",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAcceptButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCancelButton": {
+					"type": "button",
+					"top": 445,
+					"left": 409,
+					"width": 80,
+					"height": 20,
+					"dataSource": "HTTPClient_Cancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancelButton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

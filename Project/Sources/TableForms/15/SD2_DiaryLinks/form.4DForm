@@ -1,0 +1,1604 @@
+{
+	"destination": "detailScreen",
+	"windowSizingY": "fixed",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBDiaryCompanies": {
+					"type": "listbox",
+					"top": 8,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryCoRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryCompanies.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column2.4dm",
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oExitButton": {
+					"type": "button",
+					"top": 898,
+					"left": 367,
+					"width": 120,
+					"height": 27,
+					"dataSource": "SD2_l_ButtonExit",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oExitButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddCompany": {
+					"type": "button",
+					"top": 8,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddCoRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddCompany.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveCoRelation": {
+					"type": "button",
+					"top": 39,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveCoRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveCoRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCompanyLabel": {
+					"type": "text",
+					"top": 12,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Company"
+				},
+				"oCompanyCodeField": {
+					"type": "input",
+					"top": 34,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Company_Code:1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCompanyName": {
+					"type": "input",
+					"top": 34,
+					"left": 236,
+					"width": 169,
+					"height": 13,
+					"dataSource": "SD2_t_CompanyName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OContactsLabel": {
+					"type": "text",
+					"top": 62,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Contact"
+				},
+				"oAddContacts": {
+					"type": "button",
+					"top": 70,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddContRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddContacts.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveContRelation": {
+					"type": "button",
+					"top": 101,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveContRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveContRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryContacts": {
+					"type": "listbox",
+					"top": 57,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryContRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryContacts.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column3.4dm",
+							"header": {
+								"name": "Header3",
+								"text": "Header1",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oContactCodeField": {
+					"type": "input",
+					"top": 88,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Contact_Code:2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oContactName": {
+					"type": "input",
+					"top": 89,
+					"left": 236,
+					"width": 159,
+					"height": 13,
+					"dataSource": "SD2_S255_ContactName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OProductLabel": {
+					"type": "text",
+					"top": 645,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product"
+				},
+				"oAddProducts": {
+					"type": "button",
+					"top": 834,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddProdRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddProducts.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveProductRelation": {
+					"type": "button",
+					"top": 866,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveProdRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveProductRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryProducts": {
+					"type": "listbox",
+					"top": 647,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryProdRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryProducts.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column4.4dm",
+							"header": {
+								"name": "Header4",
+								"text": "Header1",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeField": {
+					"type": "input",
+					"top": 673,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Product_Code:13",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductName": {
+					"type": "input",
+					"top": 674,
+					"left": 236,
+					"width": 160,
+					"height": 13,
+					"dataSource": "SD2_S255_ProductName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddEvents": {
+					"type": "button",
+					"top": 770,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddEventRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddEvents.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveEventRelation": {
+					"type": "button",
+					"top": 802,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveEventRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveEventRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OStageLabel": {
+					"type": "text",
+					"top": 441,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job Stage"
+				},
+				"oLBDiaryStages": {
+					"type": "listbox",
+					"top": 443,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryStageRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryStages.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column8",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column8.4dm",
+							"header": {
+								"name": "Header8",
+								"text": "Header1",
+								"dataSource": "Header7",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oStageCodeField": {
+					"type": "input",
+					"top": 469,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Stage_Code:21",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oStageName": {
+					"type": "input",
+					"top": 470,
+					"left": 236,
+					"width": 160,
+					"height": 13,
+					"dataSource": "SD2_S255_StageName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OCallLabel": {
+					"type": "text",
+					"top": 493,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Service Call"
+				},
+				"oRemoveCallRelation": {
+					"type": "button",
+					"top": 674,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveCallRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveCallRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryCalls": {
+					"type": "listbox",
+					"top": 495,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryCallRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryCalls.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column9",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column9.4dm",
+							"header": {
+								"name": "Header9",
+								"text": "Header1",
+								"dataSource": "Header8",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCallCodeField": {
+					"type": "input",
+					"top": 521,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Call_Code:25",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCallName": {
+					"type": "input",
+					"top": 522,
+					"left": 236,
+					"width": 160,
+					"height": 13,
+					"dataSource": "SD2_S255_CallName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddCalls": {
+					"type": "button",
+					"top": 642,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddCallRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddCalls.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OOrderLabel": {
+					"type": "text",
+					"top": 115,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Sales Order"
+				},
+				"oRemoveOrderRelation": {
+					"type": "button",
+					"top": 163,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveOrderRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveOrderRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryOrders": {
+					"type": "listbox",
+					"top": 112,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryOrderRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryOrders.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column10",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column10.4dm",
+							"header": {
+								"name": "Header10",
+								"text": "Header1",
+								"dataSource": "Header9",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oOrderCodeField": {
+					"type": "input",
+					"top": 138,
+					"left": 118,
+					"width": 112,
+					"height": 14,
+					"dataSource": "[DIARY:12]Order_Code:26",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oOrderName": {
+					"type": "input",
+					"top": 139,
+					"left": 236,
+					"width": 160,
+					"height": 13,
+					"dataSource": "SD2_S255_OrderName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddOrders": {
+					"type": "button",
+					"top": 132,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddOrderRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddOrders.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OPurchorderLabel": {
+					"type": "text",
+					"top": 207,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Purchase Order"
+				},
+				"oRemovePurchorderRelation": {
+					"type": "button",
+					"top": 290,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemovePurchOrdRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemovePurchorderRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryPurchorders": {
+					"type": "listbox",
+					"top": 204,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryPurchOrdRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryPurchorders.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column11",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column11.4dm",
+							"header": {
+								"name": "Header11",
+								"text": "Header1",
+								"dataSource": "Header10",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oAddPurchorders": {
+					"type": "button",
+					"top": 258,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddPurchOrdRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddPurchorders.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPurchorderCodeField": {
+					"type": "input",
+					"top": 229,
+					"left": 118,
+					"width": 112,
+					"height": 13,
+					"dataSource": "SD2_S255_PurchaseCode",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OinvoiceLabel": {
+					"type": "text",
+					"top": 162,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Sales Invoice"
+				},
+				"oRemoveInvoiceRelation": {
+					"type": "button",
+					"top": 226,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveInvoiceRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveInvoiceRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryInvoices": {
+					"type": "listbox",
+					"top": 159,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryInvoiceRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryInvoices.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column12",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column12.4dm",
+							"header": {
+								"name": "Header12",
+								"text": "Header1",
+								"dataSource": "Header11",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oAddInvoices": {
+					"type": "button",
+					"top": 194,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddInvoiceRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddInvoices.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInvoiceCodeField": {
+					"type": "input",
+					"top": 184,
+					"left": 118,
+					"width": 112,
+					"height": 13,
+					"dataSource": "SD2_t_InvoiceCode",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OStockLabel": {
+					"type": "text",
+					"top": 541,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Movement"
+				},
+				"oRemoveStockRelation": {
+					"type": "button",
+					"top": 738,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveStockRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveStockRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryStocks": {
+					"type": "listbox",
+					"top": 543,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryStockRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryStocks.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column13",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column13.4dm",
+							"header": {
+								"name": "Header13",
+								"text": "Header1",
+								"dataSource": "Header12",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer9",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oAddStocks": {
+					"type": "button",
+					"top": 706,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddStockRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddStocks.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oStockCodeField": {
+					"type": "input",
+					"top": 568,
+					"left": 118,
+					"width": 112,
+					"height": 13,
+					"dataSource": "SD2_S255_StockCode",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OPILabel": {
+					"type": "text",
+					"top": 249,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Purchase Invoice"
+				},
+				"oLBDiaryPIs": {
+					"type": "listbox",
+					"top": 246,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryPIRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryPIs.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column14",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column14.4dm",
+							"header": {
+								"name": "Header14",
+								"text": "Header1",
+								"dataSource": "Header13",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer10",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oPICodeField": {
+					"type": "input",
+					"top": 271,
+					"left": 118,
+					"width": 112,
+					"height": 13,
+					"dataSource": "SD2_S255_PICode",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OCostingJobLabel": {
+					"type": "text",
+					"top": 397,
+					"left": 30,
+					"width": 81,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job  Costing"
+				},
+				"oAddCostingJobs": {
+					"type": "button",
+					"top": 514,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_AddCostingJobRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddCostingJobs.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveCOstingJobRelation": {
+					"type": "button",
+					"top": 546,
+					"left": 409,
+					"width": 28,
+					"height": 28,
+					"sizingX": "move",
+					"dataSource": "SD2_l_RemoveJobRelation",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oRemoveCOstingJobRelation.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBDiaryCostingJobs": {
+					"type": "listbox",
+					"top": 392,
+					"left": 118,
+					"width": 260,
+					"height": 19,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryJobRelations",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDiaryCostingJobs.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onBeforeDataEntry",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column15",
+							"dataSource": "Column1",
+							"width": 245,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column15.4dm",
+							"header": {
+								"name": "Header15",
+								"text": "Header1",
+								"dataSource": "Header6",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer11",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCostingJobName": {
+					"type": "input",
+					"top": 419,
+					"left": 236,
+					"width": 160,
+					"height": 13,
+					"dataSource": "SD2_S255_CostingJobName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCostingJobCodeField": {
+					"type": "input",
+					"top": 419,
+					"left": 118,
+					"width": 112,
+					"height": 13,
+					"dataSource": "SD2_S255_CostingJobCode",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

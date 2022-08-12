@@ -1,0 +1,10156 @@
+{
+	"lbStaticsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company Code",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact Code",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Code",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Product Code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Code",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stage Code",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMacrosLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "on saving new",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on saving existing",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on opening",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on setting a result code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMultiLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Companies",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contacts",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Accounts",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Batches",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transactions",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Invoices",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoices",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Orders",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Items",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subscriptions",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Orders",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Products",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Projects",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Jobs",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Stages",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Pesonnel",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stock Movements",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMulti2LPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Use Standardised Settings",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Select Another Macro",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Create Macro",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"CurrencyOptionsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Australian Dollar",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Zealand Dollar",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tuvalu Dollar",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Afghani",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Panamanian) Balboa",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bahamian Dollar",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Thai Baht",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bahrain Dinar",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Barbados Dollar",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Belgian Franc",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ethiopia Birr",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Brunei Dollar",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Boliviano",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Belize Dollar",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Nicaraguan) Córdoba Oro",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Canadian Dollar",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Comorian Franc",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Pound Sterling",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CFA Franc",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Franc of the Comptoirs Français Du Pacifique",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Chilean) Peso",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Columbian) Peso",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Brazilian) Cruzeiro",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Costa Rican Colón",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cuban Peso",
+				"ref": 25,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Cape Verde) Escudo",
+				"ref": 26,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Vietnamese) Dong",
+				"ref": 27,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Algerian Dinar",
+				"ref": 28,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(São Tomé and Príncipe) Dobra",
+				"ref": 29,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Macedonian) Denar",
+				"ref": 30,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Djibouti Franc",
+				"ref": 31,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Moroccan Dirham",
+				"ref": 32,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Yugoslav Dinar",
+				"ref": 33,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Tunisian) Dinar",
+				"ref": 34,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Danish) Krone",
+				"ref": 35,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Deutsche Mark",
+				"ref": 36,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Greek) Drachma",
+				"ref": 37,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Swaziland) Lilangeni",
+				"ref": 38,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "East Caribbean Dollar",
+				"ref": 39,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Estonian) Kroon",
+				"ref": 40,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Portuguese) Escudo",
+				"ref": 41,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(El Salvador) Colón",
+				"ref": 42,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Franc",
+				"ref": 43,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Fiji Dollar",
+				"ref": 44,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Netherlands Guilder",
+				"ref": 45,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Burundi Franc",
+				"ref": 46,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Malagasy Franc",
+				"ref": 47,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Finnish) Markka",
+				"ref": 48,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Hungarian) Forint",
+				"ref": 49,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Haitian) Gourde",
+				"ref": 50,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Gambian) Dalasi",
+				"ref": 51,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Guyana Dollar",
+				"ref": 52,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Guinean Franc",
+				"ref": 53,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "HK Dollar",
+				"ref": 54,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Croatian Dinar",
+				"ref": 55,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Iraqi Dinar",
+				"ref": 56,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Icelandic) Króna",
+				"ref": 57,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Jamaican Dollar",
+				"ref": 58,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Jordan Dinar",
+				"ref": 59,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Myanmar Kyat",
+				"ref": 60,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kenya Shilling",
+				"ref": 61,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Czech) Koruna",
+				"ref": 62,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kuwaiti Dinar",
+				"ref": 63,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Laotian) Kip",
+				"ref": 64,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Honduran Lempira",
+				"ref": 65,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Lithuanian) Lit",
+				"ref": 66,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Liberian Dollar",
+				"ref": 67,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Libyan Dinar",
+				"ref": 68,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Egyptian Pound",
+				"ref": 69,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Albanian) Lek",
+				"ref": 70,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Romanian Leu",
+				"ref": 71,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Bulgarian) Lev",
+				"ref": 72,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Italian) Lira",
+				"ref": 73,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lebanese Pound",
+				"ref": 74,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Maltese Lira",
+				"ref": 75,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Latvian Ruble",
+				"ref": 76,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Syrian Pound",
+				"ref": 77,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sudanese Pound",
+				"ref": 78,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Turkish Lira",
+				"ref": 79,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Luxembourg Franc",
+				"ref": 80,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Lesotho) Loti",
+				"ref": 81,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ringgit (Malaysian Dollar)",
+				"ref": 82,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Azerbaijan) Manat",
+				"ref": 83,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mauritian Rupee",
+				"ref": 84,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Mexican) Peso",
+				"ref": 85,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Malawi Kwacha",
+				"ref": 86,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Mozambique) Metical",
+				"ref": 87,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nigerian Naira",
+				"ref": 88,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Netherlands Antillean Guilder",
+				"ref": 89,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Namibian Dollar",
+				"ref": 90,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Israeli Sheqel",
+				"ref": 91,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Norweigian Krone",
+				"ref": 92,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Angolan) New Kwanza",
+				"ref": 93,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nepalese Rupee",
+				"ref": 94,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Taiwan Dollar",
+				"ref": 95,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Bhutan) Ngultrum",
+				"ref": 96,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Uruguayan New Peso",
+				"ref": 97,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Botswana) Pula",
+				"ref": 98,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Paraguayan Guaraní",
+				"ref": 99,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Macau) Pataca",
+				"ref": 100,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Guinea-Bissau Peso",
+				"ref": 101,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Papua New Guinea Kina",
+				"ref": 102,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Philippine Peso",
+				"ref": 103,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Pakistan Rupee",
+				"ref": 104,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Argentine) Peso",
+				"ref": 105,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Spanish) Peseta",
+				"ref": 106,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Guatemalan Quetzal",
+				"ref": 107,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Qatar) Riyal",
+				"ref": 108,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "South African Rand",
+				"ref": 109,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Dominican Peso",
+				"ref": 110,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Indian Rupee",
+				"ref": 111,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Maldivian Rufiyaa",
+				"ref": 112,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Cambodian) Riel",
+				"ref": 113,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Iranian) Rial",
+				"ref": 114,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Rial Omani",
+				"ref": 115,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Indonesian Rupiah",
+				"ref": 116,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ruble",
+				"ref": 117,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Rwanda Franc",
+				"ref": 118,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Austrian) Schilling",
+				"ref": 119,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Singapore Dollar",
+				"ref": 120,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Ecuadorian) Sucre",
+				"ref": 121,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Suriname Guilder",
+				"ref": 122,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Solomon Islands Dollar",
+				"ref": 123,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Swedish Krona",
+				"ref": 124,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sri Lanka Rupee",
+				"ref": 125,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Sierra Leone) Leone",
+				"ref": 126,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Somali Shilling",
+				"ref": 127,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Peruvian) Nuevo Sol",
+				"ref": 128,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Seychelles Rupee",
+				"ref": 129,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Saudi Riyal",
+				"ref": 130,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Swiss Franc",
+				"ref": 131,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Mongolian) Tugrik",
+				"ref": 132,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tanzanian Shilling",
+				"ref": 133,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Tongan) Pa’anga",
+				"ref": 134,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bangladesh Taka",
+				"ref": 135,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Slovenian) Tolar",
+				"ref": 136,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Trinidad and Tobago Dollar",
+				"ref": 137,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Uganda Shilling",
+				"ref": 138,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "UAE Dirham",
+				"ref": 139,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mauritanian Ouguiya",
+				"ref": 140,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "US Dollar",
+				"ref": 141,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Venezuelan) Bolívar",
+				"ref": 142,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Vanuatu) Vatu",
+				"ref": 143,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(South Korean) Won",
+				"ref": 144,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(North Korean) Won",
+				"ref": 145,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Western Samoan) Tala",
+				"ref": 146,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Chinese) Renminbi (Yuan)",
+				"ref": 147,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Yemen Rial",
+				"ref": 148,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Zaïre",
+				"ref": 149,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Zimbabwe Dollar",
+				"ref": 150,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Zambian Kwacha",
+				"ref": 151,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Polish) Zloty",
+				"ref": 152,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Ghanaian) Cedi",
+				"ref": 153,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Irish Pound",
+				"ref": 154,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "(Japanese) Yen",
+				"ref": 155,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Euro",
+				"ref": 156,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"WFtimesLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Mins",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hrs",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Days",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsREJS": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsREJS": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2010",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2009",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2008",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsMB": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2invstatusLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Do not send",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Not sent",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2invstatusNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Do not send",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Not sent",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2012",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2011",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2010",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2009",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2008",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"PROStagesCDCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "CAN",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CIH",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CIP",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CPC",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CSF",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CSW",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MO",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PFA",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RP",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "WP",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"PROStagesCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Cancelled",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Copy in Hand",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Copy in Production",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Copy Print Confirmed in Publication",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Customer Supplying Final Copy",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Customer Supplying Works Elements",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Materials Outstanding",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Previously Published Material",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ready For Publication",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Works or Production",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVFieldsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Role",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Status",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact_Type",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Source",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Omit",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Person",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Duplicate State",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "All Fields",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CONTACTS",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "COMPANIES",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DIARY",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SALES ORDERS",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "ORDER ITEMS",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SALES LEDGER",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc3CAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Deleted",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc4CAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "-",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Deleted",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ABC_FBFieldsJK": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"ABC_FBFieldsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Account Code",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bank Transaction Reference",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Date",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Type",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Description",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Amount",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Debit Amount",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Credit Amount",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Debit Amount Identifier",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Account Balance",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DYMOTypesCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Text",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Image",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DYMOItemFontsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Academy Engraved LET",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Adobe Caslon Pro",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Adobe Garamond Pro",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Adventure",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Agent Orange",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Al Bayan",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "American Typewriter",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Andale Mono",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple Braille",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple Chancery",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple Color Emoji",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple LiGothic",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple LiSung",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Apple Symbols",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "AppleGothic",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "AppleMyungjo",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial Black",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial Hebrew",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial Narrow",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial Rounded MT Bold",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arial Unicode MS",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Arno Pro",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ayuthaya",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Baghdad",
+				"ref": 25,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bangla MN",
+				"ref": 26,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bangla Sangam MN",
+				"ref": 27,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bank Gothic",
+				"ref": 28,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Baskerville",
+				"ref": 29,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bell Gothic Std",
+				"ref": 30,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BiauKai",
+				"ref": 31,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bickham Script Pro",
+				"ref": 32,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Big Caslon",
+				"ref": 33,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Birch Std",
+				"ref": 34,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Blackmoor LET",
+				"ref": 35,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Blackoak Std",
+				"ref": 36,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BlairMdITC TT",
+				"ref": 37,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bodoni Ornaments ITC TT",
+				"ref": 38,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bodoni SvtyTwo ITC TT",
+				"ref": 39,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bodoni SvtyTwo OS ITC TT",
+				"ref": 40,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bodoni SvtyTwo SC ITC TT",
+				"ref": 41,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bordeaux Roman Bold LET",
+				"ref": 42,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bradley Hand ITC TT",
+				"ref": 43,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Brush Script",
+				"ref": 44,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Brush Script MT",
+				"ref": 45,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Brush Script Std",
+				"ref": 46,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Calibri",
+				"ref": 47,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cambria",
+				"ref": 48,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Candara",
+				"ref": 49,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Casual",
+				"ref": 50,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Chalkboard",
+				"ref": 51,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Chalkduster",
+				"ref": 52,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Chaparral Pro",
+				"ref": 53,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Charcoal CY",
+				"ref": 54,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Charlemagne Std",
+				"ref": 55,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cochin",
+				"ref": 56,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Comic Sans MS",
+				"ref": 57,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Consolas",
+				"ref": 58,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Constantia",
+				"ref": 59,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cooper Std",
+				"ref": 60,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Copperplate",
+				"ref": 61,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Corbel",
+				"ref": 62,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Corsiva Hebrew",
+				"ref": 63,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Courier",
+				"ref": 64,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Courier New",
+				"ref": 65,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cracked",
+				"ref": 66,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Damascus",
+				"ref": 67,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DecoType Naskh",
+				"ref": 68,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Devanagari MT",
+				"ref": 69,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Devanagari Sangam MN",
+				"ref": 70,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Didot",
+				"ref": 71,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Dutch 801 Roman",
+				"ref": 72,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DYMO Symbols",
+				"ref": 73,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DYMObvba",
+				"ref": 74,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Eccentric Std",
+				"ref": 75,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Euphemia UCAS",
+				"ref": 76,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Fang Song",
+				"ref": 77,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Franklin Gothic",
+				"ref": 78,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Freehand",
+				"ref": 79,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Futura",
+				"ref": 80,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Garamond Premier Pro",
+				"ref": 81,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "GB18030 Bitmap",
+				"ref": 82,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Geeza Pro",
+				"ref": 83,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Geneva",
+				"ref": 84,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Geneva CY",
+				"ref": 85,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Georgia",
+				"ref": 86,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Giddyup Std",
+				"ref": 87,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Gill Sans",
+				"ref": 88,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Gujarati MT",
+				"ref": 89,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Gujarati Sangam MN",
+				"ref": 90,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "GungSeo",
+				"ref": 91,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Gurmukhi MN",
+				"ref": 92,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Gurmukhi MT",
+				"ref": 93,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Handwriting - Dakota",
+				"ref": 94,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "HeadLineA",
+				"ref": 95,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hei",
+				"ref": 96,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Heiti SC",
+				"ref": 97,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Heiti TC",
+				"ref": 98,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Helvetica",
+				"ref": 99,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Helvetica CY",
+				"ref": 100,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Helvetica Neue",
+				"ref": 101,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Herculanum",
+				"ref": 102,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Kaku Gothic Pro",
+				"ref": 103,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Kaku Gothic ProN",
+				"ref": 104,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Kaku Gothic Std",
+				"ref": 105,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Kaku Gothic StdN",
+				"ref": 106,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Maru Gothic Pro",
+				"ref": 107,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Maru Gothic ProN",
+				"ref": 108,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Mincho Pro",
+				"ref": 109,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Mincho ProN",
+				"ref": 110,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hiragino Sans GB",
+				"ref": 111,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hobo Std",
+				"ref": 112,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hoefler Text",
+				"ref": 113,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Humanist",
+				"ref": 114,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Impact",
+				"ref": 115,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "InaiMathi",
+				"ref": 116,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Jazz LET",
+				"ref": 117,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kai",
+				"ref": 118,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kailasa",
+				"ref": 119,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kannada MN",
+				"ref": 120,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kannada Sangam MN",
+				"ref": 121,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kefa",
+				"ref": 122,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Khmer MN",
+				"ref": 123,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Khmer Sangam MN",
+				"ref": 124,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kokonor",
+				"ref": 125,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kozuka Gothic Pro",
+				"ref": 126,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Kozuka Mincho Pro",
+				"ref": 127,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Krungthep",
+				"ref": 128,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "KufiStandardGK",
+				"ref": 129,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lao MN",
+				"ref": 130,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lao Sangam MN",
+				"ref": 131,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Letter Gothic Std",
+				"ref": 132,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "LiHei Pro",
+				"ref": 133,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "LiSong Pro",
+				"ref": 134,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lithos Pro",
+				"ref": 135,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lucida Grande",
+				"ref": 136,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Malayalam MN",
+				"ref": 137,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Malayalam Sangam MN",
+				"ref": 138,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Marker Felt",
+				"ref": 139,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Menlo",
+				"ref": 140,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mesquite Std",
+				"ref": 141,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Microsoft Sans Serif",
+				"ref": 142,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Minion Pro",
+				"ref": 143,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mona Lisa Solid ITC TT",
+				"ref": 144,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Monaco",
+				"ref": 145,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mshtakan",
+				"ref": 146,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Myanmar MN",
+				"ref": 147,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Myanmar Sangam MN",
+				"ref": 148,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Myriad Pro",
+				"ref": 149,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nadeem",
+				"ref": 150,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nanum Brush Script",
+				"ref": 151,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nanum Gothic",
+				"ref": 152,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nanum Myeongjo",
+				"ref": 153,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nanum Pen Script",
+				"ref": 154,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Peninim MT",
+				"ref": 155,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Noteworthy",
+				"ref": 156,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Nueva Std",
+				"ref": 157,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "OCR A Std",
+				"ref": 158,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Optima",
+				"ref": 159,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Orator Std",
+				"ref": 160,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Oriya MN",
+				"ref": 161,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Oriya Sangam MN",
+				"ref": 162,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Osaka",
+				"ref": 163,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Palatino",
+				"ref": 164,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Papyrus",
+				"ref": 165,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Party LET",
+				"ref": 166,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PCMyungjo",
+				"ref": 167,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PilGi",
+				"ref": 168,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Plantagenet Cherokee",
+				"ref": 169,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Poplar Std",
+				"ref": 170,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PortagoITC TT",
+				"ref": 171,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Prestige Elite Std",
+				"ref": 172,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Princetown LET",
+				"ref": 173,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PT Sans",
+				"ref": 174,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PT Sans Caption",
+				"ref": 175,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PT Sans Narrow",
+				"ref": 176,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Raanana",
+				"ref": 177,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Rosewood Std",
+				"ref": 178,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Santa Fe LET",
+				"ref": 179,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sathu",
+				"ref": 180,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Savoye LET",
+				"ref": 181,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SchoolHouse Cursive B",
+				"ref": 182,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SchoolHouse Printed A",
+				"ref": 183,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Serifa Bold",
+				"ref": 184,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Silom",
+				"ref": 185,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sinhala MN",
+				"ref": 186,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sinhala Sangam MN",
+				"ref": 187,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Skia",
+				"ref": 188,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Snell Roundhand",
+				"ref": 189,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Song",
+				"ref": 190,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stencil Std",
+				"ref": 191,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stez Sans",
+				"ref": 192,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STFangsong",
+				"ref": 193,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STHeiti",
+				"ref": 194,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXGeneral",
+				"ref": 195,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXIntegralsD",
+				"ref": 196,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXIntegralsSm",
+				"ref": 197,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXIntegralsUp",
+				"ref": 198,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXIntegralsUpD",
+				"ref": 199,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXIntegralsUpSm",
+				"ref": 200,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXNonUnicode",
+				"ref": 201,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXSizeFiveSym",
+				"ref": 202,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXSizeFourSym",
+				"ref": 203,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXSizeOneSym",
+				"ref": 204,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXSizeThreeSym",
+				"ref": 205,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXSizeTwoSym",
+				"ref": 206,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STIXVariants",
+				"ref": 207,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STKaiti",
+				"ref": 208,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stone Sans ITC TT",
+				"ref": 209,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stone Sans Sem ITC TT",
+				"ref": 210,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "STSong",
+				"ref": 211,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Swiss 721 Condensed",
+				"ref": 212,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Swiss 721 Extended",
+				"ref": 213,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Swiss 721 Roman",
+				"ref": 214,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Symbol",
+				"ref": 215,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Synchro LET",
+				"ref": 216,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tahoma",
+				"ref": 217,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tamil MN",
+				"ref": 218,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tamil Sangam MN",
+				"ref": 219,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tekton Pro",
+				"ref": 220,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Telugu MN",
+				"ref": 221,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Telugu Sangam MN",
+				"ref": 222,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Thonburi",
+				"ref": 223,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Times",
+				"ref": 224,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Times New Roman",
+				"ref": 225,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Trajan Pro",
+				"ref": 226,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Trebuchet MS",
+				"ref": 227,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Type Embellishments One LET",
+				"ref": 228,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Verdana",
+				"ref": 229,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Webdings",
+				"ref": 230,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Wingdings",
+				"ref": 231,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Wingdings 2",
+				"ref": 232,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Wingdings 3",
+				"ref": 233,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Zapf Dingbats",
+				"ref": 234,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Zapfino",
+				"ref": 235,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DYMOFontstylesCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Normal",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bold",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italic",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bold Italic",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Underline",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italic Underline",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bold Underline",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italic bold Underline ",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DYMOFrameCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "No Frame",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Under section",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Over section",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Over and Under section",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of section",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of and under section",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of and over section",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of and over and under section",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Right of section",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Right of and under section",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Right of and over section",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Right of and over and under section",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of a right of section",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of a right of and under section",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of a right of and over section",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Left of a right of and over and under section",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DYMOColoursCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Black",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Grey",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Light Grey",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"DU_aFieldChangeTypesLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"FieldChangeTypesLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"FieldChangeTypeswLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ChangeTypesLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Date",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Date",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change Flag",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ChangeTypesCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Date",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Date",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change Flag",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVFieldsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Company_Code",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact_Code",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Person",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "State",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Taken_By",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Source",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Currency_Code",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Analysis_Code",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Area_Code",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order_Period",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order_Type",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Layer_Code",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Event_Code",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FF:Tracking Number",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "All Fields",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "ORDERS",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "ORDER ITEMS",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DIARY",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc3LPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Amount",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_TAX",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Total",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Cost",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Margin",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Margin_PC",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Forecast_PC",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sort_Number",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tax_Rate",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandM",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandMPC",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandA",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandC",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Export_Batch_Number",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Export_Document_Number",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "X_DeliveryAddressID",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc4LPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "-",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Amount",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_TAX",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Total",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Cost",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Margin",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_Margin_PC",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Forecast_PC",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sort_Number",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Tax_Rate",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandM",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandMPC",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandA",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Total_StandC",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Export_Batch_Number",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Export_Document_Number",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "X_DeliveryAddressID",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aACClayersLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "A         Actual",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "B1        Budget 1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "B2        Budget 2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "P         Phantom",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ChangeTypesNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change to",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to End",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Value",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Date",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Add to Start",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Value",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subtract from Date",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Change Flag",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Remove String",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "% Change",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Evaluated Change",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVFieldsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Town_or_City",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "County_or_State",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Country",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Area",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Status",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Company_Type",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Source",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Omit",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Taken_By",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales_Person",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FF:Customer Service Executive",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FF:Account Manager",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FF:Principal Engineer",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "All Fields",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "COMPANIES",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CONTACTS",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "QUALITIES",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DIARY",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SALES ORDERS",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "ORDER ITEMS",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PURCHASE ORDERS",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SALES LEDGER",
+				"ref": 25,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PURCHASE LEDGER",
+				"ref": 26,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "NOMINAL LEDGER",
+				"ref": 27,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SERVICE CALLS",
+				"ref": 28,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "JOBS",
+				"ref": 29,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc3NG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": " ",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Size",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Value",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales_Credit",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase_Credit",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Deleted",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Record_State",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Longitude",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Latitude",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Employees",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SVCalc4NG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sum of",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Average",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Highest",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lowest",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "-",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "None",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Size",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Value",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales_Credit",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase_Credit",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Deleted",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Record_State",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_ID",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Longitude",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Latitude",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "x_Employees",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Formula",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsTQW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsAND": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMultiJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Contacts",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Accounts",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Batches",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transactions",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Invoices",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoices",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Orders",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Items",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Orders",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Products",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stock Movements",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMulti2JK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Use Standardised Settings",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Select Another Macro",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Create Macro",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"WFtimesJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Mins",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hrs",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Days",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMacrosJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "on saving new",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on saving existing",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on opening",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on setting a result code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbStaticsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company_Code",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact_Code",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order_Code",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Product_Code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QV_al_YearsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2020",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2019",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2018",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2017",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2016",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2015",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsML": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbPeriodCodeNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006 12",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 01",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 02",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 03",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 04",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 05",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007 06",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbCurrcodesLPL": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"aQVLevelsJT2": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsML": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Terms": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Pay on Invoice",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "25 Days",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30 Days",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30 Days EOM",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Paid",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "C.O.D.",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "End of Month",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "EOM +15",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "End of Month +15",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Proforma",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbRelationsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Invoice",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoice",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Order",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Cheque",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Info From": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Telephone",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CV",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Interview",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_L_ListIDLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Applicant",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Agency Job",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Booking",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Rate",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Service Call",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contract",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Event",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Attendee",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Invoice",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Batch",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Personnel",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Stage",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Project",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Item",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase order",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoice",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stock Movement",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subscription",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 25,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 26,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 27,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 28,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 29,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 30,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 31,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 32,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 33,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 34,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 35,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 36,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 37,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 38,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 39,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 40,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 41,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 42,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 43,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 44,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 45,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 46,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 47,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 48,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 49,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 50,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 51,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 52,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 53,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 54,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 55,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 56,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 57,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 58,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 59,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 60,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 61,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 62,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 63,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 64,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 65,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 66,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 67,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 68,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 69,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 70,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 71,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 72,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 73,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 74,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 75,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 76,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 77,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 78,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 79,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 80,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 81,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 82,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 83,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 84,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 85,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 86,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 87,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 88,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 89,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 90,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 91,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 92,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 93,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 94,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 95,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 96,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 97,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 98,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 99,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Usage Periods": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Once Only",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "One Day",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "One Week",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "One Month",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "One Year",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Within One Year",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Two Days",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Two Weeks",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Two Months",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Two Years",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Three Days",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Three Weeks",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Three Months",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Three Years",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Four Months",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Four Years",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Five Months",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Five Years",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Six Months",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Six Years",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbCurrencyCodeNG": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"aQVYearsJT2": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2001",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsRAN": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2007",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsSC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2008",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsRAN": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2014",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2013",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2012",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2011",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2010",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2009",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsLB": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Delivery Methods": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "AIR",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "AMTRAK",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CS",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DIRECT",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "INTLNK",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MT",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MVPRCL",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "POST",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PRS",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SECCOR",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsJT2": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"EmailTypeNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bcc",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SPTypeLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Sales Orders",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Temp Jobs",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Perm Jobs",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Events",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ad Booking",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Model Booking",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMacrosNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "on saving new",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on saving existing",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on opening",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "on setting a result code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsVF": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2007",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"PipeStatusNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Projected Sale",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Completed Sale",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lost Sale",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Possible business",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Quoted business",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsBSW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2001",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsREJS": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsRJBC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"CurrencyCodesLPL": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"lbProdSystemsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "-",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Entry",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"CurrencyCodesNG": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"SD2_L_ListIDNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Applicant",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Agency Job",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Booking",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Rate",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Service Call",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contract",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Event",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Attendee",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Invoice",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Batch",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Personnel",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Stage",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Project",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Item",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase order",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoice",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stock Movement",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2020",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2019",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2018",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2017",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2016",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2015",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SDiary_RelatedInfo": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Related Data…",
+				"ref": 0,
+				"editable": false,
+				"collapsed": true
+			},
+			{
+				"text": "View...",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Company",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Contact",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Product",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "EnquiryWriter",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Order",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Service Call",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Job",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Booking",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						}
+					]
+				}
+			},
+			{
+				"text": "History...",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Company",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Contact",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Job",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Booking",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Order",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Event",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Service Call",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Company & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Contact & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Job & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Booking & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Order & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Event & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Call & Action",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						},
+						{
+							"text": "Document",
+							"ref": 0,
+							"editable": true,
+							"collapsed": true
+						}
+					]
+				}
+			}
+		]
+	},
+	"aQVLevelsBSW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsSG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aACCanalLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "DEV       Development",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "EXP.      Export Project",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "HP        Hadley Pollet",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "LS        La Stamperia",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "NAC       Account Not Active",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "NIEN      Nien Chow",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "NY        New York Showroom",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RC        Ribbon Club",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RES.C     RESORT COLLECTION",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbStaticsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Company Code",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contact Code",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Code",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Product Code",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Call Code",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Code",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Booking Code",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Stage Code",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Event Code",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsML": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2001",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsCAH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsDEF": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Quality Groups": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Databases",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Graphics SW",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Has A",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Languages",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Special Skills",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SWOT",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Word Processors",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsJT2": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbFilterProbNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "10",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "20",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "40",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "50",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "60",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "70",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "80",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "90",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "100",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2009",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2008",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Skill Levels": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "0 Unkn",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1 Beg",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2 <Av",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3 Av",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4 Good",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5 Ex",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsRJBC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2001",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"PipeStatusLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Projected Sale",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Completed Sale",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lost Sale",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Mailsort": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "MS:1 Mailsort 1",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MS:2 Mailsort 2",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "MS:3 Mailsort 3",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PR:1 Presstream 1",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PR:2 Presstream 2",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RSVP:1 Mailsort RSVP 1",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RSVP:2 Mailsort RSVP 2",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "RSVP:3 Mailsort RSVP 3",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Usage Countries": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "UK Only",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Australia",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Austria",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Belgium",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Canada",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Denmark",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Eire",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "France",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Germany",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Greece",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Hong Kong",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italy",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Japan",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Netherlands",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Norway",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Portugal",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Spain",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sweden",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Switzerland",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "USA",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsSC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Picture Formats": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "1 Truncated centered",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2 Scaled to fit",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3 On Background",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4 Truncated non centered",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5 Scaled to fit proportional",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsRAN": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsML": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"tabDocument": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Report",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Print Preferences",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbCurrencyCodeLPL": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"QVYearsOptionsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbPeriodCodeLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2006 11",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006 12",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbProdSystemsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "-",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Entry",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsSG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2007",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2002",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Quality SubGroups": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "French - bilingual",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "German - bilingual",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Spanish - bilingual",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italian - bilingual",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "French - fluent",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "German - fluent",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Spanish - fluent",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italian - fluent",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "French - average",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "German - average",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Spanish - average",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Italian - average",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"SD2_EmailSendOptsSA": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BCC",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbFilterProbLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "10",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "20",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "40",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "50",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "60",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "70",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "80",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "90",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "100",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsSC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsVF": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsJK": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2014",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2013",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2012",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2011",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2010",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2009",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsRJBC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ProbabilityLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "10",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "20",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "40",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "50",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "60",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "70",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "80",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "90",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "100",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Ad Formats": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "A3",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "A4",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "A5",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Quarter",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Half",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Full",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"EmailTypeLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "To",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "CC",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Bcc",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Titles": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Mr",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mrs",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Miss",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Ms",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Dr",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Prof",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lord",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lady",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sir",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "M",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mme",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Mlle",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbProdSystemsLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "-",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Entry",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Version": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Gold",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"hlMONTH": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "02  MONDAY",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "03  TUESDAY",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 19,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 20,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 21,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 22,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 23,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 24,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 25,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 26,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 27,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 28,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 29,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 30,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "",
+				"ref": 31,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"VAT Prefixes": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "AT - Austria",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "BE - Belgium",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DE - Germany",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "DK - Denmark",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "EL - Greece",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "ES - Spain",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FI - Finland",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "FR - France",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "GB - Great Britain",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "IE - Ireland",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "IT - Italy",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "LU - Luxembourg",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "NL - Netherlands",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "PT - Portugal",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "SE - Sweden",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsLB": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2008",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2007",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2006",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2005",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2004",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2003",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVYearsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2019",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2018",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2017",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2016",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2015",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2014",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbCurrcodesNG": {
+		"lineHeight": 18,
+		"editable": false
+	},
+	"SD_PriorityMenu": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "1",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbProdSystemsKW": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "-",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "New Entry",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVYearsOptionsNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "2014",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2013",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2012",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2011",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2010",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2009",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QVLevelsOptionsRJBC": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbPipeStatusLPL": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Projected Sale",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Completed Sale",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lost Sale",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"ProbabilityNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "10",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "20",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "30",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "40",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "50",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "60",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "70",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "80",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "90",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "100",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbPipeStatusNG": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Projected Sale",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Completed Sale",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Lost Sale",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Possible business",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Quoted business",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Ad Colours": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "3",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "B&W",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"aQVLevelsRAN": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMultiLB": {
+		"items": [
+			{
+				"text": "Companies",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contacts",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Accounts",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transaction Batches",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Transactions",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Invoices",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Invoices",
+				"ref": 7,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Sales Orders",
+				"ref": 8,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Order Items",
+				"ref": 9,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Subscriptions",
+				"ref": 10,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Purchase Orders",
+				"ref": 11,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Products",
+				"ref": 12,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Projects",
+				"ref": 13,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Jobs",
+				"ref": 14,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Stages",
+				"ref": 15,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Job Pesonnel",
+				"ref": 16,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Contracts",
+				"ref": 17,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Service Calls",
+				"ref": 18,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"lbMulti2LB": {
+		"items": [
+			{
+				"text": "Use Standardised Settings",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Select Another Macro",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Create Macro",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QV_at_LevelsOptionsLB": {
+		"items": [
+			{
+				"text": "=",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": ">=",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "<=",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "#",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"QV_al_LevelsLB": {
+		"items": [
+			{
+				"text": "0",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "1",
+				"ref": 2,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "2",
+				"ref": 3,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "3",
+				"ref": 4,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "4",
+				"ref": 5,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "5",
+				"ref": 6,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+//%attributes = {}
+If (False:C215)
+	//Project Method Name:      Buttons_CLose
+	//------------------ Method Notes ------------------
+	
+	//------------------ Revision Control ----------------
+	//Date Created: 18/09/2010 18:26
+	//Created BY: Nigel Greenlee
+	//Date Modified: 
+	//Modified By DefaultUser
+	//Modification notes 
+	
+End if 
+//Variable Declarations
+If (True:C214)
+	C_BOOLEAN:C305(BUT_bo_Floating)
+	C_LONGINT:C283(<>BUTTPROC; DB_l_ButtonClickedFunction)
+	C_TEXT:C284($_t_MachineName; $_t_oldMethodName; DB_t_ButtonClickedFunction; PAL_BUTTON)
+End if 
+//Code Starts Here
+
+$_t_oldMethodName:=ERR_MethodTracker("Buttons_CLose")
+//this is the close box process for the buttons pallette-used when it is floating
+PAL_BUTTON:="99"
+BUT_bo_Floating:=True:C214  //stops this process clearing the values
+DB_t_ButtonClickedFunction:=""
+DB_l_ButtonClickedFunction:=0
+$_t_MachineName:=Current machine:C483
+If (False:C215)
+	<>ButtProc:=New process:C317("Input_ButtonsWin"; 256000; "Buttons_"+$_t_MachineName; *)  //see In_ButtProc
+End if 
+CANCEL:C270
+ERR_MethodTrackerReturn("Buttons_CLose"; $_t_oldMethodName)

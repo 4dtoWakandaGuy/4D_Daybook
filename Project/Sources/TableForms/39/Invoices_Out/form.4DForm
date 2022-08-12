@@ -1,0 +1,1231 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 980,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #107",
+	"markerHeader": 70,
+	"markerBody": 90,
+	"markerBreak": 90,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 51,
+					"left": 72,
+					"width": 168,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Company"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 51,
+					"left": 303,
+					"width": 44,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Date"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 51,
+					"left": 14,
+					"width": 49,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Number"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 51,
+					"left": 447,
+					"width": 51,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Invoiced"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 51,
+					"left": 508,
+					"width": 50,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Received"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 51,
+					"left": 568,
+					"width": 53,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Due"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 51,
+					"left": 250,
+					"width": 44,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "State"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 51,
+					"left": 356,
+					"width": 50,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Period"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 51,
+					"left": 630,
+					"width": 53,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Date Due"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 51,
+					"left": 691,
+					"width": 25,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Age"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 51,
+					"left": 779,
+					"width": 31,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Stage"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 51,
+					"left": 723,
+					"width": 48,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Overdue"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 51,
+					"left": 820,
+					"width": 47,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Analysis"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 51,
+					"left": 414,
+					"width": 25,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Curr"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 51,
+					"left": 875,
+					"width": 37,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Layer"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 51,
+					"left": 920,
+					"width": 39,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Person"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 67,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": 40,
+					"left": 244,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter4": {
+					"type": "splitter",
+					"top": 40,
+					"left": 298,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter5": {
+					"type": "splitter",
+					"top": 40,
+					"left": 351,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter6": {
+					"type": "splitter",
+					"top": 40,
+					"left": 410,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter7": {
+					"type": "splitter",
+					"top": 40,
+					"left": 442,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter8": {
+					"type": "splitter",
+					"top": 40,
+					"left": 502,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter9": {
+					"type": "splitter",
+					"top": 40,
+					"left": 563,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter10": {
+					"type": "splitter",
+					"top": 40,
+					"left": 625,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter11": {
+					"type": "splitter",
+					"top": 40,
+					"left": 686,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter12": {
+					"type": "splitter",
+					"top": 40,
+					"left": 719,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter13": {
+					"type": "splitter",
+					"top": 40,
+					"left": 775,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter14": {
+					"type": "splitter",
+					"top": 40,
+					"left": 814,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter15": {
+					"type": "splitter",
+					"top": 40,
+					"left": 870,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter16": {
+					"type": "splitter",
+					"top": 40,
+					"left": 916,
+					"width": 2,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C5FFC0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 73,
+					"left": 12,
+					"width": 54,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Invoice_Number:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 73,
+					"left": 70,
+					"width": 56,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Company_Code:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 73,
+					"left": 130,
+					"width": 113,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[COMPANIES:2]Company_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 73,
+					"left": 301,
+					"width": 49,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Invoice_Date:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 73,
+					"left": 354,
+					"width": 55,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Period_Code:13",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 73,
+					"left": 413,
+					"width": 28,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Currency_Code:27",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 73,
+					"left": 445,
+					"width": 57,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Total_Invoiced:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field8": {
+					"type": "input",
+					"top": 73,
+					"left": 505,
+					"width": 57,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Total_Paid:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field9": {
+					"type": "input",
+					"top": 73,
+					"left": 566,
+					"width": 58,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Total_Due:7",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field10": {
+					"type": "input",
+					"top": 73,
+					"left": 628,
+					"width": 57,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Due_Date:18",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 73,
+					"left": 778,
+					"width": 35,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Credit_Stage:22",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field12": {
+					"type": "input",
+					"top": 73,
+					"left": 817,
+					"width": 52,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Analysis_Code:17",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field13": {
+					"type": "input",
+					"top": 73,
+					"left": 873,
+					"width": 42,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Layer_Code:38",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field14": {
+					"type": "input",
+					"top": 73,
+					"left": 919,
+					"width": 42,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[INVOICES:39]Person:42",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 73,
+					"left": 247,
+					"width": 50,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "vStatus_",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 73,
+					"left": 689,
+					"width": 29,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "vCallsSTR",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Age"
+					},
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Age"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 73,
+					"left": 722,
+					"width": 52,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "vContr",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Age"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 46,
+					"left": 10,
+					"width": 57,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button2": {
+					"type": "button",
+					"top": 46,
+					"left": 69,
+					"width": 175,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button3": {
+					"type": "button",
+					"top": 46,
+					"left": 300,
+					"width": 51,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button4": {
+					"type": "button",
+					"top": 46,
+					"left": 247,
+					"width": 51,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button5": {
+					"type": "button",
+					"top": 46,
+					"left": 353,
+					"width": 57,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button6": {
+					"type": "button",
+					"top": 46,
+					"left": 412,
+					"width": 30,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button7": {
+					"type": "button",
+					"top": 46,
+					"left": 444,
+					"width": 57,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button8": {
+					"type": "button",
+					"top": 46,
+					"left": 504,
+					"width": 58,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button9": {
+					"type": "button",
+					"top": 46,
+					"left": 565,
+					"width": 60,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button10": {
+					"type": "button",
+					"top": 46,
+					"left": 627,
+					"width": 59,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button11": {
+					"type": "button",
+					"top": 46,
+					"left": 688,
+					"width": 31,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button12": {
+					"type": "button",
+					"top": 46,
+					"left": 721,
+					"width": 53,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button13": {
+					"type": "button",
+					"top": 46,
+					"left": 777,
+					"width": 37,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button13.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button14": {
+					"type": "button",
+					"top": 46,
+					"left": 816,
+					"width": 54,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button14.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button15": {
+					"type": "button",
+					"top": 46,
+					"left": 872,
+					"width": 44,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button15.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button16": {
+					"type": "button",
+					"top": 46,
+					"left": 918,
+					"width": 44,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "bSortButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button16.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

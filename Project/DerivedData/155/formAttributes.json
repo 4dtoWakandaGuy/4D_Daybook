@@ -1,0 +1,19 @@
+{
+	"forms": {
+		"Trans_SubP": {
+			"timeStamp": "2022-03-11T13:49:18.894Z",
+			"destination": "listPrinter"
+		},
+		"Trans_Print": {
+			"timeStamp": "2022-05-03T12:49:43.824Z",
+			"destination": "listScreen"
+		},
+		"TRANIN_ITEMS": {
+			"timeStamp": "2022-03-11T23:32:40.291Z",
+			"destination": "listScreen"
+		},
+		"Trans_SubN": {
+			"timeStamp": "2022-03-11T23:32:40.272Z"
+		}
+	}
+}

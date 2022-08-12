@@ -1,0 +1,11 @@
+{
+	"forms": {
+		"ContractType_In": {
+			"timeStamp": "2022-05-01T04:52:39.611Z",
+			"destination": "detailScreen"
+		},
+		"ContTypes_Out": {
+			"timeStamp": "2022-03-10T16:49:18.606Z"
+		}
+	}
+}

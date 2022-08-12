@@ -1,0 +1,317 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "DEI_TEMPLATE",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oDEI_at_DisplayRescuedTables": {
+					"type": "listbox",
+					"top": 92,
+					"left": 30,
+					"width": 215,
+					"height": 254,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oDEI_at_DisplayRescuedTables_Column1",
+							"dataSource": "DEI_at_DisplayRescuedTables",
+							"width": 200,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oDEI_at_DisplayRecoverTables": {
+					"type": "listbox",
+					"top": 92,
+					"left": 360,
+					"width": 215,
+					"height": 254,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "oDEI_at_DisplayRecoverTables_Column1",
+							"dataSource": "DEI_at_DisplayRecoverTables",
+							"width": 200,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 67,
+					"left": 30,
+					"width": 103,
+					"height": 11,
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Recued Tables"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 67,
+					"left": 360,
+					"width": 103,
+					"height": 11,
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Recover Tables"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 98,
+					"left": 255,
+					"width": 87,
+					"height": 21,
+					"dataSource": "b_recover_Add",
+					"text": "Add ->>",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 129,
+					"left": 255,
+					"width": 87,
+					"height": 21,
+					"dataSource": "b_recover_AddAll",
+					"text": "Add All ->>",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 160,
+					"left": 255,
+					"width": 87,
+					"height": 21,
+					"dataSource": "b_recover_Remove",
+					"text": "Remove",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 192,
+					"left": 255,
+					"width": 87,
+					"height": 21,
+					"dataSource": "b_recover_RemoveAll",
+					"text": "Remove All",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 354,
+					"left": 359,
+					"width": 220,
+					"height": 22,
+					"dataSource": "b_recover_now",
+					"text": "Recover Selected Tables",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 31,
+					"left": 513,
+					"width": 64,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Recover"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,659 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"rightMargin": 10,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 562,
+	"markerBreak": 562,
+	"markerFooter": 562,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oComponentType": {
+					"type": "radio",
+					"top": 391,
+					"left": 192,
+					"width": 269,
+					"height": 15,
+					"dataSource": "cRB1",
+					"text": "Select one product",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oComponentType.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oOptionalComponent": {
+					"type": "checkbox",
+					"top": 272,
+					"left": 192,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]Optional_Component:11",
+					"text": "Optional Component",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oOptionalComponent.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oComponentIsBrand": {
+					"type": "checkbox",
+					"top": 336,
+					"left": 192,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]Component_is_Product_Brand:16",
+					"text": "Component is a brand",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oComponentIsBrand.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAdditionalOrderItem": {
+					"type": "checkbox",
+					"top": 311,
+					"left": 192,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]Additional_Order_Item:12",
+					"text": "Addtional Order Item",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAdditionalOrderItem.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oComponentisGroup": {
+					"type": "checkbox",
+					"top": 368,
+					"left": 192,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]Component_is_Product_Brand:16",
+					"text": "Component is a Product Group",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oComponentisGroup.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oComponentType2": {
+					"type": "radio",
+					"top": 425,
+					"left": 192,
+					"width": 269,
+					"height": 15,
+					"dataSource": "cRB2",
+					"text": "Select multiple Products",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oComponentType2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oComponentNotesMessage": {
+					"type": "text",
+					"top": 459,
+					"left": 188,
+					"width": 295,
+					"height": 53,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "Note that when a component allows the selection of multiple products. You must take care that the total constructed output product will not exceed 25 characters. You can control the output construction from this component with a function"
+				},
+				"oComponentGroup": {
+					"type": "dropdown",
+					"top": 124,
+					"left": 16,
+					"width": 169,
+					"height": 20,
+					"dataSource": "PRD_at_ComponentField",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oComponentGroup.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProdComponentRelation": {
+					"type": "input",
+					"top": 130,
+					"left": 196,
+					"width": 308,
+					"height": 14,
+					"dataSource": "PRD_t_RelatedData",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/oProdComponentRelation.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPRDRelatedName": {
+					"type": "input",
+					"top": 151,
+					"left": 197,
+					"width": 307,
+					"height": 13,
+					"dataSource": "PRD_t_RelatedName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCodeSectionLabel": {
+					"type": "text",
+					"top": 198,
+					"left": 19,
+					"width": 172,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Output  Product Code Section :"
+				},
+				"oComponentSection": {
+					"type": "dropdown",
+					"top": 194,
+					"left": 192,
+					"width": 269,
+					"height": 20,
+					"dataSource": "PRD_at_SectionNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oComponentSection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oComponentNameLabel": {
+					"type": "text",
+					"top": 82,
+					"left": 16,
+					"width": 172,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Component Name :"
+				},
+				"oComponentName": {
+					"type": "input",
+					"top": 83,
+					"left": 195,
+					"width": 312,
+					"height": 14,
+					"dataSource": "[COMPONENTS:86]Component_Name:17",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptLabel": {
+					"type": "text",
+					"top": 232,
+					"left": 19,
+					"width": 172,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Use script to control output code :"
+				},
+				"oScript": {
+					"type": "input",
+					"top": 232,
+					"left": 200,
+					"width": 312,
+					"height": 14,
+					"dataSource": "[COMPONENTS:86]Build_Code_Macro:14",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oScript.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPRDRelatedName1": {
+					"type": "input",
+					"top": 252,
+					"left": 197,
+					"width": 307,
+					"height": 13,
+					"dataSource": "PRD_t_MacroName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oIgnorePricing": {
+					"type": "checkbox",
+					"top": 518,
+					"left": 193,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]Ignore_Pricing:13",
+					"text": "Ignore Pricing",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oIgnorePricing.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDefaultQuantityLabel": {
+					"type": "text",
+					"top": 105,
+					"left": 16,
+					"width": 172,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Quantity :"
+				},
+				"oComponentQuantity": {
+					"type": "input",
+					"top": 105,
+					"left": 195,
+					"width": 92,
+					"height": 14,
+					"dataSource": "[COMPONENTS:86]Quantity:3",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonExit": {
+					"type": "button",
+					"top": 740,
+					"left": 749,
+					"width": 94,
+					"height": 22,
+					"dataSource": "PC_l_ExitButton",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonExit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSectionOrderLabel": {
+					"type": "text",
+					"top": 104,
+					"left": 293,
+					"width": 152,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Selection Order :"
+				},
+				"oComponentSequence": {
+					"type": "input",
+					"top": 105,
+					"left": 454,
+					"width": 92,
+					"height": 14,
+					"dataSource": "[COMPONENTS:86]ComponentSelectionOrderSequence:19",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oComponentSequenceDropDown": {
+					"type": "dropdown",
+					"top": 102,
+					"left": 545,
+					"width": 24,
+					"height": 20,
+					"dataSource": "PRD_al_entryOrder",
+					"dataSourceTypeHint": "arrayNumber",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oComponentSequenceDropDown.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPrereqisiteLabel": {
+					"type": "text",
+					"top": 539,
+					"left": 16,
+					"width": 485,
+					"height": 54,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Do not allow selection of this component until these components are selected..."
+				},
+				"oRestrictions": {
+					"type": "listbox",
+					"top": 557,
+					"left": 195,
+					"width": 285,
+					"height": 98,
+					"resizingMode": "legacy",
+					"dataSource": "PC_lb_Restrictions",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oRestrictions.4dm",
+					"columns": []
+				},
+				"oScriptButton": {
+					"type": "button",
+					"top": 230,
+					"left": 525,
+					"width": 83,
+					"height": 21,
+					"dataSource": "PC_l_ButtonShowMacro",
+					"text": "Edit",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oScriptButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oGroupButton": {
+					"type": "button",
+					"top": 126,
+					"left": 525,
+					"width": 83,
+					"height": 21,
+					"dataSource": "PC_l_ButtonShowProduct",
+					"text": "Show",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oGroupButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Field9": {
+					"type": "checkbox",
+					"top": 290,
+					"left": 229,
+					"width": 283,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[COMPONENTS:86]IncludeOptionalByDefault:22",
+					"text": "Include by Default",
+					"stroke": "#000000",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/Field9.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 15,
+					"left": 233,
+					"width": 319,
+					"height": 39,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "When this is selected the built product may not include this component. Be aware that if an optional product must contribute to the output product code you should create a product for the option rather than use this check box"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 56,
+					"left": 233,
+					"width": 335,
+					"height": 78,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "When this is selected this component will not become part of the built product it will be a seperate product on the order. Note that this option may not be used when the component is a brand or product group. It may also be used with multiple items and will add multiple additional items to the order."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 136,
+					"left": 233,
+					"width": 335,
+					"height": 53,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "When this is selected the built component selected is a brand. Please ensure that Brands have a product section code or a function has been created to construct the contribution the brand code makes to the output product code."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 194,
+					"left": 233,
+					"width": 335,
+					"height": 53,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "When this is selected the built component selected is a Product Group. Please ensure that Groups have a product section code or a function has been created to construct the contribution the group code makes to the output product code."
+				},
+				"Text6": {
+					"type": "text",
+					"top": 256,
+					"left": 233,
+					"width": 328,
+					"height": 107,
+					"class": "LabelsItalic",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Note: \rAllowing a component part of product code to be a constructed from a brand or product group will not bring any pricing for that selected brand or Group.\r\r If these do affect the price you must control this with a function on sales and purchase orders"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 372,
+					"left": 233,
+					"width": 330,
+					"height": 52,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "When this is selected the built product will not bring through any pricing from the component items. You must control the constructed price using a script OR use the option to use the pricing on the template product"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 439,
+					"left": 233,
+					"width": 330,
+					"height": 92,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "If the selection of this component is restricted till after other components sections are selected set this here. \rYou may also set a script to use to filter the selection of products  available for this component based on those the selection made in those sectiion. This only has purpose if there are multiple choices of product in this section and in the section which must be selected first"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 112,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

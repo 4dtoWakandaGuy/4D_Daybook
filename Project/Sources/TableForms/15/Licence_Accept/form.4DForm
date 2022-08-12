@@ -1,0 +1,244 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 5,
+					"left": 51,
+					"width": 434,
+					"height": 36,
+					"stroke": "#000099",
+					"class": "Message_TEXT",
+					"textAlign": "center",
+					"text": "You must read and agree to the following licence agreement before proceeding. Please note that there are two parts and you must read and agree to both parts."
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 59,
+					"left": 6,
+					"width": 487,
+					"height": 338,
+					"dataSource": "tLicenceText",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "radio",
+					"top": 409,
+					"left": 19,
+					"width": 417,
+					"height": 22,
+					"dataSource": "r1",
+					"text": "I accept the Daybook Licence Agreement",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 429,
+					"left": 19,
+					"width": 331,
+					"height": 17,
+					"dataSource": "r2",
+					"text": "I do not accept the Daybook Licence Agreement",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 463,
+					"left": 119,
+					"width": 72,
+					"height": 21,
+					"dataSource": "bOK",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 463,
+					"left": 215,
+					"width": 68,
+					"height": 22,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 463,
+					"left": 305,
+					"width": 70,
+					"height": 22,
+					"dataSource": "bPrint",
+					"text": "Print",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 60,
+					"left": 5,
+					"width": 489,
+					"height": 339,
+					"dataSource": "bHide",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 49,
+					"height": 40,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Modulus Logo Medium.png"
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 8,
+					"left": 5,
+					"width": 38,
+					"height": 24,
+					"dataSource": "bUpdate",
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button2": {
+					"type": "button",
+					"top": 403,
+					"left": 128,
+					"width": 256,
+					"height": 18,
+					"dataSource": "bViewPart",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

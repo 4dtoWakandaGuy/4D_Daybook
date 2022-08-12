@@ -1,0 +1,389 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 9,
+	"bottomMargin": 5,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oEmailtoLabel1": {
+					"type": "text",
+					"top": 26,
+					"left": 51,
+					"width": 73,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Adressees :"
+				},
+				"omLBEmails": {
+					"type": "listbox",
+					"top": 25,
+					"left": 130,
+					"width": 404,
+					"height": 29,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DOC_lb_Recipients",
+					"sortable": false,
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "15px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/omLBEmails.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": []
+				},
+				"oattachmentLabel": {
+					"type": "text",
+					"top": 69,
+					"left": 31,
+					"width": 93,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Attachments :"
+				},
+				"omLBAttachments": {
+					"type": "listbox",
+					"top": 68,
+					"left": 130,
+					"width": 392,
+					"height": 29,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DOC_lb_Attachments",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "15px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/omLBAttachments.4dm",
+					"events": [
+						"onDoubleClick"
+					],
+					"columns": []
+				},
+				"oSubjectLabel": {
+					"type": "text",
+					"top": 107,
+					"left": 51,
+					"width": 73,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Subject :"
+				},
+				"oEmailSubject": {
+					"type": "input",
+					"top": 107,
+					"left": 128,
+					"width": 406,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[DIARY:12]Email_Subject:40",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oEmailSubject.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFromLabel": {
+					"type": "text",
+					"top": 131,
+					"left": 51,
+					"width": 73,
+					"height": 14,
+					"stroke": "#603000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "From :"
+				},
+				"oEmailFromNamesDropDown": {
+					"type": "dropdown",
+					"top": 129,
+					"left": 130,
+					"width": 408,
+					"height": 17,
+					"sizingX": "grow",
+					"dataSource": "PER_at_EmailNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oEmailFromNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonSelectTemplate": {
+					"type": "button",
+					"top": 149,
+					"left": 4,
+					"width": 108,
+					"height": 19,
+					"dataSource": "BgetTemplate",
+					"text": "Select Template",
+					"class": "BUttons_SMALL",
+					"dropping": "custom",
+					"method": "ObjectMethods/oButtonSelectTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailFromName": {
+					"type": "input",
+					"top": 131,
+					"left": 130,
+					"width": 388,
+					"height": 15,
+					"sizingX": "grow",
+					"dataSource": "DOC_T_EmailFromcom",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oEmailFromName.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonSendEmail": {
+					"type": "button",
+					"top": 2,
+					"left": 4,
+					"width": 50,
+					"height": 19,
+					"dataSource": "SD2_l_SendEmailNow",
+					"text": "Send",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonSendEmail.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonSaveDraft": {
+					"type": "button",
+					"top": 2,
+					"left": 63,
+					"width": 90,
+					"height": 19,
+					"dataSource": "SD2_l_SaveDraft",
+					"text": "Save As Draft",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonSaveDraft.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonModify": {
+					"type": "button",
+					"top": 2,
+					"left": 443,
+					"width": 108,
+					"height": 19,
+					"dataSource": "SD2_l_ModifyOrReSend",
+					"text": "Modify / Resend",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonModify.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonaddAttachment": {
+					"type": "button",
+					"top": 60,
+					"left": 533,
+					"width": 26,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "Baddattachements",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonaddAttachment.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteAttachment": {
+					"type": "button",
+					"top": 86,
+					"left": 533,
+					"width": 26,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "BDELETEattachements",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REMOVE.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonDeleteAttachment.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonaddrecipient": {
+					"type": "button",
+					"top": 26,
+					"left": 535,
+					"width": 26,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "Badd",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonaddrecipient.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oEmailText": {
+					"type": "input",
+					"top": 174,
+					"left": 5,
+					"width": 533,
+					"height": 231,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[DIARY:12]Email_Text:42",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/oEmailText.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 15,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Pictures_Out": {
+			"timeStamp": "2022-03-16T06:25:33.219Z",
+			"destination": "listScreen"
+		},
+		"dPicture_Any": {
+			"timeStamp": "2022-03-16T06:25:33.210Z",
+			"destination": "detailScreen"
+		},
+		"Picture_In": {
+			"timeStamp": "2022-03-16T06:25:33.214Z",
+			"destination": "detailScreen"
+		}
+	}
+}

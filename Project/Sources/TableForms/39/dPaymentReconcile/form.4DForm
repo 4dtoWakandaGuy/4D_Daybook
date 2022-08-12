@@ -1,0 +1,354 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt",
+		"orientation": "landscape"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 16,
+					"left": 12,
+					"width": 371,
+					"height": 196,
+					"class": "Headers",
+					"text": "Payment Reconciliation"
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 218,
+					"left": 310,
+					"width": 74,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 218,
+					"left": 227,
+					"width": 74,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 45,
+					"left": 26,
+					"width": 169,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "The Amount entered of"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 122,
+					"left": 26,
+					"width": 283,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Do you want to allocate to the Invoice(s):"
+				},
+				"Variable4": {
+					"type": "radio",
+					"top": 142,
+					"left": 24,
+					"width": 247,
+					"height": 17,
+					"dataSource": "r0",
+					"text": "Only the paid amount",
+					"class": "check_box_text_LARGE",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "radio",
+					"top": 161,
+					"left": 24,
+					"width": 332,
+					"height": 16,
+					"dataSource": "r1",
+					"text": "The Allocated amount, the difference posted to",
+					"class": "check_box_text_LARGE",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 179,
+					"left": 48,
+					"width": 112,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Bad Debts"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 177,
+					"left": 148,
+					"width": 83,
+					"height": 13,
+					"dataSource": "ACC_BadDebts",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 44,
+					"left": 199,
+					"width": 118,
+					"height": 13,
+					"dataSource": "vPayment",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 66,
+					"left": 27,
+					"width": 169,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Amount to be Allocated"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 87,
+					"left": 27,
+					"width": 169,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Leaving a difference of"
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 65,
+					"left": 201,
+					"width": 118,
+					"height": 14,
+					"dataSource": "v31",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"method": "ObjectMethods/Variable15.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 87,
+					"left": 202,
+					"width": 118,
+					"height": 14,
+					"dataSource": "v61",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"method": "ObjectMethods/Variable16.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 218,
+					"left": 310,
+					"width": 74,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 218,
+					"left": 227,
+					"width": 74,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

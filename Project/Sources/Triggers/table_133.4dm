@@ -1,0 +1,61 @@
+If (False:C215)  // ----------------------------------------------------
+	//Creator: Nigel Greenlee
+	//Date & time: 30/09/2013 19:03
+	//Method Name: Trigger:CC_OrderAuths
+	//Description
+	
+	//Parameters
+	//Declarations
+	// ----------------------------------------------------
+	//Project method Amendments
+	
+	//End Project method Amendments
+End if 
+$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [CC_OrderAuths]")
+
+$0:=0
+$_l_event:=Trigger event:C369
+<>SYS_bo_inTrigger:=True:C214
+Case of 
+		
+		
+	: ($_l_event=On Saving New Record Event:K3:1)  //WT - audit for saving new record
+		$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [CC_OrderAuths]"; $_l_event)
+		If (DB_TableTriggerEnabled)
+			NaNFixer  //
+			If ([CC_OrderAuths:133]x_ID:1=0)
+				
+				[CC_OrderAuths:133]x_ID:1:=AA_GetNextID(->[CC_OrderAuths:133]x_ID:1)
+				
+				
+			End if 
+			AUTO_AUDIT(->[CC_OrderAuths:133]; Field:C253(->[CC_OrderAuths:133]x_ID:1); Process_Name(Current process:C322); <>PER_t_CurrentUserInitials)
+		End if 
+		ERR_MethodTrackerReturn("TRIGGER [CC_OrderAuths]"; $_t_oldMethodName)
+	: ($_l_event=On Saving Existing Record Event:K3:2)  //WT - audit for saving old/existing record
+		$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [CC_OrderAuths]"; $_l_event)
+		If (DB_TableTriggerEnabled)
+			NaNFixer
+			If ([CC_OrderAuths:133]x_ID:1=0)
+				
+				[CC_OrderAuths:133]x_ID:1:=AA_GetNextID(->[CC_OrderAuths:133]x_ID:1)
+				
+				
+			End if 
+			AUTO_AUDIT(->[CC_OrderAuths:133]; Field:C253(->[CC_OrderAuths:133]x_ID:1); Process_Name(Current process:C322); <>PER_t_CurrentUserInitials)
+		End if 
+		ERR_MethodTrackerReturn("TRIGGER [CC_OrderAuths]"; $_t_oldMethodName)
+	: ($_l_event=On Deleting Record Event:K3:3)
+		$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [CC_OrderAuths]"; $_l_event)
+		If (DB_TableTriggerEnabled)
+			If ([CC_OrderAuths:133]x_ID:1=0)
+				
+				[CC_OrderAuths:133]x_ID:1:=AA_GetNextID(->[CC_OrderAuths:133]x_ID:1)
+				
+				
+			End if 
+			AUTO_AUDIT_DEL(->[CC_OrderAuths:133]; Field:C253(->[CC_OrderAuths:133]x_ID:1); Process_Name(Current process:C322); <>PER_t_CurrentUserInitials)
+		End if 
+		ERR_MethodTrackerReturn("TRIGGER [CC_OrderAuths]"; $_t_oldMethodName)
+End case 
+<>SYS_bo_inTrigger:=False:C215

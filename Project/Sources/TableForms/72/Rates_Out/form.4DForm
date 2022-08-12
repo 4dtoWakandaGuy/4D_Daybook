@@ -1,0 +1,309 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 380,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 70,
+	"markerBody": 90,
+	"markerBreak": 90,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 49,
+					"left": 5,
+					"width": 52,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "From"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 49,
+					"left": 71,
+					"width": 37,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "To"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 49,
+					"left": 128,
+					"width": 37,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "Date"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 49,
+					"left": 201,
+					"width": 36,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "Rate"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 49,
+					"left": 288,
+					"width": 74,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "Rate Type"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 66,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#B1D9D7",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": 40,
+					"left": 123,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#B1D9D7",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": 40,
+					"left": 196,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#B1D9D7",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter4": {
+					"type": "splitter",
+					"top": 40,
+					"left": 284,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#B1D9D7",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 74,
+					"left": 5,
+					"width": 57,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[CURRENCY_RATES:72]Currency_From:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 74,
+					"left": 71,
+					"width": 50,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[CURRENCY_RATES:72]Currency_To:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 74,
+					"left": 128,
+					"width": 67,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[CURRENCY_RATES:72]Date:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 74,
+					"left": 201,
+					"width": 80,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[CURRENCY_RATES:72]Rate:3",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Currency"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 74,
+					"left": 288,
+					"width": 88,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[CURRENCY_RATES:72]Rate_Type:5",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

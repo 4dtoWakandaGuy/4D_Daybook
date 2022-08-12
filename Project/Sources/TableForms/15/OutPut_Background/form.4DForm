@@ -1,0 +1,542 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 112,
+	"markerBody": 112,
+	"markerBreak": 112,
+	"markerFooter": 112,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oStrapHeader": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1957,
+					"height": 34,
+					"fill": "#444444",
+					"stroke": "transparent"
+				},
+				"INT_p_OutButtons": {
+					"type": "input",
+					"top": 8,
+					"left": 11,
+					"width": 93,
+					"height": 12,
+					"dataSource": "INT_p_OutButtons",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/INT_p_OutButtons.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"3D Button2": {
+					"type": "button",
+					"top": 5,
+					"left": 49,
+					"width": 22,
+					"height": 22,
+					"dataSource": "BNextselection",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Forward Selecti"
+					},
+					"display": false,
+					"dropping": "custom",
+					"method": "ObjectMethods/3D Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Pop-up/Drop-down List1": {
+					"type": "dropdown",
+					"top": 5,
+					"left": 36,
+					"width": 21,
+					"height": 22,
+					"dataSource": "WS_at_CachedSelectionName",
+					"focusable": false,
+					"display": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Pop-up%2FDrop-down List1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 5,
+					"left": 8,
+					"width": 21,
+					"height": 22,
+					"dataSource": "BPreviousselection",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Back Selection"
+					},
+					"display": false,
+					"dropping": "custom",
+					"method": "ObjectMethods/3D Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable24": {
+					"type": "button",
+					"top": 8,
+					"left": 76,
+					"width": 26,
+					"height": 17,
+					"dataSource": "BselectionDragger",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #79"
+					},
+					"class": "Default",
+					"focusable": false,
+					"textPlacement": "center",
+					"style": "custom",
+					"dropping": "custom",
+					"method": "ObjectMethods/Variable24.4dm",
+					"events": [
+						"onDrop",
+						"onDragOver"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bok",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"class": "Default",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Default",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BDelete",
+					"shortcutKey": "[Backspace]",
+					"shortcutAccel": true,
+					"text": "Delete",
+					"class": "Default",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BAdd",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"text": "Add",
+					"class": "Default",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BMinus",
+					"text": "minus",
+					"class": "Default",
+					"method": "ObjectMethods/Variable7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BPreviousrecord",
+					"shortcutKey": "[left arrow]",
+					"text": "Previous record",
+					"class": "Default",
+					"method": "ObjectMethods/Variable8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BNextrecord",
+					"shortcutKey": "[right arrow]",
+					"text": "Next record",
+					"class": "Default",
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable11": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bfirstrecord",
+					"shortcutKey": "[left arrow]",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "first record",
+					"class": "Default",
+					"method": "ObjectMethods/Variable11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable12": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Blastrecord",
+					"shortcutKey": "[right arrow]",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "last record",
+					"class": "Default",
+					"method": "ObjectMethods/Variable12.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BfindINFO",
+					"shortcutKey": "i",
+					"shortcutAccel": true,
+					"text": "Find info",
+					"class": "Default",
+					"method": "ObjectMethods/Variable13.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable14": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bfind",
+					"shortcutKey": "f",
+					"shortcutAccel": true,
+					"text": "Find",
+					"class": "Default",
+					"method": "ObjectMethods/Variable14.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bselect",
+					"shortcutKey": "h",
+					"shortcutAccel": true,
+					"text": "Select",
+					"class": "Default",
+					"method": "ObjectMethods/Variable15.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable16": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bsort",
+					"shortcutKey": "t",
+					"shortcutAccel": true,
+					"text": "Sort",
+					"class": "Default",
+					"method": "ObjectMethods/Variable16.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable17": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BGraph",
+					"shortcutKey": "k",
+					"shortcutAccel": true,
+					"text": "graph",
+					"class": "Default",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable18": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bsets",
+					"shortcutKey": "l",
+					"shortcutAccel": true,
+					"text": "Sets",
+					"class": "Default",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable19": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Breports",
+					"shortcutKey": "p",
+					"shortcutAccel": true,
+					"text": "reports",
+					"class": "Default",
+					"method": "ObjectMethods/Variable19.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable20": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Breports",
+					"shortcutKey": "p",
+					"shortcutAccel": true,
+					"text": "reports",
+					"class": "Default",
+					"method": "ObjectMethods/Variable20.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable21": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BOPEN",
+					"text": "OPEN",
+					"class": "Default",
+					"method": "ObjectMethods/Variable21.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable22": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "Bok",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Default",
+					"method": "ObjectMethods/Variable22.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable23": {
+					"type": "button",
+					"top": 115,
+					"left": 0,
+					"width": 10,
+					"height": 11,
+					"dataSource": "BCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"class": "Default",
+					"method": "ObjectMethods/Variable23.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"INT_T_OutputTitle": {
+					"type": "input",
+					"top": 10,
+					"left": 123,
+					"width": 320,
+					"height": 12,
+					"dataSource": "INT_T_OutputTitle",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/INT_T_OutputTitle.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oOutStrip": {
+					"type": "input",
+					"top": 34,
+					"left": 0,
+					"width": 1957,
+					"height": 3,
+					"dataSource": "INT_p_OutStrip",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oOutStrip.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vNo": {
+					"type": "input",
+					"top": 9,
+					"left": 445,
+					"width": 118,
+					"height": 12,
+					"dataSource": "vNo",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 3,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

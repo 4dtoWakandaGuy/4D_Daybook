@@ -1,0 +1,1138 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 257,
+	"windowMinHeight": 291,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oPaletteTab": {
+					"type": "tab",
+					"top": 3,
+					"left": 0,
+					"width": 256,
+					"height": 290,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SM_at_PalleteTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oPaletteTab.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSetManagerlist": {
+					"type": "list",
+					"top": 32,
+					"left": 0,
+					"width": 252,
+					"height": 233,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SM_HL_l_SETMANAGER",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"dropping": "custom",
+					"class": "ScrollArea",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/oSetManagerlist.4dm",
+					"events": [
+						"onClick",
+						"onDrop",
+						"onDataChange"
+					]
+				},
+				"oSetManagerText": {
+					"type": "input",
+					"top": 274,
+					"left": 5,
+					"width": 240,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "SM_t_SetManagerRecords",
+					"class": "Labels_OUTPUT",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oContextTableLabel": {
+					"type": "text",
+					"top": 38,
+					"left": 12,
+					"width": 90,
+					"height": 15,
+					"sizingY": "move",
+					"class": "Labels_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Context Table :"
+				},
+				"oContextLabel": {
+					"type": "text",
+					"top": 67,
+					"left": 12,
+					"width": 90,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Context Label :"
+				},
+				"oTableNamesDropDownP2": {
+					"type": "dropdown",
+					"top": 35,
+					"left": 107,
+					"width": 89,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "WS_at_TableNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTableNamesDropDownP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContextLabelVar": {
+					"type": "input",
+					"top": 67,
+					"left": 106,
+					"width": 130,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "WS_t_ContextLabel",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oContextLabelVar.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAccept": {
+					"type": "button",
+					"top": 265,
+					"left": 177,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "SM_But_Accept",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oAccept.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"defaultButton": true
+				},
+				"oCancel": {
+					"type": "button",
+					"top": 265,
+					"left": 101,
+					"width": 70,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SM_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oScriptCode": {
+					"type": "input",
+					"top": 32,
+					"left": 93,
+					"width": 161,
+					"height": 14,
+					"dataSource": "[SCRIPTS:80]Script_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptNameLabel": {
+					"type": "text",
+					"top": 49,
+					"left": 4,
+					"width": 82,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Script Name :"
+				},
+				"oScriptCodeLabel": {
+					"type": "text",
+					"top": 34,
+					"left": 12,
+					"width": 74,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Script Code :"
+				},
+				"oButtonCopyExisting": {
+					"type": "button",
+					"top": 67,
+					"left": 162,
+					"width": 91,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "WS_but_CopyScript",
+					"text": "Copy Existing",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonCopyExisting.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonSaveP3": {
+					"type": "button",
+					"top": 263,
+					"left": 188,
+					"width": 58,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_but_Save",
+					"text": "Save",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonSaveP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelP3": {
+					"type": "button",
+					"top": 263,
+					"left": 122,
+					"width": 58,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonCancelP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptText": {
+					"type": "input",
+					"top": 89,
+					"left": 3,
+					"width": 234,
+					"height": 169,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SM_T_MacroText",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/oScriptText.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptName": {
+					"type": "input",
+					"top": 48,
+					"left": 94,
+					"width": 161,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "SM_t_ScriptName",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTableNamesDropDown": {
+					"type": "dropdown",
+					"top": 67,
+					"left": 4,
+					"width": 70,
+					"height": 18,
+					"dataSource": "WS_at_TableNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTableNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFieldNamesDropDown": {
+					"type": "dropdown",
+					"top": 67,
+					"left": 77,
+					"width": 70,
+					"height": 18,
+					"dataSource": "WS_at_FieldNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oFieldNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oButtonSaveP4": {
+					"type": "button",
+					"top": 263,
+					"left": 188,
+					"width": 58,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_but_Save",
+					"text": "Use",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonSaveP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelP4": {
+					"type": "button",
+					"top": 263,
+					"left": 122,
+					"width": 58,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonCancelP4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptText2": {
+					"type": "input",
+					"top": 126,
+					"left": 11,
+					"width": 226,
+					"height": 132,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SM_T_MacroText2",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptCodeLabel1": {
+					"type": "text",
+					"top": 34,
+					"left": 10,
+					"width": 67,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Script Code :"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 120,
+					"left": 6,
+					"width": 243,
+					"height": 4,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "Splitter1",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture4": {
+					"type": "picture",
+					"top": 252,
+					"left": 75,
+					"width": 159,
+					"height": 30,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.pict"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 36,
+					"left": 56,
+					"width": 13,
+					"height": 13,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.pict"
+				},
+				"Picture10": {
+					"type": "picture",
+					"top": 36,
+					"left": 70,
+					"width": 13,
+					"height": 13,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture10.pict"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 37,
+					"left": 26,
+					"width": 13,
+					"height": 11,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture5.pict"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 36,
+					"left": 42,
+					"width": 13,
+					"height": 13,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.pict"
+				},
+				"Variable22": {
+					"type": "button",
+					"top": 38,
+					"left": 28,
+					"width": 11,
+					"height": 10,
+					"dataSource": "xSet",
+					"shortcutKey": "1",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable22.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 37,
+					"left": 43,
+					"width": 11,
+					"height": 11,
+					"dataSource": "xApply",
+					"shortcutKey": "2",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable23": {
+					"type": "button",
+					"top": 37,
+					"left": 57,
+					"width": 11,
+					"height": 11,
+					"dataSource": "xNext",
+					"shortcutKey": "2",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable23.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable24": {
+					"type": "button",
+					"top": 37,
+					"left": 71,
+					"width": 11,
+					"height": 11,
+					"dataSource": "xCount",
+					"shortcutKey": "2",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable24.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable25": {
+					"type": "radio",
+					"top": 55,
+					"left": 91,
+					"width": 59,
+					"height": 12,
+					"dataSource": "s1",
+					"text": "Same / ",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable25.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable26": {
+					"type": "radio",
+					"top": 55,
+					"left": 146,
+					"width": 86,
+					"height": 12,
+					"dataSource": "s2",
+					"text": "New Process",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/Variable26.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 54,
+					"left": 23,
+					"width": 36,
+					"height": 12,
+					"dataSource": "vNo",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"textAlign": "left",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "#####0;-#####0;",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "dropdown",
+					"top": 36,
+					"left": 91,
+					"width": 141,
+					"height": 16,
+					"dataSource": "GEN_at_Identity",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Variable16.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable2": {
+					"type": "button",
+					"top": 30,
+					"left": 174,
+					"width": 79,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "Badd",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #83"
+					},
+					"text": "Add Category",
+					"class": "Default",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 77,
+					"left": 22,
+					"width": 152,
+					"height": 156,
+					"class": "Default",
+					"text": "This button has been removed because it was a difficult concept and sometimes had problems, however to avoid checking any code associated I have moved it to this UNUSED page of the form\r"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 172,
+					"left": 2,
+					"width": 252,
+					"height": 119,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels_OUTPUT",
+					"text": "Actions"
+				},
+				"Radio Button2": {
+					"type": "button",
+					"top": 267,
+					"left": 165,
+					"width": 85,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "Baction",
+					"text": "Do Action",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Radio Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable17": {
+					"type": "radio",
+					"top": 206,
+					"left": 31,
+					"width": 220,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "SM_RB_3",
+					"text": "Intersect list & Current Selection",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "radio",
+					"top": 236,
+					"left": 31,
+					"width": 220,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "SM_RB_4",
+					"text": "Remove Current Selection from list",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "radio",
+					"top": 251,
+					"left": 31,
+					"width": 220,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "SM_RB_5",
+					"text": "Remove list from Current Selection",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable19.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable20": {
+					"type": "radio",
+					"top": 221,
+					"left": 31,
+					"width": 220,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "SM_RB_2",
+					"text": "Unite list & Current Selection",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable20.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 191,
+					"left": 31,
+					"width": 220,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "SM_RB_1",
+					"text": "Save Current Selection to new list",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Radio Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 32,
+					"left": 165,
+					"width": 85,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "Badd",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #82"
+					},
+					"text": "Add List",
+					"class": "Default",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 121,
+					"left": 169,
+					"width": 78,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SM_MAKESETUNIVERSAL",
+					"text": "Share List",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 54,
+					"left": 165,
+					"width": 85,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "BloadList",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #81"
+					},
+					"text": "List from Set",
+					"class": "Default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDragOver",
+						"onPrintingDetail"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 76,
+					"left": 165,
+					"width": 85,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "BListtodisk",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #80"
+					},
+					"text": "Set from List",
+					"class": "Default",
+					"dropping": "custom",
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDrop",
+						"onDragOver",
+						"onPrintingDetail"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 98,
+					"left": 165,
+					"width": 85,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "BMacro",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #84"
+					},
+					"text": "List Rules",
+					"class": "Default",
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 140,
+					"left": 165,
+					"width": 85,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "BMacro",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Help text #74"
+					},
+					"text": "Delete List",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 269,
+					"left": 12,
+					"width": 126,
+					"height": 17,
+					"sizingY": "move",
+					"dataSource": "SM_SaveSelection",
+					"text": "Save Updated List",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Check Box2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 205,
+					"left": 8,
+					"width": 22,
+					"height": 15,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.pict"
+				},
+				"Picture7": {
+					"type": "picture",
+					"top": 235,
+					"left": 8,
+					"width": 22,
+					"height": 15,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture7.pict"
+				},
+				"Picture8": {
+					"type": "picture",
+					"top": 250,
+					"left": 8,
+					"width": 22,
+					"height": 15,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture8.pict"
+				},
+				"Picture9": {
+					"type": "picture",
+					"top": 220,
+					"left": 8,
+					"width": 22,
+					"height": 15,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture9.pict"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 190,
+					"left": 12,
+					"width": 15,
+					"height": 15,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 151,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

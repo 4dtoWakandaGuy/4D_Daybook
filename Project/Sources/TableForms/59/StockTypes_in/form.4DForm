@@ -1,0 +1,345 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oTypeNameLabel": {
+					"type": "text",
+					"top": 111,
+					"left": 11,
+					"width": 76,
+					"height": 15,
+					"stroke": "#600060",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Type Name :"
+				},
+				"oTypeCodeLabel": {
+					"type": "text",
+					"top": 91,
+					"left": 8,
+					"width": 79,
+					"height": 15,
+					"stroke": "#600060",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Type Code :"
+				},
+				"oStockTypeHeader": {
+					"type": "input",
+					"top": 47,
+					"left": 9,
+					"width": 514,
+					"height": 12,
+					"dataSource": "vTitleL",
+					"stroke": "#FFDFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTypeCode": {
+					"type": "input",
+					"top": 91,
+					"left": 94,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[STOCK_TYPES:59]Type_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oTypeCode.4dm"
+				},
+				"oTypeName": {
+					"type": "input",
+					"top": 111,
+					"left": 94,
+					"width": 420,
+					"height": 14,
+					"dataSource": "[STOCK_TYPES:59]Type_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oTypeName.4dm"
+				},
+				"oNoLocationsCB": {
+					"type": "checkbox",
+					"top": 139,
+					"left": 89,
+					"width": 420,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]No_Locations:3",
+					"text": "Ignore Locations",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ingore location"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUserOwnedCB": {
+					"type": "checkbox",
+					"top": 159,
+					"left": 89,
+					"width": 420,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]User_Owned:4",
+					"text": "Has an Asset Value (ie incl in Valuations)",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Prod Asset Valu"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oUserOwnedCB.4dm"
+				},
+				"oReOrderingCB": {
+					"type": "checkbox",
+					"top": 179,
+					"left": 89,
+					"width": 295,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]ReOrdering:5",
+					"text": "Include in Re-Ordering calculations",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Prod ReOrdering"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oReOrderingCB.4dm"
+				},
+				"oMInusWarningCB": {
+					"type": "checkbox",
+					"top": 200,
+					"left": 89,
+					"width": 350,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]Minus_Warning:7",
+					"text": "Warn if about to create negative Current Stock",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oMInusWarningCB.4dm"
+				},
+				"oAllocationAllowedCB": {
+					"type": "checkbox",
+					"top": 220,
+					"left": 89,
+					"width": 295,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]Allocation_Allowed:8",
+					"text": "Allow Allocation to Order Items",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oAllocationAllowedCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOrderItemAllocatedCB": {
+					"type": "checkbox",
+					"top": 240,
+					"left": 89,
+					"width": 295,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]Allocated:6",
+					"text": "Include in Order Items Allocated total",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oOrderItemAllocatedCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFilterOutCB": {
+					"type": "checkbox",
+					"top": 260,
+					"left": 89,
+					"width": 295,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]FilterOut:9",
+					"text": "Filter out of Current stock Calculations",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Filter Out"
+					},
+					"method": "ObjectMethods/oFilterOutCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSourceStockCB": {
+					"type": "checkbox",
+					"top": 282,
+					"left": 91,
+					"width": 295,
+					"height": 12,
+					"dataSource": "[STOCK_TYPES:59]Source_Stock:10",
+					"text": "is Source(supplier or other) stock",
+					"stroke": "#600060",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Filter Out"
+					},
+					"method": "ObjectMethods/oSourceStockCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 66
+}

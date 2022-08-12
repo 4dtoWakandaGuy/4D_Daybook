@@ -1,0 +1,531 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 49,
+	"markerBreak": 51,
+	"markerFooter": 51,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt",
+		"orientation": "landscape"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 734,
+					"height": 52,
+					"stroke": "#AAAAAA"
+				},
+				"Field5": {
+					"type": "input",
+					"top": 4,
+					"left": 6,
+					"width": 48,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Transaction_Date:5",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 4,
+					"left": 57,
+					"width": 57,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Transaction_Type_Code:1",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OTRANSININFO1": {
+					"type": "input",
+					"top": 4,
+					"left": 188,
+					"width": 199,
+					"height": 11,
+					"dataSource": "INV_T_ANALINFO",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"OTRANSININFO": {
+					"type": "input",
+					"top": 4,
+					"left": 393,
+					"width": 338,
+					"height": 11,
+					"dataSource": "INV_T_TRANS_INFO",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field10": {
+					"type": "input",
+					"top": 21,
+					"left": 6,
+					"width": 49,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Period_Code:11",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 21,
+					"left": 58,
+					"width": 122,
+					"height": 28,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Description:10",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 20,
+					"left": 185,
+					"width": 33,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Debit_Account:3",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field18": {
+					"type": "input",
+					"top": 20,
+					"left": 363,
+					"width": 22,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Debit_IO:15",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 20,
+					"left": 402,
+					"width": 33,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Credit_Account:12",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field19": {
+					"type": "input",
+					"top": 20,
+					"left": 580,
+					"width": 25,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Credit_IO:16",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 37,
+					"left": 395,
+					"width": 10,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Tax_Code:7",
+					"stroke": "#000000",
+					"class": "Labels",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field23": {
+					"type": "input",
+					"top": 37,
+					"left": 408,
+					"width": 36,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Currency_Code:19",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Cheque No"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 37,
+					"left": 445,
+					"width": 99,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Amount:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0.00",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field12": {
+					"type": "input",
+					"top": 37,
+					"left": 463,
+					"width": 10,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]UK_EC:18",
+					"stroke": "#000000",
+					"class": "Labels",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field13": {
+					"type": "input",
+					"top": 37,
+					"left": 545,
+					"width": 78,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Tax_Amount:8",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0.00",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field17": {
+					"type": "input",
+					"top": 37,
+					"left": 628,
+					"width": 100,
+					"height": 11,
+					"dataSource": "[TRANSACTION_BATCH_ITEMS:155]Total:9",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0.00",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 20,
+					"left": 219,
+					"width": 143,
+					"height": 11,
+					"dataSource": "vDAccName",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 20,
+					"left": 436,
+					"width": 143,
+					"height": 11,
+					"dataSource": "vCAccName",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 0,
+					"left": 56,
+					"width": 1,
+					"height": 53,
+					"stroke": "#EEEEEE",
+					"startPoint": "bottomLeft"
+				},
+				"Line1": {
+					"type": "line",
+					"top": -1,
+					"left": 179,
+					"width": 1,
+					"height": 53,
+					"stroke": "#EEEEEE",
+					"startPoint": "bottomLeft"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 18,
+					"left": 178,
+					"width": 558,
+					"stroke": "#EEEEEE"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 35,
+					"left": 179,
+					"width": 558,
+					"stroke": "#EEEEEE"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 18,
+					"left": 393,
+					"height": 17,
+					"stroke": "#EEEEEE"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

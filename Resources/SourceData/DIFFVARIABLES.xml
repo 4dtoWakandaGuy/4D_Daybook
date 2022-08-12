@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Var_Declarations_en xml:lang="en">
+<Variable_Delcarations>
+<Variable_type>Text
+<Variable_constant>2</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>t</Identifier>
+</Variable_type>
+<Variable_type>Text
+<Variable_constant>2</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>txt</Identifier>
+</Variable_type>
+<Variable_type>String
+<Variable_constant>24</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>S###</Identifier>
+</Variable_type>
+<Variable_type>Longint
+<Variable_constant>9</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>l</Identifier>
+</Variable_type>
+<Variable_type>Integer
+<Variable_constant>8</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>i</Identifier>
+</Variable_type>
+<Variable_type>Integer 64 bits
+<Variable_constant>25</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>i64</Identifier>
+</Variable_type>
+
+<Variable_type>Real
+<Variable_constant>1</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>r</Identifier>
+</Variable_type>
+<Variable_type>float
+<Variable_constant>35</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>fl</Identifier>
+</Variable_type>
+
+<Variable_type>Time
+<Variable_constant>11</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ti</Identifier>
+</Variable_type>
+<Variable_type>Date
+<Variable_constant>4</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>d</Identifier>
+</Variable_type>
+<Variable_type>Date
+<Variable_constant>4</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>dt</Identifier>
+</Variable_type>
+<Variable_type>Boolean
+<Variable_constant>6</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>b</Identifier>
+</Variable_type>
+<Variable_type>boolean
+<Variable_constant>6</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>bo</Identifier>
+</Variable_type>
+<Variable_type>Object
+<Variable_constant>38</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ob</Identifier>
+</Variable_type>
+<Variable_type>Object
+<Variable_constant>38</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>obj</Identifier>
+</Variable_type>
+<Variable_type>blob
+<Variable_constant>30</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>blb</Identifier>
+</Variable_type>
+<Variable_type>Picture
+<Variable_constant>3</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>pi</Identifier>
+</Variable_type>
+<Variable_type>Pointer
+<Variable_constant>23</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>p</Identifier>
+</Variable_type>
+<Variable_type>Pointer
+<Variable_constant>23</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ptr</Identifier>
+</Variable_type>
+<Variable_type>Array Text
+<Variable_constant>18</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>at</Identifier>
+</Variable_type>
+<Variable_type>Array Text
+<Variable_constant>18</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>atxt</Identifier>
+</Variable_type>
+<Variable_type>Array Text
+<Variable_constant>18</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDt</Identifier>
+</Variable_type>
+<Variable_type>Array Text
+<Variable_constant>18</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDtxt</Identifier>
+</Variable_type>
+
+<Variable_type>Array STRING
+<Variable_constant>21</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aS###</Identifier>
+</Variable_type>
+
+<Variable_type>Array Longint
+<Variable_constant>16</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>al</Identifier>
+</Variable_type>
+<Variable_type>Array Longint
+<Variable_constant>16</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDl</Identifier>
+</Variable_type>
+
+<Variable_type>Array Integer
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ai</Identifier>
+</Variable_type>
+<Variable_type>Array Integer
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDi</Identifier>
+</Variable_type>
+
+<Variable_type>Array Real
+<Variable_constant>14</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ar</Identifier>
+</Variable_type>
+<Variable_type>Array Real
+<Variable_constant>14</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDr</Identifier>
+</Variable_type>
+
+<Variable_type>Array boolean
+<Variable_constant>22</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ab</Identifier>
+</Variable_type>
+<Variable_type>Array boolean
+<Variable_constant>22</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDb</Identifier>
+</Variable_type>
+
+<Variable_type>Array boolean
+<Variable_constant>22</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>abo</Identifier>
+</Variable_type>
+<Variable_type>Array boolean
+<Variable_constant>22</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDbo</Identifier>
+</Variable_type>
+
+<Variable_type>Array Date
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aD</Identifier>
+</Variable_type>
+<Variable_type>Array Date
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDD</Identifier>
+</Variable_type>
+<Variable_type>Array Date
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDte</Identifier>
+</Variable_type>
+<Variable_type>Array Date
+<Variable_constant>17</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDDte</Identifier>
+</Variable_type>
+<Variable_type>Array Time
+<Variable_constant>32</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ati</Identifier>
+</Variable_type>
+<Variable_type>Array Time
+<Variable_constant>32</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDt</Identifier>
+</Variable_type>
+<Variable_type>Array Time
+<Variable_constant>32</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ati</Identifier>
+</Variable_type>
+<Variable_type>Array Time
+<Variable_constant>32</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDti</Identifier>
+</Variable_type>
+<Variable_type>Array Pointer
+<Variable_constant>20</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ap</Identifier>
+</Variable_type>
+<Variable_type>Array Longint
+<Variable_constant>16</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>al</Identifier>
+</Variable_type>
+<Variable_type>Array Longint
+<Variable_constant>16</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aDDl</Identifier>
+</Variable_type>
+<Variable_type>C_COLLECTION
+<Variable_constant>42</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>COL</Identifier>
+</Variable_type>
+
+<Variable_type>Array Picture
+<Variable_constant>19</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aPi</Identifier>
+</Variable_type>
+<Variable_type>Array Pointer
+<Variable_constant>20</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aPtr</Identifier>
+</Variable_type>
+<Variable_type>Array Object
+<Variable_constant>39</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>aobj</Identifier>
+</Variable_type>
+<Variable_type>array blob
+<Variable_constant>31</Variable_constant>
+<Declaration_location>MIDDLE</Declaration_location>
+<Locator>_</Locator>
+<Identifier>ablb</Identifier>
+</Variable_type>
+</Variable_Delcarations>
+</Var_Declarations_en>

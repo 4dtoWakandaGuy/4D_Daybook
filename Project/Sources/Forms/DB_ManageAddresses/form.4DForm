@@ -1,0 +1,183 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAddressOwnerLabel": {
+					"type": "text",
+					"top": 14,
+					"left": 15,
+					"width": 118,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Addresses for :"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 13,
+					"left": 140,
+					"width": 238,
+					"height": 15,
+					"dataSource": "Form:C1466.ContactName",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAddressLabel": {
+					"type": "text",
+					"top": 39,
+					"left": 10,
+					"width": 118,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Addresses :"
+				},
+				"oAddressSelection": {
+					"type": "listbox",
+					"top": 43,
+					"left": 142,
+					"width": 236,
+					"height": 150,
+					"resizingMode": "legacy",
+					"dataSource": "CON_lb_Addresses",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oAddressSelection.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 236,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oSelectedAddress": {
+					"type": "input",
+					"top": 48,
+					"left": 384,
+					"width": 232,
+					"height": 119,
+					"dataSource": "Form:C1466.selectedAddress",
+					"class": "Fields",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonDelete": {
+					"type": "button",
+					"top": 171,
+					"left": 507,
+					"width": 109,
+					"height": 22,
+					"dataSource": "CON_but_DeleteAddress",
+					"text": "Delete",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonDelete.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oExit": {
+					"type": "button",
+					"top": 214,
+					"left": 507,
+					"width": 109,
+					"height": 22,
+					"dataSource": "CON_but_Exit",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oExit.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"forms": {
+		"ListAll": {
+			"timeStamp": "2022-03-10T16:49:21.956Z",
+			"destination": "listScreen"
+		},
+		"MacroSelect": {
+			"timeStamp": "2022-03-10T16:49:21.958Z",
+			"destination": "detailScreen"
+		},
+		"Entry": {
+			"timeStamp": "2022-04-25T09:58:05.111Z",
+			"destination": "detailScreen"
+		},
+		"StaticTextBK": {
+			"timeStamp": "2022-04-10T11:42:06.177Z",
+			"destination": "detailScreen"
+		},
+		"Calculation": {
+			"timeStamp": "2022-04-10T11:42:06.165Z",
+			"destination": "detailScreen"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"forms": {
+		"StockLev_Out": {
+			"timeStamp": "2022-05-03T13:34:31.273Z",
+			"destination": "listScreen"
+		},
+		"StockLev_In": {
+			"timeStamp": "2022-04-29T05:51:24.851Z",
+			"destination": "detailScreen"
+		},
+		"dStockLev_Sel": {
+			"timeStamp": "2022-04-29T05:51:24.841Z"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-13T18:50:23.310Z",
+			"destination": "listScreen"
+		},
+		"StockLev_List": {
+			"timeStamp": "2022-05-03T15:05:26.441Z"
+		}
+	}
+}

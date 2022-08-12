@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"MoveType_In": {
+			"timeStamp": "2022-06-02T09:10:10.233Z",
+			"destination": "detailScreen"
+		},
+		"MoveTypes_Out": {
+			"timeStamp": "2022-03-10T16:49:21.287Z",
+			"destination": "listScreen"
+		}
+	}
+}

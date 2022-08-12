@@ -1,0 +1,189 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 46,
+	"markerBreak": 46,
+	"markerFooter": 55,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oOtherCodeLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Order Code :"
+				},
+				"oOrderCode": {
+					"type": "input",
+					"top": 18,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_OrderCode",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oRequiredDateLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 275,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Required Date :"
+				},
+				"oRequiredDate": {
+					"type": "input",
+					"top": 18,
+					"left": 367,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_OrderReqDateString",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDeliveryMethodLabel": {
+					"type": "text",
+					"top": 31,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Delivery Method :"
+				},
+				"oDeliveryMethod": {
+					"type": "input",
+					"top": 32,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_DeliveryMethod",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oShippingAgentlabel": {
+					"type": "text",
+					"top": 31,
+					"left": 275,
+					"width": 89,
+					"height": 14,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Shipping agent :"
+				},
+				"oShippingAgent": {
+					"type": "input",
+					"top": 32,
+					"left": 367,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_Shipper",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 12,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

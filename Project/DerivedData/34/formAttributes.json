@@ -1,0 +1,44 @@
+{
+	"forms": {
+		"VAT_Return": {
+			"timeStamp": "2022-04-16T18:49:57.528Z"
+		},
+		"AccBal_In": {
+			"timeStamp": "2022-04-26T12:13:09.804Z",
+			"destination": "detailScreen"
+		},
+		"PL_Detail": {
+			"timeStamp": "2022-03-11T12:07:05.352Z",
+			"destination": "listPrinter"
+		},
+		"Budgets_Out": {
+			"timeStamp": "2022-03-11T08:20:17.674Z",
+			"destination": "listScreen"
+		},
+		"dACC_BalSelect": {
+			"timeStamp": "2022-04-15T16:45:38.913Z"
+		},
+		"PL_Header": {
+			"timeStamp": "2022-03-11T12:07:23.869Z",
+			"destination": "listPrinter"
+		},
+		"dAsk_Bud": {
+			"timeStamp": "2022-04-16T16:19:21.984Z"
+		},
+		"AccBal_Out": {
+			"timeStamp": "2022-03-11T08:20:16.886Z",
+			"destination": "listScreen"
+		},
+		"dCurrConv": {
+			"timeStamp": "2022-04-16T17:19:49.776Z"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.114Z",
+			"destination": "listScreen"
+		},
+		"dCurrConv1": {
+			"timeStamp": "2022-03-10T16:49:20.152Z",
+			"destination": "detailScreen"
+		}
+	}
+}

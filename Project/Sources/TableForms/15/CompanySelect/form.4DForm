@@ -1,0 +1,277 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 223,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAddressVariable": {
+					"type": "input",
+					"top": 30,
+					"left": 230,
+					"width": 206,
+					"height": 157,
+					"sizingX": "move",
+					"dataSource": "DB_t_Address",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oNewTwo": {
+					"type": "button",
+					"top": 164,
+					"left": 121,
+					"width": 98,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BnewRecord",
+					"shortcutKey": "[Enter]",
+					"text": "New Company",
+					"class": "BUttons_SMALL",
+					"defaultButton": true,
+					"method": "ObjectMethods/oNewTwo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonSelectOne": {
+					"type": "button",
+					"top": 164,
+					"left": 4,
+					"width": 107,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BSelectCompany",
+					"text": "Select Company",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonSelectOne.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPIOpenClosed": {
+					"type": "input",
+					"top": 6,
+					"left": 191,
+					"width": 26,
+					"height": 17,
+					"dataSource": "DB_Pi_OpenClosed",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "scaled",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oPIOpenClosed.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonNewOne": {
+					"type": "button",
+					"top": 165,
+					"left": 121,
+					"width": 98,
+					"height": 23,
+					"sizingY": "move",
+					"dataSource": "BnewRecord",
+					"shortcutKey": "[Return]",
+					"text": "New Company",
+					"display": false,
+					"method": "ObjectMethods/oButtonNewOne.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCompanySelectMessage": {
+					"type": "text",
+					"top": 1,
+					"left": 1,
+					"width": 187,
+					"height": 26,
+					"class": "Field_INFOS",
+					"textAlign": "center",
+					"text": "This company may already exist, if it appears below please select it."
+				},
+				"oIncludeCheckBox": {
+					"type": "checkbox",
+					"top": 146,
+					"left": 6,
+					"width": 213,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "CB_DedupIncludeDeleted",
+					"text": "Include Deleted Companies",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oIncludeCheckBox.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBCompanyNames": {
+					"type": "listbox",
+					"top": 30,
+					"left": 4,
+					"width": 217,
+					"height": 111,
+					"resizingMode": "legacy",
+					"dataSource": "CO_lb_SelectCompany",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBCompanyNames.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "SD_at_CompanyNames",
+							"width": 202,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 3,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

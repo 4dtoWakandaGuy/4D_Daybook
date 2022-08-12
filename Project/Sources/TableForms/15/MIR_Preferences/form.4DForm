@@ -1,0 +1,1083 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oMIR_Tab": {
+					"type": "tab",
+					"top": 10,
+					"left": 10,
+					"width": 451,
+					"height": 302,
+					"dataSource": "MIR_at_TAB",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Mirrors",
+						"Scheduling",
+						"Error Handling",
+						"Backup"
+					],
+					"class": "Labels",
+					"fontWeight": "bold",
+					"action": "gotoPage",
+					"method": "ObjectMethods/oMIR_Tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 318,
+					"left": 368,
+					"width": 80,
+					"height": 22,
+					"dataSource": "MIR_bOK",
+					"action": "accept",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 317,
+					"left": 283,
+					"width": 80,
+					"height": 22,
+					"dataSource": "MIR_bCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMirrorStatus": {
+					"type": "input",
+					"top": 325,
+					"left": 15,
+					"width": 259,
+					"height": 13,
+					"dataSource": "MIR_t_Message",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLaunchMirrorProcessCB": {
+					"type": "checkbox",
+					"top": 294,
+					"left": 10,
+					"width": 191,
+					"height": 23,
+					"dataSource": "MIR_ckLaunchProcess",
+					"text": "Launch Mirror Process",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oLaunchMirrorProcessCB.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oMirrorLabel": {
+					"type": "text",
+					"top": 78,
+					"left": 16,
+					"width": 170,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Mirrored Database Name :"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 78,
+					"left": 194,
+					"width": 211,
+					"height": 15,
+					"dataSource": "<>MIR_t_DatabaseName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oMIR_bAddMirror": {
+					"type": "button",
+					"top": 108,
+					"left": 413,
+					"width": 36,
+					"height": 19,
+					"dataSource": "MIR_bAddMirror",
+					"text": "+",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oMIR_bAddMirror.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMIR_bDeleteMirror": {
+					"type": "button",
+					"top": 128,
+					"left": 413,
+					"width": 36,
+					"height": 19,
+					"dataSource": "MIR_bDeleteMirror",
+					"text": "-",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oMIR_bDeleteMirror.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"MiIR_af_ServerNames": {
+					"type": "listbox",
+					"top": 108,
+					"left": 194,
+					"width": 210,
+					"height": 80,
+					"resizingMode": "legacy",
+					"dataSource": "MIR_lb_Servers",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/MiIR_af_ServerNames.4dm",
+					"columns": [
+						{
+							"name": "oMIR_atServers",
+							"dataSource": "MIR_at_Servers",
+							"width": 195,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDoubleClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/oMIR_atServers.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "oMIR_Header",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oIPAddressLabel": {
+					"type": "text",
+					"top": 108,
+					"left": 34,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "DNS or IP Address(es) :"
+				},
+				"oPublishHeading": {
+					"type": "text",
+					"top": 49,
+					"left": 25,
+					"width": 416,
+					"height": 12,
+					"class": "Headers",
+					"text": "Publish ....................................................................................................................................."
+				},
+				"oLogTransferredLabel": {
+					"type": "text",
+					"top": 266,
+					"left": 64,
+					"width": 120,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Last log tranfered :"
+				},
+				"oThisServerTypeLabel": {
+					"type": "text",
+					"top": 237,
+					"left": 79,
+					"width": 105,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "This server type :"
+				},
+				"oInformationHeading": {
+					"type": "text",
+					"top": 208,
+					"left": 25,
+					"width": 416,
+					"height": 12,
+					"class": "Headers",
+					"text": "Information ....................................................................................................................................."
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 266,
+					"left": 194,
+					"width": 246,
+					"height": 15,
+					"dataSource": "<>MIR_t_LastLogNumber",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onBeforeKeystroke"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 237,
+					"left": 194,
+					"width": 106,
+					"height": 15,
+					"dataSource": "<>MIT_t_ServerType",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onBeforeKeystroke"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oModePopUp": {
+					"type": "dropdown",
+					"top": 74,
+					"left": 194,
+					"width": 160,
+					"height": 19,
+					"dataSource": "MIR_at_Mode",
+					"choiceList": [
+						"Off",
+						"Time Only",
+						"Time & Interval",
+						"Interval Only"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oModePopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_Time_atHr": {
+					"type": "dropdown",
+					"top": 103,
+					"left": 194,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_TimeHr",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"05",
+						"06",
+						"07",
+						"08",
+						"09",
+						"10",
+						"11",
+						"12",
+						"13",
+						"14",
+						"15",
+						"16",
+						"17",
+						"18",
+						"19",
+						"20",
+						"21",
+						"22",
+						"23",
+						""
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_Time_atHr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMirrorIntervalLabel": {
+					"type": "text",
+					"top": 135,
+					"left": 40,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Mirroring Interval :"
+				},
+				"oMIR_TimeMin": {
+					"type": "text",
+					"top": 105,
+					"left": 265,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Min"
+				},
+				"oMIR_Time_atMin": {
+					"type": "dropdown",
+					"top": 103,
+					"left": 290,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_TimeMin",
+					"choiceList": [
+						"00",
+						"05",
+						"10",
+						"15",
+						"20",
+						"25",
+						"30",
+						"35",
+						"40",
+						"45",
+						"50",
+						"55"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_Time_atMin.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_Interval_atHr": {
+					"type": "dropdown",
+					"top": 133,
+					"left": 194,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_Hr",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"06",
+						"08",
+						"12"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_Interval_atHr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_Interval_atMin": {
+					"type": "dropdown",
+					"top": 133,
+					"left": 290,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_Min",
+					"choiceList": [
+						"00",
+						"02",
+						"05",
+						"10",
+						"15",
+						"20",
+						"30",
+						"45"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_Interval_atMin.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_IntervalMin": {
+					"type": "text",
+					"top": 135,
+					"left": 265,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Min"
+				},
+				"oSchedulingModeLabel": {
+					"type": "text",
+					"top": 77,
+					"left": 40,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Scheduling Mode :"
+				},
+				"oSchedulingTimeLabel": {
+					"type": "text",
+					"top": 106,
+					"left": 40,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Schedule Time :"
+				},
+				"oMIR_TimeHr": {
+					"type": "text",
+					"top": 106,
+					"left": 172,
+					"width": 21,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Hr"
+				},
+				"oMIR_IntervalHr": {
+					"type": "text",
+					"top": 135,
+					"left": 172,
+					"width": 21,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Hr"
+				},
+				"oSchedulingInformation": {
+					"type": "text",
+					"top": 48,
+					"left": 25,
+					"width": 416,
+					"height": 12,
+					"class": "Headers",
+					"text": "Scheduling "
+				},
+				"oMIR_atTransactionMin": {
+					"type": "dropdown",
+					"top": 196,
+					"left": 194,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_TransactionMin",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"05",
+						"06",
+						"07",
+						"08",
+						"09",
+						"10",
+						""
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_atTransactionMin.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_atTransactionSec": {
+					"type": "dropdown",
+					"top": 196,
+					"left": 290,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_TransactionSec",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"05",
+						"06",
+						"07",
+						"08",
+						"09",
+						"10",
+						"15",
+						"20",
+						"25",
+						"30",
+						"35",
+						"40",
+						"45",
+						"50",
+						"55"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_atTransactionSec.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 227,
+					"left": 194,
+					"width": 53,
+					"height": 15,
+					"dataSource": "<>MIR_l_TransactionRetries",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oNumberRetriesLabel": {
+					"type": "text",
+					"top": 227,
+					"left": 31,
+					"width": 133,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of Retries :"
+				},
+				"oMIR_TransactionSec": {
+					"type": "text",
+					"top": 198,
+					"left": 263,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Sec"
+				},
+				"oWaitTransactionsLabel": {
+					"type": "text",
+					"top": 198,
+					"left": 31,
+					"width": 133,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Wait For Critical Task :"
+				},
+				"oMIR_TransactionMin": {
+					"type": "text",
+					"top": 198,
+					"left": 169,
+					"width": 24,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Min"
+				},
+				"oTaskHandlingInformation": {
+					"type": "text",
+					"top": 169,
+					"left": 25,
+					"width": 415,
+					"height": 12,
+					"class": "Headers",
+					"text": "Critical Task Handling (Transactions or Indexing) "
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSMTPServer": {
+					"type": "text",
+					"top": 78,
+					"left": 15,
+					"width": 170,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "SMTP Server :"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 78,
+					"left": 194,
+					"width": 151,
+					"height": 15,
+					"dataSource": "<>MIR_t_SMTPServer",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 107,
+					"left": 194,
+					"width": 151,
+					"height": 15,
+					"dataSource": "<>MIR_t_ErrorEMailAccount",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oMirAuthDropDown": {
+					"type": "dropdown",
+					"top": 135,
+					"left": 193,
+					"width": 92,
+					"height": 19,
+					"dataSource": "MIR_at_Authentication",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMirAuthDropDown.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oEmailingLabel": {
+					"type": "text",
+					"top": 107,
+					"left": 15,
+					"width": 170,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "E-Mail Messages To :"
+				},
+				"oAuthLabel": {
+					"type": "text",
+					"top": 137,
+					"left": 15,
+					"width": 170,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Authentication Required :"
+				},
+				"oUserNameLabel": {
+					"type": "text",
+					"top": 167,
+					"left": 64,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "User Name :"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 167,
+					"left": 194,
+					"width": 151,
+					"height": 15,
+					"dataSource": "<>MIR_t_AuthenticationUserName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPasswordLabel": {
+					"type": "text",
+					"top": 197,
+					"left": 64,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password :"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 197,
+					"left": 194,
+					"width": 151,
+					"height": 15,
+					"dataSource": "<>MIR_t_AuthenticationPassword",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oMinDiskSizeLabel": {
+					"type": "text",
+					"top": 227,
+					"left": 10,
+					"width": 255,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Minimum Disk Space Notification Size MB:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 227,
+					"left": 276,
+					"width": 68,
+					"height": 15,
+					"dataSource": "<>MiR_l_MinimumDiskFreeSpace",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oErrorHandlingInformation": {
+					"type": "text",
+					"top": 49,
+					"left": 25,
+					"width": 415,
+					"height": 12,
+					"class": "Headers",
+					"text": "Mirror Error Message Settings"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oMIR_BackupInterval": {
+					"type": "text",
+					"top": 136,
+					"left": 12,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Backup Interval :"
+				},
+				"oBackScheduleMode": {
+					"type": "text",
+					"top": 78,
+					"left": 12,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Backup Scheduling Mode :"
+				},
+				"Popup Drop down List3": {
+					"type": "dropdown",
+					"top": 76,
+					"left": 194,
+					"width": 224,
+					"height": 19,
+					"dataSource": "MIR_at_BackupMode",
+					"choiceList": [
+						"Use Mirror Machine Scheduler",
+						"via Main Server Time",
+						"via Main Server Time & Interval",
+						"via Main Server Interval"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Popup Drop down List3.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_BackupTime_atHr1": {
+					"type": "dropdown",
+					"top": 103,
+					"left": 194,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_BackupTimeHr",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"05",
+						"06",
+						"07",
+						"08",
+						"09",
+						"10",
+						"11",
+						"12",
+						"13",
+						"14",
+						"15",
+						"16",
+						"17",
+						"18",
+						"19",
+						"20",
+						"21",
+						"22",
+						"23",
+						""
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_BackupTime_atHr1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_BackupTime_atMin": {
+					"type": "dropdown",
+					"top": 103,
+					"left": 290,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_BackupTimeMin",
+					"choiceList": [
+						"00",
+						"05",
+						"10",
+						"15",
+						"20",
+						"25",
+						"30",
+						"35",
+						"40",
+						"45",
+						"50",
+						"55"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_BackupTime_atMin.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMiR_BackupInterval_atHr": {
+					"type": "dropdown",
+					"top": 133,
+					"left": 194,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_BackupHr",
+					"choiceList": [
+						"00",
+						"01",
+						"02",
+						"03",
+						"04",
+						"06",
+						"08",
+						"12"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMiR_BackupInterval_atHr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_BackupInterval_atMin": {
+					"type": "dropdown",
+					"top": 133,
+					"left": 290,
+					"width": 64,
+					"height": 19,
+					"dataSource": "MIR_at_BackupMin",
+					"choiceList": [
+						"00",
+						"05",
+						"10",
+						"15",
+						"20",
+						"30",
+						"45"
+					],
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMIR_BackupInterval_atMin.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oMIR_BackupTimeSechedule": {
+					"type": "text",
+					"top": 107,
+					"left": 12,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Backup Schedule Time :"
+				},
+				"oBackupInformation": {
+					"type": "text",
+					"top": 49,
+					"left": 25,
+					"width": 416,
+					"height": 12,
+					"class": "Headers",
+					"text": "Backup Scheduling on Mirror Machine(s)"
+				},
+				"oMIR_BackupTimeMin": {
+					"type": "text",
+					"top": 105,
+					"left": 265,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Min"
+				},
+				"oMIR_BackupTimeHr": {
+					"type": "text",
+					"top": 106,
+					"left": 172,
+					"width": 21,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Hr"
+				},
+				"oMIR_BackupIntervalMin": {
+					"type": "text",
+					"top": 135,
+					"left": 265,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Min"
+				},
+				"oMIR_BackupIntervalHr": {
+					"type": "text",
+					"top": 135,
+					"left": 172,
+					"width": 21,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Hr"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

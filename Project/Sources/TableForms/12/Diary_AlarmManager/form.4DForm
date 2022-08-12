@@ -1,0 +1,342 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 185,
+					"left": 22,
+					"width": 74,
+					"height": 30,
+					"class": "Labels",
+					"text": "Snooze...."
+				},
+				"Text1": {
+					"type": "text",
+					"top": 29,
+					"left": 37,
+					"width": 96,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Diary Action :"
+				},
+				"field143": {
+					"type": "input",
+					"top": 28,
+					"left": 134,
+					"width": 67,
+					"height": 15,
+					"dataSource": "[DIARY:12]Action_Code:9",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable150": {
+					"type": "input",
+					"top": 29,
+					"left": 204,
+					"width": 99,
+					"height": 14,
+					"dataSource": "DOC_t_ActionName",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 9,
+					"left": 18,
+					"width": 242,
+					"height": 12,
+					"class": "Print_10pt_GENEVA_ITALIC",
+					"fontStyle": "italic",
+					"text": "The Following item is coming up in your diary...."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 54,
+					"left": 37,
+					"width": 96,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time :"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 54,
+					"left": 135,
+					"width": 70,
+					"height": 15,
+					"dataSource": "[DIARY:12]Time_Do_From:6",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"field144": {
+					"type": "input",
+					"top": 75,
+					"left": 136,
+					"width": 203,
+					"height": 102,
+					"dataSource": "[DIARY:12]Action_Details:10",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 75,
+					"left": 37,
+					"width": 96,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description :"
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 190,
+					"left": 280,
+					"width": 101,
+					"height": 22,
+					"dataSource": "BGoto",
+					"shortcutKey": "[Return]",
+					"text": "Show Diary",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 190,
+					"left": 98,
+					"width": 81,
+					"height": 22,
+					"dataSource": "BPostpone",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Snooze",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 199,
+					"left": 26,
+					"width": 20,
+					"height": 12,
+					"dataSource": "SD_l_alarmPostpone",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 199,
+					"left": 50,
+					"width": 41,
+					"height": 12,
+					"class": "Default",
+					"text": "Minutes"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 190,
+					"left": 191,
+					"width": 81,
+					"height": 22,
+					"dataSource": "Bdismiss",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"text": "Dismiss",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 190,
+					"left": 98,
+					"width": 81,
+					"height": 22,
+					"dataSource": "BPostpone",
+					"shortcutKey": "[Esc]",
+					"text": "Snooze",
+					"display": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 189,
+					"left": 279,
+					"width": 101,
+					"height": 22,
+					"dataSource": "BGoto",
+					"shortcutKey": "[Enter]",
+					"text": "Show Diary",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

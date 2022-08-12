@@ -1,0 +1,121 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 19,
+	"markerBody": 43,
+	"markerBreak": 46,
+	"markerFooter": 46,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture2": {
+					"type": "picture",
+					"top": -5,
+					"left": 0,
+					"width": 129,
+					"height": 24,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 24,
+					"width": 89,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Archive_UUID : "
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 19,
+					"left": 0,
+					"width": 129,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 24,
+					"width": 89,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[SF_ARCHIVE_ADDRESS:165]Archive_UUID:17",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line4": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Line5": {
+					"type": "line",
+					"top": -5,
+					"left": 129,
+					"height": 48,
+					"sizingX": "move",
+					"stroke": "#A8A8A8"
+				}
+			}
+		}
+	]
+}

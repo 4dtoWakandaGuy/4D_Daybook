@@ -1,0 +1,29 @@
+#!/bin/sh
+if [ ! -a /usr ]; then
+mkdir /usr
+chmod 755 /usr
+fi
+if [ ! -a /usr/local ]; then
+mkdir /usr/local
+chmod 755 /usr/local
+fi
+if [ ! -a /usr/local/bin ]; then
+mkdir /usr/local/bin
+chmod 755 /usr/local/bin
+fi
+
+if [ -a $2/bin/pdftk ]; then
+if [ -a /usr/local/bin/pdftk ]; then
+rm /usr/local/bin/pdftk
+fi
+ln -s $2/bin/pdftk /usr/local/bin/pdftk
+fi
+
+if [ -a $2/man/pdftk.1 ]; then
+if [ -a /usr/share/man/man1/pdftk.1 ]; then
+rm /usr/share/man/man1/pdftk.1
+fi
+ln -s $2/man/pdftk.1 /usr/share/man/man1/pdftk.1
+fi
+
+exit 0

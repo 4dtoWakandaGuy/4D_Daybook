@@ -1,0 +1,100 @@
+{
+	"destination": "detailScreen",
+	"width": 500,
+	"height": 200,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onOutsideCall",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Subform1": {
+					"type": "subform",
+					"top": 28,
+					"left": 18,
+					"width": 462,
+					"height": 154,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Subform1",
+					"dataSourceTypeHint": "text",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "solid"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 2,
+					"left": 509,
+					"width": 100,
+					"height": 33,
+					"sizingX": "move",
+					"dataSource": "Button",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "a Button",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 7,
+					"left": 10,
+					"width": 301,
+					"height": 16,
+					"text": "SCANNING FORMS...."
+				},
+				"Invisible Button": {
+					"type": "button",
+					"top": 23,
+					"left": 11,
+					"width": 475,
+					"height": 164,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Invisible Button",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

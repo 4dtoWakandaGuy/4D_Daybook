@@ -1,0 +1,181 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"o_t_ErrorDebugLog": {
+					"type": "input",
+					"top": 33,
+					"left": 13,
+					"width": 457,
+					"height": 423,
+					"dataSource": "<>t_ErrorDebugLog",
+					"fontFamily": "System Font Regular",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPauseButton": {
+					"type": "button",
+					"top": 4,
+					"left": 14,
+					"width": 61,
+					"height": 21,
+					"dataSource": "b_ErrorDebugPause",
+					"text": "Pause",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oPauseButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 68,
+					"left": 204,
+					"width": 138,
+					"height": 58,
+					"dataSource": "b_ErrorDebugCancel",
+					"action": "cancel",
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oClearButton": {
+					"type": "button",
+					"top": 4,
+					"left": 89,
+					"width": 61,
+					"height": 21,
+					"dataSource": "b_ErrorDebugStop",
+					"text": "Stop",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oClearButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLogButton1": {
+					"type": "button",
+					"top": 5,
+					"left": 164,
+					"width": 104,
+					"height": 21,
+					"dataSource": "b_ErrorDebugWrite",
+					"text": "Write to log file",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oLogButton1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNOLogButton": {
+					"type": "button",
+					"top": 4,
+					"left": 276,
+					"width": 128,
+					"height": 21,
+					"dataSource": "b_ErrorDebugNoWrite",
+					"text": "Stop Writing to log file",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oNOLogButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

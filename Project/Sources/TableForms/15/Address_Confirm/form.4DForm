@@ -1,0 +1,541 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oButtonAcceptAddressReturn": {
+					"type": "button",
+					"top": 189,
+					"left": 245,
+					"width": 106,
+					"height": 22,
+					"dataSource": "BOK",
+					"action": "cancel",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonAcceptAddressReturn.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelAddressESC": {
+					"type": "button",
+					"top": 189,
+					"left": 132,
+					"width": 106,
+					"height": 22,
+					"dataSource": "BCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCancelAddressESC.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressMessageHeader": {
+					"type": "input",
+					"top": 6,
+					"left": 14,
+					"width": 301,
+					"height": 12,
+					"dataSource": "LAB_AddressMESSAGE",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAcceptAddressEnter": {
+					"type": "button",
+					"top": 190,
+					"left": 245,
+					"width": 106,
+					"height": 22,
+					"dataSource": "BOK",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oButtonAcceptAddressEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancelAddress": {
+					"type": "button",
+					"top": 189,
+					"left": 132,
+					"width": 106,
+					"height": 22,
+					"dataSource": "BCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oButtonCancelAddress.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			},
+			"entryOrder": [
+				"oButtonAcceptAddressReturn",
+				"oButtonCancelAddressESC",
+				"oAddressMessageHeader"
+			]
+		},
+		{
+			"objects": {
+				"oAddressLine1Label": {
+					"type": "text",
+					"top": 58,
+					"left": 14,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Address Line 1 :\r"
+				},
+				"oAddressLine2Label": {
+					"type": "text",
+					"top": 73,
+					"left": 12,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Address Line 2 :\r"
+				},
+				"oTownLabel": {
+					"type": "text",
+					"top": 88,
+					"left": 11,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Town :\r"
+				},
+				"oCountyLabel": {
+					"type": "text",
+					"top": 103,
+					"left": 10,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "County :\r"
+				},
+				"oPostCodeLabel": {
+					"type": "text",
+					"top": 118,
+					"left": 11,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Post Code :\r"
+				},
+				"oCountryLabel": {
+					"type": "text",
+					"top": 134,
+					"left": 11,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Country :\r"
+				},
+				"oPersonLabel": {
+					"type": "text",
+					"top": 28,
+					"left": 13,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Person :"
+				},
+				"oCompanyLabel": {
+					"type": "text",
+					"top": 43,
+					"left": 12,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Company :"
+				},
+				"oPersonName": {
+					"type": "input",
+					"top": 28,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_PersonName",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oPersonName.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCompanyName": {
+					"type": "input",
+					"top": 43,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_CompanyName",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oCompanyName.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressLine1": {
+					"type": "input",
+					"top": 58,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressLine1",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressLine1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressLine2": {
+					"type": "input",
+					"top": 73,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressLine2",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressLine2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressTown": {
+					"type": "input",
+					"top": 88,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressTown",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressTown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressCounty": {
+					"type": "input",
+					"top": 103,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressCounty",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressCounty.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressPostCode": {
+					"type": "input",
+					"top": 118,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressPostCode",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressPostCode.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressPostCountry": {
+					"type": "input",
+					"top": 134,
+					"left": 149,
+					"width": 157,
+					"height": 12,
+					"dataSource": "LAB_t_AddressPostCountry",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oAddressPostCountry.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonShowFormatted": {
+					"type": "button",
+					"top": 150,
+					"left": 192,
+					"width": 117,
+					"height": 22,
+					"dataSource": "BShowFormatted",
+					"text": "Show Formatted",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonShowFormatted.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oAddressLabel": {
+					"type": "text",
+					"top": 28,
+					"left": 14,
+					"width": 130,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Address :"
+				},
+				"oAddress": {
+					"type": "input",
+					"top": 26,
+					"left": 148,
+					"width": 157,
+					"height": 120,
+					"dataSource": "LAB_T_ADDRESS",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonShowUnformatted": {
+					"type": "button",
+					"top": 150,
+					"left": 192,
+					"width": 117,
+					"height": 22,
+					"dataSource": "BShowUnformatted",
+					"text": "Show un-Formatted",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonShowUnformatted.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 86,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

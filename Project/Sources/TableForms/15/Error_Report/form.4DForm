@@ -1,0 +1,629 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 420,
+	"height": 550,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 2,
+	"markerBody": 505,
+	"markerBreak": 555,
+	"markerFooter": 555,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oButSubmit3": {
+					"type": "button",
+					"top": 158,
+					"left": 289,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButSubmit",
+					"shortcutKey": "[Return]",
+					"text": "Submit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButSubmit3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oerr_INFO1": {
+					"type": "input",
+					"top": 15,
+					"left": 16,
+					"width": 381,
+					"height": 116,
+					"dataSource": "Err_T_InfoText",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButSubmit2": {
+					"type": "button",
+					"top": 192,
+					"left": 289,
+					"width": 101,
+					"height": 1,
+					"dataSource": "Err_ButSubmit",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"method": "ObjectMethods/oButSubmit2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButMore": {
+					"type": "button",
+					"top": 159,
+					"left": 8,
+					"width": 132,
+					"height": 22,
+					"dataSource": "Err_ButMore",
+					"shortcutKey": "m",
+					"shortcutAccel": true,
+					"text": "More Detail",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButMore.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 129,
+					"left": 10,
+					"width": 282,
+					"height": 26,
+					"class": "Field_INFOS",
+					"text": "All errors are sent to Daybook as part of our commitment to providing a quality product to our clients"
+				},
+				"oButCancel2": {
+					"type": "button",
+					"top": 158,
+					"left": 175,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButCancel2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"baddScreenshot": {
+					"type": "button",
+					"top": 133,
+					"left": 305,
+					"width": 98,
+					"height": 15,
+					"dataSource": "ERR_butScreenshot",
+					"text": "Add Screenshot",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/baddScreenshot.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oerr_Detail": {
+					"type": "input",
+					"top": 197,
+					"left": 11,
+					"width": 378,
+					"height": 133,
+					"dataSource": "Err_T_DetailText",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 162,
+					"left": 10,
+					"width": 330,
+					"height": 24,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "center",
+					"text": "The following additional information will help us identify the cause of this problem."
+				},
+				"oerr_Detail1": {
+					"type": "input",
+					"top": 374,
+					"left": 11,
+					"width": 378,
+					"height": 101,
+					"dataSource": "Err_T_UserText",
+					"stroke": "#000000",
+					"class": "Fields_BOLD",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 333,
+					"left": 14,
+					"width": 258,
+					"height": 27,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "center",
+					"text": "Please add any additional information you would like us to know about this problem"
+				},
+				"oButSubmit": {
+					"type": "button",
+					"top": 511,
+					"left": 309,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButSubmit",
+					"shortcutKey": "[Return]",
+					"text": "Submit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButSubmit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButCancel": {
+					"type": "button",
+					"top": 511,
+					"left": 202,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButPrint": {
+					"type": "button",
+					"top": 511,
+					"left": 19,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButPrint",
+					"shortcutKey": "p",
+					"shortcutAccel": true,
+					"text": "Print",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButPrint.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oerr_INFO2": {
+					"type": "input",
+					"top": 15,
+					"left": 16,
+					"width": 381,
+					"height": 137,
+					"dataSource": "Err_T_InfoText",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oaddAttachments2": {
+					"type": "button",
+					"top": 480,
+					"left": 291,
+					"width": 116,
+					"height": 22,
+					"dataSource": "Err_ButAtachments",
+					"shortcutKey": "e",
+					"shortcutAccel": true,
+					"text": "Attach Documents",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oaddAttachments2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oaddAttachments3": {
+					"type": "button",
+					"top": 481,
+					"left": 292,
+					"width": 114,
+					"height": 23,
+					"dataSource": "Err_ButAtachments",
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"method": "ObjectMethods/oaddAttachments3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAttachPrompt": {
+					"type": "text",
+					"top": 485,
+					"left": 9,
+					"width": 282,
+					"height": 16,
+					"class": "Field_INFOS",
+					"text": "You may wish to attach a screenshot to this problem"
+				},
+				"oListofattachments": {
+					"type": "dropdown",
+					"top": 485,
+					"left": 77,
+					"width": 207,
+					"height": 16,
+					"dataSource": "Err_at_aAttachements",
+					"class": "Fields",
+					"method": "ObjectMethods/oListofattachments.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAttachLabel": {
+					"type": "text",
+					"top": 495,
+					"left": 8,
+					"width": 64,
+					"height": 16,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "Attachments"
+				},
+				"oButSubmit4": {
+					"type": "button",
+					"top": 511,
+					"left": 309,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButSubmit",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"method": "ObjectMethods/oButSubmit4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"baddScreenshot2": {
+					"type": "button",
+					"top": 344,
+					"left": 313,
+					"width": 98,
+					"height": 15,
+					"dataSource": "ERR_butScreenshot",
+					"text": "Add Screenshot",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/baddScreenshot2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"oerr_Detail",
+				"oerr_Detail1",
+				"oButSubmit",
+				"oButCancel",
+				"oButPrint",
+				"oerr_INFO2",
+				"oaddAttachments2",
+				"oListofattachments",
+				"baddScreenshot2"
+			]
+		},
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 13,
+					"left": 19,
+					"width": 387,
+					"height": 24,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "left",
+					"text": "The following Information will assist us in looking at your report"
+				},
+				"oerr_Detail3": {
+					"type": "input",
+					"top": 216,
+					"left": 9,
+					"width": 366,
+					"height": 236,
+					"dataSource": "Err_T_UserText",
+					"stroke": "#000000",
+					"class": "Fields_BOLD",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 191,
+					"left": 4,
+					"width": 391,
+					"height": 24,
+					"stroke": "#000000",
+					"class": "Headers",
+					"textAlign": "left",
+					"text": "Enter the details of the issue you would like to report"
+				},
+				"oButSubmit1": {
+					"type": "button",
+					"top": 511,
+					"left": 309,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButSubmit",
+					"shortcutKey": "[Return]",
+					"text": "Submit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButSubmit1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButCancel1": {
+					"type": "button",
+					"top": 511,
+					"left": 202,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButCancel1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButPrint1": {
+					"type": "button",
+					"top": 511,
+					"left": 19,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Err_ButPrint",
+					"shortcutKey": "p",
+					"shortcutAccel": true,
+					"text": "Print",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButPrint1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oaddAttachments4": {
+					"type": "button",
+					"top": 480,
+					"left": 291,
+					"width": 116,
+					"height": 22,
+					"dataSource": "Err_ButAtachments",
+					"shortcutKey": "e",
+					"shortcutAccel": true,
+					"text": "Attach Documents",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oaddAttachments4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oaddAttachments5": {
+					"type": "button",
+					"top": 480,
+					"left": 293,
+					"width": 114,
+					"height": 23,
+					"dataSource": "Err_ButAtachments",
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"method": "ObjectMethods/oaddAttachments5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAttachPrompt1": {
+					"type": "text",
+					"top": 485,
+					"left": 9,
+					"width": 282,
+					"height": 16,
+					"class": "Field_INFOS",
+					"text": "You may wish to attach a screenshot to this problem"
+				},
+				"oListofattachments1": {
+					"type": "dropdown",
+					"top": 485,
+					"left": 77,
+					"width": 207,
+					"height": 16,
+					"dataSource": "Err_at_aAttachements",
+					"class": "Fields",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAttachLabel1": {
+					"type": "text",
+					"top": 487,
+					"left": 11,
+					"width": 64,
+					"height": 16,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "Attachments"
+				},
+				"oerr_Detail2": {
+					"type": "input",
+					"top": 33,
+					"left": 8,
+					"width": 377,
+					"height": 156,
+					"dataSource": "Err_T_DetailText",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"baddScreenshot3": {
+					"type": "button",
+					"top": 458,
+					"left": 307,
+					"width": 98,
+					"height": 15,
+					"dataSource": "ERR_butScreenshot",
+					"text": "Add Screenshot",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/baddScreenshot3.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"oerr_Detail3",
+				"oButSubmit1",
+				"oButCancel1",
+				"oButPrint1",
+				"oaddAttachments4",
+				"oListofattachments1",
+				"oerr_Detail2",
+				"baddScreenshot3"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

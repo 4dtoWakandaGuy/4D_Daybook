@@ -1,0 +1,126 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oRBShowPrevious": {
+					"type": "radio",
+					"top": 29,
+					"left": 51,
+					"width": 202,
+					"height": 14,
+					"dataSource": "STK_i_ShowPrevious",
+					"text": "Show previous stock",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oRBShowPrevious.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBShowPrevious1": {
+					"type": "radio",
+					"top": 50,
+					"left": 51,
+					"width": 202,
+					"height": 14,
+					"dataSource": "STK_i_ShowLegend",
+					"text": "Show item Audit",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oRBShowPrevious1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBShowPrevious2": {
+					"type": "radio",
+					"top": 71,
+					"left": 51,
+					"width": 202,
+					"height": 14,
+					"dataSource": "STK_i_ShowMovement",
+					"text": "Show Stock Movement",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oRBShowPrevious2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBShowPrevious3": {
+					"type": "radio",
+					"top": 8,
+					"left": 51,
+					"width": 202,
+					"height": 14,
+					"visibility": "hidden",
+					"dataSource": "STK_i_ShowNothing",
+					"text": "Show Nothing",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 103,
+					"left": 206,
+					"width": 95,
+					"height": 21,
+					"dataSource": "STK_l_Continue",
+					"action": "accept",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

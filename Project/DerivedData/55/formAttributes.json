@@ -1,0 +1,26 @@
+{
+	"forms": {
+		"Information_SubP": {
+			"timeStamp": "2022-03-10T16:49:21.011Z"
+		},
+		"Group_Checker": {
+			"timeStamp": "2022-03-10T16:49:21.006Z",
+			"destination": "listScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.987Z",
+			"destination": "listScreen"
+		},
+		"Information_SubPC": {
+			"timeStamp": "2022-03-10T16:49:21.013Z"
+		},
+		"Information_Out": {
+			"timeStamp": "2022-03-10T16:49:21.010Z",
+			"destination": "listScreen"
+		},
+		"Information_In": {
+			"timeStamp": "2022-03-24T11:36:22.028Z",
+			"destination": "detailScreen"
+		}
+	}
+}

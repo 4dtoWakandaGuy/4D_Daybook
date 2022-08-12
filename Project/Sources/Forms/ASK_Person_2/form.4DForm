@@ -1,0 +1,317 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oBackGround": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 3,
+					"width": 397,
+					"height": 185,
+					"sizingY": "grow",
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"oPasswordLabel": {
+					"type": "text",
+					"top": 111,
+					"left": 22,
+					"width": 67,
+					"height": 16,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Password :"
+				},
+				"oCompanyLogo": {
+					"type": "input",
+					"top": 6,
+					"left": 71,
+					"width": 68,
+					"height": 60,
+					"dataSource": "<>PictLogoMed",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPasswordAcceptButton1": {
+					"type": "button",
+					"top": 146,
+					"left": 264,
+					"width": 82,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "xOK",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"method": "ObjectMethods/oPasswordAcceptButton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPasswordCancelButton": {
+					"type": "button",
+					"top": 146,
+					"left": 168,
+					"width": 82,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Quit",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oPasswordCancelButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUpButton": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 12,
+					"dataSource": "DBUp",
+					"shortcutKey": "[up arrow]",
+					"display": false,
+					"method": "ObjectMethods/oUpButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDownArrowButton": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 12,
+					"dataSource": "DBDown",
+					"shortcutKey": "[down arrow]",
+					"display": false,
+					"method": "ObjectMethods/oDownArrowButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPasswordAcceptButton3": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 22,
+					"dataSource": "xOK2",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"method": "ObjectMethods/oPasswordAcceptButton3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPassword": {
+					"type": "input",
+					"top": 112,
+					"left": 98,
+					"width": 248,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "<>DB_t_PassLock",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPassword.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPasswordBox": {
+					"type": "input",
+					"top": 159,
+					"left": 18,
+					"width": 76,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "WS_t_Password",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPasswordAcceptButton2": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 22,
+					"dataSource": "xOK2",
+					"shortcutKey": " ",
+					"display": false,
+					"method": "ObjectMethods/oPasswordAcceptButton2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCompanyLoginHeaderLabel": {
+					"type": "text",
+					"top": 30,
+					"left": 105,
+					"width": 160,
+					"height": 13,
+					"class": "Headers",
+					"text": "Daybook Login"
+				},
+				"oUserNameLabel": {
+					"type": "text",
+					"top": 71,
+					"left": 14,
+					"width": 75,
+					"height": 16,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "User Name :"
+				},
+				"oPasswordName": {
+					"type": "input",
+					"top": 72,
+					"left": 99,
+					"width": 248,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "<>PassName",
+					"stroke": "#000E60",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPasswordName.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			},
+			"entryOrder": [
+				"oCompanyLogo",
+				"oPasswordAcceptButton1",
+				"oPasswordCancelButton",
+				"oPassword",
+				"oPasswordBox",
+				"oPasswordName"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

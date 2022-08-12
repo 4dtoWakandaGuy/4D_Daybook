@@ -1,0 +1,170 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Button1": {
+					"type": "button",
+					"top": 98,
+					"left": 315,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_l_CloseMini",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 6,
+					"left": 318,
+					"width": 73,
+					"height": 14,
+					"dataSource": "[DIARY:12]Diary_Code:3",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDiaryCodeLabel": {
+					"type": "text",
+					"top": 6,
+					"left": 234,
+					"width": 79,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Code :"
+				},
+				"oResultDescription": {
+					"type": "input",
+					"top": 29,
+					"left": 22,
+					"width": 262,
+					"height": 86,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[DIARY:12]Display_Description:55",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/oResultDescription.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTaskTypeLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 0,
+					"width": 88,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Task Type :"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 61,
+					"left": 315,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_l_EditFromMini",
+					"action": "cancel",
+					"shortcutKey": "o",
+					"shortcutAccel": true,
+					"text": "Edit",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 6,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

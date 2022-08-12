@@ -1,0 +1,143 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oTokenOption": {
+					"type": "input",
+					"top": 5,
+					"left": 2,
+					"width": 187,
+					"height": 14,
+					"dataSource": "CO_t_TokenOption",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFieldNameChoices": {
+					"type": "dropdown",
+					"top": 4,
+					"left": 376,
+					"width": 26,
+					"height": 17,
+					"dataSource": "CO_at_FieldNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oFieldNameChoices.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTokenName": {
+					"type": "input",
+					"top": 6,
+					"left": 195,
+					"width": 187,
+					"height": 14,
+					"dataSource": "CO_t_TokenField",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSaveToken": {
+					"type": "button",
+					"top": 28,
+					"left": 263,
+					"width": 143,
+					"height": 22,
+					"dataSource": "BsaveToken",
+					"text": "Save Token Setting",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oSaveToken.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCancelToken": {
+					"type": "button",
+					"top": 29,
+					"left": 92,
+					"width": 163,
+					"height": 22,
+					"dataSource": "BCancelToken",
+					"text": "Cancel Token Setting",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oCancelToken.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"oFieldNameChoices",
+				"oSaveToken",
+				"oCancelToken"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

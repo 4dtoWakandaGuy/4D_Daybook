@@ -1,0 +1,711 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oCalculationOptions": {
+					"type": "groupBox",
+					"top": 6,
+					"left": 4,
+					"width": 337,
+					"height": 274,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"text": "Calculate..."
+				},
+				"oRectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 350,
+					"width": 111,
+					"height": 291,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"oToLabel": {
+					"type": "text",
+					"top": 26,
+					"left": 176,
+					"width": 17,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"text": "To..."
+				},
+				"oFromLabel": {
+					"type": "text",
+					"top": 26,
+					"left": 103,
+					"width": 34,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"text": "From..."
+				},
+				"oRecordCountLabel": {
+					"type": "text",
+					"top": 41,
+					"left": 14,
+					"width": 86,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"text": "Record Count :"
+				},
+				"oSumofValuesLabel": {
+					"type": "text",
+					"top": 75,
+					"left": 23,
+					"width": 77,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Sum of Values :"
+				},
+				"oAverageValueLabel": {
+					"type": "text",
+					"top": 93,
+					"left": 19,
+					"width": 81,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Average Value :"
+				},
+				"oHighestValueLabel": {
+					"type": "text",
+					"top": 111,
+					"left": 19,
+					"width": 81,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Highest Value :"
+				},
+				"oLowestValueLabel": {
+					"type": "text",
+					"top": 129,
+					"left": 19,
+					"width": 81,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Lowest Value :"
+				},
+				"oAvalaibleFieldsLabel": {
+					"type": "text",
+					"top": 150,
+					"left": 26,
+					"width": 139,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels_OUTPUT",
+					"text": "Available Value Fields …"
+				},
+				"oCheckBoxTop": {
+					"type": "radio",
+					"top": 25,
+					"left": 208,
+					"width": 66,
+					"height": 13,
+					"dataSource": "cPreview",
+					"text": "Top",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxBottom": {
+					"type": "radio",
+					"top": 26,
+					"left": 280,
+					"width": 67,
+					"height": 13,
+					"dataSource": "cLetters",
+					"text": "Bottom",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oTotal": {
+					"type": "input",
+					"top": 41,
+					"left": 103,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vTot",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTotal2": {
+					"type": "input",
+					"top": 41,
+					"left": 176,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vTot2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLabels": {
+					"type": "input",
+					"top": 41,
+					"left": 249,
+					"width": 72,
+					"height": 14,
+					"dataSource": "cLabels",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSum1": {
+					"type": "input",
+					"top": 75,
+					"left": 103,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSum2": {
+					"type": "input",
+					"top": 75,
+					"left": 176,
+					"width": 72,
+					"height": 15,
+					"dataSource": "vT2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEnvelopes": {
+					"type": "input",
+					"top": 75,
+					"left": 249,
+					"width": 72,
+					"height": 14,
+					"dataSource": "cEnvelopes",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAverage1": {
+					"type": "input",
+					"top": 93,
+					"left": 103,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT3",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAverage2": {
+					"type": "input",
+					"top": 93,
+					"left": 176,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT4",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oExport": {
+					"type": "input",
+					"top": 93,
+					"left": 249,
+					"width": 72,
+					"height": 14,
+					"dataSource": "cExport",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oHighest1": {
+					"type": "input",
+					"top": 111,
+					"left": 103,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT5",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oHighest2": {
+					"type": "input",
+					"top": 111,
+					"left": 176,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT6",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLowest1": {
+					"type": "input",
+					"top": 129,
+					"left": 103,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT7",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLowest2": {
+					"type": "input",
+					"top": 129,
+					"left": 176,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vT8",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCreateResultsFileCB": {
+					"type": "checkbox",
+					"top": 245,
+					"left": 16,
+					"width": 216,
+					"height": 12,
+					"dataSource": "cOC",
+					"text": "Create Results File ...",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oIncludeOnlyMatchinCB": {
+					"type": "checkbox",
+					"top": 261,
+					"left": 16,
+					"width": 216,
+					"height": 12,
+					"dataSource": "cMerged",
+					"text": "including only matching Results",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#444444",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obuttonAccept": {
+					"type": "button",
+					"top": 246,
+					"left": 365,
+					"width": 82,
+					"height": 22,
+					"dataSource": "CALC_but_accept",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 213,
+					"left": 363,
+					"width": 82,
+					"height": 22,
+					"dataSource": "CALC_but_Cancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRecordsTItle": {
+					"type": "input",
+					"top": 58,
+					"left": 19,
+					"width": 216,
+					"height": 14,
+					"dataSource": "vTitle10",
+					"stroke": "#444444",
+					"class": "Labels",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAcceptEnter": {
+					"type": "button",
+					"top": 288,
+					"left": 370,
+					"width": 82,
+					"height": 2,
+					"dataSource": "CALC_but_Accept",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBFieldValues": {
+					"type": "listbox",
+					"top": 167,
+					"left": 19,
+					"width": 302,
+					"height": 76,
+					"resizingMode": "legacy",
+					"dataSource": "CF_lb_ValueFields",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBFieldValues.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "GEN_at_Identity",
+							"width": 287,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 48,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"pSTK_at_StockTypesinOrder": {
+					"type": "dropdown",
+					"top": 35,
+					"left": 111,
+					"width": 189,
+					"height": 21,
+					"dataSource": "STK_at_StockTypesinOrder",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oLBProducts": {
+					"type": "listbox",
+					"top": 76,
+					"left": 46,
+					"width": 720,
+					"height": 389,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "LB_Products",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"table": 9,
+					"highlightSet": "$ListboxSet0",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "[PRODUCTS:9]Product_Code:1",
+							"width": 705,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

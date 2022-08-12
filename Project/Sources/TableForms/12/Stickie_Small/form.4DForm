@@ -1,0 +1,215 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 93,
+	"markerBreak": 93,
+	"markerFooter": 98,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 173,
+					"height": 93,
+					"fill": "#FFFFA0",
+					"stroke": "#FFBE7F",
+					"strokeWidth": 2
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 32,
+					"left": 186,
+					"width": 28,
+					"height": 34,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 1,
+					"left": 1,
+					"width": 170,
+					"height": 1,
+					"stroke": "#FFFFFF"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 1,
+					"left": 1,
+					"width": 1,
+					"height": 90,
+					"stroke": "#FFFFFF"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 4,
+					"left": 112,
+					"width": 35,
+					"height": 14,
+					"fill": "#FFFFA0",
+					"stroke": "#663300",
+					"class": "Labels_OUTPUT",
+					"textAlign": "right",
+					"text": "Done"
+				},
+				"oDiaryDate": {
+					"type": "input",
+					"top": 4,
+					"left": 5,
+					"width": 58,
+					"height": 14,
+					"dataSource": "[DIARY:12]Date_Do_From:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#663300",
+					"class": "Fields_OUTPUT",
+					"fill": "#FFFFA0",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryTime": {
+					"type": "input",
+					"top": 4,
+					"left": 65,
+					"width": 39,
+					"height": 14,
+					"dataSource": "[DIARY:12]Time_Do_From:6",
+					"dataSourceTypeHint": "time",
+					"stroke": "#663300",
+					"class": "Fields_OUTPUT",
+					"fill": "#FFFFA0",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "checkbox",
+					"top": 5,
+					"left": 149,
+					"width": 17,
+					"height": 12,
+					"dataSource": "[DIARY:12]Done:14",
+					"text": " ",
+					"stroke": "#663300",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryAction": {
+					"type": "input",
+					"top": 22,
+					"left": 5,
+					"width": 146,
+					"height": 60,
+					"dataSource": "[DIARY:12]Action_Details:10",
+					"stroke": "#663300",
+					"class": "Fields_OUTPUT",
+					"fill": "#FFFFA0",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 5,
+					"left": 186,
+					"width": 7,
+					"height": 8,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

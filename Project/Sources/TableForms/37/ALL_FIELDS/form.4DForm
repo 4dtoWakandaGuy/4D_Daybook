@@ -1,0 +1,1885 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 18,
+	"markerBody": 42,
+	"markerBreak": 45,
+	"markerFooter": 45,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"S1_Text": {
+					"type": "text",
+					"top": 20,
+					"left": 24,
+					"width": 85,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Alloc to Jobs : "
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 141,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AnalysisCode : "
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 263,
+					"width": 69,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Area Code : "
+				},
+				"S4_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 364,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Bank Acc : "
+				},
+				"S5_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 458,
+					"width": 65,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Cash VAT : "
+				},
+				"S6_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 555,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Cash VAT Due : "
+				},
+				"S7_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 681,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Cheque No : "
+				},
+				"S8_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 787,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Comments : "
+				},
+				"S9_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1089,
+					"width": 100,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Company Code : "
+				},
+				"S10_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1221,
+					"width": 81,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Credit Stage : "
+				},
+				"S11_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1334,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Creditors Acc : "
+				},
+				"S12_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1456,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Currency Code : "
+				},
+				"S13_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1585,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Due Date : "
+				},
+				"S15_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1812,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Invoice Date : "
+				},
+				"S16_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1932,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Layer Code : "
+				},
+				"S17_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2038,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Order Date : "
+				},
+				"S18_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2158,
+					"width": 63,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Order No : "
+				},
+				"S19_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2253,
+					"width": 80,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Period Code : "
+				},
+				"S20_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2365,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Posted Date : "
+				},
+				"S21_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2485,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Printed : "
+				},
+				"S22_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2579,
+					"width": 85,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Purch Inv No : "
+				},
+				"S23_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2696,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Purchase Code : "
+				},
+				"S24_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2825,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "State : "
+				},
+				"S25_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2913,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tax Rate : "
+				},
+				"S26_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3017,
+					"width": 189,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Terms : "
+				},
+				"S27_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3238,
+					"width": 87,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tot InvExTax : "
+				},
+				"S28_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3357,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Total Due : "
+				},
+				"S29_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3461,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Total Invoiced : "
+				},
+				"S30_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3587,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Total Paid : "
+				},
+				"S31_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3691,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Total Tax : "
+				},
+				"S32_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3795,
+					"width": 42,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "UK EC : "
+				},
+				"S33_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3869,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "x_ID : "
+				},
+				"Rectangle35": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 0,
+					"width": 3949,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "#FFFFFF"
+				},
+				"S1_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 24,
+					"width": 85,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Allocate_to_Jobs:30",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 141,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Analysis_Code:15",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 263,
+					"width": 69,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Area_Code:21",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 364,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Bank_Account:14",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 458,
+					"width": 65,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Cash_TAX:33",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S6_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 555,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Cash_TAX_Due:32",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S7_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 681,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Cheque_Number:26",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S8_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 787,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Comments:16",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S9_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1089,
+					"width": 100,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Company_Code:2",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S10_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1221,
+					"width": 81,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Credit_Stage:34",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S11_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1334,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Creditors_Account:13",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S12_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1456,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Currency_Code:23",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S13_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1585,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Due_Date:17",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S15_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1812,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Invoice_Date:5",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S16_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1932,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Layer_Code:28",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S17_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2038,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Order_Date:6",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S18_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2158,
+					"width": 63,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Order_Number:10",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S19_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2253,
+					"width": 80,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Period_Code:3",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S20_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2365,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Posted_Date:12",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S21_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 2485,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Printed:27",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S22_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2579,
+					"width": 85,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Purchase_Invoice_Number:4",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S23_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2696,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Purchase_Code:1",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S24_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2825,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]State:24",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S25_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2913,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Tax_Rate:20",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S26_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3017,
+					"width": 189,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Terms:31",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S27_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3238,
+					"width": 87,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Total_Invoiced_Excluding_Tax:19",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S28_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3357,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Total_Due:9",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S29_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3461,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Total_Invoiced:7",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S30_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3587,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Total_Paid:8",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S31_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3691,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]Total_Tax:25",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S32_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3795,
+					"width": 42,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]UK_EC:18",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S33_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3869,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PURCHASE_INVOICES:37]x_ID:35",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line36": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Line37": {
+					"type": "line",
+					"top": -5,
+					"left": 3949,
+					"height": 47,
+					"sizingX": "move",
+					"stroke": "#A8A8A8"
+				},
+				"Line38": {
+					"type": "line",
+					"top": -5,
+					"left": 3853,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "button",
+					"top": -5,
+					"left": 3852,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line39": {
+					"type": "line",
+					"top": -5,
+					"left": 3779,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter3": {
+					"type": "button",
+					"top": -5,
+					"left": 3778,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter3",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line40": {
+					"type": "line",
+					"top": -5,
+					"left": 3675,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter4": {
+					"type": "button",
+					"top": -5,
+					"left": 3674,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter4",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line41": {
+					"type": "line",
+					"top": -5,
+					"left": 3571,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter5": {
+					"type": "button",
+					"top": -5,
+					"left": 3570,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter5",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line42": {
+					"type": "line",
+					"top": -5,
+					"left": 3445,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter6": {
+					"type": "button",
+					"top": -5,
+					"left": 3444,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter6",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line43": {
+					"type": "line",
+					"top": -5,
+					"left": 3341,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter7": {
+					"type": "button",
+					"top": -5,
+					"left": 3340,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter7",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line44": {
+					"type": "line",
+					"top": -5,
+					"left": 3222,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter8": {
+					"type": "button",
+					"top": -5,
+					"left": 3221,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter8",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line45": {
+					"type": "line",
+					"top": -5,
+					"left": 3001,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter9": {
+					"type": "button",
+					"top": -5,
+					"left": 3000,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter9",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line46": {
+					"type": "line",
+					"top": -5,
+					"left": 2897,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter10": {
+					"type": "button",
+					"top": -5,
+					"left": 2896,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter10",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line47": {
+					"type": "line",
+					"top": -5,
+					"left": 2809,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter11": {
+					"type": "button",
+					"top": -5,
+					"left": 2808,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter11",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line48": {
+					"type": "line",
+					"top": -5,
+					"left": 2680,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter12": {
+					"type": "button",
+					"top": -5,
+					"left": 2679,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter12",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line49": {
+					"type": "line",
+					"top": -5,
+					"left": 2563,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter13": {
+					"type": "button",
+					"top": -5,
+					"left": 2562,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter13",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line50": {
+					"type": "line",
+					"top": -5,
+					"left": 2469,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter14": {
+					"type": "button",
+					"top": -5,
+					"left": 2468,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter14",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line51": {
+					"type": "line",
+					"top": -5,
+					"left": 2349,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter15": {
+					"type": "button",
+					"top": -5,
+					"left": 2348,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter15",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line52": {
+					"type": "line",
+					"top": -5,
+					"left": 2237,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter16": {
+					"type": "button",
+					"top": -5,
+					"left": 2236,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter16",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line53": {
+					"type": "line",
+					"top": -5,
+					"left": 2142,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter17": {
+					"type": "button",
+					"top": -5,
+					"left": 2141,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter17",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line54": {
+					"type": "line",
+					"top": -5,
+					"left": 2022,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter18": {
+					"type": "button",
+					"top": -5,
+					"left": 2021,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter18",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line55": {
+					"type": "line",
+					"top": -5,
+					"left": 1916,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter19": {
+					"type": "button",
+					"top": -5,
+					"left": 1915,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter19",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line56": {
+					"type": "line",
+					"top": -5,
+					"left": 1796,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter20": {
+					"type": "button",
+					"top": -5,
+					"left": 1795,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter20",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line57": {
+					"type": "line",
+					"top": -5,
+					"left": 1689,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter21": {
+					"type": "button",
+					"top": -5,
+					"left": 1688,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter21",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line58": {
+					"type": "line",
+					"top": -5,
+					"left": 1569,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter22": {
+					"type": "button",
+					"top": -5,
+					"left": 1568,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter22",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line59": {
+					"type": "line",
+					"top": -5,
+					"left": 1440,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter23": {
+					"type": "button",
+					"top": -5,
+					"left": 1439,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter23",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line60": {
+					"type": "line",
+					"top": -5,
+					"left": 1318,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter24": {
+					"type": "button",
+					"top": -5,
+					"left": 1317,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter24",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line61": {
+					"type": "line",
+					"top": -5,
+					"left": 1205,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter25": {
+					"type": "button",
+					"top": -5,
+					"left": 1204,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter25",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line62": {
+					"type": "line",
+					"top": -5,
+					"left": 1073,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter26": {
+					"type": "button",
+					"top": -5,
+					"left": 1072,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter26",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line63": {
+					"type": "line",
+					"top": -5,
+					"left": 771,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter27": {
+					"type": "button",
+					"top": -5,
+					"left": 770,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter27",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line64": {
+					"type": "line",
+					"top": -5,
+					"left": 665,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter28": {
+					"type": "button",
+					"top": -5,
+					"left": 664,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter28",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line65": {
+					"type": "line",
+					"top": -5,
+					"left": 539,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter29": {
+					"type": "button",
+					"top": -5,
+					"left": 538,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter29",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line66": {
+					"type": "line",
+					"top": -5,
+					"left": 442,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter30": {
+					"type": "button",
+					"top": -5,
+					"left": 441,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter30",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line67": {
+					"type": "line",
+					"top": -5,
+					"left": 348,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter31": {
+					"type": "button",
+					"top": -5,
+					"left": 347,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter31",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line68": {
+					"type": "line",
+					"top": -5,
+					"left": 247,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter32": {
+					"type": "button",
+					"top": -5,
+					"left": 246,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter32",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line69": {
+					"type": "line",
+					"top": -5,
+					"left": 125,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter33": {
+					"type": "button",
+					"top": -5,
+					"left": 124,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter33",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 4,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

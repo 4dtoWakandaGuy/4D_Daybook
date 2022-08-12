@@ -1,0 +1,36 @@
+{
+	"forms": {
+		"SP_STDREPORT_BODY1": {
+			"timeStamp": "2022-05-03T15:31:10.254Z",
+			"destination": "detailScreen"
+		},
+		"SalesProjectionEntry": {
+			"timeStamp": "2022-05-03T17:25:05.036Z",
+			"destination": "detailScreen"
+		},
+		"Target_EntryForm": {
+			"timeStamp": "2022-05-03T15:31:10.236Z",
+			"destination": "detailScreen"
+		},
+		"SP_STDREPORT_HEADER": {
+			"timeStamp": "2022-03-10T16:49:21.892Z",
+			"destination": "detailScreen"
+		},
+		"Pipe_included": {
+			"timeStamp": "2022-03-10T16:49:21.876Z",
+			"destination": "detailScreen"
+		},
+		"SP_STDReport_Footer1": {
+			"timeStamp": "2022-03-10T16:49:21.891Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.874Z",
+			"destination": "listScreen"
+		},
+		"Pseudo_blank": {
+			"timeStamp": "2022-03-10T16:49:21.877Z",
+			"destination": "detailScreen"
+		}
+	}
+}

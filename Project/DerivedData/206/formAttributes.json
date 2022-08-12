@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Input": {
+			"timeStamp": "2022-03-10T16:49:22.432Z",
+			"destination": "detailScreen"
+		},
+		"Output": {
+			"timeStamp": "2022-03-10T16:49:22.435Z",
+			"destination": "listScreen"
+		}
+	}
+}

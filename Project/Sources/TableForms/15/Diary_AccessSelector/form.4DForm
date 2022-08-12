@@ -1,0 +1,453 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerBody": 216,
+	"markerBreak": 216,
+	"markerFooter": 216,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable2": {
+					"type": "button",
+					"top": 174,
+					"left": 282,
+					"width": 80,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BUPDATE",
+					"shortcutKey": "[Enter]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 174,
+					"left": 192,
+					"width": 80,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 174,
+					"left": 282,
+					"width": 80,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BUPDATE",
+					"shortcutKey": "[Return]",
+					"text": "Exit",
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 174,
+					"left": 192,
+					"width": 80,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 4,
+					"left": 9,
+					"width": 273,
+					"height": 12,
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Click on a Person to select or deselect them"
+				},
+				"OLBDiary": {
+					"type": "listbox",
+					"top": 27,
+					"left": 16,
+					"width": 347,
+					"height": 133,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DA_lb_PerSelectP1",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"alternateFill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/OLBDiary.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 332,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "automatic",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Tab Control1": {
+					"type": "tab",
+					"top": 1,
+					"left": 1,
+					"width": 370,
+					"height": 169,
+					"sizingY": "grow",
+					"dataSource": "SM_at_SendSetControl",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Default",
+					"method": "ObjectMethods/Tab Control1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRetainCheckbox": {
+					"type": "checkbox",
+					"top": 176,
+					"left": 6,
+					"width": 181,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "SM_CB_l_RetainList",
+					"text": "Retain List",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"OLBDiary1": {
+					"type": "listbox",
+					"top": 32,
+					"left": 15,
+					"width": 347,
+					"height": 133,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DA_LB_PerSelectP2",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"alternateFill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/OLBDiary1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 332,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "automatic",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Tab Control2": {
+					"type": "tab",
+					"top": 1,
+					"left": 1,
+					"width": 370,
+					"height": 169,
+					"sizingY": "grow",
+					"dataSource": "SM_at_SendSetControl",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Default",
+					"method": "ObjectMethods/Tab Control2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRetainCheckbox2": {
+					"type": "checkbox",
+					"top": 176,
+					"left": 6,
+					"width": 181,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "SM_CB_l_RetainList",
+					"text": "Retain List",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"OLBDiary2": {
+					"type": "listbox",
+					"top": 32,
+					"left": 15,
+					"width": 347,
+					"height": 133,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DA_lb_PerSelectP3",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"alternateFill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/OLBDiary2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column1",
+							"width": 332,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "automatic",
+							"alternateFill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

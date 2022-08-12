@@ -1,0 +1,1951 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 11,
+					"left": 15,
+					"width": 310,
+					"height": 12,
+					"stroke": "#000E60",
+					"class": "Headers",
+					"text": "DAYBOOK DATA SETUP"
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 260,
+					"left": 383,
+					"width": 90,
+					"height": 22,
+					"dataSource": "xCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 294,
+					"left": 383,
+					"width": 90,
+					"height": 22,
+					"dataSource": "xOK",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 48,
+					"left": 117,
+					"width": 232,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "Labels_OUTPUT",
+					"textAlign": "center",
+					"text": "The following screens will take you through data setups required for using Daybook."
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 16,
+					"left": 405,
+					"width": 68,
+					"height": 60,
+					"dataSource": "<>PictLogoMed",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUserNameField": {
+					"type": "input",
+					"top": 124,
+					"left": 104,
+					"width": 270,
+					"height": 14,
+					"dataSource": "DB_t_UserName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUserNameField1": {
+					"type": "input",
+					"top": 144,
+					"left": 104,
+					"width": 270,
+					"height": 14,
+					"dataSource": "DB_t_Organisation",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUserNameField2": {
+					"type": "input",
+					"top": 164,
+					"left": 104,
+					"width": 270,
+					"height": 74,
+					"dataSource": "DB_t_Address",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCSuseDemoData1": {
+					"type": "checkbox",
+					"top": 272,
+					"left": 15,
+					"width": 248,
+					"height": 22,
+					"dataSource": "CS_bo_DemoData",
+					"text": "Use Demo Data",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCSuseDemoData1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCBImportData": {
+					"type": "checkbox",
+					"top": 294,
+					"left": 15,
+					"width": 188,
+					"height": 22,
+					"dataSource": "CS_bo_ImportFromDaybook",
+					"text": "Import Data from Daybook",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCBImportData.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 26,
+					"left": 1,
+					"width": 472,
+					"height": 16,
+					"class": "FIelds_Large_BOLD",
+					"textAlign": "center",
+					"text": "Welcome to Daybook.\r"
+				},
+				"OOrganisationLabel": {
+					"type": "text",
+					"top": 142,
+					"left": 19,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Organisation *"
+				},
+				"oUserNameLabel": {
+					"type": "text",
+					"top": 123,
+					"left": 19,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "User Name *"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 89,
+					"left": 15,
+					"width": 432,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "To create new data please enter the following information. \rIf you are not setting up a new data please select an option at the foot of this form"
+				},
+				"oAddressLabel1": {
+					"type": "text",
+					"top": 164,
+					"left": 19,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Address *"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oUserNameLabel1": {
+					"type": "text",
+					"top": 59,
+					"left": 22,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "User Name "
+				},
+				"oUserNameField3": {
+					"type": "input",
+					"top": 60,
+					"left": 108,
+					"width": 270,
+					"height": 14,
+					"dataSource": "DB_t_UserName",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oUserNameField4": {
+					"type": "input",
+					"top": 89,
+					"left": 108,
+					"width": 270,
+					"height": 14,
+					"dataSource": "DB_t_Password1",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oUserNameField4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onGettingFocus",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"oUserNameField5": {
+					"type": "input",
+					"top": 117,
+					"left": 108,
+					"width": 270,
+					"height": 14,
+					"dataSource": "DB_t_Password2",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oUserNameField5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke"
+					]
+				},
+				"oUsers": {
+					"type": "listbox",
+					"top": 192,
+					"left": 23,
+					"width": 330,
+					"height": 72,
+					"resizingMode": "legacy",
+					"dataSource": "DB_lb_UserNames",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 315,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCBAskforPWChange": {
+					"type": "checkbox",
+					"top": 269,
+					"left": 23,
+					"width": 288,
+					"height": 22,
+					"dataSource": "CS_bo_AskUserstoChangePassword",
+					"text": "Ask users to reset password at first login",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCBAskforPWChange.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCSuseDemoData": {
+					"type": "checkbox",
+					"top": 296,
+					"left": 21,
+					"width": 248,
+					"height": 22,
+					"dataSource": "CS_bo_DemoData",
+					"text": "Use Demo Data",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCSuseDemoData.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oClearUserNames": {
+					"type": "button",
+					"top": 297,
+					"left": 153,
+					"width": 128,
+					"height": 21,
+					"dataSource": "DB_l_ClearUsers",
+					"text": "Delete all user names",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oClearUserNames.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 33,
+					"left": 30,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Create a secure Login"
+				},
+				"oUserNameLabel2": {
+					"type": "text",
+					"top": 88,
+					"left": 22,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password"
+				},
+				"oUserNameLabel3": {
+					"type": "text",
+					"top": 116,
+					"left": 2,
+					"width": 100,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Re-enter Password"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 139,
+					"left": 12,
+					"width": 442,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "You can add other users that will log in to your system now or later. \rCreating seperate logins for each user will make it easier to track work and to personalise the setup for each uter"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 173,
+					"left": 20,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Add Additional Users"
+				},
+				"oAddUser": {
+					"type": "button",
+					"top": 191,
+					"left": 372,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 211,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Inventory..."
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 117,
+					"left": 41,
+					"width": 369,
+					"height": 45,
+					"class": "Labels",
+					"text": "Sales..."
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 77,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Defaults..."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 33,
+					"left": 30,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Licence Setup"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 51,
+					"left": 30,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Please confirm the setup of Daybook that you require.\r This will enable the system to confgure the default available menus availalbe"
+				},
+				"oCB_Licence1": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 48,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Companies",
+					"text": "Companies",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence2": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 142,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Contacts",
+					"text": "Contacts",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence6": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 236,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Products",
+					"text": "Products",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence19": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 331,
+					"width": 76,
+					"height": 13,
+					"dataSource": "CS_bo_Diary",
+					"text": "Time",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence4": {
+					"type": "checkbox",
+					"top": 139,
+					"left": 60,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Quotations",
+					"text": "Quotations",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence3": {
+					"type": "checkbox",
+					"top": 139,
+					"left": 174,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Enquries",
+					"text": "Enquries",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence5": {
+					"type": "checkbox",
+					"top": 139,
+					"left": 289,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_SalesOrder",
+					"text": "Sales Orders",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence7": {
+					"type": "checkbox",
+					"top": 187,
+					"left": 60,
+					"width": 101,
+					"height": 13,
+					"dataSource": "CS_bo_Quotations",
+					"text": "Purchase Orders",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence8": {
+					"type": "checkbox",
+					"top": 233,
+					"left": 60,
+					"width": 181,
+					"height": 13,
+					"dataSource": "CS_bo_Quotations",
+					"text": "Stock Inventory Management",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"ODetailsBack1": {
+					"type": "button",
+					"top": 294,
+					"left": 15,
+					"width": 72,
+					"height": 22,
+					"dataSource": "CS_but_Back",
+					"text": "Back",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/ODetailsBack1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 165,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Purchasing..."
+				},
+				"Text9": {
+					"type": "text",
+					"top": 273,
+					"left": 41,
+					"width": 225,
+					"height": 14,
+					"class": "Labels",
+					"text": "Press Continue For futher options"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 77,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Sales Invoicing..."
+				},
+				"oCB_Licence9": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 60,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_SalesLedger",
+					"text": "Sales Invoices",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence10": {
+					"type": "checkbox",
+					"top": 147,
+					"left": 60,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_PurchaseLedger",
+					"text": "Purchase Invoices",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence11": {
+					"type": "checkbox",
+					"top": 195,
+					"left": 60,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_NominalLedgers",
+					"text": "Nominal Ledgers",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"ODetailsBack": {
+					"type": "button",
+					"top": 294,
+					"left": 15,
+					"width": 72,
+					"height": 22,
+					"dataSource": "CS_but_Back",
+					"text": "Back",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/ODetailsBack.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 33,
+					"left": 30,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Licence Setup"
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"top": 125,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Purchase Invoicing..."
+				},
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 173,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Nominal Ledgers"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 273,
+					"left": 41,
+					"width": 225,
+					"height": 14,
+					"class": "Labels",
+					"text": "Press Continue For futher options"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 51,
+					"left": 30,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Please confirm the setup of Daybook that you require.\r This will enable the system to confgure the default available menus availalbe"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box7": {
+					"type": "groupBox",
+					"top": 77,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Service Centre Management"
+				},
+				"oCB_Licence12": {
+					"type": "checkbox",
+					"top": 99,
+					"left": 60,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_ServiceCentre",
+					"text": "Service Centre",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence13": {
+					"type": "checkbox",
+					"top": 147,
+					"left": 60,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_JObCosting",
+					"text": "Job Costing",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"ODetailsBack2": {
+					"type": "button",
+					"top": 294,
+					"left": 15,
+					"width": 72,
+					"height": 22,
+					"dataSource": "CS_but_Back",
+					"text": "Back",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/ODetailsBack2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box8": {
+					"type": "groupBox",
+					"top": 125,
+					"left": 41,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Advanced Cost Management"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 33,
+					"left": 30,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Licence Setup"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 273,
+					"left": 41,
+					"width": 225,
+					"height": 14,
+					"class": "Labels",
+					"text": "Press Continue For futher options"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 51,
+					"left": 30,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Please confirm the setup of Daybook that you require.\r This will enable the system to confgure the default available menus availalbe"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text17": {
+					"type": "text",
+					"top": 51,
+					"left": 30,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Please confirm the setup of Daybook that you require.\r This will enable the system to confgure the default available menus availalbe"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 84,
+					"left": 50,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Addtional Options"
+				},
+				"Group Box9": {
+					"type": "groupBox",
+					"top": 105,
+					"left": 37,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Advanced Product Options"
+				},
+				"oCB_Licence17": {
+					"type": "checkbox",
+					"top": 127,
+					"left": 56,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_PriceTable",
+					"text": "Pricing Matrix",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence14": {
+					"type": "checkbox",
+					"top": 127,
+					"left": 196,
+					"width": 81,
+					"height": 13,
+					"dataSource": "CS_bo_Assemblies",
+					"text": "Assemblies",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence15": {
+					"type": "checkbox",
+					"top": 172,
+					"left": 56,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_Currencies",
+					"text": "Mutiple-Currencies",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence16": {
+					"type": "checkbox",
+					"top": 219,
+					"left": 56,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_Analysis",
+					"text": "Mutiple-Analysis",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"oCB_Licence18": {
+					"type": "checkbox",
+					"top": 219,
+					"left": 228,
+					"width": 121,
+					"height": 13,
+					"dataSource": "CS_bo_Analysis",
+					"text": "Mutiple-Layers",
+					"class": "Check_Box_text_SMALL",
+					"focusable": false
+				},
+				"ODetailsBack3": {
+					"type": "button",
+					"top": 294,
+					"left": 15,
+					"width": 72,
+					"height": 22,
+					"dataSource": "CS_but_Back",
+					"text": "Back",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/ODetailsBack3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box10": {
+					"type": "groupBox",
+					"top": 151,
+					"left": 37,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Advanced Sales/Purchase options"
+				},
+				"Group Box11": {
+					"type": "groupBox",
+					"top": 198,
+					"left": 37,
+					"width": 369,
+					"height": 42,
+					"class": "Labels",
+					"text": "Advanced Accounting Options"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 273,
+					"left": 41,
+					"width": 225,
+					"height": 14,
+					"class": "Labels",
+					"text": "Press Continue For futher options"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text19": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Company Contact Setup Preferences"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 95,
+					"left": 50,
+					"width": 362,
+					"height": 48,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Daybook will print standard address formats on outputs for most overseas addresses. You may use the defaults or set up your own. Formats can easily be changed or edited later if you wish."
+				},
+				"Text21": {
+					"type": "text",
+					"top": 78,
+					"left": 50,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"text": "Address Formatting"
+				},
+				"oLstboxAddressFormats": {
+					"type": "listbox",
+					"top": 142,
+					"left": 49,
+					"width": 363,
+					"height": 106,
+					"resizingMode": "legacy",
+					"dataSource": "ADR_LB_Formats",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 348,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oImport1": {
+					"type": "button",
+					"top": 294,
+					"left": 4,
+					"width": 177,
+					"height": 22,
+					"dataSource": "CS_but_importADF",
+					"text": "Default Address Formats",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddUser1": {
+					"type": "button",
+					"top": 142,
+					"left": 421,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Text22": {
+					"type": "text",
+					"top": 254,
+					"left": 31,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text23": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Company Contact Setup Preferences"
+				},
+				"oUserNameLabel4": {
+					"type": "text",
+					"top": 164,
+					"left": 9,
+					"width": 104,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Sales person"
+				},
+				"Text24": {
+					"type": "text",
+					"top": 70,
+					"left": 50,
+					"width": 362,
+					"height": 68,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Daybook allows you to assign companies and contacts to sales persons. The sales person for a company/contact is then automatically attributed all sales for company/contact. You may set a default sales person that will automatically be assigned to companies and contacts, this data can be changed on the company record"
+				},
+				"oSalesPerson": {
+					"type": "combo",
+					"top": 159,
+					"left": 121,
+					"width": 236,
+					"height": 24,
+					"dataSource": "SC_at_SalesPersons",
+					"class": "Fields",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text25": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Company Contact Setup Preferences"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 70,
+					"left": 50,
+					"width": 362,
+					"height": 68,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Daybook allows you to assign a status to contacts and companies. You may use any range of stati you wish. You can configure this now or later"
+				},
+				"oLBContactStates": {
+					"type": "listbox",
+					"top": 110,
+					"left": 50,
+					"width": 363,
+					"height": 106,
+					"resizingMode": "legacy",
+					"dataSource": "CON_lb_ContactSetups",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column2",
+							"width": 348,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oStatus": {
+					"type": "combo",
+					"top": 262,
+					"left": 162,
+					"width": 216,
+					"height": 24,
+					"dataSource": "SC_at_StatusNames",
+					"class": "Fields",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oImport": {
+					"type": "button",
+					"top": 294,
+					"left": 4,
+					"width": 177,
+					"height": 22,
+					"dataSource": "CS_but_importStg",
+					"text": "Standard Status Codes",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddUser2": {
+					"type": "button",
+					"top": 110,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oStatusLabel": {
+					"type": "text",
+					"top": 267,
+					"left": 50,
+					"width": 104,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Status"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 218,
+					"left": 52,
+					"width": 362,
+					"height": 33,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "You may wish to assign a status by default to companies and contacts added to the system"
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 146,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text28": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Company Contact Setup Preferences"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 70,
+					"left": 50,
+					"width": 362,
+					"height": 68,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Daybook allows you to group companies into areas. Areas can be used to assign default tax codes for sales to a company. Areas can automatically be assigned to postal/zip code ranges. "
+				},
+				"oLstboxAreas": {
+					"type": "listbox",
+					"top": 119,
+					"left": 50,
+					"width": 363,
+					"height": 106,
+					"resizingMode": "legacy",
+					"dataSource": "AREA_lb_Areas",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "Column2",
+							"width": 348,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oImport2": {
+					"type": "button",
+					"top": 294,
+					"left": 4,
+					"width": 177,
+					"height": 22,
+					"dataSource": "CS_but_importAreas",
+					"text": "Import Area Codes",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddUser3": {
+					"type": "button",
+					"top": 121,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 157,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Text30": {
+					"type": "text",
+					"top": 228,
+					"left": 51,
+					"width": 362,
+					"height": 68,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "You may skip this now if you wish, setting this up later is easy"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text31": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Contact Setup Preferences"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 70,
+					"left": 50,
+					"width": 362,
+					"height": 68,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Daybook allows you to assign job roles(as well as job titles) to contacts, this allows you easily find all contacts with a similar role and to use roles in managing database actions"
+				},
+				"oLBJobRoles": {
+					"type": "listbox",
+					"top": 119,
+					"left": 50,
+					"width": 363,
+					"height": 106,
+					"resizingMode": "legacy",
+					"dataSource": "ROL_lb_JobRoles",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column5",
+							"dataSource": "Column2",
+							"width": 348,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oStatus1": {
+					"type": "combo",
+					"top": 233,
+					"left": 222,
+					"width": 156,
+					"height": 24,
+					"dataSource": "SC_at_RolesNames",
+					"class": "Fields",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oImport3": {
+					"type": "button",
+					"top": 294,
+					"left": 4,
+					"width": 177,
+					"height": 22,
+					"dataSource": "CS_but_importRoles",
+					"text": "Import Job Roles",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oImport3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddUser4": {
+					"type": "button",
+					"top": 121,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 157,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Text33": {
+					"type": "text",
+					"top": 268,
+					"left": 51,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "You may skip this now if you wish, setting this up later is easy"
+				},
+				"oStatusLabel1": {
+					"type": "text",
+					"top": 234,
+					"left": 10,
+					"width": 207,
+					"height": 33,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default  Role\r(automatically assigned to new contacts)"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text35": {
+					"type": "text",
+					"top": 53,
+					"left": 50,
+					"width": 205,
+					"height": 14,
+					"class": "Labels",
+					"text": "Contact Setup Import"
+				},
+				"Text34": {
+					"type": "text",
+					"top": 70,
+					"left": 50,
+					"width": 362,
+					"height": 28,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold"
+				},
+				"oLBContacts": {
+					"type": "listbox",
+					"top": 99,
+					"left": 15,
+					"width": 397,
+					"height": 146,
+					"resizingMode": "legacy",
+					"dataSource": "CON_lb_Contacts",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column6",
+							"dataSource": "Column2",
+							"width": 382,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oExpand": {
+					"type": "button",
+					"top": 250,
+					"left": 9,
+					"width": 117,
+					"height": 22,
+					"dataSource": "CS_but_ExpandWIndow",
+					"text": "Expand Window",
+					"class": "BUttons_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oImport4": {
+					"type": "button",
+					"top": 292,
+					"left": 4,
+					"width": 177,
+					"height": 22,
+					"dataSource": "CS_but_importContacts",
+					"text": "Import Contacts...",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddUser5": {
+					"type": "button",
+					"top": 102,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "CS_but_Adduser",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddUser5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 137,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "CS_But_DeleteContact",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Text36": {
+					"type": "text",
+					"top": 70,
+					"left": 18,
+					"width": 392,
+					"height": 27,
+					"stroke": "#000E60",
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Import companies/contacts here. Companies and contacts can be added or imported to the system at any time"
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

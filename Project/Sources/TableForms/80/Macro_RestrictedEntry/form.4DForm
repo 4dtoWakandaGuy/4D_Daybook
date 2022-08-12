@@ -1,0 +1,297 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oScriptNameLabel": {
+					"type": "text",
+					"top": 43,
+					"left": 4,
+					"width": 99,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Script Name :"
+				},
+				"oScriptCodeLabel": {
+					"type": "text",
+					"top": 24,
+					"left": 12,
+					"width": 91,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Script Code :"
+				},
+				"oButtonFindScript": {
+					"type": "button",
+					"top": 67,
+					"left": 162,
+					"width": 91,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "BFind",
+					"text": "Copy Existing",
+					"class": "Default",
+					"method": "ObjectMethods/oButtonFindScript.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptCode": {
+					"type": "input",
+					"top": 23,
+					"left": 106,
+					"width": 172,
+					"height": 14,
+					"dataSource": "[SCRIPTS:80]Script_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptName": {
+					"type": "input",
+					"top": 43,
+					"left": 106,
+					"width": 171,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[SCRIPTS:80]Script_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptTableNames": {
+					"type": "dropdown",
+					"top": 67,
+					"left": 4,
+					"width": 77,
+					"height": 17,
+					"sizingX": "grow",
+					"dataSource": "MCR_at_TableNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oScriptTableNames.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptFieldNamesDropDown": {
+					"type": "dropdown",
+					"top": 67,
+					"left": 86,
+					"width": 72,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "<>SYS_at_CurrentTableFieldNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oScriptFieldNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oScriptText": {
+					"type": "input",
+					"top": 92,
+					"left": 4,
+					"width": 254,
+					"height": 166,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[SCRIPTS:80]Recording_Text:4",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMacrostoCopyDropDown": {
+					"type": "dropdown",
+					"top": 67,
+					"left": 161,
+					"width": 103,
+					"height": 19,
+					"visibility": "hidden",
+					"dataSource": "MAC_at_aMacroNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oMacrostoCopyDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 276,
+					"left": 238,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 276,
+					"left": 199,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 18,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

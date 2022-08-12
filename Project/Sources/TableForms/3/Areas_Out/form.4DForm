@@ -1,0 +1,381 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 724,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 70,
+	"markerBody": 89,
+	"markerBreak": 89,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 51,
+					"left": 13,
+					"width": 60,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": "Code"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 51,
+					"left": 87,
+					"width": 286,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": "Name"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 51,
+					"left": 386,
+					"width": 45,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": "Tax Rate"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 51,
+					"left": 442,
+					"width": 42,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": "Person"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 51,
+					"left": 496,
+					"width": 198,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": "Description"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 79,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": 40,
+					"left": 379,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": 40,
+					"left": 435,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter4": {
+					"type": "splitter",
+					"top": 40,
+					"left": 489,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 73,
+					"left": 10,
+					"width": 67,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[AREAS:3]Area_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 73,
+					"left": 82,
+					"width": 295,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[AREAS:3]Area_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 73,
+					"left": 382,
+					"width": 51,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[AREAS:3]Tax_Rate:4",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Percent 2Dec"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 73,
+					"left": 439,
+					"width": 48,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[AREAS:3]Person:5",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 73,
+					"left": 492,
+					"width": 207,
+					"height": 12,
+					"dataSource": "[AREAS:3]Description:6",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"3D Button2": {
+					"type": "button",
+					"top": 45,
+					"left": 81,
+					"width": 297,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "bCompButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 45,
+					"left": 7,
+					"width": 71,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "bCompButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button3": {
+					"type": "button",
+					"top": 45,
+					"left": 381,
+					"width": 53,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "bCompButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button4": {
+					"type": "button",
+					"top": 45,
+					"left": 437,
+					"width": 51,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "bCompButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button5": {
+					"type": "button",
+					"top": 45,
+					"left": 491,
+					"width": 211,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "bCompButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

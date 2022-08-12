@@ -1,0 +1,224 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 10,
+					"left": 15,
+					"width": 291,
+					"height": 75,
+					"dataSource": "vConfirm",
+					"stroke": "#000000",
+					"class": "Message_TEXT",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"obutton2": {
+					"type": "button",
+					"top": 105,
+					"left": 228,
+					"width": 102,
+					"height": 22,
+					"sizingX": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Accept",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/obutton2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obutton4": {
+					"type": "button",
+					"top": 107,
+					"left": 4,
+					"width": 102,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/obutton4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Obutton1": {
+					"type": "button",
+					"top": 139,
+					"left": 235,
+					"width": 90,
+					"height": 2,
+					"sizingX": "move",
+					"dataSource": "xOK_1",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"method": "ObjectMethods/Obutton1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obutton5": {
+					"type": "button",
+					"top": 137,
+					"left": 12,
+					"width": 90,
+					"height": 2,
+					"dataSource": "xCancel_1",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/obutton5.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obutton3": {
+					"type": "button",
+					"top": 107,
+					"left": 114,
+					"width": 102,
+					"height": 22,
+					"sizingX": "grow",
+					"dataSource": "xnext",
+					"action": "accept",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"text": "Next",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/obutton3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"ocheckbox1": {
+					"type": "checkbox",
+					"top": 89,
+					"left": 14,
+					"width": 169,
+					"height": 12,
+					"dataSource": "B_CheckHideWarning",
+					"text": "Do not show this message again",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

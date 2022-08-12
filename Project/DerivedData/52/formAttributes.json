@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Public_Out": {
+			"timeStamp": "2022-03-15T08:24:21.208Z",
+			"destination": "listScreen"
+		},
+		"Public_In": {
+			"timeStamp": "2022-03-15T08:23:20.244Z",
+			"destination": "detailScreen"
+		}
+	}
+}

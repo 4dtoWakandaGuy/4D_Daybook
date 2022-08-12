@@ -1,0 +1,24 @@
+{
+	"forms": {
+		"Accounts_Out": {
+			"timeStamp": "2022-03-11T08:20:16.872Z",
+			"destination": "listScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-04-26T12:50:54.605Z",
+			"destination": "listScreen"
+		},
+		"Balances": {
+			"timeStamp": "2022-03-10T16:49:20.077Z",
+			"destination": "listScreen"
+		},
+		"Accounts_in": {
+			"timeStamp": "2022-04-26T12:49:42.464Z",
+			"destination": "detailScreen"
+		},
+		"DB_GenericQuery": {
+			"timeStamp": "2022-03-10T16:49:20.079Z",
+			"destination": "detailScreen"
+		}
+	}
+}

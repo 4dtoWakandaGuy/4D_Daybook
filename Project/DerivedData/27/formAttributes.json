@@ -1,0 +1,65 @@
+{
+	"forms": {
+		"Stock_SubP": {
+			"timeStamp": "2022-03-13T18:35:59.619Z"
+		},
+		"dStockAss_Avail": {
+			"timeStamp": "2022-04-29T06:00:29.492Z"
+		},
+		"Stock_Hist": {
+			"timeStamp": "2022-03-13T16:40:23.715Z",
+			"destination": "listScreen"
+		},
+		"StockAss_In": {
+			"timeStamp": "2022-05-03T13:34:31.227Z",
+			"destination": "detailScreen"
+		},
+		"StockAss_Disassemble": {
+			"timeStamp": "2022-04-29T15:38:16.608Z",
+			"destination": "detailScreen"
+		},
+		"Stock_List": {
+			"timeStamp": "2022-05-03T13:34:31.263Z"
+		},
+		"StockAss_BoMLin": {
+			"timeStamp": "2022-03-13T18:50:22.922Z",
+			"destination": "detailPrinter"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-05-01T04:52:40.033Z",
+			"destination": "listScreen"
+		},
+		"dItems_Sel": {
+			"timeStamp": "2022-03-13T16:40:23.592Z"
+		},
+		"Stock_In": {
+			"timeStamp": "2022-05-29T04:26:57.123Z",
+			"destination": "detailScreen"
+		},
+		"StockAss_BoMDet": {
+			"timeStamp": "2022-03-13T18:35:59.662Z"
+		},
+		"ALL_FIELDS2011": {
+			"timeStamp": "2022-05-29T04:27:00.249Z",
+			"destination": "listScreen"
+		},
+		"Stock_SubNew": {
+			"timeStamp": "2022-05-29T04:27:00.116Z"
+		},
+		"Form_Sub": {
+			"timeStamp": "2022-03-13T16:40:23.666Z",
+			"destination": "listScreen"
+		},
+		"StockAss_BoMHdr": {
+			"timeStamp": "2022-03-13T18:50:22.801Z",
+			"destination": "listScreen"
+		},
+		"Stock_Out": {
+			"timeStamp": "2022-05-03T13:34:31.255Z",
+			"destination": "listScreen"
+		},
+		"dStockAss_Dis": {
+			"timeStamp": "2022-04-29T06:00:29.535Z"
+		}
+	}
+}

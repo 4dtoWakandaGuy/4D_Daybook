@@ -1,0 +1,52 @@
+If (False:C215)  // ----------------------------------------------------
+	//Creator: Nigel Greenlee
+	//Date & time: 30/09/2013 19:03
+	//Method Name: Trigger:Catalogue_ProductLink
+	//Description
+	
+	//Parameters
+	//Declarations
+	// ----------------------------------------------------
+	//Project method Amendments
+	
+	//End Project method Amendments
+End if 
+$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [Catalogue_ProductLink]")
+
+C_TEXT:C284($_t_oldMethodName)
+$0:=0
+$_l_event:=Trigger event:C369
+<>SYS_bo_inTrigger:=True:C214
+Case of 
+		
+		
+	: ($_l_event=On Saving New Record Event:K3:1)  //WT - audit for saving new record
+		$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [Catalogue_ProductLink]"; $_l_event)
+		If (DB_TableTriggerEnabled)
+			NaNFixer  // 12/03/04 PB
+			If ([Catalogue_ProductLink:109]x_ID:1=0)
+				If ([Catalogue_ProductLink:109]X_CatalogueID:2#0)
+					[Catalogue_ProductLink:109]x_ID:1:=AA_GetNextID(->[Catalogue_ProductLink:109]x_ID:1)
+				End if 
+			End if 
+		End if 
+	: ($_l_event=On Saving Existing Record Event:K3:2)  //WT - audit for saving old/existing record
+		$_t_oldMethodName:=ERR_MethodTracker("TRIGGER [Catalogue_ProductLink]"; $_l_event)
+		If (DB_TableTriggerEnabled)
+			NaNFixer  // 12/03/04 PB
+			If ([Catalogue_ProductLink:109]x_ID:1=0)
+				If ([Catalogue_ProductLink:109]X_CatalogueID:2#0)
+					[Catalogue_ProductLink:109]x_ID:1:=AA_GetNextID(->[Catalogue_ProductLink:109]x_ID:1)
+				End if 
+			End if 
+			
+			If ([Catalogue_ProductLink:109]DateRemoved:5#!00-00-00!)  // 30/10/03 pb
+				[Catalogue_ProductLink:109]TimeDateStamp:8:=BP_Timestamp
+			End if 
+		End if 
+	: ($_l_event=On Deleting Record Event:K3:3)  //WT - audit for deleting record
+End case 
+
+
+
+ERR_MethodTrackerReturn("TRIGGER [Catalogue_ProductLink]"; $_t_oldMethodName)

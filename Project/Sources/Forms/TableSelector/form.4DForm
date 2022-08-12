@@ -1,0 +1,183 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 5,
+	"bottomMargin": 5,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oSelectAll": {
+					"type": "button",
+					"top": 66,
+					"left": 0,
+					"width": 103,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "DB_but_SelectAll",
+					"text": ":xliff:SelectAll",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oSelectAll.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oExit": {
+					"type": "button",
+					"top": 66,
+					"left": 143,
+					"width": 103,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "DB_but_Cancel",
+					"shortcutKey": "[Return]",
+					"text": ":xliff:CancelButton",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oExit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oExit1": {
+					"type": "button",
+					"top": 96,
+					"left": 143,
+					"width": 103,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "DB_but_Continue",
+					"shortcutKey": "[Enter]",
+					"text": ":xliff:ContinueButton",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oExit1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 97,
+					"left": 10,
+					"width": 113,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "DB_l_Integrate",
+					"text": ":xliff:IntegrateData",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBTables": {
+					"type": "listbox",
+					"top": 2,
+					"left": 0,
+					"width": 256,
+					"height": 60,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SEL_lb_Tables",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 241,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

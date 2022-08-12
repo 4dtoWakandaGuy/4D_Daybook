@@ -1,0 +1,220 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 23,
+	"markerBody": 43,
+	"markerBreak": 44,
+	"markerFooter": 47,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperWidth": "575pt",
+		"paperHeight": "760pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 2,
+					"width": 198,
+					"height": 22,
+					"stroke": "transparent"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 61,
+					"height": 21
+				},
+				"Line6": {
+					"type": "line",
+					"top": 0,
+					"left": 116,
+					"height": 21
+				},
+				"Line7": {
+					"type": "line",
+					"top": 21,
+					"left": 0,
+					"width": 201
+				},
+				"Line8": {
+					"type": "line",
+					"top": 22,
+					"left": 61,
+					"height": 21,
+					"stroke": "#AAAAAA"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 22,
+					"left": 116,
+					"height": 21,
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": -2,
+					"left": -2,
+					"width": 205,
+					"height": 48,
+					"fill": "transparent"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 42,
+					"left": 0,
+					"width": 201,
+					"stroke": "#AAAAAA"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 3,
+					"left": 3,
+					"width": 56,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "raised",
+					"text": "Handlers"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 3,
+					"left": 65,
+					"width": 49,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "raised",
+					"text": "Multiple"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 3,
+					"left": 120,
+					"width": 79,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "raised",
+					"text": "CheckInterval"
+				},
+				"Handlers": {
+					"type": "input",
+					"top": 25,
+					"left": 3,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[WEBSETUP_4D:129]Handlers:1",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Multiple": {
+					"type": "input",
+					"top": 25,
+					"left": 65,
+					"width": 49,
+					"height": 15,
+					"dataSource": "[WEBSETUP_4D:129]Multiple:2",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CheckInterval": {
+					"type": "input",
+					"top": 25,
+					"left": 120,
+					"width": 79,
+					"height": 15,
+					"dataSource": "[WEBSETUP_4D:129]CheckInterval:3",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,232 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"top": 421,
+					"left": 351,
+					"width": 130,
+					"height": 22,
+					"dataSource": "Bexit",
+					"action": "cancel",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTesterbutton": {
+					"type": "button",
+					"top": 421,
+					"left": 34,
+					"width": 130,
+					"height": 22,
+					"dataSource": "Btest",
+					"text": "Next text",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oTesterbutton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Alistbox": {
+					"type": "listbox",
+					"top": 25,
+					"left": 12,
+					"width": 463,
+					"height": 205,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "TestListbox",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"table": 39,
+					"highlightSet": "$ListboxSet0",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "[INVOICES:39]Invoice_Date:4",
+							"dataSourceTypeHint": "date",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"entryFilter": "!0&9##/##/##",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "[INVOICES:39]Invoice_Date:4",
+							"dataSourceTypeHint": "date",
+							"width": 328,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"oButton": {
+					"type": "button",
+					"top": 282,
+					"left": 351,
+					"width": 103,
+					"height": 42,
+					"dataSource": "BUT_t_Text",
+					"text": "Button",
+					"focusable": false,
+					"method": "ObjectMethods/oButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"otest": {
+					"type": "input",
+					"top": 273,
+					"left": 43,
+					"width": 304,
+					"height": 33,
+					"dataSource": "VAR_t_Test",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/otest.4dm",
+					"events": [
+						"onGettingFocus",
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"otest1": {
+					"type": "input",
+					"top": 326,
+					"left": 43,
+					"width": 304,
+					"height": 33,
+					"dataSource": "VAR_l_Test",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"otest2": {
+					"type": "input",
+					"top": 326,
+					"left": 351,
+					"width": 104,
+					"height": 33,
+					"dataSource": "VAR_l_Test2",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/otest2.4dm",
+					"events": [
+						"onGettingFocus",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

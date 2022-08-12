@@ -1,0 +1,712 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oTransactionsFromLabel": {
+					"type": "text",
+					"top": 42,
+					"left": 27,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Show Transactions from :"
+				},
+				"oTransactionsToLabel": {
+					"type": "text",
+					"top": 43,
+					"left": 288,
+					"width": 32,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "to :"
+				},
+				"oImport": {
+					"type": "button",
+					"top": 392,
+					"left": 62,
+					"width": 92,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "ACC_but_Import",
+					"text": "Import",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oImport.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oImport1": {
+					"type": "button",
+					"top": 392,
+					"left": 208,
+					"width": 132,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Edit Import Settings",
+					"text": "Edit Preferences",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oImport1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDropDownStartDate1": {
+					"type": "dropdown",
+					"top": 11,
+					"left": 181,
+					"width": 135,
+					"height": 23,
+					"dataSource": "ACC_at_BankAccountCodes",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oDropDownStartDate1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oBankAccountLabel": {
+					"type": "text",
+					"top": 14,
+					"left": 41,
+					"width": 136,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Show bank account :"
+				},
+				"oSelectedAccountCode": {
+					"type": "input",
+					"top": 15,
+					"left": 188,
+					"width": 128,
+					"height": 16,
+					"dataSource": "ABC_t_AccountCode",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"entryFilter": "",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddNewAccount": {
+					"type": "button",
+					"top": 12,
+					"left": 330,
+					"width": 114,
+					"height": 19,
+					"dataSource": "ABC_but_NewAccount",
+					"text": "Add Account",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddNewAccount.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 392,
+					"left": 750,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ABC_l_Continue",
+					"text": "Continue",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPopupDateFrom": {
+					"type": "subform",
+					"top": 43,
+					"left": 271,
+					"width": 19,
+					"height": 16,
+					"dataSource": "ACC_D_TransactsFromPick",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oPopupDateFrom.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"oPopupDateTo": {
+					"type": "subform",
+					"top": 43,
+					"left": 416,
+					"width": 19,
+					"height": 16,
+					"dataSource": "ACC_D_TransactsToPick",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oPopupDateTo.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"oTransactionsDateTo": {
+					"type": "input",
+					"top": 43,
+					"left": 332,
+					"width": 77,
+					"height": 15,
+					"dataSource": "ACC_D_TransactsTo",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oTransactionsDateTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTransactionsDateFrom": {
+					"type": "input",
+					"top": 43,
+					"left": 187,
+					"width": 77,
+					"height": 15,
+					"dataSource": "ACC_D_TransactsFrom",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oTransactionsDateFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFilterReconcilled": {
+					"type": "checkbox",
+					"top": 46,
+					"left": 453,
+					"width": 189,
+					"height": 13,
+					"dataSource": "ABC_bo_unReconcilled",
+					"text": "Filter out reconcilled lines",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oFilterReconcilled.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBankTransactions": {
+					"type": "listbox",
+					"top": 73,
+					"left": 5,
+					"width": 828,
+					"height": 308,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "ACC_lb_Transactions",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"table": 198,
+					"highlightSet": "ListboxSet0",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oBankTransactions.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_Account_Number:2",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange",
+								"onHeaderClick"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Account Code",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_TransactionDate:5",
+							"dataSourceTypeHint": "date",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Date",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_TransactionType:6",
+							"width": 50,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Type",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_Transaction_Details:7",
+							"width": 350,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Description",
+								"dataSource": "Header4",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_DebitAmount:8",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Debit Amount",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column6",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_CreditAmount:9",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Credit Amount",
+								"dataSource": "Header6",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column7",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_Balance:10",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Account Balance",
+								"dataSource": "Header7",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column8",
+							"dataSource": "[ACC_Bank_Statements:198]Bank_ReconciledAmount:11",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Reconcilled Amount",
+								"dataSource": "Header8",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"obuttonConfig": {
+					"type": "button",
+					"top": 386,
+					"left": 13,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_45",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/DB_SetupColumns"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/config_tools.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/obuttonConfig.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonContinue1": {
+					"type": "button",
+					"top": 405,
+					"left": 0,
+					"width": 3,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "ABC_l_Continue",
+					"shortcutKey": "w",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/oButtonContinue1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddStatementButton": {
+					"type": "button",
+					"top": 386,
+					"left": 161,
+					"width": 35,
+					"height": 35,
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_add.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddStatementButton.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

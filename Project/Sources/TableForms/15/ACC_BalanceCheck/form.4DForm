@@ -1,0 +1,658 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 339,
+					"left": 54,
+					"width": 211,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#C0C0C0"
+				},
+				"oAccountBalancesCheckGroup": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 1,
+					"width": 348,
+					"height": 449,
+					"stroke": "#005F60",
+					"class": "Headers",
+					"text": "ACCOUNT BALANCES CHECK"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 282,
+					"left": 53,
+					"width": 211,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#C0C0C0"
+				},
+				"oCheckExistanceCB": {
+					"type": "checkbox",
+					"top": 41,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_CheckExistance",
+					"text": "Check for missing balances",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCheckExistanceCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCreateExistanceCB": {
+					"type": "checkbox",
+					"top": 62,
+					"left": 79,
+					"width": 181,
+					"height": 15,
+					"dataSource": "ACC_l_CreateExistance",
+					"text": "Create missing balances",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCreateExistanceCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckDuplicatesCB": {
+					"type": "checkbox",
+					"top": 94,
+					"left": 55,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_CheckDuplicates",
+					"text": "Check for Duplicate Balances",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCheckDuplicatesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDeleteDuplicatesCB": {
+					"type": "checkbox",
+					"top": 115,
+					"left": 103,
+					"width": 156,
+					"height": 12,
+					"dataSource": "ACC_l_DeleteDuplicates",
+					"text": "Delete Duplicates",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oDeleteDuplicatesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oMonthlyDetailCB": {
+					"type": "checkbox",
+					"top": 136,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_MonthlyDetail",
+					"text": "Report Period Balances",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCorrectBalancesCB": {
+					"type": "checkbox",
+					"top": 162,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_CorrectBalances",
+					"text": "Correct Account Balances",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAllPeriodsCB": {
+					"type": "checkbox",
+					"top": 186,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_AllPeriods",
+					"text": "Check All accounting Periods",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAllPeriodsCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodStart": {
+					"type": "input",
+					"top": 207,
+					"left": 84,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_PeriodStart",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodStart.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodEnd": {
+					"type": "input",
+					"top": 206,
+					"left": 187,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_PeriodEnd",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodEnd.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAllAccountsCB": {
+					"type": "checkbox",
+					"top": 236,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_AllAccounts",
+					"text": "Check all accounts",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAllAccountsCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountStart": {
+					"type": "input",
+					"top": 259,
+					"left": 87,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_AccountStart",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountStart.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountEnd": {
+					"type": "input",
+					"top": 259,
+					"left": 187,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_AccountEnd",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountEnd.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAllLayersCB": {
+					"type": "checkbox",
+					"top": 285,
+					"left": 56,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_AllLayers",
+					"text": "Check all Layers",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAllLayersCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLayerStart": {
+					"type": "input",
+					"top": 305,
+					"left": 87,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_LayerStart",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLayerStart.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLayerEnd": {
+					"type": "input",
+					"top": 305,
+					"left": 187,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_LayerEnd",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLayerEnd.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisisnoAutoAtCB": {
+					"type": "checkbox",
+					"top": 324,
+					"left": 126,
+					"width": 134,
+					"height": 12,
+					"dataSource": "ACC_l_AnalysisnoAutoat",
+					"text": "No Auto wildcard",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAnalysisisnoAutoAtCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAllAnalysisCB": {
+					"type": "checkbox",
+					"top": 344,
+					"left": 57,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_AllAnalysis",
+					"text": "Check all Analysis",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oAllAnalysisCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisStart": {
+					"type": "input",
+					"top": 362,
+					"left": 87,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_AnalysisStart",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAnalysisStart.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisEnd": {
+					"type": "input",
+					"top": 362,
+					"left": 187,
+					"width": 74,
+					"height": 14,
+					"dataSource": "ACC_t_AnalysisEnd",
+					"class": "Fields",
+					"textAlign": "left",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAnalysisEnd.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLayerNoAutoatCB": {
+					"type": "checkbox",
+					"top": 380,
+					"left": 127,
+					"width": 134,
+					"height": 12,
+					"dataSource": "ACC_l_layernoAutoat",
+					"text": "No Auto wildcard",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oLayerNoAutoatCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 418,
+					"left": 114,
+					"width": 103,
+					"height": 22,
+					"dataSource": "BCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 418,
+					"left": 232,
+					"width": 103,
+					"height": 22,
+					"dataSource": "BOK",
+					"shortcutKey": "[Return]",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oToLabel1": {
+					"type": "text",
+					"top": 206,
+					"left": 166,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "to"
+				},
+				"oOrLabel1": {
+					"type": "text",
+					"top": 207,
+					"left": 59,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "or"
+				},
+				"oToLabel2": {
+					"type": "text",
+					"top": 259,
+					"left": 166,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "to"
+				},
+				"oOrLabel2": {
+					"type": "text",
+					"top": 260,
+					"left": 59,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "or"
+				},
+				"oOrdLabel3": {
+					"type": "text",
+					"top": 306,
+					"left": 59,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "or"
+				},
+				"oOrdLabel4": {
+					"type": "text",
+					"top": 362,
+					"left": 59,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "or"
+				},
+				"oToLabel3": {
+					"type": "text",
+					"top": 306,
+					"left": 166,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "to"
+				},
+				"oToLabel4": {
+					"type": "text",
+					"top": 362,
+					"left": 166,
+					"width": 26,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "to"
+				},
+				"oButtonCancelEscape": {
+					"type": "button",
+					"top": 419,
+					"left": 114,
+					"width": 103,
+					"height": 19,
+					"dataSource": "BCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oButtonCancelEscape.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinueEnter": {
+					"type": "button",
+					"top": 419,
+					"left": 233,
+					"width": 101,
+					"height": 20,
+					"dataSource": "BOK",
+					"shortcutKey": "[Enter]",
+					"text": "Continue",
+					"display": false,
+					"method": "ObjectMethods/oButtonContinueEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 44,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

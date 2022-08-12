@@ -1,0 +1,236 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oSubjectLabelP1": {
+					"type": "text",
+					"top": 9,
+					"left": 9,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Title"
+				},
+				"oSubjectP1": {
+					"type": "input",
+					"top": 10,
+					"left": 101,
+					"width": 404,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[DIARY:12]Subject:63",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSubjectP1.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryDetailsTEXTP1": {
+					"type": "input",
+					"top": 50,
+					"left": 98,
+					"width": 394,
+					"height": 188,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DiaryDetailsTXT",
+					"class": "Fields",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultLabelP1": {
+					"type": "text",
+					"top": 30,
+					"left": 45,
+					"width": 53,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Outcome"
+				},
+				"oDiaryResultNamePopUpP1": {
+					"type": "dropdown",
+					"top": 28,
+					"left": 253,
+					"width": 24,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_at_ResultNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oDiaryResultNamePopUpP1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryResultP1": {
+					"type": "input",
+					"top": 30,
+					"left": 100,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Result_Code:11",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultNameP1": {
+					"type": "input",
+					"top": 30,
+					"left": 139,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_t_SELResultName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDiaryOwnerButtonP1": {
+					"type": "button",
+					"top": 2,
+					"left": 4,
+					"width": 28,
+					"height": 28,
+					"dataSource": "BPeople",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/OSXdiaryowners.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oDiaryOwnerButtonP1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryLinksButtonP1": {
+					"type": "button",
+					"top": 33,
+					"left": 4,
+					"width": 28,
+					"height": 28,
+					"dataSource": "BLinks",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/OSX DiaryLink.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oDiaryLinksButtonP1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,369 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 32,
+	"markerBreak": 32,
+	"markerFooter": 32,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 18,
+					"left": 226,
+					"width": 116,
+					"height": 12,
+					"dataSource": "QV_al_ListItemsTR",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 18,
+					"left": 3,
+					"width": 107,
+					"height": 12,
+					"dataSource": "[INFORMATION:55]QualityRecordID:16",
+					"dataSourceTypeHint": "integer",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 1,
+					"left": 2,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "Record ID"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 18,
+					"left": 114,
+					"width": 107,
+					"height": 12,
+					"dataSource": "[INFORMATION:55]QualityID:14",
+					"dataSourceTypeHint": "integer",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 1,
+					"left": 115,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "QualityID"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 1,
+					"left": 228,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "List Item Value"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 3,
+					"left": 599,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "Subgroup Value"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 18,
+					"left": 586,
+					"width": 107,
+					"height": 12,
+					"dataSource": "[INFORMATION:55]SubGroup:6",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 3,
+					"left": 700,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "Group ID"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 18,
+					"left": 697,
+					"width": 107,
+					"height": 12,
+					"dataSource": "[INFORMATION:55]QualityGroupID:15",
+					"dataSourceTypeHint": "integer",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 18,
+					"left": 807,
+					"width": 116,
+					"height": 12,
+					"dataSource": "QV_GroupListItemSTR",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 1,
+					"left": 809,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "List Item Value"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 3,
+					"left": 941,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "group Value"
+				},
+				"Field5": {
+					"type": "input",
+					"top": 18,
+					"left": 928,
+					"width": 107,
+					"height": 12,
+					"dataSource": "[INFORMATION:55]Group:2",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 2,
+					"left": 361,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "Group Name"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 2,
+					"left": 1044,
+					"width": 110,
+					"height": 12,
+					"class": "Default",
+					"text": "IS CORRECT GROUP?"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 18,
+					"left": 1040,
+					"width": 116,
+					"height": 12,
+					"dataSource": "QV_GroupListItemSTR4",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 18,
+					"left": 346,
+					"width": 116,
+					"height": 12,
+					"dataSource": "QV_t_GroupListItemSTR2",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 2,
+					"left": 481,
+					"width": 70,
+					"height": 12,
+					"class": "Default",
+					"text": "Group IN LIST"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 18,
+					"left": 466,
+					"width": 116,
+					"height": 12,
+					"dataSource": "QV_t_GroupListItemSTR3",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

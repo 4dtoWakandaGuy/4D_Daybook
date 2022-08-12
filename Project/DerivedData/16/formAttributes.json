@@ -1,0 +1,19 @@
+{
+	"forms": {
+		"dProgress0": {
+			"timeStamp": "2022-03-10T16:49:18.530Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:18.529Z",
+			"destination": "listScreen"
+		},
+		"dStatsView_Mess": {
+			"timeStamp": "2022-03-10T16:49:18.531Z",
+			"destination": "detailScreen"
+		},
+		"Files_List": {
+			"timeStamp": "2022-03-10T16:49:18.532Z"
+		}
+	}
+}

@@ -1,0 +1,250 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBDeliveryQuantities": {
+					"type": "listbox",
+					"top": 74,
+					"left": 26,
+					"width": 518,
+					"height": 209,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_ExpectedQuantities",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBDeliveryQuantities.4dm",
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 503,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 11,
+					"left": 26,
+					"width": 198,
+					"height": 14,
+					"class": "Labels",
+					"text": "Review Expected Delivery Quantities"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 30,
+					"left": 29,
+					"width": 145,
+					"height": 14,
+					"class": "Labels",
+					"text": "Delivery Reference"
+				},
+				"oDeliveryReference": {
+					"type": "input",
+					"top": 30,
+					"left": 129,
+					"width": 143,
+					"height": 13,
+					"dataSource": "Stk_t_DeliveryReference",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 30,
+					"left": 300,
+					"width": 145,
+					"height": 14,
+					"class": "Labels",
+					"text": "Expected Date"
+				},
+				"oDeliveryDate": {
+					"type": "input",
+					"top": 30,
+					"left": 378,
+					"width": 143,
+					"height": 13,
+					"dataSource": "Stk_D_DeliveryDate",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 57,
+					"left": 26,
+					"width": 319,
+					"height": 14,
+					"class": "Labels",
+					"text": "Change The expected quantities below..."
+				},
+				"Text4": {
+					"type": "text",
+					"top": 286,
+					"left": 29,
+					"width": 455,
+					"height": 14,
+					"sizingY": "move",
+					"class": "LabelsItalic",
+					"text": "Stock items will be adjusted to split the expected quantity and the remainder"
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 315,
+					"left": 464,
+					"width": 69,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButtonContinue",
+					"text": "Accept",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 315,
+					"left": 387,
+					"width": 67,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButtonCancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonReceiv": {
+					"type": "checkbox",
+					"top": 315,
+					"left": 21,
+					"width": 147,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButtonReceive",
+					"text": "Enter Stock Receipt",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oButtonReceiv.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

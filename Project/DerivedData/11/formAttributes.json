@@ -1,0 +1,37 @@
+{
+	"forms": {
+		"dAsk_Function": {
+			"timeStamp": "2022-03-17T19:25:49.956Z"
+		},
+		"Diary_View": {
+			"timeStamp": "2022-04-13T14:13:55.731Z",
+			"destination": "detailScreen"
+		},
+		"PER_DiarySetup": {
+			"timeStamp": "2022-03-12T12:22:52.854Z",
+			"destination": "detailScreen"
+		},
+		"Diary_ViewAG": {
+			"timeStamp": "2022-04-13T14:14:10.475Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:16.047Z",
+			"destination": "listScreen"
+		},
+		"Personnel_In": {
+			"timeStamp": "2022-06-02T09:10:10.127Z"
+		},
+		"Personnel_Out": {
+			"timeStamp": "2022-03-10T16:49:16.025Z",
+			"destination": "listScreen"
+		},
+		"Pipeline_Manager": {
+			"timeStamp": "2022-03-10T16:49:16.043Z",
+			"destination": "detailScreen"
+		},
+		"Ask_Person": {
+			"timeStamp": "2022-03-10T16:49:15.871Z"
+		}
+	}
+}

@@ -1,0 +1,153 @@
+{
+	"forms": {
+		"Form_DT": {
+			"timeStamp": "2022-03-10T16:49:20.448Z",
+			"destination": "detailPrinter"
+		},
+		"ScrRep_Det": {
+			"timeStamp": "2022-03-10T16:49:20.580Z"
+		},
+		"VAT_101_Det": {
+			"timeStamp": "2022-03-10T16:49:20.584Z"
+		},
+		"Form": {
+			"timeStamp": "2022-03-10T16:49:20.440Z"
+		},
+		"Invoice_In": {
+			"timeStamp": "2022-04-25T13:03:09.018Z",
+			"destination": "detailScreen"
+		},
+		"Invoice_InP": {
+			"timeStamp": "2022-06-02T09:10:10.383Z",
+			"destination": "detailScreen"
+		},
+		"Invoices_Pay": {
+			"timeStamp": "2022-03-10T16:49:20.566Z",
+			"destination": "listScreen"
+		},
+		"dPayment_Curr": {
+			"timeStamp": "2022-03-10T16:49:20.425Z"
+		},
+		"Invoices_AD": {
+			"timeStamp": "2022-03-10T16:49:20.495Z"
+		},
+		"INVFormSub2_VT": {
+			"timeStamp": "2022-03-10T16:49:20.480Z",
+			"destination": "detailScreen"
+		},
+		"dask_Invoices": {
+			"timeStamp": "2022-03-10T16:49:20.601Z",
+			"destination": "detailScreen"
+		},
+		"Inv_StateSub": {
+			"timeStamp": "2022-03-10T16:49:20.474Z"
+		},
+		"Inv_Statesubwdetail": {
+			"timeStamp": "2022-03-10T16:49:20.476Z",
+			"destination": "listPrinter"
+		},
+		"dScreenReport": {
+			"timeStamp": "2022-06-02T08:28:45.555Z",
+			"destination": "detailScreen"
+		},
+		"dInv_Sel": {
+			"timeStamp": "2022-04-16T03:28:05.481Z"
+		},
+		"Form_DT2_Header": {
+			"timeStamp": "2022-03-10T16:49:20.458Z",
+			"destination": "detailScreen"
+		},
+		"VAT_101_Hdr": {
+			"timeStamp": "2022-03-24T11:12:14.782Z",
+			"destination": "detailPrinter"
+		},
+		"Form2_Footer": {
+			"timeStamp": "2022-03-10T16:49:20.464Z",
+			"destination": "detailScreen"
+		},
+		"Invoices_Out": {
+			"timeStamp": "2022-03-10T16:49:20.558Z",
+			"destination": "listScreen"
+		},
+		"Invoices_List": {
+			"timeStamp": "2022-03-10T16:49:20.547Z"
+		},
+		"dPayment": {
+			"timeStamp": "2022-03-24T10:46:19.864Z"
+		},
+		"ScrRep_Hdr": {
+			"timeStamp": "2022-03-10T16:49:20.583Z",
+			"destination": "listPrinter"
+		},
+		"Receipt_Rem": {
+			"timeStamp": "2022-03-10T16:49:20.578Z",
+			"destination": "detailPrinter"
+		},
+		"Inv_StateOA_Sub": {
+			"timeStamp": "2022-03-10T16:49:20.472Z"
+		},
+		"Inv_State_SubDetail": {
+			"timeStamp": "2022-03-10T16:49:20.471Z",
+			"destination": "listPrinter"
+		},
+		"Inv_StateSubBLANK": {
+			"timeStamp": "2022-03-10T16:49:20.475Z",
+			"destination": "listPrinter"
+		},
+		"Invoices_Day_NEW": {
+			"timeStamp": "2022-03-10T16:49:20.595Z",
+			"destination": "detailScreen"
+		},
+		"Invoices_Day": {
+			"timeStamp": "2022-03-10T16:49:20.502Z",
+			"destination": "listPrinter"
+		},
+		"INVFormSub2": {
+			"timeStamp": "2022-03-10T16:49:20.478Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.356Z",
+			"destination": "listScreen"
+		},
+		"Form2_Header": {
+			"timeStamp": "2022-03-10T16:49:20.469Z",
+			"destination": "detailScreen"
+		},
+		"VAT_101_Ftr2": {
+			"timeStamp": "2022-03-24T11:12:14.709Z"
+		},
+		"Form_DT2_Footer": {
+			"timeStamp": "2022-03-10T16:49:20.453Z",
+			"destination": "detailPrinter"
+		},
+		"VAT_101_Ftr": {
+			"timeStamp": "2022-03-10T16:49:20.585Z"
+		},
+		"ScrRep_Ftr": {
+			"timeStamp": "2022-03-10T16:49:20.581Z"
+		},
+		"SRCH_SetContextualDateHL": {
+			"timeStamp": "2022-03-10T16:49:20.602Z",
+			"destination": "detailScreen"
+		},
+		"dPaymentReconcile": {
+			"timeStamp": "2022-03-10T16:49:20.428Z",
+			"destination": "detailScreen"
+		},
+		"INVOICES_LIST_85": {
+			"timeStamp": "2022-03-10T16:49:20.574Z",
+			"destination": "detailPrinter"
+		},
+		"Delivery_Note": {
+			"timeStamp": "2022-03-10T16:49:20.369Z",
+			"destination": "detailPrinter"
+		},
+		"dAllocation": {
+			"timeStamp": "2022-03-10T16:49:20.364Z"
+		},
+		"VAT_101A_Hdr": {
+			"timeStamp": "2022-03-10T16:49:20.590Z"
+		}
+	}
+}

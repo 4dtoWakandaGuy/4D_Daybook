@@ -1,0 +1,105 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 15,
+	"markerBreak": 16,
+	"markerFooter": 16,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 48,
+					"height": 15,
+					"fill": "#DDDDDD",
+					"stroke": "#DDDDDD"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 14,
+					"left": 0,
+					"width": 48,
+					"stroke": "#FFFFFF"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 15,
+					"left": 0,
+					"width": 48,
+					"stroke": "#444444"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 1,
+					"left": 2,
+					"width": 44,
+					"height": 12,
+					"dataSource": "[PERSONNEL_DIARY_ACCESS:149]Person:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "#DDDDDD",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 0,
+					"height": 15,
+					"stroke": "#444444"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oCurrentStock": {
+					"type": "listbox",
+					"top": 34,
+					"left": 3,
+					"width": 616,
+					"height": 391,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_CurrentStock",
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oCurrentStock.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 601,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oExit": {
+					"type": "button",
+					"top": 435,
+					"left": 548,
+					"width": 68,
+					"height": 21,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oExit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSTK_CopyProduct": {
+					"type": "button",
+					"top": 433,
+					"left": 7,
+					"width": 173,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "STK_l_CopyToPurchase",
+					"text": "Copy Highlighted Lines",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oSTK_CopyProduct.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 440,
+					"left": 192,
+					"width": 238,
+					"height": 14,
+					"sizingY": "move",
+					"class": "LabelsItalic",
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Hold down the Alt key to drag multiple lines"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

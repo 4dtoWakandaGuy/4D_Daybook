@@ -1,0 +1,1062 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBPrintObjects": {
+					"type": "listbox",
+					"top": 521,
+					"left": 152,
+					"width": 695,
+					"height": 81,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "PRT_lb_ListboxPrintObjects",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 680,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 12,
+					"left": 13,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Label size to use"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 46,
+					"left": 13,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Printer Reel"
+				},
+				"oPrintTray": {
+					"type": "dropdown",
+					"top": 43,
+					"left": 141,
+					"width": 220,
+					"height": 20,
+					"dataSource": "PRT_at_PrintTrayOptions",
+					"class": "Fields",
+					"method": "ObjectMethods/oPrintTray.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLabelTemplate": {
+					"type": "dropdown",
+					"top": 11,
+					"left": 141,
+					"width": 220,
+					"height": 18,
+					"dataSource": "PRT_at_LabelTemplate",
+					"class": "Fields",
+					"method": "ObjectMethods/oLabelTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 80,
+					"left": 13,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Orientation"
+				},
+				"oPrintOrientation": {
+					"type": "dropdown",
+					"top": 77,
+					"left": 141,
+					"width": 220,
+					"height": 20,
+					"dataSource": "PRT_at_PrintOrientation",
+					"class": "Fields",
+					"method": "ObjectMethods/oPrintOrientation.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 109,
+					"left": 13,
+					"width": 121,
+					"height": 29,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Default Number of copies"
+				},
+				"oVarDefaultCopies": {
+					"type": "input",
+					"top": 114,
+					"left": 144,
+					"width": 55,
+					"height": 14,
+					"dataSource": "PRT_l_NumberofCopies",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 142,
+					"left": 16,
+					"width": 120,
+					"height": 49,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "(Optional) Fomula to calculate number of copies"
+				},
+				"oVarFormulaCopies": {
+					"type": "input",
+					"top": 148,
+					"left": 144,
+					"width": 95,
+					"height": 14,
+					"dataSource": "PRT_T_CalcuateNumberofCopies",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 143,
+					"left": 247,
+					"width": 183,
+					"height": 28,
+					"class": "Labels",
+					"textAlign": "center",
+					"text": "* to have the user asked how many copies put ASK in the formula"
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 183,
+					"left": 145,
+					"width": 296,
+					"height": 15,
+					"dataSource": "PRT_bo_IncludeCount",
+					"text": "Include Label Counter",
+					"class": "Labels",
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 204,
+					"left": 13,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Counter Settings"
+				},
+				"oCounterFormula": {
+					"type": "input",
+					"top": 218,
+					"left": 245,
+					"width": 367,
+					"height": 14,
+					"dataSource": "PRT_T_CounterFormula",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 241,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Text Before Counter"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 204,
+					"left": 152,
+					"width": 88,
+					"height": 28,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "(Optional) Counter Formula"
+				},
+				"oCounterFormula1": {
+					"type": "input",
+					"top": 239,
+					"left": 245,
+					"width": 367,
+					"height": 14,
+					"dataSource": "PRT_T_CounterBefore",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 261,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Text After Counter"
+				},
+				"oCounterFormula2": {
+					"type": "input",
+					"top": 260,
+					"left": 245,
+					"width": 367,
+					"height": 14,
+					"dataSource": "PRT_T_CounterAfter",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 281,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Leading Zeros"
+				},
+				"oCounterLeadingZeros": {
+					"type": "input",
+					"top": 281,
+					"left": 245,
+					"width": 20,
+					"height": 14,
+					"dataSource": "PRT_l_CounterLeadingZeros",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 302,
+					"left": 447,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Counter Object Witdth"
+				},
+				"oCounterobjectWIdth": {
+					"type": "input",
+					"top": 302,
+					"left": 572,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_CounterobjectWidth",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 324,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Starting Value"
+				},
+				"oCounterobjectWIdth1": {
+					"type": "input",
+					"top": 324,
+					"left": 245,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_CounterStartingValue",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text14": {
+					"type": "text",
+					"top": 344,
+					"left": 118,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Increment Value"
+				},
+				"oCounterobjectWIdth2": {
+					"type": "input",
+					"top": 344,
+					"left": 245,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_CounterIncrementValue",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 367,
+					"left": 144,
+					"width": 296,
+					"height": 15,
+					"dataSource": "PRT_bo_IncludeDateTime",
+					"text": "Include Date(and Time)",
+					"class": "Labels",
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 390,
+					"left": 13,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date & Time Settings"
+				},
+				"oDateTime": {
+					"type": "checkbox",
+					"top": 389,
+					"left": 154,
+					"width": 296,
+					"height": 15,
+					"dataSource": "PRT_bo_IncludeTime",
+					"text": "Include Time",
+					"class": "Labels",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDateTime24Hr": {
+					"type": "checkbox",
+					"top": 408,
+					"left": 154,
+					"width": 296,
+					"height": 15,
+					"dataSource": "PRT_bo_TwentyFour",
+					"text": "Use 24hr time format",
+					"class": "Labels",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 426,
+					"left": 115,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Text Before Date"
+				},
+				"ooDateTimeFormula": {
+					"type": "input",
+					"top": 424,
+					"left": 241,
+					"width": 371,
+					"height": 14,
+					"dataSource": "PRT_T_DateBefore",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text17": {
+					"type": "text",
+					"top": 446,
+					"left": 115,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Text After Date"
+				},
+				"oDateTimeFormula1": {
+					"type": "input",
+					"top": 445,
+					"left": 241,
+					"width": 371,
+					"height": 14,
+					"dataSource": "PRT_T_DateAfter",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text18": {
+					"type": "text",
+					"top": 466,
+					"left": 115,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date Format"
+				},
+				"oDateTimeFormat": {
+					"type": "dropdown",
+					"top": 463,
+					"left": 241,
+					"width": 220,
+					"height": 20,
+					"dataSource": "PRT_at_DateFormat",
+					"class": "Fields",
+					"method": "ObjectMethods/oDateTimeFormat.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text19": {
+					"type": "text",
+					"top": 531,
+					"left": 0,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Data Objects"
+				},
+				"oAddObject": {
+					"type": "button",
+					"top": 550,
+					"left": 112,
+					"width": 22,
+					"height": 22,
+					"dataSource": "bPlus",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oAddObject.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 696,
+					"left": 764,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ABC_l_Continue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue1": {
+					"type": "button",
+					"top": 696,
+					"left": 661,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ABC_l_Continue",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonContinue1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 303,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Counter Object Left"
+				},
+				"oCounterobjectWIdth3": {
+					"type": "input",
+					"top": 303,
+					"left": 245,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_CounterobjectLeft",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text21": {
+					"type": "text",
+					"top": 303,
+					"left": 291,
+					"width": 101,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Counter Object top"
+				},
+				"oCounterobjectTop": {
+					"type": "input",
+					"top": 303,
+					"left": 406,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_CounterobjectTop",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text22": {
+					"type": "text",
+					"top": 493,
+					"left": 119,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date Object Left"
+				},
+				"oDateTimeLeft": {
+					"type": "input",
+					"top": 493,
+					"left": 245,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_DateLeft",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text23": {
+					"type": "text",
+					"top": 493,
+					"left": 300,
+					"width": 101,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date Object top"
+				},
+				"oDateTimeTop": {
+					"type": "input",
+					"top": 493,
+					"left": 406,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_DateTop",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text24": {
+					"type": "text",
+					"top": 493,
+					"left": 447,
+					"width": 121,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date Object width"
+				},
+				"oDateTimeWidth": {
+					"type": "input",
+					"top": 493,
+					"left": 572,
+					"width": 40,
+					"height": 14,
+					"dataSource": "PRT_l_DateWidth",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 630,
+					"left": 11,
+					"width": 445,
+					"height": 13,
+					"class": "Field_INFOS",
+					"text": "Note: The order of items above is not significant: the positions of the objects is more significant"
+				},
+				"Text25": {
+					"type": "text",
+					"top": 688,
+					"left": 11,
+					"width": 525,
+					"height": 13,
+					"class": "Field_INFOS",
+					"text": "Note: Images. The Object name should resolve to a document path. Use a macro to create a document on disc"
+				},
+				"oAddObject1": {
+					"type": "button",
+					"top": 578,
+					"left": 112,
+					"width": 22,
+					"height": 22,
+					"dataSource": "bPlus",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REMOVE.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oAddObject1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text26": {
+					"type": "text",
+					"top": 707,
+					"left": 11,
+					"width": 525,
+					"height": 13,
+					"class": "Field_INFOS",
+					"text": "Note: Macros. A macro should be called in the format Macro ResultTXT and put the value to be returned into vText"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 218,
+					"left": 619,
+					"width": 24,
+					"height": 15,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "*"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 242,
+					"left": 619,
+					"width": 24,
+					"height": 14,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "*"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 260,
+					"left": 619,
+					"width": 24,
+					"height": 14,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "*"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 424,
+					"left": 619,
+					"width": 24,
+					"height": 14,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "*"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 721,
+					"left": 212,
+					"width": 24,
+					"height": 14,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "*"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 651,
+					"left": 11,
+					"width": 457,
+					"height": 26,
+					"class": "Field_INFOS",
+					"text": "Note: All Fields marked *  and the data objects can have a formula. This cannot resolve statements like 'Relate one\" it must be a field, a variable or a call to a macro that returns a value"
+				},
+				"Invisible Button": {
+					"type": "button",
+					"top": 12,
+					"left": 49,
+					"width": 85,
+					"height": 14,
+					"dataSource": "Invisible Button",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCreateAppleScripts": {
+					"type": "checkbox",
+					"top": 602,
+					"left": 406,
+					"width": 448,
+					"height": 29,
+					"dataSource": "PRT_bo_CreateApplescripts",
+					"text": "Create Applescript Document(Does not get saved as a preference)",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

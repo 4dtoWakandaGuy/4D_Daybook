@@ -1,0 +1,386 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Accounting Periods",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 750,
+	"windowMaxWidth": 750,
+	"windowMinHeight": 420,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oFInancialYearsGroup": {
+					"type": "groupBox",
+					"top": 80,
+					"left": 9,
+					"width": 215,
+					"height": 372,
+					"sizingY": "grow",
+					"class": "Headers",
+					"text": "Financial Years"
+				},
+				"oAccountPeriodsGroup": {
+					"type": "groupBox",
+					"top": 139,
+					"left": 236,
+					"width": 492,
+					"height": 308,
+					"sizingY": "grow",
+					"class": "Headers",
+					"text": "Accounting Periods..."
+				},
+				"oButtonAddYear": {
+					"type": "button",
+					"top": 416,
+					"left": 129,
+					"width": 88,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BAddYear",
+					"text": "Add Year",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonAddYear.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCreatePeriod": {
+					"type": "button",
+					"top": 416,
+					"left": 582,
+					"width": 127,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BCreatePeriodsd",
+					"text": "Create Period",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCreatePeriod.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oYearFrom": {
+					"type": "input",
+					"top": 117,
+					"left": 294,
+					"width": 88,
+					"height": 14,
+					"dataSource": "Acc_D_SelectedYearStartDate",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dateFormat": "shortCentury",
+					"method": "ObjectMethods/oYearFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oYearTo": {
+					"type": "input",
+					"top": 117,
+					"left": 442,
+					"width": 88,
+					"height": 14,
+					"dataSource": "Acc_D_SelectedYearEndDate",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dateFormat": "shortCentury",
+					"method": "ObjectMethods/oYearTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oYearStartLabel": {
+					"type": "text",
+					"top": 117,
+					"left": 226,
+					"width": 64,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Year From :"
+				},
+				"oYeartoLabel": {
+					"type": "text",
+					"top": 117,
+					"left": 386,
+					"width": 51,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Year To :"
+				},
+				"oButtonCloseYear": {
+					"type": "button",
+					"top": 114,
+					"left": 540,
+					"width": 155,
+					"height": 19,
+					"dataSource": "BCloseFinancialYear",
+					"text": "Close Financial Year",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCloseYear.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAutoCreatePeriods": {
+					"type": "button",
+					"top": 416,
+					"left": 414,
+					"width": 161,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BCreatePeriods",
+					"text": "Auto-Create Periods",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oButtonAutoCreatePeriods.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodsHeader": {
+					"type": "text",
+					"top": 43,
+					"left": 7,
+					"width": 135,
+					"height": 12,
+					"stroke": "#DFFFFF",
+					"class": "Headers",
+					"text": "PERIODS"
+				},
+				"oLBYearIdents": {
+					"type": "listbox",
+					"top": 96,
+					"left": 9,
+					"width": 211,
+					"height": 315,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "YRP_lb_YearIdents",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"textAlign": "left",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBYearIdents.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 196,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "left",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBperiods": {
+					"type": "listbox",
+					"top": 159,
+					"left": 244,
+					"width": 473,
+					"height": 246,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "YRP_lb_ACCPERIODS",
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBperiods.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 458,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 22,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 71,
+	"markerBreak": 71,
+	"markerFooter": 81,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 16,
+					"left": 1,
+					"width": 159,
+					"height": 26,
+					"class": "Print_24pt_TIMES",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Diary Printout:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 18,
+					"left": 163,
+					"width": 296,
+					"height": 23,
+					"dataSource": "SD_t_PrintPerson",
+					"class": "Print_24pt_TIMES",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 45,
+					"left": 5,
+					"width": 155,
+					"height": 26,
+					"class": "Print_24pt_TIMES",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Date(s):"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 47,
+					"left": 163,
+					"width": 296,
+					"height": 23,
+					"dataSource": "SD_t_DiaryPrintDateRange",
+					"class": "Print_24pt_TIMES",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

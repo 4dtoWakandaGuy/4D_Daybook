@@ -1,0 +1,1608 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 19,
+	"markerBody": 43,
+	"markerBreak": 46,
+	"markerFooter": 46,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture28": {
+					"type": "picture",
+					"top": -5,
+					"left": 0,
+					"width": 7479,
+					"height": 24,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture28.png"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 24,
+					"width": 141,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Internal_Record_UUID : "
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 197,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelSysUUID : "
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 509,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelSysLinkedUUID : "
+				},
+				"S4_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 821,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExtractedGroupingUUID : "
+				},
+				"S5_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1133,
+					"width": 93,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventDate : "
+				},
+				"S6_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1258,
+					"width": 96,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventTime : "
+				},
+				"S7_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1386,
+					"width": 135,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventTimeStamp : "
+				},
+				"S8_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1553,
+					"width": 240,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelEventType : "
+				},
+				"S9_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1825,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerName : "
+				},
+				"S10_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2137,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerNumber : "
+				},
+				"S11_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2449,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelContactID : "
+				},
+				"S12_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2761,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCompanyID : "
+				},
+				"S13_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3073,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelPersonnelID : "
+				},
+				"S14_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3385,
+					"width": 97,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelActionClass : "
+				},
+				"S15_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3514,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDANI : "
+				},
+				"S16_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3826,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDRDNIS : "
+				},
+				"S17_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4138,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDDNID : "
+				},
+				"S18_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4450,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExecutingChannel : "
+				},
+				"S19_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4762,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelActionContext : "
+				},
+				"S20_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5074,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelAccountCode : "
+				},
+				"S21_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5386,
+					"width": 85,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelAMAFlags : "
+				},
+				"S22_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5503,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExecutingExtension : "
+				},
+				"S23_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5815,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExecutingApplication : "
+				},
+				"S24_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6127,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelApplicationData : "
+				},
+				"S25_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6439,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelPeer : "
+				},
+				"S26_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6751,
+					"width": 280,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelUserDefined : "
+				},
+				"S27_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 7063,
+					"width": 400,
+					"height": 17,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelEtxta : "
+				},
+				"Rectangle29": {
+					"type": "rectangle",
+					"top": 19,
+					"left": 0,
+					"width": 7479,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 24,
+					"width": 141,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Internal_Record_UUID:1",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 197,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelSysUUID:2",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 509,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelSysLinkedUUID:3",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 821,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExtractedGroupingUUID:4",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 1133,
+					"width": 93,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventDate:5",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S6_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 1258,
+					"width": 96,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventTime:6",
+					"dataSourceTypeHint": "time",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S7_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 1386,
+					"width": 135,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventTimeStamp:7",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S8_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 1553,
+					"width": 240,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelEventType:8",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S9_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 1825,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerName:9",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S10_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 2137,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerNumber:10",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S11_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 2449,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelContactID:11",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S12_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 2761,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCompanyID:12",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S13_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 3073,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelPersonnelID:13",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S14_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 3385,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelActionClass:14",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S15_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 3514,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDANI:15",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S16_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 3826,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDRDNIS:16",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S17_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 4138,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDDNID:17",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S18_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 4450,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExecutingChannel:18",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S19_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 4762,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelActionContext:19",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S20_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 5074,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelAccountCode:20",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S21_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 5386,
+					"width": 85,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelAMAFlags:21",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S22_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 5503,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExecutingExtension:22",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S23_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 5815,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExecutingApplication:23",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S24_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 6127,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelApplicationData:24",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S25_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 6439,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelPeer:25",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S26_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 6751,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelUserDefined:26",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S27_Field": {
+					"type": "input",
+					"top": 23,
+					"left": 7063,
+					"width": 400,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelEtxta:27",
+					"dataSourceTypeHint": "object",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line30": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Line31": {
+					"type": "line",
+					"top": -5,
+					"left": 7479,
+					"height": 48,
+					"sizingX": "move",
+					"stroke": "#A8A8A8"
+				},
+				"Line32": {
+					"type": "line",
+					"top": -5,
+					"left": 7047,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "button",
+					"top": -5,
+					"left": 7046,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line33": {
+					"type": "line",
+					"top": -5,
+					"left": 6735,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter3": {
+					"type": "button",
+					"top": -5,
+					"left": 6734,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line34": {
+					"type": "line",
+					"top": -5,
+					"left": 6423,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter4": {
+					"type": "button",
+					"top": -5,
+					"left": 6422,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line35": {
+					"type": "line",
+					"top": -5,
+					"left": 6111,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter5": {
+					"type": "button",
+					"top": -5,
+					"left": 6110,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line36": {
+					"type": "line",
+					"top": -5,
+					"left": 5799,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter6": {
+					"type": "button",
+					"top": -5,
+					"left": 5798,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line37": {
+					"type": "line",
+					"top": -5,
+					"left": 5487,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter7": {
+					"type": "button",
+					"top": -5,
+					"left": 5486,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line38": {
+					"type": "line",
+					"top": -5,
+					"left": 5370,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter8": {
+					"type": "button",
+					"top": -5,
+					"left": 5369,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line39": {
+					"type": "line",
+					"top": -5,
+					"left": 5058,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter9": {
+					"type": "button",
+					"top": -5,
+					"left": 5057,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line40": {
+					"type": "line",
+					"top": -5,
+					"left": 4746,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter10": {
+					"type": "button",
+					"top": -5,
+					"left": 4745,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line41": {
+					"type": "line",
+					"top": -5,
+					"left": 4434,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter11": {
+					"type": "button",
+					"top": -5,
+					"left": 4433,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line42": {
+					"type": "line",
+					"top": -5,
+					"left": 4122,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter12": {
+					"type": "button",
+					"top": -5,
+					"left": 4121,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line43": {
+					"type": "line",
+					"top": -5,
+					"left": 3810,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter13": {
+					"type": "button",
+					"top": -5,
+					"left": 3809,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line44": {
+					"type": "line",
+					"top": -5,
+					"left": 3498,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter14": {
+					"type": "button",
+					"top": -5,
+					"left": 3497,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line45": {
+					"type": "line",
+					"top": -5,
+					"left": 3369,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter15": {
+					"type": "button",
+					"top": -5,
+					"left": 3368,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line46": {
+					"type": "line",
+					"top": -5,
+					"left": 3057,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter16": {
+					"type": "button",
+					"top": -5,
+					"left": 3056,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line47": {
+					"type": "line",
+					"top": -5,
+					"left": 2745,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter17": {
+					"type": "button",
+					"top": -5,
+					"left": 2744,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line48": {
+					"type": "line",
+					"top": -5,
+					"left": 2433,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter18": {
+					"type": "button",
+					"top": -5,
+					"left": 2432,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line49": {
+					"type": "line",
+					"top": -5,
+					"left": 2121,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter19": {
+					"type": "button",
+					"top": -5,
+					"left": 2120,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line50": {
+					"type": "line",
+					"top": -5,
+					"left": 1809,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter20": {
+					"type": "button",
+					"top": -5,
+					"left": 1808,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line51": {
+					"type": "line",
+					"top": -5,
+					"left": 1537,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter21": {
+					"type": "button",
+					"top": -5,
+					"left": 1536,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line52": {
+					"type": "line",
+					"top": -5,
+					"left": 1370,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter22": {
+					"type": "button",
+					"top": -5,
+					"left": 1369,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line53": {
+					"type": "line",
+					"top": -5,
+					"left": 1242,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter23": {
+					"type": "button",
+					"top": -5,
+					"left": 1241,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line54": {
+					"type": "line",
+					"top": -5,
+					"left": 1117,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter24": {
+					"type": "button",
+					"top": -5,
+					"left": 1116,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line55": {
+					"type": "line",
+					"top": -5,
+					"left": 805,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter25": {
+					"type": "button",
+					"top": -5,
+					"left": 804,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line56": {
+					"type": "line",
+					"top": -5,
+					"left": 493,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter26": {
+					"type": "button",
+					"top": -5,
+					"left": 492,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line57": {
+					"type": "line",
+					"top": -5,
+					"left": 181,
+					"height": 48,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter27": {
+					"type": "button",
+					"top": -5,
+					"left": 180,
+					"width": 3,
+					"height": 48,
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

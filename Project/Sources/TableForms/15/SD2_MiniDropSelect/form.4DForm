@@ -1,0 +1,177 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oNameSelector": {
+					"type": "listbox",
+					"top": 2,
+					"left": 2,
+					"width": 268,
+					"height": 81,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_NameSelector",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Copperplate",
+					"fontSize": 12,
+					"method": "ObjectMethods/oNameSelector.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": []
+				},
+				"oDownArrow": {
+					"type": "button",
+					"top": 1,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_DownArrow",
+					"shortcutKey": "[down arrow]",
+					"display": false,
+					"method": "ObjectMethods/oDownArrow.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oUpArrow": {
+					"type": "button",
+					"top": 12,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_UpArrow",
+					"shortcutKey": "[up arrow]",
+					"display": false,
+					"method": "ObjectMethods/oUpArrow.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oReturnKey": {
+					"type": "button",
+					"top": 24,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_ReturnKey",
+					"shortcutKey": "[Return]",
+					"display": false,
+					"method": "ObjectMethods/oReturnKey.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oEnterKey": {
+					"type": "button",
+					"top": 34,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_EnterKey",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"method": "ObjectMethods/oEnterKey.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oEscapeKey": {
+					"type": "button",
+					"top": 45,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_EscapeKey",
+					"shortcutKey": "[Esc]",
+					"display": false,
+					"method": "ObjectMethods/oEscapeKey.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ocancelKey": {
+					"type": "button",
+					"top": 56,
+					"left": 276,
+					"width": 12,
+					"height": 10,
+					"dataSource": "SD2_but_cancelKey",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/ocancelKey.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

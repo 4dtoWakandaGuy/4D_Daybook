@@ -1,0 +1,1040 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowMinHeight": 317,
+	"rightMargin": 0,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oStrapHeader": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1,
+					"width": 532,
+					"height": 70,
+					"sizingX": "grow",
+					"fill": "#009900",
+					"stroke": "transparent"
+				},
+				"oStrapHeader1": {
+					"type": "rectangle",
+					"top": 37,
+					"left": 1,
+					"width": 532,
+					"height": 33,
+					"sizingX": "grow",
+					"fill": "#EEEEEE",
+					"stroke": "transparent"
+				},
+				"oCatalogueLabel": {
+					"type": "text",
+					"top": 11,
+					"left": 149,
+					"width": 150,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#FFFFFF",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Products from catalogue :"
+				},
+				"Variable1": {
+					"type": "dropdown",
+					"top": 10,
+					"left": 490,
+					"width": 16,
+					"height": 16,
+					"sizingX": "move",
+					"dataSource": "PROD_at_ViewableCatalogues",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSearchLabel": {
+					"type": "text",
+					"top": 48,
+					"left": 164,
+					"width": 130,
+					"height": 14,
+					"sizingX": "move",
+					"fill": "#EEEEEE",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Search :"
+				},
+				"oCopyhighlight": {
+					"type": "button",
+					"top": 280,
+					"left": 42,
+					"width": 184,
+					"height": 22,
+					"dataSource": "BCopytoOrder",
+					"shortcutKey": "Ç",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "Copy highlighted to order",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCopyhighlight.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCloseWindow": {
+					"type": "button",
+					"top": 280,
+					"left": 420,
+					"width": 114,
+					"height": 22,
+					"dataSource": "BClose",
+					"shortcutKey": "[Enter]",
+					"text": "Close Window",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCloseWindow.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCopyQuantities": {
+					"type": "button",
+					"top": 280,
+					"left": 231,
+					"width": 184,
+					"height": 22,
+					"dataSource": "BCopytoOrder",
+					"shortcutKey": "Ç",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "Copy quantities to order",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCopyQuantities.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCAT": {
+					"type": "listbox",
+					"top": 85,
+					"left": 15,
+					"width": 478,
+					"height": 185,
+					"resizingMode": "legacy",
+					"dataSource": "CAT_lb_Products",
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oCAT.4dm",
+					"events": [
+						"onClick",
+						"onSelectionChange",
+						"onRowMove"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 11,
+					"left": 309,
+					"width": 182,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "PROD_t_DisplayedCatalogue",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFocusRing": {
+					"type": "picture",
+					"top": 38,
+					"left": 298,
+					"width": 220,
+					"height": 32,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/oFocusRing.pict"
+				},
+				"oRoundArea1": {
+					"type": "picture",
+					"top": 38,
+					"left": 298,
+					"width": 220,
+					"height": 32,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/RoundArea.png"
+				},
+				"oSearchClearButton": {
+					"type": "button",
+					"top": 46,
+					"left": 490,
+					"width": 14,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "bCloseSearch",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CloseSearch.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchClearButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSearchCriteria": {
+					"type": "input",
+					"top": 47,
+					"left": 338,
+					"width": 146,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SearchCriteria",
+					"stroke": "#888888",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchCriteria.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSearchvalue": {
+					"type": "input",
+					"top": 47,
+					"left": 338,
+					"width": 150,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_T_SearchValue",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchvalue.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterKeystroke"
+					]
+				},
+				"oSearchCriteriaButton": {
+					"type": "button",
+					"top": 46,
+					"left": 314,
+					"width": 22,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "bSearch",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/MagnifyingGlass.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchCriteriaButton.4dm",
+					"events": [
+						"onLoad",
+						"onAlternateClick",
+						"onLongClick"
+					]
+				},
+				"oPicKey": {
+					"type": "input",
+					"top": 286,
+					"left": 11,
+					"width": 25,
+					"height": 12,
+					"dataSource": "PRD_pic_Extendinfo",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonKey": {
+					"type": "button",
+					"top": 285,
+					"left": 9,
+					"width": 29,
+					"height": 17,
+					"dataSource": "Prod_Lb_Extendinfo",
+					"display": false,
+					"method": "ObjectMethods/oButtonKey.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oPROD_T_DetailProdCodeLabel": {
+					"type": "input",
+					"top": 333,
+					"left": 99,
+					"width": 48,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_t_ProdDetmodelLabel",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailGBLabel": {
+					"type": "text",
+					"top": 333,
+					"left": 28,
+					"width": 70,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Grp/Brand/"
+				},
+				"oPROD_T_DetailGroupCode": {
+					"type": "input",
+					"top": 333,
+					"left": 151,
+					"width": 41,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_S20_ProdDetGROUP",
+					"class": "Fields",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailBrandCode": {
+					"type": "input",
+					"top": 333,
+					"left": 195,
+					"width": 41,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_S20_ProdDetBRAND",
+					"class": "Fields",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProductCode": {
+					"type": "input",
+					"top": 333,
+					"left": 239,
+					"width": 134,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_t_ProdDetMODEL",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProdNameLabel": {
+					"type": "text",
+					"top": 350,
+					"left": 51,
+					"width": 95,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oPROD_T_DetailProductName": {
+					"type": "input",
+					"top": 350,
+					"left": 151,
+					"width": 223,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_t_ProdDetNAME",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProdDescLabel": {
+					"type": "text",
+					"top": 368,
+					"left": 64,
+					"width": 82,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description"
+				},
+				"oPROD_T_DetailProducDescription": {
+					"type": "input",
+					"top": 367,
+					"left": 151,
+					"width": 223,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_T_ProdDetDESCRIPTION",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProdpricelabel": {
+					"type": "text",
+					"top": 385,
+					"left": 38,
+					"width": 109,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Actual Sales Price"
+				},
+				"oPROD_T_DetailProdSPriceLabel": {
+					"type": "text",
+					"top": 401,
+					"left": 55,
+					"width": 92,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Standard Price"
+				},
+				"oPROD_T_DetailProdccodeLabel": {
+					"type": "text",
+					"top": 416,
+					"left": 42,
+					"width": 105,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Commodity Code"
+				},
+				"oPROD_T_DetailProdTaxLabel": {
+					"type": "input",
+					"top": 415,
+					"left": 229,
+					"width": 108,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_t_ProdDetTaxRateLabel",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProdWtLabel": {
+					"type": "text",
+					"top": 432,
+					"left": 387,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Weight"
+				},
+				"oPROD_T_DetailProdsizeLabel": {
+					"type": "text",
+					"top": 448,
+					"left": 386,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Size"
+				},
+				"oPROD_T_DetailProdPPLabel": {
+					"type": "text",
+					"top": 416,
+					"left": 380,
+					"width": 57,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Price Per"
+				},
+				"oPROD_T_DetailSalesPrice": {
+					"type": "input",
+					"top": 384,
+					"left": 151,
+					"width": 76,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_R_ProdDetSalesPrice",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailStandardPrice": {
+					"type": "input",
+					"top": 400,
+					"left": 151,
+					"width": 76,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_R_ProdDetStandardPrice",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailCommodityCode": {
+					"type": "input",
+					"top": 416,
+					"left": 151,
+					"width": 76,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_S11_ProdDetComCode",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailTaxCode": {
+					"type": "input",
+					"top": 415,
+					"left": 340,
+					"width": 36,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_S5_ProdDetTaxRate",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailPricePer": {
+					"type": "input",
+					"top": 417,
+					"left": 438,
+					"width": 36,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_R_ProdDetPricePer",
+					"class": "Fields",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailWeight": {
+					"type": "input",
+					"top": 433,
+					"left": 438,
+					"width": 36,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PROD_R_ProdDetPricePer",
+					"class": "Fields",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailSize": {
+					"type": "input",
+					"top": 449,
+					"left": 438,
+					"width": 36,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "Prod_S15_ProdDetSize",
+					"class": "Fields",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPROD_T_DetailProdStockLabel": {
+					"type": "text",
+					"top": 445,
+					"left": 12,
+					"width": 105,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Stock"
+				},
+				"oPROD_T_DetailProductextbut": {
+					"type": "button",
+					"top": 567,
+					"left": 349,
+					"width": 150,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "BProdDescText",
+					"text": "Open product Record",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oPROD_T_DetailProductextbut.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oStock": {
+					"type": "listbox",
+					"top": 467,
+					"left": 11,
+					"width": 485,
+					"height": 94,
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"dataSource": "Prod_LB_Stock",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStock.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 470,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable2": {
+					"type": "input",
+					"top": 302,
+					"left": 11,
+					"width": 25,
+					"height": 12,
+					"sizingY": "move",
+					"dataSource": "PRD_pic_Extendinfo",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 301,
+					"left": 41,
+					"width": 29,
+					"height": 17,
+					"sizingY": "move",
+					"dataSource": "Prod_Lb_Extendinfo",
+					"display": false,
+					"method": "ObjectMethods/Variable15.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oPROD_T_INT_bo_DetailOpenButton": {
+					"type": "button",
+					"top": 691,
+					"left": 94,
+					"width": 497,
+					"height": 237,
+					"dataSource": "PROD_l_ProdOPEN",
+					"display": false,
+					"events": [
+						"onDoubleClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,280 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 8,
+					"left": 194,
+					"width": 295,
+					"height": 272,
+					"class": "Headers",
+					"text": "Problem Type Properties"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 38,
+					"left": 205,
+					"width": 80,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Problem Type"
+				},
+				"oProbTypeName": {
+					"type": "input",
+					"top": 37,
+					"left": 292,
+					"width": 151,
+					"height": 14,
+					"dataSource": "SVS_t_problemTypeName",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 60,
+					"left": 205,
+					"width": 107,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Primary Work Actions"
+				},
+				"oSVSActions": {
+					"type": "listbox",
+					"top": 81,
+					"left": 214,
+					"width": 248,
+					"height": 134,
+					"resizingMode": "legacy",
+					"dataSource": "SVS_lb_WorkFlow",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSVSActions.4dm",
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 233,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oSVSTypes": {
+					"type": "listbox",
+					"top": 9,
+					"left": 7,
+					"width": 180,
+					"height": 262,
+					"resizingMode": "legacy",
+					"dataSource": "SVS_lb_ProblemTypes",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSVSTypes.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 165,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 220,
+					"left": 214,
+					"width": 256,
+					"height": 55,
+					"class": "Labels",
+					"textAlign": "center",
+					"text": "A workflow action of each of the selected types will be created for a problem of this type. \rDouble click an action to see the follow on workflow(sequences) for this action"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 274,
+					"left": 6,
+					"width": 86,
+					"height": 20,
+					"dataSource": "SVS_but_AddType",
+					"text": "Add Type",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 295,
+					"left": 397,
+					"width": 86,
+					"height": 20,
+					"dataSource": "SVS_but_Save",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 296,
+					"left": 305,
+					"width": 86,
+					"height": 20,
+					"dataSource": "SVS_but_Cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

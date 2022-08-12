@@ -1,0 +1,1136 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 725,
+	"windowMinHeight": 290,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable9": {
+					"type": "tab",
+					"top": 6,
+					"left": -1,
+					"width": 732,
+					"height": 22,
+					"sizingX": "move",
+					"dataSource": "SP_at_SalesPipelineTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Variable9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable3": {
+					"type": "dropdown",
+					"top": 6,
+					"left": 702,
+					"width": 14,
+					"height": 14,
+					"dataSource": "<>SP_l_UsersnGroups",
+					"dataSourceTypeHint": "integer",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 36,
+					"left": 199,
+					"width": 210,
+					"height": 67,
+					"class": "Labels",
+					"text": "Expected dates"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 6,
+					"left": 518,
+					"width": 181,
+					"height": 14,
+					"dataSource": "[PERSONNEL:11]Name:2",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 6,
+					"left": 480,
+					"width": 34,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Name"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 58,
+					"left": 222,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "From Date"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 58,
+					"left": 295,
+					"width": 75,
+					"height": 14,
+					"dataSource": "SP_D_FilterFromDate",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Picture22": {
+					"type": "picture",
+					"top": 57,
+					"left": 377,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"Highlight Button1": {
+					"type": "button",
+					"top": 56,
+					"left": 376,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Highlight Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 79,
+					"left": 222,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "To Date"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 78,
+					"left": 295,
+					"width": 76,
+					"height": 14,
+					"dataSource": "SP_D_FiltertoDate",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture1": {
+					"type": "picture",
+					"top": 77,
+					"left": 376,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 76,
+					"left": 375,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/3D Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 72,
+					"left": 12,
+					"width": 75,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Probability"
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 73,
+					"left": 91,
+					"width": 23,
+					"height": 12,
+					"dataSource": "SP_R_FilterProbability",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Pop-up/Drop-down List1": {
+					"type": "dropdown",
+					"top": 72,
+					"left": 114,
+					"width": 15,
+					"height": 15,
+					"dataSource": "SP_al_FilterProbability",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Pop-up%2FDrop-down List1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 69,
+					"left": 625,
+					"width": 76,
+					"height": 16,
+					"sizingX": "move",
+					"dataSource": "bclearFilters",
+					"text": "Clear Filters",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 254,
+					"left": 19,
+					"width": 121,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "BAddPipeline",
+					"text": "Add Pipeline",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 254,
+					"left": 592,
+					"width": 111,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BclosePipeline",
+					"text": "Close Pipeline",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 53,
+					"left": 21,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Status"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 52,
+					"left": 91,
+					"width": 73,
+					"height": 12,
+					"dataSource": "SP_t_FilterStatus",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 254,
+					"left": 155,
+					"width": 104,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Breports",
+					"text": "Reports",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable28": {
+					"type": "dropdown",
+					"top": 50,
+					"left": 166,
+					"width": 15,
+					"height": 15,
+					"dataSource": "SP_at_ListPipelineStatus",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable28.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 52,
+					"left": 432,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Customer"
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 51,
+					"left": 504,
+					"width": 195,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SP_t_CompanyName",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 94,
+					"left": 21,
+					"width": 15,
+					"height": 14,
+					"dataSource": "SP_pic_LbEditModePicture",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable22": {
+					"type": "dropdown",
+					"top": 95,
+					"left": 21,
+					"width": 15,
+					"height": 16,
+					"dataSource": "SP_at_ListboxEditMode",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/Variable22.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBPipe": {
+					"type": "listbox",
+					"top": 113,
+					"left": 21,
+					"width": 680,
+					"height": 132,
+					"resizingMode": "legacy",
+					"dataSource": "SP_LB_Pipeline",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBPipe.4dm",
+					"events": [
+						"onDataChange",
+						"onDragOver"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 665,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 36,
+					"left": 210,
+					"width": 233,
+					"height": 58,
+					"class": "Labels",
+					"text": "Target dates"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 56,
+					"left": 256,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "From Date:"
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 56,
+					"left": 329,
+					"width": 75,
+					"height": 14,
+					"dataSource": "SP_D_tFilterFromDate",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable13.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 55,
+					"left": 409,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 54,
+					"left": 407,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 75,
+					"left": 259,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "To Date:"
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 74,
+					"left": 327,
+					"width": 76,
+					"height": 14,
+					"dataSource": "SP_D_tFiltertoDate",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable14.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture5": {
+					"type": "picture",
+					"top": 73,
+					"left": 408,
+					"width": 16,
+					"height": 15,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/New Calendar.png"
+				},
+				"3D Button2": {
+					"type": "button",
+					"top": 72,
+					"left": 407,
+					"width": 18,
+					"height": 17,
+					"dataSource": "vSD_SelCalendar2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Calendar Help"
+					},
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/3D Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 73,
+					"left": 450,
+					"width": 86,
+					"height": 16,
+					"dataSource": "bclearFilters",
+					"text": "Clear Filters",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable15.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 40,
+					"left": 32,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Status:"
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 40,
+					"left": 102,
+					"width": 73,
+					"height": 12,
+					"dataSource": "SP_t_tFilterStatus",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture6": {
+					"type": "picture",
+					"top": 39,
+					"left": 178,
+					"width": 15,
+					"height": 14,
+					"pictureFormat": "scaled"
+				},
+				"Variable17": {
+					"type": "dropdown",
+					"top": 38,
+					"left": 100,
+					"width": 93,
+					"height": 16,
+					"dataSource": "SP_at_TargetPipelineStatus",
+					"display": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "button",
+					"top": 254,
+					"left": 19,
+					"width": 101,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "BAddTarget",
+					"text": "Add Target",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "button",
+					"top": 254,
+					"left": 347,
+					"width": 104,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "Breports",
+					"text": "Reports",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable19.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 6,
+					"left": 480,
+					"width": 34,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Name:"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 7,
+					"left": 519,
+					"width": 181,
+					"height": 14,
+					"dataSource": "SP_t_AdHocName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture7": {
+					"type": "picture",
+					"top": 6,
+					"left": 702,
+					"width": 15,
+					"height": 14,
+					"pictureFormat": "scaled"
+				},
+				"Variable20": {
+					"type": "dropdown",
+					"top": 6,
+					"left": 702,
+					"width": 14,
+					"height": 14,
+					"dataSource": "<>SP_l_UsersnGroups",
+					"dataSourceTypeHint": "integer",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/Variable20.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 254,
+					"left": 592,
+					"width": 111,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BclosePipeline",
+					"text": "Close Pipeline",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 92,
+					"left": 21,
+					"width": 15,
+					"height": 14,
+					"dataSource": "SP_pic_LbEditModePicture",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable24": {
+					"type": "dropdown",
+					"top": 93,
+					"left": 21,
+					"width": 15,
+					"height": 16,
+					"dataSource": "SP_at_ListboxEditMode",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/Variable24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 254,
+					"left": 133,
+					"width": 171,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "BaddMiultiple",
+					"text": "Add Multiple Targets",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 62,
+					"left": 31,
+					"width": 66,
+					"height": 12,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type:"
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 62,
+					"left": 103,
+					"width": 73,
+					"height": 12,
+					"dataSource": "SP_t_FilterType",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Library Picture4": {
+					"type": "picture",
+					"top": 61,
+					"left": 178,
+					"width": 15,
+					"height": 14,
+					"pictureFormat": "scaled"
+				},
+				"Pop-up/Drop-down List2": {
+					"type": "dropdown",
+					"top": 60,
+					"left": 101,
+					"width": 93,
+					"height": 16,
+					"dataSource": "SP_at_tTargetType",
+					"display": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Pop-up%2FDrop-down List2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTARG": {
+					"type": "listbox",
+					"top": 114,
+					"left": 21,
+					"width": 681,
+					"height": 131,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SP_lb_Target",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oTARG.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 666,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

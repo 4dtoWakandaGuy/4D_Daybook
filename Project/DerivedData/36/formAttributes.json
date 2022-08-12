@@ -1,0 +1,14 @@
+{
+	"forms": {
+		"dAsk_Analysis": {
+			"timeStamp": "2022-04-25T09:24:25.731Z"
+		},
+		"Analyses_Out": {
+			"timeStamp": "2022-03-10T16:49:20.187Z"
+		},
+		"Analysis_In": {
+			"timeStamp": "2022-05-01T04:52:39.990Z",
+			"destination": "detailScreen"
+		}
+	}
+}

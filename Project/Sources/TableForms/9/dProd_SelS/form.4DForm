@@ -1,0 +1,779 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #52",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture1": {
+					"type": "picture",
+					"top": 158,
+					"left": 182,
+					"width": 10,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 158,
+					"left": 109,
+					"width": 10,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.pict"
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 166,
+					"left": 109,
+					"width": 10,
+					"height": 7,
+					"dataSource": "DBDown",
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 158,
+					"left": 109,
+					"width": 10,
+					"height": 8,
+					"dataSource": "DBUp",
+					"display": false,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 166,
+					"left": 182,
+					"width": 10,
+					"height": 7,
+					"dataSource": "DBDown",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 158,
+					"left": 182,
+					"width": 10,
+					"height": 8,
+					"dataSource": "DBUp",
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 104,
+					"left": 110,
+					"width": 34,
+					"height": 14,
+					"stroke": "#000E60",
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"text": "From"
+				},
+				"Rectangle16": {
+					"type": "rectangle",
+					"top": 26,
+					"left": 468,
+					"width": 124,
+					"height": 313,
+					"fill": "#000E60"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 53,
+					"left": 475,
+					"width": 46,
+					"height": 14,
+					"dataSource": "vNo",
+					"stroke": "#C0CAFF",
+					"class": "Fields_OUTPUT",
+					"focusable": false,
+					"fill": "#000E60",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 53,
+					"left": 441,
+					"width": 31,
+					"height": 14,
+					"fill": "#000E60",
+					"stroke": "#C0CAFF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "From"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 29,
+					"left": 480,
+					"width": 81,
+					"height": 24,
+					"fill": "#000E60",
+					"stroke": "#C0CAFF",
+					"class": "Headers",
+					"textAlign": "center",
+					"text": ":xliff:Text_MoreChoicesuppercase"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 104,
+					"left": 183,
+					"width": 17,
+					"height": 14,
+					"stroke": "#000E60",
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"text": "To"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 41,
+					"left": 17,
+					"width": 88,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 21,
+					"left": 25,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 119,
+					"left": 11,
+					"width": 94,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Act Sales Price"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 181,
+					"left": 19,
+					"width": 86,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Supplier Code"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 138,
+					"left": 17,
+					"width": 88,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Standard Price"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 158,
+					"left": 28,
+					"width": 77,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Last Modified"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 60,
+					"left": 27,
+					"width": 78,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 201,
+					"left": 27,
+					"width": 78,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Their Code"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 82,
+					"left": 25,
+					"width": 80,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Short Code"
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 22,
+					"left": 110,
+					"width": 297,
+					"height": 14,
+					"dataSource": "vProdCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 42,
+					"left": 110,
+					"width": 297,
+					"height": 14,
+					"dataSource": "vProdName",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "input",
+					"top": 61,
+					"left": 110,
+					"width": 297,
+					"height": 14,
+					"dataSource": "vComments",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "input",
+					"top": 83,
+					"left": 110,
+					"width": 117,
+					"height": 14,
+					"dataSource": "vProduct",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable20": {
+					"type": "input",
+					"top": 120,
+					"left": 110,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vAmountF",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Sales Price"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 120,
+					"left": 183,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vAmountT",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Sales Price"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 139,
+					"left": 110,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vValueF",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Sales Price"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 139,
+					"left": 183,
+					"width": 72,
+					"height": 14,
+					"dataSource": "vValueT",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Sales Price"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable24": {
+					"type": "input",
+					"top": 159,
+					"left": 122,
+					"width": 60,
+					"height": 14,
+					"dataSource": "ACC_d_EntryDateFrom",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable25": {
+					"type": "input",
+					"top": 159,
+					"left": 195,
+					"width": 60,
+					"height": 14,
+					"dataSource": "SRCH_d_EntryDateTo",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable26": {
+					"type": "input",
+					"top": 182,
+					"left": 110,
+					"width": 95,
+					"height": 14,
+					"dataSource": "vSupplier",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 202,
+					"left": 110,
+					"width": 95,
+					"height": 14,
+					"dataSource": "vLetterCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "checkbox",
+					"top": 226,
+					"left": 105,
+					"width": 135,
+					"height": 12,
+					"dataSource": "ch1",
+					"text": "Include in Price List",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "checkbox",
+					"top": 242,
+					"left": 105,
+					"width": 135,
+					"height": 12,
+					"dataSource": "ch2",
+					"text": "Maintain Stock",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000E60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "checkbox",
+					"top": 95,
+					"left": 438,
+					"width": 98,
+					"height": 14,
+					"dataSource": "cSIS",
+					"text": ":xliff:Text_withinSelection",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "checkbox",
+					"top": 110,
+					"left": 438,
+					"width": 82,
+					"height": 14,
+					"dataSource": "cNAA",
+					"text": ":xliff:Text_noWildcard",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "checkbox",
+					"top": 125,
+					"left": 438,
+					"width": 75,
+					"height": 14,
+					"dataSource": "cNAL",
+					"text": ":xliff:Text_NoLookupLists",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#C0CAFF",
+					"method": "ObjectMethods/Variable13.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 251,
+					"left": 440,
+					"width": 73,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 284,
+					"left": 440,
+					"width": 73,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Find",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 227,
+					"left": 439,
+					"width": 76,
+					"height": 15,
+					"dataSource": "RHold",
+					"text": "Hold Search",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,438 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onLosingFocus",
+		"onGettingFocus",
+		"onDrop",
+		"onBeforeKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange",
+		"onMouseEnter",
+		"onMouseLeave",
+		"onMouseMove",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oFocusRing": {
+					"type": "picture",
+					"top": 131,
+					"left": 225,
+					"width": 220,
+					"height": 32,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/FocusRing.png"
+				},
+				"oRoundArea": {
+					"type": "picture",
+					"top": 131,
+					"left": 226,
+					"width": 220,
+					"height": 32,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/RoundArea.png"
+				},
+				"oAddPerson1": {
+					"type": "button",
+					"top": 3,
+					"left": 3,
+					"width": 33,
+					"height": 25,
+					"dataSource": "SD2_l_AddLine",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oAddPerson1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddressBook": {
+					"type": "listbox",
+					"top": 164,
+					"left": 3,
+					"width": 442,
+					"height": 95,
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_People",
+					"sortable": false,
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "18px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oAddressBook.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 427,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oSearchCriteria": {
+					"type": "input",
+					"top": 140,
+					"left": 264,
+					"width": 146,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SearchCriteria",
+					"stroke": "#888888",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchCriteria.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSearchvalue": {
+					"type": "input",
+					"top": 140,
+					"left": 264,
+					"width": 150,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_T_SearchValue",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchvalue.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterKeystroke"
+					]
+				},
+				"oSearchCriteriaButton1": {
+					"type": "button",
+					"top": 138,
+					"left": 241,
+					"width": 22,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "bSearch",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/MagnifyingGlass.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchCriteriaButton1.4dm",
+					"events": [
+						"onLoad",
+						"onAlternateClick",
+						"onLongClick"
+					]
+				},
+				"oSearchClearButton": {
+					"type": "button",
+					"top": 140,
+					"left": 421,
+					"width": 14,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "bCloseSearch",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CloseSearch.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchClearButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInvitees": {
+					"type": "listbox",
+					"top": 33,
+					"left": 3,
+					"width": 442,
+					"height": 95,
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_EventInvites",
+					"sortable": false,
+					"movableRows": false,
+					"dragging": "custom",
+					"dropping": "custom",
+					"rowHeight": "18px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oInvitees.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 427,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 0,
+					"left": 424,
+					"width": 24,
+					"height": 1,
+					"dataSource": "Invisible Button1",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 1,
+					"left": 71,
+					"width": 30,
+					"height": 1,
+					"dataSource": "Invisible Button2",
+					"shortcutKey": "[down arrow]",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 1,
+					"left": 36,
+					"width": 30,
+					"height": 1,
+					"dataSource": "Invisible Button2",
+					"shortcutKey": "[Return]",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInviteeMinus": {
+					"type": "button",
+					"top": 3,
+					"left": 28,
+					"width": 33,
+					"height": 25,
+					"dataSource": "bsubtract",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oInviteeMinus.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button4": {
+					"type": "button",
+					"top": 1,
+					"left": 2,
+					"width": 30,
+					"height": 1,
+					"dataSource": "Invisible Button2",
+					"shortcutKey": "[up arrow]",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInviteeFind1": {
+					"type": "button",
+					"top": 3,
+					"left": 415,
+					"width": 33,
+					"height": 25,
+					"sizingX": "move",
+					"dataSource": "bFind",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_FIND.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oInviteeFind1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBexitInvitees": {
+					"type": "button",
+					"top": 135,
+					"left": 367,
+					"width": 78,
+					"height": 22,
+					"dataSource": "SD2_l_ButtonExit",
+					"action": "accept",
+					"text": "Close",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

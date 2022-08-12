@@ -1,0 +1,97 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oListboxOutputForm": {
+					"type": "listbox",
+					"top": 10,
+					"left": 7,
+					"width": 771,
+					"height": 463,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "DB_l_LBOutputForm",
+					"movableRows": false,
+					"dragging": "custom",
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"headerHeight": "17px",
+					"footerHeight": "17px",
+					"table": 1,
+					"highlightSet": "ListboxSet0",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oListboxOutputForm.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onDragOver",
+						"onColumnMove",
+						"onColumnResize",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove",
+						"onHeaderClick"
+					],
+					"columns": []
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

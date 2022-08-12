@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Furthers_In": {
+			"timeStamp": "2022-04-26T13:42:30.100Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.962Z",
+			"destination": "listScreen"
+		},
+		"Furthers_Out": {
+			"timeStamp": "2022-03-11T08:20:16.865Z",
+			"destination": "listScreen"
+		}
+	}
+}

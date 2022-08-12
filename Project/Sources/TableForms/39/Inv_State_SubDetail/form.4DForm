@@ -1,0 +1,146 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 5,
+	"markerBody": 21,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 8,
+					"left": 4,
+					"width": 148,
+					"height": 11,
+					"dataSource": "INV_T_DetailLine",
+					"class": "Print_9pt_TIMES",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 275,
+					"width": 1,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 359,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 439,
+					"height": 23,
+					"strokeWidth": 0.1
+				},
+				"Line1": {
+					"type": "line",
+					"top": -2,
+					"left": 523,
+					"width": 1,
+					"height": 25,
+					"strokeWidth": 0.1,
+					"startPoint": "bottomLeft"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 20,
+					"left": 1,
+					"width": 274,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 25,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 0,
+					"left": 155,
+					"height": 24,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 0,
+					"left": 188,
+					"height": 24,
+					"strokeWidth": 0.1
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

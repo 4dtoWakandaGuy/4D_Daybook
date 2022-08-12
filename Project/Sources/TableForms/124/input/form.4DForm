@@ -1,0 +1,624 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle17": {
+					"type": "rectangle",
+					"top": 5,
+					"left": 8,
+					"width": 422,
+					"height": 311,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Rectangle18": {
+					"type": "rectangle",
+					"top": 10,
+					"left": 10,
+					"width": 415,
+					"height": 36,
+					"sizingX": "grow",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Rectangle19": {
+					"type": "rectangle",
+					"top": 45,
+					"left": 10,
+					"width": 37,
+					"height": 259,
+					"sizingY": "grow",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Rectangle20": {
+					"type": "rectangle",
+					"top": 45,
+					"left": 11,
+					"width": 35,
+					"height": 2,
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"Picture21": {
+					"type": "picture",
+					"top": 11,
+					"left": 12,
+					"width": 32,
+					"height": 32,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture21.pict"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 11,
+					"left": 57,
+					"width": 358,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "SMS Log"
+				},
+				"Rectangle23": {
+					"type": "rectangle",
+					"top": 56,
+					"left": 61,
+					"width": 364,
+					"height": 254,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Picture 870": {
+					"type": "picture",
+					"top": 51,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/SD_DiaryLinks.png"
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 51,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 862": {
+					"type": "picture",
+					"top": 83,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled"
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 83,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 867": {
+					"type": "picture",
+					"top": 115,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/CalenderButtonBigArrow.png"
+				},
+				"bFirst": {
+					"type": "button",
+					"top": 115,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 863": {
+					"type": "picture",
+					"top": 147,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled"
+				},
+				"bPrevious": {
+					"type": "button",
+					"top": 147,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 864": {
+					"type": "picture",
+					"top": 179,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled"
+				},
+				"bNext": {
+					"type": "button",
+					"top": 179,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 865": {
+					"type": "picture",
+					"top": 211,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled"
+				},
+				"bLast": {
+					"type": "button",
+					"top": 211,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture 861": {
+					"type": "picture",
+					"top": 243,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled"
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 243,
+					"left": 15,
+					"width": 27,
+					"height": 27,
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"class": "Default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text24": {
+					"type": "text",
+					"top": 66,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Credits Used"
+				},
+				"Text25": {
+					"type": "text",
+					"top": 88,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Date Sent"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 110,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "From"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 132,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Message Text"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 190,
+					"left": 67,
+					"width": 83,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Mobile Number"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 212,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Result Text"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 270,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Sender"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 292,
+					"left": 67,
+					"width": 75,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "TimeSent"
+				},
+				"CreditsUsed": {
+					"type": "input",
+					"top": 66,
+					"left": 161,
+					"width": 42,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]CreditsUsed:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DateSent": {
+					"type": "input",
+					"top": 88,
+					"left": 161,
+					"width": 54,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]DateSent:1",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"From": {
+					"type": "input",
+					"top": 110,
+					"left": 161,
+					"width": 140,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]From:7",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"MessageText": {
+					"type": "input",
+					"top": 132,
+					"left": 161,
+					"width": 234,
+					"height": 48,
+					"dataSource": "[SMS_Log:124]MessageText:3",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"MobileNumber": {
+					"type": "input",
+					"top": 190,
+					"left": 161,
+					"width": 140,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]MobileNumber:2",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ResultText": {
+					"type": "input",
+					"top": 212,
+					"left": 161,
+					"width": 234,
+					"height": 48,
+					"dataSource": "[SMS_Log:124]ResultText:9",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Sender": {
+					"type": "input",
+					"top": 270,
+					"left": 161,
+					"width": 140,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]Sender:4",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TimeSent": {
+					"type": "input",
+					"top": 292,
+					"left": 161,
+					"width": 50,
+					"height": 12,
+					"dataSource": "[SMS_Log:124]TimeSent:6",
+					"dataSourceTypeHint": "time",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

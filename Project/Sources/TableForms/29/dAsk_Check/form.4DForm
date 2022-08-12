@@ -1,0 +1,350 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 267,
+					"left": 475,
+					"width": 13,
+					"height": 7,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oCheckTransactionsOptions": {
+					"type": "groupBox",
+					"top": 22,
+					"left": 10,
+					"width": 366,
+					"height": 240,
+					"stroke": "#005F60",
+					"class": "Headers",
+					"text": ":xliff:Checktransaction"
+				},
+				"oCheckTransactionsNote": {
+					"type": "text",
+					"top": 228,
+					"left": 42,
+					"width": 324,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Field_INFOS",
+					"text": ":XLIFF:ProcessingCanBeCancelled"
+				},
+				"oCheckForUnknownAccounts": {
+					"type": "checkbox",
+					"top": 45,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch0",
+					"text": ":xliff:UnknownAccounts",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownAnalysis": {
+					"type": "checkbox",
+					"top": 61,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch1",
+					"text": ":xliff:UnknownAnalysis",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknwonCurrencies": {
+					"type": "checkbox",
+					"top": 77,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch2",
+					"text": ":xliff:UnknownCurrencies",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownLayers": {
+					"type": "checkbox",
+					"top": 93,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch3",
+					"text": ":xliff:UnknownLayers",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownTransTypes": {
+					"type": "checkbox",
+					"top": 109,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch4",
+					"text": ":xliff:UnknownTypes",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownTaxCodes": {
+					"type": "checkbox",
+					"top": 125,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch5",
+					"text": ":xliff:UnknownTaxCodes",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForIncorrectIO": {
+					"type": "checkbox",
+					"top": 142,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch6",
+					"text": ":xliff:IncorrectIO",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownInvoiceNumbers": {
+					"type": "checkbox",
+					"top": 159,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch7",
+					"text": ":xliff:UnknownInvoiceNumbers",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForUnknownPurchaseInvoice": {
+					"type": "checkbox",
+					"top": 176,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "ch8",
+					"text": ":xliff:UnknownPurchaseInvoiceNumbers",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForImbalance": {
+					"type": "checkbox",
+					"top": 193,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "r0",
+					"text": ":xliff:InvalidBatchBalance",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckForNoAccountBalance": {
+					"type": "checkbox",
+					"top": 210,
+					"left": 24,
+					"width": 340,
+					"height": 14,
+					"dataSource": "r1",
+					"text": ":xliff:MissingAccountBalance",
+					"class": "check_box_text_LARGE",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 217,
+					"left": 392,
+					"width": 88,
+					"height": 19,
+					"dataSource": "TRANS_but_CheckAccept",
+					"action": "accept",
+					"text": ":xliff:OKButton",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"defaultButton": true
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 240,
+					"left": 392,
+					"width": 88,
+					"height": 19,
+					"dataSource": "TRANS_but_CheckCancel",
+					"action": "cancel",
+					"text": ":xliff:CancelButton",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 15
+}

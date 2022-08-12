@@ -1,0 +1,534 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #56",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle34": {
+					"type": "rectangle",
+					"top": 26,
+					"left": 468,
+					"width": 124,
+					"height": 286,
+					"fill": "#076000",
+					"stroke": "transparent"
+				},
+				"oJobCodeLabel": {
+					"type": "text",
+					"top": 42,
+					"left": 34,
+					"width": 74,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job Code :"
+				},
+				"oInvoiceNumberLabel": {
+					"type": "text",
+					"top": 102,
+					"left": 29,
+					"width": 79,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Invoice Nº :"
+				},
+				"oJobStageLabel": {
+					"type": "text",
+					"top": 62,
+					"left": 27,
+					"width": 81,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stage Code :"
+				},
+				"oJobStageNameLabel": {
+					"type": "text",
+					"top": 82,
+					"left": 25,
+					"width": 83,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stage Name :"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 42,
+					"left": 115,
+					"width": 92,
+					"height": 14,
+					"dataSource": "vJobCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 62,
+					"left": 115,
+					"width": 92,
+					"height": 14,
+					"dataSource": "vStage",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 73,
+					"left": 515,
+					"width": 46,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "vNo",
+					"stroke": "#E2FFDF",
+					"class": "Fields_OUTPUT",
+					"focusable": false,
+					"fill": "#076000",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 82,
+					"left": 115,
+					"width": 218,
+					"height": 14,
+					"dataSource": "vContName",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 102,
+					"left": 115,
+					"width": 92,
+					"height": 14,
+					"dataSource": "vCompCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "checkbox",
+					"top": 101,
+					"left": 481,
+					"width": 83,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cSIS",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "checkbox",
+					"top": 115,
+					"left": 481,
+					"width": 87,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cNAA",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#FFFFFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "checkbox",
+					"top": 130,
+					"left": 481,
+					"width": 80,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cNAL",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#FFFFFF",
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable56": {
+					"type": "dropdown",
+					"top": 179,
+					"left": 471,
+					"width": 118,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SM_at_SearchNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable56.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 216,
+					"left": 481,
+					"width": 76,
+					"height": 15,
+					"sizingX": "move",
+					"dataSource": "RHold",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#FFFFFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 240,
+					"left": 496,
+					"width": 73,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "button",
+					"top": 273,
+					"left": 496,
+					"width": 73,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Find",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable11.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 101,
+					"left": 499,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": ":xliff:Text_withinSelection"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 116,
+					"left": 499,
+					"width": 91,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": ":xliff:Text_noWildcard"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 131,
+					"left": 499,
+					"width": 86,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": ":xliff:Text_NoLookupLists"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 217,
+					"left": 499,
+					"width": 65,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Go Back"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 29,
+					"left": 480,
+					"width": 79,
+					"height": 24,
+					"sizingX": "move",
+					"fill": "#076000",
+					"stroke": "#E2FFDF",
+					"class": "Headers",
+					"text": ":xliff:Text_MoreChoicesuppercase"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 73,
+					"left": 481,
+					"width": 31,
+					"height": 14,
+					"sizingX": "move",
+					"fill": "#076000",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"text": "From"
+				},
+				"Variable78": {
+					"type": "button",
+					"top": 303,
+					"left": 501,
+					"width": 73,
+					"height": 2,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "Find",
+					"display": false,
+					"method": "ObjectMethods/Variable78.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text60": {
+					"type": "text",
+					"top": 164,
+					"left": 479,
+					"width": 69,
+					"height": 15,
+					"sizingX": "move",
+					"fill": "#076000",
+					"stroke": "#E2FFDF",
+					"class": "Labels_OUTPUT",
+					"text": "Load Query"
+				},
+				"Tab Control": {
+					"type": "tab",
+					"top": 0,
+					"left": 2,
+					"width": 588,
+					"height": 26,
+					"sizingX": "grow",
+					"dataSource": "JOB_at_PerSearchTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Fields",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 275,
+					"left": 9,
+					"width": 220,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "dbtabText2",
+					"class": "Labels",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 39,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,1018 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 315,
+					"left": 108,
+					"width": 456,
+					"height": 144,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Filters"
+				},
+				"Text": {
+					"type": "text",
+					"top": 114,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Title"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 88,
+					"left": 109,
+					"width": 109,
+					"height": 14,
+					"dataSource": "[DIARY:12]Date_Do_From:4",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 88,
+					"left": 441,
+					"width": 109,
+					"height": 14,
+					"dataSource": "[DIARY:12]Diary_Code:3",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field": {
+					"type": "input",
+					"top": 113,
+					"left": 110,
+					"width": 440,
+					"height": 14,
+					"dataSource": "[DIARY:12]Subject:63",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 137,
+					"left": 110,
+					"width": 140,
+					"height": 14,
+					"dataSource": "[DIARY:12]Product_Code:13",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPublicationProduct": {
+					"type": "input",
+					"top": 137,
+					"left": 254,
+					"width": 311,
+					"height": 14,
+					"dataSource": "SD2_t_PublicationName",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 161,
+					"left": 110,
+					"width": 440,
+					"height": 64,
+					"sizingX": "grow",
+					"dataSource": "[DIARY:12]Action_Details:10",
+					"class": "Fields",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFeaturesList": {
+					"type": "listbox",
+					"top": 232,
+					"left": 110,
+					"width": 458,
+					"height": 84,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_FeaturesList",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oFeaturesList.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 443,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oSD2OrdersPersons": {
+					"type": "dropdown",
+					"top": 341,
+					"left": 161,
+					"width": 267,
+					"height": 19,
+					"dataSource": "SD2_at_OrdersPersons",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSD2OrdersPersons.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oInvoicedOn": {
+					"type": "radio",
+					"top": 343,
+					"left": 453,
+					"width": 135,
+					"height": 19,
+					"dataSource": "INVOICED_ONLY",
+					"text": "Invoiced",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oInvoicedOn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSD2OrdersStages": {
+					"type": "dropdown",
+					"top": 367,
+					"left": 161,
+					"width": 267,
+					"height": 19,
+					"dataSource": "SD2_at_BookingStageName",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSD2OrdersStages.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oInvoicedoff": {
+					"type": "radio",
+					"top": 363,
+					"left": 453,
+					"width": 135,
+					"height": 19,
+					"dataSource": "INVOICED_Exclude",
+					"text": "Not Invoiced",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oInvoicedoff.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInvoicedANy": {
+					"type": "radio",
+					"top": 383,
+					"left": 453,
+					"width": 135,
+					"height": 19,
+					"dataSource": "INVOICED_INCLUDE",
+					"text": "All",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oInvoicedANy.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSD2OrdersStatus": {
+					"type": "dropdown",
+					"top": 393,
+					"left": 161,
+					"width": 267,
+					"height": 19,
+					"dataSource": "SD2_at_OrderStatusName",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSD2OrdersStatus.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oSD2OrdersOthers": {
+					"type": "dropdown",
+					"top": 423,
+					"left": 161,
+					"width": 267,
+					"height": 19,
+					"dataSource": "SD_at_otherFilters",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSD2OrdersOthers.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oSD2OrdersOthersVal": {
+					"type": "dropdown",
+					"top": 423,
+					"left": 435,
+					"width": 114,
+					"height": 19,
+					"sizingX": "grow",
+					"dataSource": "SD_At_otherFilterValues",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSD2OrdersOthersVal.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oOpeningChoice": {
+					"type": "dropdown",
+					"top": 469,
+					"left": 110,
+					"width": 123,
+					"height": 18,
+					"dataSource": "SD2_at_OpenChoice",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oOpeningChoice.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"ORefresh": {
+					"type": "button",
+					"top": 468,
+					"left": 240,
+					"width": 130,
+					"height": 17,
+					"dataSource": "SD3_but_Refresh",
+					"text": "Update from Server",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/ORefresh.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRecordsDIsplays": {
+					"type": "input",
+					"top": 472,
+					"left": 403,
+					"width": 162,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "PDT_l_BookingsCount",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/oRecordsDIsplays.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oBookingList": {
+					"type": "listbox",
+					"top": 490,
+					"left": 110,
+					"width": 458,
+					"height": 180,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_OrderItems",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oBookingList.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 443,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCostTotal": {
+					"type": "input",
+					"top": 685,
+					"left": 152,
+					"width": 140,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "SD2_R_OrdersCostTotal",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCostTotal1": {
+					"type": "input",
+					"top": 685,
+					"left": 428,
+					"width": 140,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_R_OrdersSalesTotal",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPageTotal": {
+					"type": "input",
+					"top": 708,
+					"left": 428,
+					"width": 140,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_R_PageTotal",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCostTotal3": {
+					"type": "input",
+					"top": 733,
+					"left": 428,
+					"width": 140,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_R_AverageTotal",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 160,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Description"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 232,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Linked  To:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 88,
+					"left": 20,
+					"width": 84,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 343,
+					"left": 110,
+					"width": 44,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Person"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 685,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Value:"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 685,
+					"left": 110,
+					"width": 38,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Cost"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 685,
+					"left": 383,
+					"width": 38,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Sales"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 88,
+					"left": 351,
+					"width": 84,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Code"
+				},
+				"Picture Button": {
+					"type": "pictureButton",
+					"top": 252,
+					"left": 77,
+					"width": 27,
+					"height": 23,
+					"dataSource": "Picture Button",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"loopBackToFirstFrame": true,
+					"method": "ObjectMethods/Picture Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture Button1": {
+					"type": "pictureButton",
+					"top": 280,
+					"left": 75,
+					"width": 27,
+					"height": 23,
+					"dataSource": "Picture Button",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/PAL_GOLD_REMOVE.png",
+					"loopBackToFirstFrame": true,
+					"method": "ObjectMethods/Picture Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 137,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Publication"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 708,
+					"left": 343,
+					"width": 78,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Total Pages"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 733,
+					"left": 303,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Average Revenue"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 469,
+					"left": 0,
+					"width": 104,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Managing"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 367,
+					"left": 110,
+					"width": 44,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Stage"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 391,
+					"left": 110,
+					"width": 44,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Status"
+				},
+				"oSetPopup": {
+					"type": "button",
+					"top": 505,
+					"left": 89,
+					"width": 15,
+					"height": 15,
+					"dataSource": "SD2_PdtPopUP",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:PDT_Pi_EditMode",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"method": "ObjectMethods/oSetPopup.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 425,
+					"left": 110,
+					"width": 44,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Other..."
+				},
+				"Invisible Button4": {
+					"type": "button",
+					"top": 762,
+					"left": 533,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 762,
+					"left": 496,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button28": {
+					"type": "button",
+					"top": 762,
+					"left": 146,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button28.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button24": {
+					"type": "button",
+					"top": 761,
+					"left": 199,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button22": {
+					"type": "button",
+					"top": 761,
+					"left": 248,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button22.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button20": {
+					"type": "button",
+					"top": 761,
+					"left": 297,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button20.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 761,
+					"left": 343,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button14": {
+					"type": "button",
+					"top": 761,
+					"left": 384,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button14.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 762,
+					"left": 423,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 762,
+					"left": 458,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

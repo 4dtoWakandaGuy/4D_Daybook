@@ -1,0 +1,295 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt",
+		"orientation": "landscape"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 10,
+					"left": 72,
+					"width": 170,
+					"height": 15,
+					"dataSource": "LOG_s_ProcessName",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 35,
+					"left": 72,
+					"width": 170,
+					"height": 15,
+					"dataSource": "LOG_s_ProcessState",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBLOgMethod": {
+					"type": "listbox",
+					"top": 76,
+					"left": 15,
+					"width": 212,
+					"height": 224,
+					"resizingMode": "legacy",
+					"dataSource": "LOG_as_Method",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "LOG_at_MethodNames",
+							"width": 197,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 76,
+					"left": 259,
+					"width": 117,
+					"height": 22,
+					"dataSource": "btnRefresh",
+					"text": "Refresh",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 107,
+					"left": 259,
+					"width": 117,
+					"height": 22,
+					"dataSource": "GEN_l_BUTTON1",
+					"text": "Bring to front",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 268,
+					"left": 261,
+					"width": 117,
+					"height": 22,
+					"dataSource": "btnOK",
+					"action": "accept",
+					"text": "OK",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 2560,
+					"left": 2816,
+					"width": 75,
+					"height": 23,
+					"dataSource": "GEN_l_BUTTON1",
+					"text": "Bring to front",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLogProcessLabel": {
+					"type": "text",
+					"top": 9,
+					"left": 10,
+					"width": 56,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Process :",
+					"textAlign": "right",
+					"class": ""
+				},
+				"oLogStateName": {
+					"type": "text",
+					"top": 34,
+					"left": 10,
+					"width": 56,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "State :",
+					"textAlign": "right",
+					"class": ""
+				},
+				"oCallChainLabel": {
+					"type": "text",
+					"top": 59,
+					"left": 10,
+					"width": 93,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Call Chain..."
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 12,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

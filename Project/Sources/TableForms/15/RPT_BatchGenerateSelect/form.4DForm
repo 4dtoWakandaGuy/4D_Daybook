@@ -1,0 +1,231 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"RPT_l_btnGenTypeSelContinue": {
+					"type": "button",
+					"top": 413,
+					"left": 753,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "RPT_l_btnGenTypeSelContinue",
+					"action": "cancel",
+					"text": "Continue",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/RPT_l_btnGenTypeSelContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"RPT_T_GenTypeSelMainHeading": {
+					"type": "input",
+					"top": 10,
+					"left": 26,
+					"width": 833,
+					"height": 21,
+					"dataSource": "RPT_T_GenTypeSelMainHeading",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"RPT_T_GenTypeSelFooter": {
+					"type": "input",
+					"top": 376,
+					"left": 27,
+					"width": 720,
+					"height": 51,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "RPT_T_GenTypeSelFooter",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"RPT_l_btnGenTypeSelCancel": {
+					"type": "button",
+					"top": 394,
+					"left": 753,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "RPT_l_btnGenTypeSelCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/RPT_l_btnGenTypeSelCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"RPT_l_btnGenTypeSelToggleAll": {
+					"type": "button",
+					"top": 375,
+					"left": 753,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "RPT_l_btnGenTypeSelToggleAll",
+					"text": "Toggle All",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/RPT_l_btnGenTypeSelToggleAll.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBPrintoptions": {
+					"type": "listbox",
+					"top": 34,
+					"left": 26,
+					"width": 827,
+					"height": 327,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "PRT_lb_PrintOptions",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBPrintoptions.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 812,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

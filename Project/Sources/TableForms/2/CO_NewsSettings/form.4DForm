@@ -1,0 +1,348 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 11,
+					"left": 34,
+					"width": 181,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Current Web Search Options"
+				},
+				"oCurSearchValue": {
+					"type": "input",
+					"top": 33,
+					"left": 222,
+					"width": 313,
+					"height": 126,
+					"dataSource": "CO_T_SearchConstruct",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 208,
+					"left": 225,
+					"width": 302,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Tokens that may be used in the above construct"
+				},
+				"oSaveConstruct": {
+					"type": "button",
+					"top": 181,
+					"left": 440,
+					"width": 111,
+					"height": 15,
+					"dataSource": "Button1",
+					"text": "Save Construct",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oSaveConstruct.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddSearch": {
+					"type": "button",
+					"top": 310,
+					"left": 163,
+					"width": 51,
+					"height": 19,
+					"dataSource": "bAddSearch",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddSearch.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRemoveSearch1": {
+					"type": "button",
+					"top": 310,
+					"left": 98,
+					"width": 62,
+					"height": 19,
+					"dataSource": "bRemoveSearch",
+					"text": "Remove",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oRemoveSearch1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddToken": {
+					"type": "button",
+					"top": 309,
+					"left": 452,
+					"width": 82,
+					"height": 18,
+					"dataSource": "bAddToken",
+					"text": "Add Token",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddToken.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSaveSettings": {
+					"type": "button",
+					"top": 342,
+					"left": 441,
+					"width": 117,
+					"height": 22,
+					"dataSource": "BSaveNewSettings",
+					"text": "Save Settings",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oSaveSettings.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCancelSettings1": {
+					"type": "button",
+					"top": 343,
+					"left": 315,
+					"width": 120,
+					"height": 22,
+					"dataSource": "BCancelSettings",
+					"text": "Cancel Settings",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancelSettings1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBSearchOptions": {
+					"type": "listbox",
+					"top": 31,
+					"left": 22,
+					"width": 192,
+					"height": 273,
+					"resizingMode": "legacy",
+					"dataSource": "CO_lb_NewsSettings",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBSearchOptions.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "CO_at_SearchOptions",
+							"width": 177,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBSearchTokens": {
+					"type": "listbox",
+					"top": 229,
+					"left": 225,
+					"width": 314,
+					"height": 75,
+					"resizingMode": "legacy",
+					"dataSource": "CO_lb_Tokens",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBSearchTokens.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "CO_at_TokenOptions",
+							"width": 177,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "CO_at_TokenFields",
+							"width": 122,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

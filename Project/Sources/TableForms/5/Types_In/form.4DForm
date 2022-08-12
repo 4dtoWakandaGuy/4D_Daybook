@@ -1,0 +1,538 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oUsageGroup...": {
+					"type": "groupBox",
+					"top": 172,
+					"left": 154,
+					"width": 189,
+					"height": 98,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"text": "Usage"
+				},
+				"oTypeHeader": {
+					"type": "text",
+					"top": 45,
+					"left": 9,
+					"width": 115,
+					"height": 12,
+					"stroke": "#C0CAFF",
+					"class": "Headers",
+					"text": " TYPE"
+				},
+				"oTypeNameLabel": {
+					"type": "text",
+					"top": 109,
+					"left": 61,
+					"width": 89,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type Name :"
+				},
+				"oTypeCodeLabel": {
+					"type": "text",
+					"top": 89,
+					"left": 61,
+					"width": 89,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type Code :"
+				},
+				"oSalesPriceGroupLabel": {
+					"type": "text",
+					"top": 130,
+					"left": 37,
+					"width": 113,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Sales Price Group :"
+				},
+				"oSOPriceGroupName": {
+					"type": "input",
+					"top": 130,
+					"left": 220,
+					"width": 330,
+					"height": 13,
+					"dataSource": "vPriceName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTypeCode": {
+					"type": "input",
+					"top": 90,
+					"left": 158,
+					"width": 104,
+					"height": 14,
+					"dataSource": "[TYPES:5]Type_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTypeName": {
+					"type": "input",
+					"top": 110,
+					"left": 158,
+					"width": 392,
+					"height": 14,
+					"dataSource": "[TYPES:5]Type_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSOPriceGroup": {
+					"type": "input",
+					"top": 130,
+					"left": 158,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[TYPES:5]SO_Price_Group:4",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOmitJobTitleCB": {
+					"type": "checkbox",
+					"top": 279,
+					"left": 145,
+					"width": 353,
+					"height": 12,
+					"dataSource": "[TYPES:5]Omit_Job_Title:5",
+					"text": "If this Address Type is allocated, omit Job Title/Dept from the built address",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonShowExportStamp": {
+					"type": "button",
+					"top": 315,
+					"left": 9,
+					"width": 42,
+					"height": 17,
+					"dataSource": "xSearch",
+					"text": "Y/N",
+					"class": "BUttons_SMALL",
+					"stroke": "#444444",
+					"method": "ObjectMethods/oButtonShowExportStamp.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oExportStamp": {
+					"type": "input",
+					"top": 316,
+					"left": 56,
+					"width": 68,
+					"height": 13,
+					"dataSource": "[TYPES:5]Export:3",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPurchasePriceGroupLabel": {
+					"type": "text",
+					"top": 148,
+					"left": 15,
+					"width": 135,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Purchase Price Group :"
+				},
+				"oPOPriceGroupName": {
+					"type": "input",
+					"top": 149,
+					"left": 220,
+					"width": 330,
+					"height": 13,
+					"dataSource": "vPOPriceName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPOPriceGroup": {
+					"type": "input",
+					"top": 150,
+					"left": 158,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[TYPES:5]PO_Price_Group:6",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBusage": {
+					"type": "listbox",
+					"top": 191,
+					"left": 166,
+					"width": 172,
+					"height": 63,
+					"resizingMode": "legacy",
+					"dataSource": "TYP_lb_Usage",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBusage.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "CU_abo_CodeUsed",
+							"width": 18,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"truncateMode": "none",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "CU_at_CodeUse",
+							"width": 147,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCompanyTypeCB": {
+					"type": "checkbox",
+					"top": 189,
+					"left": 351,
+					"width": 151,
+					"height": 12,
+					"dataSource": "[TYPES:5]UseAsCompanyType:7",
+					"text": "is a Company or Contact type",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": "By Default  'types' are Company/Contacts but where used only as address types this would not be ticked",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressTypeCB": {
+					"type": "checkbox",
+					"top": 204,
+					"left": 352,
+					"width": 151,
+					"height": 12,
+					"dataSource": "[TYPES:5]UseAsAddressType:8",
+					"text": "is an address Type",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"tooltip": "An Address can be used to designate different address usages when multiple addresses are on a contact. By Default the Values 'Home' and 'Work exist but this can be extended. You can designate Company Types as Address types if required",
+					"method": "ObjectMethods/oAddressTypeCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDefaultWorkAddress": {
+					"type": "radio",
+					"top": 234,
+					"left": 355,
+					"width": 123,
+					"height": 13,
+					"dataSource": "TYP_l_DefaultWorkAddress",
+					"text": "Default Work Address",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#191970",
+					"focusable": false,
+					"method": "ObjectMethods/oDefaultWorkAddress.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDefaultHomeAddress": {
+					"type": "radio",
+					"top": 252,
+					"left": 355,
+					"width": 123,
+					"height": 13,
+					"dataSource": "TYP_l_DefaultHomeAddress",
+					"text": "Default Home Address",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#191970",
+					"focusable": false,
+					"method": "ObjectMethods/oDefaultHomeAddress.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oNonDefaultAddress": {
+					"type": "radio",
+					"top": 219,
+					"left": 355,
+					"width": 138,
+					"height": 13,
+					"dataSource": "TYP_l_nonDefaultAddress",
+					"text": "Non Default Address type",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#191970",
+					"focusable": false,
+					"method": "ObjectMethods/oNonDefaultAddress.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 82
+}

@@ -1,0 +1,369 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oEmailAddressInformation": {
+					"type": "text",
+					"top": 11,
+					"left": 14,
+					"width": 370,
+					"height": 26,
+					"class": "Field_INFOS",
+					"text": "Here you can add additional email addresses that this user can send from. "
+				},
+				"oEmailName": {
+					"type": "input",
+					"top": 132,
+					"left": 16,
+					"width": 172,
+					"height": 12,
+					"dataSource": "PER_t_EmailName",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oEmailName.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEMailAddress": {
+					"type": "input",
+					"top": 132,
+					"left": 193,
+					"width": 189,
+					"height": 12,
+					"dataSource": "PER_t_EmailAddress",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oEMailAddress.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEMailHost": {
+					"type": "input",
+					"top": 132,
+					"left": 387,
+					"width": 189,
+					"height": 12,
+					"dataSource": "PER_t_DefaultHostAddress",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oEMailHost.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 436,
+					"width": 145,
+					"height": 13,
+					"dataSource": "PER_l_UserModifiable2",
+					"text": "User can add additional",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 60,
+					"left": 591,
+					"width": 62,
+					"height": 17,
+					"dataSource": "B_Add",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Highlight Button1": {
+					"type": "button",
+					"top": 103,
+					"left": 591,
+					"width": 62,
+					"height": 18,
+					"dataSource": "B_Delete",
+					"text": "Remove",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Highlight Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 132,
+					"left": 591,
+					"width": 62,
+					"height": 18,
+					"dataSource": "B_Save",
+					"text": "Save",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 176,
+					"left": 571,
+					"width": 80,
+					"height": 22,
+					"dataSource": "Bexit",
+					"shortcutKey": "[Enter]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 176,
+					"left": 572,
+					"width": 79,
+					"height": 22,
+					"dataSource": "Bexit",
+					"shortcutKey": "[Return]",
+					"text": "Exit",
+					"display": false,
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Highlight Button3": {
+					"type": "button",
+					"top": 152,
+					"left": 15,
+					"width": 82,
+					"height": 19,
+					"dataSource": "B_Sig",
+					"text": "Signature",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Highlight Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailSignature": {
+					"type": "input",
+					"top": 155,
+					"left": 106,
+					"width": 424,
+					"height": 56,
+					"dataSource": "PER_T_DefaultSignature",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/oEmailSignature.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBMailAddresses": {
+					"type": "listbox",
+					"top": 40,
+					"left": 14,
+					"width": 567,
+					"height": 78,
+					"resizingMode": "legacy",
+					"dataSource": "PER_lb_emailaddresses",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBMailAddresses.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 552,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oEmailName",
+				"oEMailAddress",
+				"oEMailHost",
+				"Variable4",
+				"Variable2",
+				"Highlight Button1",
+				"Highlight Button2",
+				"Variable3",
+				"Highlight Button3",
+				"oEmailSignature",
+				"oLBMailAddresses"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

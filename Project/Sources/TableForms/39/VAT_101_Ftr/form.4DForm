@@ -1,0 +1,168 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 561,
+	"markerBody": 600,
+	"markerBreak": 600,
+	"markerFooter": 600,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 544,
+					"left": 517,
+					"width": 21,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 544,
+					"left": 49,
+					"width": 277,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 544,
+					"left": 13,
+					"width": 37,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 544,
+					"left": 325,
+					"width": 193,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 569,
+					"left": 147,
+					"width": 54,
+					"height": 26,
+					"strokeWidth": 0.1
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 569,
+					"left": 498,
+					"width": 40,
+					"height": 26,
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 570,
+					"left": 412,
+					"width": 84,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 10,
+					"text": "Lines completed\r(this page only)"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 576,
+					"left": 13,
+					"width": 129,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 10,
+					"text": "Number of pages completed"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 572,
+					"left": 148,
+					"width": 52,
+					"height": 19,
+					"dataSource": "vNo3",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 572,
+					"left": 499,
+					"width": 38,
+					"height": 19,
+					"dataSource": "vNo2",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "System Font Regular",
+					"fontSize": 14,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

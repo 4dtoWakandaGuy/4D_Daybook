@@ -1,0 +1,1757 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 650,
+	"windowMaxHeight": 600,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 489,
+	"markerBreak": 489,
+	"markerFooter": 489,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 42,
+					"left": 14,
+					"width": 184,
+					"height": 12,
+					"stroke": "#C0CAFF",
+					"class": "Headers",
+					"text": "PERSONNEL GROUP"
+				},
+				"Tab Control1": {
+					"type": "tab",
+					"top": 47,
+					"left": 372,
+					"width": 216,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "WS_at_PersonGroupTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/Tab Control1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button4": {
+					"type": "button",
+					"top": 548,
+					"left": 526,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable71": {
+					"type": "button",
+					"top": 548,
+					"left": 489,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable71.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button28": {
+					"type": "button",
+					"top": 548,
+					"left": 139,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button28.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button24": {
+					"type": "button",
+					"top": 547,
+					"left": 192,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button22": {
+					"type": "button",
+					"top": 547,
+					"left": 241,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button22.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button20": {
+					"type": "button",
+					"top": 547,
+					"left": 290,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button20.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 547,
+					"left": 336,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button14": {
+					"type": "button",
+					"top": 547,
+					"left": 377,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button14.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 548,
+					"left": 416,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 548,
+					"left": 451,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oShowButtons": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 4,
+					"height": 578,
+					"sizingY": "grow",
+					"dataSource": "DB_but_OutputButtonsShow",
+					"display": false,
+					"method": "ObjectMethods/oShowButtons.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail",
+						"onMouseEnter"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oModuleAccess": {
+					"type": "groupBox",
+					"top": 214,
+					"left": 110,
+					"width": 399,
+					"height": 157,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"text": "Modules and Access rights..."
+				},
+				"oGroupNameLabel": {
+					"type": "text",
+					"top": 110,
+					"left": 17,
+					"width": 97,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Group Name :"
+				},
+				"oGroupCodeLabel": {
+					"type": "text",
+					"top": 90,
+					"left": 19,
+					"width": 95,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Group Code :"
+				},
+				"oTableNumberLabel": {
+					"type": "text",
+					"top": 392,
+					"left": 21,
+					"width": 87,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Table Nº :"
+				},
+				"oRecordStatesLabel": {
+					"type": "text",
+					"top": 418,
+					"left": 2,
+					"width": 107,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Record States ..."
+				},
+				"oStartModuleLabel": {
+					"type": "text",
+					"top": 307,
+					"left": 340,
+					"width": 120,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Start with Module..."
+				},
+				"oTableName": {
+					"type": "input",
+					"top": 396,
+					"left": 182,
+					"width": 225,
+					"height": 14,
+					"dataSource": "vStatus",
+					"stroke": "#444444",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oRestrictGroupStatesCB": {
+					"type": "checkbox",
+					"top": 373,
+					"left": 79,
+					"width": 378,
+					"height": 13,
+					"dataSource": "[PERSONNEL_GROUPS:92]Restrict_States:3",
+					"text": "Restrict Record States Access",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTableNames": {
+					"type": "dropdown",
+					"top": 391,
+					"left": 156,
+					"width": 18,
+					"height": 14,
+					"dataSource": "<>DB_at_TableNames",
+					"display": true,
+					"fontSize": 10,
+					"method": "ObjectMethods/oTableNames.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupCode": {
+					"type": "input",
+					"top": 89,
+					"left": 117,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]Group_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupName": {
+					"type": "input",
+					"top": 109,
+					"left": 117,
+					"width": 290,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]Group_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTableNumber": {
+					"type": "input",
+					"top": 394,
+					"left": 117,
+					"width": 37,
+					"height": 15,
+					"dataSource": "vNo2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oTableNumber.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupSMTPHost": {
+					"type": "input",
+					"top": 129,
+					"left": 117,
+					"width": 290,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_DEF_GRP_SMTPHOST:5",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSMTPhostLabel": {
+					"type": "text",
+					"top": 130,
+					"left": 17,
+					"width": 97,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "SMTP Host :"
+				},
+				"oGroupReplytoAddress": {
+					"type": "input",
+					"top": 149,
+					"left": 117,
+					"width": 290,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_DEF_GRP_ReplyToAddress:6",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oReplyToLabel": {
+					"type": "text",
+					"top": 150,
+					"left": 5,
+					"width": 109,
+					"height": 15,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Reply to Address :"
+				},
+				"oGroupCopytoAddress": {
+					"type": "input",
+					"top": 169,
+					"left": 117,
+					"width": 290,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_DEF_GRP_copytoAdress:7",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSendCopytoCB": {
+					"type": "checkbox",
+					"top": 159,
+					"left": 440,
+					"width": 130,
+					"height": 24,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_Def_CopytoOption:8",
+					"stroke": "#000000",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCopyToLabel": {
+					"type": "text",
+					"top": 169,
+					"left": 7,
+					"width": 107,
+					"height": 17,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Copy to Address :"
+				},
+				"oGroupSignature": {
+					"type": "input",
+					"top": 189,
+					"left": 117,
+					"width": 290,
+					"height": 14,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_Def_GRP_Signature:9",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSignatureLabel": {
+					"type": "text",
+					"top": 190,
+					"left": 20,
+					"width": 94,
+					"height": 17,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Signature :"
+				},
+				"oSignatureExpandButton": {
+					"type": "button",
+					"top": 187,
+					"left": 439,
+					"width": 64,
+					"height": 19,
+					"dataSource": "GRP_but_ExpandSIgnature",
+					"text": "Expand",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oSignatureExpandButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSendCopyLabel": {
+					"type": "text",
+					"top": 149,
+					"left": 439,
+					"width": 113,
+					"height": 15,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "Send copy to email"
+				},
+				"oModuleNamesDropDown": {
+					"type": "dropdown",
+					"top": 322,
+					"left": 338,
+					"width": 128,
+					"height": 20,
+					"dataSource": "MOD_at_ModuleName",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oModuleNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oModuleShowTextCB": {
+					"type": "checkbox",
+					"top": 344,
+					"left": 112,
+					"width": 226,
+					"height": 17,
+					"dataSource": "PER_l_ShowText",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Company Card"
+					},
+					"text": "Display Module Label where possible",
+					"class": "Check_Box_text_SMALL",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oModuleShowTextCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oVolumeAccess": {
+					"type": "listbox",
+					"top": 233,
+					"left": 114,
+					"width": 389,
+					"height": 71,
+					"resizingMode": "legacy",
+					"dataSource": "PER_LB_volumeAccess",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oVolumeAccess.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 334,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oClearStartModuleButton": {
+					"type": "button",
+					"top": 347,
+					"left": 341,
+					"width": 120,
+					"height": 19,
+					"dataSource": "GRP_but_ModuleClear",
+					"text": "Clear Start Module",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oClearStartModuleButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oModulesAccessNotes": {
+					"type": "text",
+					"top": 306,
+					"left": 113,
+					"width": 211,
+					"height": 33,
+					"class": "labelsLight",
+					"text": "All members of group get access by default to groups with a tick in the access column"
+				},
+				"oLBRecordStates": {
+					"type": "listbox",
+					"top": 418,
+					"left": 113,
+					"width": 389,
+					"height": 112,
+					"resizingMode": "legacy",
+					"dataSource": "GRP_lb_RecordStates",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBRecordStates.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 374,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupTextSignature": {
+					"type": "input",
+					"top": 116,
+					"left": 109,
+					"width": 410,
+					"height": 313,
+					"dataSource": "[PERSONNEL_GROUPS:92]X_Def_GRP_Signature:9",
+					"stroke": "#000000",
+					"fontFamily": "Courier",
+					"fontSize": 10,
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupDefaultSIgnatureLabel": {
+					"type": "text",
+					"top": 115,
+					"left": 6,
+					"width": 94,
+					"height": 17,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Signature :"
+				},
+				"oGroupReturnP2": {
+					"type": "button",
+					"top": 437,
+					"left": 482,
+					"width": 54,
+					"height": 19,
+					"dataSource": "GRP_but_GotoPage1",
+					"text": "Return",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oGroupReturnP2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupActionResults": {
+					"type": "tab",
+					"top": 180,
+					"left": 55,
+					"width": 469,
+					"height": 283,
+					"dataSource": "SD_at_ActionResultTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/oGroupActionResults.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupStartTime": {
+					"type": "input",
+					"top": 95,
+					"left": 186,
+					"width": 167,
+					"height": 12,
+					"dataSource": "SD_ti_SettingsTimeStart",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayStartTimeLabel": {
+					"type": "text",
+					"top": 94,
+					"left": 77,
+					"width": 102,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day Start Time :"
+				},
+				"oGroupSettingTImeEnd": {
+					"type": "input",
+					"top": 114,
+					"left": 186,
+					"width": 167,
+					"height": 12,
+					"dataSource": "SD_ti_SettingsTimeEnd",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayEndTImeLabel": {
+					"type": "text",
+					"top": 113,
+					"left": 77,
+					"width": 102,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day End Time :"
+				},
+				"oActionCodesNotes": {
+					"type": "text",
+					"top": 197,
+					"left": 63,
+					"width": 436,
+					"height": 48,
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Select Action Codes available for all users in this group, by default all action codes are available. Select on screen warning if you want items of that action code to display an on screen reminder when they are due, set a number of minutes prior to time of event for a reminder to appear, default is 5 Mins. Note that settings in the PERSONNEL setup will override these."
+				},
+				"oGroupSettingTImeLength": {
+					"type": "input",
+					"top": 133,
+					"left": 186,
+					"width": 37,
+					"height": 12,
+					"dataSource": "SD_l_SettingsTimeLen",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDefaultTimeLabel": {
+					"type": "text",
+					"top": 132,
+					"left": 24,
+					"width": 157,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Time for Actions :"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 132,
+					"left": 230,
+					"width": 32,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Mins"
+				},
+				"oWorkSaturdayCB": {
+					"type": "checkbox",
+					"top": 94,
+					"left": 371,
+					"width": 99,
+					"height": 14,
+					"dataSource": "SD_bo_SaturdayWork",
+					"text": "Work Saturday",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oWorkSundayCB": {
+					"type": "checkbox",
+					"top": 112,
+					"left": 371,
+					"width": 99,
+					"height": 14,
+					"dataSource": "SD_bo_SundayWork",
+					"text": "Work Sunday",
+					"class": "Default",
+					"method": "ObjectMethods/oWorkSundayCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupIncludeCompletedCB": {
+					"type": "checkbox",
+					"top": 409,
+					"left": 69,
+					"width": 191,
+					"height": 15,
+					"dataSource": "SD_l_IncludeCompleted",
+					"text": "Include Completed items in diary view",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oGroupIncludeCompletedCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupScheduleSlotsLabel": {
+					"type": "text",
+					"top": 132,
+					"left": 265,
+					"width": 143,
+					"height": 15,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Schedule Time Slots :"
+				},
+				"oGroupTimeSpace": {
+					"type": "input",
+					"top": 133,
+					"left": 415,
+					"width": 17,
+					"height": 12,
+					"dataSource": "SD_l_TimeSpace2",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oGroupTimeSpace.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMinutesNote": {
+					"type": "text",
+					"top": 132,
+					"left": 439,
+					"width": 32,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Mins"
+				},
+				"oACTIONSelect": {
+					"type": "listbox",
+					"top": 244,
+					"left": 62,
+					"width": 439,
+					"height": 165,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_Actions",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oACTIONSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column8",
+							"dataSource": "Column1",
+							"width": 424,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oActionsSwitchAll": {
+					"type": "button",
+					"top": 246,
+					"left": 63,
+					"width": 49,
+					"height": 13,
+					"dataSource": "PER_but_SwitchAllActions",
+					"display": false,
+					"method": "ObjectMethods/oActionsSwitchAll.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupActionResults1": {
+					"type": "tab",
+					"top": 161,
+					"left": 49,
+					"width": 469,
+					"height": 283,
+					"dataSource": "SD_at_ActionResultTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/oGroupActionResults1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oResultCodesNotes": {
+					"type": "text",
+					"top": 197,
+					"left": 69,
+					"width": 332,
+					"height": 24,
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontStyle": "italic",
+					"text": "Select Result Codes available for all users in this group, by default all R. Note that settings in the  PERSONNEL setup will override these."
+				},
+				"oGroupStartTime1": {
+					"type": "input",
+					"top": 95,
+					"left": 186,
+					"width": 167,
+					"height": 12,
+					"dataSource": "SD_ti_SettingsTimeStart",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayStartTimeLabel1": {
+					"type": "text",
+					"top": 94,
+					"left": 77,
+					"width": 102,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day Start Time :"
+				},
+				"oGroupEndTime": {
+					"type": "input",
+					"top": 114,
+					"left": 186,
+					"width": 167,
+					"height": 12,
+					"dataSource": "SD_ti_SettingsTimeEnd",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDayEndTimeLabel1": {
+					"type": "text",
+					"top": 113,
+					"left": 77,
+					"width": 102,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Day End Time :"
+				},
+				"oGroupSettingTImeLength1": {
+					"type": "input",
+					"top": 133,
+					"left": 186,
+					"width": 37,
+					"height": 12,
+					"dataSource": "SD_l_SettingsTimeLen",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDefaultTimeLabel1": {
+					"type": "text",
+					"top": 132,
+					"left": 24,
+					"width": 157,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Default Time for Action :"
+				},
+				"oMinutesNote2": {
+					"type": "text",
+					"top": 132,
+					"left": 230,
+					"width": 32,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Mins"
+				},
+				"oWorkSaturdayCB1": {
+					"type": "checkbox",
+					"top": 94,
+					"left": 371,
+					"width": 99,
+					"height": 14,
+					"dataSource": "SD_l_SaturdayWork",
+					"text": "Work Saturday",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oWorkSundayCB1": {
+					"type": "checkbox",
+					"top": 112,
+					"left": 371,
+					"width": 99,
+					"height": 14,
+					"dataSource": "SD_l_SundayWork",
+					"text": "Work Sunday",
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupScheduleSlotsLabel1": {
+					"type": "text",
+					"top": 132,
+					"left": 265,
+					"width": 143,
+					"height": 15,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Schedule Time Slots :"
+				},
+				"oGroupTimeSpace1": {
+					"type": "input",
+					"top": 133,
+					"left": 415,
+					"width": 17,
+					"height": 12,
+					"dataSource": "SD_l_TimeSpace2",
+					"class": "Default",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oGroupTimeSpace1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oMinutesNote1": {
+					"type": "text",
+					"top": 132,
+					"left": 439,
+					"width": 32,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Mins"
+				},
+				"oResultselect": {
+					"type": "listbox",
+					"top": 269,
+					"left": 69,
+					"width": 437,
+					"height": 145,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_abo_LBres",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oResultselect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column11",
+							"dataSource": "Column1",
+							"width": 422,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header11",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oResultsSwitchAll": {
+					"type": "button",
+					"top": 271,
+					"left": 72,
+					"width": 52,
+					"height": 13,
+					"dataSource": "PER_but_SwitchAllResults",
+					"display": false,
+					"method": "ObjectMethods/oResultsSwitchAll.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oGroupCatalogueAccess": {
+					"type": "text",
+					"top": 96,
+					"left": 19,
+					"width": 506,
+					"height": 12,
+					"class": "Default",
+					"text": "Catalogues are used to define groups of products which may be available to different groups of sales people."
+				},
+				"oAddCatalogueButton": {
+					"type": "button",
+					"top": 370,
+					"left": 377,
+					"width": 147,
+					"height": 22,
+					"dataSource": "Badd_Catalogue",
+					"text": "Create new Catalogue",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddCatalogueButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupProductInclude": {
+					"type": "text",
+					"top": 403,
+					"left": 20,
+					"width": 540,
+					"height": 76,
+					"class": "Default",
+					"text": "NOTE: Products in an Excluded cataglogue cannot be viewed, sold or purchased by this group. BUT if they are also in an available catalogue they will still be available to view sell or purchase. Product in Catalogues that are not available but not excluded CAN be Sold or Purchased by entering the product code."
+				},
+				"oLBCatalogues": {
+					"type": "listbox",
+					"top": 117,
+					"left": 15,
+					"width": 513,
+					"height": 240,
+					"resizingMode": "legacy",
+					"dataSource": "PROD_lb_Catalogues",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBCatalogues.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column5",
+							"dataSource": "Column5",
+							"width": 498,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 197
+}

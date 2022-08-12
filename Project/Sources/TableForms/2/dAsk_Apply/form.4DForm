@@ -1,0 +1,494 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable35": {
+					"type": "button",
+					"top": 310,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"sizingX": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable36": {
+					"type": "button",
+					"top": 309,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"sizingX": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable13": {
+					"type": "button",
+					"top": 93,
+					"left": 363,
+					"width": 78,
+					"height": 21,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 7,
+					"left": 8,
+					"width": 347,
+					"height": 113,
+					"stroke": "#111111",
+					"class": "Headers",
+					"text": "Data Change..."
+				},
+				"Variable1": {
+					"type": "radio",
+					"top": 31,
+					"left": 12,
+					"width": 207,
+					"height": 18,
+					"dataSource": "s1",
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"text": "Apply changes to a field",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "radio",
+					"top": 54,
+					"left": 12,
+					"width": 272,
+					"height": 18,
+					"dataSource": "s2",
+					"shortcutKey": "e",
+					"shortcutAccel": true,
+					"text": "Export Data to disk in Daybook Format",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "radio",
+					"top": 73,
+					"left": 12,
+					"width": 295,
+					"height": 18,
+					"dataSource": "s3",
+					"shortcutKey": "i",
+					"shortcutAccel": true,
+					"text": "Import Data from disk in Daybook Format",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "checkbox",
+					"top": 91,
+					"left": 52,
+					"width": 200,
+					"height": 17,
+					"dataSource": "ch2",
+					"shortcutKey": "o",
+					"shortcutAccel": true,
+					"text": "Overwrite duplicated data",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "button",
+					"top": 59,
+					"left": 363,
+					"width": 78,
+					"height": 21,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "button",
+					"top": 316,
+					"left": 363,
+					"width": 78,
+					"height": 1,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "button",
+					"top": 315,
+					"left": 363,
+					"width": 78,
+					"height": 1,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNoChange": {
+					"type": "radio",
+					"top": 28,
+					"left": 212,
+					"width": 127,
+					"height": 18,
+					"dataSource": "s0",
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"text": "No Changes",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oAccept": {
+					"type": "button",
+					"top": 280,
+					"left": 363,
+					"width": 78,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGroupBoxP2": {
+					"type": "groupBox",
+					"top": 7,
+					"left": 8,
+					"width": 347,
+					"height": 298,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "#111111",
+					"class": "Headers",
+					"text": "GLOBAL CHANGE"
+				},
+				"oCancel": {
+					"type": "button",
+					"top": 246,
+					"left": 363,
+					"width": 78,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button2": {
+					"type": "button",
+					"top": 24,
+					"left": 182,
+					"width": 165,
+					"height": 18,
+					"dataSource": "B_ApplyQV",
+					"text": "Apply Information to selection",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Radio Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 26,
+					"left": 18,
+					"width": 144,
+					"height": 16,
+					"class": "Labels",
+					"text": "Field to change"
+				},
+				"oGoBack": {
+					"type": "button",
+					"top": 26,
+					"left": 363,
+					"width": 78,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "xCancel",
+					"action": "firstPage",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Go back",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oGoBack.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBFIeldNames": {
+					"type": "listbox",
+					"top": 48,
+					"left": 23,
+					"width": 324,
+					"height": 247,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DU_lb_FieldNames",
+					"hideFocusRing": true,
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBFIeldNames.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 309,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

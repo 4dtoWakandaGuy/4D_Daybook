@@ -1,0 +1,96 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oCumulus": {
+					"type": "webArea",
+					"top": 3,
+					"left": 13,
+					"width": 540,
+					"height": 456,
+					"dataSource": "SD2_T_Dataform",
+					"urlSource": "DB_t_WebUrl",
+					"progressSource": "DB_l_WebProgress",
+					"webEngine": "embedded",
+					"contextMenu": "none",
+					"borderStyle": "none"
+				},
+				"oStop": {
+					"type": "button",
+					"top": 466,
+					"left": 437,
+					"width": 116,
+					"height": 21,
+					"dataSource": "RR_but_ZenCartStop",
+					"action": "cancel",
+					"text": "Stop",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"OHideWindow": {
+					"type": "checkbox",
+					"top": 466,
+					"left": 13,
+					"width": 224,
+					"height": 21,
+					"dataSource": "DB_l_HideWindow",
+					"text": "Hide Window",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

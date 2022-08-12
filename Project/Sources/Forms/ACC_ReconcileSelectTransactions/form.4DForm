@@ -1,0 +1,680 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 680,
+	"windowMinHeight": 182,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 12,
+					"left": 118,
+					"width": 445,
+					"height": 12,
+					"class": "Headers",
+					"text": "Select Transactions to reconcile against the bank statement entry"
+				},
+				"Field": {
+					"type": "input",
+					"top": 32,
+					"left": 115,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_Account_Number:2",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountNumberLabel": {
+					"type": "text",
+					"top": 34,
+					"left": 10,
+					"width": 101,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Account Number :"
+				},
+				"oDebitAmountLabel": {
+					"type": "text",
+					"top": 33,
+					"left": 255,
+					"width": 114,
+					"height": 14,
+					"class": "Labels",
+					"text": "Debit Amount :"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 32,
+					"left": 336,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_DebitAmount:8",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 32,
+					"left": 544,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_CreditAmount:9",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 32,
+					"left": 456,
+					"width": 86,
+					"height": 14,
+					"class": "Labels",
+					"text": "Credit Amount"
+				},
+				"oReconcilledListbox": {
+					"type": "listbox",
+					"top": 77,
+					"left": 115,
+					"width": 544,
+					"height": 73,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ABC_lb_ResolvedTransactions",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oReconcilledListbox.4dm",
+					"events": [
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"width": 529,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"oReconcilledLabel": {
+					"type": "text",
+					"top": 77,
+					"left": 32,
+					"width": 79,
+					"height": 42,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Transactions Already Related"
+				},
+				"oReconcilledTotal": {
+					"type": "input",
+					"top": 158,
+					"left": 544,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_ReconciledAmount:11",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oReconcilledTotalLabel": {
+					"type": "text",
+					"top": 158,
+					"left": 430,
+					"width": 106,
+					"height": 14,
+					"visibility": "hidden",
+					"class": "Labels",
+					"text": "Reconcilled amount"
+				},
+				"oUnreconcilledTransactions": {
+					"type": "listbox",
+					"top": 185,
+					"left": 115,
+					"width": 544,
+					"height": 121,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ABC_lb_unResolvedTransactions",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oUnreconcilledTransactions.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"width": 529,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"oUnreconcilledTransactionsLabel": {
+					"type": "text",
+					"top": 185,
+					"left": 25,
+					"width": 79,
+					"height": 42,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Reconcilable transactions"
+				},
+				"oSelectedTotalLabel": {
+					"type": "text",
+					"top": 315,
+					"left": 346,
+					"width": 187,
+					"height": 14,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Selected transactions amount :"
+				},
+				"oRemainingLabel": {
+					"type": "text",
+					"top": 336,
+					"left": 370,
+					"width": 163,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Amount still to reconcile :"
+				},
+				"oRemainingTotal": {
+					"type": "input",
+					"top": 336,
+					"left": 541,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ACC_R_RemainingtoReconcile",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSelectedunReconcilledTotal": {
+					"type": "input",
+					"top": 315,
+					"left": 541,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ACC_R_SelectedReconcilles",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 388,
+					"left": 575,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "ABC_l_Continue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 54,
+					"left": 115,
+					"width": 423,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_Transaction_Details:7",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"entryFilter": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 54,
+					"left": 544,
+					"width": 115,
+					"height": 14,
+					"dataSource": "[ACC_Bank_Statements:198]Bank_TransactionDate:5",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonNext": {
+					"type": "button",
+					"top": 1,
+					"left": 35,
+					"width": 35,
+					"height": 35,
+					"dataSource": "ButtonNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp8"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_NEXT.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonNext.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oPrevious": {
+					"type": "button",
+					"top": 1,
+					"left": 4,
+					"width": 35,
+					"height": 35,
+					"dataSource": "ButtonPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp7"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PREV.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oPrevious.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oFiltersLabel": {
+					"type": "text",
+					"top": 357,
+					"left": 10,
+					"width": 131,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"text": "Filter Transactions :"
+				},
+				"oFilterTransactions": {
+					"type": "dropdown",
+					"top": 358,
+					"left": 131,
+					"width": 207,
+					"height": 10,
+					"sizingY": "move",
+					"dataSource": "ABR_at_FilterTypes",
+					"class": "Pop-ups",
+					"textAlign": "right",
+					"method": "ObjectMethods/oFilterTransactions.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFiltersDateLabel": {
+					"type": "text",
+					"top": 358,
+					"left": 342,
+					"width": 191,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Restrict date range Proximity :"
+				},
+				"OGeneralSearch": {
+					"type": "button",
+					"top": 331,
+					"left": 10,
+					"width": 170,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "ACC_Recon_Search",
+					"text": "Advanced Transactions Query",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/OGeneralSearch.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNulReconcile": {
+					"type": "checkbox",
+					"top": 156,
+					"left": 117,
+					"width": 286,
+					"height": 16,
+					"dataSource": "ACC_bo_ReconcileManual",
+					"text": "Reconcile Statement item with no Daybook Transaction",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oNulReconcile.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFilterDates": {
+					"type": "input",
+					"top": 358,
+					"left": 546,
+					"width": 84,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "ABR_l_FilterDates",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oFilterDates.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OEnterTransaction": {
+					"type": "button",
+					"top": 309,
+					"left": 10,
+					"width": 170,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "ACC_Recon_Enter",
+					"text": "Enter New Transaction",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/OEnterTransaction.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

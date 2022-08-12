@@ -1,0 +1,715 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 524,
+	"markerBreak": 524,
+	"markerFooter": 534,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 93,
+					"left": 604,
+					"width": 100,
+					"height": 15,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 565,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "SF_ADDRESS"
+				},
+				"Line16": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 694,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text17": {
+					"type": "text",
+					"top": 126,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_UID : "
+				},
+				"Text18": {
+					"type": "text",
+					"top": 152,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_DS_MODIFIED_STAMP : "
+				},
+				"Text19": {
+					"type": "text",
+					"top": 178,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_SOURCEOWNERID : "
+				},
+				"Text20": {
+					"type": "text",
+					"top": 204,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_INSTANCEID : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 230,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_FIRSTLINE : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 256,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_SECONDLINE : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 282,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_THIRDLINE : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 308,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_TOWN : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 334,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_COUNTY : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 360,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_COUNTRY : "
+				},
+				"Text27": {
+					"type": "text",
+					"top": 386,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_POSTALID : "
+				},
+				"Text28": {
+					"type": "text",
+					"top": 460,
+					"left": 138,
+					"width": 216,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"text": "ADDRESS_COMBINED : "
+				},
+				"ADDRESS_UID": {
+					"type": "input",
+					"top": 126,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_UID:1",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_DS_MODIFIED_STAMP": {
+					"type": "input",
+					"top": 152,
+					"left": 359,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_DS_MODIFIED_STAMP:3",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_SOURCEOWNERID": {
+					"type": "input",
+					"top": 178,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_SOURCEOWNERID:5",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_INSTANCEID": {
+					"type": "input",
+					"top": 204,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_INSTANCEID:7",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_FIRSTLINE": {
+					"type": "input",
+					"top": 230,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_FIRSTLINE:8",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_SECONDLINE": {
+					"type": "input",
+					"top": 256,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_SECONDLINE:9",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_THIRDLINE": {
+					"type": "input",
+					"top": 282,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_THIRDLINE:10",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_TOWN": {
+					"type": "input",
+					"top": 308,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_TOWN:11",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_COUNTY": {
+					"type": "input",
+					"top": 334,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_COUNTY:12",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_COUNTRY": {
+					"type": "input",
+					"top": 360,
+					"left": 359,
+					"width": 330,
+					"height": 16,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_COUNTRY:13",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_POSTALID": {
+					"type": "input",
+					"top": 386,
+					"left": 359,
+					"width": 234,
+					"height": 64,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_POSTALID:14",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ADDRESS_COMBINED": {
+					"type": "input",
+					"top": 460,
+					"left": 359,
+					"width": 234,
+					"height": 64,
+					"dataSource": "[SF_ADDRESS:166]ADDRESS_COMBINED:15",
+					"textAlign": "left",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text15",
+					"Line16"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

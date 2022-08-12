@@ -1,0 +1,190 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 46,
+	"markerBreak": 46,
+	"markerFooter": 55,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oContactNameLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Contact Name :"
+				},
+				"oContactName": {
+					"type": "input",
+					"top": 18,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_ContactName",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oJobTitleLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 275,
+					"width": 46,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Job TItle :"
+				},
+				"oJobTIlte": {
+					"type": "input",
+					"top": 18,
+					"left": 324,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_JobTitle",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDepartmentLabel": {
+					"type": "text",
+					"top": 31,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Department :"
+				},
+				"oContactDepartment": {
+					"type": "input",
+					"top": 32,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_Department",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTelExtensionLabel": {
+					"type": "text",
+					"top": 31,
+					"left": 282,
+					"width": 39,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Tel Ext :"
+				},
+				"oTelExtension": {
+					"type": "input",
+					"top": 32,
+					"left": 324,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_TelExt",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 16,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

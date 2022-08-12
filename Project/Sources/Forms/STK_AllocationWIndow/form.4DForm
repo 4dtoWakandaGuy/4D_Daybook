@@ -1,0 +1,271 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oStockSettings": {
+					"type": "tab",
+					"top": 68,
+					"left": 12,
+					"width": 528,
+					"height": 182,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "STK_at_FilterTypes",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/oStockSettings.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oStockLocation": {
+					"type": "dropdown",
+					"top": 16,
+					"left": 164,
+					"width": 212,
+					"height": 25,
+					"dataSource": "STK_at_LocationNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oStockLocation.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oStockLocationLabel": {
+					"type": "text",
+					"top": 21,
+					"left": 9,
+					"width": 135,
+					"height": 14,
+					"class": "Labels",
+					"text": ":xlff:Stock_LabelLocation"
+				},
+				"oLBStockAllocation": {
+					"type": "listbox",
+					"top": 96,
+					"left": 16,
+					"width": 519,
+					"height": 147,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Allocate",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBStockAllocation.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"width": 509,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oStockLocationsShow": {
+					"type": "checkbox",
+					"top": 21,
+					"left": 388,
+					"width": 129,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_ShowLocations",
+					"text": "Show Stock Locations",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 252,
+					"left": 382,
+					"width": 158,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_CancelAllocations",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oUnallocateButton": {
+					"type": "button",
+					"top": 252,
+					"left": 16,
+					"width": 158,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "STK_l_Unallocate",
+					"text": "Unallocate Selected",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oUnallocateButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 48,
+					"left": 11,
+					"width": 156,
+					"height": 14,
+					"class": "Labels",
+					"text": "Quantity Required\t"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 48,
+					"left": 107,
+					"width": 51,
+					"height": 14,
+					"dataSource": "STK_R_QuantityRequired",
+					"dataSourceTypeHint": "number",
+					"class": "Labels",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/accounts"
+					},
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSTK_t_Company": {
+					"type": "input",
+					"top": 250,
+					"left": 181,
+					"width": 190,
+					"height": 62,
+					"sizingY": "move",
+					"dataSource": "STK_t_Company",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAllocateandexitButton": {
+					"type": "button",
+					"top": 289,
+					"left": 382,
+					"width": 158,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_AllocateButton",
+					"text": "Allocate Selected",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oAllocateandexitButton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

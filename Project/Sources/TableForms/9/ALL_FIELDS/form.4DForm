@@ -1,0 +1,2663 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 18,
+	"markerBody": 42,
+	"markerBreak": 45,
+	"markerFooter": 45,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture46": {
+					"type": "picture",
+					"top": -5,
+					"left": 0,
+					"width": 6524,
+					"height": 23,
+					"sizingX": "grow",
+					"pictureFormat": "scaled"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 24,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "1st Day Month : "
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 153,
+					"width": 95,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "1st Issue Date : "
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 280,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Analysis Code : "
+				},
+				"S4_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 406,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Append Issue : "
+				},
+				"S5_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 528,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Append Month : "
+				},
+				"S6_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 657,
+					"width": 76,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Brand Code : "
+				},
+				"S7_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 765,
+					"width": 112,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Bundle Assembly : "
+				},
+				"S8_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 909,
+					"width": 84,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Bundle Show : "
+				},
+				"S9_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1025,
+					"width": 114,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Commodity Code : "
+				},
+				"S10_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1171,
+					"width": 78,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Default Tax : "
+				},
+				"S11_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1281,
+					"width": 151,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "DefaultPriceCurrencyID : "
+				},
+				"S12_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1464,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Description : "
+				},
+				"S13_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 1766,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Enclosures : "
+				},
+				"S14_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2068,
+					"width": 60,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Every No : "
+				},
+				"S15_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2160,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Export : "
+				},
+				"S16_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2282,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Exported : "
+				},
+				"S17_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2376,
+					"width": 79,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Group Code : "
+				},
+				"S18_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2487,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Issues No : "
+				},
+				"S19_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2586,
+					"width": 98,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Maintain Stock : "
+				},
+				"S20_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2716,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Maximum : "
+				},
+				"S21_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2815,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Minimum : "
+				},
+				"S22_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 2911,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Mod Date : "
+				},
+				"S23_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3031,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Model Code : "
+				},
+				"S24_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3216,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Price List : "
+				},
+				"S25_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3310,
+					"width": 58,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Price Per : "
+				},
+				"S26_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3400,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Price Updates : "
+				},
+				"S27_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3522,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Product Code : "
+				},
+				"S28_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 3707,
+					"width": 378,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Product Name : "
+				},
+				"S29_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4117,
+					"width": 504,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "ProductGraphicFileName : "
+				},
+				"S30_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4653,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Purchase Acc : "
+				},
+				"S31_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4773,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Sales Acc : "
+				},
+				"S32_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4869,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Sales Price : "
+				},
+				"S33_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 4973,
+					"width": 108,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Serial Numbered : "
+				},
+				"S34_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5113,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Short Code : "
+				},
+				"S35_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5219,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Size : "
+				},
+				"S36_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5341,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Standard Price : "
+				},
+				"S37_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5467,
+					"width": 69,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Start Days : "
+				},
+				"S38_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5568,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Start No : "
+				},
+				"S39_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5656,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Stock Acc : "
+				},
+				"S40_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5755,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Subs Perpetual : "
+				},
+				"S41_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 5884,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Superior : "
+				},
+				"S42_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6069,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Unit No : "
+				},
+				"S43_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6157,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Weight : "
+				},
+				"S44_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6261,
+					"width": 151,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "xSupplierUpdateOption : "
+				},
+				"S45_Text": {
+					"type": "text",
+					"top": 0,
+					"left": 6444,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "X_ID : "
+				},
+				"Rectangle47": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 0,
+					"width": 6524,
+					"height": 24,
+					"sizingX": "grow",
+					"stroke": "#FFFFFF"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 24,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]First_Day_Month:33",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 153,
+					"width": 95,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]First_Issue_Date:32",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 280,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Analysis_Code:18",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 406,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Append_Issue:35",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 528,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Append_Month:34",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S6_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 657,
+					"width": 76,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Brand_Code:4",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S7_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 765,
+					"width": 112,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Bundle_Assembly:36",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S8_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 909,
+					"width": 84,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Bundle_Show:37",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S9_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1025,
+					"width": 114,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Commodity_Code:38",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S10_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1171,
+					"width": 78,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Default_Tax:23",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S11_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1281,
+					"width": 151,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Default_Price_Currency_ID:45",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S12_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1464,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Description:6",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S13_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 1766,
+					"width": 270,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Enclosures:20",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S14_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2068,
+					"width": 60,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Every_Number:28",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S15_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2160,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Export:22",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S16_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 2282,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Exported:24",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S17_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2376,
+					"width": 79,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Group_Code:3",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S18_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2487,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Issues_Number:27",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S19_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 2586,
+					"width": 98,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Maintain_Stock:14",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S20_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2716,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Maximum:12",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S21_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2815,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Minimum:11",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S22_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 2911,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Modified_Date:10",
+					"dataSourceTypeHint": "date",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S23_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3031,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Model_Code:5",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S24_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 3216,
+					"width": 62,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Price_List:8",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S25_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3310,
+					"width": 58,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Price_Per:40",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S26_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 3400,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Price_Updates:25",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S27_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3522,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Product_Code:1",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S28_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 3707,
+					"width": 378,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Product_Name:2",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S29_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 4117,
+					"width": 504,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Picture_File_Name:44",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S30_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 4653,
+					"width": 88,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Purchase_Account:13",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S31_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 4773,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Sales_Account:7",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S32_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 4869,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Sales_Price:9",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S33_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 4973,
+					"width": 108,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Serial_Numbered:17",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S34_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5113,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Short_Code:19",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S35_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5219,
+					"width": 90,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Size:39",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S36_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5341,
+					"width": 94,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Standard_Price:16",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S37_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5467,
+					"width": 69,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Start_Days:31",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S38_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5568,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Start_Number:30",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S39_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5656,
+					"width": 67,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Stock_Account:42",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S40_Field": {
+					"type": "checkbox",
+					"top": 22,
+					"left": 5755,
+					"width": 97,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Subscription_Perpetual:41",
+					"text": "Yes",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S41_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 5884,
+					"width": 153,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Superior:15",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S42_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 6069,
+					"width": 56,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Unit_Number:29",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S43_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 6157,
+					"width": 72,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]Weight:26",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S44_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 6261,
+					"width": 151,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]x_Supplier_Update_Option:47",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S45_Field": {
+					"type": "input",
+					"top": 22,
+					"left": 6444,
+					"width": 64,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[PRODUCTS:9]X_ID:43",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line48": {
+					"type": "line",
+					"top": -5,
+					"left": 0,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Line49": {
+					"type": "line",
+					"top": -5,
+					"left": 6524,
+					"height": 47,
+					"sizingX": "move",
+					"stroke": "#A8A8A8"
+				},
+				"Line50": {
+					"type": "line",
+					"top": -5,
+					"left": 6428,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "button",
+					"top": -5,
+					"left": 6427,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line51": {
+					"type": "line",
+					"top": -5,
+					"left": 6245,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter3": {
+					"type": "button",
+					"top": -5,
+					"left": 6244,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter3",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line52": {
+					"type": "line",
+					"top": -5,
+					"left": 6141,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter4": {
+					"type": "button",
+					"top": -5,
+					"left": 6140,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter4",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line53": {
+					"type": "line",
+					"top": -5,
+					"left": 6053,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter5": {
+					"type": "button",
+					"top": -5,
+					"left": 6052,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter5",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line54": {
+					"type": "line",
+					"top": -5,
+					"left": 5868,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter6": {
+					"type": "button",
+					"top": -5,
+					"left": 5867,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter6",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line55": {
+					"type": "line",
+					"top": -5,
+					"left": 5739,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter7": {
+					"type": "button",
+					"top": -5,
+					"left": 5738,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter7",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line56": {
+					"type": "line",
+					"top": -5,
+					"left": 5640,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter8": {
+					"type": "button",
+					"top": -5,
+					"left": 5639,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter8",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line57": {
+					"type": "line",
+					"top": -5,
+					"left": 5552,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter9": {
+					"type": "button",
+					"top": -5,
+					"left": 5551,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter9",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line58": {
+					"type": "line",
+					"top": -5,
+					"left": 5451,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter10": {
+					"type": "button",
+					"top": -5,
+					"left": 5450,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter10",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line59": {
+					"type": "line",
+					"top": -5,
+					"left": 5325,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter11": {
+					"type": "button",
+					"top": -5,
+					"left": 5324,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter11",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line60": {
+					"type": "line",
+					"top": -5,
+					"left": 5203,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter12": {
+					"type": "button",
+					"top": -5,
+					"left": 5202,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter12",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line61": {
+					"type": "line",
+					"top": -5,
+					"left": 5097,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter13": {
+					"type": "button",
+					"top": -5,
+					"left": 5096,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter13",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line62": {
+					"type": "line",
+					"top": -5,
+					"left": 4957,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter14": {
+					"type": "button",
+					"top": -5,
+					"left": 4956,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter14",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line63": {
+					"type": "line",
+					"top": -5,
+					"left": 4853,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter15": {
+					"type": "button",
+					"top": -5,
+					"left": 4852,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter15",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line64": {
+					"type": "line",
+					"top": -5,
+					"left": 4757,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter16": {
+					"type": "button",
+					"top": -5,
+					"left": 4756,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter16",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line65": {
+					"type": "line",
+					"top": -5,
+					"left": 4637,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter17": {
+					"type": "button",
+					"top": -5,
+					"left": 4636,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter17",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line66": {
+					"type": "line",
+					"top": -5,
+					"left": 4101,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter18": {
+					"type": "button",
+					"top": -5,
+					"left": 4100,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter18",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line67": {
+					"type": "line",
+					"top": -5,
+					"left": 3691,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter19": {
+					"type": "button",
+					"top": -5,
+					"left": 3690,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter19",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line68": {
+					"type": "line",
+					"top": -5,
+					"left": 3506,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter20": {
+					"type": "button",
+					"top": -5,
+					"left": 3505,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter20",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line69": {
+					"type": "line",
+					"top": -5,
+					"left": 3384,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter21": {
+					"type": "button",
+					"top": -5,
+					"left": 3383,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter21",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line70": {
+					"type": "line",
+					"top": -5,
+					"left": 3294,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter22": {
+					"type": "button",
+					"top": -5,
+					"left": 3293,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter22",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line71": {
+					"type": "line",
+					"top": -5,
+					"left": 3200,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter23": {
+					"type": "button",
+					"top": -5,
+					"left": 3199,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter23",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line72": {
+					"type": "line",
+					"top": -5,
+					"left": 3015,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter24": {
+					"type": "button",
+					"top": -5,
+					"left": 3014,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter24",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line73": {
+					"type": "line",
+					"top": -5,
+					"left": 2895,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter25": {
+					"type": "button",
+					"top": -5,
+					"left": 2894,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter25",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line74": {
+					"type": "line",
+					"top": -5,
+					"left": 2799,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter26": {
+					"type": "button",
+					"top": -5,
+					"left": 2798,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter26",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line75": {
+					"type": "line",
+					"top": -5,
+					"left": 2700,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter27": {
+					"type": "button",
+					"top": -5,
+					"left": 2699,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter27",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line76": {
+					"type": "line",
+					"top": -5,
+					"left": 2570,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter28": {
+					"type": "button",
+					"top": -5,
+					"left": 2569,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter28",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line77": {
+					"type": "line",
+					"top": -5,
+					"left": 2471,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter29": {
+					"type": "button",
+					"top": -5,
+					"left": 2470,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter29",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line78": {
+					"type": "line",
+					"top": -5,
+					"left": 2360,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter30": {
+					"type": "button",
+					"top": -5,
+					"left": 2359,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter30",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line79": {
+					"type": "line",
+					"top": -5,
+					"left": 2266,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter31": {
+					"type": "button",
+					"top": -5,
+					"left": 2265,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter31",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line80": {
+					"type": "line",
+					"top": -5,
+					"left": 2144,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter32": {
+					"type": "button",
+					"top": -5,
+					"left": 2143,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter32",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line81": {
+					"type": "line",
+					"top": -5,
+					"left": 2052,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter33": {
+					"type": "button",
+					"top": -5,
+					"left": 2051,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter33",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line82": {
+					"type": "line",
+					"top": -5,
+					"left": 1750,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter34": {
+					"type": "button",
+					"top": -5,
+					"left": 1749,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter34",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line83": {
+					"type": "line",
+					"top": -5,
+					"left": 1448,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter35": {
+					"type": "button",
+					"top": -5,
+					"left": 1447,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter35",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line84": {
+					"type": "line",
+					"top": -5,
+					"left": 1265,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter36": {
+					"type": "button",
+					"top": -5,
+					"left": 1264,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter36",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line85": {
+					"type": "line",
+					"top": -5,
+					"left": 1155,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter37": {
+					"type": "button",
+					"top": -5,
+					"left": 1154,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter37",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line86": {
+					"type": "line",
+					"top": -5,
+					"left": 1009,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter38": {
+					"type": "button",
+					"top": -5,
+					"left": 1008,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter38",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line87": {
+					"type": "line",
+					"top": -5,
+					"left": 893,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter39": {
+					"type": "button",
+					"top": -5,
+					"left": 892,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter39",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line88": {
+					"type": "line",
+					"top": -5,
+					"left": 749,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter40": {
+					"type": "button",
+					"top": -5,
+					"left": 748,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter40",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line89": {
+					"type": "line",
+					"top": -5,
+					"left": 641,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter41": {
+					"type": "button",
+					"top": -5,
+					"left": 640,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter41",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line90": {
+					"type": "line",
+					"top": -5,
+					"left": 512,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter42": {
+					"type": "button",
+					"top": -5,
+					"left": 511,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter42",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line91": {
+					"type": "line",
+					"top": -5,
+					"left": 390,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter43": {
+					"type": "button",
+					"top": -5,
+					"left": 389,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter43",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line92": {
+					"type": "line",
+					"top": -5,
+					"left": 264,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter44": {
+					"type": "button",
+					"top": -5,
+					"left": 263,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter44",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line93": {
+					"type": "line",
+					"top": -5,
+					"left": 137,
+					"height": 47,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter45": {
+					"type": "button",
+					"top": -5,
+					"left": 136,
+					"width": 3,
+					"height": 47,
+					"dataSource": "Splitter45",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

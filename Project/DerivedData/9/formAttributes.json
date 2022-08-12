@@ -1,0 +1,71 @@
+{
+	"forms": {
+		"Products_OutCAT": {
+			"timeStamp": "2022-03-10T16:49:15.772Z",
+			"destination": "listScreen"
+		},
+		"Products_SimplifiedEntry": {
+			"timeStamp": "2022-06-02T08:03:48.881Z",
+			"destination": "detailScreen"
+		},
+		"dProd_Sel": {
+			"timeStamp": "2022-03-15T15:53:58.506Z"
+		},
+		"Products_OutOLD": {
+			"timeStamp": "2022-03-15T16:04:52.557Z",
+			"destination": "listScreen"
+		},
+		"dAsk_Product": {
+			"timeStamp": "2022-03-15T08:37:47.156Z",
+			"destination": "detailScreen"
+		},
+		"Products_Su": {
+			"timeStamp": "2022-06-02T08:03:48.877Z",
+			"destination": "detailScreen"
+		},
+		"Products_Stock": {
+			"timeStamp": "2022-04-10T12:03:09.354Z"
+		},
+		"Products_in2009": {
+			"timeStamp": "2022-03-10T16:49:15.853Z",
+			"destination": "detailScreen"
+		},
+		"Products_Out": {
+			"timeStamp": "2022-03-10T16:49:15.808Z",
+			"destination": "listScreen"
+		},
+		"Product_ListS": {
+			"timeStamp": "2022-04-10T12:03:09.350Z"
+		},
+		"Products_In": {
+			"timeStamp": "2022-06-02T08:03:48.898Z",
+			"destination": "detailScreen"
+		},
+		"Products_inCAT": {
+			"timeStamp": "2022-06-02T08:03:48.893Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:15.776Z",
+			"destination": "listScreen"
+		},
+		"Product_List": {
+			"timeStamp": "2022-04-10T12:03:09.347Z"
+		},
+		"Price_Front": {
+			"timeStamp": "2022-03-15T16:04:52.537Z"
+		},
+		"dAsk_Price": {
+			"timeStamp": "2022-03-15T08:35:44.924Z"
+		},
+		"Price_PS": {
+			"timeStamp": "2022-03-15T16:04:52.550Z"
+		},
+		"dProd_SelS": {
+			"timeStamp": "2022-03-15T15:53:58.560Z"
+		},
+		"Price_Front2": {
+			"timeStamp": "2022-03-15T16:04:52.548Z"
+		}
+	}
+}

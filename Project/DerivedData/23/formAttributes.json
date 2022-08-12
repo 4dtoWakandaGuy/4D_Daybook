@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Solutions_In": {
+			"timeStamp": "2022-03-13T19:29:10.241Z",
+			"destination": "detailScreen"
+		},
+		"Solutions_Out": {
+			"timeStamp": "2022-03-13T19:31:22.190Z",
+			"destination": "listScreen"
+		}
+	}
+}

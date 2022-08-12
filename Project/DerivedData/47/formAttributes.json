@@ -1,0 +1,54 @@
+{
+	"forms": {
+		"dJobStages_Sel": {
+			"timeStamp": "2022-03-22T15:44:50.071Z"
+		},
+		"JobStages_SubP": {
+			"timeStamp": "2022-03-10T16:49:20.803Z"
+		},
+		"JobStage_In": {
+			"timeStamp": "2022-06-02T09:06:18.900Z",
+			"destination": "detailScreen"
+		},
+		"Client_ConfSub": {
+			"timeStamp": "2022-03-10T16:49:20.745Z"
+		},
+		"Client_ConfSubM": {
+			"timeStamp": "2022-03-10T16:49:20.748Z",
+			"destination": "detailPrinter"
+		},
+		"JobStages_SuS": {
+			"timeStamp": "2022-03-10T16:49:20.798Z",
+			"destination": "listScreen"
+		},
+		"JobStages_List_90": {
+			"timeStamp": "2022-04-10T11:42:06.184Z",
+			"destination": "detailPrinter"
+		},
+		"ApplicConf_Sub": {
+			"timeStamp": "2022-03-10T16:49:20.743Z",
+			"destination": "detailPrinter"
+		},
+		"JobStages_List": {
+			"timeStamp": "2022-03-10T16:49:20.789Z"
+		},
+		"JobStages_Out": {
+			"timeStamp": "2022-03-10T16:49:20.797Z",
+			"destination": "listScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:20.837Z",
+			"destination": "listScreen"
+		},
+		"JobStages_FormS": {
+			"timeStamp": "2022-03-10T16:49:20.761Z",
+			"destination": "detailPrinter"
+		},
+		"JobsB_Sub": {
+			"timeStamp": "2022-03-10T16:49:20.759Z"
+		},
+		"JobStagesSub": {
+			"timeStamp": "2022-03-10T16:49:20.800Z"
+		}
+	}
+}

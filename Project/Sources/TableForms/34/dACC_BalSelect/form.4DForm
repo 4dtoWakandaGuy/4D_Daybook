@@ -1,0 +1,837 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 592,
+	"windowMinHeight": 303,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #59",
+	"markerBody": 221,
+	"markerBreak": 221,
+	"markerFooter": 221,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oSideBarAccBal": {
+					"type": "rectangle",
+					"top": 26,
+					"left": 468,
+					"width": 124,
+					"height": 277,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"fill": "#008788",
+					"stroke": "transparent"
+				},
+				"oFromNo": {
+					"type": "input",
+					"top": 77,
+					"left": 515,
+					"width": 46,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "vNo",
+					"stroke": "#DFFFFF",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFromLabel": {
+					"type": "text",
+					"top": 77,
+					"left": 481,
+					"width": 31,
+					"height": 18,
+					"sizingX": "move",
+					"stroke": "#DFFFFF",
+					"class": "Fields_OUTPUT",
+					"text": "From"
+				},
+				"oAdvancedQueryLabel": {
+					"type": "text",
+					"top": 29,
+					"left": 480,
+					"width": 77,
+					"height": 24,
+					"sizingX": "move",
+					"stroke": "#DFFFFF",
+					"class": "Headers",
+					"text": ":xliff:Text_MoreChoicesuppercase"
+				},
+				"oCheckBoxWIthinSelection": {
+					"type": "checkbox",
+					"top": 119,
+					"left": 475,
+					"width": 117,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cSIS",
+					"text": ":xliff:Text_withinSelection",
+					"class": "Labels_OUTPUT",
+					"stroke": "#DFFFFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxNoAutoWildcard": {
+					"type": "checkbox",
+					"top": 134,
+					"left": 475,
+					"width": 106,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cNAA",
+					"text": ":xliff:Text_noWildcard",
+					"class": "Labels_OUTPUT",
+					"stroke": "#DFFFFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxNoLookup": {
+					"type": "checkbox",
+					"top": 149,
+					"left": 475,
+					"width": 99,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "cNAL",
+					"text": ":xliff:Text_NoLookupLists",
+					"class": "Labels_OUTPUT",
+					"stroke": "#DFFFFF",
+					"method": "ObjectMethods/oCheckBoxNoLookup.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 242,
+					"left": 481,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 272,
+					"left": 481,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Find",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oButtonAccept.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLoadQueryLabel": {
+					"type": "text",
+					"top": 169,
+					"left": 480,
+					"width": 69,
+					"height": 15,
+					"sizingX": "move",
+					"fill": "#008788",
+					"stroke": "#FFDFFF",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Load Query"
+				}
+			}
+		},
+		{
+			"objects": {
+				"ovPeriodTBox": {
+					"type": "rectangle",
+					"top": 83,
+					"left": 310,
+					"width": 20,
+					"height": 19,
+					"fill": "transparent",
+					"stroke": "#CCCCCC"
+				},
+				"ovPeriodFBox": {
+					"type": "rectangle",
+					"top": 83,
+					"left": 191,
+					"width": 22,
+					"height": 19,
+					"fill": "transparent",
+					"stroke": "#CCCCCC"
+				},
+				"oAnalysisCodeLabel": {
+					"type": "text",
+					"top": 66,
+					"left": 11,
+					"width": 96,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FIeldLabels_analysisCode"
+				},
+				"oAccountLabel": {
+					"type": "text",
+					"top": 46,
+					"left": 23,
+					"width": 84,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_account"
+				},
+				"oPeriodCodeLabel": {
+					"type": "text",
+					"top": 86,
+					"left": 10,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_periodCode"
+				},
+				"oFrom": {
+					"type": "text",
+					"top": 30,
+					"left": 121,
+					"width": 49,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "From..."
+				},
+				"oToLabel": {
+					"type": "text",
+					"top": 30,
+					"left": 239,
+					"width": 49,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Fields_OUTPUT",
+					"text": "To..."
+				},
+				"oLayerCodeLabel": {
+					"type": "text",
+					"top": 106,
+					"left": 16,
+					"width": 91,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_AccountsLayer"
+				},
+				"oBalanceLabel": {
+					"type": "text",
+					"top": 146,
+					"left": 10,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_balance"
+				},
+				"oCurrencyCodeLabel": {
+					"type": "text",
+					"top": 126,
+					"left": 10,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:FieldLabels_currency"
+				},
+				"oCurrencyCodeNote": {
+					"type": "text",
+					"top": 123,
+					"left": 174,
+					"width": 97,
+					"height": 13,
+					"stroke": "#005F60",
+					"class": "Field_INFOS",
+					"text": ":xliff:Text_Blankforall"
+				},
+				"oAccountCodeFrom": {
+					"type": "input",
+					"top": 46,
+					"left": 121,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Acc_t_AccountCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountCodeFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountCodeTo": {
+					"type": "input",
+					"top": 46,
+					"left": 239,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Acc_t_AccountCodeTo",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountCodeTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisCodeFrom": {
+					"type": "input",
+					"top": 66,
+					"left": 121,
+					"width": 70,
+					"height": 14,
+					"dataSource": "ACC_t_AnalysisCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAnalysisCodeFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAnalysisCodeTo": {
+					"type": "input",
+					"top": 66,
+					"left": 239,
+					"width": 70,
+					"height": 14,
+					"dataSource": "vAnalCodeT",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAnalysisCodeTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodCodeFrom": {
+					"type": "input",
+					"top": 86,
+					"left": 121,
+					"width": 70,
+					"height": 14,
+					"dataSource": "ACC_t_PeriodFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodCodeFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodCodeTo": {
+					"type": "input",
+					"top": 86,
+					"left": 239,
+					"width": 70,
+					"height": 14,
+					"dataSource": "ACC_t_PeriodTo",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodCodeTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountLayer": {
+					"type": "input",
+					"top": 106,
+					"left": 121,
+					"width": 47,
+					"height": 14,
+					"dataSource": "vText",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountLayer.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCurrency": {
+					"type": "input",
+					"top": 126,
+					"left": 121,
+					"width": 47,
+					"height": 14,
+					"dataSource": "ACC_t_CurrencyCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oCurrency.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAmountFrom": {
+					"type": "input",
+					"top": 146,
+					"left": 121,
+					"width": 70,
+					"height": 14,
+					"dataSource": "vAmountF",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAmountTo": {
+					"type": "input",
+					"top": 146,
+					"left": 229,
+					"width": 70,
+					"height": 14,
+					"dataSource": "vAmountT",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxFilterUnusedAccounts": {
+					"type": "checkbox",
+					"top": 172,
+					"left": 21,
+					"width": 241,
+					"height": 20,
+					"dataSource": "ch5",
+					"text": ":xliff:donotshowunused",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxFilterZeroBalanceAccounts": {
+					"type": "checkbox",
+					"top": 195,
+					"left": 21,
+					"width": 267,
+					"height": 18,
+					"dataSource": "ch7",
+					"text": ":xliff:donoshowzerobalance",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxFilterToHeadingLevel": {
+					"type": "checkbox",
+					"top": 217,
+					"left": 21,
+					"width": 176,
+					"height": 19,
+					"dataSource": "ch6",
+					"text": ":xliff:Collapsetoheadinglevel",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oHeadingLevelLabel": {
+					"type": "input",
+					"top": 220,
+					"left": 192,
+					"width": 47,
+					"height": 15,
+					"dataSource": "vValueF",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"min": 1,
+					"max": 9,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCheckBoxPrintTo": {
+					"type": "checkbox",
+					"top": 241,
+					"left": 21,
+					"width": 296,
+					"height": 19,
+					"dataSource": "cABL",
+					"text": ":xliff:Reportaccountbalsasspreadsheet",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRadioButtonPrint": {
+					"type": "radio",
+					"top": 263,
+					"left": 21,
+					"width": 146,
+					"height": 20,
+					"dataSource": "s1",
+					"text": ":xliff:Printthereport",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRadioButtonExport": {
+					"type": "radio",
+					"top": 264,
+					"left": 160,
+					"width": 144,
+					"height": 19,
+					"dataSource": "s2",
+					"text": ":xliff:Exporttodisk",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSearchNamesDropDown": {
+					"type": "dropdown",
+					"top": 193,
+					"left": 473,
+					"width": 116,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SM_at_SearchNames",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSearchNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oACCTabChoices": {
+					"type": "tab",
+					"top": 0,
+					"left": 2,
+					"width": 588,
+					"height": 26,
+					"sizingX": "grow",
+					"dataSource": "ACC_at_SearchTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Fields",
+					"method": "ObjectMethods/oACCTabChoices.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDropDownContextualPeriodsFrom": {
+					"type": "dropdown",
+					"top": 86,
+					"left": 192,
+					"width": 13,
+					"height": 13,
+					"dataSource": "ACC_at_ContextualPeriodF",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oDropDownContextualPeriodsFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDropDownContextualPeriodsTo": {
+					"type": "dropdown",
+					"top": 86,
+					"left": 310,
+					"width": 13,
+					"height": 13,
+					"dataSource": "ACC_at_ContextualPeriodT",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oDropDownContextualPeriodsTo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSizingText": {
+					"type": "input",
+					"top": 275,
+					"left": 9,
+					"width": 220,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "dbtabText2",
+					"class": "Labels",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 39
+}

@@ -1,0 +1,533 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1,
+					"width": 447,
+					"height": 378,
+					"fill": "transparent",
+					"stroke": "#333333"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 206,
+					"left": 138,
+					"width": 250,
+					"height": 48,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Customer Licence Version"
+				},
+				"oReleaseLabel": {
+					"type": "text",
+					"top": 116,
+					"left": 19,
+					"width": 120,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Release :"
+				},
+				"TitleVersionNumberLabel": {
+					"type": "text",
+					"top": 87,
+					"left": 19,
+					"width": 120,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Version Number :"
+				},
+				"ovVer1": {
+					"type": "input",
+					"top": 87,
+					"left": 140,
+					"width": 31,
+					"height": 17,
+					"dataSource": "VER_t_LicVerSection1",
+					"stroke": "#000000",
+					"class": "FIelds_Large",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/ovVer1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ovVer2": {
+					"type": "input",
+					"top": 87,
+					"left": 190,
+					"width": 31,
+					"height": 17,
+					"dataSource": "VER_t_LicVerSection2",
+					"stroke": "#000000",
+					"class": "FIelds_Large",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/ovVer2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ovVer3": {
+					"type": "input",
+					"top": 87,
+					"left": 240,
+					"width": 31,
+					"height": 17,
+					"dataSource": "VER_t_LicVerSection3",
+					"stroke": "#000000",
+					"class": "FIelds_Large",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/ovVer3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ovVer4": {
+					"type": "input",
+					"top": 87,
+					"left": 290,
+					"width": 31,
+					"height": 17,
+					"dataSource": "VER_t_LicVerSection4",
+					"stroke": "#000000",
+					"class": "FIelds_Large",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/ovVer4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oVer_Developer": {
+					"type": "input",
+					"top": 145,
+					"left": 140,
+					"width": 200,
+					"height": 14,
+					"dataSource": "VER_t_DeveloperName",
+					"stroke": "#000000",
+					"class": "Fields_BOLD",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oVer_Developer.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"oVER_t_VersionComment": {
+					"type": "input",
+					"top": 171,
+					"left": 140,
+					"width": 260,
+					"height": 35,
+					"dataSource": "VER_T_Comment",
+					"stroke": "#000000",
+					"class": "FIelds_Large",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oVER_t_VersionComment.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oVer_Licence Version": {
+					"type": "input",
+					"top": 229,
+					"left": 147,
+					"width": 120,
+					"height": 14,
+					"dataSource": "VER_t_CustomerLicenceVersion",
+					"stroke": "#000000",
+					"class": "Fields_BOLD",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oVer_Licence Version.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"obInternalRelease": {
+					"type": "button",
+					"top": 297,
+					"left": 30,
+					"width": 140,
+					"height": 22,
+					"dataSource": "bInternalRelease",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Internal Release",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/obInternalRelease.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obIncrementBuildNo": {
+					"type": "button",
+					"top": 297,
+					"left": 274,
+					"width": 140,
+					"height": 22,
+					"dataSource": "bIncrementBuildNo",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Increment Build",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/obIncrementBuildNo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obExternalRelease": {
+					"type": "button",
+					"top": 328,
+					"left": 30,
+					"width": 140,
+					"height": 22,
+					"dataSource": "bExternalRelease",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "External Release",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/obExternalRelease.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obNoChangesMade": {
+					"type": "button",
+					"top": 328,
+					"left": 274,
+					"width": 140,
+					"height": 22,
+					"dataSource": "bNoChangesMade",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "No Changes Made",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/obNoChangesMade.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oVer_Releases": {
+					"type": "dropdown",
+					"top": 114,
+					"left": 139,
+					"width": 200,
+					"height": 21,
+					"dataSource": "LIC_at_ReleaseTypes",
+					"focusable": false,
+					"fontSize": 12,
+					"method": "ObjectMethods/oVer_Releases.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDot1": {
+					"type": "text",
+					"top": 87,
+					"left": 176,
+					"width": 10,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 11,
+					"text": "."
+				},
+				"oDot2": {
+					"type": "text",
+					"top": 87,
+					"left": 226,
+					"width": 10,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 11,
+					"text": "."
+				},
+				"oForwardSlash": {
+					"type": "text",
+					"top": 87,
+					"left": 276,
+					"width": 10,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 11,
+					"text": "/"
+				},
+				"oDeveloperLabel": {
+					"type": "text",
+					"top": 146,
+					"left": 19,
+					"width": 120,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Developer :"
+				},
+				"oReleaseTitleNotes": {
+					"type": "text",
+					"top": 45,
+					"left": 50,
+					"width": 351,
+					"height": 32,
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Only release a version if you have made any change to daybook structure otherwise press no changes made."
+				},
+				"oReleaseHeader": {
+					"type": "text",
+					"top": 15,
+					"left": 96,
+					"width": 240,
+					"height": 24,
+					"textAlign": "center",
+					"fontSize": 18,
+					"text": "Daybook Version Control"
+				},
+				"oCommentLabel": {
+					"type": "text",
+					"top": 174,
+					"left": 19,
+					"width": 120,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Comments :"
+				},
+				"oVersionNo": {
+					"type": "input",
+					"top": 20,
+					"left": 336,
+					"width": 67,
+					"height": 14,
+					"dataSource": "VER_t_STRUCTBUILDREFERENCE",
+					"stroke": "#000000",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oL_VersionBuildNo": {
+					"type": "input",
+					"top": 271,
+					"left": 144,
+					"width": 88,
+					"height": 14,
+					"dataSource": "VER_l_CustomerBuild",
+					"stroke": "#000000",
+					"class": "Fields_BOLD",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oL_VersionBuildNo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLicenceVersionLabel": {
+					"type": "text",
+					"top": 230,
+					"left": 37,
+					"width": 102,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Licence Version :"
+				},
+				"oBuildLabel": {
+					"type": "text",
+					"top": 272,
+					"left": 93,
+					"width": 46,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Build :"
+				},
+				"oIncreaseNote": {
+					"type": "text",
+					"top": 271,
+					"left": 240,
+					"width": 202,
+					"height": 13,
+					"class": "Field_INFOS",
+					"text": "This will increase on every exit"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

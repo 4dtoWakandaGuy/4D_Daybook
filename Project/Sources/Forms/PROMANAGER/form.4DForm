@@ -1,0 +1,220 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 610,
+	"windowMinHeight": 420,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oProManager": {
+					"type": "listbox",
+					"top": 18,
+					"left": 15,
+					"width": 594,
+					"height": 295,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "PRO_lb_Production",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProManager.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 579,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oSetStatus": {
+					"type": "dropdown",
+					"top": 323,
+					"left": 115,
+					"width": 333,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "PRO_at_AllStageNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSetStatus.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSetSelected": {
+					"type": "button",
+					"top": 323,
+					"left": 460,
+					"width": 108,
+					"height": 21,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"dataSource": "PRO_l_SetSelected",
+					"text": "Set Highlighted",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oSetSelected.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 355,
+					"left": 23,
+					"width": 83,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Set Comments"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 326,
+					"left": 43,
+					"width": 63,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Set Status"
+				},
+				"oRevisedComments": {
+					"type": "input",
+					"top": 355,
+					"left": 120,
+					"width": 325,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "PRO_t_NewComment",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/oRevisedComments.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSetSelected1": {
+					"type": "button",
+					"top": 351,
+					"left": 460,
+					"width": 108,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "PRO_l_SetSelected2",
+					"text": "Set Highlighted",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oSetSelected1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oExit": {
+					"type": "button",
+					"top": 398,
+					"left": 519,
+					"width": 90,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PRO_but_Continue",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oExit.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

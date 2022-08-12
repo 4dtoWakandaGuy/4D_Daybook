@@ -1,0 +1,112 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oListboxOutputForm": {
+					"type": "listbox",
+					"top": 111,
+					"left": 1,
+					"width": 492,
+					"height": 205,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "DB_l_LBOutputForm",
+					"movableRows": false,
+					"dragging": "custom",
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"headerHeight": "17px",
+					"footerHeight": "17px",
+					"table": 1,
+					"highlightSet": "ListboxSet0",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oListboxOutputForm.4dm",
+					"events": [
+						"onLoad",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onDragOver",
+						"onColumnMove",
+						"onColumnResize",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove",
+						"onHeaderClick"
+					],
+					"columns": []
+				},
+				"oNavigator": {
+					"type": "tab",
+					"top": 75,
+					"left": 3,
+					"width": 490,
+					"height": 34,
+					"sizingX": "grow",
+					"dataSource": "DB_at_TabNavigation",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/oNavigator.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"PriceGroups_Out": {
+			"timeStamp": "2022-03-16T06:21:04.198Z",
+			"destination": "listScreen"
+		},
+		"PriceGroup_In": {
+			"timeStamp": "2022-03-16T06:21:04.194Z",
+			"destination": "detailScreen"
+		}
+	}
+}

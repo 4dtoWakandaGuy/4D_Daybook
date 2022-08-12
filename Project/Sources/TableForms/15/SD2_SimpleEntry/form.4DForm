@@ -1,0 +1,984 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 501,
+	"markerFooter": 501,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oWorkflowForLabel": {
+					"type": "text",
+					"top": 42,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Workflow for :"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 42,
+					"left": 134,
+					"width": 174,
+					"height": 14,
+					"dataSource": "SD2_t_WorkflowTable",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oWorkflowTables": {
+					"type": "dropdown",
+					"top": 24,
+					"left": 154,
+					"width": 181,
+					"height": 14,
+					"dataSource": "SD2_at_WorkFlowTable",
+					"class": "Fields",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 42,
+					"left": 339,
+					"width": 174,
+					"height": 14,
+					"dataSource": "SD2_t_WorkflowRecord",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAdditionalLinksLabel": {
+					"type": "text",
+					"top": 65,
+					"left": 16,
+					"width": 111,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Additional  Links :"
+				},
+				"oLBDiaryRelations": {
+					"type": "listbox",
+					"top": 65,
+					"left": 133,
+					"width": 380,
+					"height": 76,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryRelations",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 365,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oWorkflowPersonLabel": {
+					"type": "text",
+					"top": 149,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Person to action :"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 149,
+					"left": 133,
+					"width": 379,
+					"height": 14,
+					"dataSource": "SD2_t_WorkflowPerson",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oGroupToActionLabel": {
+					"type": "text",
+					"top": 173,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Group to action :"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 173,
+					"left": 133,
+					"width": 379,
+					"height": 14,
+					"dataSource": "SD2_t_WorflowGroup",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonShowGroup": {
+					"type": "button",
+					"top": 167,
+					"left": 519,
+					"width": 32,
+					"height": 35,
+					"dataSource": "bShowGroupDetails",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_FIND.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					]
+				},
+				"oActionDetailsLabel": {
+					"type": "text",
+					"top": 286,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Action Details :"
+				},
+				"oActionDetails": {
+					"type": "input",
+					"top": 290,
+					"left": 133,
+					"width": 364,
+					"height": 95,
+					"dataSource": "SD2_t_ActionPlan",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oTitleLabel": {
+					"type": "text",
+					"top": 208,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Title :"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 208,
+					"left": 133,
+					"width": 379,
+					"height": 14,
+					"dataSource": "SD2_t_WorflowTitle",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCompleteByLabel": {
+					"type": "text",
+					"top": 240,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "To be completed by :"
+				},
+				"oDateToButton": {
+					"type": "button",
+					"top": 236,
+					"left": 254,
+					"width": 33,
+					"height": 21,
+					"dataSource": "SD2_l_CalenderButton1",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalenderButton.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"style": "office",
+					"method": "ObjectMethods/oDateToButton.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"oTimeToPopUp": {
+					"type": "dropdown",
+					"top": 238,
+					"left": 469,
+					"width": 24,
+					"height": 17,
+					"dataSource": "SD_HL_l_Hours2",
+					"dataSourceTypeHint": "integer",
+					"class": "Fields",
+					"method": "ObjectMethods/oTimeToPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 240,
+					"left": 133,
+					"width": 120,
+					"height": 14,
+					"dataSource": "SD2_d_WorflowDate",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 240,
+					"left": 353,
+					"width": 120,
+					"height": 14,
+					"dataSource": "SD2_ti_WorflowTime",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"contextMenu": "none",
+					"timeFormat": "hh_mm_ss",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oWorkflowReferenceLabel": {
+					"type": "text",
+					"top": 2,
+					"left": 1,
+					"width": 100,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Workflow Reference :"
+				},
+				"oSetReminderLabel": {
+					"type": "text",
+					"top": 264,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Set Reminder :"
+				},
+				"Line": {
+					"type": "line",
+					"top": 270,
+					"left": 30,
+					"height": 1
+				},
+				"oOtherActionsLabel": {
+					"type": "text",
+					"top": 394,
+					"left": 23,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Other Actions :"
+				},
+				"oLBDiaryThread": {
+					"type": "listbox",
+					"top": 394,
+					"left": 134,
+					"width": 380,
+					"height": 76,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_DiaryThread",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 365,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oButtonAddLink": {
+					"type": "button",
+					"top": 117,
+					"left": 519,
+					"width": 32,
+					"height": 35,
+					"dataSource": "bSD2_l_AddLink",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"text": "Add",
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAddLink.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonDeleteLink": {
+					"type": "button",
+					"top": 65,
+					"left": 519,
+					"width": 32,
+					"height": 41,
+					"dataSource": "bSD2_l_DeleteLink",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"text": "Delete",
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonDeleteLink.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddThread": {
+					"type": "button",
+					"top": 435,
+					"left": 519,
+					"width": 32,
+					"height": 35,
+					"dataSource": "SD2_but_AddThread",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"focusable": false,
+					"text": "Add",
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAddThread.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActionLabel1": {
+					"type": "text",
+					"top": 1,
+					"left": 353,
+					"width": 63,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Action"
+				},
+				"oCBCompletedAction": {
+					"type": "checkbox",
+					"top": 490,
+					"left": 133,
+					"width": 16,
+					"height": 11,
+					"dataSource": "SD2_l_CBcompletedAction",
+					"text": "Completed",
+					"class": "Fields",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryResultLabelP2": {
+					"type": "text",
+					"top": 488,
+					"left": 159,
+					"width": 61,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Outcome :"
+				},
+				"oDiaryResultNamePopUpP2": {
+					"type": "dropdown",
+					"top": 485,
+					"left": 369,
+					"width": 20,
+					"height": 17,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_at_ResultNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oDiaryResultNamePopUpP2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oDiaryResultNameP2": {
+					"type": "input",
+					"top": 487,
+					"left": 250,
+					"width": 118,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_t_SELResultName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 487,
+					"left": 225,
+					"width": 21,
+					"height": 14,
+					"dataSource": "SD2_t_ResultCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oReminderCheckBox": {
+					"type": "checkbox",
+					"top": 261,
+					"left": 134,
+					"width": 171,
+					"height": 19,
+					"dataSource": "SD2_l_CB_Alarmed",
+					"class": "Fields",
+					"method": "ObjectMethods/oReminderCheckBox.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oReminderDurationPopUp": {
+					"type": "dropdown",
+					"top": 261,
+					"left": 186,
+					"width": 115,
+					"height": 17,
+					"dataSource": "SD2_at_ReminderTimes",
+					"class": "Fields",
+					"method": "ObjectMethods/oReminderDurationPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oReminder": {
+					"type": "input",
+					"top": 265,
+					"left": 160,
+					"width": 20,
+					"height": 14,
+					"dataSource": "SD2_l_DiaryReminder",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oReminder.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCompletedLabel": {
+					"type": "text",
+					"top": 490,
+					"left": 18,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Completed :"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 2,
+					"left": 113,
+					"width": 174,
+					"height": 14,
+					"dataSource": "SD2_t_WorkflowRecordCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oActionNamePopUp": {
+					"type": "dropdown",
+					"top": 2,
+					"left": 579,
+					"width": 24,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SD2_at_DactionNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oActionNamePopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oActionCode": {
+					"type": "input",
+					"top": 4,
+					"left": 427,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "[DIARY:12]Action_Code:9",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionCode.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"oActionName": {
+					"type": "input",
+					"top": 4,
+					"left": 465,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SELActionName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionName.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 67,
+					"left": 105,
+					"width": 400,
+					"height": 14,
+					"class": "LabelsItalic",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": "Not linked to other records"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oAction_Details_P2": {
+					"type": "text",
+					"top": 38,
+					"left": 5,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action Details :"
+				},
+				"oActionDetails_P2": {
+					"type": "input",
+					"top": 37,
+					"left": 112,
+					"width": 364,
+					"height": 155,
+					"dataSource": "SD2_t_ActionPlan",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oActionlabel_P2": {
+					"type": "text",
+					"top": 3,
+					"left": 353,
+					"width": 63,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action :"
+				},
+				"oCBCompletedAction1": {
+					"type": "checkbox",
+					"top": 474,
+					"left": 112,
+					"width": 16,
+					"height": 11,
+					"dataSource": "SD2_l_CBcompletedAction",
+					"class": "Fields",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryResultLabel_P2": {
+					"type": "text",
+					"top": 477,
+					"left": 255,
+					"width": 67,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Outcome :"
+				},
+				"oDiaryResultNamePopUp_P2": {
+					"type": "dropdown",
+					"top": 474,
+					"left": 471,
+					"width": 20,
+					"height": 17,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_at_ResultNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oDiaryResultNamePopUp_P2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oDiaryResultNameP1": {
+					"type": "input",
+					"top": 476,
+					"left": 353,
+					"width": 118,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_t_SELResultName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oResultCode_P2": {
+					"type": "input",
+					"top": 476,
+					"left": 325,
+					"width": 21,
+					"height": 14,
+					"dataSource": "SD2_t_ResultCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCompletedLabel_P2": {
+					"type": "text",
+					"top": 473,
+					"left": 5,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Completed :"
+				},
+				"oActionNamePopUp_P2": {
+					"type": "dropdown",
+					"top": 2,
+					"left": 583,
+					"width": 20,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SD2_at_DactionNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oActionNamePopUp_P2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oActionCodeField_P2": {
+					"type": "input",
+					"top": 4,
+					"left": 427,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "[DIARY:12]Action_Code:9",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionCodeField_P2.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"oActionName_P2": {
+					"type": "input",
+					"top": 4,
+					"left": 465,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SELActionName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionName_P2.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				},
+				"oAction_Results_P2": {
+					"type": "text",
+					"top": 212,
+					"left": 5,
+					"width": 103,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Notes :"
+				},
+				"oActionDetails_P1": {
+					"type": "input",
+					"top": 212,
+					"left": 112,
+					"width": 364,
+					"height": 255,
+					"dataSource": "SD2_t_ActionPlan",
+					"class": "Fields",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null,
+		null,
+		null
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

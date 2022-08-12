@@ -1,0 +1,381 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oRelationsNamePopUp1": {
+					"type": "dropdown",
+					"top": 53,
+					"left": 106,
+					"width": 379,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SD2_at_AvailableRelations",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oRelationsNamePopUp1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryActionLabel": {
+					"type": "text",
+					"top": 27,
+					"left": 17,
+					"width": 85,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "WorkflowTask"
+				},
+				"oActionNamePopUp": {
+					"type": "dropdown",
+					"top": 24,
+					"left": 106,
+					"width": 379,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SD2_at_DactionNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oActionNamePopUp.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oActionCode": {
+					"type": "input",
+					"top": 26,
+					"left": 109,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "[DIARY:12]Action_Code:9",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionCode.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"oActionName": {
+					"type": "input",
+					"top": 26,
+					"left": 147,
+					"width": 318,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SELActionName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionName.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				},
+				"oDiaryActionLabel1": {
+					"type": "text",
+					"top": 55,
+					"left": 17,
+					"width": 85,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Related Record"
+				},
+				"oEditRecord": {
+					"type": "checkbox",
+					"top": 76,
+					"left": 216,
+					"width": 267,
+					"height": 17,
+					"dataSource": "SD2_bo_EditRecordNotDiary",
+					"text": "When opening from task list open this record",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRelatedTableName": {
+					"type": "input",
+					"top": 55,
+					"left": 109,
+					"width": 119,
+					"height": 14,
+					"dataSource": "SD2_t_RelatedWorkflowTable",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oRelatedRecordName": {
+					"type": "input",
+					"top": 55,
+					"left": 231,
+					"width": 236,
+					"height": 14,
+					"dataSource": "SD2_t_RelatedWorkflowRecord",
+					"class": "Fields",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDiaryActionPlanLabel": {
+					"type": "text",
+					"top": 122,
+					"left": 12,
+					"width": 85,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Actions"
+				},
+				"oDiaryDetailsTEXT": {
+					"type": "input",
+					"top": 122,
+					"left": 102,
+					"width": 374,
+					"height": 208,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DiaryDetailsTXT",
+					"class": "Fields",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oActionResultNotesTab": {
+					"type": "tab",
+					"top": 98,
+					"left": 90,
+					"width": 395,
+					"height": 21,
+					"dataSource": "SD2_at_DetailsTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryActionPlanLabel1": {
+					"type": "text",
+					"top": 341,
+					"left": 12,
+					"width": 85,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time due at"
+				},
+				"oDateFrom": {
+					"type": "input",
+					"top": 341,
+					"left": 102,
+					"width": 120,
+					"height": 14,
+					"dataSource": "[DIARY:12]Display_Date_From:51",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oDateFrom.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDateFromButton": {
+					"type": "button",
+					"top": 337,
+					"left": 224,
+					"width": 33,
+					"height": 21,
+					"dataSource": "SD2_l_CalenderButton1",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalenderButton.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"style": "office",
+					"method": "ObjectMethods/oDateFromButton.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"oButtonExtendDates": {
+					"type": "button",
+					"top": 338,
+					"left": 257,
+					"width": 32,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "SD2_but_extendDates",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalendatMDButton.png",
+					"iconFrames": 4,
+					"style": "office",
+					"method": "ObjectMethods/oButtonExtendDates.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTimeLabel": {
+					"type": "text",
+					"top": 342,
+					"left": 279,
+					"width": 35,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time"
+				},
+				"oTimeFromPopUp": {
+					"type": "dropdown",
+					"top": 339,
+					"left": 432,
+					"width": 24,
+					"height": 17,
+					"dataSource": "SD_HL_l_Hours",
+					"dataSourceTypeHint": "integer",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTimeFromPopUp.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTimeFrom": {
+					"type": "input",
+					"top": 341,
+					"left": 316,
+					"width": 120,
+					"height": 15,
+					"dataSource": "[DIARY:12]Display_Time_From:53",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

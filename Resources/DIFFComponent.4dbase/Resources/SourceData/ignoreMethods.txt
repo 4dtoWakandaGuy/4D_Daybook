@@ -1,0 +1,2 @@
+@@this document is simple..its just a list of any methods you want the system to not touch-you dont need to include ERR handling methods as they are not touched anyway
+@@End any method name with an @ if it is 'all methods starting with' 

@@ -1,0 +1,192 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oPdfSecurityenable": {
+					"type": "checkbox",
+					"top": 23,
+					"left": 15,
+					"width": 248,
+					"height": 18,
+					"dataSource": "PDF_bo_SecurityActive",
+					"text": "Enable PDF Security",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oPdfSecurityenable.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLicenceSecurity": {
+					"type": "button",
+					"top": 242,
+					"left": 6,
+					"width": 92,
+					"height": 21,
+					"dataSource": "PDF_l_LicenceMaker",
+					"text": "Licence",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oLicenceSecurity.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPdfSecurityLock1": {
+					"type": "checkbox",
+					"top": 82,
+					"left": 28,
+					"width": 268,
+					"height": 15,
+					"dataSource": "PDF_bo_PreventCopy",
+					"text": "Prevent Copying from PDF documents",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPdfSecurityLock2": {
+					"type": "checkbox",
+					"top": 121,
+					"left": 28,
+					"width": 268,
+					"height": 15,
+					"dataSource": "PDF_bo_PreventPrinting",
+					"text": "Prevent Printing PDF documents",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPdfSecurityLock3": {
+					"type": "checkbox",
+					"top": 141,
+					"left": 28,
+					"width": 268,
+					"height": 11,
+					"dataSource": "PDF_bo_UserPassword",
+					"text": "Set User Password For Documents",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLicenceSecurity1": {
+					"type": "button",
+					"top": 198,
+					"left": 28,
+					"width": 172,
+					"height": 21,
+					"dataSource": "PDF_l_SetOwnerPassword",
+					"text": "Set Owner Password",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oLicenceSecurity1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oexit": {
+					"type": "button",
+					"top": 241,
+					"left": 218,
+					"width": 92,
+					"height": 21,
+					"dataSource": "PDF_l_Exit",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oexit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 53,
+					"left": 28,
+					"width": 273,
+					"height": 34,
+					"class": "Labels",
+					"text": "Default Settings..."
+				},
+				"Text1": {
+					"type": "text",
+					"top": 156,
+					"left": 28,
+					"width": 253,
+					"height": 33,
+					"class": "Field_INFOS",
+					"textAlign": "center",
+					"text": "Leave the user password off to allow documents to be opened without a password."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 66,
+					"left": 35,
+					"width": 271,
+					"height": 18,
+					"class": "LabelsItalic",
+					"text": "(over ride these preference on letters and reports)"
+				},
+				"oPdfSecurityLock4": {
+					"type": "checkbox",
+					"top": 101,
+					"left": 28,
+					"width": 268,
+					"height": 15,
+					"dataSource": "PDF_bo_PreventEdit",
+					"text": "Prevent Editing of PDF documents",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

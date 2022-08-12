@@ -1,0 +1,153 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oSearchBackround": {
+					"type": "picture",
+					"top": 365,
+					"left": 4,
+					"width": 221,
+					"height": 32,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/RoundArea.png"
+				},
+				"oSearchCriteria": {
+					"type": "input",
+					"top": 375,
+					"left": 25,
+					"width": 147,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SearchCriteria",
+					"stroke": "#888888",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchCriteria.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSearchvalueOLD": {
+					"type": "input",
+					"top": 450,
+					"left": 106,
+					"width": 150,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "SD2_T_SearchValue",
+					"class": "Fields_BOLD",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSearchvalueOLD.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterEdit"
+					]
+				},
+				"oSearchvalue": {
+					"type": "subform",
+					"top": 60,
+					"left": 305,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SearchValue",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oSearchvalue.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"oSearchCriteriaButton": {
+					"type": "button",
+					"top": 45,
+					"left": 320,
+					"width": 23,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "bSearch",
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/picture 22521.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchCriteriaButton.4dm",
+					"events": [
+						"onAlternateClick",
+						"onLongClick"
+					]
+				},
+				"oSearchClearButton": {
+					"type": "button",
+					"top": 54,
+					"left": 530,
+					"width": 15,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "bCloseSearch",
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CloseSearch.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oSearchClearButton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

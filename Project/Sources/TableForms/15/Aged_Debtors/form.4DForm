@@ -1,0 +1,327 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAsAtDate": {
+					"type": "input",
+					"top": 29,
+					"left": 201,
+					"width": 71,
+					"height": 14,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDebtorsAccount": {
+					"type": "input",
+					"top": 53,
+					"left": 201,
+					"width": 71,
+					"height": 14,
+					"dataSource": "Acc_t_AccountCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oDebtorsAccount.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCutoffDate": {
+					"type": "input",
+					"top": 78,
+					"left": 201,
+					"width": 71,
+					"height": 14,
+					"dataSource": "Acc_D_CutOffDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCutoffAmount": {
+					"type": "input",
+					"top": 100,
+					"left": 201,
+					"width": 71,
+					"height": 14,
+					"dataSource": "Acc_R_Cutoffamount",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0.00",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oExportToDIskCB": {
+					"type": "checkbox",
+					"top": 121,
+					"left": 5,
+					"width": 121,
+					"height": 22,
+					"dataSource": "ACC_bo_ExportToDisk",
+					"text": "Export Data",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#076000",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCalculateDepositCB": {
+					"type": "checkbox",
+					"top": 138,
+					"left": 5,
+					"width": 183,
+					"height": 47,
+					"dataSource": "ACC_bo_IgnoreDepositDate",
+					"text": "Calculate Invoices paid by deposit as paid on date deposit is assigned",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#076000",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 187,
+					"left": 201,
+					"width": 86,
+					"height": 22,
+					"dataSource": "BOK",
+					"shortcutKey": "[Return]",
+					"text": "EXIT",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oTitle": {
+					"type": "input",
+					"top": 3,
+					"left": 8,
+					"width": 264,
+					"height": 14,
+					"dataSource": "ACC_t_Message",
+					"stroke": "#076000",
+					"class": "Labels",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"oasAtOptionsUpDown": {
+					"type": "stepper",
+					"top": 28,
+					"left": 271,
+					"width": 11,
+					"height": 19,
+					"dataSource": "VDateFupDown",
+					"continuousExecution": false,
+					"min": -100000000,
+					"max": 10000000,
+					"method": "ObjectMethods/oasAtOptionsUpDown.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oFilterOptionsUpDown": {
+					"type": "stepper",
+					"top": 76,
+					"left": 271,
+					"width": 11,
+					"height": 21,
+					"dataSource": "VcDateFupDown",
+					"continuousExecution": false,
+					"min": -100000000,
+					"max": 10000000,
+					"method": "ObjectMethods/oFilterOptionsUpDown.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAsatDateLabel": {
+					"type": "text",
+					"top": 29,
+					"left": 44,
+					"width": 149,
+					"height": 12,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "As at Date :"
+				},
+				"oDebtorsAccountLabel": {
+					"type": "text",
+					"top": 53,
+					"left": 44,
+					"width": 149,
+					"height": 12,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Debtors Acc :"
+				},
+				"oIgnoreBeforeLabel": {
+					"type": "text",
+					"top": 78,
+					"left": 14,
+					"width": 179,
+					"height": 15,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Ignore Invoices Before Date :"
+				},
+				"oIgnoreAmountsLabel": {
+					"type": "text",
+					"top": 100,
+					"left": 14,
+					"width": 179,
+					"height": 15,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Ignore Amounts Less Than :"
+				},
+				"oOptionsButtoninv": {
+					"type": "button",
+					"top": 102,
+					"left": 0,
+					"width": 1,
+					"height": 20,
+					"dataSource": "BOK",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"method": "ObjectMethods/oOptionsButtoninv.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"oAsAtDate",
+				"oDebtorsAccount",
+				"oCutoffDate",
+				"oCutoffAmount",
+				"oExportToDIskCB",
+				"oCalculateDepositCB",
+				"oButtonContinue",
+				"oTitle",
+				"oasAtOptionsUpDown",
+				"oFilterOptionsUpDown"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 14,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

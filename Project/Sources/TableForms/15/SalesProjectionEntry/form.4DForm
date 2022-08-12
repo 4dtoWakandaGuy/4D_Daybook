@@ -1,0 +1,1116 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable8": {
+					"type": "input",
+					"top": 102,
+					"left": 102,
+					"width": 20,
+					"height": 14,
+					"dataSource": "SP_t_SalesCurrency",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTItleLabel": {
+					"type": "text",
+					"top": 43,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Title :"
+				},
+				"oDescriptionLabel": {
+					"type": "text",
+					"top": 60,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description :"
+				},
+				"oDateLabel": {
+					"type": "text",
+					"top": 4,
+					"left": 406,
+					"width": 51,
+					"height": 16,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Date :"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 4,
+					"left": 459,
+					"width": 89,
+					"height": 14,
+					"dataSource": "SP_D_SalesEnteredDate",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dateFormat": "shortCentury",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oValueLabel": {
+					"type": "text",
+					"top": 102,
+					"left": 16,
+					"width": 80,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Value :"
+				},
+				"oStatusLabel": {
+					"type": "text",
+					"top": 5,
+					"left": 2,
+					"width": 50,
+					"height": 12,
+					"class": "Headers",
+					"textAlign": "right",
+					"text": "Status :"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 20,
+					"left": 2,
+					"width": 551
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 3,
+					"left": 59,
+					"width": 160,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionState",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProbabilitylabel": {
+					"type": "text",
+					"top": 102,
+					"left": 296,
+					"width": 88,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "% probability :"
+				},
+				"oActualLabel": {
+					"type": "text",
+					"top": 102,
+					"left": 443,
+					"width": 48,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Actual :"
+				},
+				"Variable25": {
+					"type": "input",
+					"top": 24,
+					"left": 97,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionPerson",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 43,
+					"left": 97,
+					"width": 203,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionTitle",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 61,
+					"left": 97,
+					"width": 450,
+					"height": 36,
+					"dataSource": "SP_T_SalesProjectionDesc",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 102,
+					"left": 141,
+					"width": 50,
+					"height": 14,
+					"dataSource": "SP_R_SalesProjectionValue",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 102,
+					"left": 239,
+					"width": 50,
+					"height": 14,
+					"dataSource": "SP_R_SalesProjectionCosts",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 102,
+					"left": 387,
+					"width": 30,
+					"height": 14,
+					"dataSource": "SP_R_SalesProjectionPCT",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable12.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 102,
+					"left": 495,
+					"width": 84,
+					"height": 14,
+					"dataSource": "SP_R_SalesProjectionACTUAL",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "dropdown",
+					"top": 102,
+					"left": 121,
+					"width": 16,
+					"height": 14,
+					"dataSource": "SP_at_CurrencyNames",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Pop-up/Drop-down List1": {
+					"type": "dropdown",
+					"top": 101,
+					"left": 418,
+					"width": 16,
+					"height": 14,
+					"dataSource": "SP_ar_Probability",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Pop-up%2FDrop-down List1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPipelineForLabel": {
+					"type": "text",
+					"top": 25,
+					"left": 6,
+					"width": 90,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Pipeline for :"
+				},
+				"oCostsLabel": {
+					"type": "text",
+					"top": 102,
+					"left": 193,
+					"width": 40,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Costs :"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable2": {
+					"type": "input",
+					"top": 125,
+					"left": 144,
+					"width": 81,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionType",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable24": {
+					"type": "dropdown",
+					"top": 123,
+					"left": 142,
+					"width": 102,
+					"height": 18,
+					"dataSource": "SP_at_SalesProjectionTYPE",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDragOver",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "input",
+					"top": 126,
+					"left": 144,
+					"width": 80,
+					"height": 14,
+					"dataSource": "SP_t_SalesOrderNUM",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDrop",
+						"onDataChange",
+						"onDragOver",
+						"onPrintingDetail"
+					]
+				},
+				"oProjectionType": {
+					"type": "text",
+					"top": 126,
+					"left": 9,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Projected Sale Type :"
+				},
+				"oTitle Label": {
+					"type": "input",
+					"top": 125,
+					"left": 11,
+					"width": 126,
+					"height": 14,
+					"dataSource": "SP_t_SalesOrderTitle",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContactLabel": {
+					"type": "text",
+					"top": 163,
+					"left": 75,
+					"width": 60,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Contact :"
+				},
+				"oExpectedDateLabel": {
+					"type": "text",
+					"top": 128,
+					"left": 364,
+					"width": 109,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Expected date :"
+				},
+				"Variable20": {
+					"type": "input",
+					"top": 128,
+					"left": 478,
+					"width": 71,
+					"height": 14,
+					"dataSource": "SP_D_SalesProjectionDate",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 146,
+					"left": 140,
+					"width": 243,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionCompany",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable28": {
+					"type": "dropdown",
+					"top": 2,
+					"left": 59,
+					"width": 179,
+					"height": 17,
+					"dataSource": "SP_at_ListPipelineStatus",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable28.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 164,
+					"left": 140,
+					"width": 242,
+					"height": 14,
+					"dataSource": "SP_t_SalesProjectionContact",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 171,
+					"left": 422,
+					"width": 73,
+					"height": 22,
+					"dataSource": "bSave",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable26": {
+					"type": "button",
+					"top": 171,
+					"left": 505,
+					"width": 73,
+					"height": 22,
+					"dataSource": "bSave",
+					"shortcutKey": "[Return]",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable26.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCompanyLabel": {
+					"type": "text",
+					"top": 147,
+					"left": 70,
+					"width": 65,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Company :"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 171,
+					"left": 422,
+					"width": 73,
+					"height": 22,
+					"dataSource": "bSave",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 171,
+					"left": 505,
+					"width": 73,
+					"height": 22,
+					"dataSource": "bSave",
+					"shortcutKey": "[Enter]",
+					"text": "Save",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 589,
+					"height": 387,
+					"fill": "transparent",
+					"stroke": "#076000"
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 149,
+					"left": 154,
+					"width": 51,
+					"height": 14,
+					"dataSource": "SP_t_SalesDstart",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable29": {
+					"type": "input",
+					"top": 150,
+					"left": 230,
+					"width": 51,
+					"height": 14,
+					"dataSource": "SP_t_SalesDend",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 156,
+					"left": 210,
+					"width": 15,
+					"height": 1
+				},
+				"Text17": {
+					"type": "text",
+					"top": 174,
+					"left": 20,
+					"width": 131,
+					"height": 13,
+					"class": "Field_INFOS",
+					"fontWeight": "bold",
+					"text": "Related Projections..."
+				},
+				"Variable30": {
+					"type": "button",
+					"top": 169,
+					"left": 152,
+					"width": 90,
+					"height": 22,
+					"dataSource": "Variable15",
+					"text": "Find Projections",
+					"class": "FIelds_Large",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCUrrentTotal": {
+					"type": "input",
+					"top": 362,
+					"left": 309,
+					"width": 32,
+					"height": 12,
+					"dataSource": "SP_S5_CurrTOT",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable32": {
+					"type": "input",
+					"top": 362,
+					"left": 344,
+					"width": 52,
+					"height": 12,
+					"dataSource": "SP_R_ValueTOT",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable33": {
+					"type": "input",
+					"top": 362,
+					"left": 511,
+					"width": 32,
+					"height": 12,
+					"dataSource": "SP_R_ValueProjectedTOT",
+					"class": "Default",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable33.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProbableTotalLabel": {
+					"type": "text",
+					"top": 362,
+					"left": 399,
+					"width": 109,
+					"height": 16,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Probable Total :"
+				},
+				"oPeriodLabel": {
+					"type": "text",
+					"top": 151,
+					"left": 29,
+					"width": 119,
+					"height": 16,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Projection Period :"
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 149,
+					"left": 154,
+					"width": 51,
+					"height": 14,
+					"dataSource": "SP_t_SalesDstart",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 150,
+					"left": 230,
+					"width": 51,
+					"height": 14,
+					"dataSource": "SP_t_SalesDend",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line2": {
+					"type": "line",
+					"top": 156,
+					"left": 210,
+					"width": 15,
+					"height": 1
+				},
+				"oRelatedProjectionsLabel": {
+					"type": "text",
+					"top": 174,
+					"left": 20,
+					"width": 131,
+					"height": 13,
+					"class": "Field_INFOS",
+					"fontWeight": "bold",
+					"text": "Related Projections..."
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 170,
+					"left": 153,
+					"width": 140,
+					"height": 22,
+					"dataSource": "Variable15",
+					"text": "Find Projections",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCurTotal": {
+					"type": "input",
+					"top": 362,
+					"left": 309,
+					"width": 32,
+					"height": 15,
+					"dataSource": "SP_S5_CurrTOT",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 362,
+					"left": 344,
+					"width": 52,
+					"height": 15,
+					"dataSource": "SP_R_ValueTOT",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 362,
+					"left": 511,
+					"width": 32,
+					"height": 15,
+					"dataSource": "SP_R_ValueProjectedTOT",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable23.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBProjections": {
+					"type": "listbox",
+					"top": 197,
+					"left": 15,
+					"width": 527,
+					"height": 158,
+					"resizingMode": "legacy",
+					"dataSource": "PRO_LB_Projections",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 512,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

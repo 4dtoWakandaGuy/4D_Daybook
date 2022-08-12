@@ -1,0 +1,1123 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowMinHeight": 276,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 238,
+	"markerBreak": 239,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oLetterTemplateLabel": {
+					"type": "text",
+					"top": 122,
+					"left": 2,
+					"width": 102,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Letter Template :"
+				},
+				"oLetterDateLabel": {
+					"type": "text",
+					"top": 50,
+					"left": 30,
+					"width": 74,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Letter Date :"
+				},
+				"oFromLabel": {
+					"type": "text",
+					"top": 27,
+					"left": 30,
+					"width": 74,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "From :"
+				},
+				"oJobTitleLabel": {
+					"type": "text",
+					"top": 27,
+					"left": 237,
+					"width": 75,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job Title :"
+				},
+				"oEmailCB": {
+					"type": "checkbox",
+					"top": 71,
+					"left": 76,
+					"width": 74,
+					"height": 16,
+					"dataSource": "bd4",
+					"text": "Email",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oEmailCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable33": {
+					"type": "input",
+					"top": 50,
+					"left": 108,
+					"width": 117,
+					"height": 14,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable34": {
+					"type": "input",
+					"top": 27,
+					"left": 108,
+					"width": 118,
+					"height": 14,
+					"dataSource": "vFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable34.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable35": {
+					"type": "input",
+					"top": 27,
+					"left": 318,
+					"width": 118,
+					"height": 14,
+					"dataSource": "vFromPos",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable35.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSuperReportCB": {
+					"type": "checkbox",
+					"top": 91,
+					"left": 76,
+					"width": 110,
+					"height": 16,
+					"dataSource": "bd2",
+					"text": "SuperReport:",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/oSuperReportCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable36": {
+					"type": "input",
+					"top": 92,
+					"left": 302,
+					"width": 31,
+					"height": 14,
+					"dataSource": "bd3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oColumnsLabel": {
+					"type": "text",
+					"top": 93,
+					"left": 236,
+					"width": 60,
+					"height": 15,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Columns :"
+				},
+				"oLetterTemplatecode": {
+					"type": "input",
+					"top": 122,
+					"left": 108,
+					"width": 104,
+					"height": 14,
+					"dataSource": "MMLetterCOde",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailTemplatecode": {
+					"type": "input",
+					"top": 122,
+					"left": 108,
+					"width": 104,
+					"height": 14,
+					"dataSource": "MMEmailCOde",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailTemplateLabel": {
+					"type": "text",
+					"top": 122,
+					"left": 6,
+					"width": 98,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Email Template :"
+				},
+				"oLetSelect": {
+					"type": "listbox",
+					"top": 154,
+					"left": 7,
+					"width": 454,
+					"height": 126,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DIA_lb_Documents",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLetSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 439,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"o4DwriteArea": {
+					"type": "plugin",
+					"top": 324,
+					"left": 6,
+					"width": 610,
+					"height": 229,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Write",
+					"pluginAreaKind": "_4D WRITE",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/o4DwriteArea.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OEMAILTEXT": {
+					"type": "input",
+					"top": 324,
+					"left": 6,
+					"width": 447,
+					"height": 164,
+					"sizingY": "grow",
+					"dataSource": "WS_T_EmailBody",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oViewTemplate": {
+					"type": "button",
+					"top": 294,
+					"left": 22,
+					"width": 117,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Bview",
+					"text": "View Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oViewTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUseTemplate": {
+					"type": "button",
+					"top": 294,
+					"left": 285,
+					"width": 117,
+					"height": 22,
+					"dataSource": "BSelectTemplate",
+					"text": "Use Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oUseTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelButton": {
+					"type": "button",
+					"top": 86,
+					"left": 466,
+					"width": 92,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAcceptButton": {
+					"type": "button",
+					"top": 121,
+					"left": 466,
+					"width": 92,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oInvisibleAcceptbutton": {
+					"type": "button",
+					"top": 121,
+					"left": 466,
+					"width": 92,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oInvbisibleCancel": {
+					"type": "button",
+					"top": 86,
+					"left": 466,
+					"width": 92,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable22": {
+					"type": "button",
+					"top": 119,
+					"left": 247,
+					"width": 66,
+					"height": 18,
+					"dataSource": "xSearch",
+					"text": "Template",
+					"class": "BUttons_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable22.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oPrintRequirementsGroup": {
+					"type": "groupBox",
+					"top": 1,
+					"left": 1,
+					"width": 453,
+					"height": 145,
+					"class": "Headers",
+					"text": "PRINT REQUIREMENTS"
+				},
+				"oAdvanceDetails": {
+					"type": "button",
+					"top": 123,
+					"left": 341,
+					"width": 104,
+					"height": 15,
+					"dataSource": "PRT_but_Advanced",
+					"text": "More Options..",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAdvanceDetails.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oPrintRequirements1": {
+					"type": "groupBox",
+					"top": 1,
+					"left": 1,
+					"width": 493,
+					"height": 201,
+					"class": "Headers",
+					"text": "PRINT REQUIREMENTS"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 93,
+					"left": 378,
+					"width": 6,
+					"height": 6,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 99,
+					"left": 384,
+					"height": 9,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 108,
+					"left": 384,
+					"width": 3,
+					"height": 3
+				},
+				"Line4": {
+					"type": "line",
+					"top": 111,
+					"left": 384,
+					"width": 3,
+					"height": 3,
+					"startPoint": "bottomLeft"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 114,
+					"left": 384,
+					"height": 9
+				},
+				"Line6": {
+					"type": "line",
+					"top": 123,
+					"left": 378,
+					"width": 6,
+					"height": 6,
+					"strokeWidth": 0.1,
+					"startPoint": "bottomLeft"
+				},
+				"Variable4": {
+					"type": "checkbox",
+					"top": 134,
+					"left": 302,
+					"width": 78,
+					"height": 16,
+					"dataSource": "cPreview",
+					"text": "Preview",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "checkbox",
+					"top": 71,
+					"left": 302,
+					"width": 89,
+					"height": 16,
+					"dataSource": "cOC",
+					"text": "Office Copy",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSeperateLetterCheckBox": {
+					"type": "checkbox",
+					"top": 178,
+					"left": 15,
+					"width": 80,
+					"height": 16,
+					"dataSource": "cLetters",
+					"text": "Separate",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oSeperateLetterCheckBox.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oMergedCheckBox": {
+					"type": "checkbox",
+					"top": 183,
+					"left": 102,
+					"width": 73,
+					"height": 16,
+					"dataSource": "cMerged",
+					"text": "Merged",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oMergedCheckBox.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oQualsCheckbox": {
+					"type": "checkbox",
+					"top": 142,
+					"left": 15,
+					"width": 85,
+					"height": 16,
+					"dataSource": "ADR_l_UseQualifications",
+					"text": "Qualifications",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEsqCheckbox": {
+					"type": "checkbox",
+					"top": 160,
+					"left": 15,
+					"width": 127,
+					"height": 16,
+					"dataSource": "ADR_l_useEsquire",
+					"text": "Mr as Esq",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"onoDearCheckBox": {
+					"type": "checkbox",
+					"top": 160,
+					"left": 102,
+					"width": 126,
+					"height": 16,
+					"dataSource": "iNoDear",
+					"text": "No Dear",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNoSalutationCheckBox": {
+					"type": "checkbox",
+					"top": 142,
+					"left": 102,
+					"width": 128,
+					"height": 16,
+					"dataSource": "iNoSal",
+					"text": "No Salutation",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 302,
+					"width": 66,
+					"height": 16,
+					"dataSource": "cLabels",
+					"text": "Labels",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "checkbox",
+					"top": 111,
+					"left": 302,
+					"width": 88,
+					"height": 16,
+					"dataSource": "cEnvelopes",
+					"text": "Envelopes",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "radio",
+					"top": 94,
+					"left": 389,
+					"width": 124,
+					"height": 17,
+					"dataSource": "zComp",
+					"text": "Companies Only",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "radio",
+					"top": 112,
+					"left": 389,
+					"width": 118,
+					"height": 16,
+					"dataSource": "zCont",
+					"text": "All Contacts",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "checkbox",
+					"top": 50,
+					"left": 302,
+					"width": 130,
+					"height": 16,
+					"dataSource": "cList",
+					"text": "List of Recipients",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oRecordinDiaryCheckBox": {
+					"type": "checkbox",
+					"top": 178,
+					"left": 211,
+					"width": 120,
+					"height": 16,
+					"dataSource": "ch0",
+					"text": "Record in Diary",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oInvoiceAddressCheckbox": {
+					"type": "checkbox",
+					"top": 142,
+					"left": 214,
+					"width": 131,
+					"height": 16,
+					"dataSource": "iInvL",
+					"text": "Invoice Address",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"ousemailsortcheckbox": {
+					"type": "checkbox",
+					"top": 160,
+					"left": 214,
+					"width": 129,
+					"height": 16,
+					"dataSource": "ch5",
+					"text": "Use Mailsort",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/ousemailsortcheckbox.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 71,
+					"left": 156,
+					"width": 54,
+					"height": 16,
+					"dataSource": "WS_l_bd5",
+					"text": "BCC",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Check Box2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 71,
+					"left": 211,
+					"width": 37,
+					"height": 16,
+					"dataSource": "WS_l_bd6",
+					"text": "BIG",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable21": {
+					"type": "checkbox",
+					"top": 494,
+					"left": 83,
+					"width": 104,
+					"height": 16,
+					"dataSource": "bd1",
+					"text": "Via Fax",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable21.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "checkbox",
+					"top": 461,
+					"left": 76,
+					"width": 172,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "cExport",
+					"text": "WP Export File: Delimiter",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 465,
+					"left": 246,
+					"width": 92,
+					"height": 14,
+					"visibility": "hidden",
+					"dataSource": "vFld",
+					"stroke": "#000000",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable24": {
+					"type": "button",
+					"top": 535,
+					"left": 102,
+					"width": 92,
+					"height": 22,
+					"dataSource": "Bsms",
+					"text": "Send SMS",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oViewTemplateP3": {
+					"type": "button",
+					"top": 672,
+					"left": 68,
+					"width": 117,
+					"height": 22,
+					"dataSource": "Bview2",
+					"text": "View Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oViewTemplateP3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 672,
+					"left": 337,
+					"width": 117,
+					"height": 22,
+					"dataSource": "BSelectTemplate2",
+					"text": "Use Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"Line1",
+				"Line2",
+				"Line3",
+				"Line4",
+				"Line5",
+				"Line6"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 165,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

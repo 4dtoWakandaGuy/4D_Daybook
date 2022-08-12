@@ -1,0 +1,138 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oTableNumber": {
+					"type": "input",
+					"top": 4,
+					"left": 28,
+					"width": 33,
+					"height": 16,
+					"dataSource": "DB_l_CurrentTable",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oTableName": {
+					"type": "input",
+					"top": 4,
+					"left": 65,
+					"width": 213,
+					"height": 16,
+					"dataSource": "DB_T_TableName",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFormNum": {
+					"type": "input",
+					"top": 4,
+					"left": 293,
+					"width": 32,
+					"height": 16,
+					"dataSource": "DB_l_CurrentForm",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFormName": {
+					"type": "input",
+					"top": 4,
+					"left": 333,
+					"width": 332,
+					"height": 16,
+					"dataSource": "DB_T_FormName",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubform": {
+					"type": "subform",
+					"top": 23,
+					"left": 29,
+					"width": 598,
+					"height": 200,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Subform",
+					"dataSourceTypeHint": "text",
+					"table": 32,
+					"detailForm": "Accounts In13",
+					"focusable": false,
+					"enterableInList": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

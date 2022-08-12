@@ -1,0 +1,236 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"LR_bImportLicence": {
+					"type": "button",
+					"top": 162,
+					"left": 22,
+					"width": 154,
+					"height": 18,
+					"sizingX": "move",
+					"dataSource": "LR_bImportLicence",
+					"text": "Import Licence File",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/LR_bImportLicence.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"LR_bCancelMain": {
+					"type": "button",
+					"top": 162,
+					"left": 411,
+					"width": 113,
+					"height": 18,
+					"sizingX": "move",
+					"dataSource": "LR_bCancelMain",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/LR_bCancelMain.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"LR_bAcceptMain": {
+					"type": "button",
+					"top": 162,
+					"left": 606,
+					"width": 113,
+					"height": 18,
+					"sizingX": "move",
+					"dataSource": "LR_bAcceptMain",
+					"text": "Accept",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/LR_bAcceptMain.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 52,
+					"left": 5,
+					"width": 196,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Auto Licence Web Service Host Name"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 91,
+					"left": 5,
+					"width": 196,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Auto Licence Web Service Port Number"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 125,
+					"left": 5,
+					"width": 196,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Auto Licence Web Service Name"
+				},
+				"oHostNameText": {
+					"type": "input",
+					"top": 52,
+					"left": 209,
+					"width": 549,
+					"height": 14,
+					"dataSource": "LR_t_LicenceHost",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oHostNameText1": {
+					"type": "input",
+					"top": 90,
+					"left": 209,
+					"width": 85,
+					"height": 14,
+					"dataSource": "LR_l_LicencePortNumber",
+					"dataSourceTypeHint": "number",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oServiceNameText": {
+					"type": "input",
+					"top": 127,
+					"left": 209,
+					"width": 549,
+					"height": 14,
+					"dataSource": "LR_T_WebserviceName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"EnableCHK": {
+					"type": "checkbox",
+					"top": 13,
+					"left": 205,
+					"width": 21,
+					"height": 20,
+					"dataSource": "LR_l_EnableCHK",
+					"text": "Enable New Licence Type",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/EnableCHK.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 18,
+					"left": 5,
+					"width": 196,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Enable New Licence Type"
+				},
+				"LR_bGetUpdate": {
+					"type": "button",
+					"top": 162,
+					"left": 216,
+					"width": 113,
+					"height": 18,
+					"dataSource": "LR_bGetUpdate",
+					"text": "Get Update",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"method": "ObjectMethods/LR_bGetUpdate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

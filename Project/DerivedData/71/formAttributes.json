@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Currency_In": {
+			"timeStamp": "2022-03-10T16:49:21.421Z",
+			"destination": "detailScreen"
+		},
+		"Currencies_Out": {
+			"timeStamp": "2022-03-10T16:49:21.423Z",
+			"destination": "listScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.424Z",
+			"destination": "listScreen"
+		}
+	}
+}

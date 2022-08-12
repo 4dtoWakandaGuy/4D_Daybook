@@ -1,0 +1,200 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 479,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 70,
+	"markerBody": 103,
+	"markerBreak": 103,
+	"markerFooter": 130,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 49,
+					"left": 292,
+					"width": 82,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"text": "Picture"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 49,
+					"left": 13,
+					"width": 51,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"text": "Code"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 49,
+					"left": 92,
+					"width": 122,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"text": "Name"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 84,
+					"width": 1,
+					"height": 63,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": 40,
+					"left": 287,
+					"width": 1,
+					"height": 63,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 73,
+					"left": 291,
+					"width": 189,
+					"height": 24,
+					"dataSource": "[PICTURES:85]Picture:3",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"pictureFormat": "proportionalTopLeft",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 79,
+					"left": 11,
+					"width": 71,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[PICTURES:85]Picture_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 79,
+					"left": 90,
+					"width": 193,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[PICTURES:85]Picture_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

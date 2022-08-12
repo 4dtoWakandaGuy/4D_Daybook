@@ -1,0 +1,436 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 9,
+					"left": 23,
+					"width": 527,
+					"height": 42,
+					"class": "Labels",
+					"textAlign": "center",
+					"text": "The following assets will displayed to users connecting to the database. Here you can put HTML content, Text, or Links. Ensure that you tag the contect type appropriately"
+				},
+				"oLBWebVignettes": {
+					"type": "listbox",
+					"top": 52,
+					"left": 4,
+					"width": 553,
+					"height": 346,
+					"resizingMode": "legacy",
+					"dataSource": "DBWS_lb_Documents",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBWebVignettes.4dm",
+					"events": [
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 538,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBSave": {
+					"type": "button",
+					"top": 421,
+					"left": 478,
+					"width": 79,
+					"height": 22,
+					"dataSource": "DBWS_l_Save",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAdd": {
+					"type": "button",
+					"top": 412,
+					"left": 4,
+					"width": 147,
+					"height": 17,
+					"dataSource": "DBWS_but_AddDocument",
+					"text": "Add Asset",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oButtonAdd.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 9,
+					"left": 21,
+					"width": 73,
+					"height": 22,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Title"
+				},
+				"oDocumentTitle": {
+					"type": "input",
+					"top": 7,
+					"left": 117,
+					"width": 426,
+					"height": 15,
+					"dataSource": "DBWS_t_DocumentTitle",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDocumentText": {
+					"type": "input",
+					"top": 54,
+					"left": 115,
+					"width": 426,
+					"height": 360,
+					"dataSource": "DBWS_t_DocumentText",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 53,
+					"left": 42,
+					"width": 62,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Asset text"
+				},
+				"oButtonSave": {
+					"type": "button",
+					"top": 444,
+					"left": 457,
+					"width": 99,
+					"height": 22,
+					"dataSource": "DBWS_but_saveAsset",
+					"text": "Save Asset",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonSave.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"OACTIVEASSET": {
+					"type": "checkbox",
+					"top": 434,
+					"left": 115,
+					"width": 138,
+					"height": 21,
+					"dataSource": "DBWS_bo_ActiveAsset",
+					"text": "Asset Active",
+					"class": "Labels",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text3": {
+					"type": "text",
+					"top": 9,
+					"left": 31,
+					"width": 73,
+					"height": 22,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Title"
+				},
+				"oDocumentTitle1": {
+					"type": "input",
+					"top": 7,
+					"left": 117,
+					"width": 426,
+					"height": 15,
+					"dataSource": "DBWS_t_DocumentTitle",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDocumenturl": {
+					"type": "input",
+					"top": 42,
+					"left": 117,
+					"width": 366,
+					"height": 15,
+					"dataSource": "DBWS_t_DocumentURL",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oDocumenturl.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 42,
+					"left": 31,
+					"width": 73,
+					"height": 22,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "URL"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 84,
+					"left": 31,
+					"width": 73,
+					"height": 22,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Preview"
+				},
+				"oWebform": {
+					"type": "webArea",
+					"top": 77,
+					"left": 112,
+					"width": 431,
+					"height": 382,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DBWS_t_Webform",
+					"urlSource": "DB_t_LinkURL",
+					"progressSource": "DB_l_WebProgress",
+					"contextMenu": "none",
+					"borderStyle": "none",
+					"method": "ObjectMethods/oWebform.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onUnload",
+						"onBeginURLLoading",
+						"onURLResourceLoading",
+						"onEndURLLoading",
+						"onURLLoadingError",
+						"onURLFiltering",
+						"onOpenExternalLink",
+						"onWindowOpeningDenied"
+					]
+				},
+				"oLoad": {
+					"type": "button",
+					"top": 40,
+					"left": 492,
+					"width": 60,
+					"height": 17,
+					"dataSource": "DBWS_but_Load",
+					"text": "Load",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLoad.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonSave1": {
+					"type": "button",
+					"top": 471,
+					"left": 453,
+					"width": 99,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DBWS_but_saveAsset",
+					"text": "Save Asset",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonSave1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"OACTIVEASSET1": {
+					"type": "checkbox",
+					"top": 463,
+					"left": 115,
+					"width": 138,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "DBWS_bo_ActiveAsset",
+					"text": "Asset Active",
+					"class": "Labels",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

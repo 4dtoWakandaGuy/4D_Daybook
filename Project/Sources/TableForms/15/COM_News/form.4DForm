@@ -1,0 +1,112 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 424,
+	"windowMinHeight": 523,
+	"width": 424,
+	"height": 523,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Button1": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 13,
+					"height": 31,
+					"visibility": "hidden",
+					"dataSource": "Button1",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Button",
+					"class": "BUttons_SMALL",
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Web Area": {
+					"type": "webArea",
+					"top": 90,
+					"left": 495,
+					"width": 1,
+					"height": 1,
+					"dataSource": "Web Area",
+					"urlSource": "Web Area_url",
+					"progressSource": "Web Area_progress",
+					"contextMenu": "none",
+					"borderStyle": "none"
+				},
+				"obrowse": {
+					"type": "webArea",
+					"top": 2,
+					"left": 1,
+					"width": 413,
+					"height": 492,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SD2_T_Dataform",
+					"urlSource": "DB_t_WebUrl",
+					"progressSource": "DB_l_WebProgress",
+					"webEngine": "embedded",
+					"contextMenu": "none",
+					"borderStyle": "solid"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

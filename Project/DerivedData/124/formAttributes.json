@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"SMSLog_Out": {
+			"timeStamp": "2022-03-13T19:40:06.107Z",
+			"destination": "detailScreen"
+		},
+		"input": {
+			"timeStamp": "2022-03-10T16:49:21.982Z",
+			"destination": "detailScreen"
+		},
+		"SMS_Log_Deletions": {
+			"timeStamp": "2022-03-13T19:40:06.093Z",
+			"destination": "detailScreen"
+		}
+	}
+}

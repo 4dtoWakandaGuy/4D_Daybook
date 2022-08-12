@@ -1,0 +1,15 @@
+{
+	"forms": {
+		"Area_In": {
+			"timeStamp": "2022-04-25T14:01:03.924Z",
+			"destination": "detailScreen"
+		},
+		"Areas_Out": {
+			"timeStamp": "2022-03-10T16:49:15.478Z",
+			"destination": "listScreen"
+		},
+		"dMinor_Sel": {
+			"timeStamp": "2022-03-10T16:49:15.481Z"
+		}
+	}
+}

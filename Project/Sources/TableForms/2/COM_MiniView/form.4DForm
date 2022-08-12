@@ -1,0 +1,160 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 23,
+					"left": 12,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Address_Details"
+				},
+				"oAddress_Details": {
+					"type": "input",
+					"top": 24,
+					"left": 110,
+					"width": 258,
+					"height": 91,
+					"dataSource": "COM_at_AddressDetails",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 3,
+					"left": 374,
+					"width": 90,
+					"height": 14,
+					"dataSource": "[COMPANIES:2]Company_Code:1",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 3,
+					"left": 308,
+					"width": 65,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Code"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 110,
+					"left": 388,
+					"width": 83,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_l_CloseMini",
+					"action": "cancel",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 3,
+					"left": 17,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Company Name"
+				},
+				"Field": {
+					"type": "input",
+					"top": 3,
+					"left": 112,
+					"width": 190,
+					"height": 14,
+					"dataSource": "[COMPANIES:2]Company_Name:2",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

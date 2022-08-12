@@ -1,0 +1,15 @@
+{
+	"forms": {
+		"Sources_in": {
+			"timeStamp": "2022-05-03T12:49:45.728Z",
+			"destination": "detailScreen"
+		},
+		"Sources_Out": {
+			"timeStamp": "2022-05-03T12:49:45.538Z",
+			"destination": "listScreen"
+		},
+		"Sources_Stats": {
+			"timeStamp": "2022-05-03T12:49:45.530Z"
+		}
+	}
+}

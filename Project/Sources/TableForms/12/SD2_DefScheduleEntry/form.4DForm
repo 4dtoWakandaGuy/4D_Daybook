@@ -1,0 +1,1365 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"rightMargin": 12,
+	"bottomMargin": 12,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Invisible Button4": {
+					"type": "button",
+					"top": 701,
+					"left": 530,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable71": {
+					"type": "button",
+					"top": 701,
+					"left": 493,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable71.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button28": {
+					"type": "button",
+					"top": 701,
+					"left": 143,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button28.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button24": {
+					"type": "button",
+					"top": 700,
+					"left": 196,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button22": {
+					"type": "button",
+					"top": 700,
+					"left": 245,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button22.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button20": {
+					"type": "button",
+					"top": 700,
+					"left": 294,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button20.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 700,
+					"left": 340,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button14": {
+					"type": "button",
+					"top": 700,
+					"left": 381,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button14.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 701,
+					"left": 420,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 701,
+					"left": 455,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oinviteButton": {
+					"type": "button",
+					"top": 73,
+					"left": 0,
+					"width": 32,
+					"height": 28,
+					"dataSource": "SD2_l_Invite",
+					"tooltip": "Add Invitees",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oinviteButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLinkButton": {
+					"type": "button",
+					"top": 74,
+					"left": 34,
+					"width": 28,
+					"height": 27,
+					"dataSource": "SD2_l_Link",
+					"tooltip": "Link to Records",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/SD_DiaryLinks.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/oLinkButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oInviteeLabel": {
+					"type": "text",
+					"top": 107,
+					"left": 12,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Invitees"
+				},
+				"oInvitees": {
+					"type": "listbox",
+					"top": 107,
+					"left": 103,
+					"width": 413,
+					"height": 72,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_EventInvites",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oInvitees.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 398,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oinviteButton1": {
+					"type": "pictureButton",
+					"top": 111,
+					"left": 3,
+					"width": 27,
+					"height": 20,
+					"dataSource": "SD2_l_Attachments",
+					"columnCount": 2,
+					"picture": "var:0",
+					"loopBackToFirstFrame": true,
+					"method": "ObjectMethods/oinviteButton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubject": {
+					"type": "input",
+					"top": 186,
+					"left": 103,
+					"width": 412,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[DIARY:12]Subject:63",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oSubject.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSubjectLabel": {
+					"type": "text",
+					"top": 186,
+					"left": 13,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Subject"
+				},
+				"ODateFromLabel": {
+					"type": "text",
+					"top": 209,
+					"left": 13,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "<SD2_t_StartLabel>"
+				},
+				"oDateFrom": {
+					"type": "input",
+					"top": 208,
+					"left": 104,
+					"width": 120,
+					"height": 14,
+					"dataSource": "[DIARY:12]Display_Date_From:51",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oDateFrom.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDateFromButton": {
+					"type": "button",
+					"top": 204,
+					"left": 226,
+					"width": 33,
+					"height": 21,
+					"dataSource": "SD2_l_CalenderButton1",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalenderButton.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"style": "office",
+					"method": "ObjectMethods/oDateFromButton.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"oButtonExtendDates": {
+					"type": "button",
+					"top": 205,
+					"left": 259,
+					"width": 32,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "SD2_but_extendDates",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalendatMDButton.png",
+					"iconFrames": 4,
+					"style": "office",
+					"method": "ObjectMethods/oButtonExtendDates.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDateToLabel": {
+					"type": "text",
+					"top": 231,
+					"left": 13,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "To"
+				},
+				"oDateTo": {
+					"type": "input",
+					"top": 230,
+					"left": 104,
+					"width": 120,
+					"height": 14,
+					"dataSource": "[DIARY:12]Display_Date_To:52",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oDateTo.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDateToButton": {
+					"type": "button",
+					"top": 226,
+					"left": 226,
+					"width": 33,
+					"height": 21,
+					"dataSource": "SD2_l_CalenderButton1",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/CalenderButton.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"style": "office",
+					"method": "ObjectMethods/oDateToButton.4dm",
+					"events": [
+						"onClick",
+						"onLongClick"
+					]
+				},
+				"oTimeLabel": {
+					"type": "text",
+					"top": 209,
+					"left": 281,
+					"width": 35,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time"
+				},
+				"oTimeToPopUp": {
+					"type": "dropdown",
+					"top": 228,
+					"left": 434,
+					"width": 24,
+					"height": 17,
+					"dataSource": "SD_HL_l_Hours2",
+					"dataSourceTypeHint": "integer",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTimeToPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oTimeFromPopUp": {
+					"type": "dropdown",
+					"top": 206,
+					"left": 434,
+					"width": 24,
+					"height": 17,
+					"dataSource": "SD_HL_l_Hours",
+					"dataSourceTypeHint": "integer",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTimeFromPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oTimeTo": {
+					"type": "input",
+					"top": 230,
+					"left": 318,
+					"width": 120,
+					"height": 15,
+					"dataSource": "[DIARY:12]Display_Time_To:54",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTimeFrom": {
+					"type": "input",
+					"top": 208,
+					"left": 318,
+					"width": 120,
+					"height": 15,
+					"dataSource": "[DIARY:12]Display_Time_From:53",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTimeDurationlabel": {
+					"type": "text",
+					"top": 252,
+					"left": 269,
+					"width": 46,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Duration"
+				},
+				"oTimeDuration": {
+					"type": "input",
+					"top": 252,
+					"left": 318,
+					"width": 20,
+					"height": 14,
+					"dataSource": "SD2_l_DiaryDuration",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oTimeDuration.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oTimeDurationPopUp": {
+					"type": "dropdown",
+					"top": 250,
+					"left": 342,
+					"width": 116,
+					"height": 17,
+					"dataSource": "SD2_at_DurationNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oTimeDurationPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oReminderCheckBox": {
+					"type": "checkbox",
+					"top": 273,
+					"left": 251,
+					"width": 211,
+					"height": 19,
+					"dataSource": "SD2_l_CB_Alarmed",
+					"text": "Reminder",
+					"class": "Fields",
+					"method": "ObjectMethods/oReminderCheckBox.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oReminderDurationPopUp": {
+					"type": "dropdown",
+					"top": 273,
+					"left": 343,
+					"width": 115,
+					"height": 17,
+					"dataSource": "SD2_at_ReminderTimes",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oReminderDurationPopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oReminder": {
+					"type": "input",
+					"top": 277,
+					"left": 317,
+					"width": 20,
+					"height": 14,
+					"dataSource": "SD2_l_DiaryReminder",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oReminder.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDiaryDetailsTEXT": {
+					"type": "input",
+					"top": 306,
+					"left": 105,
+					"width": 434,
+					"height": 348,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DiaryDetailsTXT",
+					"class": "Fields",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryCodeLabelP2": {
+					"type": "text",
+					"top": 664,
+					"left": 13,
+					"width": 85,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Diary Reference"
+				},
+				"ODiaryCodeP2": {
+					"type": "input",
+					"top": 664,
+					"left": 105,
+					"width": 83,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Diary_Code:3",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDoneLabelP2": {
+					"type": "text",
+					"top": 664,
+					"left": 194,
+					"width": 56,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Complete"
+				},
+				"oDoneP2": {
+					"type": "checkbox",
+					"top": 664,
+					"left": 254,
+					"width": 10,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Done:14",
+					"enterable": false,
+					"text": " ",
+					"class": "Fields",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultLabelP2": {
+					"type": "text",
+					"top": 664,
+					"left": 282,
+					"width": 53,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Outcome"
+				},
+				"oDiaryResultNamePopUpP2": {
+					"type": "dropdown",
+					"top": 662,
+					"left": 490,
+					"width": 26,
+					"height": 17,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_at_ResultNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oDiaryResultNamePopUpP2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oDiaryResultP2": {
+					"type": "input",
+					"top": 664,
+					"left": 340,
+					"width": 36,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Result_Code:11",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultNameP2": {
+					"type": "input",
+					"top": 664,
+					"left": 378,
+					"width": 118,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_t_SELResultName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDiaryActionLabel": {
+					"type": "text",
+					"top": 80,
+					"left": 251,
+					"width": 85,
+					"height": 14,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Diary Action"
+				},
+				"oActionNamePopUp": {
+					"type": "dropdown",
+					"top": 77,
+					"left": 340,
+					"width": 179,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SD2_at_DactionNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oActionNamePopUp.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oActionCode": {
+					"type": "input",
+					"top": 79,
+					"left": 343,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "[DIARY:12]Action_Code:9",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionCode.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onPrintingDetail",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"oTimeLabel2": {
+					"type": "text",
+					"top": 230,
+					"left": 280,
+					"width": 35,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time"
+				},
+				"oDateNotesLabel": {
+					"type": "text",
+					"top": 306,
+					"left": 12,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Notes\t"
+				},
+				"oActionName": {
+					"type": "input",
+					"top": 79,
+					"left": 381,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SELActionName",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oActionName.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSubjectLabelP1": {
+					"type": "text",
+					"top": 338,
+					"left": 0,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Task"
+				},
+				"oattachmentsLabel": {
+					"type": "text",
+					"top": 140,
+					"left": 7,
+					"width": 85,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Attachments"
+				},
+				"oAttachments": {
+					"type": "listbox",
+					"top": 52,
+					"left": 129,
+					"width": 402,
+					"height": 95,
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_Attachments",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Charcoal CY",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 387,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Charcoal CY",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oAttachNONE": {
+					"type": "input",
+					"top": 112,
+					"left": 90,
+					"width": 145,
+					"height": 12,
+					"dataSource": "SD_t_Attachmentsmessage",
+					"class": "BUttons_SMALL",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oAttachAdd": {
+					"type": "button",
+					"top": 170,
+					"left": 10,
+					"width": 94,
+					"height": 22,
+					"dataSource": "SD_l_AddAttachments",
+					"text": "Add",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					]
+				},
+				"oAttachRemove": {
+					"type": "button",
+					"top": 199,
+					"left": 11,
+					"width": 94,
+					"height": 22,
+					"dataSource": "SD_l_RemoveAttachments",
+					"text": "Remove",
+					"fontSize": 12,
+					"events": [
+						"onClick"
+					]
+				},
+				"oDiaryDetailsTEXTP1": {
+					"type": "input",
+					"top": 177,
+					"left": 96,
+					"width": 394,
+					"height": 348,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DiaryDetailsTXT",
+					"class": "Fields",
+					"textAlign": "left",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDetailInputWRITEP2": {
+					"type": "plugin",
+					"top": 180,
+					"left": 95,
+					"width": 410,
+					"height": 348,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DiaryDetails",
+					"pluginAreaKind": "_4D Write",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/oDetailInputWRITEP2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryCodeLabelP1": {
+					"type": "text",
+					"top": 535,
+					"left": 1,
+					"width": 85,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Diary Reference"
+				},
+				"ODiaryCodeP1": {
+					"type": "input",
+					"top": 535,
+					"left": 92,
+					"width": 83,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Diary_Code:3",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDoneLabelP1": {
+					"type": "text",
+					"top": 535,
+					"left": 200,
+					"width": 56,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Complete"
+				},
+				"oDoneP1": {
+					"type": "checkbox",
+					"top": 535,
+					"left": 262,
+					"width": 10,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Done:14",
+					"enterable": false,
+					"text": " ",
+					"class": "Fields",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultLabelP1": {
+					"type": "text",
+					"top": 535,
+					"left": 330,
+					"width": 53,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Outcome"
+				},
+				"oDiaryResultNamePopUpP1": {
+					"type": "dropdown",
+					"top": 533,
+					"left": 538,
+					"width": 24,
+					"height": 17,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_at_ResultNames",
+					"class": "Fields",
+					"method": "ObjectMethods/oDiaryResultNamePopUpP1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oDiaryResultP1": {
+					"type": "input",
+					"top": 535,
+					"left": 385,
+					"width": 36,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[DIARY:12]Result_Code:11",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDiaryResultNameP1": {
+					"type": "input",
+					"top": 535,
+					"left": 424,
+					"width": 118,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "SD2_t_SELResultName",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

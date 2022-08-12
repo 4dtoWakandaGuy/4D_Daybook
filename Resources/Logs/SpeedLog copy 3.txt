@@ -1,0 +1,1288 @@
+800280595	6	DB_Windows	Return to :NUL	Designer	MacBook Pro	User Ident
+
+
+t
+ent
+
+dent
+
+ess
+k Manager Process
+801565478	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801565530	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801565580	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801566092	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801566124	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801566191	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801566620	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801566652	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801566689	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801566726	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801566759	23	DelayTicks	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801566790	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801567141	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801567262	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801567412	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801567692	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801567723	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801567773	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801568302	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801568354	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801568440	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801568840	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801568892	23	DelayTicks	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801568974	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801570973	19	FM [COMPANIES].WS_TOOLBAR	27	Designer	MacBook Pro	Modules_Palette
+801571091	19	Process Name	StartMethod	Designer	MacBook Pro	Modules_Palette
+801571127	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801571206	19	FM:WS_TOOLBAR	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801571237	23	DelayTicks	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801571276	26	Diary_Workflow_Manager	Return to :NUL	Designer	MacBook Pro	Task Manager Process
+801571360	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801571539	19	DB_Windows	StartMethod	Designer	MacBook Pro	Modules_Palette
+801571622	19	DB_Windows	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801571701	19	DB_MenuAction	StartMethod	Designer	MacBook Pro	Modules_Palette
+801571787	19	DB_MenuAction	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801571868	19	Menu ModBar2	Return to :NUL	Designer	MacBook Pro	Modules_Palette
+801572127	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801572194	12	ProcessServices	Return to :NUL	Designer	MacBook Pro	Service Process
+801572469	71	PW_CHECKUSERS	StartMethod	Designer	MacBook Pro	Saving Passwords
+801572598	71	PW_CHECKUSERS	Return to :NUL	Designer	MacBook Pro	Saving Passwords
+801573413	23	Process Name	StartMethod	Designer	MacBook Pro	Process Stock Changes
+801573499	23	STK_Watcher	Return to :NUL	Designer	MacBook Pro	Process Stock Changes
+801576788	22	STK_InTesting	Return to :NUL	Designer	MacBook Pro	Verify Stock
+801602235	3	DB_ControlDataFilePath	StartMethod	DefaultUser	MacBook Pro	Application process
+801602277	3	DB_ControlDataFilePath	Return to :NUL	DefaultUser	MacBook Pro	Application process
+801615390	3	DB_ProcessMemoryinit	StartMethod	Designer	MacBook Pro	Application process
+801615417	3	DB_ProcessMemoryinit	Return to :NUL	Designer	MacBook Pro	Application process
+801615511	6	DB_selectUserLogin	StartMethod	Designer	MacBook Pro	User Ident
+801615554	3	DB_StartupCopyPrefs	StartMethod	Designer	MacBook Pro	Application process
+801615582	6	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	User Ident
+801615625	3	FileNamefromPath	StartMethod	Designer	MacBook Pro	Application process
+801615653	6	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	User Ident
+801615703	3	DB_Macintosh	StartMethod	Designer	MacBook Pro	Application process
+801615717	6	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	User Ident
+801615757	3	DB_Macintosh	Return to :NUL	Designer	MacBook Pro	Application process
+801615770	6	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	User Ident
+801615800	3	FileNamefromPath	Return to :NUL	Designer	MacBook Pro	Application process
+801615813	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801615844	3	AA_CheckUUID	StartMethod	Designer	MacBook Pro	Application process
+801615856	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801615904	3	AA_CheckUUID	Return to :NUL	Designer	MacBook Pro	Application process
+801615932	6	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	User Ident
+801615973	3	DB_StartupCopyPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801616001	6	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	User Ident
+801616044	3	AAAC	StartMethod	Designer	MacBook Pro	Application process
+801616073	6	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	User Ident
+801616115	3	Compiler_Variables_Inter	StartMethod	Designer	MacBook Pro	Application process
+801616148	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801616192	3	COMPILER_MIR	StartMethod	Designer	MacBook Pro	Application process
+801616221	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801616262	3	COMPILER_MIR	Return to :NUL	Designer	MacBook Pro	Application process
+801616291	6	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	User Ident
+801616322	3	AAAC	Return to :NUL	Designer	MacBook Pro	Application process
+801616335	6	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	User Ident
+801616376	3	DB_ProcessMemoryinit	StartMethod	Designer	MacBook Pro	Application process
+801616405	6	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	User Ident
+801616447	3	DB_ProcessMemoryinit	Return to :NUL	Designer	MacBook Pro	Application process
+801616477	6	Array LCx	4	Designer	MacBook Pro	User Ident
+801616503	6	Array LCx	Return to :NUL	Designer	MacBook Pro	User Ident
+801616538	6	Open Any Window	StartMethod	Designer	MacBook Pro	User Ident
+801616649	6	Open Any Window	Return to :NUL	Designer	MacBook Pro	User Ident
+801616764	3	SD3_ServerSideDiaryManager	StartMethod	Designer	MacBook Pro	Application process
+801616856	6	FM [PERSONNEL].Ask Person	1	Designer	MacBook Pro	User Ident
+801616908	6	SPLASH_HIDE	StartMethod	Designer	MacBook Pro	User Ident
+801616965	6	SPLASH_HIDE	Return to :NUL	Designer	MacBook Pro	User Ident
+801617059	3	SD3_ServerSideDiaryManager	Return to :NUL	Designer	MacBook Pro	Application process
+801617104	6	DB_Windows	StartMethod	Designer	MacBook Pro	User Ident
+801617200	9	SD3_ServerSideDiaryManager	StartMethod	Designer	MacBook Pro	DiaryMonitor
+801617248	3	START_CheckClientVersion	StartMethod	Designer	MacBook Pro	Application process
+801617329	9	SD3_ServerSideDiaryManager	Return to :NUL	Designer	MacBook Pro	DiaryMonitor
+801617388	3	START_CheckClientVersion	Return to :NUL	Designer	MacBook Pro	Application process
+801617432	3	DelayIfIndexing	StartMethod	Designer	MacBook Pro	Application process
+801617523	3	DelayIfIndexing	StartMethod	Designer	MacBook Pro	Application process
+801617570	3	DB_Boot_Mode	StartMethod	Designer	MacBook Pro	Application process
+801617619	3	DB_Macintosh	StartMethod	Designer	MacBook Pro	Application process
+801617670	3	DB_Macintosh	Return to :NUL	Designer	MacBook Pro	Application process
+801617762	3	DB_SetAlltriggers	StartMethod	Designer	MacBook Pro	Application process
+801617864	3	DB_SetAlltriggers	Return to :NUL	Designer	MacBook Pro	Application process
+801617892	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801617925	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801619004	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801619058	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801619086	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801619239	6	DB_Windows	Return to :NUL	Designer	MacBook Pro	User Ident
+801619285	6	WS_AutoscreenSize	StartMethod	Designer	MacBook Pro	User Ident
+801619326	6	WS_AutoscreenSize	StartMethod	Designer	MacBook Pro	User Ident
+801619352	6	INT_GetDock	StartMethod	Designer	MacBook Pro	User Ident
+801619404	6	DBGetOSVersion	StartMethod	Designer	MacBook Pro	User Ident
+801619453	6	DBGetOSVersion	Return to :NUL	Designer	MacBook Pro	User Ident
+801619942	6	INT_GetDock	Return to :NUL	Designer	MacBook Pro	User Ident
+801620041	6	WS_AutoscreenSize	Return to :NUL	Designer	MacBook Pro	User Ident
+801620072	6	INT_SetDialog	StartMethod	Designer	MacBook Pro	User Ident
+801620098	6	DBGetOSVersion	StartMethod	Designer	MacBook Pro	User Ident
+801620150	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801620175	6	DBGetOSVersion	Return to :NUL	Designer	MacBook Pro	User Ident
+801620222	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801620247	6	INT_SetDialog	Return to :NUL	Designer	MacBook Pro	User Ident
+801620292	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801620318	6	LB_SetupListbox	StartMethod	Designer	MacBook Pro	User Ident
+801620348	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801620373	6	GenValidatePointer	StartMethod	Designer	MacBook Pro	User Ident
+801620404	6	LB_SetupListbox	Return to :NUL	Designer	MacBook Pro	User Ident
+801620430	6	LB_SetColumnHeaders	StartMethod	Designer	MacBook Pro	User Ident
+801620460	6	LB_SetColumnHeaders	Return to :NUL	Designer	MacBook Pro	User Ident
+801620485	6	LB_SetColumnWidths	StartMethod	Designer	MacBook Pro	User Ident
+801620514	6	LB_SetColumnWidths	StartMethod	Designer	MacBook Pro	User Ident
+801620540	6	LB_SetColumnWidths	Return to :NUL	Designer	MacBook Pro	User Ident
+801620556	6	LB_SetEnterable	StartMethod	Designer	MacBook Pro	User Ident
+801620567	6	LB_SetEnterable	Return to :NUL	Designer	MacBook Pro	User Ident
+801620581	6	LB_SetScroll	StartMethod	Designer	MacBook Pro	User Ident
+801620593	6	LB_SetScroll	Return to :NUL	Designer	MacBook Pro	User Ident
+801620606	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801620615	6	FM [PERSONNEL].Ask Person	29	Designer	MacBook Pro	User Ident
+801620628	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801621327	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801621363	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801621389	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801622327	6	OBJ [PERSONNEL].Ask Person.oLCS	4	Designer	MacBook Pro	User Ident
+801622355	6	Ask PersonSel	0	Designer	MacBook Pro	User Ident
+801622385	6	Ask PersonIns	StartMethod	Designer	MacBook Pro	User Ident
+801622412	6	Ask PersonIns	0	Designer	MacBook Pro	User Ident
+801622442	6	Ask PersonIns	Return to :NUL	Designer	MacBook Pro	User Ident
+801622484	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801622515	6	Ask PersonSel	Return to :NUL	Designer	MacBook Pro	User Ident
+801622557	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801622587	6	OBJ [PERSONNEL].Ask Person.oLCS	Return to :NUL	Designer	MacBook Pro	User Ident
+801622642	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801622661	6	FM [PERSONNEL].Ask Person	4	Designer	MacBook Pro	User Ident
+801622687	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801623671	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801623697	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801623729	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801623755	6	FM [PERSONNEL].Ask Person	28	Designer	MacBook Pro	User Ident
+801623786	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801623992	6	FM [PERSONNEL].Ask Person	28	Designer	MacBook Pro	User Ident
+801624023	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801624150	6	FM [PERSONNEL].Ask Person	28	Designer	MacBook Pro	User Ident
+801624181	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801624294	6	FM [PERSONNEL].Ask Person	28	Designer	MacBook Pro	User Ident
+801624325	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801624482	6	FM [PERSONNEL].Ask Person	28	Designer	MacBook Pro	User Ident
+801624513	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801624722	6	OBJ [PERSONNEL]Ask Person.oACCLoginPasswordEnter	20	Designer	MacBook Pro	User Ident
+801624754	6	OBJ [PERSONNEL]Ask Person.oACCLoginPasswordEnter	Return to :NUL	Designer	MacBook Pro	User Ident
+801624795	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801624827	6	FM [PERSONNEL].Ask Person	20	Designer	MacBook Pro	User Ident
+801624868	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801624900	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801624942	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801625075	6	OBJ [PERSONNEL].Ask Person.Variable7	4	Designer	MacBook Pro	User Ident
+801625979	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801626010	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801626036	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801627033	6	Ask PersonSel	0	Designer	MacBook Pro	User Ident
+801627059	6	Ask PersonSel	Return to :NUL	Designer	MacBook Pro	User Ident
+801627109	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801627136	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801627166	6	OBJ [PERSONNEL].Ask Person.Variable7	Return to :NUL	Designer	MacBook Pro	User Ident
+801627209	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801627234	6	FM [PERSONNEL].Ask Person	4	Designer	MacBook Pro	User Ident
+801627249	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801628255	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801628281	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801628331	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801629359	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801629409	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801629435	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801630221	6	OBJ [PERSONNEL].Ask Person.Variable7	4	Designer	MacBook Pro	User Ident
+801630499	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801630548	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801630574	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801631612	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801631638	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801631670	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801632705	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801632757	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801632784	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801633818	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801633844	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801633875	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801634907	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801634956	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801634982	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801635449	6	Ask PersonSel	0	Designer	MacBook Pro	User Ident
+801635475	6	Ask PersonIns	StartMethod	Designer	MacBook Pro	User Ident
+801635507	6	Ask PersonIns	0	Designer	MacBook Pro	User Ident
+801635533	6	Ask PersonIns	Return to :NUL	Designer	MacBook Pro	User Ident
+801635565	6	Ask PersonSel	Return to :NUL	Designer	MacBook Pro	User Ident
+801635624	6	OBJ [PERSONNEL].Ask Person.Variable7	Return to :NUL	Designer	MacBook Pro	User Ident
+801635657	6	FM [PERSONNEL].Ask Person	4	Designer	MacBook Pro	User Ident
+801635683	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801636029	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801636055	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801636106	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801636808	6	OBJ [PERSONNEL].Ask Person.oLCS	4	Designer	MacBook Pro	User Ident
+801636858	6	Ask PersonSel	0	Designer	MacBook Pro	User Ident
+801636884	6	Ask PersonSel	Return to :NUL	Designer	MacBook Pro	User Ident
+801636933	6	OBJ [PERSONNEL].Ask Person.oLCS	Return to :NUL	Designer	MacBook Pro	User Ident
+801636959	6	FM [PERSONNEL].Ask Person	4	Designer	MacBook Pro	User Ident
+801637009	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801637142	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801637198	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801637224	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801638277	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801638303	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801638353	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801638859	6	OBJ [PERSONNEL].Ask Person.Variable7	4	Designer	MacBook Pro	User Ident
+801639450	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801639518	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801639647	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801640669	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801640720	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801640746	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801640829	6	Ask PersonOK	0	Designer	MacBook Pro	User Ident
+801640855	6	Ask PersonOK	Return to :NUL	Designer	MacBook Pro	User Ident
+801640938	6	OBJ [PERSONNEL].Ask Person.Variable7	Return to :NUL	Designer	MacBook Pro	User Ident
+801640964	6	FM [PERSONNEL].Ask Person	4	Designer	MacBook Pro	User Ident
+801641013	6	FM:Ask Person	Return to :NUL	Designer	MacBook Pro	User Ident
+801641207	6	DB_selectUserLogin	Return to :NUL	Designer	MacBook Pro	User Ident
+801641781	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801643525	3	Start_inProcess	StartMethod	Designer	MacBook Pro	Application process
+801643578	3	Start_inProcess	StartMethod	Designer	MacBook Pro	Application process
+801643604	3	StartBackgrounder	StartMethod	Designer	MacBook Pro	Application process
+801643686	3	ApplicationType_isSingleUser	StartMethod	Designer	MacBook Pro	Application process
+801643736	3	ApplicationType_isSingleUserTrue	StartMethod	Designer	MacBook Pro	Application process
+801643788	3	ApplicationType_isSingleUser	Return to :NUL	Designer	MacBook Pro	Application process
+801643913	11	Backgrounder	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801643964	3	Start_inProcess	Return to :NUL	Designer	MacBook Pro	Application process
+801643990	11	Backgrounder	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644040	3	SPLASH_THERMO	StartMethod	Designer	MacBook Pro	Application process
+801644066	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644117	3	SPLASH_UPDATE	StartMethod	Designer	MacBook Pro	Application process
+801644144	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644194	3	SPLASH_ENABLE_CANCEL	StartMethod	Designer	MacBook Pro	Application process
+801644220	3	SPLASH_THERMO	StartMethod	Designer	MacBook Pro	Application process
+801644270	3	User Version	StartMethod	Designer	MacBook Pro	Application process
+801644297	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644346	3	VER_GetLicenceVersion	StartMethod	Designer	MacBook Pro	Application process
+801644389	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644445	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644606	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644625	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644635	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644817	3	VER_Get Licence Version	Return to :NUL	Designer	MacBook Pro	Application process
+801644843	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644892	3	VER_GetBuildNumber	StartMethod	Designer	MacBook Pro	Application process
+801644919	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801644969	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645169	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645200	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645227	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645390	3	VER_GetBuildNumber	Return to :NUL	Designer	MacBook Pro	Application process
+801645416	3	User Version	Return to :NUL	Designer	MacBook Pro	Application process
+801645496	3	VER_GetVersion	StartMethod	Designer	MacBook Pro	Application process
+801645510	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645542	3	VER_GetVersion	StartMethod	Designer	MacBook Pro	Application process
+801645569	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645620	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645889	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801645964	3	VER_GetVersion	Return to :NUL	Designer	MacBook Pro	Application process
+801645978	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801646019	3	DB_ProcessMemoryinit	StartMethod	Designer	MacBook Pro	Application process
+801646030	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801646086	3	DB_ProcessMemoryinit	Return to :NUL	Designer	MacBook Pro	Application process
+801646189	12	ProcessServices	StartMethod	Designer	MacBook Pro	Service Process
+801646222	3	DB_ProcessMemoryinit	StartMethod	Designer	MacBook Pro	Application process
+801646265	12	LOGIN_SetEmail	StartMethod	Designer	MacBook Pro	Service Process
+801646301	3	DB_ProcessMemoryinit	Return to :NUL	Designer	MacBook Pro	Application process
+801646343	12	LOGIN_SetEmail	Return to :NUL	Designer	MacBook Pro	Service Process
+801646398	12	Start Process	StartMethod	Designer	MacBook Pro	Service Process
+801646429	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801646478	12	Start Event	StartMethod	Designer	MacBook Pro	Service Process
+801646506	13	DM_DataretreiveManager	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801646539	3	VER_UpdateRoutines	StartMethod	Designer	MacBook Pro	Application process
+801646565	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801646639	12	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Service Process
+801646660	13	DM_DataretreiveManager	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801646682	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801646712	12	Check Modules	StartMethod	Designer	MacBook Pro	Service Process
+801646737	13	AA_LoadListByName	0	Designer	MacBook Pro	Data RetreiveManager
+801646754	14	GEN restoreIndexes	StartMethod	Designer	MacBook Pro	Restore Indexes
+801646774	15	GEN_UPDATETAXPERIOD	StartMethod	Designer	MacBook Pro	UPDATING TAX PERIOD
+801646809	12	Modules Array	StartMethod	Designer	MacBook Pro	Service Process
+801646843	13	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801646873	14	GEN restoreIndexes	Return to :NUL	Designer	MacBook Pro	Restore Indexes
+801646907	15	DelayTicks	StartMethod	Designer	MacBook Pro	UPDATING TAX PERIOD
+801646935	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801646987	12	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Service Process
+801647015	13	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801647048	15	Process Name	StartMethod	Designer	MacBook Pro	UPDATING TAX PERIOD
+801647074	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801647107	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801647150	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801647183	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647209	3	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801647242	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801647286	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801647321	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647340	3	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801647357	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801647402	13	AA_LoadListName	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647422	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801647451	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801647467	13	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801647477	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801647518	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801647546	13	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647581	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801647625	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801647660	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647686	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801647735	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801647762	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801647797	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801647840	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801647874	13	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801647901	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801647936	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801647978	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801648012	13	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801648038	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801648056	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801648094	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801648118	13	DM_GetBKSettings	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648147	13	AA_LoadListByName	0	Designer	MacBook Pro	Data RetreiveManager
+801648182	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801648224	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801648257	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648283	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801648334	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801648361	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648396	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801648439	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801648476	13	AA_LoadListName	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648514	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801648565	13	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801648592	16	ACC_11Update	StartMethod	Designer	MacBook Pro	Validating Transactions
+801648628	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801648654	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801648704	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801648715	13	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648730	16	DelayIfIndexing	StartMethod	Designer	MacBook Pro	Validating Transactions
+801648740	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801648759	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801648813	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801648838	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648849	16	DelayIfIndexing	StartMethod	Designer	MacBook Pro	Validating Transactions
+801648867	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801648894	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801648927	13	GenValidatePointer	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801648954	16	ACC_ReportingPrefs	StartMethod	Designer	MacBook Pro	Validating Transactions
+801648989	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801649033	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801649068	13	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801649094	16	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649128	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801649171	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801649206	13	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801649233	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649268	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801649295	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801649348	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801649374	13	DM_GetBKSettings	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801649409	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649436	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801649471	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801649514	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801649550	13	DelayTicks	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801649577	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649613	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801649640	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801649690	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801649703	13	Process Name	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801649722	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649733	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801649797	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801649824	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649866	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801649876	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801649909	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801649936	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801649972	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801650014	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801650047	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650076	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801650127	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650154	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801650208	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801650234	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650271	3	LAY_UpdateFonts	StartMethod	Designer	MacBook Pro	Application process
+801650297	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801650349	12	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Service Process
+801650376	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650412	3	LAY_UpdateFonts	Return to :NUL	Designer	MacBook Pro	Application process
+801650431	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801650500	12	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Service Process
+801650515	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650534	3	Macro_CurrentVersionCheck	StartMethod	Designer	MacBook Pro	Application process
+801650563	12	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Service Process
+801650583	3	Macro_CurrentVersionCheck	Return to :NUL	Designer	MacBook Pro	Application process
+801650615	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801650648	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650677	3	SR_Update	StartMethod	Designer	MacBook Pro	Application process
+801650729	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801650755	13	Process Name	StartMethod	Designer	MacBook Pro	Data RetreiveManager
+801650790	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650817	3	START_RegisterPlugins	StartMethod	Designer	MacBook Pro	Application process
+801650867	12	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Service Process
+801650894	13	DM_DataretreiveManager	Return to :NUL	Designer	MacBook Pro	Data RetreiveManager
+801650930	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801650958	3	PLUGCALL_PDFRegister	StartMethod	Designer	MacBook Pro	Application process
+801651012	12	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Service Process
+801651040	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651076	3	PLUGCALL_PDFRegister	Return to :NUL	Designer	MacBook Pro	Application process
+801651103	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801651152	12	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Service Process
+801651181	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651201	3	START_RegisterPlugins	Return to :NUL	Designer	MacBook Pro	Application process
+801651212	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801651264	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801651283	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651299	3	SR_Update	Return to :NUL	Designer	MacBook Pro	Application process
+801651313	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801651348	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801651359	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651375	3	VER_UpdateRoutines	Return to :NUL	Designer	MacBook Pro	Application process
+801651406	12	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Service Process
+801651439	16	DelayTicks	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651467	3	Startup	StartMethod	Designer	MacBook Pro	Application process
+801651516	12	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Service Process
+801651545	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651594	12	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Service Process
+801651624	3	PW_CHECKUSERS	StartMethod	Designer	MacBook Pro	Application process
+801651673	12	Modules Array	Return to :NUL	Designer	MacBook Pro	Service Process
+801651702	16	Process Name	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651746	3	PW_CHECKUSERS	Return to :NUL	Designer	MacBook Pro	Application process
+801651792	12	DB_GetLicencedModuleSettings	StartMethod	Designer	MacBook Pro	Service Process
+801651825	16	AA_LoadListByName	0	Designer	MacBook Pro	Validating Transactions
+801651856	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801651889	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801651937	16	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Validating Transactions
+801651971	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801652000	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801652040	12	DB_GetLicencedModuleSettings	Return to :NUL	Designer	MacBook Pro	Service Process
+801652065	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801652082	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801652117	12	Check Modules	Return to :NUL	Designer	MacBook Pro	Service Process
+801652134	16	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801652148	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801652183	12	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Service Process
+801652210	16	GenValidatePointer	StartMethod	Designer	MacBook Pro	Validating Transactions
+801652249	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801652299	16	GenValidatePointer	StartMethod	Designer	MacBook Pro	Validating Transactions
+801652333	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801652378	12	Start Event	Return to :NUL	Designer	MacBook Pro	Service Process
+801652413	16	AA_LoadListName	StartMethod	Designer	MacBook Pro	Validating Transactions
+801652440	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801652498	12	Compiler_Variables	StartMethod	Designer	MacBook Pro	Service Process
+801652530	16	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801652580	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801652633	12	Compiler_Variables	Return to :NUL	Designer	MacBook Pro	Service Process
+801652667	16	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Validating Transactions
+801652710	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801652759	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801652820	12	Date Format	StartMethod	Designer	MacBook Pro	Service Process
+801652853	16	GenValidatePointer	StartMethod	Designer	MacBook Pro	Validating Transactions
+801652882	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801652915	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801652958	12	Str DatePos1	StartMethod	Designer	MacBook Pro	Service Process
+801652991	16	GenValidatePointer	StartMethod	Designer	MacBook Pro	Validating Transactions
+801653021	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801653056	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801653098	12	Str PosDivide	StartMethod	Designer	MacBook Pro	Service Process
+801653131	16	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801653159	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801653210	12	Str PosDivide	Return to :NUL	Designer	MacBook Pro	Service Process
+801653236	16	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801653269	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801653320	12	Str DatePos1	Return to :NUL	Designer	MacBook Pro	Service Process
+801653353	16	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801653382	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801653421	12	Str DatePos2	StartMethod	Designer	MacBook Pro	Service Process
+801653450	16	ACC_ReportingPrefs	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801653483	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801653528	12	Str PosDivide	StartMethod	Designer	MacBook Pro	Service Process
+801653561	16	ACC_11Update	Return to :NUL	Designer	MacBook Pro	Validating Transactions
+801653592	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801653644	12	Str PosDivide	Return to :NUL	Designer	MacBook Pro	Service Process
+801653674	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801653724	12	Str PosDivide	StartMethod	Designer	MacBook Pro	Service Process
+801653753	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801653786	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801653831	12	Str PosDivide	Return to :NUL	Designer	MacBook Pro	Service Process
+801653864	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801653893	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801653943	12	Str DatePos2	Return to :NUL	Designer	MacBook Pro	Service Process
+801653972	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801654011	12	Str DatePos3	StartMethod	Designer	MacBook Pro	Service Process
+801654024	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801654057	12	Str PosDivide	StartMethod	Designer	MacBook Pro	Service Process
+801654086	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801654135	12	Str PosDivide	Return to :NUL	Designer	MacBook Pro	Service Process
+801654164	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801654214	12	Str PosDivide	StartMethod	Designer	MacBook Pro	Service Process
+801654244	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801654294	12	Str PosDivide	Return to :NUL	Designer	MacBook Pro	Service Process
+801654323	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801654372	12	Str DatePos3	Return to :NUL	Designer	MacBook Pro	Service Process
+801654401	12	Date Format	Return to :NUL	Designer	MacBook Pro	Service Process
+801654435	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801654481	12	DB_SetDefaultFonts	StartMethod	Designer	MacBook Pro	Service Process
+801654515	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801654563	12	DB_Macintosh	StartMethod	Designer	MacBook Pro	Service Process
+801654620	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801654637	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801654678	12	DB_Macintosh	Return to :NUL	Designer	MacBook Pro	Service Process
+801654691	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801654711	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801654743	12	DBGetOSVersion	StartMethod	Designer	MacBook Pro	Service Process
+801654779	3	User Details	StartMethod	Designer	MacBook Pro	Application process
+801654808	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801654864	12	DBGetOSVersion	Return to :NUL	Designer	MacBook Pro	Service Process
+801654894	3	LR_Custom	StartMethod	Designer	MacBook Pro	Application process
+801654945	12	DB_GetVersionNum	StartMethod	Designer	MacBook Pro	Service Process
+801654975	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801655025	12	DB_GetVersionNum	Return to :NUL	Designer	MacBook Pro	Service Process
+801655054	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801655104	12	DB_SetDefaultFonts	Return to :NUL	Designer	MacBook Pro	Service Process
+801655133	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801655183	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801655212	12	Start Process(2)	StartMethod	Designer	MacBook Pro	Service Process
+801655245	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801655274	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801655324	12	Start Process(3)	StartMethod	Designer	MacBook Pro	Service Process
+801655369	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801655413	12	DB_SetMenuBar	StartMethod	Designer	MacBook Pro	Service Process
+801655426	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801655459	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801655489	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801655539	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801655569	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801655603	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801655648	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801655683	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801655713	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801655763	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801655792	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801655844	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801655880	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801655932	12	DB_SetMenuBar	Return to :NUL	Designer	MacBook Pro	Service Process
+801655970	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801656023	12	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Service Process
+801656053	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801656090	12	Check Modules	StartMethod	Designer	MacBook Pro	Service Process
+801656119	12	Modules Array	StartMethod	Designer	MacBook Pro	Service Process
+801656152	3	LR_Custom	Return to :NUL	Designer	MacBook Pro	Application process
+801656197	12	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Service Process
+801656232	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801656279	12	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Service Process
+801656314	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801656359	12	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Service Process
+801656395	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656440	12	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Service Process
+801656475	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656521	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801656557	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801656586	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801656646	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801656675	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656710	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801656774	12	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Service Process
+801656799	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656813	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801656840	12	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Service Process
+801656854	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801656873	12	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Service Process
+801656887	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656906	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801656920	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801656943	12	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Service Process
+801656954	12	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Service Process
+801656974	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801656984	12	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Service Process
+801657003	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801657017	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801657036	12	Modules Array	Return to :NUL	Designer	MacBook Pro	Service Process
+801657050	12	Check Modules	Return to :NUL	Designer	MacBook Pro	Service Process
+801657071	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801657082	12	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Service Process
+801657102	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657121	12	Start Process(4)	StartMethod	Designer	MacBook Pro	Service Process
+801657143	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657160	12	Start Process	Return to :NUL	Designer	MacBook Pro	Service Process
+801657178	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801657193	12	JC_LoadPrefs2	StartMethod	Designer	MacBook Pro	Service Process
+801657211	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801657226	12	JC_LoadPrefs2	StartMethod	Designer	MacBook Pro	Service Process
+801657245	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801657263	12	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Service Process
+801657282	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657297	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801657316	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657329	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657348	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801657362	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801657385	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801657396	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801657414	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657429	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801657448	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801657462	3	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801657481	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657497	3	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801657522	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657534	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657554	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801657573	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657592	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801657607	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801657625	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801657639	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801657659	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801657673	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657692	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801657706	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657727	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657738	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801657757	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657771	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801657789	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801657804	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801657822	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657836	3	DB_LoadConfigurationPrefs	StartMethod	Designer	MacBook Pro	Application process
+801657860	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801657871	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801657892	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657906	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657926	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801657940	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801657958	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801657976	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801657999	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801658012	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801658037	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801658053	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658073	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801658088	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658107	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801658121	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801658145	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801658155	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801658176	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801658190	12	AA_LoadListByName	0	Designer	MacBook Pro	Service Process
+801658209	3	DB_LoadConfigurationPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801658223	12	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Service Process
+801658243	3	DB_LoadLedgerPreferences	StartMethod	Designer	MacBook Pro	Application process
+801658258	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801658279	12	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Service Process
+801658294	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801658314	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801658328	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801658348	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801658363	12	AA_LoadListName	StartMethod	Designer	MacBook Pro	Service Process
+801658387	12	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Service Process
+801658401	12	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Service Process
+801658419	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801658433	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801658452	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801658468	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801658487	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801658507	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801658529	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801658546	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801658567	12	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Service Process
+801658581	12	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Service Process
+801658601	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801658615	12	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Service Process
+801658638	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801658652	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658674	12	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Service Process
+801658689	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658709	12	Check Modules	StartMethod	Designer	MacBook Pro	Service Process
+801658723	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801658742	12	Modules Array	StartMethod	Designer	MacBook Pro	Service Process
+801658756	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801658775	12	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Service Process
+801658792	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801658813	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801658827	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658848	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801658862	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801658891	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801658904	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801658929	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801658945	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801658980	12	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Service Process
+801658994	12	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Service Process
+801659014	3	DB_LoadLedgerPreferences	Return to :NUL	Designer	MacBook Pro	Application process
+801659029	3	DB_LoadConfigurationPrefs	StartMethod	Designer	MacBook Pro	Application process
+801659066	12	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Service Process
+801659079	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801659116	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801659129	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801659167	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801659179	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801659216	12	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Service Process
+801659228	12	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Service Process
+801659265	12	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Service Process
+801659276	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801659297	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801659312	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801659334	12	GenValidatePointer	StartMethod	Designer	MacBook Pro	Service Process
+801659348	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801659375	12	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Service Process
+801659388	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801659407	12	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Service Process
+801659422	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801659442	12	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Service Process
+801659457	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801659478	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801659494	12	Modules Array	Return to :NUL	Designer	MacBook Pro	Service Process
+801659516	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801659532	12	Check Modules	Return to :NUL	Designer	MacBook Pro	Service Process
+801659553	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801659568	12	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Service Process
+801659590	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801659603	12	JC_LoadPrefs2	Return to :NUL	Designer	MacBook Pro	Service Process
+801659624	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801659641	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801659670	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801659687	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801659713	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801659729	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801659770	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801659780	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801659819	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801659828	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801659867	3	DB_LoadConfigurationPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801659876	3	User Version	StartMethod	Designer	MacBook Pro	Application process
+801659915	3	VER_GetLicenceVersion	StartMethod	Designer	MacBook Pro	Application process
+801659925	3	VER_Get Licence Version	Return to :NUL	Designer	MacBook Pro	Application process
+801659965	3	VER_GetBuildNumber	StartMethod	Designer	MacBook Pro	Application process
+801659975	3	VER_GetBuildNumber	Return to :NUL	Designer	MacBook Pro	Application process
+801660013	3	User Version	Return to :NUL	Designer	MacBook Pro	Application process
+801660023	3	IsEmailAvailable	StartMethod	Designer	MacBook Pro	Application process
+801660063	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801660073	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801660116	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801660125	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801660166	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801660176	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801660216	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801660226	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660267	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660277	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801660296	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801660326	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801660348	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801660380	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801660401	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801660432	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660473	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660483	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801660526	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801660536	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801660576	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801660587	3	DB_GetLicencedModuleSettings	StartMethod	Designer	MacBook Pro	Application process
+801660629	3	DB_GetLicencedModuleSettings	Return to :NUL	Designer	MacBook Pro	Application process
+801660640	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801660679	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801660688	3	DB_GetOrganisation	StartMethod	Designer	MacBook Pro	Application process
+801660745	3	DB_LoadConfigurationPrefs	StartMethod	Designer	MacBook Pro	Application process
+801660754	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801660795	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801660805	3	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801660845	3	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801660855	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660895	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801660906	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801660946	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801660956	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801661009	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661019	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661060	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801661069	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801661109	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801661119	3	DB_LoadConfigurationPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801661159	3	DB_GetOrganisation	Return to :NUL	Designer	MacBook Pro	Application process
+801661169	3	IsEmailAvailable	Return to :NUL	Designer	MacBook Pro	Application process
+801661209	3	DB_LoadLicenceDetails	StartMethod	Designer	MacBook Pro	Application process
+801661219	3	DB_LoadLicenceDetails	Return to :NUL	Designer	MacBook Pro	Application process
+801661260	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801661271	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801661308	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801661321	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801661359	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801661372	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801661411	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801661424	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801661464	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801661474	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801661516	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661525	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661566	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801661576	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801661616	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801661626	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661666	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801661676	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801661717	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801661726	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801661767	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801661776	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801661817	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801661827	3	VER_GetVersion	StartMethod	Designer	MacBook Pro	Application process
+801661868	3	VER_GetVersion	StartMethod	Designer	MacBook Pro	Application process
+801661877	3	VER_GetVersion	Return to :NUL	Designer	MacBook Pro	Application process
+801661918	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801661928	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801661969	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801661980	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801662021	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801662031	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801662071	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801662081	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662107	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662117	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801662158	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801662170	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801662268	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662278	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662301	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801662316	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801662339	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801662356	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801662379	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801662394	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801662419	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801662429	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801662455	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801662466	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801662497	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801662510	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801662540	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801662552	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801662578	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801662588	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801662614	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662624	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662647	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801662657	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801662685	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801662695	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662722	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801662733	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801662759	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801662770	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801662816	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801662840	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801662881	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801662908	3	DB_Windows	StartMethod	Designer	MacBook Pro	Application process
+801662970	3	DB_Windows	Return to :NUL	Designer	MacBook Pro	Application process
+801662996	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801663054	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801663081	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801663141	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801663167	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801663226	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801663252	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801663291	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801663337	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801663376	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801663419	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801663442	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801663487	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801663545	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801663571	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801663630	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801663657	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801663704	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801663739	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801663797	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801663823	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801663881	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801663908	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801663966	3	User Fonts	StartMethod	Designer	MacBook Pro	Application process
+801663992	3	User Fonts	Return to :NUL	Designer	MacBook Pro	Application process
+801664052	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801664078	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801664137	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801664165	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801664223	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801664249	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801664308	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801664333	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801664389	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801664404	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801664427	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801664441	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801664465	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801664479	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801664503	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801664520	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801664555	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801664568	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801664613	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801664622	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801664663	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801664672	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801664715	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801664723	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801664763	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801664776	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801664816	12	StartBackgrounder	StartMethod	Designer	MacBook Pro	Service Process
+801664829	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801664863	12	ApplicationType_isSingleUser	StartMethod	Designer	MacBook Pro	Service Process
+801664876	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801664901	12	ApplicationType_isSingleUserTrue	StartMethod	Designer	MacBook Pro	Service Process
+801664916	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801664938	12	ApplicationType_isSingleUser	Return to :NUL	Designer	MacBook Pro	Service Process
+801664952	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801664982	12	DelayTicks	StartMethod	Designer	MacBook Pro	Service Process
+801664995	12	Process Name	StartMethod	Designer	MacBook Pro	Service Process
+801665020	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801665034	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665062	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665072	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801665102	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801665113	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801665140	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665150	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665180	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801665190	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801665221	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801665234	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801665266	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801665278	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801665321	3	DB_LoadPasswordAutoSetup	StartMethod	Designer	MacBook Pro	Application process
+801665331	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801665375	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801665385	3	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801665430	3	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801665441	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665484	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665496	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801665519	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801665550	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801665574	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801665607	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801665632	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801665663	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665710	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801665720	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801665765	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801665774	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801665818	3	DB_LoadPasswordAutoSetup	Return to :NUL	Designer	MacBook Pro	Application process
+801665828	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801665873	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801665883	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801665928	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801665938	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801665980	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801665991	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801666036	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666046	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666091	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801666101	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801666144	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801666155	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666198	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666209	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801666255	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801666265	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801666310	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801666319	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801666362	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801666372	3	DB_SaveConfigurationPrefs	StartMethod	Designer	MacBook Pro	Application process
+801666415	3	DB_LoadConfigurationPrefs	StartMethod	Designer	MacBook Pro	Application process
+801666425	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801666469	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801666479	3	AA_GetTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801666533	3	AA_GetTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801666544	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666615	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666625	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801666649	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801666679	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801666704	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801666734	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801666759	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801666789	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666834	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801666844	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801666887	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801666897	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801666942	3	DB Save Record	StartMethod	Designer	MacBook Pro	Application process
+801666952	3	AA_CheckFileID	StartMethod	Designer	MacBook Pro	Application process
+801666997	3	AA_GetIDFieldNum	StartMethod	Designer	MacBook Pro	Application process
+801667008	3	AA_CheckFileID	Return to :NUL	Designer	MacBook Pro	Application process
+801667052	3	AA_CheckUUID	StartMethod	Designer	MacBook Pro	Application process
+801667063	3	AA_CheckUUID	Return to :NUL	Designer	MacBook Pro	Application process
+801667105	3	AA_SetIDbyTableNum	StartMethod	Designer	MacBook Pro	Application process
+801667114	3	AA_GetIDFieldNum	StartMethod	Designer	MacBook Pro	Application process
+801667158	3	DB_TestRecordCodeisUnique	StartMethod	Designer	MacBook Pro	Application process
+801667168	3	DB_TestRecordCodeisUnique	Return to :NUL	Designer	MacBook Pro	Application process
+801667210	3	AA_SetIDbyTableNum	Return to :NUL	Designer	MacBook Pro	Application process
+801667219	3	DB_PseudoTrigger	StartMethod	Designer	MacBook Pro	Application process
+801667265	3	Gen Option	StartMethod	Designer	MacBook Pro	Application process
+801667274	3	Gen Option	Return to :NUL	Designer	MacBook Pro	Application process
+801667316	3	DB_PseudoTrigger	Return to :NUL	Designer	MacBook Pro	Application process
+801667326	3	DB_LoadConfigurationPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801667370	3	DB_SaveConfigurationPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801667380	3	DB_SaveledgerPrefs	StartMethod	Designer	MacBook Pro	Application process
+801667425	3	DB_LoadLedgerPreferences	StartMethod	Designer	MacBook Pro	Application process
+801667435	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801667480	3	AA_LoadListByName	0	Designer	MacBook Pro	Application process
+801667490	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801667535	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801667546	3	AA_LoadListName	StartMethod	Designer	MacBook Pro	Application process
+801667595	3	AA_LoadListName	Return to :NUL	Designer	MacBook Pro	Application process
+801667605	3	AA_LoadListbyID	StartMethod	Designer	MacBook Pro	Application process
+801667650	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801667660	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801667703	3	AA_LoadListbyID	Return to :NUL	Designer	MacBook Pro	Application process
+801667712	3	AA_LoadListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801667756	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801667767	3	DB Save Record	StartMethod	Designer	MacBook Pro	Application process
+801667806	3	AA_CheckFileID	StartMethod	Designer	MacBook Pro	Application process
+801667815	3	AA_GetIDFieldNum	StartMethod	Designer	MacBook Pro	Application process
+801667841	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801667855	3	AA_CheckFileID	Return to :NUL	Designer	MacBook Pro	Application process
+801667881	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801667895	3	AA_CheckUUID	StartMethod	Designer	MacBook Pro	Application process
+801667920	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801667995	3	AA_CheckUUID	Return to :NUL	Designer	MacBook Pro	Application process
+801668025	3	AA_SetIDbyTableNum	StartMethod	Designer	MacBook Pro	Application process
+801668036	3	AA_GetIDFieldNum	StartMethod	Designer	MacBook Pro	Application process
+801668064	3	DB_TestRecordCodeisUnique	StartMethod	Designer	MacBook Pro	Application process
+801668073	3	DB_TestRecordCodeisUnique	Return to :NUL	Designer	MacBook Pro	Application process
+801668104	3	AA_SetIDbyTableNum	Return to :NUL	Designer	MacBook Pro	Application process
+801668114	3	DB_PseudoTrigger	StartMethod	Designer	MacBook Pro	Application process
+801668144	3	Gen Option	StartMethod	Designer	MacBook Pro	Application process
+801668155	3	Gen Option	Return to :NUL	Designer	MacBook Pro	Application process
+801668184	3	DB_PseudoTrigger	Return to :NUL	Designer	MacBook Pro	Application process
+801668195	3	DB_LoadLedgerPreferences	Return to :NUL	Designer	MacBook Pro	Application process
+801668226	3	DB_SaveledgerPrefs	Return to :NUL	Designer	MacBook Pro	Application process
+801668239	3	User Details	Return to :NUL	Designer	MacBook Pro	Application process
+801668274	3	START_CLIENT	StartMethod	Designer	MacBook Pro	Application process
+801668287	3	START_RegisterPlugins	StartMethod	Designer	MacBook Pro	Application process
+801668318	3	PLUGCALL_PDFRegister	StartMethod	Designer	MacBook Pro	Application process
+801668328	3	PLUGCALL_PDFRegister	Return to :NUL	Designer	MacBook Pro	Application process
+801668357	3	START_RegisterPlugins	Return to :NUL	Designer	MacBook Pro	Application process
+801668368	3	SPLASH_UPDATE	StartMethod	Designer	MacBook Pro	Application process
+801668398	3	SPLASH_ENABLE_CANCEL	StartMethod	Designer	MacBook Pro	Application process
+801668408	3	SPLASH_THERMO	StartMethod	Designer	MacBook Pro	Application process
+801668438	3	DB_SetMenuBar	StartMethod	Designer	MacBook Pro	Application process
+801668449	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801668479	3	DelayTicks	StartMethod	Designer	MacBook Pro	Application process
+801668490	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801668584	3	Process Name	StartMethod	Designer	MacBook Pro	Application process
+801668636	3	DB_SetMenuBar	Return to :NUL	Designer	MacBook Pro	Application process
+801668700	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801668731	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801668791	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801668817	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801668879	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801668905	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801668967	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801668994	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801669037	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801669083	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801669126	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801669197	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801669232	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801669264	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801669327	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801669354	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801669416	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801669442	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801669504	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801669530	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801669589	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801669615	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801669677	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801669703	3	SPLASH_UPDATE	StartMethod	Designer	MacBook Pro	Application process
+801669765	3	SPLASH_ENABLE_CANCEL	StartMethod	Designer	MacBook Pro	Application process
+801669791	3	SPLASH_THERMO	StartMethod	Designer	MacBook Pro	Application process
+801669852	3	Start_LoginUser	StartMethod	Designer	MacBook Pro	Application process
+801669878	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801669969	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801669992	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801670024	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801670034	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801670064	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801670074	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801670110	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670123	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670158	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801670170	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801670214	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801670224	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670271	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670280	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801670324	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801670333	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801670360	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801670374	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801670417	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801670430	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801670472	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801670484	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801670522	3	SPLASH_SET_AUTO_UPDATE	StartMethod	Designer	MacBook Pro	Application process
+801670533	3	SPLASH_SET_AUTO_UPDATE	StartMethod	Designer	MacBook Pro	Application process
+801670563	3	SPLASH_ENABLE_CANCEL	StartMethod	Designer	MacBook Pro	Application process
+801670572	3	SPLASH_THERMO	StartMethod	Designer	MacBook Pro	Application process
+801670603	3	SPLASH_SET_AUTO_UPDATE	Return to :NUL	Designer	MacBook Pro	Application process
+801670614	3	Macro_CurrentVersionCheck	StartMethod	Designer	MacBook Pro	Application process
+801670650	3	Macro_CurrentVersionCheck	Return to :NUL	Designer	MacBook Pro	Application process
+801670660	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801670691	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801670701	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801670733	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801670743	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801670777	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801670788	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801670818	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670829	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670861	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801670872	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801670904	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801670916	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670951	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801670963	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801671010	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801671020	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801671065	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801671074	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801671119	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801671128	3	Gen Option	StartMethod	Designer	MacBook Pro	Application process
+801671174	3	Gen Option	Return to :NUL	Designer	MacBook Pro	Application process
+801671258	18	Record Startup	StartMethod	Designer	MacBook Pro	Startup Macros
+801671285	3	Process StartAr	StartMethod	Designer	MacBook Pro	Application process
+801671316	18	DelayTicks	StartMethod	Designer	MacBook Pro	Startup Macros
+801671344	3	PROC_SetProcess	0	Designer	MacBook Pro	Application process
+801671375	18	Process Name	StartMethod	Designer	MacBook Pro	Startup Macros
+801671403	3	PROC_SetProcess	Return to :NUL	Designer	MacBook Pro	Application process
+801671416	3	Process StartAr	Return to :NUL	Designer	MacBook Pro	Application process
+801671462	3	Check Locked	StartMethod	Designer	MacBook Pro	Application process
+801671473	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801671519	3	Check Locked	Return to :NUL	Designer	MacBook Pro	Application process
+801671529	3	DB Save Record	StartMethod	Designer	MacBook Pro	Application process
+801671576	3	AA_CheckFileID	StartMethod	Designer	MacBook Pro	Application process
+801671585	3	AA_GetIDFieldNum	StartMethod	Designer	MacBook Pro	Application process
+801671611	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801671641	3	AA_CheckFileID	Return to :NUL	Designer	MacBook Pro	Application process
+801671669	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801671700	3	AA_CheckUUID	StartMethod	Designer	MacBook Pro	Application process
+801671728	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801671758	3	AA_CheckUUID	Return to :NUL	Designer	MacBook Pro	Application process
+801671806	3	DB_PseudoTrigger	StartMethod	Designer	MacBook Pro	Application process
+801671816	3	Gen Option	StartMethod	Designer	MacBook Pro	Application process
+801671864	3	Gen Option	Return to :NUL	Designer	MacBook Pro	Application process
+801671874	3	DB_PseudoTrigger	Return to :NUL	Designer	MacBook Pro	Application process
+801671922	3	Start_LoginUser	Return to :NUL	Designer	MacBook Pro	Application process
+801671932	3	Start Event	StartMethod	Designer	MacBook Pro	Application process
+801671979	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801671989	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801672034	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801672044	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801672091	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801672102	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801672148	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801672158	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672206	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672216	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801672263	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801672272	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801672319	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672330	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672377	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801672386	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801672432	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801672442	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801672489	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801672499	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801672546	3	Start Event	Return to :NUL	Designer	MacBook Pro	Application process
+801672556	3	Module First	StartMethod	Designer	MacBook Pro	Application process
+801672602	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801672611	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801672657	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801672668	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801672717	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801672726	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801672774	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672784	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672831	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801672841	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801672888	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801672898	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672925	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801672956	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801672985	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801672999	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801673041	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801673054	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801673098	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801673108	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801673155	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801673164	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801673211	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801673220	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801673267	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801673276	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801673323	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801673333	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801673388	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673397	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673427	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801673437	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801673469	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801673479	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673577	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673586	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801673620	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801673630	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801673662	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801673672	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801673707	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801673717	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801673750	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801673760	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801673793	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801673803	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801673841	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801673854	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process
+801673890	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673904	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801673936	3	AA_LoadOwnedListName	StartMethod	Designer	MacBook Pro	Application process
+801673946	3	AA_LoadOwnedListName	Return to :NUL	Designer	MacBook Pro	Application process
+801673979	3	AA_LoadOwnedListByID	StartMethod	Designer	MacBook Pro	Application process
+801673990	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801674023	3	GenValidatePointer	StartMethod	Designer	MacBook Pro	Application process
+801674035	3	AA_LoadOwnedListByID	Return to :NUL	Designer	MacBook Pro	Application process
+801674068	3	AA_LoadOwnedListByName	Return to :NUL	Designer	MacBook Pro	Application process
+801674078	3	PREF_GetPreferenceID	Return to :NUL	Designer	MacBook Pro	Application process
+801674111	3	Modules Array	Return to :NUL	Designer	MacBook Pro	Application process
+801674122	3	Check Modules	Return to :NUL	Designer	MacBook Pro	Application process
+801674166	3	DB_GetModuleSetting	Return to :NUL	Designer	MacBook Pro	Application process
+801674176	3	DB_GetModuleSettingByNUM	StartMethod	Designer	MacBook Pro	Application process
+801674225	3	Check Modules	StartMethod	Designer	MacBook Pro	Application process
+801674235	3	Modules Array	StartMethod	Designer	MacBook Pro	Application process
+801674265	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801674295	3	PREF_GetPreferenceID	StartMethod	Designer	MacBook Pro	Application process
+801674341	11	DelayTicks	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801674386	3	AA_LoadOwnedListByName	StartMethod	Designer	MacBook Pro	Application process
+801674432	11	Process Name	StartMethod	Designer	MacBook Pro	Backgrounder Process
+801674479	3	AA_GetOwnedTopLevelListNames	StartMethod	Designer	MacBook Pro	Application process
+801674545	3	AA_GetOwnedTopLevelListNames	Return to :NUL	Designer	MacBook Pro	Application process

@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Brands_In": {
+			"timeStamp": "2022-04-02T03:02:26.898Z",
+			"destination": "detailScreen"
+		},
+		"Brands_Out": {
+			"timeStamp": "2022-03-16T06:09:49.778Z",
+			"destination": "listScreen"
+		}
+	}
+}

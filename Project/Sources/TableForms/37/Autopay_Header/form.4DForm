@@ -1,0 +1,368 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 81,
+	"markerBreak": 90,
+	"markerFooter": 110,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Field3": {
+					"type": "input",
+					"top": 83,
+					"left": 16,
+					"width": 80,
+					"height": 12,
+					"dataSource": "[COMPANIES:2]Company_Code:1",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 83,
+					"left": 100,
+					"width": 215,
+					"height": 12,
+					"dataSource": "[COMPANIES:2]Company_Name:2",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 83,
+					"left": 324,
+					"width": 91,
+					"height": 12,
+					"dataSource": "[COMPANIES:2]Autopay_Number:47",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 83,
+					"left": 421,
+					"width": 96,
+					"height": 12,
+					"dataSource": "vSubtotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 109,
+					"left": 421,
+					"width": 96,
+					"height": 12,
+					"dataSource": "vTotal",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 144,
+					"left": 49,
+					"width": 58,
+					"height": 12,
+					"dataSource": "<>DB_d_CurrentDate",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 163,
+					"left": 16,
+					"width": 499,
+					"height": 84,
+					"dataSource": "vTitle1",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 0,
+					"left": 16,
+					"width": 144,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 18,
+					"text": "AUTOPAY LIST"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 49,
+					"left": 16,
+					"width": 501,
+					"height": 1,
+					"startPoint": "bottomLeft"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 64,
+					"left": 470,
+					"width": 47,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 12,
+					"text": "Amount"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 24,
+					"left": 16,
+					"width": 151,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 14,
+					"text": "Payment Instructions"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 63,
+					"left": 16,
+					"width": 151,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Payment to"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 63,
+					"left": 324,
+					"width": 77,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Reference No"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 133,
+					"left": 16,
+					"width": 501,
+					"height": 1
+				},
+				"Text6": {
+					"type": "text",
+					"top": 109,
+					"left": 334,
+					"width": 83,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Final Total"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 144,
+					"left": 16,
+					"width": 27,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Date: "
+				},
+				"Text8": {
+					"type": "text",
+					"top": 260,
+					"left": 16,
+					"width": 76,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Signature(s):"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 272,
+					"left": 83,
+					"width": 340,
+					"height": 1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 290,
+					"left": 16,
+					"width": 501,
+					"height": 1
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

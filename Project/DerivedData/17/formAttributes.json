@@ -1,0 +1,23 @@
+{
+	"forms": {
+		"Contract_In": {
+			"timeStamp": "2022-06-02T08:03:48.815Z",
+			"destination": "detailScreen"
+		},
+		"Contracts_Out": {
+			"timeStamp": "2022-03-10T16:49:18.569Z",
+			"destination": "listScreen"
+		},
+		"Contracts_Form": {
+			"timeStamp": "2022-03-10T16:49:18.536Z",
+			"destination": "detailPrinter"
+		},
+		"Contracts_List": {
+			"timeStamp": "2022-05-03T18:49:12.052Z",
+			"destination": "listPrinter"
+		},
+		"dContr_Sel": {
+			"timeStamp": "2022-03-25T15:35:21.208Z"
+		}
+	}
+}

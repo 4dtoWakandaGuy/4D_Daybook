@@ -1,0 +1,510 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 5,
+	"bottomMargin": 5,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oSelectedCardGroupBox": {
+					"type": "groupBox",
+					"top": 212,
+					"left": 13,
+					"width": 408,
+					"height": 108,
+					"class": "Labels",
+					"text": "Selected Card"
+				},
+				"oSelectCardMessage": {
+					"type": "text",
+					"top": 193,
+					"left": 14,
+					"width": 313,
+					"height": 14,
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Click to select a card to use"
+				},
+				"oNameOnCard": {
+					"type": "input",
+					"top": 275,
+					"left": 130,
+					"width": 263,
+					"height": 14,
+					"dataSource": "CC_T_NameonCard",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oNameOnCardLabel": {
+					"type": "text",
+					"top": 275,
+					"left": 22,
+					"width": 105,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Name on Card :"
+				},
+				"oCardNumber": {
+					"type": "input",
+					"top": 297,
+					"left": 130,
+					"width": 263,
+					"height": 14,
+					"dataSource": "CC_T_CardNumber",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCardType": {
+					"type": "input",
+					"top": 232,
+					"left": 130,
+					"width": 133,
+					"height": 14,
+					"dataSource": "CCM_t_CardType",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCardNumberLabel": {
+					"type": "text",
+					"top": 297,
+					"left": 22,
+					"width": 105,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number :"
+				},
+				"oCardTypeLabel": {
+					"type": "text",
+					"top": 232,
+					"left": 22,
+					"width": 105,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Type :"
+				},
+				"oCardIssuerLabel": {
+					"type": "text",
+					"top": 253,
+					"left": 22,
+					"width": 105,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Issuer :"
+				},
+				"oCardIssuer": {
+					"type": "input",
+					"top": 253,
+					"left": 130,
+					"width": 243,
+					"height": 14,
+					"dataSource": "CCM_t_CardIssuer",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAuthAmountLabel": {
+					"type": "text",
+					"top": 324,
+					"left": 58,
+					"width": 68,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Amount :"
+				},
+				"oAuthAmount": {
+					"type": "input",
+					"top": 325,
+					"left": 130,
+					"width": 140,
+					"height": 14,
+					"dataSource": "CCM_R_AuthAmount",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"obuttonAuthorize": {
+					"type": "button",
+					"top": 343,
+					"left": 282,
+					"width": 86,
+					"height": 20,
+					"dataSource": "BGetAuth",
+					"tooltip": "command A keyboard shortcut",
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"text": "Authorize",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/obuttonAuthorize.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAuthCode": {
+					"type": "input",
+					"top": 346,
+					"left": 130,
+					"width": 140,
+					"height": 14,
+					"dataSource": "CC_t_AuthCode",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAuthCode.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonEditCard": {
+					"type": "button",
+					"top": 191,
+					"left": 402,
+					"width": 60,
+					"height": 20,
+					"dataSource": "Bedit",
+					"shortcutKey": "o",
+					"shortcutAccel": true,
+					"text": "Edit",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditCard.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddCard": {
+					"type": "button",
+					"top": 191,
+					"left": 332,
+					"width": 60,
+					"height": 20,
+					"dataSource": "Badd",
+					"shortcutKey": "=",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddCard.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oContactNameLabel": {
+					"type": "text",
+					"top": 12,
+					"left": 19,
+					"width": 131,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Contact name :"
+				},
+				"oCardOwnerRangeDropDown": {
+					"type": "dropdown",
+					"top": 9,
+					"left": 155,
+					"width": 308,
+					"height": 17,
+					"dataSource": "CC_at_CardOwnerRange",
+					"class": "Fields",
+					"method": "ObjectMethods/oCardOwnerRangeDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCardWarningMessage": {
+					"type": "input",
+					"top": 174,
+					"left": 18,
+					"width": 456,
+					"height": 13,
+					"dataSource": "CCM_T_Warning",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAuthCodeLabel": {
+					"type": "text",
+					"top": 345,
+					"left": 17,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Authorization :"
+				},
+				"oButtonRememberCard": {
+					"type": "button",
+					"top": 367,
+					"left": 6,
+					"width": 198,
+					"height": 22,
+					"dataSource": "bCardRecord",
+					"text": "Just Remember Card",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonRememberCard.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonTakePayment": {
+					"type": "button",
+					"top": 367,
+					"left": 277,
+					"width": 128,
+					"height": 22,
+					"dataSource": "Bpay",
+					"tooltip": "command-r keyboard Shortcut",
+					"shortcutKey": "r",
+					"shortcutAccel": true,
+					"text": "Take Payment",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonTakePayment.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 367,
+					"left": 430,
+					"width": 98,
+					"height": 22,
+					"dataSource": "BEXIT",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLbCreditCards": {
+					"type": "listbox",
+					"top": 47,
+					"left": 6,
+					"width": 516,
+					"height": 122,
+					"resizingMode": "legacy",
+					"dataSource": "CCM_lb_Cards",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLbCreditCards.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": []
+				},
+				"oCardOwnerNameDropDown": {
+					"type": "input",
+					"top": 11,
+					"left": 158,
+					"width": 287,
+					"height": 15,
+					"dataSource": "CC_t_CardOwnerName",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 30,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

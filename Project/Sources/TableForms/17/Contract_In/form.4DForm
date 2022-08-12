@@ -1,0 +1,1841 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 400,
+	"windowMinHeight": 600,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable2": {
+					"type": "tab",
+					"top": 68,
+					"left": -1,
+					"width": 600,
+					"height": 563,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SVS_at_ContractsTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 186,
+					"left": 591,
+					"width": 2,
+					"height": 36,
+					"sizingX": "move",
+					"dataSource": "Bright",
+					"shortcutKey": "[right arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 232,
+					"left": 592,
+					"width": 2,
+					"height": 36,
+					"sizingX": "move",
+					"dataSource": "Bright",
+					"shortcutKey": "[left arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 43,
+					"left": 11,
+					"width": 84,
+					"height": 12,
+					"stroke": "#FFFFDF",
+					"class": "Headers",
+					"text": "CONTRACT"
+				},
+				"oContractCodeHeader": {
+					"type": "input",
+					"top": 43,
+					"left": 96,
+					"width": 313,
+					"height": 12,
+					"dataSource": "[CONTRACTS:17]Contract_Code:3",
+					"stroke": "#FFFFDF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractCodeLabel": {
+					"type": "text",
+					"top": 107,
+					"left": 9,
+					"width": 100,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Contract Code :"
+				},
+				"oContractCode": {
+					"type": "input",
+					"top": 106,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]Contract_Code:3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 123,
+					"left": 12,
+					"width": 94,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels_Underlined",
+					"textAlign": "right",
+					"textDecoration": "underline",
+					"text": "Company Code"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 142,
+					"left": 18,
+					"width": 88,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels_Underlined",
+					"textAlign": "right",
+					"textDecoration": "underline",
+					"text": "Contact Code"
+				},
+				"oCompanyName": {
+					"type": "input",
+					"top": 126,
+					"left": 219,
+					"width": 213,
+					"height": 13,
+					"dataSource": "vCompName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 107,
+					"left": 435,
+					"width": 110,
+					"height": 13,
+					"dataSource": "vTel",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContactName": {
+					"type": "input",
+					"top": 143,
+					"left": 219,
+					"width": 213,
+					"height": 13,
+					"dataSource": "vContName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 127,
+					"left": 435,
+					"width": 110,
+					"height": 13,
+					"dataSource": "vExtn",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCompanyCode": {
+					"type": "input",
+					"top": 125,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]Company_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"placeholder": "Company Code"
+				},
+				"oContactCode": {
+					"type": "input",
+					"top": 142,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]Contact_Code:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonShowCompany": {
+					"type": "button",
+					"top": 123,
+					"left": 12,
+					"width": 97,
+					"height": 16,
+					"dataSource": "STK_l_CoButton",
+					"display": false,
+					"method": "ObjectMethods/oButtonShowCompany.4dm",
+					"events": [
+						"onClick"
+					],
+					"tooltip": "Click here to display company details"
+				},
+				"oButtonShowContact": {
+					"type": "button",
+					"top": 143,
+					"left": 12,
+					"width": 97,
+					"height": 15,
+					"dataSource": "STK_l_CoButton",
+					"display": false,
+					"method": "ObjectMethods/oButtonShowContact.4dm",
+					"events": [
+						"onClick"
+					],
+					"tooltip": "Click here to show contact details."
+				}
+			}
+		},
+		{
+			"objects": {
+				"oViewPageTab": {
+					"type": "tab",
+					"top": 251,
+					"left": 20,
+					"width": 554,
+					"height": 331,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "CONT_at_ViewTabsLabels",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/oViewPageTab.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oContractType": {
+					"type": "text",
+					"top": 168,
+					"left": 12,
+					"width": 97,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Contract Type :"
+				},
+				"oStartDateLabel": {
+					"type": "text",
+					"top": 188,
+					"left": 25,
+					"width": 84,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Start Date :"
+				},
+				"oEndDateLabel": {
+					"type": "text",
+					"top": 208,
+					"left": 20,
+					"width": 89,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "End Date :"
+				},
+				"oPurchaseDate": {
+					"type": "text",
+					"top": 188,
+					"left": 223,
+					"width": 103,
+					"height": 14,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Purchase Date :"
+				},
+				"oTotalChargeLabel": {
+					"type": "text",
+					"top": 585,
+					"left": 283,
+					"width": 85,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#444444",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Total Charge :"
+				},
+				"oContractTypeName": {
+					"type": "input",
+					"top": 167,
+					"left": 176,
+					"width": 203,
+					"height": 13,
+					"dataSource": "[CONTRACT_TYPES:19]Contract_Type_Name:2",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oResponseTime": {
+					"type": "input",
+					"top": 167,
+					"left": 380,
+					"width": 64,
+					"height": 13,
+					"dataSource": "[CONTRACT_TYPES:19]Response:3",
+					"dataSourceTypeHint": "time",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractCost": {
+					"type": "input",
+					"top": 585,
+					"left": 373,
+					"width": 86,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "[CONTRACTS:17]Contract_Cost:7",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractTypeCode": {
+					"type": "input",
+					"top": 167,
+					"left": 117,
+					"width": 55,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]Contract_Type_Code:4",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStartDate1": {
+					"type": "input",
+					"top": 187,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]Start_Date:5",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEndDateField": {
+					"type": "input",
+					"top": 207,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]End_Date:6",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractPurchaseDate": {
+					"type": "input",
+					"top": 187,
+					"left": 333,
+					"width": 91,
+					"height": 14,
+					"dataSource": "vPDateF",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oContractPurchaseDate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 243,
+					"left": 20,
+					"width": 15,
+					"height": 14,
+					"dataSource": "CON_pic_ModePict",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "dropdown",
+					"top": 242,
+					"left": 21,
+					"width": 15,
+					"height": 18,
+					"dataSource": "CON_at_EditMode",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/Variable14.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBContractitems": {
+					"type": "listbox",
+					"top": 275,
+					"left": 23,
+					"width": 546,
+					"height": 286,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SVS_lb_ItemsSetup",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBContractitems.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 531,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oContractSheduled": {
+					"type": "checkbox",
+					"top": 242,
+					"left": 219,
+					"width": 272,
+					"height": 11,
+					"dataSource": "CON_bo_Sheduled",
+					"text": "Support limited to Items on contract schedule",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oContractOpenEndedStatus": {
+					"type": "checkbox",
+					"top": 207,
+					"left": 221,
+					"width": 155,
+					"height": 12,
+					"dataSource": "CON_l_OpenEndedStatus",
+					"text": "Open Ended Contract",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oContractOpenEndedStatus.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oEndDateButton": {
+					"type": "button",
+					"top": 205,
+					"left": 10,
+					"width": 102,
+					"height": 17,
+					"dataSource": "Invisible Button2",
+					"display": false,
+					"method": "ObjectMethods/oEndDateButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oStartDateButton1": {
+					"type": "button",
+					"top": 186,
+					"left": 11,
+					"width": 102,
+					"height": 17,
+					"dataSource": "Invisible Button2",
+					"display": false,
+					"method": "ObjectMethods/oStartDateButton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBillingProducLabel": {
+					"type": "text",
+					"top": 228,
+					"left": 12,
+					"width": 97,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Billing Product :"
+				},
+				"oContractbillingProductCode": {
+					"type": "input",
+					"top": 227,
+					"left": 117,
+					"width": 95,
+					"height": 14,
+					"dataSource": "[CONTRACTS:17]X_Contract_Billing_Product:11",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractBillingProduct": {
+					"type": "input",
+					"top": 227,
+					"left": 217,
+					"width": 213,
+					"height": 13,
+					"dataSource": "Cont_T_BillingProductName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oContactText": {
+					"type": "input",
+					"top": 166,
+					"left": 117,
+					"width": 431,
+					"height": 299,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[CONTRACTS:17]Contract_Text:8",
+					"stroke": "#000000",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractTextLabel": {
+					"type": "text",
+					"top": 167,
+					"left": 33,
+					"width": 75,
+					"height": 17,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Text ..."
+				},
+				"oAllowedContactLabel": {
+					"type": "text",
+					"top": 482,
+					"left": 1,
+					"width": 108,
+					"height": 44,
+					"sizingY": "move",
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Allowed\rContacts ..."
+				},
+				"oAnalysesMonthsLabel": {
+					"type": "text",
+					"top": 482,
+					"left": 372,
+					"width": 67,
+					"height": 48,
+					"sizingY": "move",
+					"stroke": "#996600",
+					"class": "Labels",
+					"text": "Analyses\rMonths ..."
+				},
+				"oContractContactCode": {
+					"type": "input",
+					"top": 541,
+					"left": 116,
+					"width": 61,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "CON_t_CurContactCode",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oContractContactCode.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oContractContactName": {
+					"type": "input",
+					"top": 541,
+					"left": 183,
+					"width": 174,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "CON_t_CurContactName",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddContact": {
+					"type": "button",
+					"top": 558,
+					"left": 267,
+					"width": 52,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "bCON_l_modify",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddContact.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonDeleteContact": {
+					"type": "button",
+					"top": 558,
+					"left": 323,
+					"width": 52,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "bCON_l_Delete",
+					"text": "Delete",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteContact.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFurtherCode": {
+					"type": "input",
+					"top": 541,
+					"left": 447,
+					"width": 82,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "CON_t_CurFurtherCode",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oFurtherCode.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFurtherCode": {
+					"type": "button",
+					"top": 558,
+					"left": 458,
+					"width": 52,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "bCON_l_Furthmodify",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherCode.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonDeleteAnalyses": {
+					"type": "button",
+					"top": 558,
+					"left": 513,
+					"width": 52,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "bCON_l_FurthDelete",
+					"text": "Delete",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteAnalyses.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oContractText": {
+					"type": "plugin",
+					"top": 167,
+					"left": 117,
+					"width": 445,
+					"height": 298,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "CON_4DWriteText",
+					"pluginAreaKind": "_4D Write",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onPluginArea"
+					]
+				},
+				"oCONT4DWriteText": {
+					"type": "write",
+					"top": 165,
+					"left": 458,
+					"width": 447,
+					"height": 300,
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"oLBContacts": {
+					"type": "listbox",
+					"top": 485,
+					"left": 116,
+					"width": 241,
+					"height": 52,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SVS_lb_AllowedContacts",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBContacts.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column1",
+							"width": 531,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBAnalysis": {
+					"type": "listbox",
+					"top": 485,
+					"left": 447,
+					"width": 241,
+					"height": 52,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SVS_lb_Analysis",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBAnalysis.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "Column1",
+							"width": 531,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"WParea": {
+					"type": "write",
+					"top": 674,
+					"left": 531,
+					"width": 660,
+					"height": 680,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"borderStyle": "none",
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"WPwidget": {
+					"type": "subform",
+					"top": 674,
+					"left": 1211,
+					"width": 260,
+					"height": 680,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"detailForm": "WP_Palette",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/WPwidget.4dm"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oContactChargeWorkCB": {
+					"type": "checkbox",
+					"top": 170,
+					"left": 117,
+					"width": 156,
+					"height": 12,
+					"dataSource": "CON_cb_Chargable",
+					"text": "Work is chargable",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oContactChargeWorkCB.4dm",
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oChargingRules": {
+					"type": "groupBox",
+					"top": 194,
+					"left": 60,
+					"width": 473,
+					"height": 323,
+					"stroke": "#884500",
+					"class": "Fields",
+					"text": "Charging Rules"
+				},
+				"oPartsPriceGroupMarker": {
+					"type": "rectangle",
+					"top": 387,
+					"left": 64,
+					"width": 464,
+					"height": 41,
+					"fill": "transparent",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"oLoansPriceGroupMarker": {
+					"type": "rectangle",
+					"top": 429,
+					"left": 64,
+					"width": 463,
+					"height": 83,
+					"fill": "transparent",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"oChargingCurrency": {
+					"type": "input",
+					"top": 221,
+					"left": 169,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CON_t_CurrencyCode",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCurrencyUnitsLabel": {
+					"type": "text",
+					"top": 223,
+					"left": 66,
+					"width": 97,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Currency(units) :"
+				},
+				"oConCurrencyName": {
+					"type": "input",
+					"top": 222,
+					"left": 249,
+					"width": 261,
+					"height": 13,
+					"dataSource": "CON_t_CurrencyName",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTImeBillingLabel": {
+					"type": "text",
+					"top": 264,
+					"left": 80,
+					"width": 83,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time Billing :"
+				},
+				"oChargingTime": {
+					"type": "input",
+					"top": 264,
+					"left": 172,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CON_l_TimePerUnit",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oContractTimeBilling": {
+					"type": "radio",
+					"top": 247,
+					"left": 170,
+					"width": 272,
+					"height": 12,
+					"dataSource": "CON_iRB_TimeBilling",
+					"text": "Charge amounts of time as 1 unit",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text17": {
+					"type": "text",
+					"top": 263,
+					"left": 248,
+					"width": 103,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "(minutes=one unit)"
+				},
+				"oContractTimeOption": {
+					"type": "checkbox",
+					"top": 305,
+					"left": 170,
+					"width": 272,
+					"height": 12,
+					"dataSource": "CON_bo_TimeOption",
+					"text": "Charge part units as 1 unit",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMinimumUnitsLabel": {
+					"type": "text",
+					"top": 286,
+					"left": 66,
+					"width": 97,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Minimum Units :"
+				},
+				"oChargingTimeMinimum": {
+					"type": "input",
+					"top": 286,
+					"left": 172,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CON_l_TimeMinimum",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oContractChargoutBilling": {
+					"type": "radio",
+					"top": 324,
+					"left": 170,
+					"width": 292,
+					"height": 12,
+					"dataSource": "CON_iRB_ChargoutBilling",
+					"text": "Use chargeable rates to calculate chargeable time value",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"events": [
+						"onClick"
+					]
+				},
+				"oContractPartsBilling": {
+					"type": "checkbox",
+					"top": 389,
+					"left": 170,
+					"width": 272,
+					"height": 12,
+					"dataSource": "CON_bo_PartsBilling",
+					"text": "Charge for parts used in repairs(except warranty)",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"events": [
+						"onClick"
+					]
+				},
+				"oLoansChargeBillingCB": {
+					"type": "checkbox",
+					"top": 433,
+					"left": 170,
+					"width": 272,
+					"height": 12,
+					"dataSource": "CON_bo_LoansBilling",
+					"text": "Charge for product loans",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"events": [
+						"onClick"
+					]
+				},
+				"oPartsPriceGroupLabel": {
+					"type": "text",
+					"top": 406,
+					"left": 71,
+					"width": 83,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Price Group :"
+				},
+				"oPartsPriceGroup": {
+					"type": "input",
+					"top": 406,
+					"left": 172,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CONT_t_PartsPriceGroup",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oPartsPriceGroupName": {
+					"type": "input",
+					"top": 406,
+					"left": 265,
+					"width": 261,
+					"height": 13,
+					"dataSource": "CON_t_PartsPriceGroup",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLoansPriceGroupLabel": {
+					"type": "text",
+					"top": 449,
+					"left": 71,
+					"width": 83,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Price Group"
+				},
+				"oLoansPriceGroup": {
+					"type": "input",
+					"top": 449,
+					"left": 172,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CONT_t_LoansPriceGroup",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLoansPriceGroupName": {
+					"type": "input",
+					"top": 449,
+					"left": 265,
+					"width": 261,
+					"height": 13,
+					"dataSource": "CON_t_LoansPriceGroup",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLoansPricePeriod": {
+					"type": "input",
+					"top": 471,
+					"left": 172,
+					"width": 71,
+					"height": 15,
+					"dataSource": "CON_l_LoansPricePeriod",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLoansChargePeriodDropDown": {
+					"type": "dropdown",
+					"top": 469,
+					"left": 247,
+					"width": 87,
+					"height": 17,
+					"dataSource": "CON_at_ChargePeriods",
+					"class": "Pop-ups",
+					"fontWeight": "bold",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oContractChargeProRata": {
+					"type": "radio",
+					"top": 496,
+					"left": 70,
+					"width": 152,
+					"height": 12,
+					"dataSource": "CON_iRB_ChargeProRata",
+					"text": "Charge part period pro-rata",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"events": [
+						"onClick"
+					]
+				},
+				"oLoansChargePartPeriods": {
+					"type": "radio",
+					"top": 495,
+					"left": 210,
+					"width": 172,
+					"height": 12,
+					"dataSource": "CON_iRB_ChargePartPeriod",
+					"text": "Charge part period as one period",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonRestrictCharging": {
+					"type": "button",
+					"top": 342,
+					"left": 167,
+					"width": 240,
+					"height": 23,
+					"dataSource": "CON_l_RestrictCharging",
+					"text": "Restrict chargeable actions",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonRestrictCharging.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oContractNotChargePartPeriods": {
+					"type": "radio",
+					"top": 496,
+					"left": 375,
+					"width": 152,
+					"height": 12,
+					"dataSource": "CON_iRB_ChargePartPeriodnil",
+					"text": "Do not charge part periods",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"events": [
+						"onClick"
+					]
+				},
+				"oLoansChargePerLabel": {
+					"type": "text",
+					"top": 471,
+					"left": 71,
+					"width": 83,
+					"height": 15,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Charge Per"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oChargableActions": {
+					"type": "listbox",
+					"top": 172,
+					"left": 101,
+					"width": 444,
+					"height": 381,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"dataSource": "CON_lb_ChargeActions",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oChargableActions.4dm",
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 429,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oChargeableActionsLabel": {
+					"type": "text",
+					"top": 172,
+					"left": 2,
+					"width": 94,
+					"height": 34,
+					"stroke": "#996600",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Chargable Actions :"
+				},
+				"oRestrictCharging1": {
+					"type": "button",
+					"top": 567,
+					"left": 316,
+					"width": 240,
+					"height": 23,
+					"dataSource": "CON_l_RestrictCharging",
+					"text": "Charging Rules",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oRestrictCharging1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 177
+}

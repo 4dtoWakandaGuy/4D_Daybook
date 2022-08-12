@@ -1,0 +1,145 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 200,
+	"bottomMargin": 400,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable2": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 20,
+					"height": 20,
+					"dataSource": "xReport",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 20,
+					"height": 20,
+					"dataSource": "xSelect",
+					"shortcutKey": "m",
+					"shortcutAccel": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 20,
+					"height": 20,
+					"dataSource": "iCancelesc",
+					"shortcutKey": "[Esc]",
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 20,
+					"height": 20,
+					"dataSource": "iCancelstop",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 20,
+					"height": 20,
+					"dataSource": "xMinus",
+					"shortcutKey": ",",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 2,
+					"left": 31,
+					"width": 20,
+					"height": 20,
+					"dataSource": "isaveEnter",
+					"shortcutKey": "[Enter]",
+					"text": "command N",
+					"display": false,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		null
+	]
+}

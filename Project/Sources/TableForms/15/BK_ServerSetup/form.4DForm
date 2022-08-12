@@ -1,0 +1,267 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 29,
+					"left": 16,
+					"width": 151,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Business Kit Server IP"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 50,
+					"left": 16,
+					"width": 151,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Business Kit Server Port"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 71,
+					"left": 16,
+					"width": 151,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Known as"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 87,
+					"left": 12,
+					"width": 211,
+					"height": 13,
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"text": "(For ease of indendification in Daybook)"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 28,
+					"left": 173,
+					"width": 175,
+					"height": 14,
+					"dataSource": "DM_t_BKServerIP",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 49,
+					"left": 173,
+					"width": 75,
+					"height": 14,
+					"dataSource": "DM_l_BKServerPort",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 70,
+					"left": 173,
+					"width": 175,
+					"height": 14,
+					"dataSource": "DM_t_BKServerName",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 114,
+					"left": 173,
+					"width": 175,
+					"height": 14,
+					"dataSource": "DM_t_BKFilePath",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 115,
+					"left": 16,
+					"width": 151,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "File Retrieval Path"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 135,
+					"left": 9,
+					"width": 211,
+					"height": 13,
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"text": "(Leave blank for default)"
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 46,
+					"left": 353,
+					"width": 51,
+					"height": 18,
+					"dataSource": "BPing",
+					"text": "Ping",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 111,
+					"left": 353,
+					"width": 51,
+					"height": 18,
+					"dataSource": "BSelect",
+					"text": "Select",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 158,
+					"left": 359,
+					"width": 94,
+					"height": 26,
+					"dataSource": "Bexit",
+					"shortcutKey": "[Enter]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

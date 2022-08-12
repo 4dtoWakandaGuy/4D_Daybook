@@ -1,0 +1,141 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 20,
+	"markerBody": 34,
+	"markerBreak": 40,
+	"markerFooter": 44,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 513,
+					"height": 38
+				},
+				"Line1": {
+					"type": "line",
+					"top": 18,
+					"left": 0,
+					"width": 513
+				},
+				"Text1": {
+					"type": "text",
+					"top": 3,
+					"left": 2,
+					"width": 287,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"class": "Labels_OUTPUT",
+					"text": "Name"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 21,
+					"left": 2,
+					"width": 287,
+					"height": 12,
+					"dataSource": "[USER:15]Organisation:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 21,
+					"left": 292,
+					"width": 217,
+					"height": 12,
+					"dataSource": "[USER:15]TScreen_Title:25",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 290,
+					"height": 38
+				},
+				"Text2": {
+					"type": "text",
+					"top": 3,
+					"left": 292,
+					"width": 217,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"class": "Labels_OUTPUT",
+					"text": "Screen Title"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 300,
+	"windowMinHeight": 300,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onMouseLeave",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oDBPicture": {
+					"type": "input",
+					"top": 4,
+					"left": 2,
+					"width": 308,
+					"height": 270,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DB_pi_Picture",
+					"dataSourceTypeHint": "picture",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "scaled",
+					"dragging": "custom",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oDBOpenRecord": {
+					"type": "button",
+					"top": 1,
+					"left": 0,
+					"width": 313,
+					"height": 272,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DB_but_OpenRecord",
+					"display": false,
+					"method": "ObjectMethods/oDBOpenRecord.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oRecordText": {
+					"type": "input",
+					"top": 3,
+					"left": 1,
+					"width": 294,
+					"height": 268,
+					"dataSource": "DB_t_RecordText",
+					"class": "Fields",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

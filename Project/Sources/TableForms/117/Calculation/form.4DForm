@@ -1,0 +1,439 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Calculation",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 106,
+					"left": 146,
+					"width": 76,
+					"height": 14,
+					"stroke": "#0000FF",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Starting at :"
+				},
+				"Variable13": {
+					"type": "radio",
+					"top": 8,
+					"left": 148,
+					"width": 94,
+					"height": 18,
+					"dataSource": "r1",
+					"text": "Discount",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable13.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 10,
+					"left": 248,
+					"width": 53,
+					"height": 14,
+					"dataSource": "EW_r_DiscountPercentage",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "##0.00%",
+					"method": "ObjectMethods/Variable14.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable16": {
+					"type": "radio",
+					"top": 32,
+					"left": 148,
+					"width": 94,
+					"height": 18,
+					"dataSource": "r2",
+					"text": "Markup",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable16.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 36,
+					"left": 248,
+					"width": 53,
+					"height": 14,
+					"dataSource": "EW_r_MarkupPercentage",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "##0.00%",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable18": {
+					"type": "radio",
+					"top": 83,
+					"left": 148,
+					"width": 132,
+					"height": 18,
+					"dataSource": "r3",
+					"text": "Record Number",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 106,
+					"left": 228,
+					"width": 39,
+					"height": 14,
+					"dataSource": "EW_r_StartNum",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "###,##0",
+					"method": "ObjectMethods/Variable21.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable20": {
+					"type": "button",
+					"top": 201,
+					"left": 169,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable19": {
+					"type": "button",
+					"top": 202,
+					"left": 247,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bOK",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable19.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"BKText1": {
+					"type": "text",
+					"top": 131,
+					"left": 144,
+					"width": 162,
+					"height": 14,
+					"stroke": "#0000FF",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Map to ecommerce field :"
+				},
+				"BKfields": {
+					"type": "dropdown",
+					"top": 152,
+					"left": 144,
+					"width": 174,
+					"height": 18,
+					"dataSource": "EW_at_BKFieldNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/BKfields.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 57,
+					"left": 149,
+					"width": 94,
+					"height": 18,
+					"dataSource": "r4",
+					"text": "Percentage",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Radio Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 61,
+					"left": 247,
+					"width": 53,
+					"height": 14,
+					"dataSource": "EW_r_PricePercentage",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": "##0.00%",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 201,
+					"left": 169,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 202,
+					"left": 247,
+					"width": 71,
+					"height": 20,
+					"dataSource": "bOK",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"display": false,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"olbfields": {
+					"type": "listbox",
+					"top": 6,
+					"left": 13,
+					"width": 116,
+					"height": 189,
+					"resizingMode": "legacy",
+					"dataSource": "EW_lb_calculation",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "transparent",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/olbfields.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

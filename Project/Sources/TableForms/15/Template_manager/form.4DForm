@@ -1,0 +1,310 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oViewTemplate": {
+					"type": "button",
+					"top": 181,
+					"left": 14,
+					"width": 119,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Bview",
+					"text": "View Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oViewTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUseTTemplate": {
+					"type": "button",
+					"top": 181,
+					"left": 362,
+					"width": 109,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DOC_but_Accept",
+					"shortcutKey": "[Return]",
+					"text": "Use Template",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oUseTTemplate.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancel": {
+					"type": "button",
+					"top": 181,
+					"left": 254,
+					"width": 99,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DOC_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oPreview": {
+					"type": "button",
+					"top": 181,
+					"left": 140,
+					"width": 109,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DOC_but_Preview",
+					"text": "Review letter",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oPreview.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelesc": {
+					"type": "button",
+					"top": 179,
+					"left": 254,
+					"width": 99,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DOC_but_CancelESC",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/oCancelesc.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUseTemplateenter": {
+					"type": "button",
+					"top": 180,
+					"left": 362,
+					"width": 109,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DOC_but_Acceptenter",
+					"shortcutKey": "[Enter]",
+					"text": "Use Template",
+					"display": false,
+					"method": "ObjectMethods/oUseTemplateenter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLetSelect": {
+					"type": "listbox",
+					"top": 6,
+					"left": 15,
+					"width": 454,
+					"height": 165,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "DIA_lb_Documents",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLetSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 439,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"o4dWriteArea": {
+					"type": "plugin",
+					"top": 214,
+					"left": 9,
+					"width": 471,
+					"height": 79,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "WriteTemp",
+					"pluginAreaKind": "_4D WRITE",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/o4dWriteArea.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oTextEmail": {
+					"type": "input",
+					"top": 228,
+					"left": 6,
+					"width": 569,
+					"height": 12,
+					"sizingY": "grow",
+					"dataSource": "[DOCUMENTS:7]Text:3",
+					"class": "MonoSpace",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 53,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

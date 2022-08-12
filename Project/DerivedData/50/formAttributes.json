@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"PostalCode_In": {
+			"timeStamp": "2022-03-16T06:21:04.200Z",
+			"destination": "detailScreen"
+		},
+		"PostalCodes_Out": {
+			"timeStamp": "2022-03-16T06:21:04.206Z",
+			"destination": "listScreen"
+		}
+	}
+}

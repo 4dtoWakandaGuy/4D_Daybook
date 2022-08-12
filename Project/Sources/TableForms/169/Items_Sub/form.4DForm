@@ -1,0 +1,423 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 27,
+	"markerBreak": 28,
+	"markerFooter": 28,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 0,
+					"left": 184,
+					"height": 26,
+					"stroke": "#FFFFFF"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 343,
+					"width": 1,
+					"height": 26,
+					"stroke": "#FFFFFF"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 269,
+					"height": 26,
+					"stroke": "#FFFFFF"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 418,
+					"height": 26,
+					"stroke": "#FFFFFF"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 225,
+					"width": 1,
+					"height": 26,
+					"stroke": "#FFFFFF"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 26,
+					"left": 0,
+					"width": 493,
+					"stroke": "#FFFFFF"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 27,
+					"left": 0,
+					"width": 493,
+					"stroke": "#444444"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 0,
+					"left": 0,
+					"height": 27,
+					"stroke": "#444444"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 1,
+					"left": 420,
+					"width": 71,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Item_Number:6",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#444444",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 1,
+					"left": 2,
+					"width": 181,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Product_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 13,
+					"left": 2,
+					"width": 181,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Product_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 1,
+					"left": 186,
+					"width": 38,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Quantity:3",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 1,
+					"left": 227,
+					"width": 41,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Price_Code:9",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 13,
+					"left": 227,
+					"width": 41,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Discount:10",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Percent"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 1,
+					"left": 271,
+					"width": 71,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Original_Cost:11",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field8": {
+					"type": "input",
+					"top": 13,
+					"left": 271,
+					"width": 71,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Cost_Price:4",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field9": {
+					"type": "input",
+					"top": 1,
+					"left": 345,
+					"width": 72,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Cost_Amount:5",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field10": {
+					"type": "input",
+					"top": 13,
+					"left": 402,
+					"width": 15,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Tax_Code:7",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 13,
+					"left": 420,
+					"width": 71,
+					"height": 14,
+					"dataSource": "[PURCHASE_ORDERS_ITEMS:169]Purchase_Invoice_Number:8",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

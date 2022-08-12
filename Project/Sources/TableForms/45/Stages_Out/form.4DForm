@@ -1,0 +1,286 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 526,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 70,
+	"markerBody": 90,
+	"markerBreak": 90,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 51,
+					"left": 13,
+					"width": 52,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Code"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 51,
+					"left": 82,
+					"width": 123,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Name"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 76,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#A7FFA0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter4": {
+					"type": "splitter",
+					"top": 42,
+					"left": 336,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#A7FFA0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": 42,
+					"left": 436,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#A7FFA0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": 44,
+					"left": 561,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#A7FFA0",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 74,
+					"left": 11,
+					"width": 64,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[STAGES:45]Stage_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 74,
+					"left": 80,
+					"width": 262,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[STAGES:45]Stage_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 74,
+					"left": 340,
+					"width": 90,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[STAGES:45]Sales_Account:3",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 74,
+					"left": 443,
+					"width": 262,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[STAGES:45]Analysis_Code:4",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 50,
+					"left": 340,
+					"width": 83,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Sales Account"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 49,
+					"left": 453,
+					"width": 83,
+					"height": 14,
+					"sizingX": "grow",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Analysis Code"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

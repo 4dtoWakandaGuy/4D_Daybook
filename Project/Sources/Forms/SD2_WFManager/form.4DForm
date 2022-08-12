@@ -1,0 +1,643 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oPeriodBack": {
+					"type": "button",
+					"top": 9,
+					"left": 122,
+					"width": 23,
+					"height": 22,
+					"dataSource": "SD2_l_PeriodBack",
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_prev.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/oPeriodBack.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oPeriodNext1": {
+					"type": "button",
+					"top": 9,
+					"left": 352,
+					"width": 23,
+					"height": 22,
+					"dataSource": "SD2_l_PeriodNext",
+					"class": "Fields",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_next.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/oPeriodNext1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oDay": {
+					"type": "button",
+					"top": 9,
+					"left": 140,
+					"width": 59,
+					"height": 21,
+					"dataSource": "SD2_l_DayView",
+					"class": "Headers",
+					"focusable": false,
+					"text": "Day",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oDay.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oWeek": {
+					"type": "button",
+					"top": 9,
+					"left": 199,
+					"width": 79,
+					"height": 21,
+					"dataSource": "SD2_l_WeekView",
+					"class": "Headers",
+					"focusable": false,
+					"text": "Week",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oWeek.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMonth": {
+					"type": "button",
+					"top": 9,
+					"left": 278,
+					"width": 79,
+					"height": 21,
+					"dataSource": "SD2_l_MonthView",
+					"class": "Headers",
+					"focusable": false,
+					"text": "Month",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oMonth.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oWorkflowBox": {
+					"type": "listbox",
+					"top": 300,
+					"left": 184,
+					"width": 469,
+					"height": 178,
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_WorkflowMini",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 454,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oMonthPIC": {
+					"type": "input",
+					"top": 93,
+					"left": 182,
+					"width": 472,
+					"height": 204,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SD2_p_MonthPicture",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"pictureFormat": "scaled",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oMonthPIC.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onMouseMove"
+					]
+				},
+				"oWeekPIC": {
+					"type": "input",
+					"top": 144,
+					"left": 261,
+					"width": 472,
+					"height": 204,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SD2_p_WeekPicture",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oWeekPIC.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onMouseMove"
+					]
+				},
+				"oDayPIC": {
+					"type": "input",
+					"top": 96,
+					"left": 343,
+					"width": 472,
+					"height": 204,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SD2_p_DayPicture",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oDayPIC.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onMouseMove"
+					]
+				},
+				"oCalenderLabel": {
+					"type": "text",
+					"top": 41,
+					"left": 2,
+					"width": 164,
+					"height": 12,
+					"fill": "#DDDDDD",
+					"class": "Buttons_LARGE",
+					"textAlign": "center",
+					"text": "Calendars"
+				},
+				"oCalenders": {
+					"type": "listbox",
+					"top": 59,
+					"left": 3,
+					"width": 176,
+					"height": 187,
+					"resizingMode": "legacy",
+					"dataSource": "SD2_lb_CalendersList",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"fill": "#FFFFFF",
+					"fontFamily": "Geneva",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/oCalenders.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column1",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Geneva",
+							"fontSize": 0,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 0,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 0,
+								"fontWeight": "bold"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Geneva",
+							"fontSize": 0,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 0,
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 0,
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 10,
+					"left": 386,
+					"width": 26,
+					"height": 21,
+					"dataSource": "SD2_l_DatetoCal",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp31"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/calenderbutton.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oFilterGroupBox": {
+					"type": "groupBox",
+					"top": 42,
+					"left": 181,
+					"width": 293,
+					"height": 43,
+					"class": "Labels",
+					"text": "Filters"
+				},
+				"oFilterPriorityLabel": {
+					"type": "text",
+					"top": 66,
+					"left": 282,
+					"width": 39,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Priority"
+				},
+				"OIncludeDone": {
+					"type": "checkbox",
+					"top": 59,
+					"left": 488,
+					"width": 117,
+					"height": 21,
+					"sizingX": "move",
+					"dataSource": "SD2_l_IncludeCompleted",
+					"text": "Include Completed",
+					"class": "Fields",
+					"method": "ObjectMethods/OIncludeDone.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oFilterPriorityPOP": {
+					"type": "dropdown",
+					"top": 63,
+					"left": 325,
+					"width": 43,
+					"height": 18,
+					"dataSource": "SD2_at_PriorityNM",
+					"focusable": false,
+					"class": "Fields",
+					"method": "ObjectMethods/oFilterPriorityPOP.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OFilterPriorityValue": {
+					"type": "input",
+					"top": 66,
+					"left": 328,
+					"width": 19,
+					"height": 14,
+					"dataSource": "SD2_S5_PriorityFIlter",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFilterStatusPOP": {
+					"type": "dropdown",
+					"top": 63,
+					"left": 415,
+					"width": 41,
+					"height": 17,
+					"dataSource": "SD_at_StatusNM",
+					"focusable": false,
+					"class": "Fields",
+					"method": "ObjectMethods/oFilterStatusPOP.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"OFilterStatusValue": {
+					"type": "input",
+					"top": 66,
+					"left": 417,
+					"width": 19,
+					"height": 14,
+					"dataSource": "SD2_t_StatusFIlter",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oFIlterStatusLabel": {
+					"type": "text",
+					"top": 66,
+					"left": 373,
+					"width": 39,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Status"
+				},
+				"oFilterIncEx": {
+					"type": "dropdown",
+					"top": 59,
+					"left": 186,
+					"width": 94,
+					"height": 22,
+					"dataSource": "SD2_at_IncludeExclude",
+					"class": "Fields_BOLD",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"3D Check Box1": {
+					"type": "checkbox",
+					"top": 9,
+					"left": 465,
+					"width": 26,
+					"height": 36,
+					"dataSource": "SD2_l_Filter",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/SD_FIlterData.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/3D Check Box1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMonthColumns": {
+					"type": "input",
+					"top": 273,
+					"left": 2,
+					"width": 179,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "SD2_p_",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"oCal_Pi_MiniMonth1": {
+					"type": "input",
+					"top": 288,
+					"left": 3,
+					"width": 178,
+					"height": 143,
+					"sizingY": "move",
+					"dataSource": "Cal_pic_MiniMonth1",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "scaled",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oCal_Pi_MiniMonth1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oMonthBanner": {
+					"type": "input",
+					"top": 251,
+					"left": 29,
+					"width": 120,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "SD_p_MonthBanner",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Text": {
+					"type": "text",
+					"top": 533,
+					"left": 77,
+					"width": 238,
+					"height": 112,
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Nigel Greenlee\r\r01296 330633\r"
+				}
+			},
+			"entryOrder": [
+				"oWorkflowBox",
+				"oCalenders",
+				"OIncludeDone",
+				"oFilterPriorityPOP",
+				"OFilterPriorityValue",
+				"oFilterStatusPOP",
+				"OFilterStatusValue",
+				"oFilterIncEx"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"oWeekPIC"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

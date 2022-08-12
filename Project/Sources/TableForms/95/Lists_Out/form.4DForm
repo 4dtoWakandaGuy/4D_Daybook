@@ -1,0 +1,163 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 435,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 51,
+	"markerBody": 69,
+	"markerBreak": 70,
+	"markerFooter": 84,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 45,
+					"left": 2,
+					"width": 704,
+					"height": 61,
+					"fill": "transparent",
+					"stroke": "#000E60"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 69,
+					"left": 7,
+					"width": 691,
+					"height": 21,
+					"fill": "transparent",
+					"stroke": "#444444",
+					"strokeWidth": 0.1
+				},
+				"Text2": {
+					"type": "text",
+					"top": 53,
+					"left": 10,
+					"width": 94,
+					"height": 12,
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"text": "List Name"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 53,
+					"left": 174,
+					"width": 122,
+					"height": 12,
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"text": "List Entry"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 73,
+					"left": 10,
+					"width": 158,
+					"height": 12,
+					"dataSource": "[LIST_ITEMS:95]List_Name:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 73,
+					"left": 174,
+					"width": 259,
+					"height": 12,
+					"dataSource": "[LIST_ITEMS:95]List_Entry:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 98,
+					"left": 6,
+					"width": 24,
+					"height": 2,
+					"dataSource": "oOK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 150,
+					"left": 292,
+					"width": 258,
+					"height": 48,
+					"class": "Default",
+					"text": "Not Used anymore!"
+				}
+			}
+		}
+	]
+}

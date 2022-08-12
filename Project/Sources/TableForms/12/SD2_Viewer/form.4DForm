@@ -1,0 +1,295 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 600,
+	"windowMinHeight": 495,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 37,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oSD2DiaryControl": {
+					"type": "tab",
+					"top": 82,
+					"left": -16,
+					"width": 575,
+					"height": 19,
+					"sizingX": "grow",
+					"dataSource": "SD2_at_DiaryTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"action": "gotoPage",
+					"method": "ObjectMethods/oSD2DiaryControl.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSD2Workflow": {
+					"type": "listbox",
+					"top": 108,
+					"left": 6,
+					"width": 575,
+					"height": 434,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "SD_lb_Workflow",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSD2Workflow.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 560,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDoubleClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 82,
+					"left": 3,
+					"width": 16,
+					"height": 16,
+					"dataSource": "SD2_Pi_Configure",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oConfigureTabs": {
+					"type": "dropdown",
+					"top": 83,
+					"left": 22,
+					"width": 58,
+					"height": 16,
+					"dataSource": "LB_at_ConfigureSD2",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/oConfigureTabs.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"INT_T_OutputTitle": {
+					"type": "input",
+					"top": 9,
+					"left": 207,
+					"width": 320,
+					"height": 12,
+					"dataSource": "INT_T_OutputTitle",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/INT_T_OutputTitle.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vNo": {
+					"type": "input",
+					"top": 9,
+					"left": 460,
+					"width": 118,
+					"height": 12,
+					"dataSource": "vNo",
+					"stroke": "#FFFFFF",
+					"class": "Headers",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 47,
+					"left": 361,
+					"width": 80,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Search Selection"
+				},
+				"oSearchSelection": {
+					"type": "input",
+					"top": 46,
+					"left": 459,
+					"width": 124,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "SD2_T_Search",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 40,
+					"left": 90,
+					"width": 77,
+					"height": 26,
+					"dataSource": "Button1",
+					"text": "Button",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 40,
+					"left": 3,
+					"width": 77,
+					"height": 26,
+					"dataSource": "Button1",
+					"text": "Button",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

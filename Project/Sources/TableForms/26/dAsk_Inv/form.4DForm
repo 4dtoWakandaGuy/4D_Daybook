@@ -1,0 +1,453 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 218,
+					"left": 372,
+					"width": 11,
+					"height": 11,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oInvoiceMethodGroup": {
+					"type": "groupBox",
+					"top": 14,
+					"left": 13,
+					"width": 256,
+					"height": 195,
+					"class": "Headers",
+					"text": "INVOICE METHOD"
+				},
+				"oJobStagesTimeLabel": {
+					"type": "text",
+					"top": 41,
+					"left": 22,
+					"width": 194,
+					"height": 13,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "JOB STAGES' TIME"
+				},
+				"oActualCostItemsLabel": {
+					"type": "text",
+					"top": 131,
+					"left": 20,
+					"width": 187,
+					"height": 13,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "ACTUAL COST ITEMS"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 76,
+					"left": 140,
+					"width": 6,
+					"height": 6,
+					"stroke": "#076000",
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 82,
+					"left": 145,
+					"width": 1,
+					"height": 6,
+					"stroke": "#076000",
+					"strokeWidth": 0.1,
+					"startPoint": "bottomLeft"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 88,
+					"left": 145,
+					"width": 3,
+					"height": 3,
+					"stroke": "#076000"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 91,
+					"left": 145,
+					"width": 3,
+					"height": 3,
+					"stroke": "#076000",
+					"startPoint": "bottomLeft"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 94,
+					"left": 145,
+					"height": 6,
+					"stroke": "#076000"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 99,
+					"left": 140,
+					"width": 6,
+					"height": 6,
+					"stroke": "#076000",
+					"strokeWidth": 0.1,
+					"startPoint": "bottomLeft"
+				},
+				"oQuotedRB": {
+					"type": "radio",
+					"top": 60,
+					"left": 28,
+					"width": 79,
+					"height": 16,
+					"dataSource": "r0",
+					"text": "Quoted",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBudgetRB": {
+					"type": "radio",
+					"top": 76,
+					"left": 28,
+					"width": 70,
+					"height": 16,
+					"dataSource": "r1",
+					"text": "Budget",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oSalesRateRB": {
+					"type": "radio",
+					"top": 76,
+					"left": 155,
+					"width": 108,
+					"height": 16,
+					"dataSource": "s1",
+					"text": "at Sales Rate",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActualRB": {
+					"type": "radio",
+					"top": 92,
+					"left": 28,
+					"width": 71,
+					"height": 17,
+					"dataSource": "r2",
+					"text": "Actual",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCostRateRB": {
+					"type": "radio",
+					"top": 92,
+					"left": 155,
+					"width": 106,
+					"height": 16,
+					"dataSource": "s2",
+					"text": "at Cost Rate",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNoTimeRB": {
+					"type": "radio",
+					"top": 108,
+					"left": 28,
+					"width": 131,
+					"height": 16,
+					"dataSource": "r3",
+					"text": "No Time",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oIncludeOptionsCB": {
+					"type": "checkbox",
+					"top": 134,
+					"left": 155,
+					"width": 97,
+					"height": 47,
+					"dataSource": "vAct1",
+					"text": "Include but don't print",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "radio",
+					"top": 148,
+					"left": 28,
+					"width": 116,
+					"height": 18,
+					"dataSource": "ch0",
+					"text": "at Cost Price",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "radio",
+					"top": 166,
+					"left": 28,
+					"width": 119,
+					"height": 19,
+					"dataSource": "ch1",
+					"text": "at Sales Price",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 167,
+					"left": 284,
+					"width": 88,
+					"height": 20,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "radio",
+					"top": 187,
+					"left": 28,
+					"width": 116,
+					"height": 16,
+					"dataSource": "ch2",
+					"text": "no Cost Items",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oInsertSpacesCB": {
+					"type": "checkbox",
+					"top": 186,
+					"left": 155,
+					"width": 105,
+					"height": 17,
+					"dataSource": "vAct2",
+					"text": "Insert Spaces",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 190,
+					"left": 284,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "button",
+					"top": 167,
+					"left": 284,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable15": {
+					"type": "button",
+					"top": 190,
+					"left": 284,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"Line1",
+				"Line2",
+				"Line3",
+				"Line4",
+				"Line5",
+				"Line6"
+			]
+		}
+	},
+	"geometryStamp": 116,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

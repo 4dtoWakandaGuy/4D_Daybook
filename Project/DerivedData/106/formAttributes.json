@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"SD3_ThreadArea": {
+			"timeStamp": "2022-03-10T16:49:21.832Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:21.830Z",
+			"destination": "listScreen"
+		}
+	}
+}

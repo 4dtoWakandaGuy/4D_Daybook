@@ -1,0 +1,109 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLabelText": {
+					"type": "text",
+					"top": 14,
+					"left": 25,
+					"width": 29,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Sample Text:"
+				},
+				"oVariableText": {
+					"type": "input",
+					"top": 15,
+					"left": 79,
+					"width": 177,
+					"height": 15,
+					"dataSource": "PREF_t_Data",
+					"class": "Fields",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonSave": {
+					"type": "button",
+					"top": 52,
+					"left": 188,
+					"width": 68,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "LB_but_Save",
+					"action": "accept",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonSave.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 52,
+					"left": 114,
+					"width": 68,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "LB_but_Cancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

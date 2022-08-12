@@ -1,0 +1,5893 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 910,
+	"windowMaxWidth": 920,
+	"windowMinHeight": 420,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oLocationsGroupBox": {
+					"type": "groupBox",
+					"top": 19,
+					"left": 389,
+					"width": 513,
+					"height": 430,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"class": "Labels",
+					"text": "Locations Details..."
+				},
+				"oLocationNameLabel": {
+					"type": "text",
+					"top": 44,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Name :"
+				},
+				"oLocationCodeLabel": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oProductInformation0": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products0",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation0.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oButtonAddLocation": {
+					"type": "button",
+					"top": 448,
+					"left": 269,
+					"width": 110,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Badd",
+					"text": "Add Location",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddLocation.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationName0": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocation0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddFirstSublocation0": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub0",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation0.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCode0": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel1": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount0": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_l_CountSublevel0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount0.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub0": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub0",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub0": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub0",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub0": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther0",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oStockLocationsLevel0": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level0",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel0.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column3.4dm",
+							"header": {
+								"name": "Header3",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel0": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode0": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode0.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel0": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName0": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName0.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel0": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount0": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount0",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount0.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct0": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd0",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct0.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct0": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd0",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd0": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd0",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation0": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels0",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation0.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oButtonEditSub0": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub0",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub0.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"oProductInformation0",
+				"oButtonAddLocation",
+				"oLocationName0",
+				"oButtonAddFirstSublocation0",
+				"oLocationCode0",
+				"oLocationCount0",
+				"oButtonAddSub0",
+				"oButtonDeleteSub0",
+				"oButtonAddFurtherSub0",
+				"oStockLocationsLevel0",
+				"oLocationPrdCode0",
+				"oLocationPrdName0",
+				"oLocationPrdCount0",
+				"oButtonAssignProduct0",
+				"oAddAnotherroduct0",
+				"odelProd0",
+				"oSubLevelInformation0",
+				"oButtonEditSub0"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel1": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName1": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName1": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation1",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPagae2": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPagae2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation1": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub1",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCode1": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocationCode1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel2": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount1": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub1": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub1",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub1": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub1",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub1": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther1",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub1": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub1",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation1": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Charcoal CY",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column5",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Charcoal CY",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel1": {
+					"type": "text",
+					"top": 26,
+					"left": 890,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode1": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel1": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName1": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel1": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount1": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount1",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct1": {
+					"type": "button",
+					"top": 87,
+					"left": 755,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd1",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct1": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd1",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd1": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd1",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation1": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Charcoal CY",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column6",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Charcoal CY",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel1",
+				"oLocationName1",
+				"oLocationHeaderName1",
+				"oButtonPreviousPagae2",
+				"oButtonAddFirstSublocation1",
+				"oLocationCode1",
+				"oLocationCount1",
+				"oButtonAddSub1",
+				"oButtonDeleteSub1",
+				"oButtonAddFurtherSub1",
+				"oButtonEditSub1",
+				"oProductInformation1",
+				"oLocationPrdCode1",
+				"oLocationPrdName1",
+				"oLocationPrdCount1",
+				"oButtonAssignProduct1",
+				"oAddAnotherroduct1",
+				"odelProd1",
+				"oSubLevelInformation1"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel2": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level2",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column7",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName2": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName2": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation2",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage3": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation2": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub2",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCode2": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel3": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount2": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub2": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub2",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub2": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub2",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub2": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther2",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub2": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub2",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation2": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products2",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Charcoal CY",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column8",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Charcoal CY",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel2": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode2": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel2": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName2": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel2": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount2": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount2",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct2": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd2",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct2": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd2",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd2": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd2",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation2": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels2",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Charcoal CY",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column9",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Charcoal CY",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header9",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer9",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Charcoal CY",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel2",
+				"oLocationName2",
+				"oLocationHeaderName2",
+				"oButtonPreviousPage3",
+				"oButtonAddFirstSublocation2",
+				"oLocationCode2",
+				"oLocationCount2",
+				"oButtonAddSub2",
+				"oButtonDeleteSub2",
+				"oButtonAddFurtherSub2",
+				"oButtonEditSub2",
+				"oProductInformation2",
+				"oLocationPrdCode2",
+				"oLocationPrdName2",
+				"oLocationPrdCount2",
+				"oButtonAssignProduct2",
+				"oAddAnotherroduct2",
+				"odelProd2",
+				"oSubLevelInformation2"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel3": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level3",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column10",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header10",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer10",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName3": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName3": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation3",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage4": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation3": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub3",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel4": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode3": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel4": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount3": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount3.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub3": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 115,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub3",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub3": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub3",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub3": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther3",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub3": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub3",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation3": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products3",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation3.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column11",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header11",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer11",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel3": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode3": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode3.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel3": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName3": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName3.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel3": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount3": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount3",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount3.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct3": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd3",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct3": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd3",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd3": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd3",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation3": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels3",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column12",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header12",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer12",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel3",
+				"oLocationName3",
+				"oLocationHeaderName3",
+				"oButtonPreviousPage4",
+				"oButtonAddFirstSublocation3",
+				"oLocationCode3",
+				"oLocationCount3",
+				"oButtonAddSub3",
+				"oButtonDeleteSub3",
+				"oButtonAddFurtherSub3",
+				"oButtonEditSub3",
+				"oProductInformation3",
+				"oLocationPrdCode3",
+				"oLocationPrdName3",
+				"oLocationPrdCount3",
+				"oButtonAssignProduct3",
+				"oAddAnotherroduct3",
+				"odelProd3",
+				"oSubLevelInformation3"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel4": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level4",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column13",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header13",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer13",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName4": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName4": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation4",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage5": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation4": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub4",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel5": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode4": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocationCode4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel5": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount4": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount4.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub4": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub4",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub4": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub4",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub4": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther4",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub4": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub4",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation4": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products4",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation4.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column14",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header14",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer14",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel4": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode4": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode4.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel4": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName4": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName4.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel4": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount4": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount4",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount4.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct4": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd4",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct4": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd4",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd4": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd4",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation4": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels4",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column15",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header15",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer15",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel4",
+				"oLocationName4",
+				"oLocationHeaderName4",
+				"oButtonPreviousPage5",
+				"oButtonAddFirstSublocation4",
+				"oLocationCode4",
+				"oLocationCount4",
+				"oButtonAddSub4",
+				"oButtonDeleteSub4",
+				"oButtonAddFurtherSub4",
+				"oButtonEditSub4",
+				"oProductInformation4",
+				"oLocationPrdCode4",
+				"oLocationPrdName4",
+				"oLocationPrdCount4",
+				"oButtonAssignProduct4",
+				"oAddAnotherroduct4",
+				"odelProd4",
+				"oSubLevelInformation4"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel5": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level5",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column16",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header16",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer16",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName5": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName5": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation5",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreiousPage6": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreiousPage6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation5": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub5",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel6": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode5": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocationCode5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel6": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount5": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount5.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub5": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub5",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub5": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub5",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub5": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther5",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub5": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub5",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation5": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products5",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation5.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column17",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header17",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer17",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel5": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode5": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode5.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel5": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName5": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName5.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel5": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount5": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount5",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount5.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct5": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd5",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct5": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd5",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd5": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd5",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation5": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels5",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column18",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header18",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer18",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel5",
+				"oLocationName5",
+				"oLocationHeaderName5",
+				"oButtonPreiousPage6",
+				"oButtonAddFirstSublocation5",
+				"oLocationCode5",
+				"oLocationCount5",
+				"oButtonAddSub5",
+				"oButtonDeleteSub5",
+				"oButtonAddFurtherSub5",
+				"oButtonEditSub5",
+				"oProductInformation5",
+				"oLocationPrdCode5",
+				"oLocationPrdName5",
+				"oLocationPrdCount5",
+				"oButtonAssignProduct5",
+				"oAddAnotherroduct5",
+				"odelProd5",
+				"oSubLevelInformation5"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel6": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level6",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column19",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header19",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer19",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName6": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName6": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation6",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage7": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation6": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub6",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel7": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode6": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel7": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount6": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount6.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub6": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub6",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub6": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub6",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub6": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther6",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub6": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub6",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation6": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products6",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation6.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column20",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header20",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer20",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel6": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode6": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode6.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel6": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName6": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName6.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel6": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount6": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount6",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount6.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct6": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd6",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct6": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd6",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd6": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd6",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation6": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels6",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column21",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header21",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer21",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel6",
+				"oLocationName6",
+				"oLocationHeaderName6",
+				"oButtonPreviousPage7",
+				"oButtonAddFirstSublocation6",
+				"oLocationCode6",
+				"oLocationCount6",
+				"oButtonAddSub6",
+				"oButtonDeleteSub6",
+				"oButtonAddFurtherSub6",
+				"oButtonEditSub6",
+				"oProductInformation6",
+				"oLocationPrdCode6",
+				"oLocationPrdName6",
+				"oLocationPrdCount6",
+				"oButtonAssignProduct6",
+				"oAddAnotherroduct6",
+				"odelProd6",
+				"oSubLevelInformation6"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel7": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level7",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel7.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column22",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header22",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer22",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName7": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName7": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation7",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage8": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation7": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub7",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel8": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode7": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel8": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount7": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount7.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub7": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub7",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub7": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub7",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub7": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther7",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub7": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub7",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation7": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products7",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation7.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column23",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header23",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer23",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel7": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode7": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode7.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel7": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName7": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName7.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel7": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount7": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount7",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount7.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct7": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd7",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct7": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd7",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd7": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd7",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation7": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels7",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation7.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column24",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header24",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer24",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel7",
+				"oLocationName7",
+				"oLocationHeaderName7",
+				"oButtonPreviousPage8",
+				"oButtonAddFirstSublocation7",
+				"oLocationCode7",
+				"oLocationCount7",
+				"oButtonAddSub7",
+				"oButtonDeleteSub7",
+				"oButtonAddFurtherSub7",
+				"oButtonEditSub7",
+				"oProductInformation7",
+				"oLocationPrdCode7",
+				"oLocationPrdName7",
+				"oLocationPrdCount7",
+				"oButtonAssignProduct7",
+				"oAddAnotherroduct7",
+				"odelProd7",
+				"oSubLevelInformation7"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel8": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level8",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel8.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column25",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header25",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer25",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName8": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName8": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation8",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"obuttonPreviousPage9": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/obuttonPreviousPage9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation8": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub8",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel9": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode8": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocationCode8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel9": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount8": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount8.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub8": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub8",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub8": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub8",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub8": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther8",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub8": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub8",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation8": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products8",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation8.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column26",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header26",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer26",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel8": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode8": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode8.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel8": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName8": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName8.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel8": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount8": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount8",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount8.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct8": {
+					"type": "button",
+					"top": 88,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd8",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct8": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd8",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd8": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd8",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation8": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels8",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation8.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column27",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header27",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer27",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel8",
+				"oLocationName8",
+				"oLocationHeaderName8",
+				"obuttonPreviousPage9",
+				"oButtonAddFirstSublocation8",
+				"oLocationCode8",
+				"oLocationCount8",
+				"oButtonAddSub8",
+				"oButtonDeleteSub8",
+				"oButtonAddFurtherSub8",
+				"oButtonEditSub8",
+				"oProductInformation8",
+				"oLocationPrdCode8",
+				"oLocationPrdName8",
+				"oLocationPrdCount8",
+				"oButtonAssignProduct8",
+				"oAddAnotherroduct8",
+				"odelProd8",
+				"oSubLevelInformation8"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel9": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level9",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel9.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column28",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header28",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer28",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName9": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocation9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName9": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation9",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage10": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel10": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode9": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_CurrentLocationCode9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel10": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount9": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_l_CountSublevel9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount9.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub9": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub9",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub9": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub9",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub9": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther9",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub9": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub9",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation9": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products9",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation9.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column29",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header29",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer29",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel9": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode9": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_t_ProductCode9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode9.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel9": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName9": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_T_ProductName9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName9.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel9": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"sizingX": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount9": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "STK_R_ProductCount9",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount9.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct9": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd9",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct9": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd9",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd9": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd9",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation9": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels9",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation9.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column30",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header30",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer30",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel9",
+				"oLocationName9",
+				"oLocationHeaderName9",
+				"oButtonPreviousPage10",
+				"oLocationCode9",
+				"oLocationCount9",
+				"oButtonAddSub9",
+				"oButtonDeleteSub9",
+				"oButtonAddFurtherSub9",
+				"oButtonEditSub9",
+				"oProductInformation9",
+				"oLocationPrdCode9",
+				"oLocationPrdName9",
+				"oLocationPrdCount9",
+				"oButtonAssignProduct9",
+				"oAddAnotherroduct9",
+				"odelProd9",
+				"oSubLevelInformation9"
+			]
+		},
+		{
+			"objects": {
+				"oStockLocationsLevel10": {
+					"type": "listbox",
+					"top": 36,
+					"left": 21,
+					"width": 361,
+					"height": 405,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Level10",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oStockLocationsLevel10.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column31",
+							"dataSource": "Column1",
+							"width": 346,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header31",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer31",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLocationName10": {
+					"type": "input",
+					"top": 43,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocation10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oLocationHeaderName10": {
+					"type": "input",
+					"top": 13,
+					"left": 24,
+					"width": 344,
+					"height": 12,
+					"dataSource": "STK_T_CurrentLocation10",
+					"class": "Headers",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonPreviousPage11": {
+					"type": "button",
+					"top": 450,
+					"left": 22,
+					"width": 150,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "LOC_but_PreviousPage",
+					"text": "Return to previous",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonPreviousPage11.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAddFirstSublocation10": {
+					"type": "button",
+					"top": 66,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddSub10",
+					"text": "Add Sub-location",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAddFirstSublocation10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLocationCodeLabel11": {
+					"type": "text",
+					"top": 69,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Location Code :"
+				},
+				"oLocationCode10": {
+					"type": "input",
+					"top": 68,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_CurrentLocationCode10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oSubLocationCountLabel11": {
+					"type": "text",
+					"top": 93,
+					"left": 325,
+					"width": 200,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Number of  <STK_t_SubLevelLabel0> :"
+				},
+				"oLocationCount10": {
+					"type": "input",
+					"top": 91,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_l_CountSublevel10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationCount10.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddSub10": {
+					"type": "button",
+					"top": 422,
+					"left": 792,
+					"width": 116,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "STK_but_AddSub10",
+					"text": "Add Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddSub10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonDeleteSub10": {
+					"type": "button",
+					"top": 422,
+					"left": 662,
+					"width": 127,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "STK_but_DeleteSub10",
+					"text": "Delete Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonDeleteSub10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonAddFurtherSub10": {
+					"type": "button",
+					"top": 422,
+					"left": 414,
+					"width": 125,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "STK_but_AddFurther10",
+					"text": "Add Further Sublevel",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddFurtherSub10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonEditSub10": {
+					"type": "button",
+					"top": 422,
+					"left": 547,
+					"width": 107,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "STK_but_EditSub10",
+					"text": "Edit Sublocation",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonEditSub10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oProductInformation10": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 478,
+					"height": 289,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lB_Products10",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oProductInformation10.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column32",
+							"dataSource": "Column1",
+							"width": 463,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header32",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer32",
+								"stroke": "automatic",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oProductCodeLabel10": {
+					"type": "text",
+					"top": 114,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Code"
+				},
+				"oLocationPrdCode10": {
+					"type": "input",
+					"top": 113,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_t_ProductCode10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCode10.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductNameLabel10": {
+					"type": "text",
+					"top": 137,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Product Name"
+				},
+				"oLocationPrdName10": {
+					"type": "input",
+					"top": 136,
+					"left": 530,
+					"width": 344,
+					"height": 14,
+					"dataSource": "STK_T_ProductName10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdName10.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oProductCountLabel10": {
+					"type": "text",
+					"top": 160,
+					"left": 416,
+					"width": 108,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stock Count"
+				},
+				"oLocationPrdCount10": {
+					"type": "input",
+					"top": 160,
+					"left": 530,
+					"width": 84,
+					"height": 14,
+					"dataSource": "STK_R_ProductCount10",
+					"class": "Fields",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLocationPrdCount10.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAssignProduct10": {
+					"type": "button",
+					"top": 87,
+					"left": 754,
+					"width": 130,
+					"height": 19,
+					"sizingX": "move",
+					"dataSource": "STK_but_AddProd10",
+					"text": "Assign Product",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/oButtonAssignProduct10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAddAnotherroduct10": {
+					"type": "button",
+					"top": 402,
+					"left": 793,
+					"width": 96,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "STK_l_ButAddProd10",
+					"text": "Add Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oAddAnotherroduct10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"odelProd10": {
+					"type": "button",
+					"top": 402,
+					"left": 676,
+					"width": 107,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "STK_l_ButdelProd10",
+					"text": "Remove Product",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/odelProd10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSubLevelInformation10": {
+					"type": "listbox",
+					"top": 111,
+					"left": 409,
+					"width": 488,
+					"height": 310,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "STK_lb_Sublevels10",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oSubLevelInformation10.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Column33",
+							"dataSource": "Column1",
+							"width": 473,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header33",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer33",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oStockLocationsLevel10",
+				"oLocationName10",
+				"oLocationHeaderName10",
+				"oButtonPreviousPage11",
+				"oButtonAddFirstSublocation10",
+				"oLocationCode10",
+				"oLocationCount10",
+				"oButtonAddSub10",
+				"oButtonDeleteSub10",
+				"oButtonAddFurtherSub10",
+				"oButtonEditSub10",
+				"oProductInformation10",
+				"oLocationPrdCode10",
+				"oLocationPrdName10",
+				"oLocationPrdCount10",
+				"oButtonAssignProduct10",
+				"oAddAnotherroduct10",
+				"odelProd10",
+				"oSubLevelInformation10"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 265,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

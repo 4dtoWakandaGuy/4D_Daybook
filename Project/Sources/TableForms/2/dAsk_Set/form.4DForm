@@ -1,0 +1,273 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"RoundRect1": {
+					"type": "rectangle",
+					"top": 11,
+					"left": 10,
+					"width": 310,
+					"height": 141,
+					"fill": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 117,
+					"left": 22,
+					"width": 26,
+					"height": 19
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 93,
+					"left": 22,
+					"width": 26,
+					"height": 19
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 69,
+					"left": 22,
+					"width": 26,
+					"height": 19
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 45,
+					"left": 22,
+					"width": 26,
+					"height": 19
+				},
+				"Variable1": {
+					"type": "radio",
+					"top": 18,
+					"left": 49,
+					"width": 80,
+					"height": 24,
+					"dataSource": "cList",
+					"text": "Use Set",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "radio",
+					"top": 18,
+					"left": 127,
+					"width": 93,
+					"height": 24,
+					"dataSource": "cLetters",
+					"text": "Save Set",
+					"class": "check_box_text_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "radio",
+					"top": 46,
+					"left": 49,
+					"width": 258,
+					"height": 18,
+					"dataSource": "cLabels",
+					"text": "Unite Set & Current Selection",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "radio",
+					"top": 69,
+					"left": 49,
+					"width": 264,
+					"height": 20,
+					"dataSource": "cEnvelopes",
+					"text": "Intersect Set & Current Selection",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "radio",
+					"top": 93,
+					"left": 49,
+					"width": 264,
+					"height": 21,
+					"dataSource": "cExport",
+					"text": "Remove Current Selection from Set",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "radio",
+					"top": 117,
+					"left": 49,
+					"width": 268,
+					"height": 21,
+					"dataSource": "cOC",
+					"text": "Remove Set from Current Selection",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 163,
+					"left": 137,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 163,
+					"left": 233,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable8.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 194,
+					"left": 286,
+					"width": 45,
+					"height": 3,
+					"fill": "transparent",
+					"stroke": "transparent"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

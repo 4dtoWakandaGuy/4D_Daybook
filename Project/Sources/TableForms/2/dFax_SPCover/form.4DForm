@@ -1,0 +1,306 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": -1,
+					"left": -2,
+					"width": 577,
+					"height": 413
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": -1,
+					"width": 441,
+					"height": 307,
+					"fill": "#CCCCCC"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 113,
+					"left": 137,
+					"width": 49,
+					"height": 14,
+					"dataSource": "<>FaxCover",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 151,
+					"left": 41,
+					"width": 371,
+					"height": 90,
+					"fill": "#DDDDDD",
+					"stroke": "#444444"
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 271,
+					"left": 235,
+					"width": 90,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 271,
+					"left": 339,
+					"width": 90,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "checkbox",
+					"top": 89,
+					"left": 21,
+					"width": 267,
+					"height": 18,
+					"dataSource": "bd10",
+					"text": "Print a Cover Page",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 113,
+					"left": 39,
+					"width": 94,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#000000",
+					"class": "Labels",
+					"text": "Cover Page No"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 133,
+					"left": 39,
+					"width": 86,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#000000",
+					"class": "Labels",
+					"text": "Comments"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 59,
+					"left": 25,
+					"width": 387,
+					"height": 20,
+					"fill": "#DDDDDD",
+					"stroke": "#444444"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 39,
+					"left": 24,
+					"width": 86,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#000000",
+					"class": "Labels",
+					"text": "Subject"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 62,
+					"left": 28,
+					"width": 381,
+					"height": 14,
+					"dataSource": "vConfirm",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"fill": "#DDDDDD",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 154,
+					"left": 44,
+					"width": 349,
+					"height": 83,
+					"dataSource": "vT",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#DDDDDD",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "checkbox",
+					"top": 90,
+					"left": 305,
+					"width": 66,
+					"height": 17,
+					"dataSource": "bd12",
+					"text": "Urgent",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "checkbox",
+					"top": 107,
+					"left": 305,
+					"width": 111,
+					"height": 17,
+					"dataSource": "bd11",
+					"text": "Add Enclosures",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 9,
+					"left": 11,
+					"width": 412,
+					"height": 251,
+					"stroke": "#111111",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "4-Sight Fax Details"
+				}
+			}
+		}
+	]
+}

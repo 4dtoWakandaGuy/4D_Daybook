@@ -1,0 +1,153 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 105,
+	"markerBreak": 105,
+	"markerFooter": 115,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oCompanyNameLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Company Name :"
+				},
+				"oCompanyName": {
+					"type": "input",
+					"top": 18,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_CompanyName",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oAddressLabel": {
+					"type": "text",
+					"top": 31,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Address :"
+				},
+				"oCompanyAddress": {
+					"type": "input",
+					"top": 32,
+					"left": 97,
+					"width": 175,
+					"height": 72,
+					"dataSource": "SD_T_CompanyAddress",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTelephoneLabel": {
+					"type": "text",
+					"top": 19,
+					"left": 273,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Telephone :"
+				},
+				"oTelephone": {
+					"type": "input",
+					"top": 18,
+					"left": 363,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_Telephone",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 6,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

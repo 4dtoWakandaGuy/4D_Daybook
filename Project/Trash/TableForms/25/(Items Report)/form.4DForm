@@ -1,0 +1,280 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 30,
+	"markerBreak": 35,
+	"markerFooter": 35,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": -1,
+					"left": 0,
+					"width": 539,
+					"height": 35,
+					"fill": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Line1": {
+					"type": "line",
+					"top": -1,
+					"left": 448,
+					"height": 35,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": -2,
+					"left": 486,
+					"height": 36,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 15,
+					"left": -11,
+					"width": 549
+				},
+				"Text1": {
+					"type": "text",
+					"top": 3,
+					"left": 488,
+					"width": 26,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "Total"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 2,
+					"left": 450,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "Quan"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 241,
+					"height": 34,
+					"strokeWidth": 0.1
+				},
+				"Text3": {
+					"type": "text",
+					"top": 3,
+					"left": 243,
+					"width": 40,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "Product"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 187,
+					"height": 34,
+					"strokeWidth": 0.1
+				},
+				"Text4": {
+					"type": "text",
+					"top": 3,
+					"left": 189,
+					"width": 40,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "O/N"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 2,
+					"left": 1,
+					"width": 181,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "Customer"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 18,
+					"left": 4,
+					"width": 182,
+					"height": 12,
+					"dataSource": "vCompName",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 18,
+					"left": 189,
+					"width": 50,
+					"height": 12,
+					"dataSource": "[ORDER_ITEMS:25]Order_Code:1",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 18,
+					"left": 243,
+					"width": 204,
+					"height": 12,
+					"dataSource": "[ORDER_ITEMS:25]Product_Name:13",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 18,
+					"left": 450,
+					"width": 35,
+					"height": 12,
+					"dataSource": "vQuantity",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 18,
+					"left": 488,
+					"width": 47,
+					"height": 12,
+					"dataSource": "vAmount",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

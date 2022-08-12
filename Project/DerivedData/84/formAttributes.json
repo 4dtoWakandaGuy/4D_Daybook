@@ -1,0 +1,143 @@
+{
+	"forms": {
+		"PL_Group": {
+			"timeStamp": "2022-03-10T16:49:21.582Z",
+			"destination": "detailPrinter"
+		},
+		"PLB_Totals": {
+			"timeStamp": "2022-03-10T16:49:21.577Z",
+			"destination": "detailPrinter"
+		},
+		"BS_Totals": {
+			"timeStamp": "2022-03-10T16:49:21.556Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Detail": {
+			"timeStamp": "2022-03-10T16:49:21.579Z",
+			"destination": "detailPrinter"
+		},
+		"BS_Hdr": {
+			"timeStamp": "2022-03-10T16:49:21.552Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Header12": {
+			"timeStamp": "2022-03-11T12:07:23.978Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Detail12": {
+			"timeStamp": "2022-03-11T12:07:21.773Z",
+			"destination": "detailPrinter"
+		},
+		"BS_Det": {
+			"timeStamp": "2022-03-10T16:49:21.550Z",
+			"destination": "detailPrinter"
+		},
+		"All_Gap": {
+			"timeStamp": "2022-03-10T16:49:21.541Z"
+		},
+		"PL_Header": {
+			"timeStamp": "2022-03-11T12:15:25.996Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Totals": {
+			"timeStamp": "2022-03-11T12:31:54.471Z",
+			"destination": "detailPrinter"
+		},
+		"Heading_In": {
+			"timeStamp": "2022-04-26T12:16:26.480Z",
+			"destination": "detailScreen"
+		},
+		"Headings_Out": {
+			"timeStamp": "2022-03-10T16:49:21.569Z",
+			"destination": "listScreen"
+		},
+		"PLB_Subtotal": {
+			"timeStamp": "2022-03-10T16:49:21.576Z",
+			"destination": "detailPrinter"
+		},
+		"BS_Subtotal": {
+			"timeStamp": "2022-03-10T16:49:21.555Z",
+			"destination": "detailPrinter"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-04-26T12:16:26.281Z",
+			"destination": "listScreen"
+		},
+		"All_Hdr": {
+			"timeStamp": "2022-03-10T16:49:21.544Z",
+			"destination": "detailPrinter"
+		},
+		"TB_Details": {
+			"timeStamp": "2022-03-11T12:23:55.838Z",
+			"destination": "detailPrinter"
+		},
+		"PLB_Hdr": {
+			"timeStamp": "2022-03-10T16:49:21.574Z",
+			"destination": "detailPrinter"
+		},
+		"TB_Header": {
+			"timeStamp": "2022-03-11T12:23:55.794Z",
+			"destination": "detailPrinter"
+		},
+		"TB_Heading": {
+			"timeStamp": "2022-03-11T12:23:55.745Z",
+			"destination": "detailPrinter"
+		},
+		"TB_Totals": {
+			"timeStamp": "2022-03-11T12:15:26.048Z",
+			"destination": "detailPrinter"
+		},
+		"TB_Subtotal": {
+			"timeStamp": "2022-03-11T12:23:55.677Z",
+			"destination": "detailPrinter"
+		},
+		"PLB_Group": {
+			"timeStamp": "2022-03-10T16:49:21.573Z",
+			"destination": "detailPrinter"
+		},
+		"PLB_Heading": {
+			"timeStamp": "2022-03-10T16:49:21.575Z",
+			"destination": "detailPrinter"
+		},
+		"All_Hdr12": {
+			"timeStamp": "2022-04-13T15:03:54.425Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Subtotal": {
+			"timeStamp": "2022-03-11T12:32:01.593Z",
+			"destination": "detailPrinter"
+		},
+		"PLB_Det": {
+			"timeStamp": "2022-03-10T16:49:21.571Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Heading12": {
+			"timeStamp": "2022-03-10T16:49:21.593Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Totals12": {
+			"timeStamp": "2022-03-11T12:26:29.049Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Group12": {
+			"timeStamp": "2022-03-10T16:49:21.584Z",
+			"destination": "detailPrinter"
+		},
+		"BS_Heading": {
+			"timeStamp": "2022-03-10T16:49:21.554Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Subtotal12": {
+			"timeStamp": "2022-03-11T12:32:01.574Z",
+			"destination": "detailPrinter"
+		},
+		"All_Gap12": {
+			"timeStamp": "2022-03-10T16:49:21.542Z",
+			"destination": "detailPrinter"
+		},
+		"PL_Heading": {
+			"timeStamp": "2022-03-10T16:49:21.590Z",
+			"destination": "detailPrinter"
+		}
+	}
+}

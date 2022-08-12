@@ -1,0 +1,682 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 460,
+	"markerBreak": 460,
+	"markerFooter": 470,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 96,
+					"left": 554,
+					"width": 100,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text14": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 515,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "PRODUCT_attributes"
+				},
+				"Line15": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 644,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 126,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "UUID : "
+				},
+				"Text17": {
+					"type": "text",
+					"top": 153,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "ProductID : "
+				},
+				"Text18": {
+					"type": "text",
+					"top": 180,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Product_Code : "
+				},
+				"Text19": {
+					"type": "text",
+					"top": 207,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributeType : "
+				},
+				"Text20": {
+					"type": "text",
+					"top": 234,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributeTypeName : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 261,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Attribute_Value : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 335,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Attribute_NumericValue : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 362,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributePrefix : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 389,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributeSuffix : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 416,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributeRangeSecondValue : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 443,
+					"left": 140,
+					"width": 189,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AttributeRangeThirdValue : "
+				},
+				"UUID": {
+					"type": "input",
+					"top": 126,
+					"left": 334,
+					"width": 250,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]UUID:1",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ProductID": {
+					"type": "input",
+					"top": 153,
+					"left": 334,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]ProductID:2",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Product_Code": {
+					"type": "input",
+					"top": 180,
+					"left": 334,
+					"width": 305,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]Product_Code:3",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributeType": {
+					"type": "input",
+					"top": 207,
+					"left": 334,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributeType:5",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributeTypeName": {
+					"type": "input",
+					"top": 234,
+					"left": 334,
+					"width": 305,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributeTypeName:6",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Attribute_Value": {
+					"type": "input",
+					"top": 261,
+					"left": 334,
+					"width": 234,
+					"height": 64,
+					"dataSource": "[PRODUCT_attributes:211]Attribute_Value:7",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Attribute_NumericValue": {
+					"type": "input",
+					"top": 335,
+					"left": 334,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]Attribute_NumericValue:8",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributePrefix": {
+					"type": "input",
+					"top": 362,
+					"left": 334,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributePrefix:9",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributeSuffix": {
+					"type": "input",
+					"top": 389,
+					"left": 334,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributeSuffix:10",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributeRangeSecondValue": {
+					"type": "input",
+					"top": 416,
+					"left": 334,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributeRangeSecondValue:11",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AttributeRangeThirdValue": {
+					"type": "input",
+					"top": 443,
+					"left": 334,
+					"width": 72,
+					"height": 16,
+					"dataSource": "[PRODUCT_attributes:211]AttributeRangeThirdValue:12",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text14",
+					"Line15"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

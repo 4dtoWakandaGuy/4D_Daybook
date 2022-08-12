@@ -1,0 +1,209 @@
+{
+	"destination": "listScreen",
+	"inheritedForm": "OutPut_Background",
+	"inheritedFormTable": 15,
+	"windowMaxWidth": 416,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 70,
+	"markerBody": 90,
+	"markerBreak": 90,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oOFLFormat Code": {
+					"type": "text",
+					"top": 52,
+					"left": 7,
+					"width": 69,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": ":xliff:FieldLabels_code"
+				},
+				"oOFLFormat Name": {
+					"type": "text",
+					"top": 52,
+					"left": 89,
+					"width": 288,
+					"height": 13,
+					"sizingX": "grow",
+					"stroke": "#000E60",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"text": ":xliff:FieldLabels_Name"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"top": 40,
+					"left": 84,
+					"width": 1,
+					"height": 49,
+					"dataSource": "Splitter1",
+					"borderStyle": "solid",
+					"stroke": "#C0CAFF",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 74,
+					"left": 6,
+					"width": 76,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "[ADDRESS_FORMATS:74]Format_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 74,
+					"left": 87,
+					"width": 295,
+					"height": 13,
+					"dataSource": "[ADDRESS_FORMATS:74]Format_Name:2",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"3D Button43": {
+					"type": "button",
+					"top": 48,
+					"left": 13,
+					"width": 63,
+					"height": 20,
+					"sizingX": "grow",
+					"dataSource": "bTelButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button43.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 48,
+					"left": 75,
+					"width": 297,
+					"height": 20,
+					"sizingX": "grow",
+					"dataSource": "bTelButt1",
+					"display": false,
+					"method": "ObjectMethods/3D Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oOFLDownArrow": {
+					"type": "picture",
+					"top": 50,
+					"left": 8,
+					"width": 11,
+					"height": 11,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/ArrowDown.png"
+				},
+				"oOFLUpArrow": {
+					"type": "picture",
+					"top": 50,
+					"left": 8,
+					"width": 11,
+					"height": 11,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/ArrowUp.png"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"oOFLDownArrow",
+				"oOFLUpArrow"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

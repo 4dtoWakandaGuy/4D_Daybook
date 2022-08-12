@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Term_In": {
+			"timeStamp": "2022-04-29T16:32:46.636Z",
+			"destination": "detailScreen"
+		},
+		"Term_Out": {
+			"timeStamp": "2022-03-11T23:32:40.356Z",
+			"destination": "listScreen"
+		}
+	}
+}

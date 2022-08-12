@@ -1,0 +1,331 @@
+.Bold_Geneva_9 {
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+.Buttons_LARGE {
+	font-family: System;
+	font-size: 12px;
+}
+
+.BUttons_SMALL {
+	font-family: MS Sans Serif;
+	font-size: 9px;
+}
+
+.check_box_text_LARGE {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Check_Box_text_SMALL {
+	font-family: Small Fonts;
+	font-size: 9px;
+}
+
+.Check_Box_text_SMALL_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Default {
+	font-family: Calibri;
+	font-size: 9px;
+}
+
+.Field_INFOS {
+	font-family: Calibri;
+	font-size: 10px;
+}
+
+.Fields {
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+.Fields_BOLD {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.FIelds_Large {
+	font-family: Calibri;
+	font-size: 14px;
+}
+
+.FIelds_Large_BOLD {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.Fields_OUTPUT {
+	font-family: Small Fonts;
+	font-size: 9px;
+}
+
+.Fields1 {
+	font-family: Microsoft Sans Serif;
+	font-size: 12px;
+}
+
+.Headers {
+	font-family: Franklin Gothic Medium;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Hierachial_List_Small {
+	font-family: Lucida Sans Unicode;
+	font-size: 9px;
+}
+
+.Labels {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Labels_OUTPUT {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Labels_Underlined {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.LabelsItalic {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.labelsLight {
+	font-family: Calibri Light;
+	font-size: 12px;
+}
+
+.Message_TEXT {
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+.MonoSpace {
+	font-family: COnsola;
+	font-size: 12px;
+}
+
+.Password {
+	font-family: "%password";
+	font-size: 12px;
+}
+
+.Pop-ups {
+	font-family: Corbel;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_10pt_GENEVA {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_10pt_GENEVA_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_10pt_GENEVA_BOLD_ITALIC {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_10pt_GENEVA_ITALIC {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_10pt_TIMES {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_10pt_TIMES_ITALIC {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_12pt_GENEVA {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_12pt_GENEVA_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_12pt_PALATINO {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_12pt_PALTINO {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES {
+	font-family: Times New Roman;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES {
+	font-family: Times New Roman;
+	font-size: 12px;
+}
+
+.Print_12pt_TIMES_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Print_12pt_TIMES_ITALIC {
+	font-family: Times New Roman;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.Print_14pt_GENEVA {
+	font-family: MS Sans Serif;
+	font-size: 14px;
+}
+
+.Print_14pt_GENEVA_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.Print_14pt_PALATINO {
+	font-family: MS Sans Serif;
+	font-size: 14px;
+}
+
+.Print_14pt_TIMES {
+	font-family: MS Sans Serif;
+	font-size: 14px;
+}
+
+.Print_14pt_TIMES {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Print_18pt_Geneva {
+	font-family: MS Sans Serif;
+	font-size: 18px;
+}
+
+.Print_18pt_GENEVA_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Print_18pt_PALATINO {
+	font-family: MS Sans Serif;
+	font-size: 18px;
+}
+
+.Print_18pt_TIMES {
+	font-family: Times New Roman;
+	font-size: 12px;
+}
+
+.Print_24pt_GENEVA {
+	font-family: MS Sans Serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Print_24pt_TIMES {
+	font-family: Times New Roman;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Print_6pt_Geneva {
+	font-family: MS Sans Serif;
+	font-size: 6px;
+}
+
+.Print_9pt_GENEVA {
+	font-family: MS Sans Serif;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES {
+	font-family: Times New Roman;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES {
+	font-family: MS Sans Serif;
+	font-size: 9px;
+}
+
+.Print_9pt_TIMES_BOLD {
+	font-family: MS Sans Serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.Print_9pt_TIMES_ITALIC {
+	font-family: Times New Roman;
+	font-size: 9px;
+}
+
+.ScrollArea {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.ScrollArea_Small {
+	font-family: Calibri;
+	font-size: 10px;
+}
+
+.SORT_BUTTONS {
+	font-family: Calibri;
+	font-size: 10px;
+}
+
+.SplashScreenText {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.StandardEnterable {
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+.Style_sheet {
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+

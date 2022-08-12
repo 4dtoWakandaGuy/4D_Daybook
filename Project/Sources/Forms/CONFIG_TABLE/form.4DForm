@@ -1,0 +1,307 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBOutput": {
+					"type": "listbox",
+					"top": 56,
+					"left": 28,
+					"width": 617,
+					"height": 236,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "TAB_ab_FieldData",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"table": 2,
+					"highlightSet": "DataSelected",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"events": [
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"width": 602,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oPagesTab": {
+					"type": "tab",
+					"top": 25,
+					"left": 27,
+					"width": 619,
+					"height": 30,
+					"sizingX": "grow",
+					"dataSource": "TAB_at_PagingTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"action": "gotoPage",
+					"method": "ObjectMethods/oPagesTab.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oImportData": {
+					"type": "button",
+					"top": 301,
+					"left": 25,
+					"width": 96,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "TAB_l_ImportData",
+					"text": "Import",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oValidate": {
+					"type": "button",
+					"top": 301,
+					"left": 247,
+					"width": 168,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "TAB_l_Validate",
+					"text": "Validate Data Integrity",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oindexData": {
+					"type": "button",
+					"top": 301,
+					"left": 418,
+					"width": 111,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "TAB_l_Index",
+					"text": "Reset Indexes",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oExport": {
+					"type": "button",
+					"top": 301,
+					"left": 124,
+					"width": 96,
+					"height": 21,
+					"sizingY": "move",
+					"dataSource": "TAB_l_Export",
+					"text": "Export Data",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oExport.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 294,
+					"left": 611,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAccept.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonSelect": {
+					"type": "button",
+					"top": 294,
+					"left": 574,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp11"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_SELECT.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonSelect.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"OmaxperTabLabel": {
+					"type": "text",
+					"top": 8,
+					"left": 28,
+					"width": 98,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Maximum Per Tab"
+				},
+				"oMaxPerTabValue": {
+					"type": "input",
+					"top": 8,
+					"left": 131,
+					"width": 69,
+					"height": 14,
+					"dataSource": "TAB_l_MaxPerTab",
+					"class": "Fields",
+					"fill": "transparent",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oMaxPerTabValue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

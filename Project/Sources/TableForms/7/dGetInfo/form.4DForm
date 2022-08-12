@@ -1,0 +1,307 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperWidth": "8568pt",
+		"paperHeight": "12125pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 235,
+					"left": 288,
+					"width": 11,
+					"height": 7,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 14,
+					"width": 271,
+					"height": 181,
+					"class": "Headers",
+					"text": "Get Info..."
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 41,
+					"left": 93,
+					"width": 126,
+					"height": 13,
+					"dataSource": "vTitle1",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 66,
+					"left": 93,
+					"width": 178,
+					"height": 28,
+					"dataSource": "vTitle2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "dropdown",
+					"top": 106,
+					"left": 92,
+					"width": 110,
+					"height": 18,
+					"dataSource": "<>WP_at_DocumentDiaryActionName",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/DB_SetupColumns"
+					},
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "dropdown",
+					"top": 133,
+					"left": 92,
+					"width": 66,
+					"height": 18,
+					"dataSource": "<>Per_at_PersonnelNames",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/DB_SetupColumns"
+					},
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "checkbox",
+					"top": 163,
+					"left": 88,
+					"width": 138,
+					"height": 12,
+					"dataSource": "ch1",
+					"text": "Is a Template",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 205,
+					"left": 110,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 205,
+					"left": 203,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 41,
+					"left": 47,
+					"width": 42,
+					"height": 14,
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Code"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 66,
+					"left": 16,
+					"width": 73,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Description"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 107,
+					"left": 37,
+					"width": 52,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Type"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 134,
+					"left": 33,
+					"width": 56,
+					"height": 14,
+					"stroke": "#000000",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Person"
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 205,
+					"left": 110,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 205,
+					"left": 203,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

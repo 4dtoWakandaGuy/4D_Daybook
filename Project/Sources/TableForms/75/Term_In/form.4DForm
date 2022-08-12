@@ -1,0 +1,443 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 42,
+					"left": 6,
+					"width": 131,
+					"height": 12,
+					"stroke": "#C0CAFF",
+					"class": "Headers",
+					"text": "TERMINOLOGY"
+				},
+				"oTerminolgyNameLabel": {
+					"type": "text",
+					"top": 110,
+					"left": 6,
+					"width": 125,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Terminology Name :"
+				},
+				"oTerminologyCodeLabel": {
+					"type": "text",
+					"top": 89,
+					"left": 13,
+					"width": 118,
+					"height": 14,
+					"stroke": "#000E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Terminology Code :"
+				},
+				"oTerminologyCode": {
+					"type": "input",
+					"top": 89,
+					"left": 138,
+					"width": 56,
+					"height": 14,
+					"dataSource": "[TERMINOLOGY:75]Terminology_Code:1",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oTerminologyName": {
+					"type": "input",
+					"top": 109,
+					"left": 138,
+					"width": 384,
+					"height": 14,
+					"dataSource": "[TERMINOLOGY:75]Terminology_Name:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oFirtLastName": {
+					"type": "radio",
+					"top": 131,
+					"left": 26,
+					"width": 182,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]First_Last_Name:3",
+					"text": "First Name/Last Name                  ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field3_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oForenameSurname": {
+					"type": "radio",
+					"top": 131,
+					"left": 228,
+					"width": 289,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]First_Last_Name:3)",
+					"text": "Forename/Surname",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field3_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oInquiry": {
+					"type": "radio",
+					"top": 149,
+					"left": 26,
+					"width": 170,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]Inquiry:4",
+					"text": "Inquiry/Inquiries/Inq.                 ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field4_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEnquiry": {
+					"type": "radio",
+					"top": 149,
+					"left": 216,
+					"width": 299,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]Inquiry:4)",
+					"text": "Enquiry/Enquiries/Enq.",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field4_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEstimate": {
+					"type": "radio",
+					"top": 167,
+					"left": 26,
+					"width": 196,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]Estimate:5",
+					"text": "Estimate                                             ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field5_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oQuotation": {
+					"type": "radio",
+					"top": 167,
+					"left": 242,
+					"width": 274,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]Estimate:5)",
+					"text": "Quotation",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field5_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oInventory": {
+					"type": "radio",
+					"top": 185,
+					"left": 26,
+					"width": 190,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]Inventory:6",
+					"text": "Inventory                                          ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field6_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStockControl": {
+					"type": "radio",
+					"top": 185,
+					"left": 236,
+					"width": 279,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]Inventory:6)",
+					"text": "Stock Control",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field6_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSalesTax": {
+					"type": "radio",
+					"top": 203,
+					"left": 26,
+					"width": 196,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]Sales_Tax:7",
+					"text": "Sales & Use Tax                                 ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field7_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oVat": {
+					"type": "radio",
+					"top": 203,
+					"left": 242,
+					"width": 276,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]Sales_Tax:7)",
+					"text": "VAT",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field7_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oReceivablePayables": {
+					"type": "radio",
+					"top": 221,
+					"left": 26,
+					"width": 169,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]Receivables_Payables:9",
+					"text": "Accounts Receivable / Payable",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field8_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oSalesPurchaseLedger": {
+					"type": "radio",
+					"top": 221,
+					"left": 215,
+					"width": 305,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]Receivables_Payables:9)",
+					"text": "Sales / Purchase Ledgers",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field8_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oGeneralLedger": {
+					"type": "radio",
+					"top": 239,
+					"left": 26,
+					"width": 173,
+					"height": 24,
+					"dataSource": "[TERMINOLOGY:75]General_Ledger:8",
+					"text": "Account Income Statement       ",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field9_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oProfitLoss": {
+					"type": "radio",
+					"top": 239,
+					"left": 219,
+					"width": 305,
+					"height": 24,
+					"dataSource": "Not:C34([TERMINOLOGY:75]General_Ledger:8)",
+					"text": "Profit & Loss",
+					"stroke": "#000E60",
+					"class": "Check_Box_text_SMALL",
+					"radioGroup": "Field9_group",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 30
+}

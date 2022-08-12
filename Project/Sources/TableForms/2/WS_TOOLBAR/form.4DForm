@@ -1,0 +1,2083 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable4": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_1",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable31": {
+					"type": "input",
+					"top": 0,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_2",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_3",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_4",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_5",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_6",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_7",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_8",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_9",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_10",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_11",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_12",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_13",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_14",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable18": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_15",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable19": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_16",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable20": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_17",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_18",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_19",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_20",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable24": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_21",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable25": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_22",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable26": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_23",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_24",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				},
+				"Variable28": {
+					"type": "input",
+					"top": 1,
+					"left": -1,
+					"width": 32,
+					"height": 1,
+					"dataSource": "BAR_GRAPHIC_25",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"visibility": "hidden"
+				}
+			}
+		},
+		{
+			"objects": {
+				"oBarButtont2": {
+					"type": "button",
+					"top": 1,
+					"left": 164,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp2"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont2.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont3": {
+					"type": "button",
+					"top": 0,
+					"left": 284,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_t3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp3"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont3.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont4": {
+					"type": "button",
+					"top": 0,
+					"left": 404,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHElp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont4.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont5": {
+					"type": "button",
+					"top": 0,
+					"left": 524,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp5"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont5.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont6": {
+					"type": "button",
+					"top": 0,
+					"left": 644,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T6",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp6"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont6.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont7": {
+					"type": "button",
+					"top": 0,
+					"left": 764,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T7",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp7"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont7.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont8": {
+					"type": "button",
+					"top": 0,
+					"left": 884,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T8",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp8"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont8.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont9": {
+					"type": "button",
+					"top": 0,
+					"left": 1004,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T9",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp9"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont9.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont10": {
+					"type": "button",
+					"top": 0,
+					"left": 1124,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T10",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp10"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont10.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont11": {
+					"type": "button",
+					"top": 0,
+					"left": 1244,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp11"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont11.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont12": {
+					"type": "button",
+					"top": 0,
+					"left": 1364,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T12",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp12"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont12.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont13": {
+					"type": "button",
+					"top": 0,
+					"left": 1484,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T13",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp13"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont13.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont14": {
+					"type": "button",
+					"top": 0,
+					"left": 1604,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T14",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp14"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont14.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont15": {
+					"type": "button",
+					"top": 0,
+					"left": 1724,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp15"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont15.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont16": {
+					"type": "button",
+					"top": 0,
+					"left": 1844,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T16",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp16"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont16.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont17": {
+					"type": "button",
+					"top": 0,
+					"left": 1964,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T17",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp17"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont17.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont18": {
+					"type": "button",
+					"top": 0,
+					"left": 2084,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T18",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp18"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont18.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont19": {
+					"type": "button",
+					"top": 0,
+					"left": 2204,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T19",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp19"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont19.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont20": {
+					"type": "button",
+					"top": 0,
+					"left": 2324,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T20",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont20.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont21": {
+					"type": "button",
+					"top": 0,
+					"left": 2444,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T21",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont21.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont22": {
+					"type": "button",
+					"top": 0,
+					"left": 2564,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T22",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont22.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont23": {
+					"type": "button",
+					"top": 0,
+					"left": 2684,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T23",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont23.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont24": {
+					"type": "button",
+					"top": 0,
+					"left": 2804,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T24",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont24.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButtont25": {
+					"type": "button",
+					"top": 0,
+					"left": 2924,
+					"width": 120,
+					"height": 32,
+					"dataSource": "BAR_t_Button_T25",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"text": "Button",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "right",
+					"style": "office",
+					"method": "ObjectMethods/oBarButtont25.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oProblemBackGround": {
+					"type": "input",
+					"top": 2,
+					"left": 0,
+					"width": 163,
+					"height": 48,
+					"dataSource": "vProblem",
+					"stroke": "#DDDDDD",
+					"class": "Fields_BOLD",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "#000E60",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/oProblemBackGround.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 163,
+					"height": 28,
+					"dataSource": "vSolution",
+					"stroke": "#DDDDDD",
+					"class": "Fields_BOLD",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "#000E60",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"dataSource": "oOK",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"dataSource": "oOK",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"dataSource": "oOK",
+					"shortcutKey": "[Esc]",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"dataSource": "oOK",
+					"shortcutKey": "[Return]",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable29": {
+					"type": "input",
+					"top": 20,
+					"left": 0,
+					"width": 163,
+					"height": 12,
+					"dataSource": "BAR_Pic_Logo",
+					"dataSourceTypeHint": "picture",
+					"class": "Default",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalTopLeft",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPictureLogo": {
+					"type": "button",
+					"top": 19,
+					"left": 0,
+					"width": 163,
+					"height": 13,
+					"dataSource": "xCount",
+					"shortcutKey": "\\",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"method": "ObjectMethods/oPictureLogo.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oContextualMenu": {
+					"type": "dropdown",
+					"top": 2,
+					"left": 0,
+					"width": 163,
+					"height": 17,
+					"dataSource": "GEN_At_ContextualMenuItems",
+					"display": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oContextualMenu.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oOSXShade": {
+					"type": "picture",
+					"top": 1,
+					"left": 163,
+					"width": 5,
+					"height": 32,
+					"pictureFormat": "scaled",
+					"picture": "Images/oOSXShade.pict"
+				},
+				"oBarButton1": {
+					"type": "button",
+					"top": -1,
+					"left": 163,
+					"width": 1,
+					"height": 32,
+					"dataSource": "BAR_l_Button_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp19"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/oBarButton1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBarButton2": {
+					"type": "button",
+					"top": 1,
+					"left": 164,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp2"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:0",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton2.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton3": {
+					"type": "button",
+					"top": 1,
+					"left": 209,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp3"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton3.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton4": {
+					"type": "button",
+					"top": 1,
+					"left": 254,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHElp4"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton4.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton5": {
+					"type": "button",
+					"top": 1,
+					"left": 299,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp5"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton5.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton6": {
+					"type": "button",
+					"top": 1,
+					"left": 344,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_6",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp6"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton6.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton7": {
+					"type": "button",
+					"top": 1,
+					"left": 389,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_7",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp7"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton7.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton8": {
+					"type": "button",
+					"top": 1,
+					"left": 434,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_8",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp8"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton8.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton9": {
+					"type": "button",
+					"top": 1,
+					"left": 479,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_9",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp9"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton9.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton10": {
+					"type": "button",
+					"top": 1,
+					"left": 524,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_10",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp10"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton10.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton11": {
+					"type": "button",
+					"top": 1,
+					"left": 569,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp11"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton11.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton12": {
+					"type": "button",
+					"top": 1,
+					"left": 614,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_12",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp12"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton12.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton13": {
+					"type": "button",
+					"top": 1,
+					"left": 659,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_13",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp13"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton13.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton14": {
+					"type": "button",
+					"top": 1,
+					"left": 704,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_14",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp14"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton14.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton15": {
+					"type": "button",
+					"top": 1,
+					"left": 749,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp15"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton15.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton16": {
+					"type": "button",
+					"top": 1,
+					"left": 794,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_16",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp16"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton16.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton17": {
+					"type": "button",
+					"top": 1,
+					"left": 839,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_17",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp17"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton17.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton18": {
+					"type": "button",
+					"top": 1,
+					"left": 884,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_18",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp18"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton18.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton19": {
+					"type": "button",
+					"top": 1,
+					"left": 929,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_19",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp19"
+					},
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton19.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton20": {
+					"type": "button",
+					"top": 1,
+					"left": 974,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_20",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton20.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton21": {
+					"type": "button",
+					"top": 1,
+					"left": 1019,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_21",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton21.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton22": {
+					"type": "button",
+					"top": 1,
+					"left": 1064,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_22",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton22.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton23": {
+					"type": "button",
+					"top": 1,
+					"left": 1109,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_23",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton23.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton24": {
+					"type": "button",
+					"top": 1,
+					"left": 1154,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_24",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton24.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton25": {
+					"type": "button",
+					"top": 1,
+					"left": 1199,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_25",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"icon": "var:",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton25.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 147,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

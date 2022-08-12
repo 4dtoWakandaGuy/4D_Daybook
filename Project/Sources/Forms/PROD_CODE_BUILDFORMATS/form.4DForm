@@ -1,0 +1,600 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 10,
+					"left": 12,
+					"width": 254,
+					"height": 12,
+					"class": "Headers",
+					"text": "Build Product code Formats"
+				},
+				"oLBFormatSections": {
+					"type": "listbox",
+					"top": 32,
+					"left": 336,
+					"width": 380,
+					"height": 311,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "PC_l_SectionInfo",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"staticColumnCount": 3,
+					"table": 188,
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBFormatSections.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onColumnMove",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]FORMAT_ID:2",
+							"dataSourceTypeHint": "integer",
+							"width": 0,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header4",
+								"dataSource": "Header4",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_ID:1",
+							"dataSourceTypeHint": "integer",
+							"width": 0,
+							"maxWidth": 0,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"dataSource": "Header5",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column6",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_NUMBER:3",
+							"dataSourceTypeHint": "integer",
+							"width": 35,
+							"minWidth": 35,
+							"maxWidth": 35,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Order",
+								"dataSource": "Header6",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "oSectionName",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_NAME:4",
+							"width": 200,
+							"minWidth": 120,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Name",
+								"dataSource": "Header7",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column8",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_LENGTH:5",
+							"dataSourceTypeHint": "integer",
+							"width": 35,
+							"minWidth": 35,
+							"maxWidth": 35,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Length",
+								"dataSource": "Header8",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column9",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_FILL_CHARACTER:6",
+							"width": 35,
+							"minWidth": 35,
+							"maxWidth": 35,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header9",
+								"text": "Fill Char",
+								"dataSource": "Header9",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer9",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column10",
+							"dataSource": "[BUILT_CODE_FORMAT_SECTION:188]SECTION_FILL_STYLE:7",
+							"width": 60,
+							"minWidth": 40,
+							"maxWidth": 60,
+							"requiredList": {
+								"$ref": "/SOURCES/lists.json#/SD2invstatusNG"
+							},
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header10",
+								"text": "Fill Style",
+								"dataSource": "Header10",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer10",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 10,
+					"left": 336,
+					"width": 254,
+					"height": 12,
+					"class": "Headers",
+					"text": "Selected Format Sections"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 357,
+					"left": 437,
+					"width": 199,
+					"height": 13,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "Total Product Code Length"
+				},
+				"oTotalLength": {
+					"type": "input",
+					"top": 357,
+					"left": 646,
+					"width": 70,
+					"height": 13,
+					"dataSource": "PC_l_totalFormatLength",
+					"class": "Field_INFOS",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 383,
+					"left": 336,
+					"width": 365,
+					"height": 65,
+					"class": "Field_INFOS",
+					"textAlign": "left",
+					"text": "Note: The maximum bult product  code for a format must not exceed 25 Characters Fill characters can only be used for format sections that have a number of characters, the fill styles are left of right . The fill characters will be added to the left or right of the section(default is to the right).  "
+				},
+				"oAddFormat": {
+					"type": "button",
+					"top": 459,
+					"left": 154,
+					"width": 144,
+					"height": 21,
+					"dataSource": "PC_l_AddFormat",
+					"text": "Add New Format",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oAddFormat.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oAddSection": {
+					"type": "button",
+					"top": 353,
+					"left": 336,
+					"width": 138,
+					"height": 22,
+					"dataSource": "PC_l_AddSection",
+					"text": "Add New Section",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oAddSection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonExit": {
+					"type": "button",
+					"top": 459,
+					"left": 630,
+					"width": 86,
+					"height": 22,
+					"dataSource": "PC_l_Save",
+					"shortcutKey": "[Return]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonExit.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtoncancel": {
+					"type": "button",
+					"top": 459,
+					"left": 535,
+					"width": 86,
+					"height": 22,
+					"dataSource": "PC_l_Cancel",
+					"display": false,
+					"method": "ObjectMethods/oButtoncancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oLBCodeFormats": {
+					"type": "listbox",
+					"top": 32,
+					"left": 6,
+					"width": 310,
+					"height": 416,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "PRD_l_LBCodeFormats",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"table": 189,
+					"highlightSet": "ListboxSet0",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBCodeFormats.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "[PRODUCT_BUILT_CODE_FORMAT:189]FORMAT_ID:1",
+							"dataSourceTypeHint": "integer",
+							"width": 30,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "ID",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "oNameColumn",
+							"dataSource": "[PRODUCT_BUILT_CODE_FORMAT:189]FORMAT_NAME:2",
+							"width": 200,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Name",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "[PRODUCT_BUILT_CODE_FORMAT:189]NUMBER_OF_SECTIONS:3",
+							"dataSourceTypeHint": "integer",
+							"width": 65,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Sections",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			},
+			"entryOrder": [
+				"oLBFormatSections",
+				"oAddFormat",
+				"oAddSection",
+				"oButtonExit",
+				"oLBCodeFormats"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

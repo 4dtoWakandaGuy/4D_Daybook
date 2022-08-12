@@ -1,0 +1,211 @@
+//@NOTES
+OK so in this document you can store your required headers. You will see there are headers for methods, scripts, triggers and form methods.
+on each one after the header there are identifiers-as labels
+note in the header the use of some variables. Not the seperators bounded by values starting with a at-symbol and ending with an at-symbol -obviously dont use those values in your text or
+you will confuse the code picking this up
+Note this a text document rather than an xml document because generally putting this text together is easier than putting into xml.
+$_t_HeaderMethodName-this will be replaced with the method name
+Current date and time will be replaced with the current date and time
+<>DIFF_t_CurrentDesigner gets replaced with the current designer-when you start the system asks who you are(there is a method to auto set it)
+$_t_DesignerName is the same value unless its an existing method with no header-bit unfair to declare it was written by the current programmer
+other vars in the template are what i use in my code-and are put in the header as is
+@NOTES//
+
+//@DatabaseMethod
+IF(FALSE)
+//Database Method Name:      $_t_HeaderMethodName
+//------------------ Method Notes ------------------
+
+//------------------ Revision Control ----------------
+//Date Created:  String(Current date)
+//Created BY:  $_t_DesignerName
+
+//Date Modified: 
+//Modified By: <>DIFF_t_CurrentDesigner
+//Modification notes
+
+END IF
+//Variable Declarations
+if(False)
+//declare variables here
+end if
+//Code Starts Here
+DatabaseMethod@
+
+@DatabaseMethodSettings
+@Declarationsafterline make sure you tell the code where declarations are if you are auto building declarations
+//Variable Declarations
+Declarationsafterline@
+@DeclarationsEndline make sure you tell the code where declarations end if you are auto building declarations
+//---------- Reassign Passed Parameters OR get values
+DeclarationsEndline@
+@CodeafterLine  (This is used to check the header exists-if its not there it will add a header. If this empty no header will be added unless the code was emptyd)
+//Code Starts Here
+CodeafterLine@
+@Includeifmethodblank
+
+Includeifmethodblank@
+DatabaseMethodSettings@
+
+
+//@ProjectMethod
+IF(FALSE)
+//Database Method Name:      $_t_HeaderMethodName
+//------------------ Method Notes ------------------
+
+//------------------ Revision Control ----------------
+//Date Created:  String(Current date)
+//Created BY:  $_t_DesignerName
+
+//Date Modified: 
+//Modified By: <>DIFF_t_CurrentDesigner
+//Modification notes
+
+END IF
+//Variable Declarations
+if(False)
+//declare variables here
+end if
+//Code Starts Here
+
+
+ProjectMethod@
+@ProjectMethodSettings
+@Declarationsafterline make sure you tell the code where declarations are if you are auto building declarations
+//Variable Declarations
+Declarationsafterline@
+@DeclarationsEndline make sure you tell the code where declarations end if you are auto building declarations
+//---------- Reassign Passed Parameters OR get values
+DeclarationsEndline@
+@CodeafterLine  (This is used to check the header exists-if its not there it will add a header. If this empty no header will be added unless the code was emptyd)
+//Code Starts Here
+CodeafterLine@
+@Includeifmethodblank
+
+Includeifmethodblank@
+ProjectMethodSettings@
+
+@FormMethod
+IF(FALSE)
+//Form Name:      $_t_HeaderMethodName
+//------------------ Method Notes ------------------
+
+//------------------ Revision Control ----------------
+//Date Created:  String(Current date)
+//Created BY:  $_t_DesignerName
+
+//Date Modified: 
+//Modified By: <>DIFF_t_CurrentDesigner
+//Modification notes
+
+END IF
+//Variable Declarations
+if(False)
+//declare variables here
+end if
+//Code Starts Here
+FormMethod@
+@FormMethodSettings
+@Declarationsafterline make sure you tell the code where declarations are if you are auto building declarations
+//Variable Declarations
+Declarationsafterline@
+@DeclarationsEndline make sure you tell the code where declarations end if you are auto building declarations
+//---------- Reassign Passed Parameters OR get values
+DeclarationsEndline@
+@CodeafterLine This is used to check the header exists-if its not there it will add a header. If this empty no header will be added unless the code was emptyd)
+//Code Starts Here
+CodeafterLine@
+@Includeifmethodblank
+Case of
+:(Form event=On load)
+
+
+End case
+Includeifmethodblank@
+
+FormMethodSettings@
+
+@FormObjectMethod
+IF(FALSE)
+//Object Name:      $_t_HeaderMethodName
+//------------------ Script Notes ------------------
+
+//------------------ Revision Control ----------------
+//Date Created:  String(Current date)
+//Created BY:  $_t_DesignerName
+
+//Date Modified: 
+//Modified By: <>DIFF_t_CurrentDesigner
+//Modification notes
+
+END IF
+//Variable Declarations
+if(False)
+//declare variables here
+end if
+//Code Starts Here
+FormObjectMethod@
+
+@FormObjectMethodSettings
+@Declarationsafterline make sure you tell the code where declarations are if you are auto building declarations
+//Variable Declarations
+
+Declarationsafterline@
+@DeclarationsEndline make sure you tell the code where declarations end if you are auto building declarations
+//---------- Reassign Passed Parameters OR get values
+DeclarationsEndline@
+@CodeafterLine This is used to check the header exists-if its not there it will add a header. If this empty no header will be added unless the code was emptyd)
+//Code Starts Here
+CodeafterLine@
+
+@Includeifmethodblank
+Case of
+:(Form event=On clicked)
+
+
+End case
+Includeifmethodblank@
+FormObjectMethodSettings@
+
+@Triggers
+IF(FALSE)
+//Table Name:      $_t_HeaderMethodName
+//------------------ Trigger Notes ------------------
+
+//------------------ Revision Control ----------------
+//Date Created:  String(Current date)
+//Created BY:  $_t_DesignerName
+
+//Date Modified: 
+//Modified By: <>DIFF_t_CurrentDesigner
+//Modification notes
+
+END IF
+//Variable Declarations
+if(False)
+//declare variables here
+end if
+//Code Starts Here
+Triggers@
+
+@TriggersSettings
+@Declarationsafterline make sure you tell the code where declarations are if you are auto building declarations
+//Variable Declarations
+Declarationsafterline@
+@DeclarationsEndline make sure you tell the code where declarations end if you are auto building declarations
+//---------- Reassign Passed Parameters OR get values
+DeclarationsEndline@
+@CodeafterLine This is used to check the header exists-if its not there it will add a header. If this empty no header will be added unless the code was emptyd)
+//Code Starts Here
+CodeafterLine@
+@Includeifmethodblank
+Case of
+: (Trigger event=On Saving New Record Event)
+
+: (Trigger event=On Saving Existing Record Event)
+
+
+: (Trigger event=On Deleting Record Event)
+End case
+Includeifmethodblank@
+TriggersSettings@

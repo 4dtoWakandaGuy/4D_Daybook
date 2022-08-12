@@ -1,0 +1,148 @@
+{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 15,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 48,
+	"markerBreak": 48,
+	"markerFooter": 56,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 18,
+					"left": 1,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Date:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 17,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_PrintDate",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 17,
+					"left": 274,
+					"width": 29,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Time:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 17,
+					"left": 305,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_PrintTimes",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 33,
+					"left": 5,
+					"width": 89,
+					"height": 10,
+					"class": "Print_10pt_TIMES",
+					"textAlign": "right",
+					"text": "Action:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 33,
+					"left": 97,
+					"width": 175,
+					"height": 12,
+					"dataSource": "SD_t_PrintAction",
+					"class": "Default",
+					"focusable": false,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

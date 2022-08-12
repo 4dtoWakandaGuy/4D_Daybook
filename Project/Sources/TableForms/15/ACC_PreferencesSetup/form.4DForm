@@ -1,0 +1,823 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oAccountsPreferencesPageTab": {
+					"type": "tab",
+					"top": 30,
+					"left": 1,
+					"width": 361,
+					"height": 25,
+					"dataSource": "ACC_at_TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"action": "gotoPage",
+					"method": "ObjectMethods/oAccountsPreferencesPageTab.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAccountsPreferencesHeader": {
+					"type": "text",
+					"top": 8,
+					"left": 10,
+					"width": 235,
+					"height": 12,
+					"stroke": "#005F60",
+					"class": "Headers",
+					"text": "ACCOUNTS PREFERENCES SETUP"
+				},
+				"oButtonStartCheck": {
+					"type": "button",
+					"top": 318,
+					"left": 137,
+					"width": 91,
+					"height": 18,
+					"dataSource": "bStartOneTimeCheck",
+					"text": "Run Check Now",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonStartCheck.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonExitEnter": {
+					"type": "button",
+					"top": 318,
+					"left": 248,
+					"width": 99,
+					"height": 20,
+					"dataSource": "bExit",
+					"shortcutKey": "[Enter]",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonExitEnter.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonExitReturn": {
+					"type": "button",
+					"top": 318,
+					"left": 248,
+					"width": 99,
+					"height": 20,
+					"dataSource": "bExit",
+					"shortcutKey": "[Return]",
+					"text": "Exit",
+					"display": false,
+					"method": "ObjectMethods/oButtonExitReturn.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oDIaryLogGroup": {
+					"type": "groupBox",
+					"top": 68,
+					"left": 15,
+					"width": 334,
+					"height": 115,
+					"class": "Default"
+				},
+				"oLogErrorsToDIaryCB": {
+					"type": "checkbox",
+					"top": 79,
+					"left": 21,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_CBLogToDiary",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref1"
+					},
+					"text": "Log Account Errors in diary",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oLogErrorsToDIaryCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActionCodeLabel": {
+					"type": "text",
+					"top": 100,
+					"left": 24,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Action Code to use :"
+				},
+				"oActionName": {
+					"type": "input",
+					"top": 99,
+					"left": 226,
+					"width": 120,
+					"height": 13,
+					"dataSource": "ACC_t_ActionName",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLogToDiaryLabel": {
+					"type": "text",
+					"top": 118,
+					"left": 26,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Log to Diary :"
+				},
+				"oButtonAddDiary": {
+					"type": "button",
+					"top": 153,
+					"left": 94,
+					"width": 54,
+					"height": 19,
+					"dataSource": "bAdd",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonAddDiary.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailLogGroup": {
+					"type": "groupBox",
+					"top": 195,
+					"left": 16,
+					"width": 333,
+					"height": 114,
+					"class": "Default"
+				},
+				"oLogErrorstoEmailCB": {
+					"type": "checkbox",
+					"top": 206,
+					"left": 22,
+					"width": 204,
+					"height": 12,
+					"dataSource": "ACC_l_CBLogToeMail",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref2"
+					},
+					"text": "Send Account Errors via Email",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oLogErrorstoEmailCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailAccountsLabel": {
+					"type": "text",
+					"top": 225,
+					"left": 27,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Email Accounts"
+				},
+				"obuttonAddEmailAccount": {
+					"type": "button",
+					"top": 280,
+					"left": 95,
+					"width": 54,
+					"height": 19,
+					"dataSource": "bAdd",
+					"text": "Add",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/obuttonAddEmailAccount.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActionNamesDropDown": {
+					"type": "dropdown",
+					"top": 96,
+					"left": 157,
+					"width": 66,
+					"height": 17,
+					"dataSource": "ACC_at_DiaryActionNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oActionNamesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLBdiaries": {
+					"type": "listbox",
+					"top": 123,
+					"left": 157,
+					"width": 187,
+					"height": 54,
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_ErrorsDiary",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBdiaries.4dm",
+					"columns": []
+				},
+				"olbmailaccounts": {
+					"type": "listbox",
+					"top": 244,
+					"left": 157,
+					"width": 187,
+					"height": 54,
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_MailAccounts",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": []
+				},
+				"oActionCode": {
+					"type": "input",
+					"top": 99,
+					"left": 158,
+					"width": 46,
+					"height": 14,
+					"dataSource": "ACC_t_ActionCode",
+					"class": "Fields",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oBalanceCheckingGroup": {
+					"type": "groupBox",
+					"top": 69,
+					"left": 15,
+					"width": 331,
+					"height": 183,
+					"class": "Labels",
+					"text": "Account Balance Checking"
+				},
+				"oRestrictHistoricalGroup": {
+					"type": "groupBox",
+					"top": 195,
+					"left": 15,
+					"width": 331,
+					"height": 57,
+					"class": "Labels",
+					"text": "Do not amend account balances for periods before"
+				},
+				"oFixAccountBalanceCB": {
+					"type": "checkbox",
+					"top": 90,
+					"left": 41,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixAccountV",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref13"
+					},
+					"text": "Validate Account Balance when it is modified",
+					"class": "Default",
+					"method": "ObjectMethods/oFixAccountBalanceCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCorrectAccountBalanceCB": {
+					"type": "checkbox",
+					"top": 108,
+					"left": 41,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixAccountB",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref11"
+					},
+					"text": "Automatically Correct Account Balance if it is incorrect",
+					"class": "Default",
+					"method": "ObjectMethods/oCorrectAccountBalanceCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oDateLabel": {
+					"type": "text",
+					"top": 217,
+					"left": 19,
+					"width": 38,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Date :"
+				},
+				"oDateFrom": {
+					"type": "input",
+					"top": 217,
+					"left": 71,
+					"width": 79,
+					"height": 12,
+					"dataSource": "ACC_D_EDate",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oDateFrom.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPeriodLabel": {
+					"type": "text",
+					"top": 217,
+					"left": 153,
+					"width": 58,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "or Period :"
+				},
+				"oPeriodCodesDropDown": {
+					"type": "dropdown",
+					"top": 215,
+					"left": 214,
+					"width": 101,
+					"height": 18,
+					"dataSource": "ACC_at_EPeriodCodes",
+					"display": true,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oPeriodCodesDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonReset": {
+					"type": "button",
+					"top": 217,
+					"left": 153,
+					"width": 59,
+					"height": 13,
+					"dataSource": "BClear",
+					"display": false,
+					"method": "ObjectMethods/oButtonReset.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oTransactionCheckingGroupBox": {
+					"type": "groupBox",
+					"top": 63,
+					"left": 11,
+					"width": 331,
+					"height": 223,
+					"class": "Labels",
+					"text": "Transaction Checking"
+				},
+				"oValidationFrequencyCB": {
+					"type": "checkbox",
+					"top": 85,
+					"left": 32,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBConstantCheck",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref3"
+					},
+					"text": "Validation of Transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oValidationFrequencyCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oStartTImeLabel": {
+					"type": "text",
+					"top": 134,
+					"left": 26,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time to Start :"
+				},
+				"oStartTime": {
+					"type": "input",
+					"top": 137,
+					"left": 167,
+					"width": 99,
+					"height": 12,
+					"dataSource": "ACC_ti_CTimeStart",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oStartTime.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPauseTimeLabel": {
+					"type": "text",
+					"top": 160,
+					"left": 26,
+					"width": 128,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Time to Pause :"
+				},
+				"oPauseTime": {
+					"type": "input",
+					"top": 160,
+					"left": 167,
+					"width": 99,
+					"height": 12,
+					"dataSource": "ACC_ti_CTimeEnd",
+					"class": "Default",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPauseTime.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oBeforeHoursNote": {
+					"type": "text",
+					"top": 173,
+					"left": 39,
+					"width": 121,
+					"height": 13,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "(Before working hours)"
+				},
+				"oAfterHoursNote": {
+					"type": "text",
+					"top": 146,
+					"left": 39,
+					"width": 121,
+					"height": 13,
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"text": "(After working hours)"
+				},
+				"oFixAnalysisCodesCB": {
+					"type": "checkbox",
+					"top": 194,
+					"left": 32,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixTransactionsA",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Acc_Pref6"
+					},
+					"text": "Fix Analysis Code errors on Transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oFixAnalysisCodesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFixLayerCodesCB": {
+					"type": "checkbox",
+					"top": 212,
+					"left": 32,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixTransactionsL",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref7"
+					},
+					"text": "Fix Layer Code errors on Transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oFixLayerCodesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFixCurrencyCodesCB": {
+					"type": "checkbox",
+					"top": 230,
+					"left": 32,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixTransactionsC",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref8"
+					},
+					"text": "Fix Currency Code errors on Transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oFixCurrencyCodesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oFIxValuesCB": {
+					"type": "checkbox",
+					"top": 248,
+					"left": 32,
+					"width": 271,
+					"height": 12,
+					"dataSource": "ACC_l_CBFixTransactionsV",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref9"
+					},
+					"text": "Fix Amount & Tax errors on Transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oFIxValuesCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"obuttonRunLocal": {
+					"type": "button",
+					"top": 291,
+					"left": 13,
+					"width": 148,
+					"height": 21,
+					"dataSource": "BRunCheckNow",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Acc_Pref10"
+					},
+					"text": "Run Transaction check here",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/obuttonRunLocal.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oOnePassRB": {
+					"type": "radio",
+					"top": 98,
+					"left": 49,
+					"width": 251,
+					"height": 13,
+					"dataSource": "ACC_l_CBOneCheck",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref4"
+					},
+					"text": "One pass validation of transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oOnePassRB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oContinuousRB": {
+					"type": "radio",
+					"top": 115,
+					"left": 49,
+					"width": 251,
+					"height": 12,
+					"dataSource": "ACC_l_CBContinuousCheck",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/ACC_Pref4"
+					},
+					"text": "Reccuring Validation of transactions",
+					"class": "Default",
+					"method": "ObjectMethods/oContinuousRB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 108,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

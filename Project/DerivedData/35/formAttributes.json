@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"VAT_In": {
+			"timeStamp": "2022-03-13T15:42:04.325Z",
+			"destination": "detailScreen"
+		},
+		"VAT_Out": {
+			"timeStamp": "2022-03-13T15:42:04.306Z",
+			"destination": "listScreen"
+		}
+	}
+}

@@ -1,0 +1,220 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLabelChartofAccounts": {
+					"type": "text",
+					"top": 11,
+					"left": 7,
+					"width": 216,
+					"height": 14,
+					"class": "Labels",
+					"text": "Import template chart of accounts :"
+				},
+				"oRBAllRemplates": {
+					"type": "radio",
+					"top": 56,
+					"left": 428,
+					"width": 160,
+					"height": 28,
+					"dataSource": "ACC_rb_AllTemplates",
+					"text": "ALL TEMPLATES",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"method": "ObjectMethods/oRBAllRemplates.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBUSATEMPLATES": {
+					"type": "radio",
+					"top": 4,
+					"left": 428,
+					"width": 160,
+					"height": 28,
+					"dataSource": "ACC_rb_USTemplates",
+					"text": "U.S.A. TEMPLATES",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"method": "ObjectMethods/oRBUSATEMPLATES.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oRBUKTEMPLATES": {
+					"type": "radio",
+					"top": 30,
+					"left": 428,
+					"width": 160,
+					"height": 28,
+					"dataSource": "ACC_rb_UKTemplates",
+					"text": "UK TEMPLATES",
+					"class": "Check_Box_text_SMALL_BOLD",
+					"method": "ObjectMethods/oRBUKTEMPLATES.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oACCTemplatesChoice": {
+					"type": "listbox",
+					"top": 11,
+					"left": 225,
+					"width": 192,
+					"height": 88,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_ChartTemplates",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"method": "ObjectMethods/oACCTemplatesChoice.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 217,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"oCBImportTabDelimted": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 185,
+					"width": 224,
+					"height": 26,
+					"sizingY": "move",
+					"dataSource": "ACC_CB_ImportTab",
+					"text": "Import From Tab Delimted",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCBImportTabDelimted.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCBImportTabDelimted1": {
+					"type": "checkbox",
+					"top": 141,
+					"left": 185,
+					"width": 224,
+					"height": 26,
+					"sizingY": "move",
+					"dataSource": "ACC_CB_ImportXLS",
+					"text": "Import From XLS",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oCBImportTabDelimted1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oImport2": {
+					"type": "button",
+					"top": 174,
+					"left": 435,
+					"width": 94,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "ACC_but_Continue",
+					"text": "Import",
+					"defaultButton": true,
+					"method": "ObjectMethods/oImport2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oImport1": {
+					"type": "button",
+					"top": 174,
+					"left": 332,
+					"width": 94,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "ACC_but_Cancel",
+					"text": "Cancel",
+					"method": "ObjectMethods/oImport1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

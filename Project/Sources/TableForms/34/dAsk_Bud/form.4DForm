@@ -1,0 +1,484 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oBasisGroupBox": {
+					"type": "groupBox",
+					"top": 41,
+					"left": 6,
+					"width": 322,
+					"height": 159,
+					"stroke": "#035D60",
+					"class": "Labels",
+					"text": ":xliff:FieldLabels_BasedOnUPPERCASE"
+				},
+				"oButtonsBackGround": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 349,
+					"width": 120,
+					"height": 217,
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"oAnalysisCodeLabel": {
+					"type": "text",
+					"top": 119,
+					"left": 18,
+					"width": 96,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FIeldLabels_analysisCode"
+				},
+				"oAccountCodeLabel": {
+					"type": "text",
+					"top": 99,
+					"left": 16,
+					"width": 98,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_account"
+				},
+				"oForPeriodLabel": {
+					"type": "text",
+					"top": 21,
+					"left": 17,
+					"width": 97,
+					"height": 17,
+					"stroke": "#005E60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FIeldLabels_ForPeriodUPPERCASE"
+				},
+				"oFromLabel": {
+					"type": "text",
+					"top": 62,
+					"left": 122,
+					"width": 49,
+					"height": 15,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"text": "From..."
+				},
+				"oToLabel": {
+					"type": "text",
+					"top": 62,
+					"left": 193,
+					"width": 49,
+					"height": 15,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"text": "To..."
+				},
+				"oLayerCodeLabel": {
+					"type": "text",
+					"top": 159,
+					"left": 17,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_layerCode"
+				},
+				"oPeriodCodeLabel": {
+					"type": "text",
+					"top": 80,
+					"left": 17,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_periodCode"
+				},
+				"oForLayerLabel": {
+					"type": "text",
+					"top": 21,
+					"left": 203,
+					"width": 74,
+					"height": 17,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_ForLayer"
+				},
+				"oIncrementLabel": {
+					"type": "text",
+					"top": 179,
+					"left": 17,
+					"width": 97,
+					"height": 17,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_Increment"
+				},
+				"oCurrencyCodeLabel": {
+					"type": "text",
+					"top": 139,
+					"left": 17,
+					"width": 97,
+					"height": 14,
+					"stroke": "#005F60",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": ":xliff:FieldLabels_currencycode"
+				},
+				"oCheckBoxFilterInEmptyAccounts": {
+					"type": "checkbox",
+					"top": 119,
+					"left": 199,
+					"width": 137,
+					"height": 17,
+					"dataSource": "Form:C1466.FilterinEmptyAccounts",
+					"text": ":xliff:Includeemptyaccounts",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#005F60",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oCheckBoxFilterInEmptyAccounts.4dm"
+				},
+				"oIncrement": {
+					"type": "input",
+					"top": 179,
+					"left": 122,
+					"width": 48,
+					"height": 14,
+					"dataSource": "Form:C1466.Increment",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"method": "ObjectMethods/oIncrement.4dm"
+				},
+				"oCheckBoxFilterLookupLists": {
+					"type": "checkbox",
+					"top": 21,
+					"left": 353,
+					"width": 89,
+					"height": 14,
+					"dataSource": "Form:C1466.NoLookupLists",
+					"text": ":xliff:Text_NoLookupLists",
+					"class": "Check_Box_text_SMALL",
+					"stroke": "#000000",
+					"method": "ObjectMethods/oCheckBoxFilterLookupLists.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 146,
+					"left": 361,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": ":xliff:CancelButton",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/oButtonCancel.4dm"
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 175,
+					"left": 361,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": ":xliff:Create",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					],
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonAccept.4dm"
+				},
+				"oPeriodCode": {
+					"type": "input",
+					"top": 22,
+					"left": 122,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Form:C1466.Period",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodCode.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oForLayerCode": {
+					"type": "input",
+					"top": 22,
+					"left": 283,
+					"width": 49,
+					"height": 14,
+					"dataSource": "Form:C1466.LayerCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oForLayerCode.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oPeriodCodeFrom": {
+					"type": "input",
+					"top": 80,
+					"left": 122,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Form:C1466.PeriodCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodCodeFrom.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAccountCodeFrom": {
+					"type": "input",
+					"top": 99,
+					"left": 122,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Form:C1466.AccountCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountCodeFrom.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAccountCodeTo": {
+					"type": "input",
+					"top": 99,
+					"left": 199,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Form:C1466.AccountCodeTo",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAccountCodeTo.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oAnalaysisCode": {
+					"type": "input",
+					"top": 119,
+					"left": 122,
+					"width": 48,
+					"height": 14,
+					"dataSource": "Form:C1466.AnalysisCodeFrom",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oAnalaysisCode.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oCurrencyCode": {
+					"type": "input",
+					"top": 139,
+					"left": 122,
+					"width": 48,
+					"height": 14,
+					"dataSource": "Form:C1466.CurrencyCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oCurrencyCode.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oPeriodCodeTo": {
+					"type": "input",
+					"top": 80,
+					"left": 199,
+					"width": 70,
+					"height": 14,
+					"dataSource": "Form:C1466.PeriodCodeto",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oPeriodCodeTo.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oLayerCode": {
+					"type": "input",
+					"top": 159,
+					"left": 122,
+					"width": 48,
+					"height": 14,
+					"dataSource": "Form:C1466.LayerCode",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"method": "ObjectMethods/oLayerCode.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oButtonCancelEscape": {
+					"type": "button",
+					"top": 146,
+					"left": 461,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/oButtonCancelEscape.4dm"
+				},
+				"oButtonAcceptReturn": {
+					"type": "button",
+					"top": 175,
+					"left": 360,
+					"width": 82,
+					"height": 22,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "Create",
+					"display": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/oButtonAcceptReturn.4dm"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 96,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,210 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oCardOwnerRangeDropDown": {
+					"type": "dropdown",
+					"top": 11,
+					"left": 157,
+					"width": 307,
+					"height": 17,
+					"dataSource": "CC_at_CardOwnerRange",
+					"class": "Fields",
+					"method": "ObjectMethods/oCardOwnerRangeDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCardOwnerName": {
+					"type": "input",
+					"top": 12,
+					"left": 159,
+					"width": 286,
+					"height": 15,
+					"dataSource": "CC_t_CardOwnerName",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"focusable": false,
+					"borderStyle": "sunken",
+					"enterable": false,
+					"showSelection": true,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonContinue": {
+					"type": "button",
+					"top": 192,
+					"left": 358,
+					"width": 109,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Bexit",
+					"action": "cancel",
+					"text": "Exit",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonContinue.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLabelContactName": {
+					"type": "text",
+					"top": 12,
+					"left": 19,
+					"width": 131,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Contact name :"
+				},
+				"oButtonAddNewCard": {
+					"type": "button",
+					"top": 192,
+					"left": 16,
+					"width": 112,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "baddCard",
+					"text": "New Card",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonAddNewCard.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCardWarningMessage": {
+					"type": "input",
+					"top": 176,
+					"left": 18,
+					"width": 456,
+					"height": 13,
+					"sizingY": "move",
+					"dataSource": "CCM_T_Warning",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCM_CardListing": {
+					"type": "listbox",
+					"top": 38,
+					"left": 5,
+					"width": 463,
+					"height": 131,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "CCM_LB_Cards",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oCCM_CardListing.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					],
+					"columns": []
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 5,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

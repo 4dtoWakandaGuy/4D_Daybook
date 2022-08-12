@@ -1,0 +1,170 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 53,
+	"markerBreak": 53,
+	"markerFooter": 53,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Field1": {
+					"type": "input",
+					"top": 18,
+					"left": 0,
+					"width": 263,
+					"height": 12,
+					"dataSource": "[PERSONNEL:11]Name:2",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 17,
+					"left": 547,
+					"width": 138,
+					"height": 12,
+					"dataSource": "SP_D_ReportPrintDate",
+					"class": "Default",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 35,
+					"left": 43,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Status"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 35,
+					"left": 216,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Type"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 35,
+					"left": 389,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Period Expected"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 35,
+					"left": 563,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Company"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 35,
+					"left": 832,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "TItle"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 35,
+					"left": 1149,
+					"width": 82,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Projected Value"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 35,
+					"left": 1237,
+					"width": 59,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Probability"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 35,
+					"left": 1297,
+					"width": 154,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Calculated % Probable Value"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 37,
+					"left": 1058,
+					"width": 74,
+					"height": 13,
+					"class": "Print_10pt_GENEVA",
+					"text": "Expected Date"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,362 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 7,
+					"left": 17,
+					"width": 150,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "<SD2_t_NoteLabel>"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 6,
+					"left": 174,
+					"width": 298,
+					"height": 15,
+					"dataSource": "SD2_t_NoteAttachedto",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oNotesDetails": {
+					"type": "input",
+					"top": 48,
+					"left": 175,
+					"width": 300,
+					"height": 150,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "SD2_t_NoteDetails",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 3,
+					"left": 478,
+					"width": 63,
+					"height": 18,
+					"dataSource": "BattachMore",
+					"text": "More...",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"OdetailsLabel": {
+					"type": "text",
+					"top": 51,
+					"left": 44,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Details"
+				},
+				"oSaveButton": {
+					"type": "button",
+					"top": 205,
+					"left": 468,
+					"width": 76,
+					"height": 21,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bSave",
+					"text": "Save",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oSaveButton.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCancelButton": {
+					"type": "button",
+					"top": 205,
+					"left": 381,
+					"width": 76,
+					"height": 21,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActionDate": {
+					"type": "text",
+					"top": 27,
+					"left": 44,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Date :"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 27,
+					"left": 175,
+					"width": 116,
+					"height": 15,
+					"dataSource": "SD2_D_NoteEntryDate",
+					"dataSourceTypeHint": "date",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 27,
+					"left": 304,
+					"width": 34,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Time"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 27,
+					"left": 347,
+					"width": 116,
+					"height": 15,
+					"dataSource": "SD2_ti_NoteEntryTime",
+					"dataSourceTypeHint": "time",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm_ss",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oActionLabel": {
+					"type": "text",
+					"top": 51,
+					"left": 44,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Note type"
+				},
+				"oActionPopup": {
+					"type": "dropdown",
+					"top": 48,
+					"left": 172,
+					"width": 202,
+					"height": 19,
+					"dataSource": "SD2_at_DiaryActionCodes",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oActionPopup.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oAction": {
+					"type": "input",
+					"top": 51,
+					"left": 175,
+					"width": 181,
+					"height": 14,
+					"dataSource": "SD2_NoteAction",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oResultsPopup": {
+					"type": "dropdown",
+					"top": 181,
+					"left": 173,
+					"width": 202,
+					"height": 19,
+					"sizingY": "move",
+					"dataSource": "SD3_at_resultNames",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"method": "ObjectMethods/oResultsPopup.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oResult": {
+					"type": "input",
+					"top": 183,
+					"left": 178,
+					"width": 181,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "SD2_t_NoteResult",
+					"class": "Fields",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oResultLabel": {
+					"type": "text",
+					"top": 184,
+					"left": 44,
+					"width": 124,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Result"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

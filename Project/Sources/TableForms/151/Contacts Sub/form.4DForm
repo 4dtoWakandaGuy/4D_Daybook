@@ -1,0 +1,90 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 18,
+	"markerBreak": 18,
+	"markerFooter": 18,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDisplayDetail",
+		"onDataChange",
+		"onOpenDetail",
+		"onCloseDetail"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Field1": {
+					"type": "input",
+					"top": 4,
+					"left": 3,
+					"width": 67,
+					"height": 12,
+					"dataSource": "[CONTRACTS_CONTACTS:151]Contact_Code:1",
+					"stroke": "#000000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 4,
+					"left": 72,
+					"width": 159,
+					"height": 12,
+					"dataSource": "vName",
+					"stroke": "#444444",
+					"class": "Fields_OUTPUT",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 0,
+					"height": 15
+				}
+			}
+		}
+	]
+}

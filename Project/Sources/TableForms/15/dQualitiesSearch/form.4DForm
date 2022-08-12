@@ -1,0 +1,431 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Qualities Search",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 747,
+	"windowMaxWidth": 2000,
+	"windowMinHeight": 412,
+	"rightMargin": 10,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 4,
+					"left": 17,
+					"width": 245,
+					"height": 406,
+					"sizingY": "grow",
+					"class": "Labels",
+					"text": "Available Information"
+				},
+				"oHLInfolist": {
+					"type": "list",
+					"top": 40,
+					"left": 23,
+					"width": 218,
+					"height": 333,
+					"sizingY": "grow",
+					"dataSource": "QV_HL_QualitiesList",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"dragging": "custom",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/oHLInfolist.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 24,
+					"left": 23,
+					"width": 222,
+					"height": 26,
+					"class": "Field_INFOS",
+					"text": "Drag Information from here or enter as text"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 4,
+					"left": 264,
+					"width": 479,
+					"height": 105,
+					"sizingX": "grow",
+					"class": "Labels",
+					"text": "Entered/Selected Information"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 40,
+					"left": 271,
+					"width": 370,
+					"height": 53,
+					"sizingX": "grow",
+					"dataSource": "QV_T_QualitiesAsTEXT",
+					"class": "Fields",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDrop",
+						"onDataChange",
+						"onDragOver",
+						"onPrintingDetail"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 20,
+					"left": 268,
+					"width": 387,
+					"height": 14,
+					"sizingX": "grow",
+					"class": "Field_INFOS",
+					"text": "Type Information in here(separated by commas,)"
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 73,
+					"left": 667,
+					"width": 68,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "Bvalidate",
+					"text": "Validate",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 392,
+					"left": 667,
+					"width": 68,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bvalidate",
+					"shortcutKey": "[Return]",
+					"text": "Find",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 392,
+					"left": 579,
+					"width": 68,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "dropdown",
+					"top": 113,
+					"left": 268,
+					"width": 210,
+					"height": 19,
+					"dataSource": "QV_at_QueryType",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 381,
+					"left": 174,
+					"width": 80,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "QV_but_collapseAll",
+					"text": "Collapse all",
+					"class": "BUttons_SMALL",
+					"focusable": false,
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oExpandAll": {
+					"type": "button",
+					"top": 381,
+					"left": 23,
+					"width": 80,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "QV_but_ExpandAll",
+					"text": "Expand All",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oExpandAll.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 392,
+					"left": 667,
+					"width": 68,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bvalidate",
+					"shortcutKey": "[Enter]",
+					"text": "Find",
+					"display": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 391,
+					"left": 579,
+					"width": 68,
+					"height": 21,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "BCancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text60": {
+					"type": "text",
+					"top": 115,
+					"left": 503,
+					"width": 69,
+					"height": 15,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"class": "Labels_OUTPUT",
+					"fontWeight": "bold",
+					"text": "Load Query"
+				},
+				"Variable56": {
+					"type": "dropdown",
+					"top": 113,
+					"left": 578,
+					"width": 165,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "SM_at_SearchNames",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/Variable56.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oLB": {
+					"type": "listbox",
+					"top": 146,
+					"left": 264,
+					"width": 483,
+					"height": 237,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "QV_LB_Items",
+					"hideFocusRing": true,
+					"sortable": false,
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLB.4dm",
+					"events": [
+						"onClick",
+						"onDrop",
+						"onDataChange",
+						"onDragOver"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 468,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange",
+								"onDragOver",
+								"onBeginDragOver"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 3,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

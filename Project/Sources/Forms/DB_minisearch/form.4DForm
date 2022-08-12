@@ -1,0 +1,315 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onLosingFocus",
+		"onGettingFocus",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oSRCH_t_Prompt1": {
+					"type": "input",
+					"top": 24,
+					"left": 4,
+					"width": 132,
+					"height": 13,
+					"dataSource": "SRCH_t_Prompt2",
+					"class": "Field_INFOS",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSearchvalue": {
+					"type": "subform",
+					"top": 17,
+					"left": 141,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSource": "SD2_t_SearchValue",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oSearchvalue.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"oButtonFind": {
+					"type": "button",
+					"top": 59,
+					"left": 206,
+					"width": 125,
+					"height": 22,
+					"dataSource": "DB_but_Find",
+					"shortcutKey": "[Return]",
+					"text": "Search",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonFind.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"obuttonCancel": {
+					"type": "button",
+					"top": 59,
+					"left": 61,
+					"width": 125,
+					"height": 22,
+					"dataSource": "DB_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"focusable": false,
+					"method": "ObjectMethods/obuttonCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Datepicker": {
+					"type": "subform",
+					"top": 24,
+					"left": 156,
+					"width": 168,
+					"height": 190,
+					"dataSource": "SD2_d_SearchValue",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DatePicker",
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Datepicker.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"oButtonFind1": {
+					"type": "button",
+					"top": 239,
+					"left": 206,
+					"width": 125,
+					"height": 22,
+					"dataSource": "DB_but_Find",
+					"shortcutKey": "[Return]",
+					"text": "Search",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonFind1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"obuttonCancel1": {
+					"type": "button",
+					"top": 239,
+					"left": 61,
+					"width": 125,
+					"height": 22,
+					"dataSource": "DB_but_Cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"focusable": false,
+					"method": "ObjectMethods/obuttonCancel1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSearchvalue2": {
+					"type": "subform",
+					"top": 17,
+					"left": 141,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSource": "SD2_r_SearchValue",
+					"dataSourceTypeHint": "number",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oSearchvalue2.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"SearchPicker": {
+					"type": "subform",
+					"top": 187,
+					"left": 323,
+					"width": 205,
+					"height": 30,
+					"dataSource": "vSearch",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/SearchPicker.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 127,
+					"left": 482,
+					"width": 60,
+					"height": 17,
+					"dataSource": "Variable",
+					"class": "Password",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSearchvalue3": {
+					"type": "subform",
+					"top": 17,
+					"left": 141,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSource": "SD2_ti_SearchValue",
+					"dataSourceTypeHint": "time",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/oSearchvalue3.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSearchValueTrue": {
+					"type": "radio",
+					"top": 24,
+					"left": 173,
+					"width": 57,
+					"height": 12,
+					"dataSource": "SD2_l_True",
+					"text": "True",
+					"class": "Fields",
+					"focusable": false,
+					"method": "ObjectMethods/oSearchValueTrue.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oSearchValueFalse": {
+					"type": "radio",
+					"top": 24,
+					"left": 254,
+					"width": 57,
+					"height": 12,
+					"dataSource": "SD2_l_False",
+					"text": "False",
+					"class": "Fields",
+					"focusable": false,
+					"method": "ObjectMethods/oSearchValueFalse.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oSearchDropDown": {
+					"type": "dropdown",
+					"top": 22,
+					"left": 141,
+					"width": 184,
+					"height": 20,
+					"dataSource": "ACC_at_PeriodCode",
+					"focusable": false,
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oSearchDropDown.4dm",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

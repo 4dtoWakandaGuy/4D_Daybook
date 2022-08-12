@@ -1,0 +1,175 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oLBReports": {
+					"type": "listbox",
+					"top": 16,
+					"left": 15,
+					"width": 341,
+					"height": 274,
+					"resizingMode": "legacy",
+					"dataSource": "REP_LB_Reports",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 326,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oCBSHowTypes": {
+					"type": "checkbox",
+					"top": 296,
+					"left": 17,
+					"width": 158,
+					"height": 12,
+					"dataSource": "REP_l_ShowReporttypes",
+					"text": "Show Report Types",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBeditReport": {
+					"type": "button",
+					"top": 27,
+					"left": 366,
+					"width": 102,
+					"height": 21,
+					"dataSource": "REP_l_EditReport",
+					"text": "Edit report",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBeditReport1": {
+					"type": "button",
+					"top": 269,
+					"left": 366,
+					"width": 102,
+					"height": 21,
+					"dataSource": "REP_l_EditReport",
+					"text": "Run Report",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oReporTypes": {
+					"type": "dropdown",
+					"top": 294,
+					"left": 149,
+					"width": 206,
+					"height": 18,
+					"dataSource": "REP_at_ReportTypesFilter",
+					"class": "Pop-ups",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBCreateReport2": {
+					"type": "button",
+					"top": 56,
+					"left": 366,
+					"width": 102,
+					"height": 21,
+					"dataSource": "REP_l_CreateReport",
+					"text": "New report",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,454 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 538,
+	"markerBreak": 539,
+	"markerFooter": 539,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 76,
+					"height": 38,
+					"strokeWidth": 0.1
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 76,
+					"width": 141,
+					"height": 38
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 640,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 499,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 358,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 217,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 76,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 640,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 499,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 358,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 217,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 76,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle13": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 640,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle14": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 499,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle15": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 358,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle16": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 217,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle17": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 76,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle18": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 640,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle19": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 499,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle20": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 358,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle21": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 217,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle22": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 76,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle23": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 640,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle24": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 499,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle25": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 358,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle26": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 217,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle27": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 76,
+					"width": 141,
+					"height": 100
+				},
+				"Rectangle28": {
+					"type": "rectangle",
+					"top": 438,
+					"left": 0,
+					"width": 76,
+					"height": 100
+				},
+				"Rectangle29": {
+					"type": "rectangle",
+					"top": 338,
+					"left": 0,
+					"width": 76,
+					"height": 100
+				},
+				"Rectangle30": {
+					"type": "rectangle",
+					"top": 238,
+					"left": 0,
+					"width": 76,
+					"height": 100
+				},
+				"Rectangle31": {
+					"type": "rectangle",
+					"top": 138,
+					"left": 0,
+					"width": 76,
+					"height": 100
+				},
+				"Rectangle32": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 0,
+					"width": 76,
+					"height": 100
+				},
+				"Rectangle33": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 217,
+					"width": 141,
+					"height": 38
+				},
+				"Rectangle34": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 358,
+					"width": 141,
+					"height": 38
+				},
+				"Rectangle35": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 499,
+					"width": 141,
+					"height": 38
+				},
+				"Rectangle36": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 640,
+					"width": 141,
+					"height": 38
+				},
+				"Text1": {
+					"type": "text",
+					"top": 79,
+					"left": 3,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "Paul\r"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 179,
+					"left": 3,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "William"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 279,
+					"left": 3,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "Malc."
+				},
+				"Text4": {
+					"type": "text",
+					"top": 379,
+					"left": 3,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "Jon"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 479,
+					"left": 3,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "Other"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 10,
+					"left": 111,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "MON"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 10,
+					"left": 252,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "TUES"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 10,
+					"left": 393,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "WED"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 10,
+					"left": 534,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "THUR"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 10,
+					"left": 675,
+					"width": 70,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times",
+					"fontSize": 18,
+					"text": "FRI"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 2,
+					"left": 8,
+					"width": 56,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"text": "Week Com."
+				},
+				"Text12": {
+					"type": "text",
+					"top": 17,
+					"left": 1,
+					"width": 70,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 9,
+					"text": "     /      /"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

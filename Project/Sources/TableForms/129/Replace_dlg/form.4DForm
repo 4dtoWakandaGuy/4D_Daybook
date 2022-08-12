@@ -1,0 +1,275 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 36,
+					"left": 10,
+					"width": 491,
+					"height": 148,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oFindLabel": {
+					"type": "text",
+					"top": 48,
+					"left": 20,
+					"width": 297,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Find..."
+				},
+				"Text1": {
+					"type": "text",
+					"top": 10,
+					"left": 17,
+					"width": 209,
+					"height": 16,
+					"stroke": "#000000"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 6,
+					"left": 16,
+					"width": 349,
+					"height": 16,
+					"stroke": "#000000",
+					"text": "Find and Replace..."
+				},
+				"Line1": {
+					"type": "line",
+					"top": 25,
+					"left": 6,
+					"width": 492,
+					"strokeWidth": 2
+				},
+				"Text3": {
+					"type": "text",
+					"top": 75,
+					"left": 20,
+					"width": 7,
+					"height": 16,
+					"stroke": "#000000"
+				},
+				"TextFindObj": {
+					"type": "input",
+					"top": 64,
+					"left": 20,
+					"width": 469,
+					"height": 16,
+					"dataSource": "<>SDA_t_Find",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"SDA_Replace variable": {
+					"type": "input",
+					"top": 112,
+					"left": 20,
+					"width": 469,
+					"height": 16,
+					"dataSource": "<>SDA_t_Replace",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ReplaceAll Button": {
+					"type": "button",
+					"top": 150,
+					"left": 326,
+					"width": 80,
+					"height": 20,
+					"dataSource": "<>SDA_btn_ReplaceAll",
+					"action": "accept",
+					"text": "Replace All",
+					"fontTheme": "normal",
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Cancel Button": {
+					"type": "button",
+					"top": 150,
+					"left": 410,
+					"width": 80,
+					"height": 20,
+					"dataSource": "<>SDA_btn_CancelRep",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"fontTheme": "normal",
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable93": {
+					"type": "button",
+					"top": 257,
+					"left": 46,
+					"width": 80,
+					"height": 20,
+					"dataSource": "<>SDA_btn_Cut",
+					"shortcutKey": "x",
+					"shortcutAccel": true,
+					"text": "Cut",
+					"fontTheme": "normal",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable93.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable81": {
+					"type": "button",
+					"top": 257,
+					"left": 131,
+					"width": 80,
+					"height": 20,
+					"dataSource": "<>SDA_btn_Copy",
+					"shortcutKey": "c",
+					"shortcutAccel": true,
+					"text": "Copy",
+					"fontTheme": "normal",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable81.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable82": {
+					"type": "button",
+					"top": 257,
+					"left": 215,
+					"width": 80,
+					"height": 20,
+					"dataSource": "<>SDA_btn_Paste",
+					"shortcutKey": "v",
+					"shortcutAccel": true,
+					"text": "Paste",
+					"fontTheme": "normal",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable82.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"TypeOfReplacePrompt": {
+					"type": "input",
+					"top": 91,
+					"left": 20,
+					"width": 298,
+					"height": 16,
+					"dataSource": "<>SDA_t_ReplaceType",
+					"stroke": "#000000",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 1
+}

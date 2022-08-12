@@ -1,0 +1,1062 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperWidth": "8568pt",
+		"paperHeight": "12125pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 25,
+					"left": 1,
+					"width": 553,
+					"height": 394,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"stroke": "#076000"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 554,
+					"height": 24,
+					"sizingX": "grow",
+					"fill": "#076000"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 5,
+					"left": 15,
+					"width": 167,
+					"height": 12,
+					"fill": "#076000",
+					"stroke": "#C5FFC0",
+					"class": "Headers",
+					"text": "TIME & COSTS: Time"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 37,
+					"left": 15,
+					"width": 86,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Defaults:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 59,
+					"left": 15,
+					"width": 62,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job Code"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 74,
+					"left": 18,
+					"width": 59,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stage"
+				},
+				"Field3": {
+					"type": "input",
+					"top": 60,
+					"left": 85,
+					"width": 96,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Your_Order_Number:10",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 75,
+					"left": 85,
+					"width": 96,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Source:18",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable29": {
+					"type": "tab",
+					"top": 5,
+					"left": 393,
+					"width": 161,
+					"height": 20,
+					"dataSource": "OI_at_OrderItemTabs",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Labels",
+					"method": "ObjectMethods/Variable29.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 117,
+					"left": 554,
+					"width": 1,
+					"height": 36,
+					"dataSource": "Bright",
+					"shortcutKey": "[right arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 165,
+					"left": 554,
+					"width": 1,
+					"height": 36,
+					"dataSource": "Bright",
+					"shortcutKey": "[left arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 59,
+					"left": 355,
+					"width": 51,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Person"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 399,
+					"left": 328,
+					"width": 78,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Total Value"
+				},
+				"Field5": {
+					"type": "input",
+					"top": 60,
+					"left": 236,
+					"width": 73,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Order_Date:4",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 60,
+					"left": 416,
+					"width": 51,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Person:5",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field7": {
+					"type": "input",
+					"top": 75,
+					"left": 416,
+					"width": 51,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Taken_By:17",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Subform1": {
+					"type": "subform",
+					"top": 205,
+					"left": 601,
+					"width": 504,
+					"height": 164,
+					"dataSourceTypeHint": "text",
+					"table": 12,
+					"detailForm": "Diary InT13",
+					"listForm": "Diary SubT",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 399,
+					"left": 236,
+					"width": 82,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "[ORDERS:24]Total_Margin:12",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 399,
+					"left": 416,
+					"width": 119,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "[ORDERS:24]Total_Margin_PC:13",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 96,
+					"left": 15,
+					"width": 80,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Time ..."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 399,
+					"left": 172,
+					"width": 62,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#444444",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Total Units"
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 458,
+					"left": 8,
+					"width": 16,
+					"height": 17,
+					"dataSource": "iOK",
+					"shortcutKey": "\u0003",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 458,
+					"left": 25,
+					"width": 16,
+					"height": 17,
+					"dataSource": "iCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 59,
+					"left": 192,
+					"width": 40,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Date"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 74,
+					"left": 315,
+					"width": 91,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Charge Type"
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 176,
+					"left": 602,
+					"width": 519,
+					"height": 29,
+					"fill": "#CCCCCC",
+					"stroke": "#444444"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 176,
+					"left": 602,
+					"height": 28,
+					"stroke": "#FFFFFF"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 176,
+					"left": 602,
+					"width": 519,
+					"height": 1,
+					"stroke": "#FFFFFF"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 175,
+					"left": 601,
+					"height": 30,
+					"stroke": "#FFFFFF"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 175,
+					"left": 602,
+					"width": 519,
+					"stroke": "#FFFFFF"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 177,
+					"left": 872,
+					"width": 35,
+					"height": 13,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Person"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 177,
+					"left": 603,
+					"width": 67,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Job\rStage/Done"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 177,
+					"left": 672,
+					"width": 44,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Date Do\rFrom/To"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 177,
+					"left": 725,
+					"width": 40,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Time Do\rFrom/To"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 177,
+					"left": 768,
+					"width": 47,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Date Done\rFrom/To"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 177,
+					"left": 821,
+					"width": 48,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Time Done\rFrom/To"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 177,
+					"left": 910,
+					"width": 67,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Charge Type\rDescription"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 177,
+					"left": 1000,
+					"width": 48,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Sales Rate\rUnits\r"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 177,
+					"left": 1051,
+					"width": 41,
+					"height": 26,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"text": "Hours\rValue"
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 458,
+					"left": 50,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xPlus",
+					"action": "addSubrecord",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 458,
+					"left": 85,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xMinus",
+					"action": "deleteSubrecord",
+					"shortcutKey": ",",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 476,
+					"left": 50,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xPlus",
+					"shortcutKey": "[Tab]",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle16": {
+					"type": "rectangle",
+					"top": 115,
+					"left": 16,
+					"width": 521,
+					"height": 29,
+					"fill": "#CCCCCC",
+					"stroke": "#444444"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 115,
+					"left": 16,
+					"height": 28,
+					"stroke": "#FFFFFF"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 115,
+					"left": 16,
+					"width": 521,
+					"height": 1,
+					"stroke": "#FFFFFF"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 114,
+					"left": 15,
+					"height": 30,
+					"stroke": "#FFFFFF"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 114,
+					"left": 16,
+					"width": 521,
+					"stroke": "#FFFFFF"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 5,
+					"left": 15,
+					"width": 176,
+					"height": 12,
+					"fill": "#076000",
+					"stroke": "#C5FFC0",
+					"class": "Headers",
+					"text": "TIME & COSTS: Costs"
+				},
+				"Text23": {
+					"type": "text",
+					"top": 339,
+					"left": 328,
+					"width": 78,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#444444",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Total Sales"
+				},
+				"Text24": {
+					"type": "text",
+					"top": 339,
+					"left": 172,
+					"width": 56,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#444444",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Total Cost"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 96,
+					"left": 15,
+					"width": 80,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"fontFamily": "System Font",
+					"fontSize": 10,
+					"text": "Costs ..."
+				},
+				"Text29": {
+					"type": "text",
+					"top": 116,
+					"left": 86,
+					"width": 86,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"text": "Product Code\rName/Desc\u007F"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 116,
+					"left": 260,
+					"width": 23,
+					"height": 14,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"text": "Qty"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 116,
+					"left": 332,
+					"width": 57,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"text": "Retail Price\rSales Price"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 116,
+					"left": 462,
+					"width": 57,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"text": "Amount\rVAT/Total"
+				},
+				"Text33": {
+					"type": "text",
+					"top": 116,
+					"left": 287,
+					"width": 41,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"text": "Price Gr\rDisc"
+				},
+				"Text34": {
+					"type": "text",
+					"top": 116,
+					"left": 17,
+					"width": 60,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"text": "Job\rStage/State"
+				},
+				"Text35": {
+					"type": "text",
+					"top": 116,
+					"left": 392,
+					"width": 58,
+					"height": 28,
+					"fill": "#CCCCCC",
+					"stroke": "#076000",
+					"class": "Fields_OUTPUT",
+					"textAlign": "right",
+					"text": "Cost Price\rMargin"
+				},
+				"Subform2": {
+					"type": "subform",
+					"top": 144,
+					"left": 15,
+					"width": 506,
+					"height": 164,
+					"dataSourceTypeHint": "text",
+					"table": 25,
+					"listForm": "Jobs TCSub13",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				},
+				"Field10": {
+					"type": "input",
+					"top": 339,
+					"left": 236,
+					"width": 82,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Total_Cost:11",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "#CCCCCC",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 339,
+					"left": 416,
+					"width": 121,
+					"height": 14,
+					"dataSource": "[ORDERS:24]Total_Amount:6",
+					"dataSourceTypeHint": "number",
+					"stroke": "#444444",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "#CCCCCC",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 458,
+					"left": 8,
+					"width": 16,
+					"height": 17,
+					"dataSource": "iOK",
+					"shortcutKey": "\u0003",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "button",
+					"top": 458,
+					"left": 25,
+					"width": 16,
+					"height": 17,
+					"dataSource": "iCancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "button",
+					"top": 458,
+					"left": 50,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xPlus",
+					"action": "addSubrecord",
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 458,
+					"left": 85,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xMinus",
+					"action": "deleteSubrecord",
+					"shortcutKey": ",",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable14": {
+					"type": "button",
+					"top": 476,
+					"left": 50,
+					"width": 16,
+					"height": 17,
+					"dataSource": "xPlus",
+					"shortcutKey": "[Tab]",
+					"shortcutAccel": true,
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"Rectangle11",
+				"Line1",
+				"Line2",
+				"Line3",
+				"Line4"
+			],
+			"Group2": [
+				"Rectangle16",
+				"Line5",
+				"Line6",
+				"Line7",
+				"Line8"
+			]
+		}
+	}
+}

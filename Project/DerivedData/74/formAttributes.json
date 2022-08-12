@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Types_Out": {
+			"timeStamp": "2022-03-11T08:18:59.079Z",
+			"destination": "listScreen"
+		},
+		"Types_In": {
+			"timeStamp": "2022-04-26T13:44:22.855Z",
+			"destination": "detailScreen"
+		}
+	}
+}

@@ -1,0 +1,1112 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 730,
+	"markerBreak": 730,
+	"markerFooter": 740,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 96,
+					"left": 617,
+					"width": 100,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text63": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 578,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "TELEPHONE_EVENTSLOG"
+				},
+				"Line64": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 707,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPreviousPage": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Page"
+					},
+					"action": "previousPage",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousPage.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNextPage": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
+					"action": "nextPage",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextPage.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 462,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 525,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text65": {
+					"type": "text",
+					"top": 126,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Internal_Record_UUID : "
+				},
+				"Text66": {
+					"type": "text",
+					"top": 153,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelSysUUID : "
+				},
+				"Text67": {
+					"type": "text",
+					"top": 180,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelSysLinkedUUID : "
+				},
+				"Text68": {
+					"type": "text",
+					"top": 207,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExtractedGroupingUUID : "
+				},
+				"Text69": {
+					"type": "text",
+					"top": 234,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventDate : "
+				},
+				"Text70": {
+					"type": "text",
+					"top": 261,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventTime : "
+				},
+				"Text71": {
+					"type": "text",
+					"top": 288,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tel_EventTimeStamp : "
+				},
+				"Text72": {
+					"type": "text",
+					"top": 315,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelEventType : "
+				},
+				"Text73": {
+					"type": "text",
+					"top": 389,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerName : "
+				},
+				"Text74": {
+					"type": "text",
+					"top": 416,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerNumber : "
+				},
+				"Text75": {
+					"type": "text",
+					"top": 443,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelContactID : "
+				},
+				"Text76": {
+					"type": "text",
+					"top": 470,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCompanyID : "
+				},
+				"Text77": {
+					"type": "text",
+					"top": 497,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelPersonnelID : "
+				},
+				"Text78": {
+					"type": "text",
+					"top": 524,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelActionClass : "
+				},
+				"Text79": {
+					"type": "text",
+					"top": 551,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDANI : "
+				},
+				"Text80": {
+					"type": "text",
+					"top": 578,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDRDNIS : "
+				},
+				"Text81": {
+					"type": "text",
+					"top": 605,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelCallerIDDNID : "
+				},
+				"Text82": {
+					"type": "text",
+					"top": 632,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelExecutingChannel : "
+				},
+				"Text83": {
+					"type": "text",
+					"top": 659,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelActionContext : "
+				},
+				"Text84": {
+					"type": "text",
+					"top": 686,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelAccountCode : "
+				},
+				"Text85": {
+					"type": "text",
+					"top": 713,
+					"left": 178,
+					"width": 183,
+					"height": 17,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "TelAMAFlags : "
+				},
+				"Internal_Record_UUID": {
+					"type": "input",
+					"top": 126,
+					"left": 366,
+					"width": 250,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Internal_Record_UUID:1",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelSysUUID": {
+					"type": "input",
+					"top": 153,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelSysUUID:2",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelSysLinkedUUID": {
+					"type": "input",
+					"top": 180,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelSysLinkedUUID:3",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelExtractedGroupingUUID": {
+					"type": "input",
+					"top": 207,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExtractedGroupingUUID:4",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Tel_EventDate": {
+					"type": "input",
+					"top": 234,
+					"left": 366,
+					"width": 89,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventDate:5",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Tel_EventTime": {
+					"type": "input",
+					"top": 261,
+					"left": 366,
+					"width": 63,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventTime:6",
+					"dataSourceTypeHint": "time",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Tel_EventTimeStamp": {
+					"type": "input",
+					"top": 288,
+					"left": 366,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]Tel_EventTimeStamp:7",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelEventType": {
+					"type": "input",
+					"top": 315,
+					"left": 366,
+					"width": 234,
+					"height": 64,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelEventType:8",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCallerName": {
+					"type": "input",
+					"top": 389,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerName:9",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCallerNumber": {
+					"type": "input",
+					"top": 416,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerNumber:10",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelContactID": {
+					"type": "input",
+					"top": 443,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelContactID:11",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCompanyID": {
+					"type": "input",
+					"top": 470,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCompanyID:12",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelPersonnelID": {
+					"type": "input",
+					"top": 497,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelPersonnelID:13",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelActionClass": {
+					"type": "input",
+					"top": 524,
+					"left": 366,
+					"width": 56,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelActionClass:14",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCallerIDANI": {
+					"type": "input",
+					"top": 551,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDANI:15",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCallerIDRDNIS": {
+					"type": "input",
+					"top": 578,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDRDNIS:16",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelCallerIDDNID": {
+					"type": "input",
+					"top": 605,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelCallerIDDNID:17",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelExecutingChannel": {
+					"type": "input",
+					"top": 632,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelExecutingChannel:18",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelActionContext": {
+					"type": "input",
+					"top": 659,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelActionContext:19",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelAccountCode": {
+					"type": "input",
+					"top": 686,
+					"left": 366,
+					"width": 336,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelAccountCode:20",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TelAMAFlags": {
+					"type": "input",
+					"top": 713,
+					"left": 366,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[TELEPHONE_EVENTSLOG:215]TelAMAFlags:21",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text63",
+					"Line64"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bPreviousPage",
+					"bNextPage",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 3,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

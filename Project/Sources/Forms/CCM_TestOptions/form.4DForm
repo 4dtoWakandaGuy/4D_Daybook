@@ -1,0 +1,172 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 5,
+					"left": 19,
+					"width": 297,
+					"height": 12,
+					"class": "Headers",
+					"text": "Select the test to run..."
+				},
+				"ogoodtransaction": {
+					"type": "radio",
+					"top": 27,
+					"left": 43,
+					"width": 282,
+					"height": 16,
+					"dataSource": "CCM_l_Goodtransactions",
+					"text": "Good Transaction",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/ogoodtransaction.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ogoodtransaction_1": {
+					"type": "radio",
+					"top": 51,
+					"left": 103,
+					"width": 282,
+					"height": 16,
+					"dataSource": "opt_CCM_l_Goodtransactions_1",
+					"text": "Amex",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"ogoodtransaction_2": {
+					"type": "radio",
+					"top": 75,
+					"left": 103,
+					"width": 282,
+					"height": 16,
+					"dataSource": "opt_CCM_l_Goodtransactions_2",
+					"text": "Discover",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"ogoodtransaction_3": {
+					"type": "radio",
+					"top": 99,
+					"left": 103,
+					"width": 282,
+					"height": 16,
+					"dataSource": "opt_CCM_l_Goodtransactions_3",
+					"text": "Mastercard",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"ogoodtransaction_4": {
+					"type": "radio",
+					"top": 123,
+					"left": 103,
+					"width": 282,
+					"height": 16,
+					"dataSource": "opt_CCM_l_Goodtransactions_4",
+					"text": "Visa",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oBadtransaction": {
+					"type": "radio",
+					"top": 156,
+					"left": 37,
+					"width": 282,
+					"height": 16,
+					"dataSource": "CCM_l_Badtransactions",
+					"text": "Bad Transaction",
+					"class": "check_box_text_LARGE",
+					"method": "ObjectMethods/oBadtransaction.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oCCMResponsereasons": {
+					"type": "dropdown",
+					"top": 183,
+					"left": 125,
+					"width": 220,
+					"height": 18,
+					"dataSource": "CCM_at_ResponseReasons",
+					"class": "Pop-ups",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 213,
+					"left": 282,
+					"width": 119,
+					"height": 21,
+					"dataSource": "CCM_but_ContinueTest",
+					"text": "Continue",
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

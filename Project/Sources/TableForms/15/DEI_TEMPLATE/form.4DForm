@@ -1,0 +1,74 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 401,
+	"markerBreak": 401,
+	"markerFooter": 401,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 600,
+					"height": 400,
+					"fill": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 600,
+					"height": 50,
+					"fill": "#222222"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 17,
+					"left": 27,
+					"width": 185,
+					"height": 21,
+					"stroke": "#FFFFFF",
+					"fontFamily": "System Font Regular",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Daybook Data Tool"
+				}
+			}
+		}
+	]
+}

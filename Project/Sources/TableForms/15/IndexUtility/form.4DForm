@@ -1,0 +1,115 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 301,
+					"height": 451
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 301,
+					"height": 70,
+					"fill": "#222222",
+					"stroke": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable1": {
+					"type": "list",
+					"top": 80,
+					"left": 26,
+					"width": 250,
+					"height": 309,
+					"dataSource": "<>CIM_vlhlList",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"borderStyle": "solid",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onDoubleClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 15,
+					"left": 26,
+					"width": 250,
+					"height": 40,
+					"stroke": "#FFFFFF",
+					"fontFamily": "System Font Regular",
+					"fontSize": 9,
+					"text": "This utility should be used if you think that an index has become corrupted. It deletes the indexes for the fields that you select, and then re-builds them."
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 403,
+					"left": 26,
+					"width": 250,
+					"height": 27,
+					"dataSource": "bReindex",
+					"text": "Re-index the selected field(s)",
+					"fontFamily": "System Font Regular",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

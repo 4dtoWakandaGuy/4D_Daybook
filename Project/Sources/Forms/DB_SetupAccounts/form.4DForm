@@ -1,0 +1,383 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onMouseEnter",
+		"onMouseLeave",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oAccountHeadings1": {
+					"type": "listbox",
+					"top": 14,
+					"left": 36,
+					"width": 511,
+					"height": 389,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_Headings",
+					"sortable": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"fontFamily": "Futura Bold",
+					"fontSize": 11,
+					"method": "ObjectMethods/oAccountHeadings1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "Column2",
+							"width": 496,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Futura Bold",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDoubleClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Futura Bold",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Futura Bold",
+								"fontSize": 11
+							}
+						}
+					]
+				},
+				"oImport": {
+					"type": "button",
+					"top": 410,
+					"left": 13,
+					"width": 183,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DB_l_importAccounts",
+					"text": "Import Chart of accounts",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oImport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oclearScreen": {
+					"type": "button",
+					"top": 410,
+					"left": 203,
+					"width": 183,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DB_l_ClearScreen",
+					"text": "Clear Screen",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oclearScreen.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oNextPage": {
+					"type": "button",
+					"top": 407,
+					"left": 493,
+					"width": 63,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "DB_l_SetupTransactionTypes",
+					"text": "Next",
+					"class": "Buttons_LARGE",
+					"events": [
+						"onClick"
+					]
+				},
+				"oImport1": {
+					"type": "button",
+					"top": 435,
+					"left": 13,
+					"width": 183,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DB_l_ExportAccounts",
+					"text": "Export Chart of accounts",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oImport1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 440,
+					"left": 210,
+					"width": 223,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "DB_T_Message",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oButtonAddHeading": {
+					"type": "button",
+					"top": 19,
+					"left": 2,
+					"width": 35,
+					"height": 35,
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": "Add Account Heading",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_add.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAddHeading.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oAccountHeadings": {
+					"type": "listbox",
+					"top": 17,
+					"left": 29,
+					"width": 511,
+					"height": 389,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_Headings2",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"fontFamily": "Futura Bold",
+					"fontSize": 11,
+					"method": "ObjectMethods/oAccountHeadings.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 496,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Futura Bold",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Futura Bold",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Futura Bold",
+								"fontSize": 11
+							}
+						}
+					]
+				},
+				"oHeadings1": {
+					"type": "button",
+					"top": 412,
+					"left": 29,
+					"width": 123,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DB_l_SetupHeadings",
+					"text": "Setup Headings",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oHeadings1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"oHeadings2": {
+					"type": "button",
+					"top": 412,
+					"left": 160,
+					"width": 123,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "DB_l_SetupHeadings",
+					"text": "Setup Headings",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oHeadings2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oLBAccounts": {
+					"type": "listbox",
+					"top": 15,
+					"left": 12,
+					"width": 551,
+					"height": 385,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "ACC_lb_AccountsSetup",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"method": "ObjectMethods/oLBAccounts.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onAfterSort",
+						"onSelectionChange",
+						"onColumnMove",
+						"onRowMove",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 536,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"forms": {
+		"Rates_In": {
+			"timeStamp": "2022-03-25T15:04:53.559Z"
+		},
+		"Rates_Out": {
+			"timeStamp": "2022-03-10T16:49:21.428Z",
+			"destination": "listScreen"
+		}
+	}
+}

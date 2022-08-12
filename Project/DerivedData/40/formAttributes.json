@@ -1,0 +1,32 @@
+{
+	"forms": {
+		"dask_StockMovements": {
+			"timeStamp": "2022-03-10T16:49:20.659Z",
+			"destination": "detailScreen"
+		},
+		"Movt_Form": {
+			"timeStamp": "2022-03-13T15:50:13.133Z"
+		},
+		"Movements_List": {
+			"timeStamp": "2022-05-03T13:34:31.212Z"
+		},
+		"dMove_Sel": {
+			"timeStamp": "2022-04-29T15:38:16.776Z"
+		},
+		"STK_ConSolSelectRecords": {
+			"timeStamp": "2022-03-10T16:49:20.665Z",
+			"destination": "detailScreen"
+		},
+		"dDuplicate": {
+			"timeStamp": "2022-04-29T15:38:16.692Z"
+		},
+		"Movements_Out": {
+			"timeStamp": "2022-05-03T12:49:42.808Z",
+			"destination": "listScreen"
+		},
+		"Movements_In": {
+			"timeStamp": "2022-05-01T04:52:40.058Z",
+			"destination": "detailScreen"
+		}
+	}
+}

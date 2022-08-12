@@ -1,0 +1,171 @@
+The Documents in this folder are XML templates of CHARTS OF ACCOUNTS. You may add additional documents to this folder to assist with setup of new systems.
+The data has no effect on existing systems data it is only used during setup.
+
+If you are adding documents to this folder they must comply with the XML format described in the associated DTD. 
+
+For any template being created you will need one headings template describing the account headings structure and one the accounts. The naming convention of the documents is important
+
+The document name should be the template description followed by _ followed by HEADINGS or ACCOUNTS. For Example 'Leisure_ACCOUNTS' would describe a set of accounts suitable for the leisure industry.
+During setup the choice of templates is created using the first part of the template names. Any template that does not have both an ACCOUNTS and a HEADINGS template will not be presented to the user.
+
+The range of Templates can also be restricted by Country. 
+Currently this only separates into USA and UK. To restrict the country pre-pend the Template name with USA or UK and _ 
+So, for example, the leisure industry for US this would be USA_Leisure_ACCOUNTS
+
+The Template must include a reference to the DTD which for headings is HEADINGS.dtd and for Accounts is ACCOUNTS.dtd
+
+The XML construction is fairly straightforward. The following is an example record for headings.
+
+<HEADINGS>
+		<Heading_Code>P2L</Heading_Code>
+		<Heading_Name>Inventory Adjustments</Heading_Name>
+		<Heading_Level>2</Heading_Level>
+		<Level_Up_Code>P2</Level_Up_Code>
+		<Group_Code>GP1</Group_Code>
+		<AccCodeRangeFrom></AccCodeRangeFrom>
+		<AccCodeRangeTo></AccCodeRangeTo>
+		<EnforceRange>0</EnforceRange>
+</HEADINGS>
+
+Note that on import the integrity of headings is checked and heading levels are set by code.
+The 'Level_Up_Code' should be either omitted or blank for 'top level'.
+The Level_up_Code must exist within the import(it is not verified as existing at the point of import as it may not exist at that point)
+The Group_Code Should be the Level 0(ultimate parent or Root) 'Level_up_Code'
+Daybook supports a hierarchical headings structure to a maximum of 5 levels
+
+Example...
+BS  Balance Sheet(Level up code blank)
+BS1    Fixed Assets(Level up code BS, Group Code BS)
+        BS2    Properties(Level up code B1, Group Code BS)
+            BS3    Southern Properties(Level up code BS2, Group Code BS)
+                BS4    Florida Properties(Level up code BS3, Group Code BS)
+                    BS5    Talahassi Properties(Level up code BS4, Group Code BS)
+                    
+                    
+The headings  XML header should be 
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by 4D Application -->
+<!DOCTYPE Root SYSTEM "HEADINGS.dtd">
+<Root>
+`````
+</Root>
+
+So they xml document should look like
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by 4D Application -->
+<!DOCTYPE Root SYSTEM "HEADINGS.dtd">
+<Root>
+<HEADINGS>
+		<Heading_Code>P2L</Heading_Code>
+		<Heading_Name>Inventory Adjustments</Heading_Name>
+		<Heading_Level>2</Heading_Level>
+		<Level_Up_Code>P2</Level_Up_Code>
+		<Group_Code>GP1</Group_Code>
+		<AccCodeRangeFrom></AccCodeRangeFrom>
+		<AccCodeRangeTo></AccCodeRangeTo>
+		<EnforceRange>0</EnforceRange>
+	</HEADINGS>
+<HEADINGS>
+		<Heading_Code>P6A</Heading_Code>
+		<Heading_Name>Related Income &amp; Expenses</Heading_Name>
+		<Heading_Level>2</Heading_Level>
+		<Level_Up_Code>P6</Level_Up_Code>
+		<Group_Code>GP2</Group_Code>
+		<AccCodeRangeFrom></AccCodeRangeFrom>
+		<AccCodeRangeTo></AccCodeRangeTo>
+		<EnforceRange>0</EnforceRange>
+	</HEADINGS>
+
+</Root>
+
+With as many 'HEADINGS' records as you need
+
+The ACCOUNTS record XML format is as follows
+
+		<Report_Heading>B1A</Report_Heading>
+		<Account_Code>11002</Account_Code>
+		<Account_Name>MMA Wells Fargo</Account_Name>
+		<PB>B</PB>
+		<IO>N</IO>
+		<Group_Heading>GB1</Group_Heading>
+		<No_NL_Postings>false</No_NL_Postings>
+		<Multicurrency_Valuation>0</Multicurrency_Valuation>
+		<xLayerCodes></xLayerCodes>
+		<xAnalysisCodes></xAnalysisCodes>
+	</ACCOUNTS>
+
+With the Accounts The 'Report_Heading' should be heading to which the account will be attached
+This must be a HEADING CODE as described in the HEADINGS records. It will be verified against the HEADINGS at the time of import
+The account codes must comply with our standard rules on Account codes which are as follows:
+
+Account Identifiers should be sequential numbers, such that the numbers are ascending through the accounts
+
+You should ensure you leave gaps in the numbers at the change of each subheading to allow for adding additional accounts within the heading/subheading
+
+You should also leave gaps between the numbers so that adding new accounts to a subheading can allow insertion of additional accounts between the accounts you are setting up now.
+
+Normal Convention is to set the balance sheet account numbers in the lower range and the profit sheet account numbers in the higher range
+
+By default Balance sheet account numbers run from 10000 to 29000 and Profit Sheet accounts from 30000 to 99000, the minimum account code is 10000 and the maximum account code is 99999
+
+Note that on re-import the sequence will be checked and if the numbers do not follow a sequence the import will not be allowed
+
+Accounts names are limited to 51 Characters.
+
+PB refers to profit sheets accounts or balance sheet accounts the value should be either P or B 
+
+IO refers to Input or Output The Value should be I or O on N(Blank are set as N This is used for TAX reporting. All Balance Sheet items (including the VAT Accounts themselves) are ‘N’ for Neither(this will be an over-ride on import. ; all sales analysis Accounts are ‘O’ for Output; and most costs and overheads are ‘I’ for Input, but excluding eg Salaries, Taxes, Leases etc, which should be ‘N’.
+
+The No_NL_Postings is either FALSE or TRUE this defines whether the account can be used in Manual Ledger postings.
+
+Multi Currency Valuations is 0 for historical or 1 for at current rate(this is used if multi currency account reporting is implemented for converting values) Balance sheet accounts are normally at historical rates and Profit Sheet accounts are usually at current rate.
+
+xLayerCodes and xAnalysisCodes are used to restrict analysis and layer codes that an account can be used with. It would be difficult to create this data outside of the context of Daybook for a template and would most likely be un-required as part of a default setup as Analysis codes are generally
+unique to a companies business setup. The data here is in BASE64(note the definition of the datatype in the configuration).You can copy data from an existing XML template into any of these fields or use the ANALYSIS CODES builder feature within daybook to create data that you can put in these fields.
+On import the existence of the ANALYSIS and LAYER Codes used here will be checked, any codes note existing in the data will be asked if they should be created(the creation will allow the import of Analysis code and Layer data). See a seperate document in the DATA for notes on Data which show how to setup imports for the Analysis codes and Layer Codes to associate with an accounts setup.
+
+
+The XML contruction for the ACCOUNTS is as follows
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by 4D Application -->
+<!DOCTYPE Root SYSTEM "ACCOUNTS.dtd">
+<Root>
+....
+</Root>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by 4D Application -->
+<!DOCTYPE Root SYSTEM "ACCOUNTS.dtd">
+<Root>
+<ACCOUNTS>
+		<Report_Heading>B1A</Report_Heading>
+		<Account_Code>11004</Account_Code>
+		<Account_Name>PAYPAL Cash Account</Account_Name>
+		<PB>B</PB>
+		<IO>N</IO>
+		<Group_Heading>GB1</Group_Heading>
+		<No_NL_Postings>false</No_NL_Postings>
+		<Multicurrency_Valuation>0</Multicurrency_Valuation>
+		<xLayerCodes>data:;base64,UlZMQiIAAAAAAAAAAAAAAAA=</xLayerCodes>
+		<xAnalysisCodes>data:;base64,UlZMQiIAAAAAAAAAAAAAAAA=</xAnalysisCodes>
+</ACCOUNTS>
+<ACCOUNTS>
+		<Report_Heading>P3B</Report_Heading>
+		<Account_Code>44104</Account_Code>
+		<Account_Name>Paypal Deposit Fee</Account_Name>
+		<PB>P</PB>
+		<IO>P</IO>
+		<Group_Heading>GP2</Group_Heading>
+		<No_NL_Postings>false</No_NL_Postings>
+		<Multicurrency_Valuation>0</Multicurrency_Valuation>
+		<xLayerCodes>data:;base64,UlZMQiIAAAAAAAAAAAAAAAA=</xLayerCodes>
+		<xAnalysisCodes>data:;base64,UlZMQiIAAAAAAQAAAAAAAAA=</xAnalysisCodes>
+</ACCOUNTS>
+
+</Root>
+
+With as many accounts records as you require

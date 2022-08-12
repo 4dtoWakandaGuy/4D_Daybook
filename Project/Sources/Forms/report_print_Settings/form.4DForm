@@ -1,0 +1,234 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oReportNameLabel": {
+					"type": "text",
+					"top": 17,
+					"left": 18,
+					"width": 142,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Report Name :"
+				},
+				"oCompanyNameLabel": {
+					"type": "text",
+					"top": 45,
+					"left": 18,
+					"width": 142,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Company Name :"
+				},
+				"oReportNameValue": {
+					"type": "input",
+					"top": 21,
+					"left": 168,
+					"width": 217,
+					"height": 15,
+					"dataSource": "REP_t_ReportName",
+					"class": "Fields",
+					"textAlign": "left",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oCompanyNameValue": {
+					"type": "input",
+					"top": 45,
+					"left": 168,
+					"width": 217,
+					"height": 15,
+					"dataSource": "REP_t_CompanyName",
+					"class": "Fields",
+					"textAlign": "left",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oDefaultOutputLabel": {
+					"type": "text",
+					"top": 71,
+					"left": 18,
+					"width": 142,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Default Output :"
+				},
+				"oDefaultOutputDropDown": {
+					"type": "dropdown",
+					"top": 68,
+					"left": 168,
+					"width": 219,
+					"height": 21,
+					"dataSource": "REP_at_DefaultOutput",
+					"focusable": false,
+					"class": "Pop-ups",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oEmailOptionsLabel": {
+					"type": "text",
+					"top": 97,
+					"left": 18,
+					"width": 142,
+					"height": 15,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Email Options :"
+				},
+				"oLBEmailOptions": {
+					"type": "listbox",
+					"top": 121,
+					"left": 168,
+					"width": 219,
+					"height": 131,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "REP_lb_EmailOptions",
+					"sortable": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 140,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"rowHeightAuto": true,
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"oEmailOptionsMessage": {
+					"type": "text",
+					"top": 97,
+					"left": 168,
+					"width": 215,
+					"height": 19,
+					"class": "LabelsItalic",
+					"textAlign": "left",
+					"text": "Drag Lines to re-sequence options"
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 256,
+					"left": 361,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_ok.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonAccept.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oButtonCancel": {
+					"type": "button",
+					"top": 256,
+					"left": 322,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/images/pal_gold_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/oButtonCancel.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				}
+			}
+		}
+	]
+}

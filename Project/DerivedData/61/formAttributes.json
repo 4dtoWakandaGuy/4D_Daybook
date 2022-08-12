@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Location_In": {
+			"timeStamp": "2022-03-10T16:49:21.297Z",
+			"destination": "detailScreen"
+		},
+		"Locations_Out": {
+			"timeStamp": "2022-03-10T16:49:21.299Z",
+			"destination": "listScreen"
+		}
+	}
+}

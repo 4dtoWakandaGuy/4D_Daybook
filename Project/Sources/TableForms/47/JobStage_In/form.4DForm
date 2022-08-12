@@ -1,0 +1,1322 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Input_Backround",
+	"inheritedFormTable": 15,
+	"windowMinWidth": 550,
+	"windowMinHeight": 385,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #80",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oPreviousPage": {
+					"type": "button",
+					"top": 164,
+					"left": 583,
+					"width": 2,
+					"height": 36,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Job_but_PreviousPage",
+					"shortcutKey": "[right arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/oPreviousPage.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oNextPage": {
+					"type": "button",
+					"top": 210,
+					"left": 583,
+					"width": 2,
+					"height": 36,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "JOB_but_NextPage",
+					"shortcutKey": "[left arrow]",
+					"shortcutAccel": true,
+					"display": false,
+					"method": "ObjectMethods/oNextPage.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable29": {
+					"type": "tab",
+					"top": 47,
+					"left": 257,
+					"width": 340,
+					"height": 18,
+					"sizingX": "move",
+					"dataSource": "JST_at_JobStageTab",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Default",
+					"method": "ObjectMethods/Variable29.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oStageCode": {
+					"type": "input",
+					"top": 99,
+					"left": 88,
+					"width": 89,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]Stage_Code:2",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStageName": {
+					"type": "input",
+					"top": 99,
+					"left": 182,
+					"width": 395,
+					"height": 14,
+					"sizingX": "grow",
+					"dataSource": "[JOB_STAGES:47]Stage_Name:3",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStageLabel": {
+					"type": "text",
+					"top": 100,
+					"left": 40,
+					"width": 42,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Stage :"
+				},
+				"oJobLabel": {
+					"type": "text",
+					"top": 82,
+					"left": 45,
+					"width": 37,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Job :"
+				},
+				"oJobCode": {
+					"type": "input",
+					"top": 80,
+					"left": 88,
+					"width": 91,
+					"height": 14,
+					"dataSource": "[JOB_STAGES:47]Job_Code:1",
+					"stroke": "#444444",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oJobName": {
+					"type": "input",
+					"top": 81,
+					"left": 182,
+					"width": 267,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "[JOBS:26]Job_Name:2",
+					"stroke": "#444444",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOrderPopPiture1": {
+					"type": "input",
+					"top": 123,
+					"left": 25,
+					"width": 15,
+					"height": 14,
+					"dataSource": "ALModePictureOrders",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oOrderPopup1": {
+					"type": "dropdown",
+					"top": 123,
+					"left": 26,
+					"width": 15,
+					"height": 16,
+					"dataSource": "JST_at_ModeOrderI",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/oOrderPopup1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oListBoxOrderItems": {
+					"type": "listbox",
+					"top": 144,
+					"left": 25,
+					"width": 553,
+					"height": 270,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "JST_LB_ChargeItems",
+					"movableRows": false,
+					"dropping": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oListBoxOrderItems.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "Column1",
+							"width": 538,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oLBJobStateTotals": {
+					"type": "listbox",
+					"top": 454,
+					"left": 25,
+					"width": 553,
+					"height": 98,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"dataSource": "JST_lb_LBJSTots",
+					"sortable": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"events": [
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove"
+					],
+					"columns": [
+						{
+							"name": "Column4",
+							"dataSource": "Column3",
+							"width": 538,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header3",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"oTotalsHeader": {
+					"type": "text",
+					"top": 438,
+					"left": 47,
+					"width": 314,
+					"height": 14,
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "Totals for this Job Stage..."
+				},
+				"oInvoiceNoLabel": {
+					"type": "text",
+					"top": 80,
+					"left": 412,
+					"width": 91,
+					"height": 15,
+					"sizingX": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Invoice Nº :"
+				},
+				"oInvoiceNumber": {
+					"type": "input",
+					"top": 78,
+					"left": 509,
+					"width": 68,
+					"height": 15,
+					"sizingX": "move",
+					"dataSource": "[JOB_STAGES:47]Invoice_Number:10",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 581,
+					"left": 550,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable18": {
+					"type": "button",
+					"top": 581,
+					"left": 513,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 581,
+					"left": 163,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button3.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button7": {
+					"type": "button",
+					"top": 580,
+					"left": 216,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button8": {
+					"type": "button",
+					"top": 580,
+					"left": 265,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button8.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button9": {
+					"type": "button",
+					"top": 580,
+					"left": 314,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button9.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button1": {
+					"type": "button",
+					"top": 580,
+					"left": 360,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button1.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button10": {
+					"type": "button",
+					"top": 580,
+					"left": 401,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button10.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button11": {
+					"type": "button",
+					"top": 581,
+					"left": 440,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button11.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button12": {
+					"type": "button",
+					"top": 581,
+					"left": 475,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button12.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oShowButtons": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 4,
+					"height": 615,
+					"sizingY": "grow",
+					"dataSource": "DB_OutputButtonsShow",
+					"display": false,
+					"method": "ObjectMethods/oShowButtons.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail",
+						"onMouseEnter"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oJSQuotedQtyLabel": {
+					"type": "text",
+					"top": 559,
+					"left": 14,
+					"width": 131,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Quoted TR Quantity :"
+				},
+				"oJSQuotedPriceLabel": {
+					"type": "text",
+					"top": 559,
+					"left": 232,
+					"width": 96,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Quoted TR Price :"
+				},
+				"oASQuotedAmountLabel": {
+					"type": "text",
+					"top": 559,
+					"left": 413,
+					"width": 86,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Quoted TR Amt"
+				},
+				"oJSQuotedQty": {
+					"type": "input",
+					"top": 559,
+					"left": 151,
+					"width": 68,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[JOB_STAGES:47]JS_Quoted_Qty:46",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Quantities"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oJSQuotedPrice": {
+					"type": "input",
+					"top": 559,
+					"left": 335,
+					"width": 68,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[JOB_STAGES:47]JS_Quoted_Price:47",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oASQuotedAmount": {
+					"type": "input",
+					"top": 559,
+					"left": 506,
+					"width": 68,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[JOB_STAGES:47]AS_Quoted_Amount:7",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"class": "Fields",
+					"textAlign": "right",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"numberFormat": {
+						"$ref": "/SOURCES/filters.json#/Accounts"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 436,
+					"left": 486,
+					"width": 59,
+					"height": 14,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "VAT Code"
+				},
+				"Text36": {
+					"type": "text",
+					"top": 117,
+					"left": 10,
+					"width": 71,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Description"
+				},
+				"Text37": {
+					"type": "text",
+					"top": 436,
+					"left": 311,
+					"width": 81,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Required Date"
+				},
+				"oDescription": {
+					"type": "input",
+					"top": 119,
+					"left": 85,
+					"width": 489,
+					"height": 28,
+					"sizingX": "grow",
+					"dataSource": "[JOB_STAGES:47]Description:48",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field24": {
+					"type": "input",
+					"top": 436,
+					"left": 400,
+					"width": 68,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[JOB_STAGES:47]Required_Date:50",
+					"dataSourceTypeHint": "date",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field25": {
+					"type": "input",
+					"top": 436,
+					"left": 552,
+					"width": 22,
+					"height": 15,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "[JOB_STAGES:47]TAX_Code:14",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field30": {
+					"type": "checkbox",
+					"top": 135,
+					"left": 22,
+					"width": 54,
+					"height": 13,
+					"dataSource": "[JOB_STAGES:47]Print_Description:49",
+					"text": "Print",
+					"stroke": "#076000",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oStage_Picture": {
+					"type": "input",
+					"top": 161,
+					"left": 22,
+					"width": 15,
+					"height": 14,
+					"dataSource": "ALModePicturePersons",
+					"dataSourceTypeHint": "picture",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 160,
+					"left": 44,
+					"width": 101,
+					"height": 15,
+					"stroke": "#076000",
+					"class": "Labels",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "Job Personnel..."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 44,
+					"left": 12,
+					"width": 199,
+					"height": 12,
+					"stroke": "#C5FFC0",
+					"class": "Headers",
+					"text": "JOB STAGE: Time Recording"
+				},
+				"oPerons_PopUP": {
+					"type": "dropdown",
+					"top": 162,
+					"left": 21,
+					"width": 15,
+					"height": 16,
+					"dataSource": "JST_at_ModePersonnel",
+					"display": false,
+					"class": "Default",
+					"method": "ObjectMethods/oPerons_PopUP.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oPerson": {
+					"type": "listbox",
+					"top": 180,
+					"left": 22,
+					"width": 553,
+					"height": 234,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "JST_LB_Persons",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oPerson.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDrop",
+						"onDataChange",
+						"onColumnMove",
+						"onColumnResize",
+						"onRowMove",
+						"onHeaderClick",
+						"onAfterEdit"
+					],
+					"columns": [
+						{
+							"name": "Column2",
+							"dataSource": "Column2",
+							"width": 538,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text38": {
+					"type": "text",
+					"top": 41,
+					"left": 12,
+					"width": 198,
+					"height": 12,
+					"stroke": "#C5FFC0",
+					"class": "Headers",
+					"text": "JOB STAGE: Budget Costs"
+				},
+				"Text41": {
+					"type": "text",
+					"top": 125,
+					"left": 44,
+					"width": 170,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Budget Cost Items..."
+				},
+				"Variable12": {
+					"type": "button",
+					"top": 504,
+					"left": 582,
+					"width": 11,
+					"height": 31,
+					"sizingY": "move",
+					"dataSource": "xMinusNA",
+					"shortcutKey": ",",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"display": false,
+					"method": "ObjectMethods/Variable12.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 122,
+					"left": 538,
+					"width": 28,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "vAB",
+					"stroke": "#444444",
+					"textAlign": "right",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/QuantityNZ"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text77": {
+					"type": "text",
+					"top": 124,
+					"left": 44,
+					"width": 151,
+					"height": 14,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Actual Cost Items..."
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 121,
+					"left": 538,
+					"width": 28,
+					"height": 14,
+					"sizingX": "move",
+					"dataSource": "vAB",
+					"stroke": "#444444",
+					"textAlign": "right",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/QuantityNZ"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text92": {
+					"type": "text",
+					"top": 40,
+					"left": 12,
+					"width": 198,
+					"height": 12,
+					"stroke": "#C5FFC0",
+					"class": "Headers",
+					"text": "JOB STAGE: Actual Costs"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 89,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

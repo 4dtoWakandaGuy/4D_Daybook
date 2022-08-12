@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"Balance_Entry": {
+			"timeStamp": "2022-05-10T08:33:40.199Z",
+			"destination": "detailScreen"
+		},
+		"ALL_FIELDS2": {
+			"timeStamp": "2022-03-10T16:49:22.373Z",
+			"destination": "listScreen"
+		}
+	}
+}

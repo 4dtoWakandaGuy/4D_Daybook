@@ -1,0 +1,196 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oGraphPicture": {
+					"type": "input",
+					"top": 116,
+					"left": 152,
+					"width": 339,
+					"height": 96,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "DB_pi_GraphDisplay",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "custom",
+					"method": "ObjectMethods/oGraphPicture.4dm",
+					"events": [
+						"onDrop",
+						"onDataChange"
+					]
+				},
+				"oGraphField": {
+					"type": "dropdown",
+					"top": 24,
+					"left": 152,
+					"width": 141,
+					"height": 22,
+					"dataSource": "DB_at_GraphFIeld",
+					"class": "Fields",
+					"method": "ObjectMethods/oGraphField.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oGraphFieldLabel": {
+					"type": "text",
+					"top": 28,
+					"left": 60,
+					"width": 82,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Graph Values"
+				},
+				"oGraphBreakDownLabel": {
+					"type": "text",
+					"top": 56,
+					"left": 0,
+					"width": 142,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Show Break Down By"
+				},
+				"oGraphField2": {
+					"type": "dropdown",
+					"top": 52,
+					"left": 152,
+					"width": 141,
+					"height": 22,
+					"dataSource": "DB_at_GraphBreaks",
+					"class": "Fields",
+					"method": "ObjectMethods/oGraphField2.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oGraphType": {
+					"type": "text",
+					"top": 84,
+					"left": 63,
+					"width": 79,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Graph Type"
+				},
+				"oGraphField1": {
+					"type": "dropdown",
+					"top": 84,
+					"left": 152,
+					"width": 141,
+					"height": 22,
+					"dataSource": "DB_at_GraphType",
+					"class": "Fields",
+					"method": "ObjectMethods/oGraphField1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oXAxisLabel": {
+					"type": "text",
+					"top": 60,
+					"left": 298,
+					"width": 102,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "X Axis Breakdown"
+				},
+				"oXAxisField": {
+					"type": "dropdown",
+					"top": 56,
+					"left": 410,
+					"width": 141,
+					"height": 22,
+					"dataSource": "DB_at_GraphXaxisBreaks",
+					"class": "Fields",
+					"method": "ObjectMethods/oXAxisField.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"oGraphFieldLabel1": {
+					"type": "text",
+					"top": 29,
+					"left": 305,
+					"width": 67,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"text": "Values Type"
+				},
+				"oGraphUnitType": {
+					"type": "dropdown",
+					"top": 24,
+					"left": 384,
+					"width": 141,
+					"height": 22,
+					"dataSource": "DB_at_GraphUnitType",
+					"class": "Fields",
+					"method": "ObjectMethods/oGraphUnitType.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

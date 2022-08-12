@@ -1,0 +1,18 @@
+{
+	"forms": {
+		"Alloc_Sub": {
+			"timeStamp": "2022-03-15T08:32:01.107Z"
+		},
+		"Alloc_SubP": {
+			"timeStamp": "2022-03-15T08:32:01.098Z"
+		},
+		"Alloc_SubRem": {
+			"timeStamp": "2022-03-15T08:32:01.041Z",
+			"destination": "listPrinter"
+		},
+		"ALL_FIELDS": {
+			"timeStamp": "2022-03-10T16:49:22.168Z",
+			"destination": "listScreen"
+		}
+	}
+}

@@ -1,0 +1,359 @@
+{
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperWidth": "8568pt",
+		"paperHeight": "12125pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oJobDetailsGroup": {
+					"type": "groupBox",
+					"top": 14,
+					"left": 15,
+					"width": 239,
+					"height": 195,
+					"stroke": "#076000",
+					"class": "Headers",
+					"text": "JOB DETAILS"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 218,
+					"left": 350,
+					"width": 13,
+					"height": 10,
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"oStageLabel": {
+					"type": "text",
+					"top": 108,
+					"left": 65,
+					"width": 44,
+					"height": 13,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Stage :"
+				},
+				"oStage2Label": {
+					"type": "text",
+					"top": 174,
+					"left": 65,
+					"width": 44,
+					"height": 13,
+					"stroke": "#076000",
+					"class": "Labels",
+					"fontWeight": "bold",
+					"text": "Stage :"
+				},
+				"oJobsAndStagesCB": {
+					"type": "checkbox",
+					"top": 43,
+					"left": 28,
+					"width": 160,
+					"height": 16,
+					"dataSource": "r0",
+					"text": "Job & Job Stages",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCostItemsCB": {
+					"type": "checkbox",
+					"top": 67,
+					"left": 28,
+					"width": 148,
+					"height": 16,
+					"dataSource": "r1",
+					"text": "Cost Items",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBudgetDB": {
+					"type": "checkbox",
+					"top": 87,
+					"left": 46,
+					"width": 72,
+					"height": 16,
+					"dataSource": "s1",
+					"text": "Budget",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActualCB": {
+					"type": "checkbox",
+					"top": 87,
+					"left": 124,
+					"width": 67,
+					"height": 17,
+					"dataSource": "s2",
+					"text": "Actual",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 109,
+					"left": 114,
+					"width": 80,
+					"height": 13,
+					"dataSource": "vProblem",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oJobPersonnelCB": {
+					"type": "checkbox",
+					"top": 133,
+					"left": 28,
+					"width": 215,
+					"height": 18,
+					"dataSource": "r2",
+					"text": "Job Personnel & Time Records",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oBudgetCB2": {
+					"type": "checkbox",
+					"top": 153,
+					"left": 46,
+					"width": 76,
+					"height": 16,
+					"dataSource": "s3",
+					"text": "Budget",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oActualCB2": {
+					"type": "checkbox",
+					"top": 153,
+					"left": 124,
+					"width": 106,
+					"height": 16,
+					"dataSource": "s4",
+					"text": "Actual",
+					"class": "check_box_text_LARGE",
+					"stroke": "#076000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 167,
+					"left": 264,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Return]",
+					"text": "OK",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 175,
+					"left": 114,
+					"width": 80,
+					"height": 13,
+					"dataSource": "vSolution",
+					"stroke": "#000000",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable11": {
+					"type": "button",
+					"top": 190,
+					"left": 264,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"class": "Buttons_LARGE",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "button",
+					"top": 167,
+					"left": 264,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable13": {
+					"type": "button",
+					"top": 190,
+					"left": 264,
+					"width": 88,
+					"height": 19,
+					"dataSource": "xCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"display": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 12,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

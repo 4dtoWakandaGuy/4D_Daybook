@@ -1,0 +1,157 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"oIPRangesText": {
+					"type": "input",
+					"top": 31,
+					"left": 17,
+					"width": 348,
+					"height": 273,
+					"dataSource": "<>IWS_t_IPRanges",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/oIPRangesText.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onLosingFocus",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonRevert": {
+					"type": "button",
+					"top": 317,
+					"left": 136,
+					"width": 76,
+					"height": 21,
+					"dataSource": "WEB_but_Revert",
+					"text": "Revert",
+					"fontFamily": "MS Sans Serif",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/oButtonRevert.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"class": "Buttons_LARGE"
+				},
+				"oButtonSet": {
+					"type": "button",
+					"top": 317,
+					"left": 223,
+					"width": 76,
+					"height": 21,
+					"dataSource": "WEB_but_Set",
+					"text": "Set",
+					"fontFamily": "MS Sans Serif",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/oButtonSet.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"class": "Buttons_LARGE"
+				},
+				"oButtonAccept": {
+					"type": "button",
+					"top": 317,
+					"left": 311,
+					"width": 73,
+					"height": 21,
+					"dataSource": "WEB_but_accept",
+					"action": "accept",
+					"text": "Done",
+					"fontFamily": "MS Sans Serif",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"class": "Buttons_LARGE",
+					"defaultButton": true,
+					"method": "ObjectMethods/oButtonAccept.4dm"
+				},
+				"oRestrictedIPRanges": {
+					"type": "text",
+					"top": 7,
+					"left": 15,
+					"width": 276,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Enter IP numbers or ranges..."
+				}
+			}
+		}
+	],
+	"geometryStamp": 13,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

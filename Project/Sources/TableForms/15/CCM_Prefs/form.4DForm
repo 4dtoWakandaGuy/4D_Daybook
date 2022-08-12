@@ -1,0 +1,2352 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Dialog_Background",
+	"inheritedFormTable": 15,
+	"windowSizingX": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 5,
+	"menuBar": "Menu Bar #9",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"oCCMServicesGroup": {
+					"type": "groupBox",
+					"top": 54,
+					"left": 6,
+					"width": 195,
+					"height": 283,
+					"class": "Labels",
+					"text": "Card Authorization Services"
+				},
+				"oAuthorizationProviderLabel": {
+					"type": "text",
+					"top": 128,
+					"left": 201,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Authorization Provider :"
+				},
+				"oCCMAuthorizationService": {
+					"type": "input",
+					"top": 55,
+					"left": 351,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationService",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 129,
+					"left": 352,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_at_AuthorizationProvider",
+					"class": "Fields",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMWebLink": {
+					"type": "input",
+					"top": 152,
+					"left": 352,
+					"width": 181,
+					"height": 13,
+					"dataSource": "CCM_t_WebLink",
+					"class": "Field_INFOS",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonOpenURL": {
+					"type": "button",
+					"top": 150,
+					"left": 542,
+					"width": 47,
+					"height": 19,
+					"dataSource": "bWebOpen",
+					"text": "Go",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oButtonOpenURL.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMServiceNameLabel": {
+					"type": "text",
+					"top": 57,
+					"left": 201,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Service Name :"
+				},
+				"oCCMMessage": {
+					"type": "text",
+					"top": 75,
+					"left": 351,
+					"width": 406,
+					"height": 43,
+					"class": "Field_INFOS",
+					"text": "You may give this a 'local' name. This is only needed if you are using multiple authorization services to identify which service the user is choosing(you may even have multiple accounts with the same authorization service)"
+				},
+				"oWebSiteLabel": {
+					"type": "text",
+					"top": 151,
+					"left": 201,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Web Site :"
+				},
+				"oButtonAddService": {
+					"type": "button",
+					"top": 312,
+					"left": 23,
+					"width": 140,
+					"height": 18,
+					"dataSource": "Badd",
+					"text": "Add Service",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonAddService.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oGeneralOptionsGroup": {
+					"type": "groupBox",
+					"top": 262,
+					"left": 215,
+					"width": 471,
+					"height": 89,
+					"class": "Labels",
+					"text": "General Options"
+				},
+				"oCCMUseCVV2CB": {
+					"type": "checkbox",
+					"top": 282,
+					"left": 222,
+					"width": 199,
+					"height": 13,
+					"dataSource": "CCM_l_useSecurity",
+					"text": "Use security verification(CVV2)",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oCCMUseCVV2CB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oUseAddressVerificaitonCB": {
+					"type": "checkbox",
+					"top": 282,
+					"left": 479,
+					"width": 139,
+					"height": 13,
+					"dataSource": "CCM_l_useAVS",
+					"text": "Use address verification",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oUseAddressVerificaitonCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonEnterCCMLicence": {
+					"type": "button",
+					"top": 351,
+					"left": 21,
+					"width": 112,
+					"height": 22,
+					"dataSource": "BenterLicence",
+					"text": "Enter Licence",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonEnterCCMLicence.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oTextNotLicenced": {
+					"type": "text",
+					"top": 357,
+					"left": 141,
+					"width": 557,
+					"height": 12,
+					"class": "Headers",
+					"text": "Credit Card Validation is not licenced. It can be used in test mode"
+				},
+				"oTextLicenced": {
+					"type": "text",
+					"top": 357,
+					"left": 141,
+					"width": 557,
+					"height": 12,
+					"class": "Headers",
+					"text": "Credit Card Validation is licenced"
+				},
+				"oButtonCreateLicence": {
+					"type": "button",
+					"top": 351,
+					"left": 558,
+					"width": 122,
+					"height": 22,
+					"dataSource": "BCreateLicence",
+					"text": "Create Licence",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonCreateLicence.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMRunTests": {
+					"type": "checkbox",
+					"top": 54,
+					"left": 553,
+					"width": 179,
+					"height": 13,
+					"dataSource": "CCM_l_RunTest",
+					"text": "Test Only(no Real Transactions)",
+					"class": "Check_Box_text_SMALL",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAllowCompanyCardsCB": {
+					"type": "checkbox",
+					"top": 299,
+					"left": 222,
+					"width": 245,
+					"height": 13,
+					"dataSource": "CCM_l_allowCompany",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Company Card"
+					},
+					"text": "Allow  usage of cards by other company contacts",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oCCMAllowCompanyCardsCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMUseCompanyReferenceCB": {
+					"type": "checkbox",
+					"top": 299,
+					"left": 480,
+					"width": 139,
+					"height": 13,
+					"dataSource": "CCM_l_useCompanyReference",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/CCM_CoReference"
+					},
+					"text": "Use Company Reference",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oCCMUseCompanyReferenceCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oButtonViewCardActivity": {
+					"type": "button",
+					"top": 93,
+					"left": 219,
+					"width": 115,
+					"height": 19,
+					"dataSource": "BViewCardActity",
+					"text": "View Activity",
+					"class": "Buttons_LARGE",
+					"method": "ObjectMethods/oButtonViewCardActivity.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAllowFullCardCB": {
+					"type": "checkbox",
+					"top": 315,
+					"left": 222,
+					"width": 245,
+					"height": 13,
+					"dataSource": "CCM_l_allowDecode",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Company Card"
+					},
+					"text": "Allow  designated users to see full card number",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oCCMAllowFullCardCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMLogCardAccessToAdminCB": {
+					"type": "checkbox",
+					"top": 315,
+					"left": 481,
+					"width": 169,
+					"height": 13,
+					"dataSource": "CCM_l_LogDecodes",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/CCM_CoReference"
+					},
+					"text": "Log card access to administrator",
+					"class": "Check_Box_text_SMALL",
+					"method": "ObjectMethods/oCCMLogCardAccessToAdminCB.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMEmailAddress": {
+					"type": "input",
+					"top": 332,
+					"left": 370,
+					"width": 279,
+					"height": 12,
+					"dataSource": "CCM_t_EmailAddress",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oEmailLabel": {
+					"type": "text",
+					"top": 332,
+					"left": 222,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Email Address :"
+				},
+				"oStrapHeader": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 2,
+					"width": 754,
+					"height": 36,
+					"sizingX": "grow",
+					"fill": "#444444",
+					"stroke": "transparent"
+				},
+				"oBarButton2": {
+					"type": "button",
+					"top": 2,
+					"left": 1,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton2.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton3": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton3.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton4": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHElp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton4.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton5": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp5"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton5.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton6": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_6",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp6"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton6.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton7": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_7",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp7"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton7.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton8": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_8",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp8"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton8.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton9": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_9",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp9"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton9.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton10": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_10",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp10"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton10.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton11": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_11",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp11"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton11.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton12": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_12",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp12"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton12.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton13": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_13",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp13"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton13.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton14": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_14",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp14"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton14.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton15": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton15.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton16": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_16",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp16"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton16.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton17": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_17",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp17"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton17.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton18": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_18",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp18"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton18.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton19": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_19",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TBHelp19"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton19.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton20": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_20",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton20.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton21": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_21",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton21.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton22": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_22",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton22.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton23": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_23",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton23.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton24": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_24",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton24.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"oBarButton25": {
+					"type": "button",
+					"top": 2,
+					"left": 2,
+					"width": 45,
+					"height": 32,
+					"dataSource": "BAR_l_Button_25",
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "center",
+					"style": "office",
+					"method": "ObjectMethods/oBarButton25.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onLongClick"
+					]
+				},
+				"Invisible Button4": {
+					"type": "button",
+					"top": 394,
+					"left": 663,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_2",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp2"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_OK.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button4.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Variable71": {
+					"type": "button",
+					"top": 394,
+					"left": 626,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_1",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp1"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PaL_GOLD_Cancel.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Variable71.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button28": {
+					"type": "button",
+					"top": 394,
+					"left": 276,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_27",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp27"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_DIARYENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button28.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button24": {
+					"type": "button",
+					"top": 393,
+					"left": 329,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_25",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp25"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PRODUCTSENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button24.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onPrintingDetail",
+						"onLongClick"
+					]
+				},
+				"Invisible Button22": {
+					"type": "button",
+					"top": 393,
+					"left": 378,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_23",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp23"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_PEOPLEENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button22.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button20": {
+					"type": "button",
+					"top": 393,
+					"left": 427,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_21",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp21"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_COMPANIESENTER.png",
+					"iconFrames": 4,
+					"popupPlacement": "linked",
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button20.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Highlight Button2": {
+					"type": "button",
+					"top": 393,
+					"left": 473,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_29",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp29"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_QUALITIES.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Highlight Button2.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button14": {
+					"type": "button",
+					"top": 393,
+					"left": 514,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_15",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp15"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_REPORTS.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button14.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button5": {
+					"type": "button",
+					"top": 394,
+					"left": 553,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_4",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp4"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_ADD.png",
+					"iconFrames": 4,
+					"textPlacement": "left",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button5.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"Invisible Button6": {
+					"type": "button",
+					"top": 394,
+					"left": 588,
+					"width": 35,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "PAL_BUTTON_3",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FBHelp3"
+					},
+					"class": "Buttons_LARGE",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/library/PAL_GOLD_Delete.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/Invisible Button6.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLongClick"
+					]
+				},
+				"oCCMAuthorizationProviderDropDown": {
+					"type": "dropdown",
+					"top": 126,
+					"left": 349,
+					"width": 198,
+					"height": 18,
+					"dataSource": "CCM_At_AuthorizationProvider",
+					"class": "Pop-ups",
+					"method": "ObjectMethods/oCCMAuthorizationProviderDropDown.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oLBAuthNames": {
+					"type": "listbox",
+					"top": 78,
+					"left": 10,
+					"width": 185,
+					"height": 221,
+					"resizingMode": "legacy",
+					"dataSource": "CCM_lb_AuthServices",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Gill Sans",
+					"fontSize": 12,
+					"method": "ObjectMethods/oLBAuthNames.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "CCM_at_AuthNames",
+							"width": 170,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Gill Sans",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Gill Sans",
+								"fontSize": 12
+							}
+						}
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"oCCMLoginLabelP2": {
+					"type": "text",
+					"top": 174,
+					"left": 200,
+					"width": 145,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Login :"
+				},
+				"oCCMAuthActiveCBP2": {
+					"type": "checkbox",
+					"top": 221,
+					"left": 543,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_l_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMTransactionKeyLabelP2": {
+					"type": "text",
+					"top": 200,
+					"left": 201,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Transaction Key :"
+				},
+				"oReconcilliationTimeLabelP2": {
+					"type": "text",
+					"top": 227,
+					"left": 209,
+					"width": 136,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Reconciliation Time :"
+				},
+				"oCCMReconcileTimeP2": {
+					"type": "input",
+					"top": 227,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_ti_ReconcileTime",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationLoginP2": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP2": {
+					"type": "input",
+					"top": 200,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oShowPassword2": {
+					"type": "button",
+					"top": 199,
+					"left": 353,
+					"width": 104,
+					"height": 19,
+					"dataSource": "CCM_but_ShowPassword",
+					"text": "Show Password",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oShowPassword2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oShowLogin2": {
+					"type": "button",
+					"top": 170,
+					"left": 351,
+					"width": 104,
+					"height": 19,
+					"dataSource": "CCM_but_ShowLogin",
+					"text": "Show Login",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oShowLogin2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMLoginLabelP3": {
+					"type": "text",
+					"top": 174,
+					"left": 220,
+					"width": 125,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Login :"
+				},
+				"oCCMPasswordLabelP2": {
+					"type": "text",
+					"top": 200,
+					"left": 221,
+					"width": 124,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password"
+				},
+				"oCCMAuthActiveP3": {
+					"type": "checkbox",
+					"top": 221,
+					"left": 349,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_bo_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oCCMAuthorizationLoginP3": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP3": {
+					"type": "input",
+					"top": 200,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMAccountNumberLabelP4": {
+					"type": "text",
+					"top": 174,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Account Number :"
+				},
+				"oCCMPasswordP4": {
+					"type": "text",
+					"top": 200,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password :"
+				},
+				"oCCMAccountIDP4": {
+					"type": "text",
+					"top": 227,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Account ID :"
+				},
+				"oCCMAuthActiveP4": {
+					"type": "checkbox",
+					"top": 243,
+					"left": 352,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_bo_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oCCMAuthorizationLoginP4": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP4": {
+					"type": "input",
+					"top": 200,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordIDP4": {
+					"type": "input",
+					"top": 227,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPassID",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMLoginLabelP5": {
+					"type": "text",
+					"top": 174,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Login :"
+				},
+				"oCCMAuthActiveP5": {
+					"type": "checkbox",
+					"top": 220,
+					"left": 353,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_bo_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oCCMAuthorizationLoginP5": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMStoreNameP6": {
+					"type": "text",
+					"top": 174,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Store Name :"
+				},
+				"oCCMAuthActiveP6": {
+					"type": "checkbox",
+					"top": 220,
+					"left": 353,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_l_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationLoginP6": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMLoginLabelP7": {
+					"type": "text",
+					"top": 200,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Login :"
+				},
+				"oCCMPasswordLabelP7": {
+					"type": "text",
+					"top": 227,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password :"
+				},
+				"oCCMAuthActiveP7": {
+					"type": "checkbox",
+					"top": 250,
+					"left": 349,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_bo_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oInstallationIDLabelP7": {
+					"type": "text",
+					"top": 174,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Installation ID :"
+				},
+				"oCCMAuthorizationLoginP7": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP7": {
+					"type": "input",
+					"top": 200,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordIDP7": {
+					"type": "input",
+					"top": 227,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPassID",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMLoginLabelP8": {
+					"type": "text",
+					"top": 174,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Login :"
+				},
+				"oCCMAuthActiveP8": {
+					"type": "checkbox",
+					"top": 224,
+					"left": 353,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_bo_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					],
+					"dataSourceTypeHint": "boolean"
+				},
+				"oCCMAuthorizationLoginP8": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oMerchantIDP9": {
+					"type": "text",
+					"top": 174,
+					"left": 218,
+					"width": 127,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Merchant ID :"
+				},
+				"oCCMPasswordP9": {
+					"type": "text",
+					"top": 200,
+					"left": 218,
+					"width": 127,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Password :"
+				},
+				"oCCMAuthActiveP9": {
+					"type": "checkbox",
+					"top": 220,
+					"left": 353,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_l_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationLoginP9": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP9": {
+					"type": "input",
+					"top": 200,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"oCCMAUthActiveP10": {
+					"type": "checkbox",
+					"top": 221,
+					"left": 543,
+					"width": 135,
+					"height": 24,
+					"dataSource": "CC_l_AuthActive",
+					"text": "Active",
+					"class": "check_box_text_LARGE",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMReconcilTimeLabelP10": {
+					"type": "text",
+					"top": 251,
+					"left": 228,
+					"width": 116,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Reconciliation Time :"
+				},
+				"oCCMReconileTimeP10": {
+					"type": "input",
+					"top": 253,
+					"left": 352,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_ti_ReconcileTime",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationLoginP10": {
+					"type": "input",
+					"top": 174,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationLogin",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMAuthorizationPasswordP10": {
+					"type": "input",
+					"top": 199,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPass",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oShowPassword1": {
+					"type": "button",
+					"top": 195,
+					"left": 351,
+					"width": 104,
+					"height": 19,
+					"dataSource": "CCM_but_ShowPassword",
+					"text": "Show Password",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oShowPassword1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oShowLogin1": {
+					"type": "button",
+					"top": 170,
+					"left": 351,
+					"width": 104,
+					"height": 19,
+					"dataSource": "CCM_but_ShowLogin",
+					"text": "Show User Name",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oShowLogin1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMUserNameLabelP10": {
+					"type": "text",
+					"top": 174,
+					"left": 200,
+					"width": 145,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "User Name :"
+				},
+				"oCCMPasswordLabelP10": {
+					"type": "text",
+					"top": 200,
+					"left": 201,
+					"width": 144,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Pasword"
+				},
+				"oCCMAUthorizationPasswordIDP10": {
+					"type": "input",
+					"top": 226,
+					"left": 354,
+					"width": 181,
+					"height": 14,
+					"dataSource": "CCM_t_AuthorizationPassID",
+					"class": "Fields",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"oCCMCredentialsLabelP10": {
+					"type": "text",
+					"top": 227,
+					"left": 223,
+					"width": 122,
+					"height": 14,
+					"class": "Labels",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Credentials :"
+				},
+				"oRecover": {
+					"type": "button",
+					"top": 195,
+					"left": 543,
+					"width": 120,
+					"height": 19,
+					"dataSource": "CCM_but_RecoverPW",
+					"text": "Recover Password",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oRecover.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"oShowLogin3": {
+					"type": "button",
+					"top": 220,
+					"left": 351,
+					"width": 104,
+					"height": 19,
+					"dataSource": "CCM_but_ShowCredentials",
+					"text": "Show Credentials",
+					"class": "BUttons_SMALL",
+					"method": "ObjectMethods/oShowLogin3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 87
+}
